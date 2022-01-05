@@ -20,7 +20,6 @@
 </script>
 <script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
-<link href="doxygen-extra.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -250,11 +249,11 @@ Macros</h2></td></tr>
 <tr class="separator:a010d6f12d0af397eb2718b5b8245a62e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04436b6e9f961955a7725d10cd4a976d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="defines_8h.html#a04436b6e9f961955a7725d10cd4a976d">TOTAL_OBJ_TILE_COUNT</a>&#160;&#160;&#160;1024</td></tr>
 <tr class="separator:a04436b6e9f961955a7725d10cd4a976d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a118ad3ee36468a3fa616977a64864e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="defines_8h.html#a4a118ad3ee36468a3fa616977a64864e">RGB</a>(r,  g,  b)&#160;&#160;&#160;((r) | ((g) &lt;&lt; 5) | ((b) &lt;&lt; 10))</td></tr>
+<tr class="memitem:a4a118ad3ee36468a3fa616977a64864e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="defines_8h.html#a4a118ad3ee36468a3fa616977a64864e">RGB</a>(r,  g,  <a class="el" href="npc5_8c.html#ac310ade361fdfab5902d42f750b9a0e9">b</a>)&#160;&#160;&#160;((r) | ((g) &lt;&lt; 5) | ((<a class="el" href="npc5_8c.html#ac310ade361fdfab5902d42f750b9a0e9">b</a>) &lt;&lt; 10))</td></tr>
 <tr class="separator:a4a118ad3ee36468a3fa616977a64864e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af862647d1298aac1131fd0676a2c3aa0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="defines_8h.html#af862647d1298aac1131fd0676a2c3aa0">RGB2</a>(r,  g,  b)&#160;&#160;&#160;(((b) &lt;&lt; 10) | ((g) &lt;&lt; 5) | (r))</td></tr>
+<tr class="memitem:af862647d1298aac1131fd0676a2c3aa0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="defines_8h.html#af862647d1298aac1131fd0676a2c3aa0">RGB2</a>(r,  g,  <a class="el" href="npc5_8c.html#ac310ade361fdfab5902d42f750b9a0e9">b</a>)&#160;&#160;&#160;(((<a class="el" href="npc5_8c.html#ac310ade361fdfab5902d42f750b9a0e9">b</a>) &lt;&lt; 10) | ((g) &lt;&lt; 5) | (r))</td></tr>
 <tr class="separator:af862647d1298aac1131fd0676a2c3aa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad69b0b0d54a168735dad8b9149b5cf9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="defines_8h.html#aad69b0b0d54a168735dad8b9149b5cf9">_RGB</a>(r,  g,  b)&#160;&#160;&#160;((((b)&amp;0x1F) &lt;&lt; 10) + (((g)&amp;0x1F) &lt;&lt; 5) + ((r)&amp;0x1F))</td></tr>
+<tr class="memitem:aad69b0b0d54a168735dad8b9149b5cf9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="defines_8h.html#aad69b0b0d54a168735dad8b9149b5cf9">_RGB</a>(r,  g,  <a class="el" href="npc5_8c.html#ac310ade361fdfab5902d42f750b9a0e9">b</a>)&#160;&#160;&#160;((((<a class="el" href="npc5_8c.html#ac310ade361fdfab5902d42f750b9a0e9">b</a>)&amp;0x1F) &lt;&lt; 10) + (((g)&amp;0x1F) &lt;&lt; 5) + ((r)&amp;0x1F))</td></tr>
 <tr class="separator:aad69b0b0d54a168735dad8b9149b5cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae168f0f9864d4ed4be7807b9783f17f1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="defines_8h.html#ae168f0f9864d4ed4be7807b9783f17f1">RGB_BLACK</a>&#160;&#160;&#160;<a class="el" href="defines_8h.html#a4a118ad3ee36468a3fa616977a64864e">RGB</a>(0, 0, 0)</td></tr>
 <tr class="separator:ae168f0f9864d4ed4be7807b9783f17f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -300,12 +299,12 @@ Macros</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">b&#160;</td>
+          <td class="paramname"><a class="el" href="npc5_8c.html#ac310ade361fdfab5902d42f750b9a0e9">b</a>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((((b)&amp;0x1F) &lt;&lt; 10) + (((g)&amp;0x1F) &lt;&lt; 5) + ((r)&amp;0x1F))</td>
+          <td></td><td>&#160;&#160;&#160;((((<a class="el" href="npc5_8c.html#ac310ade361fdfab5902d42f750b9a0e9">b</a>)&amp;0x1F) &lt;&lt; 10) + (((g)&amp;0x1F) &lt;&lt; 5) + ((r)&amp;0x1F))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -862,12 +861,12 @@ Macros</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">b&#160;</td>
+          <td class="paramname"><a class="el" href="npc5_8c.html#ac310ade361fdfab5902d42f750b9a0e9">b</a>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((r) | ((g) &lt;&lt; 5) | ((b) &lt;&lt; 10))</td>
+          <td></td><td>&#160;&#160;&#160;((r) | ((g) &lt;&lt; 5) | ((<a class="el" href="npc5_8c.html#ac310ade361fdfab5902d42f750b9a0e9">b</a>) &lt;&lt; 10))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -896,12 +895,12 @@ Macros</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">b&#160;</td>
+          <td class="paramname"><a class="el" href="npc5_8c.html#ac310ade361fdfab5902d42f750b9a0e9">b</a>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(((b) &lt;&lt; 10) | ((g) &lt;&lt; 5) | (r))</td>
+          <td></td><td>&#160;&#160;&#160;(((<a class="el" href="npc5_8c.html#ac310ade361fdfab5902d42f750b9a0e9">b</a>) &lt;&lt; 10) | ((g) &lt;&lt; 5) | (r))</td>
         </tr>
       </table>
 </div><div class="memdoc">

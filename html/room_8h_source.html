@@ -20,7 +20,6 @@
 </script>
 <script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
-<link href="doxygen-extra.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -130,7 +129,7 @@ $(function() {
 <div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="structRoomControls.html#afc2ffa5443a637edf24c133d3539945b">   50</a></span>&#160;    <span class="comment">/*0x26*/</span> <a class="code" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> filler26[2];</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="comment">/*0x28*/</span> <span class="keyword">union </span><a class="code" href="unionSplitWord.html">SplitWord</a> bg3OffsetX;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="comment">/*0x2C*/</span> <span class="keyword">union </span><a class="code" href="unionSplitWord.html">SplitWord</a> bg3OffsetY;</div>
-<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="structRoomControls.html#a7bbe42e74f690d3ab3e554dcc79a3f22">   53</a></span>&#160;    <span class="comment">/*0x30*/</span> <a class="code" href="structEntity__.html">Entity</a>* <a class="code" href="structRoomControls.html#a7bbe42e74f690d3ab3e554dcc79a3f22">camera_target</a>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="structRoomControls.html#a7bbe42e74f690d3ab3e554dcc79a3f22">   53</a></span>&#160;    <span class="comment">/*0x30*/</span> <a class="code" href="structEntity.html">Entity</a>* <a class="code" href="structRoomControls.html#a7bbe42e74f690d3ab3e554dcc79a3f22">camera_target</a>;</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;} <a class="code" href="structRoomControls.html">RoomControls</a>;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="keyword">extern</span> <a class="code" href="structRoomControls.html">RoomControls</a> <a class="code" href="room_8h.html#abf3b0375090682a0eaad9b79fc357795">gRoomControls</a>;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
@@ -293,11 +292,12 @@ $(function() {
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;<span class="keywordtype">void</span> <a class="code" href="room_8h.html#a895a347dc38c5a04bd4c53e4b7785309">LoadRoomEntityList</a>(<a class="code" href="structEntityData.html">EntityData</a>* listPtr);</div>
 <div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160; </div>
 <div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;<span class="keywordtype">void</span> <a class="code" href="room_8h.html#a5bedc8fc5d3b7b1634ec6a630e30f6e3">sub_0804B3C4</a>(<span class="keywordtype">void</span>*);</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;<span class="keywordtype">void</span> <a class="code" href="room_8h.html#a2c20217c2a5f89916a2f22003978605f">sub_0804B0B0</a>(<a class="code" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> arg0, <a class="code" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> arg1);</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;<span class="keywordtype">void</span> <a class="code" href="room_8h.html#a2c20217c2a5f89916a2f22003978605f">sub_0804B0B0</a>(<a class="code" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> arg0, <a class="code" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="code" href="code__08077B98_8c.html#aac7ccfbc9d00eefeab0c54096d454869">arg1</a>);</div>
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160; </div>
 <div class="line"><a name="l00218"></a><span class="lineno"><a class="line" href="room_8h.html#a731929696c128fc9c1bce3da8c8e70a0">  218</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="room_8h.html#a731929696c128fc9c1bce3da8c8e70a0">DoExitTransition</a>(<a class="code" href="structScreenTransitionData.html">ScreenTransitionData</a>* data);</div>
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160; </div>
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="acode__08077B98_8c_html_aac7ccfbc9d00eefeab0c54096d454869"><div class="ttname"><a href="code__08077B98_8c.html#aac7ccfbc9d00eefeab0c54096d454869">arg1</a></div><div class="ttdeci">asm non_matching sub_08077F24 bool32 u32 arg1</div><div class="ttdef"><b>Definition:</b> code_08077B98.c:206</div></div>
 <div class="ttc" id="aentity_8h_html"><div class="ttname"><a href="entity_8h.html">entity.h</a></div></div>
 <div class="ttc" id="aglobal_8h_html"><div class="ttname"><a href="global_8h.html">global.h</a></div></div>
 <div class="ttc" id="aglobal_8h_html_ad072c9a7fa6508417f73e3e24943d89f"><div class="ttname"><a href="global_8h.html#ad072c9a7fa6508417f73e3e24943d89f">static_assert</a></div><div class="ttdeci">#define static_assert(cond)</div><div class="ttdef"><b>Definition:</b> global.h:51</div></div>
@@ -355,7 +355,7 @@ $(function() {
 <div class="ttc" id="astructEntityData_html_aa4335c259b5ff5b1118545a2320eba59"><div class="ttname"><a href="structEntityData.html#aa4335c259b5ff5b1118545a2320eba59">EntityData::yPos</a></div><div class="ttdeci">u16 yPos</div><div class="ttdef"><b>Definition:</b> room.h:92</div></div>
 <div class="ttc" id="astructEntityData_html_aad76f977a755e7fe0a5b667c41a79d85"><div class="ttname"><a href="structEntityData.html#aad76f977a755e7fe0a5b667c41a79d85">EntityData::id</a></div><div class="ttdeci">u8 id</div><div class="ttdef"><b>Definition:</b> room.h:88</div></div>
 <div class="ttc" id="astructEntityData_html_ada03f6a03e7c88e61a8687adb307ae97"><div class="ttname"><a href="structEntityData.html#ada03f6a03e7c88e61a8687adb307ae97">EntityData::xPos</a></div><div class="ttdeci">u16 xPos</div><div class="ttdef"><b>Definition:</b> room.h:91</div></div>
-<div class="ttc" id="astructEntity___html"><div class="ttname"><a href="structEntity__.html">Entity_</a></div><div class="ttdef"><b>Definition:</b> entity.h:45</div></div>
+<div class="ttc" id="astructEntity_html"><div class="ttname"><a href="structEntity.html">Entity</a></div><div class="ttdef"><b>Definition:</b> entity.h:45</div></div>
 <div class="ttc" id="astructPlayerRoomStatus_html"><div class="ttname"><a href="structPlayerRoomStatus.html">PlayerRoomStatus</a></div><div class="ttdef"><b>Definition:</b> room.h:112</div></div>
 <div class="ttc" id="astructPlayerRoomStatus_html_a0cea4e2faff5a24f707b3976675b9cfc"><div class="ttname"><a href="structPlayerRoomStatus.html#a0cea4e2faff5a24f707b3976675b9cfc">PlayerRoomStatus::layer</a></div><div class="ttdeci">u8 layer</div><div class="ttdef"><b>Definition:</b> room.h:119</div></div>
 <div class="ttc" id="astructPlayerRoomStatus_html_a16d4d43d157a5def1ae7e830c732bbc0"><div class="ttname"><a href="structPlayerRoomStatus.html#a16d4d43d157a5def1ae7e830c732bbc0">PlayerRoomStatus::start_pos_x</a></div><div class="ttdeci">s16 start_pos_x</div><div class="ttdef"><b>Definition:</b> room.h:117</div></div>

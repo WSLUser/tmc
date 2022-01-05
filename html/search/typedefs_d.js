@@ -1,19 +1,12 @@
 var searchData=
 [
-  ['s16_26842',['s16',['../types_8h.html#aa980e2c02ba2305e0f489d5650655425',1,'types.h']]],
-  ['s32_26843',['s32',['../types_8h.html#ae9b1af5c037e57a98884758875d3a7c4',1,'types.h']]],
-  ['s64_26844',['s64',['../types_8h.html#a350c6fc928e3bdc6c6486268ac8fb269',1,'types.h']]],
-  ['s8_26845',['s8',['../types_8h.html#a9e382f207c65ca13ab4ae98363aeda80',1,'types.h']]],
-  ['savefilestatus_26846',['SaveFileStatus',['../save_8c.html#a6d0f596f6d4de071f3a30e738b91d13f',1,'save.c']]],
-  ['scriptcommand_26847',['ScriptCommand',['../script_8c.html#a61f165f011d4f8c3cd6e0dd49b259c54',1,'script.c']]],
-  ['scriptexecutioncontext_26848',['ScriptExecutionContext',['../script_8h.html#a7febe0008aca39719ee601ad4a6e879f',1,'script.h']]],
-  ['song_26849',['Song',['../m4a_8h.html#a1c31fb647223ff54b03a367459785326',1,'m4a.h']]],
-  ['songheader_26850',['SongHeader',['../m4a_8h.html#a296ca67c5b34027639eff0c44d576e57',1,'m4a.h']]],
-  ['soundchannel_26851',['SoundChannel',['../m4a_8h.html#a1407367a1153c2a962fa084a1b9a5606',1,'m4a.h']]],
-  ['soundinfo_26852',['SoundInfo',['../m4a_8c.html#a5411d9760c98549b17a0b8676c8f181f',1,'m4a.c']]],
-  ['soundplayinginfo_26853',['SoundPlayingInfo',['../sound_8h.html#a8426526f8ddc306da2e57c68ae85a3bc',1,'sound.h']]],
-  ['spritedatac_26854',['SpriteDataC',['../definitions_8h.html#a3221b9b7e689f17567b43549c8ff1db3',1,'definitions.h']]],
-  ['struct_5f08108764_26855',['struct_08108764',['../manager1A_8c.html#ab7fd87a8d4356a03e95f4cecefaf2f23',1,'manager1A.c']]],
-  ['struct_5f0811f680_26856',['struct_0811F680',['../lockedDoor_8c.html#a27170281bbcb4b5811601bef90b6d5f4',1,'lockedDoor.c']]],
-  ['subtask_26857',['Subtask',['../game_8h.html#a41045ea01d9ee8754ef2fae411d2e668',1,'game.h']]]
+  ['vbgcnt_26995',['vBgCnt',['../types_8h.html#aec6d810e7c6c42f8c34dcb01feac0afa',1,'types.h']]],
+  ['vs16_26996',['vs16',['../types_8h.html#a84c4ebe721fa065d9bd514ce8d76c455',1,'types.h']]],
+  ['vs32_26997',['vs32',['../types_8h.html#a6c6cf6e3aedfd399080c6f52c2870063',1,'types.h']]],
+  ['vs64_26998',['vs64',['../types_8h.html#a484adfab567791250a9fdbf0db8d3144',1,'types.h']]],
+  ['vs8_26999',['vs8',['../types_8h.html#a108e1a5e4c3e8322825ef7dcd45966ca',1,'types.h']]],
+  ['vu16_27000',['vu16',['../types_8h.html#a677aa1edce4bbb53741b1cc24eb4c035',1,'types.h']]],
+  ['vu32_27001',['vu32',['../types_8h.html#abcdd5d61f51cb4c472ac6637916cf72a',1,'types.h']]],
+  ['vu64_27002',['vu64',['../types_8h.html#ace392b4d1c3911331b2fe5ddc99fdcba',1,'types.h']]],
+  ['vu8_27003',['vu8',['../types_8h.html#a1a2a3100a902c32a55d8b08915bce044',1,'types.h']]]
 ];

@@ -1,6 +1,6 @@
 <map id="BowMoblinEntity" name="BowMoblinEntity">
-<area shape="rect" id="node1" title=" " alt="" coords="146,377,265,404"/>
-<area shape="rect" id="node2" href="$structEntity__.html" title=" " alt="" coords="175,265,236,291"/>
+<area shape="rect" id="node1" title=" " alt="" coords="146,331,265,357"/>
+<area shape="rect" id="node2" href="$structEntity.html" title=" " alt="" coords="178,241,233,268"/>
 <area shape="rect" id="node3" href="$unionSplitHWord.html" title=" " alt="" coords="5,5,93,32"/>
 <area shape="rect" id="node4" href="$unionSplitWord.html" title=" " alt="" coords="119,5,198,32"/>
 <area shape="rect" id="node5" href="$structHitbox.html" title=" " alt="" coords="223,5,281,32"/>
