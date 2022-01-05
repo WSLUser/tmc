@@ -1,0 +1,12 @@
+<map id="include/definitions.h" name="include/definitions.h">
+<area shape="rect" id="node1" title=" " alt="" coords="557,5,692,32"/>
+<area shape="rect" id="node2" href="$enemy_8c.html" title=" " alt="" coords="5,80,97,107"/>
+<area shape="rect" id="node3" href="$enemyUtils_8c.html" title=" " alt="" coords="121,80,240,107"/>
+<area shape="rect" id="node4" href="$npcDefinitions_8c.html" title=" " alt="" coords="264,80,399,107"/>
+<area shape="rect" id="node5" href="$npcUtils_8c.html" title=" " alt="" coords="423,80,525,107"/>
+<area shape="rect" id="node6" href="$objectDefinitions_8c.html" title=" " alt="" coords="550,80,699,107"/>
+<area shape="rect" id="node7" href="$objectUtils_8c.html" title=" " alt="" coords="724,80,840,107"/>
+<area shape="rect" id="node8" href="$playerItemDefinitions_8c.html" title=" " alt="" coords="864,80,1039,107"/>
+<area shape="rect" id="node9" href="$projectile_8c.html" title=" " alt="" coords="1063,80,1170,107"/>
+<area shape="rect" id="node10" href="$projectileUtils_8c.html" title=" " alt="" coords="1194,80,1327,107"/>
+</map>

@@ -20,6 +20,7 @@
 </script>
 <script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-extra.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -90,6 +91,46 @@ $(function() {
 <code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="game_8h_source.html">game.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="fileselect_8h_source.html">fileselect.h</a>&quot;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for save.c:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="save_8c__incl.png" border="0" usemap="#asrc_2save_8c" alt=""/></div>
+<map name="asrc_2save_8c" id="asrc_2save_8c">
+<area shape="rect" title=" " alt="" coords="722,5,804,32"/>
+<area shape="rect" href="save_8h.html" title=" " alt="" coords="153,155,213,181"/>
+<area shape="rect" href="eeprom_8h.html" title=" " alt="" coords="973,528,1073,555"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="694,155,760,181"/>
+<area shape="rect" href="menu_8h.html" title=" " alt="" coords="766,80,830,107"/>
+<area shape="rect" href="main_8h.html" title=" " alt="" coords="836,379,896,405"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="403,155,488,181"/>
+<area shape="rect" href="game_8h.html" title=" " alt="" coords="920,379,984,405"/>
+<area shape="rect" href="fileselect_8h.html" title=" " alt="" coords="608,80,691,107"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="562,528,628,555"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="195,304,262,331"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="179,229,270,256"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="43,229,104,256"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="556,603,634,629"/>
+<area shape="rect" title=" " alt="" coords="880,677,944,704"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="782,677,856,704"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="222,677,288,704"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="472,752,534,779"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="313,677,405,704"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="430,677,502,704"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="577,677,645,704"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="670,677,758,704"/>
+<area shape="rect" title=" " alt="" coords="785,752,853,779"/>
+<area shape="rect" title=" " alt="" coords="471,827,535,853"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="344,379,406,405"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="446,453,506,480"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="307,453,371,480"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="438,304,520,331"/>
+<area shape="rect" href="coord_8h.html" title=" " alt="" coords="544,304,608,331"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="344,229,408,256"/>
+<area shape="rect" href="area_8h.html" title=" " alt="" coords="886,453,944,480"/>
+</map>
+</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
@@ -128,14 +169,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a0105e7ca2962b672d5fb028493b4bc6d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="save_8c.html#a0105e7ca2962b672d5fb028493b4bc6d">ReadSaveFileStatus</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> address, <a class="el" href="structSaveFileStatus.html">SaveFileStatus</a> *fileStatus)</td></tr>
 <tr class="separator:a0105e7ca2962b672d5fb028493b4bc6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35ed574f8f7c3f2908d1d75adec8b47a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="save_8c.html#a35ed574f8f7c3f2908d1d75adec8b47a">ParseSaveFileStatus</a> (const <a class="el" href="structSaveFileStatus.html">SaveFileStatus</a> *fileStatus)</td></tr>
+<tr class="memdesc:a35ed574f8f7c3f2908d1d75adec8b47a"><td class="mdescLeft">&#160;</td><td class="mdescRight">2 for valid existing file 1 for valid empty file 0 for bad file  <a href="save_8c.html#a35ed574f8f7c3f2908d1d75adec8b47a">More...</a><br /></td></tr>
 <tr class="separator:a35ed574f8f7c3f2908d1d75adec8b47a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a944a4bec0ea4c49af63e93ecb3e84ad5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="save_8c.html#a944a4bec0ea4c49af63e93ecb3e84ad5">WriteSaveFileStatus</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> address, const <a class="el" href="structSaveFileStatus.html">SaveFileStatus</a> *fileStatus)</td></tr>
 <tr class="separator:a944a4bec0ea4c49af63e93ecb3e84ad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac81b51214b91fbb5397ed582bfa29664"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="save_8c.html#ac81b51214b91fbb5397ed582bfa29664">DataRead</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> address, void *data, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="el" href="interrupts_8c.html#acfd6273064c5acdcfc39a23a69dd4343">size</a>)</td></tr>
+<tr class="memdesc:ac81b51214b91fbb5397ed582bfa29664"><td class="mdescLeft">&#160;</td><td class="mdescRight">read arbitrary data from EEPROM  <a href="save_8c.html#ac81b51214b91fbb5397ed582bfa29664">More...</a><br /></td></tr>
 <tr class="separator:ac81b51214b91fbb5397ed582bfa29664"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04f4a671c49b9c5af0e1f8d895ac1d21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="save_8c.html#a04f4a671c49b9c5af0e1f8d895ac1d21">DataWrite</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> address, const void *data, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="el" href="interrupts_8c.html#acfd6273064c5acdcfc39a23a69dd4343">size</a>)</td></tr>
+<tr class="memdesc:a04f4a671c49b9c5af0e1f8d895ac1d21"><td class="mdescLeft">&#160;</td><td class="mdescRight">write arbitrary data to EEPROM  <a href="save_8c.html#a04f4a671c49b9c5af0e1f8d895ac1d21">More...</a><br /></td></tr>
 <tr class="separator:a04f4a671c49b9c5af0e1f8d895ac1d21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4976c45cee8662f37b6bdac1410047e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="save_8c.html#a4976c45cee8662f37b6bdac1410047e3">DataCompare</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> address, const void *data, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="el" href="interrupts_8c.html#acfd6273064c5acdcfc39a23a69dd4343">size</a>)</td></tr>
+<tr class="memdesc:a4976c45cee8662f37b6bdac1410047e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">compare arbitrary data with EEPROM  <a href="save_8c.html#a4976c45cee8662f37b6bdac1410047e3">More...</a><br /></td></tr>
 <tr class="separator:a4976c45cee8662f37b6bdac1410047e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27a292c8adc2956c1df437df982dadb4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="save_8c.html#a27a292c8adc2956c1df437df982dadb4">sub_0807CD9C</a> (void)</td></tr>
 <tr class="separator:a27a292c8adc2956c1df437df982dadb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -252,7 +297,9 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>compare arbitrary data with EEPROM </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>compare arbitrary data with EEPROM </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">address</td><td>EEPROM address </td></tr>
     <tr><td class="paramname">data</td><td>buffer to compare to </td></tr>
@@ -351,7 +398,9 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>read arbitrary data from EEPROM </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>read arbitrary data from EEPROM </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">address</td><td>EEPROM address </td></tr>
     <tr><td class="paramname">data</td><td>buffer to read into </td></tr>
@@ -394,7 +443,9 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>write arbitrary data to EEPROM </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>write arbitrary data to EEPROM </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">address</td><td>EEPROM address </td></tr>
     <tr><td class="paramname">data</td><td>buffer to write from </td></tr>
@@ -553,7 +604,9 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>2 for valid existing file 1 for valid empty file 0 for bad file </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>2 for valid existing file 1 for valid empty file 0 for bad file </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">fileStatus</td><td></td></tr>
   </table>

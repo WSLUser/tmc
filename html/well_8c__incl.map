@@ -1,0 +1,26 @@
+<map id="src/object/well.c" name="src/object/well.c">
+<area shape="rect" id="node1" title=" " alt="" coords="182,5,298,32"/>
+<area shape="rect" id="node2" href="$global_8h.html" title=" " alt="" coords="323,453,389,480"/>
+<area shape="rect" id="node14" href="$asm_8h.html" title=" " alt="" coords="49,304,106,331"/>
+<area shape="rect" id="node15" href="$entity_8h.html" title=" " alt="" coords="411,304,474,331"/>
+<area shape="rect" id="node18" href="$room_8h.html" title=" " alt="" coords="651,155,712,181"/>
+<area shape="rect" id="node19" href="$player_8h.html" title=" " alt="" coords="184,229,251,256"/>
+<area shape="rect" id="node20" href="$functions_8h.html" title=" " alt="" coords="331,80,416,107"/>
+<area shape="rect" id="node3" href="$gba_8h.html" title=" " alt="" coords="465,528,543,555"/>
+<area shape="rect" id="node4" title=" " alt="" coords="175,603,239,629"/>
+<area shape="rect" id="node5" href="$defines_8h.html" title=" " alt="" coords="823,603,897,629"/>
+<area shape="rect" id="node7" href="$io__reg_8h.html" title=" " alt="" coords="564,603,631,629"/>
+<area shape="rect" id="node8" href="$types_8h.html" title=" " alt="" coords="670,677,733,704"/>
+<area shape="rect" id="node10" href="$multi__boot_8h.html" title=" " alt="" coords="655,603,747,629"/>
+<area shape="rect" id="node11" href="$syscall_8h.html" title=" " alt="" coords="468,603,540,629"/>
+<area shape="rect" id="node12" href="$macro_8h.html" title=" " alt="" coords="263,603,331,629"/>
+<area shape="rect" id="node13" href="$isagbprint_8h.html" title=" " alt="" coords="356,603,444,629"/>
+<area shape="rect" id="node6" title=" " alt="" coords="826,677,894,704"/>
+<area shape="rect" id="node9" title=" " alt="" coords="669,752,733,779"/>
+<area shape="rect" id="node16" href="$color_8h.html" title=" " alt="" coords="326,379,386,405"/>
+<area shape="rect" id="node17" href="$sprite_8h.html" title=" " alt="" coords="411,379,475,405"/>
+<area shape="rect" id="node21" href="$manager_8h.html" title=" " alt="" coords="579,229,661,256"/>
+<area shape="rect" id="node22" href="$coord_8h.html" title=" " alt="" coords="685,229,749,256"/>
+<area shape="rect" id="node23" href="$structures_8h.html" title=" " alt="" coords="245,155,336,181"/>
+<area shape="rect" id="node24" href="$script_8h.html" title=" " alt="" coords="411,155,475,181"/>
+</map>

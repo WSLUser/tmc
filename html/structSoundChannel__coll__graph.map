@@ -1,0 +1,6 @@
+<map id="SoundChannel" name="SoundChannel">
+<area shape="rect" id="node1" title=" " alt="" coords="5,95,112,121"/>
+<area shape="rect" id="node3" href="$structMusicPlayerTrack.html" title=" " alt="" coords="49,184,175,211"/>
+<area shape="rect" id="node2" href="$structWaveData.html" title=" " alt="" coords="76,5,159,32"/>
+<area shape="rect" id="node4" href="$structToneData.html" title=" " alt="" coords="137,95,215,121"/>
+</map>

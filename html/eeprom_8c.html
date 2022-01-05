@@ -20,6 +20,7 @@
 </script>
 <script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-extra.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -85,6 +86,29 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="global_8h_source.html">global.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="eeprom_8h_source.html">gba/eeprom.h</a>&quot;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for eeprom.c:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="eeprom_8c__incl.png" border="0" usemap="#asrc_2eeprom_8c" alt=""/></div>
+<map name="asrc_2eeprom_8c" id="asrc_2eeprom_8c">
+<area shape="rect" title=" " alt="" coords="323,5,421,32"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="304,80,371,107"/>
+<area shape="rect" href="eeprom_8h.html" title=" " alt="" coords="578,155,678,181"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="298,155,377,181"/>
+<area shape="rect" title=" " alt="" coords="5,229,69,256"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="94,229,167,256"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="192,229,259,256"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="402,304,465,331"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="334,229,426,256"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="451,229,523,256"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="547,229,615,256"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="640,229,728,256"/>
+<area shape="rect" title=" " alt="" coords="97,304,165,331"/>
+<area shape="rect" title=" " alt="" coords="401,379,465,405"/>
+</map>
+</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
@@ -106,10 +130,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a4d854e7fb5c232ba5dfc476632e0875b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eeprom_8c.html#a4d854e7fb5c232ba5dfc476632e0875b">EEPROMWrite</a> (<a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>, const <a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> *, <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>)</td></tr>
 <tr class="separator:a4d854e7fb5c232ba5dfc476632e0875b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77f0e3a3eaee82d1e5c241e8ee2836a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eeprom_8c.html#a77f0e3a3eaee82d1e5c241e8ee2836a8">EEPROMConfigure</a> (<a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> <a class="el" href="npc5_8c.html#a36a853d5aae1e1e5ba698952e7fd686b">unk_1</a>)</td></tr>
+<tr class="memdesc:a77f0e3a3eaee82d1e5c241e8ee2836a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">selects EEPROM type selects 512byte on invalid argument  <a href="eeprom_8c.html#a77f0e3a3eaee82d1e5c241e8ee2836a8">More...</a><br /></td></tr>
 <tr class="separator:a77f0e3a3eaee82d1e5c241e8ee2836a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46626e7c9b1b26521222b6e13510d989"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eeprom_8c.html#a46626e7c9b1b26521222b6e13510d989">DMA3Transfer</a> (const void *<a class="el" href="interrupts_8c.html#a80137d3ab97c22dd4f02fe0a0765ee51">src</a>, void *<a class="el" href="interrupts_8c.html#ab349f6d5ffc5d38939e54e9c13eddc90">dest</a>, <a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> count)</td></tr>
 <tr class="separator:a46626e7c9b1b26521222b6e13510d989"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87f821820e98a16ee933f9070390e400"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eeprom_8c.html#a87f821820e98a16ee933f9070390e400">EEPROMRead</a> (<a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> address, <a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> *data)</td></tr>
+<tr class="memdesc:a87f821820e98a16ee933f9070390e400"><td class="mdescLeft">&#160;</td><td class="mdescRight">reads 64 bit (8 byte) from eeprom  <a href="eeprom_8c.html#a87f821820e98a16ee933f9070390e400">More...</a><br /></td></tr>
 <tr class="separator:a87f821820e98a16ee933f9070390e400"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89d8168734941d3faa387efeae37ca1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="eeprom_8c.html#a89d8168734941d3faa387efeae37ca1d">EEPROMWrite1</a> (<a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> address, const <a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> *data)</td></tr>
 <tr class="separator:a89d8168734941d3faa387efeae37ca1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -255,7 +281,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>selects EEPROM type selects 512byte on invalid argument</p>
+
+<p>selects EEPROM type selects 512byte on invalid argument </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">unk_1</td><td>4 for 512 byte, 0x40 for 8k </td></tr>
@@ -291,7 +318,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>reads 64 bit (8 byte) from eeprom</p>
+
+<p>reads 64 bit (8 byte) from eeprom </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">address</td><td>6/14 bit depending on eeprom size </td></tr>

@@ -1,0 +1,27 @@
+<map id="src/projectile/v3ElectricProjectile.c" name="src/projectile/v3ElectricProjectile.c">
+<area shape="rect" id="node1" title=" " alt="" coords="93,5,251,47"/>
+<area shape="rect" id="node2" href="$entity_8h.html" title=" " alt="" coords="183,244,246,271"/>
+<area shape="rect" id="node17" href="$enemy_8h.html" title=" " alt="" coords="410,95,481,121"/>
+<area shape="rect" id="node24" href="$player_8h.html" title=" " alt="" coords="5,169,72,196"/>
+<area shape="rect" id="node25" href="$coord_8h.html" title=" " alt="" coords="96,169,160,196"/>
+<area shape="rect" id="node3" href="$global_8h.html" title=" " alt="" coords="331,393,397,420"/>
+<area shape="rect" id="node15" href="$color_8h.html" title=" " alt="" coords="203,319,263,345"/>
+<area shape="rect" id="node16" href="$sprite_8h.html" title=" " alt="" coords="288,319,352,345"/>
+<area shape="rect" id="node4" href="$gba_8h.html" title=" " alt="" coords="475,468,554,495"/>
+<area shape="rect" id="node5" title=" " alt="" coords="180,543,244,569"/>
+<area shape="rect" id="node6" href="$defines_8h.html" title=" " alt="" coords="827,543,901,569"/>
+<area shape="rect" id="node8" href="$io__reg_8h.html" title=" " alt="" coords="736,543,803,569"/>
+<area shape="rect" id="node9" href="$types_8h.html" title=" " alt="" coords="379,617,442,644"/>
+<area shape="rect" id="node11" href="$multi__boot_8h.html" title=" " alt="" coords="365,543,457,569"/>
+<area shape="rect" id="node12" href="$syscall_8h.html" title=" " alt="" coords="268,543,340,569"/>
+<area shape="rect" id="node13" href="$macro_8h.html" title=" " alt="" coords="481,543,549,569"/>
+<area shape="rect" id="node14" href="$isagbprint_8h.html" title=" " alt="" coords="573,543,661,569"/>
+<area shape="rect" id="node7" title=" " alt="" coords="830,617,898,644"/>
+<area shape="rect" id="node10" title=" " alt="" coords="379,692,443,719"/>
+<area shape="rect" id="node18" href="$asm_8h.html" title=" " alt="" coords="654,244,711,271"/>
+<area shape="rect" id="node19" href="$sound_8h.html" title=" " alt="" coords="376,319,443,345"/>
+<area shape="rect" id="node20" href="$effects_8h.html" title=" " alt="" coords="235,169,306,196"/>
+<area shape="rect" id="node21" href="$flags_8h.html" title=" " alt="" coords="413,244,472,271"/>
+<area shape="rect" id="node22" href="$common_8h.html" title=" " alt="" coords="496,244,579,271"/>
+<area shape="rect" id="node23" href="$projectile_8h.html" title=" " alt="" coords="705,169,789,196"/>
+</map>

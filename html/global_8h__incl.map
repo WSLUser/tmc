@@ -1,0 +1,14 @@
+<map id="include/global.h" name="include/global.h">
+<area shape="rect" id="node1" title=" " alt="" coords="111,5,222,32"/>
+<area shape="rect" id="node2" href="$gba_8h.html" title=" " alt="" coords="257,80,335,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,155,69,181"/>
+<area shape="rect" id="node4" href="$defines_8h.html" title=" " alt="" coords="94,155,167,181"/>
+<area shape="rect" id="node6" href="$io__reg_8h.html" title=" " alt="" coords="192,155,259,181"/>
+<area shape="rect" id="node7" href="$types_8h.html" title=" " alt="" coords="349,229,411,256"/>
+<area shape="rect" id="node9" href="$multi__boot_8h.html" title=" " alt="" coords="334,155,426,181"/>
+<area shape="rect" id="node10" href="$syscall_8h.html" title=" " alt="" coords="451,155,523,181"/>
+<area shape="rect" id="node11" href="$macro_8h.html" title=" " alt="" coords="547,155,615,181"/>
+<area shape="rect" id="node12" href="$isagbprint_8h.html" title=" " alt="" coords="640,155,728,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="97,229,165,256"/>
+<area shape="rect" id="node8" title=" " alt="" coords="348,304,412,331"/>
+</map>

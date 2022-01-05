@@ -1,0 +1,21 @@
+<map id="src/object/swordsmanNewsletter.c" name="src/object/swordsmanNewsletter.c">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,228,32"/>
+<area shape="rect" id="node2" href="$global_8h.html" title=" " alt="" coords="225,453,291,480"/>
+<area shape="rect" id="node14" href="$entity_8h.html" title=" " alt="" coords="157,304,220,331"/>
+<area shape="rect" id="node17" href="$message_8h.html" title=" " alt="" coords="190,80,275,107"/>
+<area shape="rect" id="node3" href="$gba_8h.html" title=" " alt="" coords="347,528,425,555"/>
+<area shape="rect" id="node4" title=" " alt="" coords="98,603,162,629"/>
+<area shape="rect" id="node5" href="$defines_8h.html" title=" " alt="" coords="745,603,819,629"/>
+<area shape="rect" id="node7" href="$io__reg_8h.html" title=" " alt="" coords="186,603,253,629"/>
+<area shape="rect" id="node8" href="$types_8h.html" title=" " alt="" coords="355,677,417,704"/>
+<area shape="rect" id="node10" href="$multi__boot_8h.html" title=" " alt="" coords="424,603,516,629"/>
+<area shape="rect" id="node11" href="$syscall_8h.html" title=" " alt="" coords="277,603,349,629"/>
+<area shape="rect" id="node12" href="$macro_8h.html" title=" " alt="" coords="540,603,608,629"/>
+<area shape="rect" id="node13" href="$isagbprint_8h.html" title=" " alt="" coords="633,603,721,629"/>
+<area shape="rect" id="node6" title=" " alt="" coords="748,677,816,704"/>
+<area shape="rect" id="node9" title=" " alt="" coords="354,752,418,779"/>
+<area shape="rect" id="node15" href="$color_8h.html" title=" " alt="" coords="72,379,132,405"/>
+<area shape="rect" id="node16" href="$sprite_8h.html" title=" " alt="" coords="157,379,221,405"/>
+<area shape="rect" id="node18" href="$structures_8h.html" title=" " alt="" coords="225,155,315,181"/>
+<area shape="rect" id="node19" href="$player_8h.html" title=" " alt="" coords="255,229,322,256"/>
+</map>

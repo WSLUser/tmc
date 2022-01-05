@@ -1,0 +1,21 @@
+<map id="src/manager/manager20.c" name="src/manager/manager20.c">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,177,32"/>
+<area shape="rect" id="node2" href="$global_8h.html" title=" " alt="" coords="150,304,217,331"/>
+<area shape="rect" id="node14" href="$manager_8h.html" title=" " alt="" coords="90,80,173,107"/>
+<area shape="rect" id="node18" href="$flags_8h.html" title=" " alt="" coords="23,155,82,181"/>
+<area shape="rect" id="node19" href="$room_8h.html" title=" " alt="" coords="225,80,286,107"/>
+<area shape="rect" id="node3" href="$gba_8h.html" title=" " alt="" coords="272,379,351,405"/>
+<area shape="rect" id="node4" title=" " alt="" coords="23,453,87,480"/>
+<area shape="rect" id="node5" href="$defines_8h.html" title=" " alt="" coords="671,453,744,480"/>
+<area shape="rect" id="node7" href="$io__reg_8h.html" title=" " alt="" coords="111,453,178,480"/>
+<area shape="rect" id="node8" href="$types_8h.html" title=" " alt="" coords="280,528,343,555"/>
+<area shape="rect" id="node10" href="$multi__boot_8h.html" title=" " alt="" coords="349,453,441,480"/>
+<area shape="rect" id="node11" href="$syscall_8h.html" title=" " alt="" coords="202,453,274,480"/>
+<area shape="rect" id="node12" href="$macro_8h.html" title=" " alt="" coords="465,453,533,480"/>
+<area shape="rect" id="node13" href="$isagbprint_8h.html" title=" " alt="" coords="558,453,646,480"/>
+<area shape="rect" id="node6" title=" " alt="" coords="673,528,741,555"/>
+<area shape="rect" id="node9" title=" " alt="" coords="279,603,343,629"/>
+<area shape="rect" id="node15" href="$entity_8h.html" title=" " alt="" coords="224,155,287,181"/>
+<area shape="rect" id="node16" href="$color_8h.html" title=" " alt="" coords="153,229,213,256"/>
+<area shape="rect" id="node17" href="$sprite_8h.html" title=" " alt="" coords="238,229,302,256"/>
+</map>

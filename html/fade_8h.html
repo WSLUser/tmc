@@ -20,6 +20,7 @@
 </script>
 <script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-extra.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -74,65 +75,136 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#nested-classes">Data Structures</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">fade.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="global_8h_source.html">global.h</a>&quot;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for fade.h:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="fade_8h__incl.png" border="0" usemap="#ainclude_2fade_8h" alt=""/></div>
+<map name="ainclude_2fade_8h" id="ainclude_2fade_8h">
+<area shape="rect" title=" " alt="" coords="115,5,218,32"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="133,80,200,107"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="257,155,335,181"/>
+<area shape="rect" title=" " alt="" coords="5,229,69,256"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="94,229,167,256"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="192,229,259,256"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="349,304,411,331"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="334,229,426,256"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="451,229,523,256"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="547,229,615,256"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="640,229,728,256"/>
+<area shape="rect" title=" " alt="" coords="97,304,165,331"/>
+<area shape="rect" title=" " alt="" coords="348,379,412,405"/>
+</map>
+</div>
+</div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="fade_8h__dep__incl.png" border="0" usemap="#ainclude_2fade_8hdep" alt=""/></div>
+<map name="ainclude_2fade_8hdep" id="ainclude_2fade_8hdep">
+<area shape="rect" title=" " alt="" coords="3479,5,3581,32"/>
+<area shape="rect" href="screen_8h.html" title=" " alt="" coords="3472,80,3588,107"/>
+<area shape="rect" href="affine_8c.html" title=" " alt="" coords="5,155,89,181"/>
+<area shape="rect" href="common_8c.html" title=" " alt="" coords="114,155,218,181"/>
+<area shape="rect" href="debugScreen_8c.html" title=" " alt="" coords="242,155,373,181"/>
+<area shape="rect" href="demoScreen_8c.html" title=" " alt="" coords="397,155,524,181"/>
+<area shape="rect" href="mazaalHead_8c.html" title=" " alt="" coords="549,155,717,181"/>
+<area shape="rect" href="vaatiWrath_8c.html" title=" " alt="" coords="741,155,900,181"/>
+<area shape="rect" href="waterDrop_8c.html" title=" " alt="" coords="925,155,1079,181"/>
+<area shape="rect" href="enterPortalSubtask_8c.html" title=" " alt="" coords="1103,155,1269,181"/>
+<area shape="rect" href="fade_8c.html" title=" " alt="" coords="1293,155,1372,181"/>
+<area shape="rect" href="fileselect_8c.html" title=" " alt="" coords="1396,155,1501,181"/>
+<area shape="rect" href="game_8c.html" title=" " alt="" coords="1525,155,1612,181"/>
+<area shape="rect" href="interrupts_8c.html" title=" " alt="" coords="1636,155,1744,181"/>
+<area shape="rect" href="main_8c.html" title=" " alt="" coords="1769,155,1851,181"/>
+<area shape="rect" href="manager1_8c.html" title=" " alt="" coords="1875,155,2041,181"/>
+<area shape="rect" href="manager10_8c.html" title=" " alt="" coords="2065,155,2237,181"/>
+<area shape="rect" href="manager14_8c.html" title=" " alt="" coords="2261,155,2433,181"/>
+<area shape="rect" href="manager15_8c.html" title=" " alt="" coords="2457,155,2629,181"/>
+<area shape="rect" href="manager18_8c.html" title=" " alt="" coords="2653,155,2825,181"/>
+<area shape="rect" href="manager19_8c.html" title=" " alt="" coords="2849,155,3021,181"/>
+<area shape="rect" href="manager1A_8c.html" title=" " alt="" coords="3045,155,3220,181"/>
+<area shape="rect" href="manager1B_8c.html" title=" " alt="" coords="3244,155,3419,181"/>
+<area shape="rect" href="manager1D_8c.html" title=" " alt="" coords="3443,155,3617,181"/>
+<area shape="rect" href="manager2_8c.html" title=" " alt="" coords="3642,155,3807,181"/>
+<area shape="rect" href="manager2F_8c.html" title=" " alt="" coords="3831,155,4005,181"/>
+<area shape="rect" href="manager32_8c.html" title=" " alt="" coords="4029,155,4201,181"/>
+<area shape="rect" href="manager37_8c.html" title=" " alt="" coords="4225,155,4397,181"/>
+<area shape="rect" href="manager39_8c.html" title=" " alt="" coords="4421,155,4593,181"/>
+<area shape="rect" href="manager8_8c.html" title=" " alt="" coords="4618,155,4783,181"/>
+<area shape="rect" href="manager9_8c.html" title=" " alt="" coords="4807,155,4973,181"/>
+<area shape="rect" href="managerC_8c.html" title=" " alt="" coords="4997,155,5164,181"/>
+<area shape="rect" href="bigGoron_8c.html" title=" " alt="" coords="5189,155,5319,181"/>
+<area shape="rect" href="ghostBrothers_8c.html" title=" " alt="" coords="5343,155,5503,181"/>
+<area shape="rect" href="kingGustaf_8c.html" title=" " alt="" coords="5528,155,5671,181"/>
+<area shape="rect" href="phonograph_8c.html" title=" " alt="" coords="5695,155,5842,181"/>
+<area shape="rect" href="simon_8c.html" title=" " alt="" coords="5866,155,5981,181"/>
+<area shape="rect" href="greatFairy_8c.html" title=" " alt="" coords="6005,155,6156,181"/>
+<area shape="rect" href="object6A_8c.html" title=" " alt="" coords="6181,155,6325,181"/>
+<area shape="rect" href="player_8c.html" title=" " alt="" coords="6349,155,6437,181"/>
+<area shape="rect" href="roomInit_8c.html" title=" " alt="" coords="6461,155,6562,181"/>
+<area shape="rect" href="script_8c.html" title=" " alt="" coords="6587,155,6673,181"/>
+<area shape="rect" href="sub__08055E08_8c.html" title=" " alt="" coords="6698,155,6837,181"/>
+<area shape="rect" href="subtask_8c.html" title=" " alt="" coords="6861,155,6961,181"/>
+<area shape="rect" href="title_8c.html" title=" " alt="" coords="6985,155,7059,181"/>
+</map>
+</div>
 </div>
 <p><a href="fade_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structFadeControl.html">FadeControl</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Controls screen fading effects.  <a href="structFadeControl.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1b4a52da41e1002ee968b467727a056b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fade_8h.html#a1b4a52da41e1002ee968b467727a056b">SetBrightness</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> arg0)</td></tr>
-<tr class="separator:a1b4a52da41e1002ee968b467727a056b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6b195e92685923f144584b91f5c71a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fade_8h.html#ae6b195e92685923f144584b91f5c71a8">DoFade</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> type, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> speed)</td></tr>
-<tr class="separator:ae6b195e92685923f144584b91f5c71a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b36814872933ccc125612982bb53ce1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fade_8h.html#a3b36814872933ccc125612982bb53ce1">sub_08050008</a> (void)</td></tr>
-<tr class="separator:a3b36814872933ccc125612982bb53ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabc2092f7a42d2bd53945823257f22ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fade_8h.html#aabc2092f7a42d2bd53945823257f22ec">sub_08050038</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)</td></tr>
-<tr class="separator:aabc2092f7a42d2bd53945823257f22ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae611c2ff1eb696cb868a39a9bf7c3cb2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fade_8h.html#ae611c2ff1eb696cb868a39a9bf7c3cb2">sub_080500F4</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> arg0)</td></tr>
-<tr class="separator:ae611c2ff1eb696cb868a39a9bf7c3cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0d78118e9d46633441cf2165da4be27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fade_8h.html#af0d78118e9d46633441cf2165da4be27">sub_08050110</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> param_1, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> param_2, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> fadeType, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> fadeSpeed)</td></tr>
-<tr class="separator:af0d78118e9d46633441cf2165da4be27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4ee04f191d7fecb059b6c1ae2ee8ab6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fade_8h.html#ad4ee04f191d7fecb059b6c1ae2ee8ab6">SetBrightness</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> brightness)</td></tr>
+<tr class="memdesc:ad4ee04f191d7fecb059b6c1ae2ee8ab6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set game brightness.  <a href="fade_8h.html#ad4ee04f191d7fecb059b6c1ae2ee8ab6">More...</a><br /></td></tr>
+<tr class="separator:ad4ee04f191d7fecb059b6c1ae2ee8ab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60e9ce1d43efa22262d92da87aad36e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fade_8h.html#a60e9ce1d43efa22262d92da87aad36e4">SetFade</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> type, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> speed)</td></tr>
+<tr class="memdesc:a60e9ce1d43efa22262d92da87aad36e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start a fade effect.  <a href="fade_8h.html#a60e9ce1d43efa22262d92da87aad36e4">More...</a><br /></td></tr>
+<tr class="separator:a60e9ce1d43efa22262d92da87aad36e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a003c8a2cd4387ed23502c39e06660abd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fade_8h.html#a003c8a2cd4387ed23502c39e06660abd">SetFadeInverted</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> speed)</td></tr>
+<tr class="memdesc:a003c8a2cd4387ed23502c39e06660abd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform the last fade effect in reverse.  <a href="fade_8h.html#a003c8a2cd4387ed23502c39e06660abd">More...</a><br /></td></tr>
+<tr class="separator:a003c8a2cd4387ed23502c39e06660abd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad642bda3f0c208fcbce7eccefc195f07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fade_8h.html#ad642bda3f0c208fcbce7eccefc195f07">SetFadeIris</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> x, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> y, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> type, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> speed)</td></tr>
+<tr class="memdesc:ad642bda3f0c208fcbce7eccefc195f07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Peform an iris fade.  <a href="fade_8h.html#ad642bda3f0c208fcbce7eccefc195f07">More...</a><br /></td></tr>
+<tr class="separator:ad642bda3f0c208fcbce7eccefc195f07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ac6e1cf02194ce77205cdb1e807d205"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fade_8h.html#a1ac6e1cf02194ce77205cdb1e807d205">SetFadeProgress</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> progress)</td></tr>
+<tr class="memdesc:a1ac6e1cf02194ce77205cdb1e807d205"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the fade progress.  <a href="fade_8h.html#a1ac6e1cf02194ce77205cdb1e807d205">More...</a><br /></td></tr>
+<tr class="separator:a1ac6e1cf02194ce77205cdb1e807d205"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a93f60611e6bbf01be6e72e4ae23a54"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fade_8h.html#a8a93f60611e6bbf01be6e72e4ae23a54">InitFade</a> (void)</td></tr>
+<tr class="memdesc:a8a93f60611e6bbf01be6e72e4ae23a54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the fade system.  <a href="fade_8h.html#a8a93f60611e6bbf01be6e72e4ae23a54">More...</a><br /></td></tr>
 <tr class="separator:a8a93f60611e6bbf01be6e72e4ae23a54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f916980bc276a05145b5940a6435a99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fade_8h.html#a5f916980bc276a05145b5940a6435a99">FadeMain</a> (void)</td></tr>
+<tr class="memdesc:a5f916980bc276a05145b5940a6435a99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Entry point for the fade system.  <a href="fade_8h.html#a5f916980bc276a05145b5940a6435a99">More...</a><br /></td></tr>
 <tr class="separator:a5f916980bc276a05145b5940a6435a99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0e45550378f1a774b7090c2bf041858"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fade_8h.html#ad0e45550378f1a774b7090c2bf041858">FadeVBlank</a> (void)</td></tr>
+<tr class="memdesc:ad0e45550378f1a774b7090c2bf041858"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fade VBlank entry point.  <a href="fade_8h.html#ad0e45550378f1a774b7090c2bf041858">More...</a><br /></td></tr>
 <tr class="separator:ad0e45550378f1a774b7090c2bf041858"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4486f812403d2f3122c994adaa999cdc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fade_8h.html#a4486f812403d2f3122c994adaa999cdc">ResetFadeMask</a> (void)</td></tr>
+<tr class="memdesc:a4486f812403d2f3122c994adaa999cdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the fade palette mask.  <a href="fade_8h.html#a4486f812403d2f3122c994adaa999cdc">More...</a><br /></td></tr>
+<tr class="separator:a4486f812403d2f3122c994adaa999cdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ad5565625686934d79df395676da0498d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structFadeControl.html">FadeControl</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fade_8h.html#ad5565625686934d79df395676da0498d">gFadeControl</a></td></tr>
+<tr class="memdesc:ad5565625686934d79df395676da0498d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fade control instance.  <a href="fade_8h.html#ad5565625686934d79df395676da0498d">More...</a><br /></td></tr>
+<tr class="separator:ad5565625686934d79df395676da0498d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ae6b195e92685923f144584b91f5c71a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae6b195e92685923f144584b91f5c71a8">&#9670;&nbsp;</a></span>DoFade()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DoFade </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
-          <td class="paramname"><em>type</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
-          <td class="paramname"><em>speed</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a5f916980bc276a05145b5940a6435a99"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5f916980bc276a05145b5940a6435a99">&#9670;&nbsp;</a></span>FadeMain()</h2>
 
@@ -148,6 +220,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Entry point for the fade system. </p>
 
 </div>
 </div>
@@ -167,6 +241,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Fade VBlank entry point. </p>
+
 </div>
 </div>
 <a id="a8a93f60611e6bbf01be6e72e4ae23a54"></a>
@@ -185,34 +261,19 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Initialize the fade system. </p>
+<p>This will misbehave if called while a fade is active. </p>
+
 </div>
 </div>
-<a id="a1b4a52da41e1002ee968b467727a056b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b4a52da41e1002ee968b467727a056b">&#9670;&nbsp;</a></span>SetBrightness()</h2>
+<a id="a4486f812403d2f3122c994adaa999cdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4486f812403d2f3122c994adaa999cdc">&#9670;&nbsp;</a></span>ResetFadeMask()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void SetBrightness </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
-          <td class="paramname"><em>arg0</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3b36814872933ccc125612982bb53ce1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b36814872933ccc125612982bb53ce1">&#9670;&nbsp;</a></span>sub_08050008()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sub_08050008 </td>
+          <td class="memname">void ResetFadeMask </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -221,73 +282,53 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Reset the fade palette mask. </p>
+
 </div>
 </div>
-<a id="aabc2092f7a42d2bd53945823257f22ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aabc2092f7a42d2bd53945823257f22ec">&#9670;&nbsp;</a></span>sub_08050038()</h2>
+<a id="ad4ee04f191d7fecb059b6c1ae2ee8ab6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4ee04f191d7fecb059b6c1ae2ee8ab6">&#9670;&nbsp;</a></span>SetBrightness()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sub_08050038 </td>
+          <td class="memname">void SetBrightness </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
-          <td class="paramname"><em>arg0</em></td><td>)</td>
+          <td class="paramname"><em>brightness</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Set game brightness. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">brightness</td><td>brightness level, 0-2 </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
-<a id="ae611c2ff1eb696cb868a39a9bf7c3cb2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae611c2ff1eb696cb868a39a9bf7c3cb2">&#9670;&nbsp;</a></span>sub_080500F4()</h2>
+<a id="a60e9ce1d43efa22262d92da87aad36e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60e9ce1d43efa22262d92da87aad36e4">&#9670;&nbsp;</a></span>SetFade()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sub_080500F4 </td>
+          <td class="memname">void SetFade </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
-          <td class="paramname"><em>arg0</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af0d78118e9d46633441cf2165da4be27"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0d78118e9d46633441cf2165da4be27">&#9670;&nbsp;</a></span>sub_08050110()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sub_08050110 </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
-          <td class="paramname"><em>param_1</em>, </td>
+          <td class="paramname"><em>type</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
-          <td class="paramname"><em>param_2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
-          <td class="paramname"><em>fadeType</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
-          <td class="paramname"><em>fadeSpeed</em>&#160;</td>
+          <td class="paramname"><em>speed</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -296,6 +337,150 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Start a fade effect. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>Fade type. The following flags are supported: <table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadLeft">0x1   </th><th class="markdownTableHeadLeft">0x2   </th><th class="markdownTableHeadLeft">0x4   </th><th class="markdownTableHeadLeft">0x8   </th><th class="markdownTableHeadLeft">0x10    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyLeft">in/out   </td><td class="markdownTableBodyLeft">black/white   </td><td class="markdownTableBodyLeft">instant   </td><td class="markdownTableBodyLeft">mosaic   </td><td class="markdownTableBodyLeft">iris fade   </td></tr>
+</table>
+</td></tr>
+    <tr><td class="paramname">speed</td><td>Effect speed, lower is slower. Negative values trigger an acid-like experience. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a003c8a2cd4387ed23502c39e06660abd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a003c8a2cd4387ed23502c39e06660abd">&#9670;&nbsp;</a></span>SetFadeInverted()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SetFadeInverted </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>speed</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Perform the last fade effect in reverse. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">speed</td><td>Fade speed. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ad642bda3f0c208fcbce7eccefc195f07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad642bda3f0c208fcbce7eccefc195f07">&#9670;&nbsp;</a></span>SetFadeIris()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SetFadeIris </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>speed</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Peform an iris fade. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td><a class="el" href="structScreen.html">Screen</a> x coordinate. </td></tr>
+    <tr><td class="paramname">y</td><td><a class="el" href="structScreen.html">Screen</a> y coordinate. </td></tr>
+    <tr><td class="paramname">type</td><td>Fade type. </td></tr>
+    <tr><td class="paramname">speed</td><td>Fade speed. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1ac6e1cf02194ce77205cdb1e807d205"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ac6e1cf02194ce77205cdb1e807d205">&#9670;&nbsp;</a></span>SetFadeProgress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SetFadeProgress </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>progress</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the fade progress. </p>
+<p>When used on a fade in effect, this will set the progress of the fade. When used on a fade out effect, progress will be sustained at the value.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">progress</td><td>Progress value. 0-256. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="ad5565625686934d79df395676da0498d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5565625686934d79df395676da0498d">&#9670;&nbsp;</a></span>gFadeControl</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structFadeControl.html">FadeControl</a> gFadeControl</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Fade control instance. </p>
 
 </div>
 </div>

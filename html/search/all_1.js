@@ -19,7 +19,7 @@ var searchData=
   ['action1_5fwaitforattack_62',['ACTION1_WAITFORATTACK',['../octorokBoss_8c.html#a3f77497ae5648f693f124ba517febfe7ad07cf1c44c0a9d854610ce7919755f98',1,'octorokBoss.c']]],
   ['action1_5fwaitforturn_63',['ACTION1_WAITFORTURN',['../octorokBoss_8c.html#a3f77497ae5648f693f124ba517febfe7a64ff6becfacaa8502181002ecaf3d493',1,'octorokBoss.c']]],
   ['actiondelay_64',['actionDelay',['../structMinishEntranceSpawnData.html#a0c6b7da740b40067262f4c508d53a7a7',1,'MinishEntranceSpawnData::actionDelay()'],['../structObj11.html#a9276d20519b5442aa91132a3ae4198df',1,'Obj11::actionDelay()'],['../structEntity__.html#a168553e5fb1f630828732cf2b0b119dd',1,'Entity_::actionDelay()']]],
-  ['active_65',['active',['../structWindow.html#a7f3c731e0bd61ef1624f22ddeacfd5cd',1,'Window::active()'],['../structFadeControl.html#ae9874a7daf9c5ac622f0d7bfb3964f9c',1,'FadeControl::active()']]],
+  ['active_65',['active',['../structWindow.html#a7f3c731e0bd61ef1624f22ddeacfd5cd',1,'Window::active()'],['../structFadeControl.html#ab005ca957faf26ecf122aa37c61821ad',1,'FadeControl::active()']]],
   ['activescriptinfo_66',['ActiveScriptInfo',['../structActiveScriptInfo.html',1,'']]],
   ['address1_67',['address1',['../structSaveFileEEPROMAddresses.html#a6db47f4b890ddad1d7bccb301f21f388',1,'SaveFileEEPROMAddresses']]],
   ['address2_68',['address2',['../structSaveFileEEPROMAddresses.html#a87ed7ab2cd3dc809ac8e4cdf85d8e7c7',1,'SaveFileEEPROMAddresses']]],
