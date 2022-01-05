@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['h_25370',['h',['../structPACKED.html#a4b943e27687db792c10ad1181c8f9905',1,'PACKED']]],
+  ['half_25371',['HALF',['../unionCoords.html#ae04d3017410187b7b191f12628254b43',1,'Coords::HALF()'],['../unionSplitSHWord.html#a5f4ac9ee7e20249c0f525f4036f954ce',1,'SplitSHWord::HALF()'],['../unionSplitWord.html#ae625861e95ba7a6df1049eacb54cb19f',1,'SplitWord::HALF()'],['../unionSplitHWord.html#ab96e61fea2f05a72f01e97052b3ae08e',1,'SplitHWord::HALF()']]],
+  ['half_5fu_25372',['HALF_U',['../unionSplitWord.html#a8aa6d892b1801f4f5cd80b3286cf3e74',1,'SplitWord']]],
+  ['handshake_5fdata_25373',['handshake_data',['../structMultiBootParam.html#a16f25d7693ed8dc3d58de7089c68cd8e',1,'MultiBootParam']]],
+  ['handshake_5ftimeout_25374',['handshake_timeout',['../structMultiBootParam.html#af8155ab1a3c27e9a67e6ba6ab39c9d21',1,'MultiBootParam']]],
+  ['header_25375',['header',['../structSong.html#a8a5eb2c56fed22a6efc64a6eba0dff3f',1,'Song']]],
+  ['health_25376',['health',['../structEnemyDefinition.html#afaa48d254ecb02568e0d68eb2874ebc4',1,'EnemyDefinition::health()'],['../structEntity__.html#a8f50fe8ab69f086e627da8d0599fb6a0',1,'Entity_::health()'],['../structStats.html#a7f3a6c43c5da13378804ed165edceaa9',1,'Stats::health()']]],
+  ['heartpieces_25377',['heartPieces',['../structStats.html#ada27a92486b3388a67cad3c99ed63e74',1,'Stats']]],
+  ['height_25378',['height',['../structManager30.html#aa2cac59c42b0c1abbf928a6fd2a8bf37',1,'Manager30::height()'],['../structRoomControls.html#a12c2916408ef6c6d6c64b51cbdeb5390',1,'RoomControls::height()'],['../structManager6WarpData.html#af9e15c819f068606e9d08ecc9e5c68b0',1,'Manager6WarpData::height()'],['../structHitbox3D.html#a4bf0fb5a848373c2e5c7fc01a35141d1',1,'Hitbox3D::height()'],['../structHitbox.html#a106b2672f01d6ad2a81a7c027d8e9d9d',1,'Hitbox::height()'],['../structHitboxChange.html#ab39a2764a1e54b42da942e4f75d4b34e',1,'HitboxChange::height()'],['../structFurnitureCfg.html#a2103c4f445246b746f45a15caca045ed',1,'FurnitureCfg::height()'],['../structFurnitureEntity.html#a8e414ae3c95f3f697ae993612c12a5f8',1,'FurnitureEntity::height()'],['../structWindow.html#ae1f2ee90d9ff1f861da88c244696d842',1,'Window::height()'],['../structPACKED.html#ae8626143e7f302cf679f71af6752482c',1,'PACKED::height()']]],
+  ['heldkeys_25379',['heldKeys',['../structInput.html#a4a6f3f7681ab75de19b1bc16d6468083',1,'Input']]],
+  ['heldobject_25380',['heldObject',['../structPlayerState.html#a207f7d105ad00dc2e7947baff65162c8',1,'PlayerState']]],
+  ['hflip_25381',['hFlip',['../structFrame.html#a29c3b98cc40c9c335221c69339db3082',1,'Frame']]],
+  ['hi_25382',['HI',['../structstruct__086D4460.html#a4f26b7a6341d158c36efa58220bf448e',1,'struct_086D4460::HI()'],['../unionSplitWord.html#a32c6259fb28a442f1e2a78aaa3935d20',1,'SplitWord::HI()'],['../unionSplitWord.html#a510bf5b60996e858932a548313f515a1',1,'SplitWord::HI()'],['../unionSplitHWord.html#a41852c4047ccd43cf4f20599e37da0cd',1,'SplitHWord::HI()'],['../unionSplitSHWord.html#adb330441ba20c380f0462d41ceb72ae5',1,'SplitSHWord::HI()']]],
+  ['hint_5fheight_25383',['hint_height',['../structRoomTransition.html#afb625df87630097bed05dce8c8da6014',1,'RoomTransition']]],
+  ['hint_5fidx_25384',['hint_idx',['../structRoomTransition.html#a673e79ba8494c75d1a4c48e308db7197',1,'RoomTransition']]],
+  ['hit_25385',['hit',['../structHitboxCfg.html#a886c68edbb7885e2c0bf8e127dc9ba8e',1,'HitboxCfg']]],
+  ['hitbox_25386',['hitbox',['../structEnemyDefinition.html#aa211c27431193e0e8e376c9f2de69150',1,'EnemyDefinition::hitbox()'],['../structEntity__.html#ac9194d7da3ee532979a1aaaad3cbf2c0',1,'Entity_::hitbox()'],['../structNPCDefinition.html#a85fc5596948d943c579766c8a3730d67',1,'NPCDefinition::hitbox()'],['../structObjectDefinition.html#ac7d6ee83489574edb3cd08e192e600d8',1,'ObjectDefinition::hitbox()'],['../structProjectileDefinition.html#a0744e534d4fe1380f6d108ce2c904167',1,'ProjectileDefinition::hitbox()'],['../structstruct__081299F8.html#aef15a750cee508f7f5867d234d3c96fa',1,'struct_081299F8::hitbox()']]],
+  ['hittype_25387',['hitType',['../structPlayerItemDefinition.html#aeeebf93fd56f7cbf1be382a0a327de30',1,'PlayerItemDefinition::hitType()'],['../structEntity__.html#a5eb843ba539437c758f1fafe644995ed',1,'Entity_::hitType()']]],
+  ['hurtblinkspeed_25388',['hurtBlinkSpeed',['../structPlayerState.html#a100a050c2838d8464fb510f1adaacfc9',1,'PlayerState']]],
+  ['hurttype_25389',['hurtType',['../structPlayerItemDefinition.html#a7dfd5af80b1225a35d1e7b4da5693d9d',1,'PlayerItemDefinition::hurtType()'],['../structEntity__.html#a040cf65a95c4884b245453c7e3ca7d2c',1,'Entity_::hurtType()'],['../structRoomTransition.html#a59796783888c52fb3e15a38c64452405',1,'RoomTransition::hurtType()']]],
+  ['hword_25390',['HWORD',['../unionSplitHWord.html#a2089c3239cf2927e0b7cf784113e1135',1,'SplitHWord']]]
+];
