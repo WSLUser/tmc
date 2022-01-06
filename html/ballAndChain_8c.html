@@ -75,6 +75,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -84,6 +85,7 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="entity_8h_source.html">entity.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="projectile_8h_source.html">projectile.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="hitbox_8h_source.html">hitbox.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for ballAndChain.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -91,33 +93,39 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="ballAndChain_8c__incl.png" border="0" usemap="#asrc_2projectile_2ballAndChain_8c" alt=""/></div>
 <map name="asrc_2projectile_2ballAndChain_8c" id="asrc_2projectile_2ballAndChain_8c">
-<area shape="rect" title=" " alt="" coords="213,5,400,32"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="243,304,306,331"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="264,80,349,107"/>
-<area shape="rect" href="projectile_8h.html" title=" " alt="" coords="374,80,458,107"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="311,453,377,480"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="158,379,218,405"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="243,379,307,405"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="455,528,534,555"/>
-<area shape="rect" title=" " alt="" coords="160,603,224,629"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="807,603,881,629"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="716,603,783,629"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="359,677,422,704"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="345,603,437,629"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="248,603,320,629"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="461,603,529,629"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="553,603,641,629"/>
-<area shape="rect" title=" " alt="" coords="810,677,878,704"/>
-<area shape="rect" title=" " alt="" coords="359,752,423,779"/>
-<area shape="rect" href="manager_8h.html" title=" " alt="" coords="523,229,605,256"/>
-<area shape="rect" href="coord_8h.html" title=" " alt="" coords="5,229,69,256"/>
-<area shape="rect" href="player_8h.html" title=" " alt="" coords="432,229,499,256"/>
-<area shape="rect" href="room_8h.html" title=" " alt="" coords="144,229,205,256"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="363,155,453,181"/>
-<area shape="rect" href="script_8h.html" title=" " alt="" coords="275,155,339,181"/>
+<area shape="rect" title=" " alt="" coords="384,5,571,32"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="343,304,406,331"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="275,80,360,107"/>
+<area shape="rect" href="projectile_8h.html" title=" " alt="" coords="475,80,559,107"/>
+<area shape="rect" href="hitbox_8h.html" title=" " alt="" coords="584,80,651,107"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="273,453,340,480"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="345,379,405,405"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="429,379,493,405"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="395,528,474,555"/>
+<area shape="rect" title=" " alt="" coords="147,603,211,629"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="794,603,867,629"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="235,603,301,629"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="403,677,466,704"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="473,603,565,629"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="325,603,397,629"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="589,603,657,629"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="681,603,769,629"/>
+<area shape="rect" title=" " alt="" coords="797,677,865,704"/>
+<area shape="rect" title=" " alt="" coords="403,752,467,779"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="43,229,125,256"/>
+<area shape="rect" href="coord_8h.html" title=" " alt="" coords="149,229,213,256"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="576,229,643,256"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="237,229,299,256"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="477,155,568,181"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="285,155,349,181"/>
 </map>
 </div>
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPACKED.html">PACKED</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a4ba24fa5b89f8cd67caad2f096169e6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ballAndChain_8c.html#a4ba24fa5b89f8cd67caad2f096169e6e">sub_080AB12C</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
@@ -126,17 +134,17 @@ Functions</h2></td></tr>
 <tr class="separator:ae19ac503c6c628355ef38dc393e62bdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1745dd9d6a3d26d234c054e615071233"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ballAndChain_8c.html#a1745dd9d6a3d26d234c054e615071233">sub_080AB074</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
 <tr class="separator:a1745dd9d6a3d26d234c054e615071233"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95f05222616356a4059a989c3f508000"><td class="memItemLeft" align="right" valign="top">asm non_matching ballAndChain sub_080AB170 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ballAndChain_8c.html#a95f05222616356a4059a989c3f508000">sub_080AB170</a> (<a class="el" href="structEntity.html">Entity</a> *this)) void sub_080AB26C(<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a95f05222616356a4059a989c3f508000"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f27e57a643f513e22b0d4d36ac9de6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ballAndChain_8c.html#a3f27e57a643f513e22b0d4d36ac9de6f">sub_080AB170</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
+<tr class="separator:a3f27e57a643f513e22b0d4d36ac9de6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fa36f857e88307aa87085de8939c899"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ballAndChain_8c.html#a4fa36f857e88307aa87085de8939c899">sub_080AB26C</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
+<tr class="separator:a4fa36f857e88307aa87085de8939c899"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a3e5330568b682752138c8407f8fae3a5"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ballAndChain_8c.html#a3e5330568b682752138c8407f8fae3a5">gUnk_0812A494</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
 <tr class="separator:a3e5330568b682752138c8407f8fae3a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae92852b92015a07d6e9689f254c9f108"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ballAndChain_8c.html#ae92852b92015a07d6e9689f254c9f108">gUnk_0812A4A8</a> []</td></tr>
-<tr class="separator:ae92852b92015a07d6e9689f254c9f108"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0adfab0fd7d397d16ab69868e310f8a4"><td class="memItemLeft" align="right" valign="top">asm non_matching ballAndChain <a class="el" href="ballAndChain_8c.html#a95f05222616356a4059a989c3f508000">sub_080AB170</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ballAndChain_8c.html#a0adfab0fd7d397d16ab69868e310f8a4">inc</a></td></tr>
-<tr class="separator:a0adfab0fd7d397d16ab69868e310f8a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad8e325a9be3f5798ca000c3081593e7"><td class="memItemLeft" align="right" valign="top">const PosOffset&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ballAndChain_8c.html#aad8e325a9be3f5798ca000c3081593e7">gUnk_0812A4A8</a> []</td></tr>
+<tr class="separator:aad8e325a9be3f5798ca000c3081593e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ae19ac503c6c628355ef38dc393e62bdd"></a>
@@ -193,14 +201,32 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a95f05222616356a4059a989c3f508000"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95f05222616356a4059a989c3f508000">&#9670;&nbsp;</a></span>sub_080AB170()</h2>
+<a id="a3f27e57a643f513e22b0d4d36ac9de6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f27e57a643f513e22b0d4d36ac9de6f">&#9670;&nbsp;</a></span>sub_080AB170()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm non_matching ballAndChain sub_080AB170 void sub_080AB170 </td>
+          <td class="memname">void sub_080AB170 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4fa36f857e88307aa87085de8939c899"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fa36f857e88307aa87085de8939c899">&#9670;&nbsp;</a></span>sub_080AB26C()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_080AB26C </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
@@ -228,43 +254,30 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code" href="ballAndChain_8c.html#a1745dd9d6a3d26d234c054e615071233">sub_080AB074</a>, <a class="code" href="ballAndChain_8c.html#a95f05222616356a4059a989c3f508000">sub_080AB170</a>, <a class="code" href="ballAndChain_8c.html#a95f05222616356a4059a989c3f508000">sub_080AB170</a>, <a class="code" href="ballAndChain_8c.html#a95f05222616356a4059a989c3f508000">sub_080AB170</a>, sub_080AB26C,</div>
+<div class="line">    <a class="code" href="ballAndChain_8c.html#a1745dd9d6a3d26d234c054e615071233">sub_080AB074</a>, <a class="code" href="ballAndChain_8c.html#a3f27e57a643f513e22b0d4d36ac9de6f">sub_080AB170</a>, <a class="code" href="ballAndChain_8c.html#a3f27e57a643f513e22b0d4d36ac9de6f">sub_080AB170</a>, <a class="code" href="ballAndChain_8c.html#a3f27e57a643f513e22b0d4d36ac9de6f">sub_080AB170</a>, <a class="code" href="ballAndChain_8c.html#a4fa36f857e88307aa87085de8939c899">sub_080AB26C</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="aballAndChain_8c_html_a1745dd9d6a3d26d234c054e615071233"><div class="ttname"><a href="ballAndChain_8c.html#a1745dd9d6a3d26d234c054e615071233">sub_080AB074</a></div><div class="ttdeci">void sub_080AB074(Entity *this)</div><div class="ttdef"><b>Definition:</b> ballAndChain.c:14</div></div>
-<div class="ttc" id="aballAndChain_8c_html_a95f05222616356a4059a989c3f508000"><div class="ttname"><a href="ballAndChain_8c.html#a95f05222616356a4059a989c3f508000">sub_080AB170</a></div><div class="ttdeci">asm non_matching ballAndChain sub_080AB170 void sub_080AB170(Entity *this)) void sub_080AB26C(Entity *this)</div><div class="ttdef"><b>Definition:</b> ballAndChain.c:64</div></div>
+<div class="ttc" id="aballAndChain_8c_html_a1745dd9d6a3d26d234c054e615071233"><div class="ttname"><a href="ballAndChain_8c.html#a1745dd9d6a3d26d234c054e615071233">sub_080AB074</a></div><div class="ttdeci">void sub_080AB074(Entity *this)</div><div class="ttdef"><b>Definition:</b> ballAndChain.c:20</div></div>
+<div class="ttc" id="aballAndChain_8c_html_a3f27e57a643f513e22b0d4d36ac9de6f"><div class="ttname"><a href="ballAndChain_8c.html#a3f27e57a643f513e22b0d4d36ac9de6f">sub_080AB170</a></div><div class="ttdeci">void sub_080AB170(Entity *this)</div><div class="ttdef"><b>Definition:</b> ballAndChain.c:70</div></div>
+<div class="ttc" id="aballAndChain_8c_html_a4fa36f857e88307aa87085de8939c899"><div class="ttname"><a href="ballAndChain_8c.html#a4fa36f857e88307aa87085de8939c899">sub_080AB26C</a></div><div class="ttdeci">void sub_080AB26C(Entity *this)</div><div class="ttdef"><b>Definition:</b> ballAndChain.c:123</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="ae92852b92015a07d6e9689f254c9f108"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae92852b92015a07d6e9689f254c9f108">&#9670;&nbsp;</a></span>gUnk_0812A4A8</h2>
+<a id="aad8e325a9be3f5798ca000c3081593e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad8e325a9be3f5798ca000c3081593e7">&#9670;&nbsp;</a></span>gUnk_0812A4A8</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gUnk_0812A4A8</td>
+          <td class="memname">const PosOffset gUnk_0812A4A8</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    6,   240, 10,  242, 10,  240, 8,   240, 252, 242, 248, 242, 252, 246, 4,   246,</div>
-<div class="line">    250, 242, 248, 240, 246, 242, 248, 244, 4,   242, 8,   242, 4,   246, 252, 246,</div>
+<div class="line">    { 6, -16 },  { 10, -14 }, { 10, -16 },  { 8, -16 },  { -4, -14 }, { -8, -14 }, { -4, -10 }, { 4, -10 },</div>
+<div class="line">    { -6, -14 }, { -8, -16 }, { -10, -14 }, { -8, -12 }, { 4, -14 },  { 8, -14 },  { 4, -10 },  { -4, -10 },</div>
 <div class="line">}</div>
 </div><!-- fragment -->
-</div>
-</div>
-<a id="a0adfab0fd7d397d16ab69868e310f8a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0adfab0fd7d397d16ab69868e310f8a4">&#9670;&nbsp;</a></span>inc</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">asm non_matching ballAndChain <a class="el" href="ballAndChain_8c.html#a95f05222616356a4059a989c3f508000">sub_080AB170</a> inc</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
 </div>
 </div>
 </div><!-- contents -->
