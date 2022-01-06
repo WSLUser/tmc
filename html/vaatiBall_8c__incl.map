@@ -1,5 +1,5 @@
 <map id="src/enemy/vaatiBall.c" name="src/enemy/vaatiBall.c">
-<area shape="rect" id="node1" title=" " alt="" coords="547,5,693,32"/>
+<area shape="rect" id="node1" title="Vaati Ball enemy." alt="" coords="547,5,693,32"/>
 <area shape="rect" id="node2" href="$entity_8h.html" title=" " alt="" coords="479,304,542,331"/>
 <area shape="rect" id="node17" href="$enemy_8h.html" title=" " alt="" coords="1031,155,1102,181"/>
 <area shape="rect" id="node24" href="$player_8h.html" title=" " alt="" coords="251,229,317,256"/>

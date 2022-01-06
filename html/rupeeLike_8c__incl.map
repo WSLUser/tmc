@@ -1,5 +1,5 @@
 <map id="src/enemy/rupeeLike.c" name="src/enemy/rupeeLike.c">
-<area shape="rect" id="node1" title=" " alt="" coords="513,5,666,32"/>
+<area shape="rect" id="node1" title="Rupee Like enemy." alt="" coords="513,5,666,32"/>
 <area shape="rect" id="node2" href="$global_8h.html" title=" " alt="" coords="827,453,893,480"/>
 <area shape="rect" id="node14" href="$asm_8h.html" title=" " alt="" coords="43,229,101,256"/>
 <area shape="rect" id="node15" href="$sound_8h.html" title=" " alt="" coords="125,229,192,256"/>

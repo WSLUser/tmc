@@ -1,5 +1,5 @@
 <map id="src/enemy/lakituCloud.c" name="src/enemy/lakituCloud.c">
-<area shape="rect" id="node1" title=" " alt="" coords="543,5,703,32"/>
+<area shape="rect" id="node1" title="Lakitu Cloud enemy." alt="" coords="543,5,703,32"/>
 <area shape="rect" id="node2" href="$global_8h.html" title=" " alt="" coords="485,453,552,480"/>
 <area shape="rect" id="node14" href="$asm_8h.html" title=" " alt="" coords="865,229,922,256"/>
 <area shape="rect" id="node15" href="$entity_8h.html" title=" " alt="" coords="487,304,550,331"/>

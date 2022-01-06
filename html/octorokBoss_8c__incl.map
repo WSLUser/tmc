@@ -1,5 +1,5 @@
 <map id="src/enemy/octorokBoss.c" name="src/enemy/octorokBoss.c">
-<area shape="rect" id="node1" title=" " alt="" coords="543,5,712,32"/>
+<area shape="rect" id="node1" title="Octorok boss enemy." alt="" coords="543,5,712,32"/>
 <area shape="rect" id="node2" href="$enemy_8h.html" title=" " alt="" coords="356,155,427,181"/>
 <area shape="rect" id="node23" href="$projectile_8h.html" title=" " alt="" coords="5,229,89,256"/>
 <area shape="rect" id="node24" href="$functions_8h.html" title=" " alt="" coords="973,80,1058,107"/>

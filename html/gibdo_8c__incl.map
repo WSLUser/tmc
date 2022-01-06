@@ -1,5 +1,5 @@
 <map id="src/enemy/gibdo.c" name="src/enemy/gibdo.c">
-<area shape="rect" id="node1" title=" " alt="" coords="501,5,627,32"/>
+<area shape="rect" id="node1" title="Gibdo enemy." alt="" coords="501,5,627,32"/>
 <area shape="rect" id="node2" href="$global_8h.html" title=" " alt="" coords="768,453,835,480"/>
 <area shape="rect" id="node14" href="$enemy_8h.html" title=" " alt="" coords="382,155,453,181"/>
 <area shape="rect" id="node24" href="$object_8h.html" title=" " alt="" coords="619,155,685,181"/>

@@ -1,5 +1,5 @@
 <map id="src/enemy/gyorgMale.c" name="src/enemy/gyorgMale.c">
-<area shape="rect" id="node1" title=" " alt="" coords="381,5,536,32"/>
+<area shape="rect" id="node1" title="Gyorg Male enemy." alt="" coords="381,5,536,32"/>
 <area shape="rect" id="node2" href="$global_8h.html" title=" " alt="" coords="673,528,740,555"/>
 <area shape="rect" id="node14" href="$enemy_8h.html" title=" " alt="" coords="282,229,353,256"/>
 <area shape="rect" id="node24" href="$player_8h.html" title=" " alt="" coords="795,304,861,331"/>

@@ -1,5 +1,5 @@
 <map id="src/enemy/hangingSeed.c" name="src/enemy/hangingSeed.c">
-<area shape="rect" id="node1" title=" " alt="" coords="411,5,582,32"/>
+<area shape="rect" id="node1" title="Hanging Seed enemy." alt="" coords="411,5,582,32"/>
 <area shape="rect" id="node2" href="$entity_8h.html" title=" " alt="" coords="708,304,771,331"/>
 <area shape="rect" id="node17" href="$enemy_8h.html" title=" " alt="" coords="213,155,284,181"/>
 <area shape="rect" id="node24" href="$functions_8h.html" title=" " alt="" coords="766,80,851,107"/>

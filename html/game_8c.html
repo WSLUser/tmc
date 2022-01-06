@@ -80,9 +80,12 @@ $(function() {
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">game.c File Reference</div>  </div>
+<div class="title">game.c File Reference<div class="ingroups"><a class="el" href="group__Tasks.html">Tasks</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Game task.  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="global_8h_source.html">global.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="asm_8h_source.html">asm.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sound_8h_source.html">sound.h</a>&quot;</code><br />
@@ -109,7 +112,7 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="game_8c__incl.png" border="0" usemap="#asrc_2game_8c" alt=""/></div>
 <map name="asrc_2game_8c" id="asrc_2game_8c">
-<area shape="rect" title=" " alt="" coords="565,5,651,32"/>
+<area shape="rect" title="Game task." alt="" coords="565,5,651,32"/>
 <area shape="rect" href="global_8h.html" title=" " alt="" coords="719,528,785,555"/>
 <area shape="rect" href="asm_8h.html" title=" " alt="" coords="49,80,106,107"/>
 <area shape="rect" href="sound_8h.html" title=" " alt="" coords="312,155,379,181"/>
@@ -334,20 +337,28 @@ Functions</h2></td></tr>
 <tr class="memitem:ae61701dd123419657c20144a08f5ff21"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#ae61701dd123419657c20144a08f5ff21">switch_state</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> idx)</td></tr>
 <tr class="separator:ae61701dd123419657c20144a08f5ff21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b537896f2ef9a3ea2d1f30541be4044"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#a5b537896f2ef9a3ea2d1f30541be4044">SetPopupState</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> type, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> choice_idx)</td></tr>
+<tr class="memdesc:a5b537896f2ef9a3ea2d1f30541be4044"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the dislayed popup state.  <a href="game_8c.html#a5b537896f2ef9a3ea2d1f30541be4044">More...</a><br /></td></tr>
 <tr class="separator:a5b537896f2ef9a3ea2d1f30541be4044"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8db684de7280be114a60043f1d370bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#ab8db684de7280be114a60043f1d370bb">AreaIsOverworld</a> (void)</td></tr>
+<tr class="memdesc:ab8db684de7280be114a60043f1d370bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the current area is overworld.  <a href="game_8c.html#ab8db684de7280be114a60043f1d370bb">More...</a><br /></td></tr>
 <tr class="separator:ab8db684de7280be114a60043f1d370bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae405202d3259ae68772c36aad65a673b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#ae405202d3259ae68772c36aad65a673b">CheckAreaOverworld</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> area)</td></tr>
+<tr class="memdesc:ae405202d3259ae68772c36aad65a673b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if an area is overworld (not dungeon or inside).  <a href="game_8c.html#ae405202d3259ae68772c36aad65a673b">More...</a><br /></td></tr>
 <tr class="separator:ae405202d3259ae68772c36aad65a673b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8782730499e361d64d3974e2d3e7eabc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#a8782730499e361d64d3974e2d3e7eabc">AreaAllowsWarp</a> (void)</td></tr>
+<tr class="memdesc:a8782730499e361d64d3974e2d3e7eabc"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function was introduced to allow warping from indoor areas (palace of winds).  <a href="game_8c.html#a8782730499e361d64d3974e2d3e7eabc">More...</a><br /></td></tr>
 <tr class="separator:a8782730499e361d64d3974e2d3e7eabc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af29699d882e803fde78ecee6d8e6a89d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#af29699d882e803fde78ecee6d8e6a89d">AreaIsDungeon</a> (void)</td></tr>
+<tr class="memdesc:af29699d882e803fde78ecee6d8e6a89d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the current area is a dungeon.  <a href="game_8c.html#af29699d882e803fde78ecee6d8e6a89d">More...</a><br /></td></tr>
 <tr class="separator:af29699d882e803fde78ecee6d8e6a89d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4047bfac9133b958669d3010b7381ef3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#a4047bfac9133b958669d3010b7381ef3">AreaHasEnemies</a> (void)</td></tr>
+<tr class="memdesc:a4047bfac9133b958669d3010b7381ef3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the current area has enemies.  <a href="game_8c.html#a4047bfac9133b958669d3010b7381ef3">More...</a><br /></td></tr>
 <tr class="separator:a4047bfac9133b958669d3010b7381ef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a822d73b42f3c19012e689a4e82f4f558"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#a822d73b42f3c19012e689a4e82f4f558">AreaHasNoEnemies</a> (void)</td></tr>
+<tr class="memdesc:a822d73b42f3c19012e689a4e82f4f558"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the current area has no enemies.  <a href="game_8c.html#a822d73b42f3c19012e689a4e82f4f558">More...</a><br /></td></tr>
 <tr class="separator:a822d73b42f3c19012e689a4e82f4f558"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07e39c5fe1ec3bb2e6575b7d4f3d5afe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#a07e39c5fe1ec3bb2e6575b7d4f3d5afe">AreaHasMap</a> (void)</td></tr>
+<tr class="memdesc:a07e39c5fe1ec3bb2e6575b7d4f3d5afe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the current area has a map.  <a href="game_8c.html#a07e39c5fe1ec3bb2e6575b7d4f3d5afe">More...</a><br /></td></tr>
 <tr class="separator:a07e39c5fe1ec3bb2e6575b7d4f3d5afe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ede4c080d48992c358992bd67a26386"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#a5ede4c080d48992c358992bd67a26386">ModHealth</a> (<a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a> delta)</td></tr>
 <tr class="separator:a5ede4c080d48992c358992bd67a26386"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -356,62 +367,81 @@ Functions</h2></td></tr>
 <tr class="memitem:a05eebb89a92a517912fb26e273e63c14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#a05eebb89a92a517912fb26e273e63c14">sub_080526F8</a> (<a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a> a1)</td></tr>
 <tr class="separator:a05eebb89a92a517912fb26e273e63c14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa46cac7581c68ffe4fa85d8099ae3432"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#aa46cac7581c68ffe4fa85d8099ae3432">AreaHasKeys</a> (void)</td></tr>
+<tr class="memdesc:aa46cac7581c68ffe4fa85d8099ae3432"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if current area has keys.  <a href="game_8c.html#aa46cac7581c68ffe4fa85d8099ae3432">More...</a><br /></td></tr>
 <tr class="separator:aa46cac7581c68ffe4fa85d8099ae3432"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56e1c4cad8c9958e24e23bfb6e25c197"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#a56e1c4cad8c9958e24e23bfb6e25c197">HasDungeonMap</a> (void)</td></tr>
+<tr class="memdesc:a56e1c4cad8c9958e24e23bfb6e25c197"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the current dungeon has a map item.  <a href="game_8c.html#a56e1c4cad8c9958e24e23bfb6e25c197">More...</a><br /></td></tr>
 <tr class="separator:a56e1c4cad8c9958e24e23bfb6e25c197"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9828cce7a4dc051f4c47918487bff887"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#a9828cce7a4dc051f4c47918487bff887">HasDungeonCompass</a> (void)</td></tr>
+<tr class="memdesc:a9828cce7a4dc051f4c47918487bff887"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the current dungeon has a compass item.  <a href="game_8c.html#a9828cce7a4dc051f4c47918487bff887">More...</a><br /></td></tr>
 <tr class="separator:a9828cce7a4dc051f4c47918487bff887"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe204dea7b42ac5549682f03be3e7c8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#afe204dea7b42ac5549682f03be3e7c8a">HasDungeonBigKey</a> (void)</td></tr>
+<tr class="memdesc:afe204dea7b42ac5549682f03be3e7c8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the current dungeon has a big key item.  <a href="game_8c.html#afe204dea7b42ac5549682f03be3e7c8a">More...</a><br /></td></tr>
 <tr class="separator:afe204dea7b42ac5549682f03be3e7c8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3693dc4483a7c31eafa6a55aa86d5b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#ad3693dc4483a7c31eafa6a55aa86d5b6">HasDungeonSmallKey</a> (void)</td></tr>
+<tr class="memdesc:ad3693dc4483a7c31eafa6a55aa86d5b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the current dungeon has a small key item.  <a href="game_8c.html#ad3693dc4483a7c31eafa6a55aa86d5b6">More...</a><br /></td></tr>
 <tr class="separator:ad3693dc4483a7c31eafa6a55aa86d5b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a420d213b01038e95800854d8c8d32774"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#a420d213b01038e95800854d8c8d32774">RestoreGameTask</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> a1)</td></tr>
+<tr class="memdesc:a420d213b01038e95800854d8c8d32774"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restore the game task from a subtask.  <a href="game_8c.html#a420d213b01038e95800854d8c8d32774">More...</a><br /></td></tr>
 <tr class="separator:a420d213b01038e95800854d8c8d32774"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af291e1c8bbfd3802a531ff5cce525c36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#af291e1c8bbfd3802a531ff5cce525c36">sub_08052878</a> (void)</td></tr>
+<tr class="memdesc:af291e1c8bbfd3802a531ff5cce525c36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Related to a music bug?  <a href="game_8c.html#af291e1c8bbfd3802a531ff5cce525c36">More...</a><br /></td></tr>
 <tr class="separator:af291e1c8bbfd3802a531ff5cce525c36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ada5d55e4f0e2cc90c27781e1055dec"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#a5ada5d55e4f0e2cc90c27781e1055dec">sub_0805289C</a> (void)</td></tr>
 <tr class="separator:a5ada5d55e4f0e2cc90c27781e1055dec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e212deadc9c4b5c6bd395c686d04777"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#a7e212deadc9c4b5c6bd395c686d04777">RoomExitCallback</a> (void)</td></tr>
+<tr class="memdesc:a7e212deadc9c4b5c6bd395c686d04777"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call the room exit callback.  <a href="game_8c.html#a7e212deadc9c4b5c6bd395c686d04777">More...</a><br /></td></tr>
 <tr class="separator:a7e212deadc9c4b5c6bd395c686d04777"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3cc4bb67947a2979eb1358b1008e142f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#a3cc4bb67947a2979eb1358b1008e142f">InitParachuteRoom</a> (void)</td></tr>
+<tr class="memdesc:a3cc4bb67947a2979eb1358b1008e142f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize a parachute room.  <a href="game_8c.html#a3cc4bb67947a2979eb1358b1008e142f">More...</a><br /></td></tr>
 <tr class="separator:a3cc4bb67947a2979eb1358b1008e142f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6de9f56d41f5f51e1c24889af6ef2ade"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#a6de9f56d41f5f51e1c24889af6ef2ade">InitRoomTransition</a> (void)</td></tr>
 <tr class="separator:a6de9f56d41f5f51e1c24889af6ef2ade"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebe825150e9b881a135086495d831a1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#aebe825150e9b881a135086495d831a1f">CanDispEzloMessage</a> (void)</td></tr>
+<tr class="memdesc:aebe825150e9b881a135086495d831a1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if an Ezlo message can be displayed.  <a href="game_8c.html#aebe825150e9b881a135086495d831a1f">More...</a><br /></td></tr>
 <tr class="separator:aebe825150e9b881a135086495d831a1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05dee04fcc7811f8a485a7b8ea1c8f73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#a05dee04fcc7811f8a485a7b8ea1c8f73">DisplayEzloMessage</a> (void)</td></tr>
+<tr class="memdesc:a05dee04fcc7811f8a485a7b8ea1c8f73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display an Ezlo message.  <a href="game_8c.html#a05dee04fcc7811f8a485a7b8ea1c8f73">More...</a><br /></td></tr>
 <tr class="separator:a05dee04fcc7811f8a485a7b8ea1c8f73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a307ed72f7968576e6710fe005462e1c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#a307ed72f7968576e6710fe005462e1c2">SetWorldMapPos</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> area, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> room, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> x, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> y)</td></tr>
+<tr class="memdesc:a307ed72f7968576e6710fe005462e1c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the player's world map position.  <a href="game_8c.html#a307ed72f7968576e6710fe005462e1c2">More...</a><br /></td></tr>
 <tr class="separator:a307ed72f7968576e6710fe005462e1c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a271a237c5c62519eb0cf542ee037ef6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#a271a237c5c62519eb0cf542ee037ef6f">SetDungeonMapPos</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> area, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> room, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> x, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> y)</td></tr>
+<tr class="memdesc:a271a237c5c62519eb0cf542ee037ef6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the player's dungeon map position.  <a href="game_8c.html#a271a237c5c62519eb0cf542ee037ef6f">More...</a><br /></td></tr>
 <tr class="separator:a271a237c5c62519eb0cf542ee037ef6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84fae4df9f0ef6ff7252465793e26b72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#a84fae4df9f0ef6ff7252465793e26b72">InitRoom</a> (void)</td></tr>
+<tr class="memdesc:a84fae4df9f0ef6ff7252465793e26b72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize a loaded room.  <a href="game_8c.html#a84fae4df9f0ef6ff7252465793e26b72">More...</a><br /></td></tr>
 <tr class="separator:a84fae4df9f0ef6ff7252465793e26b72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d86bfb0b6165840aab585b17d2eaffe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#a6d86bfb0b6165840aab585b17d2eaffe">GetFlagBankOffset</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> idx)</td></tr>
-<tr class="memdesc:a6d86bfb0b6165840aab585b17d2eaffe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get bank offset for area.  <a href="game_8c.html#a6d86bfb0b6165840aab585b17d2eaffe">More...</a><br /></td></tr>
+<tr class="memdesc:a6d86bfb0b6165840aab585b17d2eaffe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get flag bank offset for area.  <a href="game_8c.html#a6d86bfb0b6165840aab585b17d2eaffe">More...</a><br /></td></tr>
 <tr class="separator:a6d86bfb0b6165840aab585b17d2eaffe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3732cc9f4327dd32246d05af4a59a984"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#a3732cc9f4327dd32246d05af4a59a984">RegisterTransitionManager</a> (void *mgr, void(*onEnter)(), void(*onExit)())</td></tr>
 <tr class="memdesc:a3732cc9f4327dd32246d05af4a59a984"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set manager responsible for handling room changes.  <a href="game_8c.html#a3732cc9f4327dd32246d05af4a59a984">More...</a><br /></td></tr>
 <tr class="separator:a3732cc9f4327dd32246d05af4a59a984"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55e56729d27251bf86897ef89988e4d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structRoomResInfo.html">RoomResInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#a55e56729d27251bf86897ef89988e4d5">GetCurrentRoomInfo</a> (void)</td></tr>
+<tr class="memdesc:a55e56729d27251bf86897ef89988e4d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve information about the current room.  <a href="game_8c.html#a55e56729d27251bf86897ef89988e4d5">More...</a><br /></td></tr>
 <tr class="separator:a55e56729d27251bf86897ef89988e4d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac9af9a4bf47ea1aa5df25d6e0d0b8b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#aac9af9a4bf47ea1aa5df25d6e0d0b8b5">sub_08052EA0</a> (void)</td></tr>
 <tr class="separator:aac9af9a4bf47ea1aa5df25d6e0d0b8b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec2b596a77093439219fd0a48aeb2321"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#aec2b596a77093439219fd0a48aeb2321">sub_08052EF4</a> (<a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a> idx)</td></tr>
 <tr class="separator:aec2b596a77093439219fd0a48aeb2321"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a628e815d04e48bee06889e18cf848f23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#a628e815d04e48bee06889e18cf848f23">LoadCutsceneRoom</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> area, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> room)</td></tr>
-<tr class="separator:a628e815d04e48bee06889e18cf848f23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90bdd08b4f6793a0e5a5263d04c8dcb7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#a90bdd08b4f6793a0e5a5263d04c8dcb7">LoadAuxiliaryRoom</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> area, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> room)</td></tr>
+<tr class="memdesc:a90bdd08b4f6793a0e5a5263d04c8dcb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load an auxiliary room (no player present).  <a href="game_8c.html#a90bdd08b4f6793a0e5a5263d04c8dcb7">More...</a><br /></td></tr>
+<tr class="separator:a90bdd08b4f6793a0e5a5263d04c8dcb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6b4d71134f74d18f15662bbe6ba39ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#ae6b4d71134f74d18f15662bbe6ba39ec">ChangeLightLevel</a> (<a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a> lightLevel)</td></tr>
+<tr class="memdesc:ae6b4d71134f74d18f15662bbe6ba39ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the light level of the room.  <a href="game_8c.html#ae6b4d71134f74d18f15662bbe6ba39ec">More...</a><br /></td></tr>
 <tr class="separator:ae6b4d71134f74d18f15662bbe6ba39ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adee6a4494eee0d3cd394257be9e92587"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#adee6a4494eee0d3cd394257be9e92587">sub_080530B0</a> (void)</td></tr>
 <tr class="separator:adee6a4494eee0d3cd394257be9e92587"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d76e084a3119be6cb1c429d9b8a0e56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#a4d76e084a3119be6cb1c429d9b8a0e56">UpdateGlobalProgress</a> (void)</td></tr>
+<tr class="memdesc:a4d76e084a3119be6cb1c429d9b8a0e56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the global progress (0 - 10).  <a href="game_8c.html#a4d76e084a3119be6cb1c429d9b8a0e56">More...</a><br /></td></tr>
 <tr class="separator:a4d76e084a3119be6cb1c429d9b8a0e56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1ef61bdb62a3f383be9d51dfc3222ea"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#af1ef61bdb62a3f383be9d51dfc3222ea">sub_08053144</a> (void)</td></tr>
 <tr class="separator:af1ef61bdb62a3f383be9d51dfc3222ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae11df17dd4fdab96dc212ec5c47c377"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#aae11df17dd4fdab96dc212ec5c47c377">sub_08053250</a> (void)</td></tr>
 <tr class="separator:aae11df17dd4fdab96dc212ec5c47c377"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7482df4274a5bd5b05e79652139ca851"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#a7482df4274a5bd5b05e79652139ca851">LoadGfxGroups</a> (void)</td></tr>
+<tr class="memdesc:a7482df4274a5bd5b05e79652139ca851"><td class="mdescLeft">&#160;</td><td class="mdescRight">Automatically load overworld graphics groups.  <a href="game_8c.html#a7482df4274a5bd5b05e79652139ca851">More...</a><br /></td></tr>
 <tr class="separator:a7482df4274a5bd5b05e79652139ca851"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a077feab9c0ef943398f5d7ed4f8c4f04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#a077feab9c0ef943398f5d7ed4f8c4f04">sub_080533CC</a> (void)</td></tr>
 <tr class="separator:a077feab9c0ef943398f5d7ed4f8c4f04"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -491,7 +521,9 @@ Variables</h2></td></tr>
 <tr class="memitem:afafc1cf971453b13304c53856fdda133"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="structCutsceneData.html">CutsceneData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#afafc1cf971453b13304c53856fdda133">sCutsceneData</a> []</td></tr>
 <tr class="separator:afafc1cf971453b13304c53856fdda133"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Game task. </p>
+</div><h2 class="groupheader">Typedef Documentation</h2>
 <a id="aaabeaf99754b22c245453457d462022e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaabeaf99754b22c245453457d462022e">&#9670;&nbsp;</a></span>AuxCutsceneState</h2>
 
@@ -579,6 +611,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>This function was introduced to allow warping from indoor areas (palace of winds). </p>
+<dl class="section return"><dt>Returns</dt><dd>True if the current area allows warping. </dd></dl>
+
 </div>
 </div>
 <a id="a4047bfac9133b958669d3010b7381ef3"></a>
@@ -596,6 +631,9 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Check if the current area has enemies. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if the current area has enemies. </dd></dl>
 
 </div>
 </div>
@@ -615,6 +653,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Check if current area has keys. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if the current area has keys. </dd></dl>
+
 </div>
 </div>
 <a id="a07e39c5fe1ec3bb2e6575b7d4f3d5afe"></a>
@@ -632,6 +673,9 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Check if the current area has a map. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if the current area has a map. </dd></dl>
 
 </div>
 </div>
@@ -651,6 +695,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Check if the current area has no enemies. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if the current area has no enemies. </dd></dl>
+
 </div>
 </div>
 <a id="af29699d882e803fde78ecee6d8e6a89d"></a>
@@ -669,6 +716,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Check if the current area is a dungeon. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if the current area is a dungeon. </dd></dl>
+
 </div>
 </div>
 <a id="ab8db684de7280be114a60043f1d370bb"></a>
@@ -686,6 +736,9 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Check if the current area is overworld. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if the current area is overworld. </dd></dl>
 
 </div>
 </div>
@@ -723,6 +776,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Check if an Ezlo message can be displayed. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if an Ezlo message can be displayed. </dd></dl>
+
 </div>
 </div>
 <a id="ae6b4d71134f74d18f15662bbe6ba39ec"></a>
@@ -735,11 +791,19 @@ Variables</h2></td></tr>
           <td class="memname">void ChangeLightLevel </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a>&#160;</td>
-          <td class="paramname"><em>lightLevel</em></td><td>)</td>
+          <td class="paramname"><em>level</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Change the light level of the room. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">level</td><td>The new light level. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -784,6 +848,15 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Check if an area is overworld (not dungeon or inside). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">area</td><td>The area to check. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the area is overworld. </dd></dl>
 
 </div>
 </div>
@@ -1079,6 +1152,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Display an Ezlo message. </p>
+
 </div>
 </div>
 <a id="a88aa59c6c060e2d4abbb1380f02f65d1"></a>
@@ -1257,6 +1332,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Retrieve information about the current room. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="structRoomResInfo.html">RoomResInfo</a> object. </dd></dl>
+
 </div>
 </div>
 <a id="a6d86bfb0b6165840aab585b17d2eaffe"></a>
@@ -1275,7 +1353,14 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Get bank offset for area. </p>
+<p>Get flag bank offset for area. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">idx</td><td><a class="el" href="structArea.html">Area</a> index. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Flag bank offset. </dd></dl>
 
 </div>
 </div>
@@ -1295,6 +1380,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Check if the current dungeon has a big key item. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if the current dungeon has a big key item. </dd></dl>
+
 </div>
 </div>
 <a id="a9828cce7a4dc051f4c47918487bff887"></a>
@@ -1312,6 +1400,9 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Check if the current dungeon has a compass item. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if the current dungeon has a compass item. </dd></dl>
 
 </div>
 </div>
@@ -1331,6 +1422,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Check if the current dungeon has a map item. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if the current dungeon has a map item. </dd></dl>
+
 </div>
 </div>
 <a id="ad3693dc4483a7c31eafa6a55aa86d5b6"></a>
@@ -1348,6 +1442,9 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Check if the current dungeon has a small key item. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if the current dungeon has a small key item. </dd></dl>
 
 </div>
 </div>
@@ -1463,6 +1560,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Initialize a parachute room. </p>
+
 </div>
 </div>
 <a id="a84fae4df9f0ef6ff7252465793e26b72"></a>
@@ -1480,6 +1579,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Initialize a loaded room. </p>
 
 </div>
 </div>
@@ -1611,14 +1712,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a628e815d04e48bee06889e18cf848f23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a628e815d04e48bee06889e18cf848f23">&#9670;&nbsp;</a></span>LoadCutsceneRoom()</h2>
+<a id="a90bdd08b4f6793a0e5a5263d04c8dcb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90bdd08b4f6793a0e5a5263d04c8dcb7">&#9670;&nbsp;</a></span>LoadAuxiliaryRoom()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void LoadCutsceneRoom </td>
+          <td class="memname">void LoadAuxiliaryRoom </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
           <td class="paramname"><em>area</em>, </td>
@@ -1637,6 +1738,15 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Load an auxiliary room (no player present). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">area</td><td><a class="el" href="structArea.html">Area</a> index. </td></tr>
+    <tr><td class="paramname">room</td><td>Room index. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a7482df4274a5bd5b05e79652139ca851"></a>
@@ -1654,6 +1764,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Automatically load overworld graphics groups. </p>
 
 </div>
 </div>
@@ -1869,6 +1981,14 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Restore the game task from a subtask. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a1</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a7e212deadc9c4b5c6bd395c686d04777"></a>
@@ -1886,6 +2006,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Call the room exit callback. </p>
 
 </div>
 </div>
@@ -1945,6 +2067,17 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Set the player's dungeon map position. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">area</td><td><a class="el" href="structArea.html">Area</a> index. </td></tr>
+    <tr><td class="paramname">room</td><td>Room index. </td></tr>
+    <tr><td class="paramname">x</td><td>X position. </td></tr>
+    <tr><td class="paramname">y</td><td>Y position. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a5b537896f2ef9a3ea2d1f30541be4044"></a>
@@ -1972,6 +2105,15 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Set the dislayed popup state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>The popup type. </td></tr>
+    <tr><td class="paramname">choice_idx</td><td>The choice index. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -2012,6 +2154,17 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Set the player's world map position. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">area</td><td><a class="el" href="structArea.html">Area</a> index. </td></tr>
+    <tr><td class="paramname">room</td><td>Room index. </td></tr>
+    <tr><td class="paramname">x</td><td>X position. </td></tr>
+    <tr><td class="paramname">y</td><td>Y position. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -2358,6 +2511,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Related to a music bug? </p>
 
 </div>
 </div>
@@ -3050,6 +3205,9 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Update the global progress (0 - 10). </p>
+<p>There are 10 different indicators of game completion: 9 : Flag SEIIKI_STAINED_GLASS 8 : Flag LV5_CLEAR 7 : Flag OUBO_KAKERA 6 : Flag LV4_CLEAR 5 : Flag LV3_CLEAR 4 : Flag SOUGEN_08_TORITSUKI 2 : Flag LV1_CLEAR 1 : Default } </p>
 
 </div>
 </div>

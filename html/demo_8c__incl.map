@@ -1,5 +1,5 @@
-<map id="src/demoScreen.c" name="src/demoScreen.c">
-<area shape="rect" id="node1" title=" " alt="" coords="637,5,763,32"/>
+<map id="src/demo.c" name="src/demo.c">
+<area shape="rect" id="node1" title="Demo task." alt="" coords="657,5,743,32"/>
 <area shape="rect" id="node2" href="$global_8h.html" title=" " alt="" coords="672,528,739,555"/>
 <area shape="rect" id="node14" href="$functions_8h.html" title=" " alt="" coords="341,155,427,181"/>
 <area shape="rect" id="node24" href="$main_8h.html" title=" " alt="" coords="266,80,326,107"/>

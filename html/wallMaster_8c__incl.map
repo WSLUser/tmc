@@ -1,5 +1,5 @@
 <map id="src/enemy/wallMaster.c" name="src/enemy/wallMaster.c">
-<area shape="rect" id="node1" title=" " alt="" coords="759,5,917,32"/>
+<area shape="rect" id="node1" title="Wall Master enemy." alt="" coords="759,5,917,32"/>
 <area shape="rect" id="node2" href="$enemy_8h.html" title=" " alt="" coords="244,155,315,181"/>
 <area shape="rect" id="node24" href="$area_8h.html" title=" " alt="" coords="1139,304,1196,331"/>
 <area shape="rect" id="node25" href="$functions_8h.html" title=" " alt="" coords="795,80,881,107"/>

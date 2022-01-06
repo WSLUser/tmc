@@ -1,5 +1,5 @@
 <map id="src/enemy/mazaalHead.c" name="src/enemy/mazaalHead.c">
-<area shape="rect" id="node1" title=" " alt="" coords="733,5,901,32"/>
+<area shape="rect" id="node1" title="Mazaal Head enemy." alt="" coords="733,5,901,32"/>
 <area shape="rect" id="node2" href="$enemy_8h.html" title=" " alt="" coords="311,155,382,181"/>
 <area shape="rect" id="node24" href="$object_8h.html" title=" " alt="" coords="621,155,688,181"/>
 <area shape="rect" id="node28" href="$functions_8h.html" title=" " alt="" coords="937,80,1023,107"/>
