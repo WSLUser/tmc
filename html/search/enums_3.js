@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['fileselectstate_27010',['FileSelectState',['../fileselect_8c.html#a25f6bbf1005cd054bacff4ea90a62a35',1,'fileselect.c']]],
-  ['flag_27011',['Flag',['../flags_8h.html#a3f3de3e0d751949b8d0b60ffb302944a',1,'flags.h']]],
-  ['furnitureflag_27012',['FurnitureFlag',['../furniture_8c.html#a6cace5f5662950ff02a32861ae8051d7',1,'furniture.c']]],
-  ['furnituretype_27013',['FurnitureType',['../furniture_8c.html#aa06e085575735587cc1ab6389b3f2662',1,'furniture.c']]]
+  ['effect_27017',['Effect',['../effects_8h.html#acd9c2a1cf576f0fd9da232d337d9720c',1,'effects.h']]],
+  ['enemy_27018',['Enemy',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08ab',1,'enemy.h']]],
+  ['entityflags_27019',['EntityFlags',['../entity_8h.html#acda3452546886b2b713c62c4a07fd52a',1,'entity.h']]],
+  ['entitykind_27020',['EntityKind',['../entity_8h.html#ad90c5929a39651126870429e8f6689b3',1,'entity.h']]]
 ];

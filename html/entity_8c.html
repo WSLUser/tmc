@@ -188,65 +188,82 @@ Functions</h2></td></tr>
 <tr class="memitem:a312d6e0f43bd3524f794316c6d0d5484"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#a312d6e0f43bd3524f794316c6d0d5484">SetDefaultPriority</a> (<a class="el" href="structEntity.html">Entity</a> *ent, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> prio)</td></tr>
 <tr class="memdesc:a312d6e0f43bd3524f794316c6d0d5484"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the default priority for entity.  <a href="entity_8c.html#a312d6e0f43bd3524f794316c6d0d5484">More...</a><br /></td></tr>
 <tr class="separator:a312d6e0f43bd3524f794316c6d0d5484"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98c1d370793b7ae92bc60c6b18f70b59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#a98c1d370793b7ae92bc60c6b18f70b59">CheckDontUpdate</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="memdesc:a98c1d370793b7ae92bc60c6b18f70b59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if entity should sleep this frame (according to priority).  <a href="entity_8c.html#a98c1d370793b7ae92bc60c6b18f70b59">More...</a><br /></td></tr>
-<tr class="separator:a98c1d370793b7ae92bc60c6b18f70b59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63bb59f3e0dba06e049b7d2a67e01dbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#a63bb59f3e0dba06e049b7d2a67e01dbb">EntityIsDeleted</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
+<tr class="memdesc:a63bb59f3e0dba06e049b7d2a67e01dbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if entity will be deleted next frame.  <a href="entity_8c.html#a63bb59f3e0dba06e049b7d2a67e01dbb">More...</a><br /></td></tr>
+<tr class="separator:a63bb59f3e0dba06e049b7d2a67e01dbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2c55494bc286f8cd8f692ca690f859c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#ab2c55494bc286f8cd8f692ca690f859c">AnyPrioritySet</a> (void)</td></tr>
 <tr class="memdesc:ab2c55494bc286f8cd8f692ca690f859c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if system or entity is blocking updates.  <a href="entity_8c.html#ab2c55494bc286f8cd8f692ca690f859c">More...</a><br /></td></tr>
 <tr class="separator:ab2c55494bc286f8cd8f692ca690f859c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf3688f73832982b57f0f1cb956ccddf"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#adf3688f73832982b57f0f1cb956ccddf">UpdatePriority</a> (void)</td></tr>
 <tr class="separator:adf3688f73832982b57f0f1cb956ccddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2874199aaab29c8977ea728c51a5f925"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#a2874199aaab29c8977ea728c51a5f925">SetMinPriority</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> prio)</td></tr>
-<tr class="memdesc:a2874199aaab29c8977ea728c51a5f925"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structEntity.html">Entity</a> Priority: Update blocking events requested by an entity.  <a href="entity_8c.html#a2874199aaab29c8977ea728c51a5f925">More...</a><br /></td></tr>
+<tr class="memdesc:a2874199aaab29c8977ea728c51a5f925"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the minimum <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> priority.  <a href="entity_8c.html#a2874199aaab29c8977ea728c51a5f925">More...</a><br /></td></tr>
 <tr class="separator:a2874199aaab29c8977ea728c51a5f925"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45da48befee0175df268a61259efca61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#a45da48befee0175df268a61259efca61">ResetEntityPriority</a> (void)</td></tr>
+<tr class="memdesc:a45da48befee0175df268a61259efca61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset a priority event requested by an <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a>.  <a href="entity_8c.html#a45da48befee0175df268a61259efca61">More...</a><br /></td></tr>
 <tr class="separator:a45da48befee0175df268a61259efca61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77c5f283f431a7f123111b53e176529a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#a77c5f283f431a7f123111b53e176529a">RequestPriority</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
+<tr class="memdesc:a77c5f283f431a7f123111b53e176529a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request indefinite priority for an <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a>.  <a href="entity_8c.html#a77c5f283f431a7f123111b53e176529a">More...</a><br /></td></tr>
 <tr class="separator:a77c5f283f431a7f123111b53e176529a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0c78790708c48da9467122e06d94674"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#ab0c78790708c48da9467122e06d94674">RequestPriorityOverPlayer</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
+<tr class="memdesc:ab0c78790708c48da9467122e06d94674"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request priority over player update.  <a href="entity_8c.html#ab0c78790708c48da9467122e06d94674">More...</a><br /></td></tr>
 <tr class="separator:ab0c78790708c48da9467122e06d94674"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af68db7819235d908fa5afd7e961982ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#af68db7819235d908fa5afd7e961982ee">RevokePriorityOverPlayer</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
+<tr class="memdesc:af68db7819235d908fa5afd7e961982ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Revoke priority over player update.  <a href="entity_8c.html#af68db7819235d908fa5afd7e961982ee">More...</a><br /></td></tr>
 <tr class="separator:af68db7819235d908fa5afd7e961982ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0d722dcd8a20c6e0ee763b5d716f734"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#ac0d722dcd8a20c6e0ee763b5d716f734">RequestPriorityDuration</a> (<a class="el" href="structEntity.html">Entity</a> *this, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> time)</td></tr>
+<tr class="memdesc:ac0d722dcd8a20c6e0ee763b5d716f734"><td class="mdescLeft">&#160;</td><td class="mdescRight">Request update priority over other <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a>'s for a period of time.  <a href="entity_8c.html#ac0d722dcd8a20c6e0ee763b5d716f734">More...</a><br /></td></tr>
 <tr class="separator:ac0d722dcd8a20c6e0ee763b5d716f734"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5e15241f94e81a767e82f8e7ac49c2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#ac5e15241f94e81a767e82f8e7ac49c2a">SetPriorityTimer</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> time)</td></tr>
+<tr class="memdesc:ac5e15241f94e81a767e82f8e7ac49c2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the remaining frames of <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> priority.  <a href="entity_8c.html#ac5e15241f94e81a767e82f8e7ac49c2a">More...</a><br /></td></tr>
 <tr class="separator:ac5e15241f94e81a767e82f8e7ac49c2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9ba69c066c3eb487505395451c5cadf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#ab9ba69c066c3eb487505395451c5cadf">SetPlayerEventPriority</a> (void)</td></tr>
-<tr class="memdesc:ab9ba69c066c3eb487505395451c5cadf"><td class="mdescLeft">&#160;</td><td class="mdescRight">System Priority: Update blocking events sent by the engine.  <a href="entity_8c.html#ab9ba69c066c3eb487505395451c5cadf">More...</a><br /></td></tr>
+<tr class="memdesc:ab9ba69c066c3eb487505395451c5cadf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set entity and system priority to <a class="el" href="entity_8h.html#a315655b1bb5848c063491adffde62b15ace0388e7ecc035747816508bb1e82486" title="Do not block during special player event.">PRIO_PLAYER_EVENT</a>.  <a href="entity_8c.html#ab9ba69c066c3eb487505395451c5cadf">More...</a><br /></td></tr>
 <tr class="separator:ab9ba69c066c3eb487505395451c5cadf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7faa91fbaed882b4a52c469d7b72219d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#a7faa91fbaed882b4a52c469d7b72219d">ResetPlayerEventPriority</a> (void)</td></tr>
+<tr class="memdesc:a7faa91fbaed882b4a52c469d7b72219d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset entity and system priority to defaults.  <a href="entity_8c.html#a7faa91fbaed882b4a52c469d7b72219d">More...</a><br /></td></tr>
 <tr class="separator:a7faa91fbaed882b4a52c469d7b72219d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e8ffe04b055b88fa7686d8e7b4a4824"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#a3e8ffe04b055b88fa7686d8e7b4a4824">RevokePriority</a> (<a class="el" href="structEntity.html">Entity</a> *e)</td></tr>
+<tr class="memdesc:a3e8ffe04b055b88fa7686d8e7b4a4824"><td class="mdescLeft">&#160;</td><td class="mdescRight">Revoke priority from an <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a>.  <a href="entity_8c.html#a3e8ffe04b055b88fa7686d8e7b4a4824">More...</a><br /></td></tr>
 <tr class="separator:a3e8ffe04b055b88fa7686d8e7b4a4824"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86fc118cbdd9f0fe5cc3ec5101cbd099"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#a86fc118cbdd9f0fe5cc3ec5101cbd099">SetRoomReloadPriority</a> (void)</td></tr>
+<tr class="memdesc:a86fc118cbdd9f0fe5cc3ec5101cbd099"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set system priority to <a class="el" href="entity_8h.html#a315655b1bb5848c063491adffde62b15ace0388e7ecc035747816508bb1e82486" title="Do not block during special player event.">PRIO_PLAYER_EVENT</a>.  <a href="entity_8c.html#a86fc118cbdd9f0fe5cc3ec5101cbd099">More...</a><br /></td></tr>
 <tr class="separator:a86fc118cbdd9f0fe5cc3ec5101cbd099"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b5b2d4a2b543233e56329ccef9c4aea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#a3b5b2d4a2b543233e56329ccef9c4aea">SetInitializationPriority</a> (void)</td></tr>
+<tr class="memdesc:a3b5b2d4a2b543233e56329ccef9c4aea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set system priority to <a class="el" href="entity_8h.html#a315655b1bb5848c063491adffde62b15a9c607c121a82da3abd2b000e0e0d837f" title="Do not block EVER.">PRIO_HIGHEST</a>.  <a href="entity_8c.html#a3b5b2d4a2b543233e56329ccef9c4aea">More...</a><br /></td></tr>
 <tr class="separator:a3b5b2d4a2b543233e56329ccef9c4aea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d956cba114db11d4059b86fc4dd18bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#a4d956cba114db11d4059b86fc4dd18bf">ResetSystemPriority</a> (void)</td></tr>
+<tr class="memdesc:a4d956cba114db11d4059b86fc4dd18bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the system update priority.  <a href="entity_8c.html#a4d956cba114db11d4059b86fc4dd18bf">More...</a><br /></td></tr>
 <tr class="separator:a4d956cba114db11d4059b86fc4dd18bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a773eed4b8020d1f54f34aa6b2b482110"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#a773eed4b8020d1f54f34aa6b2b482110">UpdateEntities</a> (void)</td></tr>
+<tr class="memdesc:a773eed4b8020d1f54f34aa6b2b482110"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iteratively execute every <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a>.  <a href="entity_8c.html#a773eed4b8020d1f54f34aa6b2b482110">More...</a><br /></td></tr>
 <tr class="separator:a773eed4b8020d1f54f34aa6b2b482110"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a794a850c731d3e72a695d50cba2586c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#a794a850c731d3e72a695d50cba2586c3">UpdateManagers</a> (void)</td></tr>
+<tr class="memdesc:a794a850c731d3e72a695d50cba2586c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iteratively execute every <a class="el" href="structManager.html">Manager</a>.  <a href="entity_8c.html#a794a850c731d3e72a695d50cba2586c3">More...</a><br /></td></tr>
 <tr class="separator:a794a850c731d3e72a695d50cba2586c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36285181cb30d34565167eaabb9076ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#a36285181cb30d34565167eaabb9076ec">EraseAllEntities</a> (void)</td></tr>
+<tr class="memdesc:a36285181cb30d34565167eaabb9076ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase all <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a>'s.  <a href="entity_8c.html#a36285181cb30d34565167eaabb9076ec">More...</a><br /></td></tr>
 <tr class="separator:a36285181cb30d34565167eaabb9076ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7f623e66177cb174d345eaa5092a613"><td class="memItemLeft" align="right" valign="top">asm getEmptyEntity <a class="el" href="structEntity.html">Entity</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#aa7f623e66177cb174d345eaa5092a613">GetEmptyEntity</a> ())</td></tr>
+<tr class="memdesc:aa7f623e66177cb174d345eaa5092a613"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocate a new <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a>.  <a href="entity_8c.html#aa7f623e66177cb174d345eaa5092a613">More...</a><br /></td></tr>
 <tr class="separator:aa7f623e66177cb174d345eaa5092a613"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a10749e63b27ff5b2b8f08b29a5ab84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntity.html">Entity</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#a8a10749e63b27ff5b2b8f08b29a5ab84">sub_0805E744</a> (void)</td></tr>
 <tr class="separator:a8a10749e63b27ff5b2b8f08b29a5ab84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a194fa5cb5659e97a34e136d1896fafa3"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#a194fa5cb5659e97a34e136d1896fafa3">GetEmptyEntityByKind</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> kind)</td></tr>
 <tr class="separator:a194fa5cb5659e97a34e136d1896fafa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30920df21da66ce7420215f9e0de8e7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#a30920df21da66ce7420215f9e0de8e7c">DeleteThisEntity</a> (void)</td></tr>
-<tr class="memdesc:a30920df21da66ce7420215f9e0de8e7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the entity currently in execution.  <a href="entity_8c.html#a30920df21da66ce7420215f9e0de8e7c">More...</a><br /></td></tr>
+<tr class="memdesc:a30920df21da66ce7420215f9e0de8e7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> currently in execution.  <a href="entity_8c.html#a30920df21da66ce7420215f9e0de8e7c">More...</a><br /></td></tr>
 <tr class="separator:a30920df21da66ce7420215f9e0de8e7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab35eec1900236d684438d531eeac242"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#aab35eec1900236d684438d531eeac242">DeleteEntityAny</a> (<a class="el" href="structEntity.html">Entity</a> *ent)</td></tr>
+<tr class="memdesc:aab35eec1900236d684438d531eeac242"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete <a class="el" href="structManager.html">Manager</a> or <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a>.  <a href="entity_8c.html#aab35eec1900236d684438d531eeac242">More...</a><br /></td></tr>
 <tr class="separator:aab35eec1900236d684438d531eeac242"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c36abfca4590f417be8e49ebb2d48ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#a6c36abfca4590f417be8e49ebb2d48ca">DeleteEntity</a> (<a class="el" href="structEntity.html">Entity</a> *ent)</td></tr>
-<tr class="memdesc:a6c36abfca4590f417be8e49ebb2d48ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete an entity.  <a href="entity_8c.html#a6c36abfca4590f417be8e49ebb2d48ca">More...</a><br /></td></tr>
+<tr class="memdesc:a6c36abfca4590f417be8e49ebb2d48ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete an <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a>.  <a href="entity_8c.html#a6c36abfca4590f417be8e49ebb2d48ca">More...</a><br /></td></tr>
 <tr class="separator:a6c36abfca4590f417be8e49ebb2d48ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c542546b9492eab825d34a69d47f96a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structManager.html">Manager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#a3c542546b9492eab825d34a69d47f96a">GetEmptyManager</a> (void)</td></tr>
 <tr class="separator:a3c542546b9492eab825d34a69d47f96a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a316420c79f1524c8173bfdad4acf0d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#a8a316420c79f1524c8173bfdad4acf0d">DeleteManager</a> (void *ent)</td></tr>
+<tr class="memdesc:a8a316420c79f1524c8173bfdad4acf0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete a manager.  <a href="entity_8c.html#a8a316420c79f1524c8173bfdad4acf0d">More...</a><br /></td></tr>
 <tr class="separator:a8a316420c79f1524c8173bfdad4acf0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61c33e0f8c2770ce2f23aedf4b76024b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#a61c33e0f8c2770ce2f23aedf4b76024b">sub_0805E958</a> (void)</td></tr>
 <tr class="separator:a61c33e0f8c2770ce2f23aedf4b76024b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -257,23 +274,25 @@ Functions</h2></td></tr>
 <tr class="memitem:a15a08332ca9ce9f402df86b197f81e23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#a15a08332ca9ce9f402df86b197f81e23">DeleteSleepingEntities</a> (void)</td></tr>
 <tr class="separator:a15a08332ca9ce9f402df86b197f81e23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5ce0603ecca1dace9703329a0764bd0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#ae5ce0603ecca1dace9703329a0764bd0">AppendEntityToList</a> (<a class="el" href="structEntity.html">Entity</a> *<a class="el" href="v1EyeLaser_8c.html#a6e49c9e0d2b310e885a8c8f6ebc155e6">entity</a>, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> listIndex)</td></tr>
+<tr class="memdesc:ae5ce0603ecca1dace9703329a0764bd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> to the end of a <a class="el" href="structLinkedList.html" title="Entity linked list structure.">LinkedList</a>.  <a href="entity_8c.html#ae5ce0603ecca1dace9703329a0764bd0">More...</a><br /></td></tr>
 <tr class="separator:ae5ce0603ecca1dace9703329a0764bd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3cc87a5f41bb0610bcf55a7024793161"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#a3cc87a5f41bb0610bcf55a7024793161">PrependEntityToList</a> (<a class="el" href="structEntity.html">Entity</a> *<a class="el" href="v1EyeLaser_8c.html#a6e49c9e0d2b310e885a8c8f6ebc155e6">entity</a>, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> listIndex)</td></tr>
+<tr class="memdesc:a3cc87a5f41bb0610bcf55a7024793161"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> to the start of a <a class="el" href="structLinkedList.html" title="Entity linked list structure.">LinkedList</a>.  <a href="entity_8c.html#a3cc87a5f41bb0610bcf55a7024793161">More...</a><br /></td></tr>
 <tr class="separator:a3cc87a5f41bb0610bcf55a7024793161"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fe45d954588dd3590f4ca2dc09d770b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#a6fe45d954588dd3590f4ca2dc09d770b">EntityHasDuplicateID</a> (<a class="el" href="structEntity.html">Entity</a> *ent)</td></tr>
-<tr class="memdesc:a6fe45d954588dd3590f4ca2dc09d770b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search all lists for entity of same kind and id.  <a href="entity_8c.html#a6fe45d954588dd3590f4ca2dc09d770b">More...</a><br /></td></tr>
+<tr class="memdesc:a6fe45d954588dd3590f4ca2dc09d770b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search all lists for <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> of same kind and id.  <a href="entity_8c.html#a6fe45d954588dd3590f4ca2dc09d770b">More...</a><br /></td></tr>
 <tr class="separator:a6fe45d954588dd3590f4ca2dc09d770b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a303f349c64e46d9a61e2e226dd54de15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntity.html">Entity</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#a303f349c64e46d9a61e2e226dd54de15">FindEntityByID</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> kind, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> id, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> listIndex)</td></tr>
-<tr class="memdesc:a303f349c64e46d9a61e2e226dd54de15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find an entity for a given kind and ID.  <a href="entity_8c.html#a303f349c64e46d9a61e2e226dd54de15">More...</a><br /></td></tr>
+<tr class="memdesc:a303f349c64e46d9a61e2e226dd54de15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find an <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> for a given kind and id, and <a class="el" href="structLinkedList.html" title="Entity linked list structure.">LinkedList</a>.  <a href="entity_8c.html#a303f349c64e46d9a61e2e226dd54de15">More...</a><br /></td></tr>
 <tr class="separator:a303f349c64e46d9a61e2e226dd54de15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94d2a2ea316cc1a094bb2d629c1a316a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntity.html">Entity</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#a94d2a2ea316cc1a094bb2d629c1a316a">FindEntity</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> kind, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> id, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> listIndex, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> type, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> type2)</td></tr>
-<tr class="memdesc:a94d2a2ea316cc1a094bb2d629c1a316a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find <a class="el" href="structEntity.html">Entity</a> with full identifiers.  <a href="entity_8c.html#a94d2a2ea316cc1a094bb2d629c1a316a">More...</a><br /></td></tr>
+<tr class="memdesc:a94d2a2ea316cc1a094bb2d629c1a316a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find an <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> with full identifiers.  <a href="entity_8c.html#a94d2a2ea316cc1a094bb2d629c1a316a">More...</a><br /></td></tr>
 <tr class="separator:a94d2a2ea316cc1a094bb2d629c1a316a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61a7debead7be2ea161ce006ec947e8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntity.html">Entity</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#a61a7debead7be2ea161ce006ec947e8e">FindNextDuplicateID</a> (<a class="el" href="structEntity.html">Entity</a> *ent, int listIndex)</td></tr>
-<tr class="memdesc:a61a7debead7be2ea161ce006ec947e8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find an entity of same kind and id in list.  <a href="entity_8c.html#a61a7debead7be2ea161ce006ec947e8e">More...</a><br /></td></tr>
+<tr class="memdesc:a61a7debead7be2ea161ce006ec947e8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find an <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> of same kind and id in <a class="el" href="structLinkedList.html" title="Entity linked list structure.">LinkedList</a>.  <a href="entity_8c.html#a61a7debead7be2ea161ce006ec947e8e">More...</a><br /></td></tr>
 <tr class="separator:a61a7debead7be2ea161ce006ec947e8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a866c4b1f53fad0f000657eaccf7fcc73"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntity.html">Entity</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#a866c4b1f53fad0f000657eaccf7fcc73">DeepFindEntityByID</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> kind, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> id)</td></tr>
-<tr class="memdesc:a866c4b1f53fad0f000657eaccf7fcc73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search all lists for an entity of same kind and id.  <a href="entity_8c.html#a866c4b1f53fad0f000657eaccf7fcc73">More...</a><br /></td></tr>
+<tr class="memdesc:a866c4b1f53fad0f000657eaccf7fcc73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search all lists for an <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> of same kind and id.  <a href="entity_8c.html#a866c4b1f53fad0f000657eaccf7fcc73">More...</a><br /></td></tr>
 <tr class="separator:a866c4b1f53fad0f000657eaccf7fcc73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade7b770307420fa96585cff068b6e365"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8c.html#ade7b770307420fa96585cff068b6e365">DeleteAllEnemies</a> (void)</td></tr>
 <tr class="separator:ade7b770307420fa96585cff068b6e365"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -395,25 +414,14 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a98c1d370793b7ae92bc60c6b18f70b59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98c1d370793b7ae92bc60c6b18f70b59">&#9670;&nbsp;</a></span>CheckDontUpdate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a> CheckDontUpdate </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>this</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Check if entity should sleep this frame (according to priority). </p>
+<p>Add an <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> to the end of a <a class="el" href="structLinkedList.html" title="Entity linked list structure.">LinkedList</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entity</td><td><a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> to add. </td></tr>
+    <tr><td class="paramname">listIndex</td><td>Target <a class="el" href="structLinkedList.html" title="Entity linked list structure.">LinkedList</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -498,8 +506,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Search all lists for an entity of same kind and id. </p>
-<dl class="section return"><dt>Returns</dt><dd>Entity* First result or NULL if none found </dd></dl>
+<p>Search all lists for an <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> of same kind and id. </p>
+<dl class="section return"><dt>Returns</dt><dd>Entity* First result or NULL if none found. </dd></dl>
 
 </div>
 </div>
@@ -549,13 +557,19 @@ Variables</h2></td></tr>
           <td class="memname">void DeleteEntity </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>ent</em></td><td>)</td>
+          <td class="paramname"><em>entity</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Delete an entity. </p>
+<p>Delete an <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entity</td><td><a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> to delete. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -569,11 +583,19 @@ Variables</h2></td></tr>
           <td class="memname">void DeleteEntityAny </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>ent</em></td><td>)</td>
+          <td class="paramname"><em>entity</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Delete <a class="el" href="structManager.html">Manager</a> or <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entity</td><td><a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> or <a class="el" href="structManager.html">Manager</a> to be deleted. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -587,11 +609,19 @@ Variables</h2></td></tr>
           <td class="memname">void DeleteManager </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>ent</em></td><td>)</td>
+          <td class="paramname"><em>manager</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Delete a manager. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">manager</td><td><a class="el" href="structManager.html">Manager</a> to delete. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -629,7 +659,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Delete the entity currently in execution. </p>
+<p>Delete the <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> currently in execution. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structUpdateContext.html">UpdateContext</a> </dd></dl>
 
 </div>
 </div>
@@ -643,14 +674,34 @@ Variables</h2></td></tr>
           <td class="memname"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a> EntityHasDuplicateID </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>ent</em></td><td>)</td>
+          <td class="paramname"><em>entity</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Search all lists for entity of same kind and id. </p>
-<dl class="section return"><dt>Returns</dt><dd>bool32 Duplicate was entity found </dd></dl>
+<p>Search all lists for <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> of same kind and id. </p>
+<dl class="section return"><dt>Returns</dt><dd>bool32 Duplicate was found. </dd></dl>
+
+</div>
+</div>
+<a id="a63bb59f3e0dba06e049b7d2a67e01dbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63bb59f3e0dba06e049b7d2a67e01dbb">&#9670;&nbsp;</a></span>EntityIsDeleted()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a> EntityIsDeleted </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if entity will be deleted next frame. </p>
 
 </div>
 </div>
@@ -669,6 +720,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Erase all <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a>'s. </p>
 
 </div>
 </div>
@@ -716,8 +769,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Find <a class="el" href="structEntity.html">Entity</a> with full identifiers. </p>
-<dl class="section return"><dt>Returns</dt><dd>Entity* First result or NULL if none found </dd></dl>
+<p>Find an <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> with full identifiers. </p>
+<dl class="section return"><dt>Returns</dt><dd>Entity* First result or NULL if none found. </dd></dl>
 
 </div>
 </div>
@@ -753,8 +806,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Find an entity for a given kind and ID. </p>
-<dl class="section return"><dt>Returns</dt><dd>Entity* First result or NULL if none found </dd></dl>
+<p>Find an <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> for a given kind and id, and <a class="el" href="structLinkedList.html" title="Entity linked list structure.">LinkedList</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>Entity* First result or NULL if none found. </dd></dl>
 
 </div>
 </div>
@@ -768,7 +821,7 @@ Variables</h2></td></tr>
           <td class="memname"><a class="el" href="structEntity.html">Entity</a>* FindNextDuplicateID </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>ent</em>, </td>
+          <td class="paramname"><em>entity</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -784,8 +837,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Find an entity of same kind and id in list. </p>
-<dl class="section return"><dt>Returns</dt><dd>Entity* First result or NULL if none found </dd></dl>
+<p>Find an <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> of same kind and id in <a class="el" href="structLinkedList.html" title="Entity linked list structure.">LinkedList</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>Entity* First result or NULL if none found. </dd></dl>
 
 </div>
 </div>
@@ -804,6 +857,9 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Allocate a new <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>Allocated <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> or NULL if failed. </dd></dl>
 
 </div>
 </div>
@@ -869,6 +925,15 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Add an <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> to the start of a <a class="el" href="structLinkedList.html" title="Entity linked list structure.">LinkedList</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entity</td><td><a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> to add. </td></tr>
+    <tr><td class="paramname">listIndex</td><td>Target <a class="el" href="structLinkedList.html" title="Entity linked list structure.">LinkedList</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="ad62223313d05c2bb619dcb5bdf413c1e"></a>
@@ -925,11 +990,19 @@ Variables</h2></td></tr>
           <td class="memname">void RequestPriority </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>this</em></td><td>)</td>
+          <td class="paramname"><em>entity</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Request indefinite priority for an <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entity</td><td><a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> requesting priority. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -943,7 +1016,7 @@ Variables</h2></td></tr>
           <td class="memname">void RequestPriorityDuration </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>this</em>, </td>
+          <td class="paramname"><em>entity</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -959,6 +1032,15 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Request update priority over other <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a>'s for a period of time. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entity</td><td><a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> requesting priority. </td></tr>
+    <tr><td class="paramname">time</td><td>Number of frames. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="ab0c78790708c48da9467122e06d94674"></a>
@@ -971,11 +1053,19 @@ Variables</h2></td></tr>
           <td class="memname">void RequestPriorityOverPlayer </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>this</em></td><td>)</td>
+          <td class="paramname"><em>entity</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Request priority over player update. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entity</td><td><a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> requesting priority. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -995,6 +1085,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Reset a priority event requested by an <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a>. </p>
+
 </div>
 </div>
 <a id="a7faa91fbaed882b4a52c469d7b72219d"></a>
@@ -1012,6 +1104,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Reset entity and system priority to defaults. </p>
 
 </div>
 </div>
@@ -1031,6 +1125,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Reset the system update priority. </p>
+
 </div>
 </div>
 <a id="a3e8ffe04b055b88fa7686d8e7b4a4824"></a>
@@ -1043,11 +1139,19 @@ Variables</h2></td></tr>
           <td class="memname">void RevokePriority </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>e</em></td><td>)</td>
+          <td class="paramname"><em>entity</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Revoke priority from an <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entity</td><td><a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> which requested priority. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1061,11 +1165,19 @@ Variables</h2></td></tr>
           <td class="memname">void RevokePriorityOverPlayer </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>this</em></td><td>)</td>
+          <td class="paramname"><em>entity</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Revoke priority over player update. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entity</td><td><a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> which requested priority. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1079,7 +1191,7 @@ Variables</h2></td></tr>
           <td class="memname">void SetDefaultPriority </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>ent</em>, </td>
+          <td class="paramname"><em>entity</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1096,6 +1208,13 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Set the default priority for entity. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entity</td><td><a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> to set the priority of. </td></tr>
+    <tr><td class="paramname">prio</td><td><a class="el" href="entity_8h.html#a315655b1bb5848c063491adffde62b15" title="Priority level to determine what events will block an Entity from updating.">Priority</a> level. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1115,6 +1234,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Set system priority to <a class="el" href="entity_8h.html#a315655b1bb5848c063491adffde62b15a9c607c121a82da3abd2b000e0e0d837f" title="Do not block EVER.">PRIO_HIGHEST</a>. </p>
+
 </div>
 </div>
 <a id="a2874199aaab29c8977ea728c51a5f925"></a>
@@ -1133,7 +1254,14 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="structEntity.html">Entity</a> Priority: Update blocking events requested by an entity. </p>
+<p>Set the minimum <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> priority. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prio</td><td>Minimum <a class="el" href="entity_8h.html#a315655b1bb5848c063491adffde62b15" title="Priority level to determine what events will block an Entity from updating.">Priority</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Success. </dd></dl>
 
 </div>
 </div>
@@ -1153,7 +1281,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>System Priority: Update blocking events sent by the engine. </p>
+<p>Set entity and system priority to <a class="el" href="entity_8h.html#a315655b1bb5848c063491adffde62b15ace0388e7ecc035747816508bb1e82486" title="Do not block during special player event.">PRIO_PLAYER_EVENT</a>. </p>
 
 </div>
 </div>
@@ -1173,6 +1301,14 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Set the remaining frames of <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> priority. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time</td><td>Number of frames. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a86fc118cbdd9f0fe5cc3ec5101cbd099"></a>
@@ -1190,6 +1326,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Set system priority to <a class="el" href="entity_8h.html#a315655b1bb5848c063491adffde62b15ace0388e7ecc035747816508bb1e82486" title="Do not block during special player event.">PRIO_PLAYER_EVENT</a>. </p>
 
 </div>
 </div>
@@ -1469,6 +1607,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Iteratively execute every <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a>. </p>
+<p>Call once per frame. </p>
+
 </div>
 </div>
 <a id="ae2e894816514e5c5101bcd4b53cdac99"></a>
@@ -1504,6 +1645,9 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Iteratively execute every <a class="el" href="structManager.html">Manager</a>. </p>
+<p>Call once per frame. </p>
 
 </div>
 </div>
