@@ -88,6 +88,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="message_8h_source.html">message.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="npc_8h_source.html">npc.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="manager_8h_source.html">manager.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for castleMaid.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -95,43 +96,44 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="castleMaid_8c__incl.png" border="0" usemap="#asrc_2npc_2castleMaid_8c" alt=""/></div>
 <map name="asrc_2npc_2castleMaid_8c" id="asrc_2npc_2castleMaid_8c">
-<area shape="rect" title=" " alt="" coords="403,5,546,32"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="465,379,527,405"/>
-<area shape="rect" href="script_8h.html" title=" " alt="" coords="373,155,437,181"/>
-<area shape="rect" href="save_8h.html" title=" " alt="" coords="181,155,241,181"/>
-<area shape="rect" href="flags_8h.html" title=" " alt="" coords="1045,155,1104,181"/>
-<area shape="rect" href="message_8h.html" title=" " alt="" coords="71,155,156,181"/>
-<area shape="rect" href="npc_8h.html" title=" " alt="" coords="572,80,625,107"/>
-<area shape="rect" href="manager_8h.html" title=" " alt="" coords="995,304,1077,331"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="599,528,665,555"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="534,453,594,480"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="395,453,459,480"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="734,603,813,629"/>
-<area shape="rect" title=" " alt="" coords="459,677,523,704"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1017,677,1090,704"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1115,677,1181,704"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="669,752,731,779"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="547,677,639,704"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="664,677,736,704"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="811,677,879,704"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="904,677,992,704"/>
-<area shape="rect" title=" " alt="" coords="1019,752,1087,779"/>
-<area shape="rect" title=" " alt="" coords="668,827,732,853"/>
-<area shape="rect" href="player_8h.html" title=" " alt="" coords="296,304,363,331"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="144,229,235,256"/>
-<area shape="rect" href="room_8h.html" title=" " alt="" coords="613,304,675,331"/>
-<area shape="rect" href="asm_8h.html" title=" " alt="" coords="761,229,818,256"/>
-<area shape="rect" href="common_8h.html" title=" " alt="" coords="771,379,853,405"/>
-<area shape="rect" href="sound_8h.html" title=" " alt="" coords="877,379,944,405"/>
-<area shape="rect" href="effects_8h.html" title=" " alt="" coords="563,229,634,256"/>
-<area shape="rect" href="coord_8h.html" title=" " alt="" coords="699,304,763,331"/>
+<area shape="rect" title=" " alt="" coords="602,5,745,32"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="577,379,639,405"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="597,229,661,256"/>
+<area shape="rect" href="save_8h.html" title=" " alt="" coords="145,155,205,181"/>
+<area shape="rect" href="flags_8h.html" title=" " alt="" coords="1280,155,1339,181"/>
+<area shape="rect" href="message_8h.html" title=" " alt="" coords="837,155,923,181"/>
+<area shape="rect" href="npc_8h.html" title=" " alt="" coords="723,80,776,107"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="888,229,971,256"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="424,155,509,181"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="729,528,796,555"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="699,453,759,480"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="560,453,624,480"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="874,603,953,629"/>
+<area shape="rect" title=" " alt="" coords="579,677,643,704"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1226,677,1299,704"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1135,677,1201,704"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="778,752,841,779"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="763,677,855,704"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="667,677,739,704"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="879,677,947,704"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="972,677,1060,704"/>
+<area shape="rect" title=" " alt="" coords="1229,752,1297,779"/>
+<area shape="rect" title=" " alt="" coords="777,827,841,853"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="309,304,376,331"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="381,229,472,256"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="93,229,155,256"/>
+<area shape="rect" href="asm_8h.html" title=" " alt="" coords="1091,379,1149,405"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="1145,304,1228,331"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="1224,379,1291,405"/>
+<area shape="rect" href="effects_8h.html" title=" " alt="" coords="603,304,674,331"/>
+<area shape="rect" href="coord_8h.html" title=" " alt="" coords="749,304,813,331"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:afe62f55c85979e4cfecd6d5caf380102"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="castleMaid_8c.html#afe62f55c85979e4cfecd6d5caf380102">sub_08064570</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:afe62f55c85979e4cfecd6d5caf380102"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade768cce6e11a79f37e4ac64c99097ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="castleMaid_8c.html#ade768cce6e11a79f37e4ac64c99097ff">sub_08064570</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
+<tr class="separator:ade768cce6e11a79f37e4ac64c99097ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc294af55f97ba1bd954413c7978c57c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="castleMaid_8c.html#afc294af55f97ba1bd954413c7978c57c">_call_via_r0</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> *)</td></tr>
 <tr class="separator:afc294af55f97ba1bd954413c7978c57c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4647d60624705a76d898850a5e416aa6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="castleMaid_8c.html#a4647d60624705a76d898850a5e416aa6">Maid</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
@@ -144,6 +146,8 @@ Functions</h2></td></tr>
 <tr class="separator:a83b6a6d473892eb06db623369afd1cce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acead3f8bfc571583cf6bfb9e808ae414"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="castleMaid_8c.html#acead3f8bfc571583cf6bfb9e808ae414">sub_08064688</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
 <tr class="separator:acead3f8bfc571583cf6bfb9e808ae414"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c6bdb5e179444ef977baefd880416d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="castleMaid_8c.html#a0c6bdb5e179444ef977baefd880416d1">sub_080646A4</a> (<a class="el" href="structEntity.html">Entity</a> *this, <a class="el" href="structScriptExecutionContext.html">ScriptExecutionContext</a> *<a class="el" href="sittingPerson_8c.html#a310873600c558d2308f3f8b74f92c132">context</a>)</td></tr>
+<tr class="separator:a0c6bdb5e179444ef977baefd880416d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -153,8 +157,6 @@ Variables</h2></td></tr>
 <tr class="separator:ab31725fb1cd92528901f77829262c235"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10815e86624fae5aedfec9ee59f92107"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structSpriteLoadData.html">SpriteLoadData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="castleMaid_8c.html#a10815e86624fae5aedfec9ee59f92107">gUnk_0810F874</a> []</td></tr>
 <tr class="separator:a10815e86624fae5aedfec9ee59f92107"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3408989cdcad30ebbb758d89c897c6e"><td class="memItemLeft" align="right" valign="top">asm non_matching castleMaid <a class="el" href="castleMaid_8c.html#afe62f55c85979e4cfecd6d5caf380102">sub_08064570</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="castleMaid_8c.html#ab3408989cdcad30ebbb758d89c897c6e">inc</a></td></tr>
-<tr class="separator:ab3408989cdcad30ebbb758d89c897c6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="afc294af55f97ba1bd954413c7978c57c"></a>
@@ -211,14 +213,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="afe62f55c85979e4cfecd6d5caf380102"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe62f55c85979e4cfecd6d5caf380102">&#9670;&nbsp;</a></span>sub_08064570()</h2>
+<a id="ade768cce6e11a79f37e4ac64c99097ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade768cce6e11a79f37e4ac64c99097ff">&#9670;&nbsp;</a></span>sub_08064570()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm non_matching castleMaid sub_08064570 void sub_08064570 </td>
+          <td class="memname">void sub_08064570 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
@@ -293,6 +295,34 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a0c6bdb5e179444ef977baefd880416d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c6bdb5e179444ef977baefd880416d1">&#9670;&nbsp;</a></span>sub_080646A4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_080646A4 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramname"><em>this</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structScriptExecutionContext.html">ScriptExecutionContext</a> *&#160;</td>
+          <td class="paramname"><em>context</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="a10815e86624fae5aedfec9ee59f92107"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a10815e86624fae5aedfec9ee59f92107">&#9670;&nbsp;</a></span>gUnk_0810F874</h2>
@@ -356,20 +386,6 @@ Variables</h2></td></tr>
 <span class="mlabels"><span class="mlabel">extern</span></span>  </td>
   </tr>
 </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab3408989cdcad30ebbb758d89c897c6e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3408989cdcad30ebbb758d89c897c6e">&#9670;&nbsp;</a></span>inc</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">asm non_matching castleMaid sub_080646A4 inc</td>
-        </tr>
-      </table>
 </div><div class="memdoc">
 
 </div>
