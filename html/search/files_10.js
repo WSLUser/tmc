@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['railtrack_2ec_16503',['railtrack.c',['../railtrack_8c.html',1,'']]],
-  ['readme_2emd_16504',['README.md',['../README_8md.html',1,'']]],
-  ['rem_2ec_16505',['rem.c',['../rem_8c.html',1,'']]],
-  ['removabledust_2ec_16506',['removableDust.c',['../removableDust_8c.html',1,'']]],
+  ['railtrack_2ec_16502',['railtrack.c',['../railtrack_8c.html',1,'']]],
+  ['readme_2emd_16503',['README.md',['../README_8md.html',1,'']]],
+  ['rem_2ec_16504',['rem.c',['../rem_8c.html',1,'']]],
+  ['removabledust_2ec_16505',['removableDust.c',['../removableDust_8c.html',1,'']]],
+  ['respawnplayer_2ec_16506',['respawnPlayer.c',['../respawnPlayer_8c.html',1,'']]],
   ['rockchuchu_2ec_16507',['rockChuchu.c',['../rockChuchu_8c.html',1,'']]],
   ['rockprojectile_2ec_16508',['rockProjectile.c',['../rockProjectile_8c.html',1,'']]],
   ['rollobite_2ec_16509',['rollobite.c',['../rollobite_8c.html',1,'']]],

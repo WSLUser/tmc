@@ -30,7 +30,7 @@ var searchData=
   ['resetfademask_17957',['ResetFadeMask',['../fade_8c.html#a4486f812403d2f3122c994adaa999cdc',1,'ResetFadeMask(void):&#160;fade.c'],['../fade_8h.html#a4486f812403d2f3122c994adaa999cdc',1,'ResetFadeMask(void):&#160;fade.c']]],
   ['resetpalettes_17958',['ResetPalettes',['../main_8h.html#a662e8e3421300e19969a180455a5de09',1,'main.h']]],
   ['resetpalettetable_17959',['ResetPaletteTable',['../color_8c.html#a0086e5909b8c9fc0b1b6252b8aa5df30',1,'ResetPaletteTable(u32 a1):&#160;color.c'],['../color_8h.html#a0086e5909b8c9fc0b1b6252b8aa5df30',1,'ResetPaletteTable(u32 a1):&#160;color.c']]],
-  ['resetplayer_17960',['ResetPlayer',['../player_8h.html#a29db68954d4fc70b6666b28835b876df',1,'player.h']]],
+  ['resetplayer_17960',['ResetPlayer',['../respawnPlayer_8c.html#aefb6d45f5a401eba55e94eb9088f17db',1,'ResetPlayer():&#160;respawnPlayer.c'],['../player_8h.html#a29db68954d4fc70b6666b28835b876df',1,'ResetPlayer(void):&#160;respawnPlayer.c']]],
   ['resetplayeranimationandaction_17961',['ResetPlayerAnimationAndAction',['../player_8h.html#a93523b5cbd6a98fc115041033fd52c7a',1,'player.h']]],
   ['resetplayereventpriority_17962',['ResetPlayerEventPriority',['../entity_8c.html#a7faa91fbaed882b4a52c469d7b72219d',1,'ResetPlayerEventPriority(void):&#160;entity.c'],['../entity_8h.html#a7faa91fbaed882b4a52c469d7b72219d',1,'ResetPlayerEventPriority(void):&#160;entity.c']]],
   ['resetplayerflag_17963',['ResetPlayerFlag',['../script_8c.html#afc5bef96ae7def3f669961fb2d5d2412',1,'script.c']]],
