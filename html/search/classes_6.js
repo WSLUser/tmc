@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['gfxitem_15961',['GfxItem',['../structGfxItem.html',1,'']]],
-  ['goronshopspawndata_15962',['GoronShopSpawnData',['../structGoronShopSpawnData.html',1,'']]],
-  ['gunk_5f0810c89c_5fstruct_15963',['gUnk_0810C89C_struct',['../structgUnk__0810C89C__struct.html',1,'']]]
+  ['gfxitem_15968',['GfxItem',['../structGfxItem.html',1,'']]],
+  ['goronshopspawndata_15969',['GoronShopSpawnData',['../structGoronShopSpawnData.html',1,'']]],
+  ['gunk_5f0810c89c_5fstruct_15970',['gUnk_0810C89C_struct',['../structgUnk__0810C89C__struct.html',1,'']]]
 ];
