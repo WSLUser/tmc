@@ -274,8 +274,8 @@ var searchData=
   ['dungeon_5fy_1354',['dungeon_y',['../structPlayerRoomStatus.html#aac5acaace9515e8b25a10ff4bb1420fb',1,'PlayerRoomStatus']]],
   ['dungeonlayout_1355',['DungeonLayout',['../structDungeonLayout.html',1,'']]],
   ['duration_1356',['duration',['../structFrame.html#aa63eb5276e5139e28f3df0c39b62c052',1,'Frame']]],
-  ['dust_1357',['Dust',['../enemy_8h.html#a54614f927628dd04eede7a682b228509',1,'enemy.h']]],
-  ['dust_1358',['DUST',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba5456265ad77aaf26fac342cd8128290f',1,'enemy.h']]],
+  ['dust_1357',['DUST',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba5456265ad77aaf26fac342cd8128290f',1,'enemy.h']]],
+  ['dust_1358',['Dust',['../enemy_8h.html#a54614f927628dd04eede7a682b228509',1,'enemy.h']]],
   ['dx_1359',['dx',['../structBgAffineDstData.html#a9854bc6c056eaf7997fe502e63d11649',1,'BgAffineDstData::dx()'],['../structBgTransformationSettings.html#a78ac2dc26bc5ff72e7f4e0c8540231cb',1,'BgTransformationSettings::dx()']]],
   ['dy_1360',['dy',['../structBgAffineDstData.html#a04ad69f043c09619f055f79668b65579',1,'BgAffineDstData::dy()'],['../structBgTransformationSettings.html#a9348b4995d2a99e5e071c57a3e8d7916',1,'BgTransformationSettings::dy()']]]
 ];
