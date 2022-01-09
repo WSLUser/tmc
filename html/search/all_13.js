@@ -3668,7 +3668,7 @@ var searchData=
   ['sub_5f08054564_11765',['sub_08054564',['../functions_8h.html#a7747c0a8cef2183c704646b1a0105583',1,'sub_08054564():&#160;code_0805436C.c'],['../code__0805436C_8c.html#a854cfe817175bf12fe5aa61972963b0e',1,'sub_08054564(void):&#160;code_0805436C.c']]],
   ['sub_5f08054570_11766',['sub_08054570',['../code__0805436C_8c.html#a4088608c1d2e4bd1f62ac918dba21991',1,'sub_08054570(void):&#160;code_0805436C.c'],['../functions_8h.html#a4088608c1d2e4bd1f62ac918dba21991',1,'sub_08054570(void):&#160;code_0805436C.c']]],
   ['sub_5f0805457c_11767',['sub_0805457C',['../code__0805436C_8c.html#aa0a58ea6de45a0fc8a699c88bec3500d',1,'sub_0805457C(u32 arg0, u32 arg1)):&#160;code_0805436C.c'],['../mask_8c.html#a6fe0a817d188810c98763d5f9bbbdaf2',1,'sub_0805457C(Entity *, s32):&#160;mask.c']]],
-  ['sub_5f08054a60_11768',['sub_08054A60',['../playerItemLantern_8c.html#a19277561d07969c6975e15ca18b81ba9',1,'playerItemLantern.c']]],
+  ['sub_5f08054a60_11768',['sub_08054A60',['../playerItemLantern_8c.html#a7eebae5b36e214fa13d22fb695a5f91c',1,'playerItemLantern.c']]],
   ['sub_5f08054ac8_11769',['sub_08054AC8',['../playerItemLantern_8c.html#adc6d93372d64078e31fda26c7132cb6f',1,'playerItemLantern.c']]],
   ['sub_5f08055b70_11770',['sub_08055B70',['../sub__08055E08_8c.html#a722e8e14b7b232007fe373f5d8833457',1,'sub_08055E08.c']]],
   ['sub_5f08055e08_11771',['sub_08055E08',['../sub__08055E08_8c.html#a81f9f9aefe29b23800fd44400b38f845',1,'sub_08055E08.c']]],
