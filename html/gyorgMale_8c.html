@@ -75,6 +75,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -89,6 +90,8 @@ $(function() {
 <code>#include &quot;<a class="el" href="player_8h_source.html">player.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="fileselect_8h_source.html">fileselect.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="effects_8h_source.html">effects.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="gyorg_8h_source.html">enemy/gyorg.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for gyorgMale.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -96,194 +99,202 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="gyorgMale_8c__incl.png" border="0" usemap="#asrc_2enemy_2gyorgMale_8c" alt=""/></div>
 <map name="asrc_2enemy_2gyorgMale_8c" id="asrc_2enemy_2gyorgMale_8c">
-<area shape="rect" title="Gyorg Male enemy." alt="" coords="381,5,536,32"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="673,528,740,555"/>
-<area shape="rect" href="enemy_8h.html" title=" " alt="" coords="282,229,353,256"/>
-<area shape="rect" href="player_8h.html" title=" " alt="" coords="795,304,861,331"/>
-<area shape="rect" href="fileselect_8h.html" title=" " alt="" coords="417,80,500,107"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="972,155,1057,181"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="795,603,874,629"/>
-<area shape="rect" title=" " alt="" coords="547,677,611,704"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1194,677,1267,704"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="635,677,701,704"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="803,752,866,779"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="873,677,965,704"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="725,677,797,704"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="989,677,1057,704"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="1081,677,1169,704"/>
-<area shape="rect" title=" " alt="" coords="1197,752,1265,779"/>
-<area shape="rect" title=" " alt="" coords="803,827,867,853"/>
-<area shape="rect" href="asm_8h.html" title=" " alt="" coords="121,379,178,405"/>
-<area shape="rect" href="sound_8h.html" title=" " alt="" coords="355,304,421,331"/>
-<area shape="rect" href="effects_8h.html" title=" " alt="" coords="497,304,567,331"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="918,379,981,405"/>
-<area shape="rect" href="flags_8h.html" title=" " alt="" coords="253,379,312,405"/>
-<area shape="rect" href="common_8h.html" title=" " alt="" coords="308,453,391,480"/>
-<area shape="rect" href="projectile_8h.html" title=" " alt="" coords="43,304,127,331"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="987,453,1047,480"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="848,453,912,480"/>
-<area shape="rect" href="save_8h.html" title=" " alt="" coords="665,155,725,181"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="649,229,740,256"/>
-<area shape="rect" href="room_8h.html" title=" " alt="" coords="916,229,977,256"/>
-<area shape="rect" href="manager_8h.html" title=" " alt="" coords="1176,304,1259,331"/>
-<area shape="rect" href="coord_8h.html" title=" " alt="" coords="1088,304,1152,331"/>
-<area shape="rect" href="script_8h.html" title=" " alt="" coords="1052,229,1116,256"/>
+<area shape="rect" title="Gyorg Male enemy." alt="" coords="476,5,631,32"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="721,528,788,555"/>
+<area shape="rect" href="enemy_8h.html" title=" " alt="" coords="310,229,381,256"/>
+<area shape="rect" href="effects_8h.html" title=" " alt="" coords="626,304,697,331"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="721,304,788,331"/>
+<area shape="rect" href="fileselect_8h.html" title=" " alt="" coords="512,80,595,107"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="1000,155,1085,181"/>
+<area shape="rect" href="gyorg_8h.html" title=" " alt="" coords="383,80,489,107"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="866,603,945,629"/>
+<area shape="rect" title=" " alt="" coords="571,677,635,704"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1218,677,1291,704"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1127,677,1193,704"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="770,752,833,779"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="755,677,847,704"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="659,677,731,704"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="871,677,939,704"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="964,677,1052,704"/>
+<area shape="rect" title=" " alt="" coords="1221,752,1289,779"/>
+<area shape="rect" title=" " alt="" coords="769,827,833,853"/>
+<area shape="rect" href="asm_8h.html" title=" " alt="" coords="150,379,207,405"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="383,304,449,331"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="963,379,1026,405"/>
+<area shape="rect" href="flags_8h.html" title=" " alt="" coords="353,453,412,480"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="43,379,125,405"/>
+<area shape="rect" href="projectile_8h.html" title=" " alt="" coords="223,304,307,331"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="1050,453,1110,480"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="911,453,975,480"/>
+<area shape="rect" href="save_8h.html" title=" " alt="" coords="558,155,618,181"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="811,229,901,256"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="925,229,987,256"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="1204,304,1287,331"/>
+<area shape="rect" href="coord_8h.html" title=" " alt="" coords="1116,304,1180,331"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="1011,229,1075,256"/>
 </map>
 </div>
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ad9d9839ea73fbe32257e340298da916d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#ad9d9839ea73fbe32257e340298da916d">NENT_DEPRECATED</a></td></tr>
+<tr class="separator:ad9d9839ea73fbe32257e340298da916d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1442981bdf0044f65fa9c97fdcaa6ab4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a1442981bdf0044f65fa9c97fdcaa6ab4">sub_08046898</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a1442981bdf0044f65fa9c97fdcaa6ab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a816410be109f88a7b510966f70386c05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a816410be109f88a7b510966f70386c05">sub_08046910</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a816410be109f88a7b510966f70386c05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e92b3801088b0468d33c185bc483643"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a5e92b3801088b0468d33c185bc483643">sub_08046930</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a5e92b3801088b0468d33c185bc483643"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f186df5cb7c8a26ca312ff707735f7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a0f186df5cb7c8a26ca312ff707735f7e">sub_0804696C</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a0f186df5cb7c8a26ca312ff707735f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97daa247d6ebc4689c33d6a005f54138"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a97daa247d6ebc4689c33d6a005f54138">sub_080469CC</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a97daa247d6ebc4689c33d6a005f54138"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a407ea681e1d45d2167d37bd782c08992"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a407ea681e1d45d2167d37bd782c08992">sub_080469F4</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a407ea681e1d45d2167d37bd782c08992"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14b9e9b83e5be70f37390eb9a82fafbb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a14b9e9b83e5be70f37390eb9a82fafbb">sub_08046A30</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a14b9e9b83e5be70f37390eb9a82fafbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94a5c87b1ac822ab22763c9da5747691"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a94a5c87b1ac822ab22763c9da5747691">sub_08046A54</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a94a5c87b1ac822ab22763c9da5747691"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7c819901d0a876d6a5423ddf1d10375"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#ad7c819901d0a876d6a5423ddf1d10375">sub_08046A78</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:ad7c819901d0a876d6a5423ddf1d10375"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb20586a1cab856d2f81313aec6acfcd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#abb20586a1cab856d2f81313aec6acfcd">sub_08046A9C</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:abb20586a1cab856d2f81313aec6acfcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1f3cde6dd3cc1bfc6f0862fe19e4ba4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#ac1f3cde6dd3cc1bfc6f0862fe19e4ba4">sub_08046AE8</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:ac1f3cde6dd3cc1bfc6f0862fe19e4ba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6934d54b2c208fef121b255d829d13e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a6934d54b2c208fef121b255d829d13e8">sub_08046B18</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a6934d54b2c208fef121b255d829d13e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b95bb08ad0cc5b25977ae0a1e11d701"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a3b95bb08ad0cc5b25977ae0a1e11d701">sub_08046B8C</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a3b95bb08ad0cc5b25977ae0a1e11d701"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70785de665b793221b0ba8053f294a31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a70785de665b793221b0ba8053f294a31">sub_08046C04</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a70785de665b793221b0ba8053f294a31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b664f0ba4ec21fb531218606edb4b88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a7b664f0ba4ec21fb531218606edb4b88">sub_08046C88</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a7b664f0ba4ec21fb531218606edb4b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab13fe643e916c468263eba0af2712ca4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#ab13fe643e916c468263eba0af2712ca4">sub_08046CEC</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:ab13fe643e916c468263eba0af2712ca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39a3134fa124bb1ff1be469571c77b6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a39a3134fa124bb1ff1be469571c77b6e">sub_08046D44</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a39a3134fa124bb1ff1be469571c77b6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65d3d662bfb903cf41aa086bbbaa7f62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a65d3d662bfb903cf41aa086bbbaa7f62">sub_08046D98</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a65d3d662bfb903cf41aa086bbbaa7f62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a605c52f77145b85eb1288e427dab4990"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a605c52f77145b85eb1288e427dab4990">sub_08046E0C</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a605c52f77145b85eb1288e427dab4990"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac63a75d8cc36d6578231ac47ce5e54c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#ac63a75d8cc36d6578231ac47ce5e54c4">sub_08046E68</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:ac63a75d8cc36d6578231ac47ce5e54c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf6543c5b9fe5a83939da2151adb81ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#abf6543c5b9fe5a83939da2151adb81ea">sub_08046EF4</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:abf6543c5b9fe5a83939da2151adb81ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2dff734fa2d36d2b478604ed51c71979"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a2dff734fa2d36d2b478604ed51c71979">sub_08046F64</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a2dff734fa2d36d2b478604ed51c71979"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a559233246a8ea42bbccfc28201b7aa23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a559233246a8ea42bbccfc28201b7aa23">sub_08046FE8</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a559233246a8ea42bbccfc28201b7aa23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fff30879d738d95658bcff890c64068"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a3fff30879d738d95658bcff890c64068">sub_0804702C</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a3fff30879d738d95658bcff890c64068"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39db40786043bb9d7e9a86dcc3e19fe4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a39db40786043bb9d7e9a86dcc3e19fe4">sub_080470B4</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a39db40786043bb9d7e9a86dcc3e19fe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9dc6327e384b763520b0645fd691327a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a9dc6327e384b763520b0645fd691327a">sub_08047140</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a9dc6327e384b763520b0645fd691327a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53978a797d1c7f9def3f57d86a1e5780"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a53978a797d1c7f9def3f57d86a1e5780">sub_0804717C</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a53978a797d1c7f9def3f57d86a1e5780"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ff91f838343f737578d8d76b03b427e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a2ff91f838343f737578d8d76b03b427e">sub_080471C8</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a2ff91f838343f737578d8d76b03b427e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3583ef8cb7d88b0579dd3676f6afda8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#ad3583ef8cb7d88b0579dd3676f6afda8">sub_0804723C</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:ad3583ef8cb7d88b0579dd3676f6afda8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add7f7dea2957bf251895f7943af0965b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#add7f7dea2957bf251895f7943af0965b">sub_08047284</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:add7f7dea2957bf251895f7943af0965b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2624684312d359f95d68070aba178d3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a2624684312d359f95d68070aba178d3f">sub_080472BC</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a2624684312d359f95d68070aba178d3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4eef010b0348a4e3fd35bcd10c49f86b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a4eef010b0348a4e3fd35bcd10c49f86b">sub_08047310</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a4eef010b0348a4e3fd35bcd10c49f86b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a114e316845378718e3c1d5efdff4b093"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a114e316845378718e3c1d5efdff4b093">sub_0804736C</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a114e316845378718e3c1d5efdff4b093"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d99439e2942aa9b41c2967d188f776e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a0d99439e2942aa9b41c2967d188f776e">sub_080473B8</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a0d99439e2942aa9b41c2967d188f776e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae321aa87f3da47bdc91635740cca80b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#aae321aa87f3da47bdc91635740cca80b">sub_080473F0</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:aae321aa87f3da47bdc91635740cca80b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a069fe725d82c15328a1bddf3429a28af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a069fe725d82c15328a1bddf3429a28af">sub_08047484</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a069fe725d82c15328a1bddf3429a28af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ddc69c0258a32ad0127eb46e9aaa950"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a7ddc69c0258a32ad0127eb46e9aaa950">sub_08047508</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a7ddc69c0258a32ad0127eb46e9aaa950"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a132cdcf045b3385473c5595ebb274332"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a132cdcf045b3385473c5595ebb274332">sub_080475F4</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a132cdcf045b3385473c5595ebb274332"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace7e05983fc8c531a80e848ebaed9838"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#ace7e05983fc8c531a80e848ebaed9838">sub_0804763C</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:ace7e05983fc8c531a80e848ebaed9838"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a866700096f9d22120b1c2decdb0603c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a866700096f9d22120b1c2decdb0603c9">sub_0804772C</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a866700096f9d22120b1c2decdb0603c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a051fc4ac76d136329f02b03fab88c81d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a051fc4ac76d136329f02b03fab88c81d">sub_08047778</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a051fc4ac76d136329f02b03fab88c81d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a330a04875e72cfa5550b5b39a16bf7cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a330a04875e72cfa5550b5b39a16bf7cd">sub_08047798</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a330a04875e72cfa5550b5b39a16bf7cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97fafb4836bf1b9b3cbd2fd06b194d18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a97fafb4836bf1b9b3cbd2fd06b194d18">sub_080477F0</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a97fafb4836bf1b9b3cbd2fd06b194d18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70765e56e66522733d78e832d7dbce9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a70765e56e66522733d78e832d7dbce9a">sub_08047914</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a70765e56e66522733d78e832d7dbce9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ebf9fdf1f4f6f1f433fef31544c14e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a3ebf9fdf1f4f6f1f433fef31544c14e0">sub_08047978</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a3ebf9fdf1f4f6f1f433fef31544c14e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab48ef8a8ff3bd0a8563aff0d1889c363"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#ab48ef8a8ff3bd0a8563aff0d1889c363">sub_08047B08</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:ab48ef8a8ff3bd0a8563aff0d1889c363"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a172b3fd5d9af938de2413a710fe4c2e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a172b3fd5d9af938de2413a710fe4c2e4">sub_08047B84</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a172b3fd5d9af938de2413a710fe4c2e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11d3450cde2ec00d63ca532581d056d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a11d3450cde2ec00d63ca532581d056d7">sub_08047BA4</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a11d3450cde2ec00d63ca532581d056d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a149c47f590df756cf20dcd901cb98dba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a149c47f590df756cf20dcd901cb98dba">sub_08047BF0</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a149c47f590df756cf20dcd901cb98dba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6052c1b3b7ce42409473e8b9ac39cc19"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a6052c1b3b7ce42409473e8b9ac39cc19">sub_08047D24</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a6052c1b3b7ce42409473e8b9ac39cc19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11ea13a7acebc0e0f7820a1e6f88eac4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a11ea13a7acebc0e0f7820a1e6f88eac4">sub_08047D88</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a11ea13a7acebc0e0f7820a1e6f88eac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05e51bf532fa9b406872937924bee552"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a05e51bf532fa9b406872937924bee552">sub_08047DF0</a> (<a class="el" href="structEntity.html">Entity</a> *, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)</td></tr>
-<tr class="separator:a05e51bf532fa9b406872937924bee552"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3d9289bedb8a65a2b3755e1586246e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#ad3d9289bedb8a65a2b3755e1586246e1">sub_08047E48</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:ad3d9289bedb8a65a2b3755e1586246e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a627df2011bbb33862ecbdec553418762"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a627df2011bbb33862ecbdec553418762">sub_08047E58</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a627df2011bbb33862ecbdec553418762"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa443424c267ff884f69e25fbfc66a16e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#aa443424c267ff884f69e25fbfc66a16e">sub_08047EA4</a> (<a class="el" href="structEntity.html">Entity</a> *, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)</td></tr>
-<tr class="separator:aa443424c267ff884f69e25fbfc66a16e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01ab263d431ae575b9c9bbaf0dfc185a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a01ab263d431ae575b9c9bbaf0dfc185a">sub_08047F68</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a01ab263d431ae575b9c9bbaf0dfc185a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64ed1e2402eee180e0c68e6660cec8f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a64ed1e2402eee180e0c68e6660cec8f8">sub_08048004</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a64ed1e2402eee180e0c68e6660cec8f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c4de7b86cd91817c7a425b9ce452742"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a8c4de7b86cd91817c7a425b9ce452742">sub_0804813C</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a8c4de7b86cd91817c7a425b9ce452742"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f201891d3e98963b0a87138d3ec66b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a8f201891d3e98963b0a87138d3ec66b3">sub_080A1D70</a> (<a class="el" href="structEntity.html">Entity</a> *, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)</td></tr>
+<tr class="separator:a8f201891d3e98963b0a87138d3ec66b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e931dee917139c6ebd32ee1e7b4a565"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a8e931dee917139c6ebd32ee1e7b4a565">sub_08046898</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a8e931dee917139c6ebd32ee1e7b4a565"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82a33f4acbb0382312ad4272a0a6ae38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a82a33f4acbb0382312ad4272a0a6ae38">sub_08046910</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a82a33f4acbb0382312ad4272a0a6ae38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8187c4c618022e731cfd22e05f19e800"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a8187c4c618022e731cfd22e05f19e800">sub_08046930</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a8187c4c618022e731cfd22e05f19e800"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74f9dcbf6313e8a231486e528761c617"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a74f9dcbf6313e8a231486e528761c617">sub_0804696C</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a74f9dcbf6313e8a231486e528761c617"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d9e4f42a5363bb133f1bc04ea4c65c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a5d9e4f42a5363bb133f1bc04ea4c65c7">sub_080469CC</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a5d9e4f42a5363bb133f1bc04ea4c65c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7437648074d8dce40491d3cd88b96d17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a7437648074d8dce40491d3cd88b96d17">sub_080469F4</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a7437648074d8dce40491d3cd88b96d17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac01a195c06ce249bffaa4565377922cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#ac01a195c06ce249bffaa4565377922cc">sub_08046A30</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:ac01a195c06ce249bffaa4565377922cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91f9e02af8b569d3db0d3f0766e6d9c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a91f9e02af8b569d3db0d3f0766e6d9c5">sub_08046A54</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a91f9e02af8b569d3db0d3f0766e6d9c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9307d4ca109f924343b79f1bee778d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#ad9307d4ca109f924343b79f1bee778d3">sub_08046A78</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:ad9307d4ca109f924343b79f1bee778d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf2c9a4de129735837e6b523954cd93e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#acf2c9a4de129735837e6b523954cd93e">sub_08046A9C</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:acf2c9a4de129735837e6b523954cd93e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8afc0b78575e3db29892d6d5cfe4762a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a8afc0b78575e3db29892d6d5cfe4762a">sub_08046AE8</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a8afc0b78575e3db29892d6d5cfe4762a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c39cf8248c83f95dc34b75f8f81cb12"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a6c39cf8248c83f95dc34b75f8f81cb12">sub_08046B18</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a6c39cf8248c83f95dc34b75f8f81cb12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3bba7b32aee2632e93e93f6d95a95c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#ae3bba7b32aee2632e93e93f6d95a95c9">sub_08046B8C</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:ae3bba7b32aee2632e93e93f6d95a95c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4f81a69b17b81147801e60046866d48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#ab4f81a69b17b81147801e60046866d48">sub_08046C04</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:ab4f81a69b17b81147801e60046866d48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70b19faba454ce5ac774b3b0d3fc77d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a70b19faba454ce5ac774b3b0d3fc77d7">sub_08046C88</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a70b19faba454ce5ac774b3b0d3fc77d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9242d51bd1944caf294551bf394f71dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a9242d51bd1944caf294551bf394f71dd">sub_08046CEC</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a9242d51bd1944caf294551bf394f71dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ec665058cc94c2edfe7fed0bc211429"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a4ec665058cc94c2edfe7fed0bc211429">sub_08046D44</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a4ec665058cc94c2edfe7fed0bc211429"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9be766796332af85c69fa79e2db6c457"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a9be766796332af85c69fa79e2db6c457">sub_08046D98</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a9be766796332af85c69fa79e2db6c457"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac654e1226bf58effc5e3fdf0bae99d51"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#ac654e1226bf58effc5e3fdf0bae99d51">sub_08046E0C</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:ac654e1226bf58effc5e3fdf0bae99d51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16ed249dc298954e3e8a7de40de21f04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a16ed249dc298954e3e8a7de40de21f04">sub_08046E68</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a16ed249dc298954e3e8a7de40de21f04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89d3dea4afa4434e07b971760c3610d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a89d3dea4afa4434e07b971760c3610d9">sub_08046EF4</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a89d3dea4afa4434e07b971760c3610d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e860376e7d414a6b74d5e970b231896"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a2e860376e7d414a6b74d5e970b231896">sub_08046F64</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a2e860376e7d414a6b74d5e970b231896"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a194a0cd50a8acce100823e78755f6dc4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a194a0cd50a8acce100823e78755f6dc4">sub_08046FE8</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a194a0cd50a8acce100823e78755f6dc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2709bf58fd9d9e4480586691ddb8ed92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a2709bf58fd9d9e4480586691ddb8ed92">sub_0804702C</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a2709bf58fd9d9e4480586691ddb8ed92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc641d941e79bc0107e24f2ba74bf4ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#afc641d941e79bc0107e24f2ba74bf4ff">sub_080470B4</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:afc641d941e79bc0107e24f2ba74bf4ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa212058836c81c575a2236a6532083d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#aa212058836c81c575a2236a6532083d8">sub_08047140</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:aa212058836c81c575a2236a6532083d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46c969143e99916a82e0651c60691dea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a46c969143e99916a82e0651c60691dea">sub_0804717C</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a46c969143e99916a82e0651c60691dea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a396a92d1d52483868587670e5fa74d8e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a396a92d1d52483868587670e5fa74d8e">sub_080471C8</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a396a92d1d52483868587670e5fa74d8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81010e6337841f3729ecbaa757f45f82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a81010e6337841f3729ecbaa757f45f82">sub_0804723C</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a81010e6337841f3729ecbaa757f45f82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b16f0ea2634866818eff0a65291e60e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a0b16f0ea2634866818eff0a65291e60e">sub_08047284</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a0b16f0ea2634866818eff0a65291e60e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a281fe3faed6944adbd8d9ccbc0ce00ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a281fe3faed6944adbd8d9ccbc0ce00ba">sub_080472BC</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a281fe3faed6944adbd8d9ccbc0ce00ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e3d79b91bcd9fdc79e87429f40ece16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a6e3d79b91bcd9fdc79e87429f40ece16">sub_08047310</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a6e3d79b91bcd9fdc79e87429f40ece16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84dc9d065e770afa1a77083fd671a2b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a84dc9d065e770afa1a77083fd671a2b9">sub_0804736C</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a84dc9d065e770afa1a77083fd671a2b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34fdb6f9482e03201ce2a45e5da70671"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a34fdb6f9482e03201ce2a45e5da70671">sub_080473B8</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a34fdb6f9482e03201ce2a45e5da70671"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb529c779f98602e834c51b688e144c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#acb529c779f98602e834c51b688e144c8">sub_080473F0</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:acb529c779f98602e834c51b688e144c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a388c393f2afe2be88a5c032c943e3d48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a388c393f2afe2be88a5c032c943e3d48">sub_08047484</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a388c393f2afe2be88a5c032c943e3d48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32d245eae3b0f2063249a223c9bb61b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a32d245eae3b0f2063249a223c9bb61b1">sub_08047508</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a32d245eae3b0f2063249a223c9bb61b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c9101306363976f76d11fa9c2ed3c1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a2c9101306363976f76d11fa9c2ed3c1a">sub_080475F4</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a2c9101306363976f76d11fa9c2ed3c1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf7d3d291fee56184a109674fd28d605"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#aaf7d3d291fee56184a109674fd28d605">sub_0804763C</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:aaf7d3d291fee56184a109674fd28d605"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bc689406c08a36011b76c910fc1095e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a3bc689406c08a36011b76c910fc1095e">sub_0804772C</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a3bc689406c08a36011b76c910fc1095e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5444158eeb58255094b36006dffee4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#ae5444158eeb58255094b36006dffee4c">sub_08047778</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:ae5444158eeb58255094b36006dffee4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8785fc7d822c418e59d9465265fc0953"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a8785fc7d822c418e59d9465265fc0953">sub_08047798</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a8785fc7d822c418e59d9465265fc0953"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5272d8fdf25a768b8ab2a4d194a44a45"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a5272d8fdf25a768b8ab2a4d194a44a45">sub_080477F0</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a5272d8fdf25a768b8ab2a4d194a44a45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a917926b6f407dc9132ad43e83051de8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a917926b6f407dc9132ad43e83051de8b">sub_08047914</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a917926b6f407dc9132ad43e83051de8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01247306d77355be6afc5c758dfff7a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a01247306d77355be6afc5c758dfff7a8">sub_08047978</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a01247306d77355be6afc5c758dfff7a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2de5ccb3044c648768b5205d31196a0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a2de5ccb3044c648768b5205d31196a0c">sub_08047B08</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a2de5ccb3044c648768b5205d31196a0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5407630bea00e32f558dd97e2e556de8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a5407630bea00e32f558dd97e2e556de8">sub_08047B84</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a5407630bea00e32f558dd97e2e556de8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a990fae483c7b69697d16023c3c63cb29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a990fae483c7b69697d16023c3c63cb29">sub_08047BA4</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a990fae483c7b69697d16023c3c63cb29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab20de2642e23f7e8e2d5744b95a0c233"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#ab20de2642e23f7e8e2d5744b95a0c233">sub_08047BF0</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:ab20de2642e23f7e8e2d5744b95a0c233"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03adcc531a139a515766cdc4d129f92e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a03adcc531a139a515766cdc4d129f92e">sub_08047D24</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a03adcc531a139a515766cdc4d129f92e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a08840f9e14b06b0abf1bf8acf94f52"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a4a08840f9e14b06b0abf1bf8acf94f52">sub_08047D88</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a4a08840f9e14b06b0abf1bf8acf94f52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac91338470441ae77788687e478f4f94e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#ac91338470441ae77788687e478f4f94e">sub_08047DF0</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)</td></tr>
+<tr class="separator:ac91338470441ae77788687e478f4f94e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a965e68e9ff58e8082cdbf08433f9e505"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a965e68e9ff58e8082cdbf08433f9e505">sub_08047E48</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a965e68e9ff58e8082cdbf08433f9e505"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3d9cb83d30556202944bc930c47ab71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#aa3d9cb83d30556202944bc930c47ab71">sub_08047E58</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:aa3d9cb83d30556202944bc930c47ab71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0793d7d9b978bb803be310528340f4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#af0793d7d9b978bb803be310528340f4e">sub_08047EA4</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)</td></tr>
+<tr class="separator:af0793d7d9b978bb803be310528340f4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a574bcb05e5a9145879c0e32eb68fb8c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a574bcb05e5a9145879c0e32eb68fb8c9">sub_08047F68</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a574bcb05e5a9145879c0e32eb68fb8c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8412dece8165087e0bd22310aa0588c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a8412dece8165087e0bd22310aa0588c3">sub_08048004</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a8412dece8165087e0bd22310aa0588c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e466cd03d5dda2ac63107d32cf2fbde"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a4e466cd03d5dda2ac63107d32cf2fbde">sub_0804813C</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a4e466cd03d5dda2ac63107d32cf2fbde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada3a1c3a002add4e586f11bc034eefba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#ada3a1c3a002add4e586f11bc034eefba">sub_08048158</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)</td></tr>
 <tr class="separator:ada3a1c3a002add4e586f11bc034eefba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a221b28f9abd5f30213d565aa5f657566"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a221b28f9abd5f30213d565aa5f657566">sub_08048178</a> (<a class="el" href="structEntity.html">Entity</a> *, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)</td></tr>
-<tr class="separator:a221b28f9abd5f30213d565aa5f657566"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86f601238e50606b4e90ff8b9249a3af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a86f601238e50606b4e90ff8b9249a3af">GyorgMale</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a86f601238e50606b4e90ff8b9249a3af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ea892228a13c9bd4a2c4a3f229d7e85"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a5ea892228a13c9bd4a2c4a3f229d7e85">sub_08048178</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)</td></tr>
+<tr class="separator:a5ea892228a13c9bd4a2c4a3f229d7e85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7fa78e7d6e8656b2a0caa4ba4450d2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#ae7fa78e7d6e8656b2a0caa4ba4450d2a">GyorgMale</a> (<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *this)</td></tr>
+<tr class="separator:ae7fa78e7d6e8656b2a0caa4ba4450d2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a6a141b22ff062a2aa6d92abb332f3bdf"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a6a141b22ff062a2aa6d92abb332f3bdf">gUnk_080D1AFC</a> [8])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a6a141b22ff062a2aa6d92abb332f3bdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a465e84cd87b0468b89ab84e5c3d133ea"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a465e84cd87b0468b89ab84e5c3d133ea">gUnk_080D1B1C</a> [7])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a465e84cd87b0468b89ab84e5c3d133ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3f2d69d4e4b8e208c92f61abbadc467"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#aa3f2d69d4e4b8e208c92f61abbadc467">gUnk_080D1B38</a> [5])(<a class="el" href="structEntity.html">Entity</a> *) = { <a class="el" href="gyorgMale_8c.html#ac1f3cde6dd3cc1bfc6f0862fe19e4ba4">sub_08046AE8</a>, <a class="el" href="gyorgMale_8c.html#a6934d54b2c208fef121b255d829d13e8">sub_08046B18</a>, <a class="el" href="gyorgMale_8c.html#a3b95bb08ad0cc5b25977ae0a1e11d701">sub_08046B8C</a>, <a class="el" href="gyorgMale_8c.html#a70785de665b793221b0ba8053f294a31">sub_08046C04</a>, <a class="el" href="gyorgMale_8c.html#a7b664f0ba4ec21fb531218606edb4b88">sub_08046C88</a> }</td></tr>
-<tr class="separator:aa3f2d69d4e4b8e208c92f61abbadc467"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10c12d97ceb1f1d374d9701ebbf3e0fb"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a10c12d97ceb1f1d374d9701ebbf3e0fb">gUnk_080D1B4C</a> [5])(<a class="el" href="structEntity.html">Entity</a> *) = { <a class="el" href="gyorgMale_8c.html#a39a3134fa124bb1ff1be469571c77b6e">sub_08046D44</a>, <a class="el" href="gyorgMale_8c.html#a65d3d662bfb903cf41aa086bbbaa7f62">sub_08046D98</a>, <a class="el" href="gyorgMale_8c.html#a605c52f77145b85eb1288e427dab4990">sub_08046E0C</a>, <a class="el" href="gyorgMale_8c.html#ac63a75d8cc36d6578231ac47ce5e54c4">sub_08046E68</a>, <a class="el" href="gyorgMale_8c.html#abf6543c5b9fe5a83939da2151adb81ea">sub_08046EF4</a> }</td></tr>
-<tr class="separator:a10c12d97ceb1f1d374d9701ebbf3e0fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3206d30fe5819c00c0e041e6162b7d63"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a3206d30fe5819c00c0e041e6162b7d63">gUnk_080D1AFC</a> [8])(<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a3206d30fe5819c00c0e041e6162b7d63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ad5abefd51e812a82784487cdf17e2d"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a7ad5abefd51e812a82784487cdf17e2d">gUnk_080D1B1C</a> [7])(<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a7ad5abefd51e812a82784487cdf17e2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af08455ba94df37bf84fd6545a74d604f"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#af08455ba94df37bf84fd6545a74d604f">gUnk_080D1B38</a> [5])(<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:af08455ba94df37bf84fd6545a74d604f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7bc4f927881c2b03ef951767c366791"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#ab7bc4f927881c2b03ef951767c366791">gUnk_080D1B4C</a> [5])(<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:ab7bc4f927881c2b03ef951767c366791"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2685b72d14d9acec887a1036f7d5fd26"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a2685b72d14d9acec887a1036f7d5fd26">gUnk_080D1B60</a> [8] = { 0x200, 0x184, 0x28C, 0x210, 0x200, 0x29C, 0x174, 0x210 }</td></tr>
 <tr class="separator:a2685b72d14d9acec887a1036f7d5fd26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a805cc8a759b32c08d54684c8a5ec8271"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#aa980e2c02ba2305e0f489d5650655425">s16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a805cc8a759b32c08d54684c8a5ec8271">gUnk_080D1B70</a> [2] = { 0x40, -0x40 }</td></tr>
 <tr class="separator:a805cc8a759b32c08d54684c8a5ec8271"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ca8068895fcbbf654b6b5153098a768"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a4ca8068895fcbbf654b6b5153098a768">gUnk_080D1B74</a> [0x10]</td></tr>
 <tr class="separator:a4ca8068895fcbbf654b6b5153098a768"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49d8ec9d5e8e1026f5c65eea754a278c"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a49d8ec9d5e8e1026f5c65eea754a278c">gUnk_080D1B94</a> [0xA])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a49d8ec9d5e8e1026f5c65eea754a278c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaebdacd0c2c2216001b8f388b5cad1e"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#acaebdacd0c2c2216001b8f388b5cad1e">gUnk_080D1B94</a> [0xA])(<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:acaebdacd0c2c2216001b8f388b5cad1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50cfab8b435c3afdda99d529a221521d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a50cfab8b435c3afdda99d529a221521d">gUnk_080D1BBC</a> [2] = { 0x1A0, 0xE0 }</td></tr>
 <tr class="separator:a50cfab8b435c3afdda99d529a221521d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a241858dac81295e5d28755e954aeb559"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a241858dac81295e5d28755e954aeb559">gUnk_080D1BC0</a> [7])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a241858dac81295e5d28755e954aeb559"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af203145b1b10197c79cdb2a9cdbdf10c"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#af203145b1b10197c79cdb2a9cdbdf10c">gUnk_080D1BDC</a> [5])(<a class="el" href="structEntity.html">Entity</a> *) = { <a class="el" href="gyorgMale_8c.html#a330a04875e72cfa5550b5b39a16bf7cd">sub_08047798</a>, <a class="el" href="gyorgMale_8c.html#a97fafb4836bf1b9b3cbd2fd06b194d18">sub_080477F0</a>, <a class="el" href="gyorgMale_8c.html#a70765e56e66522733d78e832d7dbce9a">sub_08047914</a>, <a class="el" href="gyorgMale_8c.html#a3ebf9fdf1f4f6f1f433fef31544c14e0">sub_08047978</a>, <a class="el" href="gyorgMale_8c.html#ab48ef8a8ff3bd0a8563aff0d1889c363">sub_08047B08</a> }</td></tr>
-<tr class="separator:af203145b1b10197c79cdb2a9cdbdf10c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8d7604e8b1c2e6a572cef0a63edceeb"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#ac8d7604e8b1c2e6a572cef0a63edceeb">gUnk_080D1BC0</a> [7])(<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:ac8d7604e8b1c2e6a572cef0a63edceeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c506976a9bcb2961c2c1a37973c194e"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a7c506976a9bcb2961c2c1a37973c194e">gUnk_080D1BDC</a> [5])(<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *)</td></tr>
+<tr class="separator:a7c506976a9bcb2961c2c1a37973c194e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1126bbc3d7a00b4809a2abf681dc52e9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#aa980e2c02ba2305e0f489d5650655425">s16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a1126bbc3d7a00b4809a2abf681dc52e9">gUnk_080D1BF0</a> [2] = { 0x80, -0x80 }</td></tr>
 <tr class="separator:a1126bbc3d7a00b4809a2abf681dc52e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65e50941b6252a554278fe0cb816fe3b"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a65e50941b6252a554278fe0cb816fe3b">gUnk_080D1BF4</a> [3])(<a class="el" href="structEntity.html">Entity</a> *) = { <a class="el" href="gyorgMale_8c.html#a11d3450cde2ec00d63ca532581d056d7">sub_08047BA4</a>, <a class="el" href="gyorgMale_8c.html#a149c47f590df756cf20dcd901cb98dba">sub_08047BF0</a>, <a class="el" href="gyorgMale_8c.html#a6052c1b3b7ce42409473e8b9ac39cc19">sub_08047D24</a> }</td></tr>
-<tr class="separator:a65e50941b6252a554278fe0cb816fe3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2573cee02edaf53e57b8e9b2b1048ca"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#ac2573cee02edaf53e57b8e9b2b1048ca">gUnk_080D1BF4</a> [3])(<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *) = { <a class="el" href="gyorgMale_8c.html#a990fae483c7b69697d16023c3c63cb29">sub_08047BA4</a>, <a class="el" href="gyorgMale_8c.html#ab20de2642e23f7e8e2d5744b95a0c233">sub_08047BF0</a>, <a class="el" href="gyorgMale_8c.html#a03adcc531a139a515766cdc4d129f92e">sub_08047D24</a> }</td></tr>
+<tr class="separator:ac2573cee02edaf53e57b8e9b2b1048ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb9b0e9b54367f0e240be43f822309f1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a9e382f207c65ca13ab4ae98363aeda80">s8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#afb9b0e9b54367f0e240be43f822309f1">gUnk_080D1C00</a> [4] = { 0x40, -0x40, -0x40, 0x40 }</td></tr>
 <tr class="separator:afb9b0e9b54367f0e240be43f822309f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ddc22bfb49edc2a06712a33067f65ca"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgMale_8c.html#a6ddc22bfb49edc2a06712a33067f65ca">gUnk_080D1C04</a> [0x20]</td></tr>
@@ -297,9 +308,24 @@ Variables</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Gyorg Male enemy. </p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a id="a86f601238e50606b4e90ff8b9249a3af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86f601238e50606b4e90ff8b9249a3af">&#9670;&nbsp;</a></span>GyorgMale()</h2>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ad9d9839ea73fbe32257e340298da916d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9d9839ea73fbe32257e340298da916d">&#9670;&nbsp;</a></span>NENT_DEPRECATED</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define NENT_DEPRECATED</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ae7fa78e7d6e8656b2a0caa4ba4450d2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7fa78e7d6e8656b2a0caa4ba4450d2a">&#9670;&nbsp;</a></span>GyorgMale()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -307,7 +333,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void GyorgMale </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -316,8 +342,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a1442981bdf0044f65fa9c97fdcaa6ab4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1442981bdf0044f65fa9c97fdcaa6ab4">&#9670;&nbsp;</a></span>sub_08046898()</h2>
+<a id="a8e931dee917139c6ebd32ee1e7b4a565"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e931dee917139c6ebd32ee1e7b4a565">&#9670;&nbsp;</a></span>sub_08046898()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -325,7 +351,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08046898 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -334,8 +360,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a816410be109f88a7b510966f70386c05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a816410be109f88a7b510966f70386c05">&#9670;&nbsp;</a></span>sub_08046910()</h2>
+<a id="a82a33f4acbb0382312ad4272a0a6ae38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82a33f4acbb0382312ad4272a0a6ae38">&#9670;&nbsp;</a></span>sub_08046910()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -343,7 +369,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08046910 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -352,8 +378,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a5e92b3801088b0468d33c185bc483643"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e92b3801088b0468d33c185bc483643">&#9670;&nbsp;</a></span>sub_08046930()</h2>
+<a id="a8187c4c618022e731cfd22e05f19e800"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8187c4c618022e731cfd22e05f19e800">&#9670;&nbsp;</a></span>sub_08046930()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -361,7 +387,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08046930 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -370,8 +396,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a0f186df5cb7c8a26ca312ff707735f7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f186df5cb7c8a26ca312ff707735f7e">&#9670;&nbsp;</a></span>sub_0804696C()</h2>
+<a id="a74f9dcbf6313e8a231486e528761c617"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74f9dcbf6313e8a231486e528761c617">&#9670;&nbsp;</a></span>sub_0804696C()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -379,7 +405,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_0804696C </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -388,8 +414,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a97daa247d6ebc4689c33d6a005f54138"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97daa247d6ebc4689c33d6a005f54138">&#9670;&nbsp;</a></span>sub_080469CC()</h2>
+<a id="a5d9e4f42a5363bb133f1bc04ea4c65c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d9e4f42a5363bb133f1bc04ea4c65c7">&#9670;&nbsp;</a></span>sub_080469CC()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -397,7 +423,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_080469CC </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -406,8 +432,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a407ea681e1d45d2167d37bd782c08992"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a407ea681e1d45d2167d37bd782c08992">&#9670;&nbsp;</a></span>sub_080469F4()</h2>
+<a id="a7437648074d8dce40491d3cd88b96d17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7437648074d8dce40491d3cd88b96d17">&#9670;&nbsp;</a></span>sub_080469F4()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -415,7 +441,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_080469F4 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -424,8 +450,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a14b9e9b83e5be70f37390eb9a82fafbb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14b9e9b83e5be70f37390eb9a82fafbb">&#9670;&nbsp;</a></span>sub_08046A30()</h2>
+<a id="ac01a195c06ce249bffaa4565377922cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac01a195c06ce249bffaa4565377922cc">&#9670;&nbsp;</a></span>sub_08046A30()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -433,7 +459,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08046A30 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -442,8 +468,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a94a5c87b1ac822ab22763c9da5747691"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94a5c87b1ac822ab22763c9da5747691">&#9670;&nbsp;</a></span>sub_08046A54()</h2>
+<a id="a91f9e02af8b569d3db0d3f0766e6d9c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91f9e02af8b569d3db0d3f0766e6d9c5">&#9670;&nbsp;</a></span>sub_08046A54()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -451,7 +477,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08046A54 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -460,8 +486,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ad7c819901d0a876d6a5423ddf1d10375"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7c819901d0a876d6a5423ddf1d10375">&#9670;&nbsp;</a></span>sub_08046A78()</h2>
+<a id="ad9307d4ca109f924343b79f1bee778d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9307d4ca109f924343b79f1bee778d3">&#9670;&nbsp;</a></span>sub_08046A78()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -469,7 +495,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08046A78 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -478,8 +504,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="abb20586a1cab856d2f81313aec6acfcd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb20586a1cab856d2f81313aec6acfcd">&#9670;&nbsp;</a></span>sub_08046A9C()</h2>
+<a id="acf2c9a4de129735837e6b523954cd93e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf2c9a4de129735837e6b523954cd93e">&#9670;&nbsp;</a></span>sub_08046A9C()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -487,7 +513,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08046A9C </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -496,8 +522,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ac1f3cde6dd3cc1bfc6f0862fe19e4ba4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac1f3cde6dd3cc1bfc6f0862fe19e4ba4">&#9670;&nbsp;</a></span>sub_08046AE8()</h2>
+<a id="a8afc0b78575e3db29892d6d5cfe4762a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8afc0b78575e3db29892d6d5cfe4762a">&#9670;&nbsp;</a></span>sub_08046AE8()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -505,7 +531,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08046AE8 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -514,8 +540,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a6934d54b2c208fef121b255d829d13e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6934d54b2c208fef121b255d829d13e8">&#9670;&nbsp;</a></span>sub_08046B18()</h2>
+<a id="a6c39cf8248c83f95dc34b75f8f81cb12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c39cf8248c83f95dc34b75f8f81cb12">&#9670;&nbsp;</a></span>sub_08046B18()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -523,7 +549,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08046B18 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -532,8 +558,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a3b95bb08ad0cc5b25977ae0a1e11d701"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b95bb08ad0cc5b25977ae0a1e11d701">&#9670;&nbsp;</a></span>sub_08046B8C()</h2>
+<a id="ae3bba7b32aee2632e93e93f6d95a95c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3bba7b32aee2632e93e93f6d95a95c9">&#9670;&nbsp;</a></span>sub_08046B8C()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -541,7 +567,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08046B8C </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -550,8 +576,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a70785de665b793221b0ba8053f294a31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70785de665b793221b0ba8053f294a31">&#9670;&nbsp;</a></span>sub_08046C04()</h2>
+<a id="ab4f81a69b17b81147801e60046866d48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4f81a69b17b81147801e60046866d48">&#9670;&nbsp;</a></span>sub_08046C04()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -559,7 +585,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08046C04 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -568,8 +594,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a7b664f0ba4ec21fb531218606edb4b88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b664f0ba4ec21fb531218606edb4b88">&#9670;&nbsp;</a></span>sub_08046C88()</h2>
+<a id="a70b19faba454ce5ac774b3b0d3fc77d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70b19faba454ce5ac774b3b0d3fc77d7">&#9670;&nbsp;</a></span>sub_08046C88()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -577,7 +603,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08046C88 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -586,8 +612,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ab13fe643e916c468263eba0af2712ca4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab13fe643e916c468263eba0af2712ca4">&#9670;&nbsp;</a></span>sub_08046CEC()</h2>
+<a id="a9242d51bd1944caf294551bf394f71dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9242d51bd1944caf294551bf394f71dd">&#9670;&nbsp;</a></span>sub_08046CEC()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -595,7 +621,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08046CEC </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -604,8 +630,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a39a3134fa124bb1ff1be469571c77b6e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39a3134fa124bb1ff1be469571c77b6e">&#9670;&nbsp;</a></span>sub_08046D44()</h2>
+<a id="a4ec665058cc94c2edfe7fed0bc211429"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ec665058cc94c2edfe7fed0bc211429">&#9670;&nbsp;</a></span>sub_08046D44()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -613,7 +639,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08046D44 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -622,8 +648,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a65d3d662bfb903cf41aa086bbbaa7f62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65d3d662bfb903cf41aa086bbbaa7f62">&#9670;&nbsp;</a></span>sub_08046D98()</h2>
+<a id="a9be766796332af85c69fa79e2db6c457"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9be766796332af85c69fa79e2db6c457">&#9670;&nbsp;</a></span>sub_08046D98()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -631,7 +657,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08046D98 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -640,8 +666,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a605c52f77145b85eb1288e427dab4990"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a605c52f77145b85eb1288e427dab4990">&#9670;&nbsp;</a></span>sub_08046E0C()</h2>
+<a id="ac654e1226bf58effc5e3fdf0bae99d51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac654e1226bf58effc5e3fdf0bae99d51">&#9670;&nbsp;</a></span>sub_08046E0C()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -649,7 +675,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08046E0C </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -658,8 +684,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ac63a75d8cc36d6578231ac47ce5e54c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac63a75d8cc36d6578231ac47ce5e54c4">&#9670;&nbsp;</a></span>sub_08046E68()</h2>
+<a id="a16ed249dc298954e3e8a7de40de21f04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16ed249dc298954e3e8a7de40de21f04">&#9670;&nbsp;</a></span>sub_08046E68()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -667,7 +693,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08046E68 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -676,8 +702,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="abf6543c5b9fe5a83939da2151adb81ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf6543c5b9fe5a83939da2151adb81ea">&#9670;&nbsp;</a></span>sub_08046EF4()</h2>
+<a id="a89d3dea4afa4434e07b971760c3610d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89d3dea4afa4434e07b971760c3610d9">&#9670;&nbsp;</a></span>sub_08046EF4()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -685,7 +711,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08046EF4 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -694,8 +720,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a2dff734fa2d36d2b478604ed51c71979"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2dff734fa2d36d2b478604ed51c71979">&#9670;&nbsp;</a></span>sub_08046F64()</h2>
+<a id="a2e860376e7d414a6b74d5e970b231896"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e860376e7d414a6b74d5e970b231896">&#9670;&nbsp;</a></span>sub_08046F64()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -703,7 +729,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08046F64 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -712,8 +738,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a559233246a8ea42bbccfc28201b7aa23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a559233246a8ea42bbccfc28201b7aa23">&#9670;&nbsp;</a></span>sub_08046FE8()</h2>
+<a id="a194a0cd50a8acce100823e78755f6dc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a194a0cd50a8acce100823e78755f6dc4">&#9670;&nbsp;</a></span>sub_08046FE8()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -721,7 +747,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08046FE8 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -730,8 +756,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a3fff30879d738d95658bcff890c64068"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fff30879d738d95658bcff890c64068">&#9670;&nbsp;</a></span>sub_0804702C()</h2>
+<a id="a2709bf58fd9d9e4480586691ddb8ed92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2709bf58fd9d9e4480586691ddb8ed92">&#9670;&nbsp;</a></span>sub_0804702C()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -739,7 +765,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_0804702C </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -748,8 +774,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a39db40786043bb9d7e9a86dcc3e19fe4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39db40786043bb9d7e9a86dcc3e19fe4">&#9670;&nbsp;</a></span>sub_080470B4()</h2>
+<a id="afc641d941e79bc0107e24f2ba74bf4ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc641d941e79bc0107e24f2ba74bf4ff">&#9670;&nbsp;</a></span>sub_080470B4()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -757,7 +783,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_080470B4 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -766,8 +792,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a9dc6327e384b763520b0645fd691327a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9dc6327e384b763520b0645fd691327a">&#9670;&nbsp;</a></span>sub_08047140()</h2>
+<a id="aa212058836c81c575a2236a6532083d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa212058836c81c575a2236a6532083d8">&#9670;&nbsp;</a></span>sub_08047140()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -775,7 +801,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08047140 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -784,8 +810,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a53978a797d1c7f9def3f57d86a1e5780"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53978a797d1c7f9def3f57d86a1e5780">&#9670;&nbsp;</a></span>sub_0804717C()</h2>
+<a id="a46c969143e99916a82e0651c60691dea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46c969143e99916a82e0651c60691dea">&#9670;&nbsp;</a></span>sub_0804717C()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -793,7 +819,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_0804717C </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -802,8 +828,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a2ff91f838343f737578d8d76b03b427e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ff91f838343f737578d8d76b03b427e">&#9670;&nbsp;</a></span>sub_080471C8()</h2>
+<a id="a396a92d1d52483868587670e5fa74d8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a396a92d1d52483868587670e5fa74d8e">&#9670;&nbsp;</a></span>sub_080471C8()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -811,7 +837,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_080471C8 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -820,8 +846,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ad3583ef8cb7d88b0579dd3676f6afda8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3583ef8cb7d88b0579dd3676f6afda8">&#9670;&nbsp;</a></span>sub_0804723C()</h2>
+<a id="a81010e6337841f3729ecbaa757f45f82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81010e6337841f3729ecbaa757f45f82">&#9670;&nbsp;</a></span>sub_0804723C()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -829,7 +855,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_0804723C </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -838,8 +864,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="add7f7dea2957bf251895f7943af0965b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add7f7dea2957bf251895f7943af0965b">&#9670;&nbsp;</a></span>sub_08047284()</h2>
+<a id="a0b16f0ea2634866818eff0a65291e60e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b16f0ea2634866818eff0a65291e60e">&#9670;&nbsp;</a></span>sub_08047284()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -847,7 +873,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08047284 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -856,8 +882,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a2624684312d359f95d68070aba178d3f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2624684312d359f95d68070aba178d3f">&#9670;&nbsp;</a></span>sub_080472BC()</h2>
+<a id="a281fe3faed6944adbd8d9ccbc0ce00ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a281fe3faed6944adbd8d9ccbc0ce00ba">&#9670;&nbsp;</a></span>sub_080472BC()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -865,7 +891,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_080472BC </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -874,8 +900,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a4eef010b0348a4e3fd35bcd10c49f86b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4eef010b0348a4e3fd35bcd10c49f86b">&#9670;&nbsp;</a></span>sub_08047310()</h2>
+<a id="a6e3d79b91bcd9fdc79e87429f40ece16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e3d79b91bcd9fdc79e87429f40ece16">&#9670;&nbsp;</a></span>sub_08047310()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -883,7 +909,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08047310 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -892,8 +918,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a114e316845378718e3c1d5efdff4b093"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a114e316845378718e3c1d5efdff4b093">&#9670;&nbsp;</a></span>sub_0804736C()</h2>
+<a id="a84dc9d065e770afa1a77083fd671a2b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84dc9d065e770afa1a77083fd671a2b9">&#9670;&nbsp;</a></span>sub_0804736C()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -901,7 +927,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_0804736C </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -910,8 +936,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a0d99439e2942aa9b41c2967d188f776e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d99439e2942aa9b41c2967d188f776e">&#9670;&nbsp;</a></span>sub_080473B8()</h2>
+<a id="a34fdb6f9482e03201ce2a45e5da70671"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34fdb6f9482e03201ce2a45e5da70671">&#9670;&nbsp;</a></span>sub_080473B8()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -919,7 +945,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_080473B8 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -928,8 +954,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aae321aa87f3da47bdc91635740cca80b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae321aa87f3da47bdc91635740cca80b">&#9670;&nbsp;</a></span>sub_080473F0()</h2>
+<a id="acb529c779f98602e834c51b688e144c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb529c779f98602e834c51b688e144c8">&#9670;&nbsp;</a></span>sub_080473F0()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -937,7 +963,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_080473F0 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -946,8 +972,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a069fe725d82c15328a1bddf3429a28af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a069fe725d82c15328a1bddf3429a28af">&#9670;&nbsp;</a></span>sub_08047484()</h2>
+<a id="a388c393f2afe2be88a5c032c943e3d48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a388c393f2afe2be88a5c032c943e3d48">&#9670;&nbsp;</a></span>sub_08047484()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -955,7 +981,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08047484 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -964,8 +990,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a7ddc69c0258a32ad0127eb46e9aaa950"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ddc69c0258a32ad0127eb46e9aaa950">&#9670;&nbsp;</a></span>sub_08047508()</h2>
+<a id="a32d245eae3b0f2063249a223c9bb61b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32d245eae3b0f2063249a223c9bb61b1">&#9670;&nbsp;</a></span>sub_08047508()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -973,7 +999,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08047508 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -982,8 +1008,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a132cdcf045b3385473c5595ebb274332"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a132cdcf045b3385473c5595ebb274332">&#9670;&nbsp;</a></span>sub_080475F4()</h2>
+<a id="a2c9101306363976f76d11fa9c2ed3c1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c9101306363976f76d11fa9c2ed3c1a">&#9670;&nbsp;</a></span>sub_080475F4()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -991,7 +1017,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_080475F4 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1000,8 +1026,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ace7e05983fc8c531a80e848ebaed9838"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace7e05983fc8c531a80e848ebaed9838">&#9670;&nbsp;</a></span>sub_0804763C()</h2>
+<a id="aaf7d3d291fee56184a109674fd28d605"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf7d3d291fee56184a109674fd28d605">&#9670;&nbsp;</a></span>sub_0804763C()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1009,7 +1035,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_0804763C </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1018,8 +1044,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a866700096f9d22120b1c2decdb0603c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a866700096f9d22120b1c2decdb0603c9">&#9670;&nbsp;</a></span>sub_0804772C()</h2>
+<a id="a3bc689406c08a36011b76c910fc1095e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bc689406c08a36011b76c910fc1095e">&#9670;&nbsp;</a></span>sub_0804772C()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1027,7 +1053,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_0804772C </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1036,8 +1062,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a051fc4ac76d136329f02b03fab88c81d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a051fc4ac76d136329f02b03fab88c81d">&#9670;&nbsp;</a></span>sub_08047778()</h2>
+<a id="ae5444158eeb58255094b36006dffee4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5444158eeb58255094b36006dffee4c">&#9670;&nbsp;</a></span>sub_08047778()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1045,7 +1071,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08047778 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1054,8 +1080,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a330a04875e72cfa5550b5b39a16bf7cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a330a04875e72cfa5550b5b39a16bf7cd">&#9670;&nbsp;</a></span>sub_08047798()</h2>
+<a id="a8785fc7d822c418e59d9465265fc0953"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8785fc7d822c418e59d9465265fc0953">&#9670;&nbsp;</a></span>sub_08047798()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1063,7 +1089,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08047798 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1072,8 +1098,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a97fafb4836bf1b9b3cbd2fd06b194d18"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97fafb4836bf1b9b3cbd2fd06b194d18">&#9670;&nbsp;</a></span>sub_080477F0()</h2>
+<a id="a5272d8fdf25a768b8ab2a4d194a44a45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5272d8fdf25a768b8ab2a4d194a44a45">&#9670;&nbsp;</a></span>sub_080477F0()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1081,7 +1107,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_080477F0 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1090,8 +1116,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a70765e56e66522733d78e832d7dbce9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70765e56e66522733d78e832d7dbce9a">&#9670;&nbsp;</a></span>sub_08047914()</h2>
+<a id="a917926b6f407dc9132ad43e83051de8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a917926b6f407dc9132ad43e83051de8b">&#9670;&nbsp;</a></span>sub_08047914()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1099,7 +1125,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08047914 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1108,8 +1134,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a3ebf9fdf1f4f6f1f433fef31544c14e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ebf9fdf1f4f6f1f433fef31544c14e0">&#9670;&nbsp;</a></span>sub_08047978()</h2>
+<a id="a01247306d77355be6afc5c758dfff7a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01247306d77355be6afc5c758dfff7a8">&#9670;&nbsp;</a></span>sub_08047978()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1117,7 +1143,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08047978 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1126,8 +1152,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ab48ef8a8ff3bd0a8563aff0d1889c363"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab48ef8a8ff3bd0a8563aff0d1889c363">&#9670;&nbsp;</a></span>sub_08047B08()</h2>
+<a id="a2de5ccb3044c648768b5205d31196a0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2de5ccb3044c648768b5205d31196a0c">&#9670;&nbsp;</a></span>sub_08047B08()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1135,7 +1161,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08047B08 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1144,8 +1170,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a172b3fd5d9af938de2413a710fe4c2e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a172b3fd5d9af938de2413a710fe4c2e4">&#9670;&nbsp;</a></span>sub_08047B84()</h2>
+<a id="a5407630bea00e32f558dd97e2e556de8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5407630bea00e32f558dd97e2e556de8">&#9670;&nbsp;</a></span>sub_08047B84()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1153,7 +1179,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08047B84 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1162,8 +1188,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a11d3450cde2ec00d63ca532581d056d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11d3450cde2ec00d63ca532581d056d7">&#9670;&nbsp;</a></span>sub_08047BA4()</h2>
+<a id="a990fae483c7b69697d16023c3c63cb29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a990fae483c7b69697d16023c3c63cb29">&#9670;&nbsp;</a></span>sub_08047BA4()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1171,7 +1197,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08047BA4 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1180,8 +1206,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a149c47f590df756cf20dcd901cb98dba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a149c47f590df756cf20dcd901cb98dba">&#9670;&nbsp;</a></span>sub_08047BF0()</h2>
+<a id="ab20de2642e23f7e8e2d5744b95a0c233"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab20de2642e23f7e8e2d5744b95a0c233">&#9670;&nbsp;</a></span>sub_08047BF0()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1189,7 +1215,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08047BF0 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1198,8 +1224,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a6052c1b3b7ce42409473e8b9ac39cc19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6052c1b3b7ce42409473e8b9ac39cc19">&#9670;&nbsp;</a></span>sub_08047D24()</h2>
+<a id="a03adcc531a139a515766cdc4d129f92e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03adcc531a139a515766cdc4d129f92e">&#9670;&nbsp;</a></span>sub_08047D24()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1207,7 +1233,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08047D24 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1216,8 +1242,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a11ea13a7acebc0e0f7820a1e6f88eac4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11ea13a7acebc0e0f7820a1e6f88eac4">&#9670;&nbsp;</a></span>sub_08047D88()</h2>
+<a id="a4a08840f9e14b06b0abf1bf8acf94f52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a08840f9e14b06b0abf1bf8acf94f52">&#9670;&nbsp;</a></span>sub_08047D88()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1225,7 +1251,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08047D88 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1234,8 +1260,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a05e51bf532fa9b406872937924bee552"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05e51bf532fa9b406872937924bee552">&#9670;&nbsp;</a></span>sub_08047DF0()</h2>
+<a id="ac91338470441ae77788687e478f4f94e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac91338470441ae77788687e478f4f94e">&#9670;&nbsp;</a></span>sub_08047DF0()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1243,7 +1269,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08047DF0 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -1262,8 +1288,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ad3d9289bedb8a65a2b3755e1586246e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3d9289bedb8a65a2b3755e1586246e1">&#9670;&nbsp;</a></span>sub_08047E48()</h2>
+<a id="a965e68e9ff58e8082cdbf08433f9e505"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a965e68e9ff58e8082cdbf08433f9e505">&#9670;&nbsp;</a></span>sub_08047E48()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1271,7 +1297,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08047E48 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1280,8 +1306,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a627df2011bbb33862ecbdec553418762"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a627df2011bbb33862ecbdec553418762">&#9670;&nbsp;</a></span>sub_08047E58()</h2>
+<a id="aa3d9cb83d30556202944bc930c47ab71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3d9cb83d30556202944bc930c47ab71">&#9670;&nbsp;</a></span>sub_08047E58()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1289,7 +1315,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08047E58 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1298,8 +1324,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aa443424c267ff884f69e25fbfc66a16e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa443424c267ff884f69e25fbfc66a16e">&#9670;&nbsp;</a></span>sub_08047EA4()</h2>
+<a id="af0793d7d9b978bb803be310528340f4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0793d7d9b978bb803be310528340f4e">&#9670;&nbsp;</a></span>sub_08047EA4()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1307,7 +1333,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08047EA4 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -1326,8 +1352,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a01ab263d431ae575b9c9bbaf0dfc185a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01ab263d431ae575b9c9bbaf0dfc185a">&#9670;&nbsp;</a></span>sub_08047F68()</h2>
+<a id="a574bcb05e5a9145879c0e32eb68fb8c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a574bcb05e5a9145879c0e32eb68fb8c9">&#9670;&nbsp;</a></span>sub_08047F68()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1335,7 +1361,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> sub_08047F68 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1344,8 +1370,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a64ed1e2402eee180e0c68e6660cec8f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64ed1e2402eee180e0c68e6660cec8f8">&#9670;&nbsp;</a></span>sub_08048004()</h2>
+<a id="a8412dece8165087e0bd22310aa0588c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8412dece8165087e0bd22310aa0588c3">&#9670;&nbsp;</a></span>sub_08048004()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1353,7 +1379,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08048004 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1362,8 +1388,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a8c4de7b86cd91817c7a425b9ce452742"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c4de7b86cd91817c7a425b9ce452742">&#9670;&nbsp;</a></span>sub_0804813C()</h2>
+<a id="a4e466cd03d5dda2ac63107d32cf2fbde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e466cd03d5dda2ac63107d32cf2fbde">&#9670;&nbsp;</a></span>sub_0804813C()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1371,7 +1397,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_0804813C </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1398,8 +1424,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a221b28f9abd5f30213d565aa5f657566"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a221b28f9abd5f30213d565aa5f657566">&#9670;&nbsp;</a></span>sub_08048178()</h2>
+<a id="a5ea892228a13c9bd4a2c4a3f229d7e85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ea892228a13c9bd4a2c4a3f229d7e85">&#9670;&nbsp;</a></span>sub_08048178()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1407,7 +1433,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08048178 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -1426,96 +1452,138 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a8f201891d3e98963b0a87138d3ec66b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f201891d3e98963b0a87138d3ec66b3">&#9670;&nbsp;</a></span>sub_080A1D70()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_080A1D70 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a6a141b22ff062a2aa6d92abb332f3bdf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a141b22ff062a2aa6d92abb332f3bdf">&#9670;&nbsp;</a></span>gUnk_080D1AFC</h2>
+<a id="a3206d30fe5819c00c0e041e6162b7d63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3206d30fe5819c00c0e041e6162b7d63">&#9670;&nbsp;</a></span>gUnk_080D1AFC</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(*const gUnk_080D1AFC[8])(<a class="el" href="structEntity.html">Entity</a> *) </td>
+          <td class="memname">void(*const gUnk_080D1AFC[8])(<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *) </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= { <a class="code" href="gyorgMale_8c.html#a1442981bdf0044f65fa9c97fdcaa6ab4">sub_08046898</a>, <a class="code" href="gyorgMale_8c.html#a816410be109f88a7b510966f70386c05">sub_08046910</a>, <a class="code" href="gyorgMale_8c.html#abb20586a1cab856d2f81313aec6acfcd">sub_08046A9C</a>, <a class="code" href="gyorgMale_8c.html#ab13fe643e916c468263eba0af2712ca4">sub_08046CEC</a>,</div>
-<div class="line">                                            <a class="code" href="gyorgMale_8c.html#a2dff734fa2d36d2b478604ed51c71979">sub_08046F64</a>, <a class="code" href="gyorgMale_8c.html#a114e316845378718e3c1d5efdff4b093">sub_0804736C</a>, <a class="code" href="gyorgMale_8c.html#a051fc4ac76d136329f02b03fab88c81d">sub_08047778</a>, <a class="code" href="gyorgMale_8c.html#a172b3fd5d9af938de2413a710fe4c2e4">sub_08047B84</a> }</div>
-<div class="ttc" id="agyorgMale_8c_html_a051fc4ac76d136329f02b03fab88c81d"><div class="ttname"><a href="gyorgMale_8c.html#a051fc4ac76d136329f02b03fab88c81d">sub_08047778</a></div><div class="ttdeci">void sub_08047778(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:766</div></div>
-<div class="ttc" id="agyorgMale_8c_html_a114e316845378718e3c1d5efdff4b093"><div class="ttname"><a href="gyorgMale_8c.html#a114e316845378718e3c1d5efdff4b093">sub_0804736C</a></div><div class="ttdeci">void sub_0804736C(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:584</div></div>
-<div class="ttc" id="agyorgMale_8c_html_a1442981bdf0044f65fa9c97fdcaa6ab4"><div class="ttname"><a href="gyorgMale_8c.html#a1442981bdf0044f65fa9c97fdcaa6ab4">sub_08046898</a></div><div class="ttdeci">void sub_08046898(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:115</div></div>
-<div class="ttc" id="agyorgMale_8c_html_a172b3fd5d9af938de2413a710fe4c2e4"><div class="ttname"><a href="gyorgMale_8c.html#a172b3fd5d9af938de2413a710fe4c2e4">sub_08047B84</a></div><div class="ttdeci">void sub_08047B84(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:915</div></div>
-<div class="ttc" id="agyorgMale_8c_html_a2dff734fa2d36d2b478604ed51c71979"><div class="ttname"><a href="gyorgMale_8c.html#a2dff734fa2d36d2b478604ed51c71979">sub_08046F64</a></div><div class="ttdeci">void sub_08046F64(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:422</div></div>
-<div class="ttc" id="agyorgMale_8c_html_a816410be109f88a7b510966f70386c05"><div class="ttname"><a href="gyorgMale_8c.html#a816410be109f88a7b510966f70386c05">sub_08046910</a></div><div class="ttdeci">void sub_08046910(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:141</div></div>
-<div class="ttc" id="agyorgMale_8c_html_ab13fe643e916c468263eba0af2712ca4"><div class="ttname"><a href="gyorgMale_8c.html#ab13fe643e916c468263eba0af2712ca4">sub_08046CEC</a></div><div class="ttdeci">void sub_08046CEC(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:319</div></div>
-<div class="ttc" id="agyorgMale_8c_html_abb20586a1cab856d2f81313aec6acfcd"><div class="ttname"><a href="gyorgMale_8c.html#abb20586a1cab856d2f81313aec6acfcd">sub_08046A9C</a></div><div class="ttdeci">void sub_08046A9C(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:236</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">= { <a class="code" href="gyorgMale_8c.html#a8e931dee917139c6ebd32ee1e7b4a565">sub_08046898</a>, <a class="code" href="gyorgMale_8c.html#a82a33f4acbb0382312ad4272a0a6ae38">sub_08046910</a>, <a class="code" href="gyorgMale_8c.html#acf2c9a4de129735837e6b523954cd93e">sub_08046A9C</a>, <a class="code" href="gyorgMale_8c.html#a9242d51bd1944caf294551bf394f71dd">sub_08046CEC</a>,</div>
+<div class="line">                                                     <a class="code" href="gyorgMale_8c.html#a2e860376e7d414a6b74d5e970b231896">sub_08046F64</a>, <a class="code" href="gyorgMale_8c.html#a84dc9d065e770afa1a77083fd671a2b9">sub_0804736C</a>, <a class="code" href="gyorgMale_8c.html#ae5444158eeb58255094b36006dffee4c">sub_08047778</a>, <a class="code" href="gyorgMale_8c.html#a5407630bea00e32f558dd97e2e556de8">sub_08047B84</a> }</div>
+<div class="ttc" id="agyorgMale_8c_html_a2e860376e7d414a6b74d5e970b231896"><div class="ttname"><a href="gyorgMale_8c.html#a2e860376e7d414a6b74d5e970b231896">sub_08046F64</a></div><div class="ttdeci">void sub_08046F64(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:428</div></div>
+<div class="ttc" id="agyorgMale_8c_html_a5407630bea00e32f558dd97e2e556de8"><div class="ttname"><a href="gyorgMale_8c.html#a5407630bea00e32f558dd97e2e556de8">sub_08047B84</a></div><div class="ttdeci">void sub_08047B84(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:922</div></div>
+<div class="ttc" id="agyorgMale_8c_html_a82a33f4acbb0382312ad4272a0a6ae38"><div class="ttname"><a href="gyorgMale_8c.html#a82a33f4acbb0382312ad4272a0a6ae38">sub_08046910</a></div><div class="ttdeci">void sub_08046910(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:147</div></div>
+<div class="ttc" id="agyorgMale_8c_html_a84dc9d065e770afa1a77083fd671a2b9"><div class="ttname"><a href="gyorgMale_8c.html#a84dc9d065e770afa1a77083fd671a2b9">sub_0804736C</a></div><div class="ttdeci">void sub_0804736C(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:590</div></div>
+<div class="ttc" id="agyorgMale_8c_html_a8e931dee917139c6ebd32ee1e7b4a565"><div class="ttname"><a href="gyorgMale_8c.html#a8e931dee917139c6ebd32ee1e7b4a565">sub_08046898</a></div><div class="ttdeci">void sub_08046898(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:121</div></div>
+<div class="ttc" id="agyorgMale_8c_html_a9242d51bd1944caf294551bf394f71dd"><div class="ttname"><a href="gyorgMale_8c.html#a9242d51bd1944caf294551bf394f71dd">sub_08046CEC</a></div><div class="ttdeci">void sub_08046CEC(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:325</div></div>
+<div class="ttc" id="agyorgMale_8c_html_acf2c9a4de129735837e6b523954cd93e"><div class="ttname"><a href="gyorgMale_8c.html#acf2c9a4de129735837e6b523954cd93e">sub_08046A9C</a></div><div class="ttdeci">void sub_08046A9C(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:243</div></div>
+<div class="ttc" id="agyorgMale_8c_html_ae5444158eeb58255094b36006dffee4c"><div class="ttname"><a href="gyorgMale_8c.html#ae5444158eeb58255094b36006dffee4c">sub_08047778</a></div><div class="ttdeci">void sub_08047778(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:773</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a465e84cd87b0468b89ab84e5c3d133ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a465e84cd87b0468b89ab84e5c3d133ea">&#9670;&nbsp;</a></span>gUnk_080D1B1C</h2>
+<a id="a7ad5abefd51e812a82784487cdf17e2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ad5abefd51e812a82784487cdf17e2d">&#9670;&nbsp;</a></span>gUnk_080D1B1C</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(*const gUnk_080D1B1C[7])(<a class="el" href="structEntity.html">Entity</a> *) </td>
+          <td class="memname">void(*const gUnk_080D1B1C[7])(<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *) </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= { <a class="code" href="gyorgMale_8c.html#a5e92b3801088b0468d33c185bc483643">sub_08046930</a>, <a class="code" href="gyorgMale_8c.html#a0f186df5cb7c8a26ca312ff707735f7e">sub_0804696C</a>, <a class="code" href="gyorgMale_8c.html#a97daa247d6ebc4689c33d6a005f54138">sub_080469CC</a>, <a class="code" href="gyorgMale_8c.html#a407ea681e1d45d2167d37bd782c08992">sub_080469F4</a>,</div>
-<div class="line">                                            <a class="code" href="gyorgMale_8c.html#a14b9e9b83e5be70f37390eb9a82fafbb">sub_08046A30</a>, <a class="code" href="gyorgMale_8c.html#a94a5c87b1ac822ab22763c9da5747691">sub_08046A54</a>, <a class="code" href="gyorgMale_8c.html#ad7c819901d0a876d6a5423ddf1d10375">sub_08046A78</a> }</div>
-<div class="ttc" id="agyorgMale_8c_html_a0f186df5cb7c8a26ca312ff707735f7e"><div class="ttname"><a href="gyorgMale_8c.html#a0f186df5cb7c8a26ca312ff707735f7e">sub_0804696C</a></div><div class="ttdeci">void sub_0804696C(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:170</div></div>
-<div class="ttc" id="agyorgMale_8c_html_a14b9e9b83e5be70f37390eb9a82fafbb"><div class="ttname"><a href="gyorgMale_8c.html#a14b9e9b83e5be70f37390eb9a82fafbb">sub_08046A30</a></div><div class="ttdeci">void sub_08046A30(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:211</div></div>
-<div class="ttc" id="agyorgMale_8c_html_a407ea681e1d45d2167d37bd782c08992"><div class="ttname"><a href="gyorgMale_8c.html#a407ea681e1d45d2167d37bd782c08992">sub_080469F4</a></div><div class="ttdeci">void sub_080469F4(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:202</div></div>
-<div class="ttc" id="agyorgMale_8c_html_a5e92b3801088b0468d33c185bc483643"><div class="ttname"><a href="gyorgMale_8c.html#a5e92b3801088b0468d33c185bc483643">sub_08046930</a></div><div class="ttdeci">void sub_08046930(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:146</div></div>
-<div class="ttc" id="agyorgMale_8c_html_a94a5c87b1ac822ab22763c9da5747691"><div class="ttname"><a href="gyorgMale_8c.html#a94a5c87b1ac822ab22763c9da5747691">sub_08046A54</a></div><div class="ttdeci">void sub_08046A54(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:219</div></div>
-<div class="ttc" id="agyorgMale_8c_html_a97daa247d6ebc4689c33d6a005f54138"><div class="ttname"><a href="gyorgMale_8c.html#a97daa247d6ebc4689c33d6a005f54138">sub_080469CC</a></div><div class="ttdeci">void sub_080469CC(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:194</div></div>
-<div class="ttc" id="agyorgMale_8c_html_ad7c819901d0a876d6a5423ddf1d10375"><div class="ttname"><a href="gyorgMale_8c.html#ad7c819901d0a876d6a5423ddf1d10375">sub_08046A78</a></div><div class="ttdeci">void sub_08046A78(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:226</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">= { <a class="code" href="gyorgMale_8c.html#a8187c4c618022e731cfd22e05f19e800">sub_08046930</a>, <a class="code" href="gyorgMale_8c.html#a74f9dcbf6313e8a231486e528761c617">sub_0804696C</a>, <a class="code" href="gyorgMale_8c.html#a5d9e4f42a5363bb133f1bc04ea4c65c7">sub_080469CC</a>, <a class="code" href="gyorgMale_8c.html#a7437648074d8dce40491d3cd88b96d17">sub_080469F4</a>,</div>
+<div class="line">                                                     <a class="code" href="gyorgMale_8c.html#ac01a195c06ce249bffaa4565377922cc">sub_08046A30</a>, <a class="code" href="gyorgMale_8c.html#a91f9e02af8b569d3db0d3f0766e6d9c5">sub_08046A54</a>, <a class="code" href="gyorgMale_8c.html#ad9307d4ca109f924343b79f1bee778d3">sub_08046A78</a> }</div>
+<div class="ttc" id="agyorgMale_8c_html_a5d9e4f42a5363bb133f1bc04ea4c65c7"><div class="ttname"><a href="gyorgMale_8c.html#a5d9e4f42a5363bb133f1bc04ea4c65c7">sub_080469CC</a></div><div class="ttdeci">void sub_080469CC(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:200</div></div>
+<div class="ttc" id="agyorgMale_8c_html_a7437648074d8dce40491d3cd88b96d17"><div class="ttname"><a href="gyorgMale_8c.html#a7437648074d8dce40491d3cd88b96d17">sub_080469F4</a></div><div class="ttdeci">void sub_080469F4(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:208</div></div>
+<div class="ttc" id="agyorgMale_8c_html_a74f9dcbf6313e8a231486e528761c617"><div class="ttname"><a href="gyorgMale_8c.html#a74f9dcbf6313e8a231486e528761c617">sub_0804696C</a></div><div class="ttdeci">void sub_0804696C(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:176</div></div>
+<div class="ttc" id="agyorgMale_8c_html_a8187c4c618022e731cfd22e05f19e800"><div class="ttname"><a href="gyorgMale_8c.html#a8187c4c618022e731cfd22e05f19e800">sub_08046930</a></div><div class="ttdeci">void sub_08046930(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:152</div></div>
+<div class="ttc" id="agyorgMale_8c_html_a91f9e02af8b569d3db0d3f0766e6d9c5"><div class="ttname"><a href="gyorgMale_8c.html#a91f9e02af8b569d3db0d3f0766e6d9c5">sub_08046A54</a></div><div class="ttdeci">void sub_08046A54(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:225</div></div>
+<div class="ttc" id="agyorgMale_8c_html_ac01a195c06ce249bffaa4565377922cc"><div class="ttname"><a href="gyorgMale_8c.html#ac01a195c06ce249bffaa4565377922cc">sub_08046A30</a></div><div class="ttdeci">void sub_08046A30(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:217</div></div>
+<div class="ttc" id="agyorgMale_8c_html_ad9307d4ca109f924343b79f1bee778d3"><div class="ttname"><a href="gyorgMale_8c.html#ad9307d4ca109f924343b79f1bee778d3">sub_08046A78</a></div><div class="ttdeci">void sub_08046A78(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:232</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="aa3f2d69d4e4b8e208c92f61abbadc467"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3f2d69d4e4b8e208c92f61abbadc467">&#9670;&nbsp;</a></span>gUnk_080D1B38</h2>
+<a id="af08455ba94df37bf84fd6545a74d604f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af08455ba94df37bf84fd6545a74d604f">&#9670;&nbsp;</a></span>gUnk_080D1B38</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(*const gUnk_080D1B38[5])(<a class="el" href="structEntity.html">Entity</a> *) </td>
+          <td class="memname">void(*const gUnk_080D1B38[5])(<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *) </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
-          <td> = { <a class="el" href="gyorgMale_8c.html#ac1f3cde6dd3cc1bfc6f0862fe19e4ba4">sub_08046AE8</a>, <a class="el" href="gyorgMale_8c.html#a6934d54b2c208fef121b255d829d13e8">sub_08046B18</a>, <a class="el" href="gyorgMale_8c.html#a3b95bb08ad0cc5b25977ae0a1e11d701">sub_08046B8C</a>, <a class="el" href="gyorgMale_8c.html#a70785de665b793221b0ba8053f294a31">sub_08046C04</a>, <a class="el" href="gyorgMale_8c.html#a7b664f0ba4ec21fb531218606edb4b88">sub_08046C88</a> }</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">= { <a class="code" href="gyorgMale_8c.html#a8afc0b78575e3db29892d6d5cfe4762a">sub_08046AE8</a>, <a class="code" href="gyorgMale_8c.html#a6c39cf8248c83f95dc34b75f8f81cb12">sub_08046B18</a>, <a class="code" href="gyorgMale_8c.html#ae3bba7b32aee2632e93e93f6d95a95c9">sub_08046B8C</a>, <a class="code" href="gyorgMale_8c.html#ab4f81a69b17b81147801e60046866d48">sub_08046C04</a>,</div>
+<div class="line">                                                     <a class="code" href="gyorgMale_8c.html#a70b19faba454ce5ac774b3b0d3fc77d7">sub_08046C88</a> }</div>
+<div class="ttc" id="agyorgMale_8c_html_a6c39cf8248c83f95dc34b75f8f81cb12"><div class="ttname"><a href="gyorgMale_8c.html#a6c39cf8248c83f95dc34b75f8f81cb12">sub_08046B18</a></div><div class="ttdeci">void sub_08046B18(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:265</div></div>
+<div class="ttc" id="agyorgMale_8c_html_a70b19faba454ce5ac774b3b0d3fc77d7"><div class="ttname"><a href="gyorgMale_8c.html#a70b19faba454ce5ac774b3b0d3fc77d7">sub_08046C88</a></div><div class="ttdeci">void sub_08046C88(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:311</div></div>
+<div class="ttc" id="agyorgMale_8c_html_a8afc0b78575e3db29892d6d5cfe4762a"><div class="ttname"><a href="gyorgMale_8c.html#a8afc0b78575e3db29892d6d5cfe4762a">sub_08046AE8</a></div><div class="ttdeci">void sub_08046AE8(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:257</div></div>
+<div class="ttc" id="agyorgMale_8c_html_ab4f81a69b17b81147801e60046866d48"><div class="ttname"><a href="gyorgMale_8c.html#ab4f81a69b17b81147801e60046866d48">sub_08046C04</a></div><div class="ttdeci">void sub_08046C04(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:294</div></div>
+<div class="ttc" id="agyorgMale_8c_html_ae3bba7b32aee2632e93e93f6d95a95c9"><div class="ttname"><a href="gyorgMale_8c.html#ae3bba7b32aee2632e93e93f6d95a95c9">sub_08046B8C</a></div><div class="ttdeci">void sub_08046B8C(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:281</div></div>
+</div><!-- fragment -->
 </div>
 </div>
-<a id="a10c12d97ceb1f1d374d9701ebbf3e0fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10c12d97ceb1f1d374d9701ebbf3e0fb">&#9670;&nbsp;</a></span>gUnk_080D1B4C</h2>
+<a id="ab7bc4f927881c2b03ef951767c366791"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7bc4f927881c2b03ef951767c366791">&#9670;&nbsp;</a></span>gUnk_080D1B4C</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(*const gUnk_080D1B4C[5])(<a class="el" href="structEntity.html">Entity</a> *) </td>
+          <td class="memname">void(*const gUnk_080D1B4C[5])(<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *) </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
-          <td> = { <a class="el" href="gyorgMale_8c.html#a39a3134fa124bb1ff1be469571c77b6e">sub_08046D44</a>, <a class="el" href="gyorgMale_8c.html#a65d3d662bfb903cf41aa086bbbaa7f62">sub_08046D98</a>, <a class="el" href="gyorgMale_8c.html#a605c52f77145b85eb1288e427dab4990">sub_08046E0C</a>, <a class="el" href="gyorgMale_8c.html#ac63a75d8cc36d6578231ac47ce5e54c4">sub_08046E68</a>, <a class="el" href="gyorgMale_8c.html#abf6543c5b9fe5a83939da2151adb81ea">sub_08046EF4</a> }</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">= { <a class="code" href="gyorgMale_8c.html#a4ec665058cc94c2edfe7fed0bc211429">sub_08046D44</a>, <a class="code" href="gyorgMale_8c.html#a9be766796332af85c69fa79e2db6c457">sub_08046D98</a>, <a class="code" href="gyorgMale_8c.html#ac654e1226bf58effc5e3fdf0bae99d51">sub_08046E0C</a>, <a class="code" href="gyorgMale_8c.html#a16ed249dc298954e3e8a7de40de21f04">sub_08046E68</a>,</div>
+<div class="line">                                                     <a class="code" href="gyorgMale_8c.html#a89d3dea4afa4434e07b971760c3610d9">sub_08046EF4</a> }</div>
+<div class="ttc" id="agyorgMale_8c_html_a16ed249dc298954e3e8a7de40de21f04"><div class="ttname"><a href="gyorgMale_8c.html#a16ed249dc298954e3e8a7de40de21f04">sub_08046E68</a></div><div class="ttdeci">void sub_08046E68(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:382</div></div>
+<div class="ttc" id="agyorgMale_8c_html_a4ec665058cc94c2edfe7fed0bc211429"><div class="ttname"><a href="gyorgMale_8c.html#a4ec665058cc94c2edfe7fed0bc211429">sub_08046D44</a></div><div class="ttdeci">void sub_08046D44(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:342</div></div>
+<div class="ttc" id="agyorgMale_8c_html_a89d3dea4afa4434e07b971760c3610d9"><div class="ttname"><a href="gyorgMale_8c.html#a89d3dea4afa4434e07b971760c3610d9">sub_08046EF4</a></div><div class="ttdeci">void sub_08046EF4(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:405</div></div>
+<div class="ttc" id="agyorgMale_8c_html_a9be766796332af85c69fa79e2db6c457"><div class="ttname"><a href="gyorgMale_8c.html#a9be766796332af85c69fa79e2db6c457">sub_08046D98</a></div><div class="ttdeci">void sub_08046D98(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:353</div></div>
+<div class="ttc" id="agyorgMale_8c_html_ac654e1226bf58effc5e3fdf0bae99d51"><div class="ttname"><a href="gyorgMale_8c.html#ac654e1226bf58effc5e3fdf0bae99d51">sub_08046E0C</a></div><div class="ttdeci">void sub_08046E0C(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:369</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2685b72d14d9acec887a1036f7d5fd26"></a>
@@ -1562,33 +1630,34 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a49d8ec9d5e8e1026f5c65eea754a278c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49d8ec9d5e8e1026f5c65eea754a278c">&#9670;&nbsp;</a></span>gUnk_080D1B94</h2>
+<a id="acaebdacd0c2c2216001b8f388b5cad1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acaebdacd0c2c2216001b8f388b5cad1e">&#9670;&nbsp;</a></span>gUnk_080D1B94</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(*const gUnk_080D1B94[0xA])(<a class="el" href="structEntity.html">Entity</a> *) </td>
+          <td class="memname">void(*const gUnk_080D1B94[0xA])(<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *) </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= { <a class="code" href="gyorgMale_8c.html#a559233246a8ea42bbccfc28201b7aa23">sub_08046FE8</a>, <a class="code" href="gyorgMale_8c.html#a3fff30879d738d95658bcff890c64068">sub_0804702C</a>, <a class="code" href="gyorgMale_8c.html#a39db40786043bb9d7e9a86dcc3e19fe4">sub_080470B4</a>, <a class="code" href="gyorgMale_8c.html#a9dc6327e384b763520b0645fd691327a">sub_08047140</a>, <a class="code" href="gyorgMale_8c.html#a53978a797d1c7f9def3f57d86a1e5780">sub_0804717C</a>,</div>
-<div class="line">                                              <a class="code" href="gyorgMale_8c.html#a2ff91f838343f737578d8d76b03b427e">sub_080471C8</a>, <a class="code" href="gyorgMale_8c.html#ad3583ef8cb7d88b0579dd3676f6afda8">sub_0804723C</a>, <a class="code" href="gyorgMale_8c.html#add7f7dea2957bf251895f7943af0965b">sub_08047284</a>, <a class="code" href="gyorgMale_8c.html#a2624684312d359f95d68070aba178d3f">sub_080472BC</a>, <a class="code" href="gyorgMale_8c.html#a4eef010b0348a4e3fd35bcd10c49f86b">sub_08047310</a> }</div>
-<div class="ttc" id="agyorgMale_8c_html_a2624684312d359f95d68070aba178d3f"><div class="ttname"><a href="gyorgMale_8c.html#a2624684312d359f95d68070aba178d3f">sub_080472BC</a></div><div class="ttdeci">void sub_080472BC(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:557</div></div>
-<div class="ttc" id="agyorgMale_8c_html_a2ff91f838343f737578d8d76b03b427e"><div class="ttname"><a href="gyorgMale_8c.html#a2ff91f838343f737578d8d76b03b427e">sub_080471C8</a></div><div class="ttdeci">void sub_080471C8(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:514</div></div>
-<div class="ttc" id="agyorgMale_8c_html_a39db40786043bb9d7e9a86dcc3e19fe4"><div class="ttname"><a href="gyorgMale_8c.html#a39db40786043bb9d7e9a86dcc3e19fe4">sub_080470B4</a></div><div class="ttdeci">void sub_080470B4(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:474</div></div>
-<div class="ttc" id="agyorgMale_8c_html_a3fff30879d738d95658bcff890c64068"><div class="ttname"><a href="gyorgMale_8c.html#a3fff30879d738d95658bcff890c64068">sub_0804702C</a></div><div class="ttdeci">void sub_0804702C(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:455</div></div>
-<div class="ttc" id="agyorgMale_8c_html_a4eef010b0348a4e3fd35bcd10c49f86b"><div class="ttname"><a href="gyorgMale_8c.html#a4eef010b0348a4e3fd35bcd10c49f86b">sub_08047310</a></div><div class="ttdeci">void sub_08047310(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:568</div></div>
-<div class="ttc" id="agyorgMale_8c_html_a53978a797d1c7f9def3f57d86a1e5780"><div class="ttname"><a href="gyorgMale_8c.html#a53978a797d1c7f9def3f57d86a1e5780">sub_0804717C</a></div><div class="ttdeci">void sub_0804717C(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:504</div></div>
-<div class="ttc" id="agyorgMale_8c_html_a559233246a8ea42bbccfc28201b7aa23"><div class="ttname"><a href="gyorgMale_8c.html#a559233246a8ea42bbccfc28201b7aa23">sub_08046FE8</a></div><div class="ttdeci">void sub_08046FE8(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:446</div></div>
-<div class="ttc" id="agyorgMale_8c_html_a9dc6327e384b763520b0645fd691327a"><div class="ttname"><a href="gyorgMale_8c.html#a9dc6327e384b763520b0645fd691327a">sub_08047140</a></div><div class="ttdeci">void sub_08047140(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:494</div></div>
-<div class="ttc" id="agyorgMale_8c_html_ad3583ef8cb7d88b0579dd3676f6afda8"><div class="ttname"><a href="gyorgMale_8c.html#ad3583ef8cb7d88b0579dd3676f6afda8">sub_0804723C</a></div><div class="ttdeci">void sub_0804723C(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:535</div></div>
-<div class="ttc" id="agyorgMale_8c_html_add7f7dea2957bf251895f7943af0965b"><div class="ttname"><a href="gyorgMale_8c.html#add7f7dea2957bf251895f7943af0965b">sub_08047284</a></div><div class="ttdeci">void sub_08047284(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:547</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">= { <a class="code" href="gyorgMale_8c.html#a194a0cd50a8acce100823e78755f6dc4">sub_08046FE8</a>, <a class="code" href="gyorgMale_8c.html#a2709bf58fd9d9e4480586691ddb8ed92">sub_0804702C</a>, <a class="code" href="gyorgMale_8c.html#afc641d941e79bc0107e24f2ba74bf4ff">sub_080470B4</a>, <a class="code" href="gyorgMale_8c.html#aa212058836c81c575a2236a6532083d8">sub_08047140</a>,</div>
+<div class="line">                                                       <a class="code" href="gyorgMale_8c.html#a46c969143e99916a82e0651c60691dea">sub_0804717C</a>, <a class="code" href="gyorgMale_8c.html#a396a92d1d52483868587670e5fa74d8e">sub_080471C8</a>, <a class="code" href="gyorgMale_8c.html#a81010e6337841f3729ecbaa757f45f82">sub_0804723C</a>, <a class="code" href="gyorgMale_8c.html#a0b16f0ea2634866818eff0a65291e60e">sub_08047284</a>,</div>
+<div class="line">                                                       <a class="code" href="gyorgMale_8c.html#a281fe3faed6944adbd8d9ccbc0ce00ba">sub_080472BC</a>, <a class="code" href="gyorgMale_8c.html#a6e3d79b91bcd9fdc79e87429f40ece16">sub_08047310</a> }</div>
+<div class="ttc" id="agyorgMale_8c_html_a0b16f0ea2634866818eff0a65291e60e"><div class="ttname"><a href="gyorgMale_8c.html#a0b16f0ea2634866818eff0a65291e60e">sub_08047284</a></div><div class="ttdeci">void sub_08047284(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:553</div></div>
+<div class="ttc" id="agyorgMale_8c_html_a194a0cd50a8acce100823e78755f6dc4"><div class="ttname"><a href="gyorgMale_8c.html#a194a0cd50a8acce100823e78755f6dc4">sub_08046FE8</a></div><div class="ttdeci">void sub_08046FE8(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:452</div></div>
+<div class="ttc" id="agyorgMale_8c_html_a2709bf58fd9d9e4480586691ddb8ed92"><div class="ttname"><a href="gyorgMale_8c.html#a2709bf58fd9d9e4480586691ddb8ed92">sub_0804702C</a></div><div class="ttdeci">void sub_0804702C(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:461</div></div>
+<div class="ttc" id="agyorgMale_8c_html_a281fe3faed6944adbd8d9ccbc0ce00ba"><div class="ttname"><a href="gyorgMale_8c.html#a281fe3faed6944adbd8d9ccbc0ce00ba">sub_080472BC</a></div><div class="ttdeci">void sub_080472BC(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:563</div></div>
+<div class="ttc" id="agyorgMale_8c_html_a396a92d1d52483868587670e5fa74d8e"><div class="ttname"><a href="gyorgMale_8c.html#a396a92d1d52483868587670e5fa74d8e">sub_080471C8</a></div><div class="ttdeci">void sub_080471C8(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:520</div></div>
+<div class="ttc" id="agyorgMale_8c_html_a46c969143e99916a82e0651c60691dea"><div class="ttname"><a href="gyorgMale_8c.html#a46c969143e99916a82e0651c60691dea">sub_0804717C</a></div><div class="ttdeci">void sub_0804717C(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:510</div></div>
+<div class="ttc" id="agyorgMale_8c_html_a6e3d79b91bcd9fdc79e87429f40ece16"><div class="ttname"><a href="gyorgMale_8c.html#a6e3d79b91bcd9fdc79e87429f40ece16">sub_08047310</a></div><div class="ttdeci">void sub_08047310(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:574</div></div>
+<div class="ttc" id="agyorgMale_8c_html_a81010e6337841f3729ecbaa757f45f82"><div class="ttname"><a href="gyorgMale_8c.html#a81010e6337841f3729ecbaa757f45f82">sub_0804723C</a></div><div class="ttdeci">void sub_0804723C(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:541</div></div>
+<div class="ttc" id="agyorgMale_8c_html_aa212058836c81c575a2236a6532083d8"><div class="ttname"><a href="gyorgMale_8c.html#aa212058836c81c575a2236a6532083d8">sub_08047140</a></div><div class="ttdeci">void sub_08047140(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:500</div></div>
+<div class="ttc" id="agyorgMale_8c_html_afc641d941e79bc0107e24f2ba74bf4ff"><div class="ttname"><a href="gyorgMale_8c.html#afc641d941e79bc0107e24f2ba74bf4ff">sub_080470B4</a></div><div class="ttdeci">void sub_080470B4(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:480</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1606,49 +1675,56 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a241858dac81295e5d28755e954aeb559"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a241858dac81295e5d28755e954aeb559">&#9670;&nbsp;</a></span>gUnk_080D1BC0</h2>
+<a id="ac8d7604e8b1c2e6a572cef0a63edceeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8d7604e8b1c2e6a572cef0a63edceeb">&#9670;&nbsp;</a></span>gUnk_080D1BC0</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(*const gUnk_080D1BC0[7])(<a class="el" href="structEntity.html">Entity</a> *) </td>
+          <td class="memname">void(*const gUnk_080D1BC0[7])(<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *) </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= { <a class="code" href="gyorgMale_8c.html#a0d99439e2942aa9b41c2967d188f776e">sub_080473B8</a>, <a class="code" href="gyorgMale_8c.html#aae321aa87f3da47bdc91635740cca80b">sub_080473F0</a>, <a class="code" href="gyorgMale_8c.html#a069fe725d82c15328a1bddf3429a28af">sub_08047484</a>, <a class="code" href="gyorgMale_8c.html#a7ddc69c0258a32ad0127eb46e9aaa950">sub_08047508</a>,</div>
-<div class="line">                                            <a class="code" href="gyorgMale_8c.html#a132cdcf045b3385473c5595ebb274332">sub_080475F4</a>, <a class="code" href="gyorgMale_8c.html#ace7e05983fc8c531a80e848ebaed9838">sub_0804763C</a>, <a class="code" href="gyorgMale_8c.html#a866700096f9d22120b1c2decdb0603c9">sub_0804772C</a> }</div>
-<div class="ttc" id="agyorgMale_8c_html_a069fe725d82c15328a1bddf3429a28af"><div class="ttname"><a href="gyorgMale_8c.html#a069fe725d82c15328a1bddf3429a28af">sub_08047484</a></div><div class="ttdeci">void sub_08047484(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:632</div></div>
-<div class="ttc" id="agyorgMale_8c_html_a0d99439e2942aa9b41c2967d188f776e"><div class="ttname"><a href="gyorgMale_8c.html#a0d99439e2942aa9b41c2967d188f776e">sub_080473B8</a></div><div class="ttdeci">void sub_080473B8(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:598</div></div>
-<div class="ttc" id="agyorgMale_8c_html_a132cdcf045b3385473c5595ebb274332"><div class="ttname"><a href="gyorgMale_8c.html#a132cdcf045b3385473c5595ebb274332">sub_080475F4</a></div><div class="ttdeci">void sub_080475F4(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:697</div></div>
-<div class="ttc" id="agyorgMale_8c_html_a7ddc69c0258a32ad0127eb46e9aaa950"><div class="ttname"><a href="gyorgMale_8c.html#a7ddc69c0258a32ad0127eb46e9aaa950">sub_08047508</a></div><div class="ttdeci">void sub_08047508(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:654</div></div>
-<div class="ttc" id="agyorgMale_8c_html_a866700096f9d22120b1c2decdb0603c9"><div class="ttname"><a href="gyorgMale_8c.html#a866700096f9d22120b1c2decdb0603c9">sub_0804772C</a></div><div class="ttdeci">void sub_0804772C(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:752</div></div>
-<div class="ttc" id="agyorgMale_8c_html_aae321aa87f3da47bdc91635740cca80b"><div class="ttname"><a href="gyorgMale_8c.html#aae321aa87f3da47bdc91635740cca80b">sub_080473F0</a></div><div class="ttdeci">void sub_080473F0(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:606</div></div>
-<div class="ttc" id="agyorgMale_8c_html_ace7e05983fc8c531a80e848ebaed9838"><div class="ttname"><a href="gyorgMale_8c.html#ace7e05983fc8c531a80e848ebaed9838">sub_0804763C</a></div><div class="ttdeci">void sub_0804763C(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:709</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">= { <a class="code" href="gyorgMale_8c.html#a34fdb6f9482e03201ce2a45e5da70671">sub_080473B8</a>, <a class="code" href="gyorgMale_8c.html#acb529c779f98602e834c51b688e144c8">sub_080473F0</a>, <a class="code" href="gyorgMale_8c.html#a388c393f2afe2be88a5c032c943e3d48">sub_08047484</a>, <a class="code" href="gyorgMale_8c.html#a32d245eae3b0f2063249a223c9bb61b1">sub_08047508</a>,</div>
+<div class="line">                                                     <a class="code" href="gyorgMale_8c.html#a2c9101306363976f76d11fa9c2ed3c1a">sub_080475F4</a>, <a class="code" href="gyorgMale_8c.html#aaf7d3d291fee56184a109674fd28d605">sub_0804763C</a>, <a class="code" href="gyorgMale_8c.html#a3bc689406c08a36011b76c910fc1095e">sub_0804772C</a> }</div>
+<div class="ttc" id="agyorgMale_8c_html_a2c9101306363976f76d11fa9c2ed3c1a"><div class="ttname"><a href="gyorgMale_8c.html#a2c9101306363976f76d11fa9c2ed3c1a">sub_080475F4</a></div><div class="ttdeci">void sub_080475F4(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:703</div></div>
+<div class="ttc" id="agyorgMale_8c_html_a32d245eae3b0f2063249a223c9bb61b1"><div class="ttname"><a href="gyorgMale_8c.html#a32d245eae3b0f2063249a223c9bb61b1">sub_08047508</a></div><div class="ttdeci">void sub_08047508(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:660</div></div>
+<div class="ttc" id="agyorgMale_8c_html_a34fdb6f9482e03201ce2a45e5da70671"><div class="ttname"><a href="gyorgMale_8c.html#a34fdb6f9482e03201ce2a45e5da70671">sub_080473B8</a></div><div class="ttdeci">void sub_080473B8(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:604</div></div>
+<div class="ttc" id="agyorgMale_8c_html_a388c393f2afe2be88a5c032c943e3d48"><div class="ttname"><a href="gyorgMale_8c.html#a388c393f2afe2be88a5c032c943e3d48">sub_08047484</a></div><div class="ttdeci">void sub_08047484(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:638</div></div>
+<div class="ttc" id="agyorgMale_8c_html_a3bc689406c08a36011b76c910fc1095e"><div class="ttname"><a href="gyorgMale_8c.html#a3bc689406c08a36011b76c910fc1095e">sub_0804772C</a></div><div class="ttdeci">void sub_0804772C(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:758</div></div>
+<div class="ttc" id="agyorgMale_8c_html_aaf7d3d291fee56184a109674fd28d605"><div class="ttname"><a href="gyorgMale_8c.html#aaf7d3d291fee56184a109674fd28d605">sub_0804763C</a></div><div class="ttdeci">void sub_0804763C(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:715</div></div>
+<div class="ttc" id="agyorgMale_8c_html_acb529c779f98602e834c51b688e144c8"><div class="ttname"><a href="gyorgMale_8c.html#acb529c779f98602e834c51b688e144c8">sub_080473F0</a></div><div class="ttdeci">void sub_080473F0(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:612</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="af203145b1b10197c79cdb2a9cdbdf10c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af203145b1b10197c79cdb2a9cdbdf10c">&#9670;&nbsp;</a></span>gUnk_080D1BDC</h2>
+<a id="a7c506976a9bcb2961c2c1a37973c194e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c506976a9bcb2961c2c1a37973c194e">&#9670;&nbsp;</a></span>gUnk_080D1BDC</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(*const gUnk_080D1BDC[5])(<a class="el" href="structEntity.html">Entity</a> *) </td>
+          <td class="memname">void(*const gUnk_080D1BDC[5])(<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *) </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
-          <td> = { <a class="el" href="gyorgMale_8c.html#a330a04875e72cfa5550b5b39a16bf7cd">sub_08047798</a>, <a class="el" href="gyorgMale_8c.html#a97fafb4836bf1b9b3cbd2fd06b194d18">sub_080477F0</a>, <a class="el" href="gyorgMale_8c.html#a70765e56e66522733d78e832d7dbce9a">sub_08047914</a>, <a class="el" href="gyorgMale_8c.html#a3ebf9fdf1f4f6f1f433fef31544c14e0">sub_08047978</a>, <a class="el" href="gyorgMale_8c.html#ab48ef8a8ff3bd0a8563aff0d1889c363">sub_08047B08</a> }</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">= { <a class="code" href="gyorgMale_8c.html#a8785fc7d822c418e59d9465265fc0953">sub_08047798</a>, <a class="code" href="gyorgMale_8c.html#a5272d8fdf25a768b8ab2a4d194a44a45">sub_080477F0</a>, <a class="code" href="gyorgMale_8c.html#a917926b6f407dc9132ad43e83051de8b">sub_08047914</a>, <a class="code" href="gyorgMale_8c.html#a01247306d77355be6afc5c758dfff7a8">sub_08047978</a>,</div>
+<div class="line">                                                     <a class="code" href="gyorgMale_8c.html#a2de5ccb3044c648768b5205d31196a0c">sub_08047B08</a> }</div>
+<div class="ttc" id="agyorgMale_8c_html_a01247306d77355be6afc5c758dfff7a8"><div class="ttname"><a href="gyorgMale_8c.html#a01247306d77355be6afc5c758dfff7a8">sub_08047978</a></div><div class="ttdeci">void sub_08047978(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:838</div></div>
+<div class="ttc" id="agyorgMale_8c_html_a2de5ccb3044c648768b5205d31196a0c"><div class="ttname"><a href="gyorgMale_8c.html#a2de5ccb3044c648768b5205d31196a0c">sub_08047B08</a></div><div class="ttdeci">void sub_08047B08(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:900</div></div>
+<div class="ttc" id="agyorgMale_8c_html_a5272d8fdf25a768b8ab2a4d194a44a45"><div class="ttname"><a href="gyorgMale_8c.html#a5272d8fdf25a768b8ab2a4d194a44a45">sub_080477F0</a></div><div class="ttdeci">void sub_080477F0(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:793</div></div>
+<div class="ttc" id="agyorgMale_8c_html_a8785fc7d822c418e59d9465265fc0953"><div class="ttname"><a href="gyorgMale_8c.html#a8785fc7d822c418e59d9465265fc0953">sub_08047798</a></div><div class="ttdeci">void sub_08047798(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:778</div></div>
+<div class="ttc" id="agyorgMale_8c_html_a917926b6f407dc9132ad43e83051de8b"><div class="ttname"><a href="gyorgMale_8c.html#a917926b6f407dc9132ad43e83051de8b">sub_08047914</a></div><div class="ttdeci">void sub_08047914(GyorgMaleEntity *)</div><div class="ttdef"><b>Definition:</b> gyorgMale.c:824</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a1126bbc3d7a00b4809a2abf681dc52e9"></a>
@@ -1665,18 +1741,18 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a65e50941b6252a554278fe0cb816fe3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65e50941b6252a554278fe0cb816fe3b">&#9670;&nbsp;</a></span>gUnk_080D1BF4</h2>
+<a id="ac2573cee02edaf53e57b8e9b2b1048ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2573cee02edaf53e57b8e9b2b1048ca">&#9670;&nbsp;</a></span>gUnk_080D1BF4</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(*const gUnk_080D1BF4[3])(<a class="el" href="structEntity.html">Entity</a> *) </td>
+          <td class="memname">void(*const gUnk_080D1BF4[3])(<a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *) </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGyorgMaleEntity.html">GyorgMaleEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
-          <td> = { <a class="el" href="gyorgMale_8c.html#a11d3450cde2ec00d63ca532581d056d7">sub_08047BA4</a>, <a class="el" href="gyorgMale_8c.html#a149c47f590df756cf20dcd901cb98dba">sub_08047BF0</a>, <a class="el" href="gyorgMale_8c.html#a6052c1b3b7ce42409473e8b9ac39cc19">sub_08047D24</a> }</td>
+          <td> = { <a class="el" href="gyorgMale_8c.html#a990fae483c7b69697d16023c3c63cb29">sub_08047BA4</a>, <a class="el" href="gyorgMale_8c.html#ab20de2642e23f7e8e2d5744b95a0c233">sub_08047BF0</a>, <a class="el" href="gyorgMale_8c.html#a03adcc531a139a515766cdc4d129f92e">sub_08047D24</a> }</td>
         </tr>
       </table>
 </div><div class="memdoc">

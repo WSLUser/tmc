@@ -1,0 +1,13 @@
+<map id="GyorgHeap" name="GyorgHeap">
+<area shape="rect" id="node1" title=" " alt="" coords="641,111,728,137"/>
+<area shape="rect" id="node2" href="$structGyorgFemaleMouthEntity.html" title=" " alt="" coords="381,5,548,32"/>
+<area shape="rect" id="node3" href="$structEntity.html" title="Container for instantiable behavior." alt="" coords="234,101,289,128"/>
+<area shape="rect" id="node8" href="$structGenericEntity.html" title=" " alt="" coords="415,221,514,248"/>
+<area shape="rect" id="node9" href="$structGyorgBossObjectEntity.html" title=" " alt="" coords="387,157,543,184"/>
+<area shape="rect" id="node10" href="$structGyorgMaleEntity.html" title=" " alt="" coords="407,56,523,83"/>
+<area shape="rect" id="node11" href="$structGyorgFemaleEntity.html" title=" " alt="" coords="399,107,530,133"/>
+<area shape="rect" id="node4" href="$unionSplitHWord.html" title=" " alt="" coords="5,440,93,467"/>
+<area shape="rect" id="node5" href="$unionSplitWord.html" title=" " alt="" coords="10,215,89,241"/>
+<area shape="rect" id="node6" href="$structHitbox.html" title="Hitbox structure." alt="" coords="20,88,79,115"/>
+<area shape="rect" id="node7" href="$structFrame.html" title=" " alt="" coords="20,37,79,64"/>
+</map>
