@@ -1550,7 +1550,7 @@ var searchData=
   ['gunk_5f0810b7ba_3489',['gUnk_0810B7BA',['../townsperson_8c.html#ac52d94b46617356d2f7e93a85fd7ee6a',1,'townsperson.c']]],
   ['gunk_5f0810b7c0_3490',['gUnk_0810B7C0',['../townsperson_8c.html#afdc69c1e76b017d0f7b839adef274315',1,'townsperson.c']]],
   ['gunk_5f0810bdc4_3491',['gUnk_0810BDC4',['../kid_8c.html#ae39291e31931158ebd33b3ec66a3fdd9',1,'kid.c']]],
-  ['gunk_5f0810bde8_3492',['gUnk_0810BDE8',['../kid_8c.html#aa96d7fd0229c939542dea5d569b39b4d',1,'kid.c']]],
+  ['gunk_5f0810bde8_3492',['gUnk_0810BDE8',['../kid_8c.html#a371b1ad5a88b8817011002b62738a937',1,'kid.c']]],
   ['gunk_5f0810be0c_3493',['gUnk_0810BE0C',['../kid_8c.html#ab41c6c4cc6b22239f768ce3379332142',1,'kid.c']]],
   ['gunk_5f0810be10_3494',['gUnk_0810BE10',['../kid_8c.html#a7c103781c7a5fa8439c24facc572b426',1,'kid.c']]],
   ['gunk_5f0810c0a0_3495',['gUnk_0810C0A0',['../kid_8c.html#a52c5f1b41da891a43a3337ae8b5ef47d',1,'kid.c']]],
