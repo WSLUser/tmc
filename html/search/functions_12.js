@@ -261,7 +261,7 @@ var searchData=
   ['stockwell_18516',['Stockwell',['../stockwell_8c.html#a7cc56a3ec3bec7091bc789b5d79d02d9',1,'Stockwell(Entity *this):&#160;stockwell.c'],['../npc_8h.html#a15ba6b58ad4e42abbc0c7e09a02ad861',1,'Stockwell(Entity *):&#160;stockwell.c']]],
   ['stonetablet_18517',['StoneTablet',['../object_8h.html#a9ec7c14ef1bd0a9b77966dc08b5b8e3d',1,'object.h']]],
   ['storekeyinput_18518',['StoreKeyInput',['../common_8c.html#ab82a8b1062b19084f329274548be6a9e',1,'common.c']]],
-  ['sturgeon_18519',['Sturgeon',['../sturgeon_8c.html#a156421accc25454d3de84c3c115608be',1,'Sturgeon(Entity *this)):&#160;sturgeon.c'],['../npc_8h.html#a061e338cc41d9dac094e4e65228be18b',1,'Sturgeon(Entity *):&#160;sturgeon.c']]],
+  ['sturgeon_18519',['Sturgeon',['../sturgeon_8c.html#ae9133ea767b06267d6c060a745b0e767',1,'Sturgeon(Entity *this):&#160;sturgeon.c'],['../npc_8h.html#a061e338cc41d9dac094e4e65228be18b',1,'Sturgeon(Entity *):&#160;sturgeon.c']]],
   ['sturgeon_5ffusion_18520',['Sturgeon_Fusion',['../npc_8h.html#a6fe716a1a83fc5fd564d68a2c770c63e',1,'Sturgeon_Fusion(Entity *):&#160;sturgeon.c'],['../sturgeon_8c.html#a40fff5b80fd7318793fa83906b689d28',1,'Sturgeon_Fusion(Entity *this):&#160;sturgeon.c']]],
   ['sturgeon_5fhead_18521',['Sturgeon_Head',['../sturgeon_8c.html#a7b00fe1bfb7180c3635f347207a2d5c2',1,'Sturgeon_Head(Entity *this):&#160;sturgeon.c'],['../npc_8h.html#a278c20388710f5db64145b3667ec3be2',1,'Sturgeon_Head(Entity *):&#160;sturgeon.c']]],
   ['sub_5f08000148_18522',['sub_08000148',['../mask_8c.html#abea4798bccdcf8493d973f00b6dd93a9',1,'mask.c']]],
