@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['s_26387',['s',['../entity_8c.html#aef466255d09a2a2434ee89ce4956f0d8',1,'s():&#160;entity.c'],['../furniture_8c.html#ae28709585251f02e309ed73c09c75034',1,'s():&#160;furniture.c'],['../room_8c.html#af2bad7897a0ead8d56c597baf8ba5fa5',1,'s():&#160;room.c']]],
+  ['s_26387',['s',['../entity_8c.html#aef466255d09a2a2434ee89ce4956f0d8',1,'s():&#160;entity.c'],['../room_8c.html#af2bad7897a0ead8d56c597baf8ba5fa5',1,'s():&#160;room.c']]],
   ['s1_26388',['s1',['../structVaatiArm__HeapStruct.html#a8a669d3615513a8bb7483c448846f5c9',1,'VaatiArm_HeapStruct']]],
   ['saved_5fstatus_26389',['saved_status',['../structSaveFile.html#a58209abe3d6f45af536aa92cd46160f3',1,'SaveFile']]],
-  ['savefileid_26390',['saveFileId',['../structDefaults.html#ac4236144b854f6928da8a8a5f77a1cd1',1,'Defaults::saveFileId()'],['../structSaveHeader.html#a694b8fceefc6f14ce9b7b4466cacc384',1,'SaveHeader::saveFileId()']]],
+  ['savefileid_26390',['saveFileId',['../structSaveHeader.html#a694b8fceefc6f14ce9b7b4466cacc384',1,'SaveHeader::saveFileId()'],['../structDefaults.html#ac4236144b854f6928da8a8a5f77a1cd1',1,'Defaults::saveFileId()']]],
   ['saves_26391',['saves',['../structstruct__02019EE0.html#aa645d9315826427ea5682291d2582ff7',1,'struct_02019EE0']]],
   ['savestatus_26392',['saveStatus',['../structstruct__02019EE0.html#a709334fb52c1fcf94f6d546599ac953d',1,'struct_02019EE0']]],
   ['sc_26393',['sc',['../structRCnt.html#a9286154f6dd55b19b07114f9948053e8',1,'RCnt']]],

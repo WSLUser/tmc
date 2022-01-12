@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['s_8165',['s',['../entity_8c.html#aef466255d09a2a2434ee89ce4956f0d8',1,'s():&#160;entity.c'],['../furniture_8c.html#ae28709585251f02e309ed73c09c75034',1,'s():&#160;furniture.c'],['../room_8c.html#af2bad7897a0ead8d56c597baf8ba5fa5',1,'s():&#160;room.c']]],
+  ['s_8165',['s',['../entity_8c.html#aef466255d09a2a2434ee89ce4956f0d8',1,'s():&#160;entity.c'],['../room_8c.html#af2bad7897a0ead8d56c597baf8ba5fa5',1,'s():&#160;room.c']]],
   ['s1_8166',['s1',['../structVaatiArm__HeapStruct.html#a8a669d3615513a8bb7483c448846f5c9',1,'VaatiArm_HeapStruct']]],
   ['s16_8167',['s16',['../types_8h.html#aa980e2c02ba2305e0f489d5650655425',1,'types.h']]],
   ['s32_8168',['s32',['../types_8h.html#ae9b1af5c037e57a98884758875d3a7c4',1,'types.h']]],
@@ -5288,7 +5288,7 @@ var searchData=
   ['sub_5f08090cdc_13450',['sub_08090CDC',['../furniture_8c.html#a8747f89ae489d1d34ad4e833d2611a43',1,'furniture.c']]],
   ['sub_5f08090dc4_13451',['sub_08090DC4',['../furniture_8c.html#a9b9e2c20f76e339b1c79a557540748ec',1,'furniture.c']]],
   ['sub_5f08090e4c_13452',['sub_08090E4C',['../furniture_8c.html#a552fccfe57109bae307db071bfa4c99b',1,'furniture.c']]],
-  ['sub_5f08090e64_13453',['sub_08090E64',['../furniture_8c.html#a9bdba5edda661b91b60a810e1e79ba1d',1,'furniture.c']]],
+  ['sub_5f08090e64_13453',['sub_08090E64',['../furniture_8c.html#a8581cefca27c0a68ff52525f8338e0b2',1,'furniture.c']]],
   ['sub_5f08090ec0_13454',['sub_08090EC0',['../minishSizedEntrance_8c.html#a7af5d98d45a145fdf055b5c2e35304d7',1,'minishSizedEntrance.c']]],
   ['sub_5f08090f00_13455',['sub_08090F00',['../minishSizedEntrance_8c.html#a344f0fb29709b9bfa1faf3a9166e384e',1,'minishSizedEntrance.c']]],
   ['sub_5f080916ec_13456',['sub_080916EC',['../minecart_8c.html#afd71a962be2608fccfcd6ec9cba7ee87',1,'minecart.c']]],
