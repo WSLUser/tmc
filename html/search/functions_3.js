@@ -86,7 +86,7 @@ var searchData=
   ['collisionmain_17034',['CollisionMain',['../collision_8c.html#a7823bc93f76396a6668a52c8b2a4c50c',1,'CollisionMain(void):&#160;collision.c'],['../game_8c.html#a7823bc93f76396a6668a52c8b2a4c50c',1,'CollisionMain(void):&#160;collision.c']]],
   ['collisionnoop_17035',['CollisionNoOp',['../collision_8c.html#a39cc7f9185aae47c716237e5e64c5e6a',1,'collision.c']]],
   ['conveyer_5fpush_17036',['conveyer_push',['../player_8c.html#aa528c755c70c92cd4cce363e11a43f6f',1,'player.c']]],
-  ['copyoam_17037',['CopyOAM',['../affine_8c.html#a9685cbdbcbddbe2d17c155cc4341bcf0',1,'CopyOAM(void)):&#160;affine.c'],['../functions_8h.html#a7654fecf5e1f8dce6730058b054e7c1d',1,'CopyOAM(void):&#160;affine.c']]],
+  ['copyoam_17037',['CopyOAM',['../affine_8c.html#a7654fecf5e1f8dce6730058b054e7c1d',1,'CopyOAM(void):&#160;affine.c'],['../functions_8h.html#a7654fecf5e1f8dce6730058b054e7c1d',1,'CopyOAM(void):&#160;affine.c']]],
   ['copyposition_17038',['CopyPosition',['../coord_8c.html#af0a5a820dffd1ab73af68cc5d57e61cd',1,'CopyPosition(Entity *param_1, Entity *param_2):&#160;coord.c'],['../coord_8h.html#afb663c7394d86a6b1461b584b68bc885',1,'CopyPosition(Entity *, Entity *):&#160;coord.c']]],
   ['copypositionandspriteoffset_17039',['CopyPositionAndSpriteOffset',['../coord_8c.html#a417a1a50d9a9e668716b93db83d05cba',1,'CopyPositionAndSpriteOffset(Entity *param_1, Entity *param_2):&#160;coord.c'],['../coord_8h.html#a417a1a50d9a9e668716b93db83d05cba',1,'CopyPositionAndSpriteOffset(Entity *param_1, Entity *param_2):&#160;coord.c']]],
   ['cow_17040',['Cow',['../cow_8c.html#a919488f818831def703db6796f6d207a',1,'Cow(Entity *ent):&#160;cow.c'],['../npc_8h.html#a58c9cc0e10c464e2aae5cd0793459d13',1,'Cow(Entity *):&#160;cow.c']]],

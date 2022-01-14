@@ -198,7 +198,7 @@ var searchData=
   ['coords_973',['Coords',['../unionCoords.html',1,'']]],
   ['coords16_974',['Coords16',['../structCoords16.html',1,'']]],
   ['copy_5fflag_5ffrom_5fto_975',['COPY_FLAG_FROM_TO',['../player_8h.html#a580768feff78726dc7f34831cb97dc1c',1,'player.h']]],
-  ['copyoam_976',['CopyOAM',['../affine_8c.html#a9685cbdbcbddbe2d17c155cc4341bcf0',1,'CopyOAM(void)):&#160;affine.c'],['../functions_8h.html#a7654fecf5e1f8dce6730058b054e7c1d',1,'CopyOAM(void):&#160;affine.c']]],
+  ['copyoam_976',['CopyOAM',['../affine_8c.html#a7654fecf5e1f8dce6730058b054e7c1d',1,'CopyOAM(void):&#160;affine.c'],['../functions_8h.html#a7654fecf5e1f8dce6730058b054e7c1d',1,'CopyOAM(void):&#160;affine.c']]],
   ['copyposition_977',['CopyPosition',['../coord_8c.html#af0a5a820dffd1ab73af68cc5d57e61cd',1,'CopyPosition(Entity *param_1, Entity *param_2):&#160;coord.c'],['../coord_8h.html#afb663c7394d86a6b1461b584b68bc885',1,'CopyPosition(Entity *, Entity *):&#160;coord.c']]],
   ['copypositionandspriteoffset_978',['CopyPositionAndSpriteOffset',['../coord_8c.html#a417a1a50d9a9e668716b93db83d05cba',1,'CopyPositionAndSpriteOffset(Entity *param_1, Entity *param_2):&#160;coord.c'],['../coord_8h.html#a417a1a50d9a9e668716b93db83d05cba',1,'CopyPositionAndSpriteOffset(Entity *param_1, Entity *param_2):&#160;coord.c']]],
   ['count_979',['count',['../structFlashSector.html#a7b29e153db250bbf60db9f0fbd2fb83b',1,'FlashSector::count()'],['../structSoundChannel.html#a3562ee7420e44a6261b7e40559c4b346',1,'SoundChannel::count()']]],
