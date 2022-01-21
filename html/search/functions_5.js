@@ -15,7 +15,7 @@ var searchData=
   ['enemy50_17298',['Enemy50',['../enemy_8h.html#a272570e4b988babc00454843f3fbf78e',1,'enemy.h']]],
   ['enemy62_17299',['Enemy62',['../enemy_8h.html#a44cfed2e066040433b229419dda9e573',1,'enemy.h']]],
   ['enemy64_17300',['Enemy64',['../enemy_8h.html#ab4db08f5325759b61dd3299e98e60f40',1,'enemy.h']]],
-  ['enemy66_17301',['Enemy66',['../enemy_8h.html#a7584a885a32ff612a695f1930e8516cd',1,'enemy.h']]],
+  ['enemy66_17301',['Enemy66',['../enemy66_8c.html#afa511b7655436c4ff75e0f1f8896ab5e',1,'Enemy66(Entity *this):&#160;enemy66.c'],['../enemy_8h.html#a7584a885a32ff612a695f1930e8516cd',1,'Enemy66(Entity *):&#160;enemy66.c']]],
   ['enemye_17302',['EnemyE',['../enemyE_8c.html#ae3ea662d081221440acecff510735560',1,'EnemyE(Entity *this):&#160;enemyE.c'],['../enemy_8h.html#ab86e58fb07519dbbc15132a64de23362',1,'EnemyE(Entity *):&#160;enemyE.c']]],
   ['enemyfunctionhandler_17303',['EnemyFunctionHandler',['../enemy_8h.html#a11f5a39385192120e426ad11d13f8574',1,'enemy.h']]],
   ['enemyinit_17304',['EnemyInit',['../enemyUtils_8c.html#a13912c6b60c231243ae56055c4fe1731',1,'enemyUtils.c']]],
