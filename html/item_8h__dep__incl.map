@@ -1,5 +1,5 @@
 <map id="include/item.h" name="include/item.h">
-<area shape="rect" id="node1" title=" " alt="" coords="2766,5,2869,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="2869,5,2971,32"/>
 <area shape="rect" id="node2" href="$code__0805436C_8c.html" title=" " alt="" coords="5,80,152,107"/>
 <area shape="rect" id="node3" href="$businessScrub_8c.html" title="Business Scrub enemy." alt="" coords="177,80,359,107"/>
 <area shape="rect" id="node4" href="$likeLike_8c.html" title="Like Like enemy." alt="" coords="384,80,525,107"/>
@@ -27,9 +27,10 @@
 <area shape="rect" id="node26" href="$book_8c.html" title=" " alt="" coords="4186,80,4307,107"/>
 <area shape="rect" id="node27" href="$heartContainer_8c.html" title=" " alt="" coords="4331,80,4509,107"/>
 <area shape="rect" id="node28" href="$itemOnGround_8c.html" title=" " alt="" coords="4533,80,4710,107"/>
-<area shape="rect" id="node29" href="$object6A_8c.html" title=" " alt="" coords="4735,80,4879,107"/>
-<area shape="rect" id="node30" href="$objectA8_8c.html" title=" " alt="" coords="4903,80,5047,107"/>
-<area shape="rect" id="node31" href="$player_8c.html" title="Player entity." alt="" coords="5071,80,5159,107"/>
-<area shape="rect" id="node32" href="$roomInit_8c.html" title=" " alt="" coords="5183,80,5284,107"/>
-<area shape="rect" id="node33" href="$title_8c.html" title="Title task." alt="" coords="5308,80,5383,107"/>
+<area shape="rect" id="node29" href="$lilypadLarge_8c.html" title="Large Lilypad object." alt="" coords="4735,80,4897,107"/>
+<area shape="rect" id="node30" href="$object6A_8c.html" title=" " alt="" coords="4921,80,5065,107"/>
+<area shape="rect" id="node31" href="$objectA8_8c.html" title=" " alt="" coords="5089,80,5233,107"/>
+<area shape="rect" id="node32" href="$player_8c.html" title="Player entity." alt="" coords="5257,80,5345,107"/>
+<area shape="rect" id="node33" href="$roomInit_8c.html" title=" " alt="" coords="5369,80,5471,107"/>
+<area shape="rect" id="node34" href="$title_8c.html" title="Title task." alt="" coords="5495,80,5569,107"/>
 </map>
