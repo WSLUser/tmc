@@ -217,7 +217,7 @@ Enumerations</h2></td></tr>
 , <a class="el" href="enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba106111321867456af1049ad8c6702451">LAKITU</a>
 , <br />
 &#160;&#160;<a class="el" href="enemy_8h.html#aea93ec65ac90bcf874dde349967f08abacbc8c642d781f64a82c8d571a9b4723a">LAKITU_CLOUD</a>
-, <a class="el" href="enemy_8h.html#aea93ec65ac90bcf874dde349967f08abac881ea46ce9293fc1300b1a40c6b46b2">ENEMY_49</a>
+, <a class="el" href="enemy_8h.html#aea93ec65ac90bcf874dde349967f08abac273b251405644b2487a74cf2983a036">TORCH_TRAP</a>
 , <a class="el" href="enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba3795c5c5b2b971277a94e5fb81000ca0">VAATI_REBORN_ENEMY</a>
 , <a class="el" href="enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba20f3b7f2b8f7e47808e1b64d78995761">VAATI_PROJECTILE</a>
 , <br />
@@ -428,8 +428,8 @@ Functions</h2></td></tr>
 <tr class="separator:acdf0bd329d48aaf1ef06932eb9e7b280"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c71729a81de08eae55052154a2ad6dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enemy_8h.html#a3c71729a81de08eae55052154a2ad6dd">LakituCloud</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
 <tr class="separator:a3c71729a81de08eae55052154a2ad6dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49789e8092fdb436305f3b050e2a155f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enemy_8h.html#a49789e8092fdb436305f3b050e2a155f">Enemy49</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a49789e8092fdb436305f3b050e2a155f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dead8535cdf141c8645bb1c77aa11fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enemy_8h.html#a9dead8535cdf141c8645bb1c77aa11fc">TorchTrap</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
+<tr class="separator:a9dead8535cdf141c8645bb1c77aa11fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa10d3acdea78c1d0d7f2e8b9e9012c2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enemy_8h.html#aa10d3acdea78c1d0d7f2e8b9e9012c2a">VaatiRebornEnemy</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
 <tr class="separator:aa10d3acdea78c1d0d7f2e8b9e9012c2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a638be6293ef10e4c37c28f1019f8d6a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enemy_8h.html#a638be6293ef10e4c37c28f1019f8d6a3">VaatiProjectile</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
@@ -573,7 +573,7 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="aea93ec65ac90bcf874dde349967f08aba33c499f5545b00e01b760f676d64d312"></a>BOW_MOBLIN&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aea93ec65ac90bcf874dde349967f08aba106111321867456af1049ad8c6702451"></a>LAKITU&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aea93ec65ac90bcf874dde349967f08abacbc8c642d781f64a82c8d571a9b4723a"></a>LAKITU_CLOUD&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aea93ec65ac90bcf874dde349967f08abac881ea46ce9293fc1300b1a40c6b46b2"></a>ENEMY_49&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aea93ec65ac90bcf874dde349967f08abac273b251405644b2487a74cf2983a036"></a>TORCH_TRAP&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aea93ec65ac90bcf874dde349967f08aba3795c5c5b2b971277a94e5fb81000ca0"></a>VAATI_REBORN_ENEMY&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aea93ec65ac90bcf874dde349967f08aba20f3b7f2b8f7e47808e1b64d78995761"></a>VAATI_PROJECTILE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aea93ec65ac90bcf874dde349967f08aba3baff2eae411a988e0067ec2d65cab0e"></a>BALL_CHAIN_SOLIDER&#160;</td><td class="fielddoc"></td></tr>
@@ -1062,24 +1062,6 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">void Dust </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a49789e8092fdb436305f3b050e2a155f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49789e8092fdb436305f3b050e2a155f">&#9670;&nbsp;</a></span>Enemy49()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Enemy49 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -2450,6 +2432,24 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">void TektiteGolden </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9dead8535cdf141c8645bb1c77aa11fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dead8535cdf141c8645bb1c77aa11fc">&#9670;&nbsp;</a></span>TorchTrap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TorchTrap </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
