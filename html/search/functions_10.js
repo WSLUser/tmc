@@ -139,7 +139,7 @@ var searchData=
   ['portalshrinkupdate_18287',['PortalShrinkUpdate',['../player_8c.html#a02b8d0181e8930701538d849bdb0b418',1,'player.c']]],
   ['portalstandupdate_18288',['PortalStandUpdate',['../player_8c.html#a2fdec174b16da6ca212c0cbb71a09a6f',1,'player.c']]],
   ['portalunknownupdate_18289',['PortalUnknownUpdate',['../player_8c.html#a5ad41533685d67b42a1e9a66d3fc2faf',1,'player.c']]],
-  ['positionentityontop_18290',['PositionEntityOnTop',['../coord_8c.html#a7c83be2bebd3fb879f620cac55a7d977',1,'PositionEntityOnTop(Entity *ent, Entity *ent2):&#160;coord.c'],['../coord_8h.html#ac8a73246b4a79c610b759f55adb2ccff',1,'PositionEntityOnTop(Entity *, Entity *):&#160;coord.c']]],
+  ['positionentityontop_18290',['PositionEntityOnTop',['../coord_8c.html#a2224df7ade70fb06e119f0bfaf325f1d',1,'PositionEntityOnTop(Entity *source, Entity *target):&#160;coord.c'],['../coord_8h.html#ac8a73246b4a79c610b759f55adb2ccff',1,'PositionEntityOnTop(Entity *, Entity *):&#160;coord.c']]],
   ['positionrelative_18291',['PositionRelative',['../coord_8c.html#aab431c7998e77d29a8a7a547f2bb18b1',1,'PositionRelative(Entity *source, Entity *target, s32 offsetX, s32 offsetY):&#160;coord.c'],['../coord_8h.html#a04b5bfc83ff9de1bb1e6eb15b4af58c6',1,'PositionRelative(Entity *, Entity *, s32, s32):&#160;coord.c']]],
   ['postman_18292',['Postman',['../postman_8c.html#aeb934a86edaf8f67e9c829bb79fec6b7',1,'Postman(Entity *this):&#160;postman.c'],['../npc_8h.html#a9c32c138cbc1bd0438ce3275116a18e1',1,'Postman(Entity *):&#160;postman.c']]],
   ['postman_5ffusion_18293',['Postman_Fusion',['../npc_8h.html#a9184658d599e53a156990c1c3268dc07',1,'npc.h']]],

@@ -123,8 +123,8 @@ $(function() {
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">// Converts a number to Q8.8 fixed-point format</span></div>
 <div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="global_8h.html#a02cd719965dc868ce3821ead9e939f6f">   60</a></span>&#160;<span class="preprocessor">#define Q_8_8(n) ((s16)((n)*256))</span></div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">// Converts a number to Q4.12 fixed-point format</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="global_8h.html#a43c2e35969f97127a22a01dc7fee39c9">   63</a></span>&#160;<span class="preprocessor">#define Q_4_12(n) ((s16)((n)*4096))</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">// Converts a number to Q16.16 fixed-point format</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="global_8h.html#af02bb63f2dd8604e753c23ba747c2ced">   63</a></span>&#160;<span class="preprocessor">#define Q_16_16(n) ((s32)((n) * (1 &lt;&lt; 16)))</span></div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
 <div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="global_8h.html#ac6afabdc09a49a433ee19d8a9486056d">   65</a></span>&#160;<span class="preprocessor">#define min(a, b) ((a) &lt; (b) ? (a) : (b))</span></div>
 <div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="global_8h.html#affe776513b24d84b39af8ab0930fef7f">   66</a></span>&#160;<span class="preprocessor">#define max(a, b) ((a) &gt;= (b) ? (a) : (b))</span></div>

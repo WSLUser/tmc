@@ -186,10 +186,10 @@ Functions</h2></td></tr>
 <tr class="separator:a417a1a50d9a9e668716b93db83d05cba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45cfe542b1dcf7ca73223e298aa2a0e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="coord_8h.html#a45cfe542b1dcf7ca73223e298aa2a0e6">sub_0806FA90</a> (<a class="el" href="structEntity.html">Entity</a> *, <a class="el" href="structEntity.html">Entity</a> *, <a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a>, <a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a>)</td></tr>
 <tr class="separator:a45cfe542b1dcf7ca73223e298aa2a0e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a484695cf7c0266fa7cc9d469f5347dc7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="coord_8h.html#a484695cf7c0266fa7cc9d469f5347dc7">ResolveEntityOnTop</a> (<a class="el" href="structEntity.html">Entity</a> *, <a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a484695cf7c0266fa7cc9d469f5347dc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b4390b3ad2f337cd0e57c09477b2c3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="coord_8h.html#a2b4390b3ad2f337cd0e57c09477b2c3e">ResolveEntityBelow</a> (<a class="el" href="structEntity.html">Entity</a> *, <a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a2b4390b3ad2f337cd0e57c09477b2c3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb836cc22777224f10bb99e577fc68e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="coord_8h.html#adb836cc22777224f10bb99e577fc68e7">SortEntityAbove</a> (<a class="el" href="structEntity.html">Entity</a> *, <a class="el" href="structEntity.html">Entity</a> *)</td></tr>
+<tr class="separator:adb836cc22777224f10bb99e577fc68e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae15b6e918a9e91211ef09973b01d9675"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="coord_8h.html#ae15b6e918a9e91211ef09973b01d9675">SortEntityBelow</a> (<a class="el" href="structEntity.html">Entity</a> *, <a class="el" href="structEntity.html">Entity</a> *)</td></tr>
+<tr class="separator:ae15b6e918a9e91211ef09973b01d9675"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bb49185feb9fdde573b3167445d8463"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="coord_8h.html#a7bb49185feb9fdde573b3167445d8463">sub_0806F5A4</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> idx)</td></tr>
 <tr class="separator:a7bb49185feb9fdde573b3167445d8463"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0bbb195df9e1806d894d285d14e1e31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="coord_8h.html#ae0bbb195df9e1806d894d285d14e1e31">sub_0806F3E4</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
@@ -215,13 +215,13 @@ Variables</h2></td></tr>
           <td class="memname">void CopyPosition </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>param_1</em>, </td>
+          <td class="paramname"><em>source</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>param_2</em>&#160;</td>
+          <td class="paramname"><em>target</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -345,13 +345,13 @@ Variables</h2></td></tr>
           <td class="memname">void PositionEntityOnTop </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>ent</em>, </td>
+          <td class="paramname"><em>source</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>ent2</em>&#160;</td>
+          <td class="paramname"><em>target</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -403,23 +403,23 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a2b4390b3ad2f337cd0e57c09477b2c3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b4390b3ad2f337cd0e57c09477b2c3e">&#9670;&nbsp;</a></span>ResolveEntityBelow()</h2>
+<a id="adb836cc22777224f10bb99e577fc68e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb836cc22777224f10bb99e577fc68e7">&#9670;&nbsp;</a></span>SortEntityAbove()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void ResolveEntityBelow </td>
+          <td class="memname">void SortEntityAbove </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>param_1</em>, </td>
+          <td class="paramname"><em>relativeTo</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>param_2</em>&#160;</td>
+          <td class="paramname"><em>above</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -431,23 +431,23 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a484695cf7c0266fa7cc9d469f5347dc7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a484695cf7c0266fa7cc9d469f5347dc7">&#9670;&nbsp;</a></span>ResolveEntityOnTop()</h2>
+<a id="ae15b6e918a9e91211ef09973b01d9675"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae15b6e918a9e91211ef09973b01d9675">&#9670;&nbsp;</a></span>SortEntityBelow()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void ResolveEntityOnTop </td>
+          <td class="memname">void SortEntityBelow </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>param_1</em>, </td>
+          <td class="paramname"><em>relativeTo</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>param_2</em>&#160;</td>
+          <td class="paramname"><em>below</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -505,13 +505,13 @@ Variables</h2></td></tr>
           <td class="memname">void sub_0806FA90 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>param_1</em>, </td>
+          <td class="paramname"><em>source</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>param_2</em>, </td>
+          <td class="paramname"><em>target</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
