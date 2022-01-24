@@ -75,6 +75,8 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -86,6 +88,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="screen_8h_source.html">screen.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="common_8h_source.html">common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="main_8h_source.html">main.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for manager1.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -93,35 +96,48 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="manager1_8c__incl.png" border="0" usemap="#asrc_2manager_2manager1_8c" alt=""/></div>
 <map name="asrc_2manager_2manager1_8c" id="asrc_2manager_2manager1_8c">
-<area shape="rect" title=" " alt="" coords="547,5,712,32"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="411,453,477,480"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="343,304,406,331"/>
-<area shape="rect" href="screen_8h.html" title=" " alt="" coords="695,304,766,331"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="353,80,439,107"/>
-<area shape="rect" href="common_8h.html" title=" " alt="" coords="768,80,851,107"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="533,528,611,555"/>
-<area shape="rect" title=" " alt="" coords="284,603,348,629"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="931,603,1005,629"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="372,603,439,629"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="541,677,603,704"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="610,603,702,629"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="463,603,535,629"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="726,603,794,629"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="819,603,907,629"/>
-<area shape="rect" title=" " alt="" coords="934,677,1002,704"/>
-<area shape="rect" title=" " alt="" coords="540,752,604,779"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="258,379,318,405"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="343,379,407,405"/>
-<area shape="rect" href="fade_8h.html" title=" " alt="" coords="663,379,721,405"/>
-<area shape="rect" href="manager_8h.html" title=" " alt="" coords="421,229,504,256"/>
-<area shape="rect" href="coord_8h.html" title=" " alt="" coords="528,229,592,256"/>
-<area shape="rect" href="player_8h.html" title=" " alt="" coords="179,229,245,256"/>
-<area shape="rect" href="room_8h.html" title=" " alt="" coords="43,229,104,256"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="129,155,220,181"/>
-<area shape="rect" href="script_8h.html" title=" " alt="" coords="295,155,359,181"/>
+<area shape="rect" title=" " alt="" coords="472,5,637,32"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="429,453,496,480"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="310,304,373,331"/>
+<area shape="rect" href="screen_8h.html" title=" " alt="" coords="678,304,749,331"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="352,80,437,107"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="745,80,828,107"/>
+<area shape="rect" href="main_8h.html" title=" " alt="" coords="830,155,890,181"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="494,528,573,555"/>
+<area shape="rect" title=" " alt="" coords="219,603,283,629"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="777,603,850,629"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="875,603,941,629"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="429,677,491,704"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="307,603,399,629"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="424,603,496,629"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="571,603,639,629"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="664,603,752,629"/>
+<area shape="rect" title=" " alt="" coords="779,677,847,704"/>
+<area shape="rect" title=" " alt="" coords="428,752,492,779"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="311,379,371,405"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="396,379,460,405"/>
+<area shape="rect" href="fade_8h.html" title=" " alt="" coords="687,379,745,405"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="611,229,693,256"/>
+<area shape="rect" href="coord_8h.html" title=" " alt="" coords="144,229,208,256"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="520,229,587,256"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="232,229,293,256"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="451,155,541,181"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="363,155,427,181"/>
 </map>
 </div>
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPACKED.html">PACKED</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a50be9bb720cdd79f04c44e845f950037"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="manager1_8c.html#a50be9bb720cdd79f04c44e845f950037">ZV</a>(this)&#160;&#160;&#160;((<a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>*)&amp;this-&gt;zVelocity)</td></tr>
+<tr class="separator:a50be9bb720cdd79f04c44e845f950037"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf68597e6f43e7e0ca321d3706703b25"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="manager1_8c.html#adf68597e6f43e7e0ca321d3706703b25">ZS</a>(this)&#160;&#160;&#160;((<a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>*)&amp;this-&gt;<a class="el" href="itemMoleMitts_8c.html#aca6b26cbfdf81f740f7a19693f88d4fc">speed</a>)</td></tr>
+<tr class="separator:adf68597e6f43e7e0ca321d3706703b25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a3ca0c0904eefb289056ef0769d21f4ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="manager1_8c.html#a3ca0c0904eefb289056ef0769d21f4ad">sub_08056250</a> (void)</td></tr>
@@ -134,18 +150,20 @@ Functions</h2></td></tr>
 <tr class="separator:a951349fc7339f9b6a8db5666ef74a4a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49346c6852ca65c2bd42e524211ac076"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="manager1_8c.html#a49346c6852ca65c2bd42e524211ac076">sub_08057118</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
 <tr class="separator:a49346c6852ca65c2bd42e524211ac076"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39f681d9c3a3027750e3180197ba6365"><td class="memItemLeft" align="right" valign="top">asm non_matching manager1 sub_08057174 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="manager1_8c.html#a39f681d9c3a3027750e3180197ba6365">sub_08057174</a> ()) 1(&quot;asm/non_matching/manager1/<a class="el" href="ui_8c.html#a65820f08ad65b0d8a4a5786046d67953">sub_0805728C.inc</a>&quot;</td></tr>
-<tr class="separator:a39f681d9c3a3027750e3180197ba6365"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1508f080ec044a79d7f9b559b035503d"><td class="memItemLeft" align="right" valign="top">asm non_matching manager1 <a class="el" href="manager1_8c.html#a39f681d9c3a3027750e3180197ba6365">sub_08057174</a> void void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="manager1_8c.html#a1508f080ec044a79d7f9b559b035503d">sub_0805728C</a> ()) 1(&quot;asm/non_matching/manager1/<a class="el" href="ui_8c.html#a65820f08ad65b0d8a4a5786046d67953">sub_080572D4.inc</a>&quot;</td></tr>
-<tr class="separator:a1508f080ec044a79d7f9b559b035503d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae06477cb41629c0c94f9d782d9361428"><td class="memItemLeft" align="right" valign="top">asm non_matching manager1 <a class="el" href="manager1_8c.html#a39f681d9c3a3027750e3180197ba6365">sub_08057174</a> void void void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="manager1_8c.html#ae06477cb41629c0c94f9d782d9361428">sub_080572D4</a> ()) 1(&quot;asm/non_matching/manager1/<a class="el" href="ui_8c.html#a65820f08ad65b0d8a4a5786046d67953">sub_0805732C.inc</a>&quot;</td></tr>
-<tr class="separator:ae06477cb41629c0c94f9d782d9361428"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a94f4ec4aab5657b917e0ee75d54f18"><td class="memItemLeft" align="right" valign="top">asm non_matching manager1 <a class="el" href="manager1_8c.html#a39f681d9c3a3027750e3180197ba6365">sub_08057174</a> void void void void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="manager1_8c.html#a5a94f4ec4aab5657b917e0ee75d54f18">sub_0805732C</a> ()) 1(&quot;asm/non_matching/manager1/<a class="el" href="ui_8c.html#a65820f08ad65b0d8a4a5786046d67953">nullsub_494.inc</a>&quot;</td></tr>
-<tr class="separator:a5a94f4ec4aab5657b917e0ee75d54f18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabbaea2bc609151cfa75782e0a7370e1"><td class="memItemLeft" align="right" valign="top">asm non_matching manager1 <a class="el" href="manager1_8c.html#a39f681d9c3a3027750e3180197ba6365">sub_08057174</a> void void void void void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="manager1_8c.html#aabbaea2bc609151cfa75782e0a7370e1">nullsub_494</a> ()) 1(&quot;asm/non_matching/manager1/<a class="el" href="ui_8c.html#a65820f08ad65b0d8a4a5786046d67953">sub_080573AC.inc</a>&quot;</td></tr>
-<tr class="separator:aabbaea2bc609151cfa75782e0a7370e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81d8a4943dc7c67bb5a474883dbc3dc3"><td class="memItemLeft" align="right" valign="top">asm non_matching manager1 <a class="el" href="manager1_8c.html#a39f681d9c3a3027750e3180197ba6365">sub_08057174</a> void void void void void void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="manager1_8c.html#a81d8a4943dc7c67bb5a474883dbc3dc3">sub_080573AC</a> ()) 1(&quot;asm/non_matching/manager1/<a class="el" href="ui_8c.html#a65820f08ad65b0d8a4a5786046d67953">sub_08057450.inc</a>&quot;</td></tr>
-<tr class="separator:a81d8a4943dc7c67bb5a474883dbc3dc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4e3ec039455ae3778698820fa54e75a"><td class="memItemLeft" align="right" valign="top">asm non_matching manager1 sub_08057174 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="manager1_8c.html#aa4e3ec039455ae3778698820fa54e75a">sub_08057174</a> (<a class="el" href="structEntity.html">Entity</a> *this))</td></tr>
+<tr class="separator:aa4e3ec039455ae3778698820fa54e75a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa621af648c61a273678ea3aa7f5f6b55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="manager1_8c.html#aa621af648c61a273678ea3aa7f5f6b55">sub_0805728C</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
+<tr class="separator:aa621af648c61a273678ea3aa7f5f6b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac2e3102bd2d0bfe94729ccf3d44ed03"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="manager1_8c.html#aac2e3102bd2d0bfe94729ccf3d44ed03">sub_080572D4</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
+<tr class="separator:aac2e3102bd2d0bfe94729ccf3d44ed03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae087300086762011404c31608d4b9b45"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="manager1_8c.html#ae087300086762011404c31608d4b9b45">sub_0805732C</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> param_1, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="el" href="code__0805EC04_8c.html#aad566ef068afbc23352d5882bcbddbee">param_2</a>)</td></tr>
+<tr class="separator:ae087300086762011404c31608d4b9b45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cc23408653641ffbdf9aa98d172cd6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="manager1_8c.html#a3cc23408653641ffbdf9aa98d172cd6e">nullsub_494</a> ()</td></tr>
+<tr class="separator:a3cc23408653641ffbdf9aa98d172cd6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a093782f015b240930bd06d3ff3308f72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="manager1_8c.html#a093782f015b240930bd06d3ff3308f72">sub_080573AC</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
+<tr class="separator:a093782f015b240930bd06d3ff3308f72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19786bc9d60e81de5f401d1bda480720"><td class="memItemLeft" align="right" valign="top">asm non_matching manager1 sub_08057450 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="manager1_8c.html#a19786bc9d60e81de5f401d1bda480720">sub_08057450</a> (<a class="el" href="structEntity.html">Entity</a> *this))</td></tr>
+<tr class="separator:a19786bc9d60e81de5f401d1bda480720"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -153,11 +171,56 @@ Variables</h2></td></tr>
 <tr class="separator:a2b0877fc7bb0e8fb9ff462e746ab8ddb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0dc1dc4543a8ee729d866278ec3b1f3"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="manager1_8c.html#af0dc1dc4543a8ee729d866278ec3b1f3">gUnk_08107C48</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
 <tr class="separator:af0dc1dc4543a8ee729d866278ec3b1f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a139e32568ff3a82a6bae82be1cadbbe6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="manager1_8c.html#a139e32568ff3a82a6bae82be1cadbbe6">gUnk_08107C40</a> []</td></tr>
-<tr class="separator:a139e32568ff3a82a6bae82be1cadbbe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d403c6097f3966280e9de7175357ba8"><td class="memItemLeft" align="right" valign="top">asm non_matching manager1 <a class="el" href="manager1_8c.html#a39f681d9c3a3027750e3180197ba6365">sub_08057174</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="manager1_8c.html#a7d403c6097f3966280e9de7175357ba8">inc</a></td></tr>
-<tr class="separator:a7d403c6097f3966280e9de7175357ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ef067a941ca1ecc739ee70fef12b444"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="manager1_8c.html#a2ef067a941ca1ecc739ee70fef12b444">gUnk_08107C1C</a> []</td></tr>
+<tr class="separator:a2ef067a941ca1ecc739ee70fef12b444"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb698012b6a3d30edaa62799f3c4b42a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="manager1_8c.html#aeb698012b6a3d30edaa62799f3c4b42a">gUnk_08107C30</a> []</td></tr>
+<tr class="separator:aeb698012b6a3d30edaa62799f3c4b42a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac210744c72f0ef875f3135acbc9d52bc"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="manager1_8c.html#ac210744c72f0ef875f3135acbc9d52bc">gManager1GfxGroups</a> []</td></tr>
+<tr class="separator:ac210744c72f0ef875f3135acbc9d52bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d211bdaba78a9ffe458e87736006d0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="manager1_8c.html#a7d211bdaba78a9ffe458e87736006d0e">gUnk_02017AA0</a> []</td></tr>
+<tr class="separator:a7d211bdaba78a9ffe458e87736006d0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fa8db8c5039cfc0edc33836dd2adbd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="manager1_8c.html#a1fa8db8c5039cfc0edc33836dd2adbd8">gUnk_085B4180</a> []</td></tr>
+<tr class="separator:a1fa8db8c5039cfc0edc33836dd2adbd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72e6a692791c33b2d7b37da28e68bdb4"><td class="memItemLeft" align="right" valign="top">asm non_matching manager1 <a class="el" href="manager1_8c.html#aa4e3ec039455ae3778698820fa54e75a">sub_08057174</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="manager1_8c.html#a72e6a692791c33b2d7b37da28e68bdb4">inc</a></td></tr>
+<tr class="separator:a72e6a692791c33b2d7b37da28e68bdb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="adf68597e6f43e7e0ca321d3706703b25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf68597e6f43e7e0ca321d3706703b25">&#9670;&nbsp;</a></span>ZS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ZS</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">this</td><td>)</td>
+          <td>&#160;&#160;&#160;((<a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>*)&amp;this-&gt;<a class="el" href="itemMoleMitts_8c.html#aca6b26cbfdf81f740f7a19693f88d4fc">speed</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a50be9bb720cdd79f04c44e845f950037"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50be9bb720cdd79f04c44e845f950037">&#9670;&nbsp;</a></span>ZV</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ZV</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">this</td><td>)</td>
+          <td>&#160;&#160;&#160;((<a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>*)&amp;this-&gt;zVelocity)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="acd435c1c57c7a57e26d0b43e397a002c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acd435c1c57c7a57e26d0b43e397a002c">&#9670;&nbsp;</a></span>Manager1_Main()</h2>
@@ -177,14 +240,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aabbaea2bc609151cfa75782e0a7370e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aabbaea2bc609151cfa75782e0a7370e1">&#9670;&nbsp;</a></span>nullsub_494()</h2>
+<a id="a3cc23408653641ffbdf9aa98d172cd6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cc23408653641ffbdf9aa98d172cd6e">&#9670;&nbsp;</a></span>nullsub_494()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm non_matching manager1 <a class="el" href="manager1_8c.html#a39f681d9c3a3027750e3180197ba6365">sub_08057174</a> void void void void void nullsub_494 </td>
+          <td class="memname">void nullsub_494 </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -282,8 +345,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a39f681d9c3a3027750e3180197ba6365"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39f681d9c3a3027750e3180197ba6365">&#9670;&nbsp;</a></span>sub_08057174()</h2>
+<a id="aa4e3ec039455ae3778698820fa54e75a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4e3ec039455ae3778698820fa54e75a">&#9670;&nbsp;</a></span>sub_08057174()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -291,7 +354,8 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">asm non_matching manager1 sub_08057174 void sub_08057174 </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -299,16 +363,17 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a1508f080ec044a79d7f9b559b035503d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1508f080ec044a79d7f9b559b035503d">&#9670;&nbsp;</a></span>sub_0805728C()</h2>
+<a id="aa621af648c61a273678ea3aa7f5f6b55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa621af648c61a273678ea3aa7f5f6b55">&#9670;&nbsp;</a></span>sub_0805728C()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm non_matching manager1 <a class="el" href="manager1_8c.html#a39f681d9c3a3027750e3180197ba6365">sub_08057174</a> void void sub_0805728C </td>
+          <td class="memname">void sub_0805728C </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -316,16 +381,17 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ae06477cb41629c0c94f9d782d9361428"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae06477cb41629c0c94f9d782d9361428">&#9670;&nbsp;</a></span>sub_080572D4()</h2>
+<a id="aac2e3102bd2d0bfe94729ccf3d44ed03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac2e3102bd2d0bfe94729ccf3d44ed03">&#9670;&nbsp;</a></span>sub_080572D4()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm non_matching manager1 <a class="el" href="manager1_8c.html#a39f681d9c3a3027750e3180197ba6365">sub_08057174</a> void void void sub_080572D4 </td>
+          <td class="memname">void sub_080572D4 </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -333,16 +399,45 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a5a94f4ec4aab5657b917e0ee75d54f18"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a94f4ec4aab5657b917e0ee75d54f18">&#9670;&nbsp;</a></span>sub_0805732C()</h2>
+<a id="ae087300086762011404c31608d4b9b45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae087300086762011404c31608d4b9b45">&#9670;&nbsp;</a></span>sub_0805732C()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm non_matching manager1 <a class="el" href="manager1_8c.html#a39f681d9c3a3027750e3180197ba6365">sub_08057174</a> void void void void sub_0805732C </td>
+          <td class="memname">void sub_0805732C </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>param_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>param_2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a093782f015b240930bd06d3ff3308f72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a093782f015b240930bd06d3ff3308f72">&#9670;&nbsp;</a></span>sub_080573AC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_080573AC </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -350,16 +445,17 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a81d8a4943dc7c67bb5a474883dbc3dc3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81d8a4943dc7c67bb5a474883dbc3dc3">&#9670;&nbsp;</a></span>sub_080573AC()</h2>
+<a id="a19786bc9d60e81de5f401d1bda480720"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19786bc9d60e81de5f401d1bda480720">&#9670;&nbsp;</a></span>sub_08057450()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm non_matching manager1 <a class="el" href="manager1_8c.html#a39f681d9c3a3027750e3180197ba6365">sub_08057174</a> void void void void void void sub_080573AC </td>
+          <td class="memname">asm non_matching manager1 sub_08057450 void sub_08057450 </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -368,8 +464,25 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a139e32568ff3a82a6bae82be1cadbbe6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a139e32568ff3a82a6bae82be1cadbbe6">&#9670;&nbsp;</a></span>gUnk_08107C40</h2>
+<a id="ac210744c72f0ef875f3135acbc9d52bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac210744c72f0ef875f3135acbc9d52bc">&#9670;&nbsp;</a></span>gManager1GfxGroups</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gManager1GfxGroups</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    0x25, 0x00, 0x24, 0x00, 0x25, 0x00, 0x00, 0x00,</div>
+<div class="line">}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a7d211bdaba78a9ffe458e87736006d0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d211bdaba78a9ffe458e87736006d0e">&#9670;&nbsp;</a></span>gUnk_02017AA0</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -378,7 +491,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gUnk_08107C40[]</td>
+          <td class="memname"><a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> gUnk_02017AA0[]</td>
         </tr>
       </table>
   </td>
@@ -390,14 +503,45 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a2ef067a941ca1ecc739ee70fef12b444"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ef067a941ca1ecc739ee70fef12b444">&#9670;&nbsp;</a></span>gUnk_08107C1C</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> gUnk_08107C1C</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    0x1000, 0xF01, 0xE02, 0xD03, 0xC04, 0xB05, 0xA06, 0x907, 0x908, 0x909,</div>
+<div class="line">}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aeb698012b6a3d30edaa62799f3c4b42a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb698012b6a3d30edaa62799f3c4b42a">&#9670;&nbsp;</a></span>gUnk_08107C30</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> gUnk_08107C30</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    0x909, 0xA08, 0xB07, 0xC06, 0xD05, 0xC06, 0xB07, 0xA08,</div>
+<div class="line">}</div>
+</div><!-- fragment -->
+</div>
+</div>
 <a id="af0dc1dc4543a8ee729d866278ec3b1f3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af0dc1dc4543a8ee729d866278ec3b1f3">&#9670;&nbsp;</a></span>gUnk_08107C48</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void(*const gUnk_08107C48[])(<a class="el" href="structEntity.html">Entity</a> *) </td>
@@ -407,17 +551,46 @@ Variables</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    <a class="code" href="manager1_8c.html#a3cc23408653641ffbdf9aa98d172cd6e">nullsub_494</a>, <a class="code" href="manager1_8c.html#a3cc23408653641ffbdf9aa98d172cd6e">nullsub_494</a>, <a class="code" href="manager1_8c.html#a093782f015b240930bd06d3ff3308f72">sub_080573AC</a>, <a class="code" href="manager1_8c.html#a3cc23408653641ffbdf9aa98d172cd6e">nullsub_494</a>, <a class="code" href="manager1_8c.html#a19786bc9d60e81de5f401d1bda480720">sub_08057450</a>,</div>
+<div class="line">}</div>
+<div class="ttc" id="amanager1_8c_html_a093782f015b240930bd06d3ff3308f72"><div class="ttname"><a href="manager1_8c.html#a093782f015b240930bd06d3ff3308f72">sub_080573AC</a></div><div class="ttdeci">void sub_080573AC(Entity *this)</div><div class="ttdef"><b>Definition:</b> manager1.c:196</div></div>
+<div class="ttc" id="amanager1_8c_html_a19786bc9d60e81de5f401d1bda480720"><div class="ttname"><a href="manager1_8c.html#a19786bc9d60e81de5f401d1bda480720">sub_08057450</a></div><div class="ttdeci">asm non_matching manager1 sub_08057450 void sub_08057450(Entity *this))</div><div class="ttdef"><b>Definition:</b> manager1.c:212</div></div>
+<div class="ttc" id="amanager1_8c_html_a3cc23408653641ffbdf9aa98d172cd6e"><div class="ttname"><a href="manager1_8c.html#a3cc23408653641ffbdf9aa98d172cd6e">nullsub_494</a></div><div class="ttdeci">void nullsub_494()</div><div class="ttdef"><b>Definition:</b> manager1.c:193</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a2b0877fc7bb0e8fb9ff462e746ab8ddb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2b0877fc7bb0e8fb9ff462e746ab8ddb">&#9670;&nbsp;</a></span>gUnk_08107C5C</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(*const gUnk_08107C5C[])(<a class="el" href="structEntity.html">Entity</a> *) </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    <a class="code" href="manager1_8c.html#a49346c6852ca65c2bd42e524211ac076">sub_08057118</a>,</div>
+<div class="line">    <a class="code" href="manager1_8c.html#aa4e3ec039455ae3778698820fa54e75a">sub_08057174</a>,</div>
+<div class="line">    <a class="code" href="manager1_8c.html#aa621af648c61a273678ea3aa7f5f6b55">sub_0805728C</a>,</div>
+<div class="line">    <a class="code" href="manager1_8c.html#aac2e3102bd2d0bfe94729ccf3d44ed03">sub_080572D4</a>,</div>
+<div class="line">}</div>
+<div class="ttc" id="amanager1_8c_html_a49346c6852ca65c2bd42e524211ac076"><div class="ttname"><a href="manager1_8c.html#a49346c6852ca65c2bd42e524211ac076">sub_08057118</a></div><div class="ttdeci">void sub_08057118(Entity *this)</div><div class="ttdef"><b>Definition:</b> manager1.c:62</div></div>
+<div class="ttc" id="amanager1_8c_html_aa4e3ec039455ae3778698820fa54e75a"><div class="ttname"><a href="manager1_8c.html#aa4e3ec039455ae3778698820fa54e75a">sub_08057174</a></div><div class="ttdeci">asm non_matching manager1 sub_08057174 void sub_08057174(Entity *this))</div><div class="ttdef"><b>Definition:</b> manager1.c:76</div></div>
+<div class="ttc" id="amanager1_8c_html_aa621af648c61a273678ea3aa7f5f6b55"><div class="ttname"><a href="manager1_8c.html#aa621af648c61a273678ea3aa7f5f6b55">sub_0805728C</a></div><div class="ttdeci">void sub_0805728C(Entity *this)</div><div class="ttdef"><b>Definition:</b> manager1.c:156</div></div>
+<div class="ttc" id="amanager1_8c_html_aac2e3102bd2d0bfe94729ccf3d44ed03"><div class="ttname"><a href="manager1_8c.html#aac2e3102bd2d0bfe94729ccf3d44ed03">sub_080572D4</a></div><div class="ttdeci">void sub_080572D4(Entity *this)</div><div class="ttdef"><b>Definition:</b> manager1.c:168</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a1fa8db8c5039cfc0edc33836dd2adbd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fa8db8c5039cfc0edc33836dd2adbd8">&#9670;&nbsp;</a></span>gUnk_085B4180</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -426,11 +599,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void(*const gUnk_08107C5C[])(<a class="el" href="structEntity.html">Entity</a> *) </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname"><a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> gUnk_085B4180[]</td>
         </tr>
       </table>
   </td>
@@ -442,14 +611,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a7d403c6097f3966280e9de7175357ba8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d403c6097f3966280e9de7175357ba8">&#9670;&nbsp;</a></span>inc</h2>
+<a id="a72e6a692791c33b2d7b37da28e68bdb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72e6a692791c33b2d7b37da28e68bdb4">&#9670;&nbsp;</a></span>inc</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm non_matching manager1 <a class="el" href="manager1_8c.html#a39f681d9c3a3027750e3180197ba6365">sub_08057174</a> inc</td>
+          <td class="memname">asm non_matching manager1 <a class="el" href="manager1_8c.html#a19786bc9d60e81de5f401d1bda480720">sub_08057450</a> inc</td>
         </tr>
       </table>
 </div><div class="memdoc">
