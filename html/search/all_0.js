@@ -35,7 +35,7 @@ var searchData=
   ['_5f94_32',['_94',['../structTextRender.html#a8fb1169a25e5df6f2c8fc8dcf896852f',1,'TextRender']]],
   ['_5f96_33',['_96',['../structTextRender.html#a2b93d25bd80090669ef8588063e3bff5',1,'TextRender']]],
   ['_5f97_34',['_97',['../structTextRender.html#a95ff9e5bc75a8c199a40d417882f57a1',1,'TextRender']]],
-  ['_5f98_35',['_98',['../structTextRender.html#a5081ee12298d6cf23052041e273b44ae',1,'TextRender']]],
+  ['_5f98_35',['_98',['../structTextRender.html#a5be2d5223065e2bc9ec0dfe33fd38caf',1,'TextRender']]],
   ['_5f9c_36',['_9c',['../structTextRender.html#af3f40e25a7678f74abeaec782d90ab48',1,'TextRender']]],
   ['_5fa_37',['_a',['../structFuseInfo.html#a1ab033d69f922d46a5d30d57bf62af95',1,'FuseInfo::_a()'],['../structPopupOption.html#ab8a63b6cf4e1b01e726f29f29660f85d',1,'PopupOption::_a()'],['../structColSettings.html#ab48f70de5d188813935611f3974c772e',1,'ColSettings::_a()']]],
   ['_5fa6_38',['_a6',['../structTextRender.html#a8741c68b3b603a3ffddd7385558b122c',1,'TextRender']]],

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['kidheap_16349',['KidHeap',['../structKidHeap.html',1,'']]]
+  ['kidheap_16375',['KidHeap',['../structKidHeap.html',1,'']]]
 ];
