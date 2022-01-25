@@ -1237,7 +1237,7 @@ var searchData=
   ['shouse_5f03_5ft0_9526',['SHOUSE_03_T0',['../flags_8h.html#ae13c3f8316aded37796748ddd1d667f0a364e95f93569d5f02a5bf1d4f1035e18',1,'flags.h']]],
   ['shouse_5f03_5ft1_9527',['SHOUSE_03_T1',['../flags_8h.html#ae13c3f8316aded37796748ddd1d667f0a82414249310f817ae2295472f3be1092',1,'flags.h']]],
   ['showbuttonr_9528',['ShowButtonR',['../fileselect_8c.html#a70accc82246b655e9062152482e8175d',1,'fileselect.c']]],
-  ['shownpcdialogue_9529',['ShowNPCDialogue',['../npc_8h.html#a886659f8c7bc9aee85171c876f858651',1,'ShowNPCDialogue(Entity *ent, Dialog *dia):&#160;npc.h'],['../sittingPerson_8c.html#a0900f6ec903192cd1afd278c14ac9262',1,'ShowNPCDialogue(this, gUnk_0810CC08+this-&gt;type2 *8+tmp):&#160;sittingPerson.c'],['../npcUtils_8c.html#aecd52acb923f8e7d5220a76d451f6421',1,'ShowNPCDialogue(Entity *ent, Dialog *dia)):&#160;npcUtils.c']]],
+  ['shownpcdialogue_9529',['ShowNPCDialogue',['../npc_8h.html#a886659f8c7bc9aee85171c876f858651',1,'ShowNPCDialogue(Entity *ent, Dialog *dia):&#160;npcUtils.c'],['../sittingPerson_8c.html#a0900f6ec903192cd1afd278c14ac9262',1,'ShowNPCDialogue(this, gUnk_0810CC08+this-&gt;type2 *8+tmp):&#160;sittingPerson.c'],['../npcUtils_8c.html#a886659f8c7bc9aee85171c876f858651',1,'ShowNPCDialogue(Entity *ent, Dialog *dia):&#160;npcUtils.c']]],
   ['shword_9530',['SHWORD',['../unionSplitSHWord.html#a8b02722861ce0464193238ad4725b64d',1,'SplitSHWord']]],
   ['si_9531',['si',['../structRCnt.html#a7dba48f8015ff13f225836f4e72e2ad3',1,'RCnt::si()'],['../structSioMultiCnt.html#a850e380bd83dfb1fbebfa755cb4c1fcd',1,'SioMultiCnt::si()']]],
   ['si_5fi_5fo_9532',['si_i_o',['../structRCnt.html#a42b43f9e9326543bc3c29a7d5c236bf2',1,'RCnt']]],
