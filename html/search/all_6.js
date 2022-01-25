@@ -189,7 +189,7 @@ var searchData=
   ['findentitybyid_1725',['FindEntityByID',['../entity_8c.html#a303f349c64e46d9a61e2e226dd54de15',1,'FindEntityByID(u32 kind, u32 id, u32 listIndex):&#160;entity.c'],['../entity_8h.html#a303f349c64e46d9a61e2e226dd54de15',1,'FindEntityByID(u32 kind, u32 id, u32 listIndex):&#160;entity.c']]],
   ['findfreeobjpalette_1726',['FindFreeObjPalette',['../color_8c.html#aaa77486b0c70d1bc92379db4c1098cd2',1,'color.c']]],
   ['findnextduplicateid_1727',['FindNextDuplicateID',['../entity_8c.html#a61a7debead7be2ea161ce006ec947e8e',1,'FindNextDuplicateID(Entity *ent, int listIndex):&#160;entity.c'],['../entity_8h.html#ac73adfc2eeb0417552f5435af4ef94cd',1,'FindNextDuplicateID(Entity *entity, int listIndex):&#160;entity.c']]],
-  ['findpalette_1728',['FindPalette',['../color_8c.html#ad94940fb6b8aead656f8a8f4d78c9773',1,'FindPalette(u32 a1)):&#160;color.c'],['../color_8h.html#a5e7e11c33b3ae5f4dec0a02a2a79cd58',1,'FindPalette(u32 a1):&#160;color.h']]],
+  ['findpalette_1728',['FindPalette',['../color_8c.html#a5e7e11c33b3ae5f4dec0a02a2a79cd58',1,'FindPalette(u32 a1):&#160;color.c'],['../color_8h.html#a5e7e11c33b3ae5f4dec0a02a2a79cd58',1,'FindPalette(u32 a1):&#160;color.c']]],
   ['fire_5fprojectile_1729',['FIRE_PROJECTILE',['../projectile_8h.html#ade7b79b8b6788010eb8b6a9fd994ada4a8e94000af7a417edbb3d563e9194ca23',1,'projectile.h']]],
   ['fireball_5fchain_1730',['FIREBALL_CHAIN',['../object_8h.html#a0b29a1e1c76a85a0dbaa7c34a9d2874aad937ed633260640a628ee2b1684725d8',1,'object.h']]],
   ['fireball_5fguy_1731',['FIREBALL_GUY',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08abaa50827d0d7d821476147b43e02ba4ec9',1,'enemy.h']]],
