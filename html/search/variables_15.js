@@ -169,7 +169,7 @@ var searchData=
   ['unused_5f7_5f6_27862',['unused_7_6',['../structJoyStat.html#a34a7e4fff8513a0eec96499402a59696',1,'JoyStat']]],
   ['unusedlabel_5f0cebdc_27863',['unusedLabel_0CEBDC',['../spinyBeetle_8c.html#a01bb84c2b38988197db7f67977fd02c0',1,'spinyBeetle.c']]],
   ['up_27864',['up',['../structItemMenuTableEntry.html#a19a39525d08354448b1b42367f3c7901',1,'ItemMenuTableEntry']]],
-  ['updated_27865',['updated',['../structBgSettings.html#afc8536c5a1a5d6bb7456c7b062dad78d',1,'BgSettings::updated()'],['../structBgAffSettings.html#a9aef8a048489f11ec38dce437878660f',1,'BgAffSettings::updated()'],['../phonograph_8c.html#a8d3733c43a7e5e097fe9f0d37487d37d',1,'updated():&#160;phonograph.c'],['../structOAMControls.html#a82812ac1755781e78797ceb974801957',1,'OAMControls::updated()']]],
+  ['updated_27865',['updated',['../structBgSettings.html#afc8536c5a1a5d6bb7456c7b062dad78d',1,'BgSettings::updated()'],['../structBgAffSettings.html#a9aef8a048489f11ec38dce437878660f',1,'BgAffSettings::updated()'],['../structOAMControls.html#a82812ac1755781e78797ceb974801957',1,'OAMControls::updated()']]],
   ['updatedraw_27866',['updateDraw',['../structTextRender.html#aa13a00acce396ca1e0af655d1c372445',1,'TextRender']]],
   ['updatepriority_27867',['updatePriority',['../structEntity.html#a3dfdb4588ec0dc66064b8cc1ef4dc865',1,'Entity']]],
   ['updatepriorityprev_27868',['updatePriorityPrev',['../structEntity.html#aaa1dd51f588f48d5bd7635ff89e78fc4',1,'Entity']]],
