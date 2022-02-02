@@ -86,6 +86,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="flags_8h_source.html">flags.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="room_8h_source.html">room.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sound_8h_source.html">sound.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for jailBars.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -93,25 +94,31 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="jailBars_8c__incl.png" border="0" usemap="#asrc_2object_2jailBars_8c" alt=""/></div>
 <map name="asrc_2object_2jailBars_8c" id="asrc_2object_2jailBars_8c">
-<area shape="rect" title=" " alt="" coords="62,5,198,32"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="144,304,211,331"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="146,155,209,181"/>
-<area shape="rect" href="flags_8h.html" title=" " alt="" coords="19,155,78,181"/>
-<area shape="rect" href="room_8h.html" title=" " alt="" coords="167,80,228,107"/>
-<area shape="rect" href="sound_8h.html" title=" " alt="" coords="294,80,360,107"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="260,379,338,405"/>
-<area shape="rect" title=" " alt="" coords="23,453,87,480"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="672,453,745,480"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="111,453,178,480"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="268,528,330,555"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="253,453,345,480"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="370,453,442,480"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="466,453,534,480"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="559,453,647,480"/>
-<area shape="rect" title=" " alt="" coords="674,528,742,555"/>
-<area shape="rect" title=" " alt="" coords="267,603,331,629"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="61,229,121,256"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="146,229,210,256"/>
+<area shape="rect" title=" " alt="" coords="261,5,397,32"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="465,453,532,480"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="286,304,349,331"/>
+<area shape="rect" href="flags_8h.html" title=" " alt="" coords="584,80,643,107"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="144,155,205,181"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="784,304,851,331"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="339,80,424,107"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="587,528,666,555"/>
+<area shape="rect" title=" " alt="" coords="339,603,403,629"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="986,603,1059,629"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="427,603,493,629"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="595,677,658,704"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="665,603,757,629"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="517,603,589,629"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="781,603,849,629"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="873,603,961,629"/>
+<area shape="rect" title=" " alt="" coords="989,677,1057,704"/>
+<area shape="rect" title=" " alt="" coords="595,752,659,779"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="287,379,347,405"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="372,379,436,405"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="296,229,379,256"/>
+<area shape="rect" href="coord_8h.html" title=" " alt="" coords="453,229,517,256"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="541,229,608,256"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="525,155,616,181"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="229,155,293,181"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -119,8 +126,6 @@ $(function() {
 Functions</h2></td></tr>
 <tr class="memitem:a839fb471fe1c33263921dc42a66dac8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="jailBars_8c.html#a839fb471fe1c33263921dc42a66dac8f">sub_080A0960</a> (<a class="el" href="structEntity.html">Entity</a> *, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)</td></tr>
 <tr class="separator:a839fb471fe1c33263921dc42a66dac8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5fe5f795b90b89a7de1c2ae81b10c995"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="jailBars_8c.html#a5fe5f795b90b89a7de1c2ae81b10c995">sub_0801AF18</a> (<a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> *, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)</td></tr>
-<tr class="separator:a5fe5f795b90b89a7de1c2ae81b10c995"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55ae2c87fee5a293d8879cd0e6811c75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="jailBars_8c.html#a55ae2c87fee5a293d8879cd0e6811c75">JailBars</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
 <tr class="separator:a55ae2c87fee5a293d8879cd0e6811c75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5893a0c5a21dddb253408b810825ca1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="jailBars_8c.html#a5893a0c5a21dddb253408b810825ca1a">sub_080A08C4</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
@@ -172,40 +177,6 @@ Variables</h2></td></tr>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5fe5f795b90b89a7de1c2ae81b10c995"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5fe5f795b90b89a7de1c2ae81b10c995">&#9670;&nbsp;</a></span>sub_0801AF18()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sub_0801AF18 </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> *&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
