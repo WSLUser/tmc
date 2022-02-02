@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['joycnt_16903',['JoyCnt',['../structJoyCnt.html',1,'']]],
-  ['joystat_16904',['JoyStat',['../structJoyStat.html',1,'']]]
+  ['joycnt_16905',['JoyCnt',['../structJoyCnt.html',1,'']]],
+  ['joystat_16906',['JoyStat',['../structJoyStat.html',1,'']]]
 ];
