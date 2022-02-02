@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['npcdata_17048',['NPCData',['../structNPCData.html',1,'']]],
-  ['npcdefinition_17049',['NPCDefinition',['../structNPCDefinition.html',1,'']]],
-  ['npcstruct_17050',['NPCStruct',['../structNPCStruct.html',1,'']]]
+  ['npcdata_17056',['NPCData',['../structNPCData.html',1,'']]],
+  ['npcdefinition_17057',['NPCDefinition',['../structNPCDefinition.html',1,'']]],
+  ['npcstruct_17058',['NPCStruct',['../structNPCStruct.html',1,'']]]
 ];
