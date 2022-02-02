@@ -75,7 +75,10 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">subtask.h File Reference</div>  </div>
 </div><!--header-->
@@ -110,61 +113,157 @@ $(function() {
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="subtask_8h__dep__incl.png" border="0" usemap="#ainclude_2subtask_8hdep" alt=""/></div>
 <map name="ainclude_2subtask_8hdep" id="ainclude_2subtask_8hdep">
-<area shape="rect" title=" " alt="" coords="117,5,239,32"/>
+<area shape="rect" title=" " alt="" coords="270,5,393,32"/>
 <area shape="rect" href="fileselect_8c.html" title="File select task." alt="" coords="5,80,111,107"/>
 <area shape="rect" href="game_8c.html" title="Game task." alt="" coords="135,80,221,107"/>
-<area shape="rect" href="subtask_8c.html" title=" " alt="" coords="245,80,345,107"/>
+<area shape="rect" href="figurine__menu_8c.html" title=" " alt="" coords="246,80,417,107"/>
+<area shape="rect" href="kinstone__menu_8c.html" title=" " alt="" coords="441,80,619,107"/>
+<area shape="rect" href="pause__menu_8c.html" title=" " alt="" coords="644,80,808,107"/>
 </map>
 </div>
 </div>
 <p><a href="subtask_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a41045ea01d9ee8754ef2fae411d2e668"><td class="memItemLeft" align="right" valign="top">typedef void()&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subtask_8h.html#a41045ea01d9ee8754ef2fae411d2e668">Subtask</a>(void)</td></tr>
+<tr class="separator:a41045ea01d9ee8754ef2fae411d2e668"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a5d4218ea7533a3703796cb69620ca811"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subtask_8h.html#a5d4218ea7533a3703796cb69620ca811">ESubtask</a> { <br />
+&#160;&#160;<a class="el" href="subtask_8h.html#a5d4218ea7533a3703796cb69620ca811a8b39fff8bb68a98b54aecd5ea355fc86">SUBTASK_EXIT</a>
+, <a class="el" href="subtask_8h.html#a5d4218ea7533a3703796cb69620ca811a388d6513a0f089720b16e2d5a460a1bb">SUBTASK_PAUSEMENU</a>
+, <a class="el" href="subtask_8h.html#a5d4218ea7533a3703796cb69620ca811a0757b2a1cba6353a0aa7dc67862fa36b">SUBTASK_EXIT2</a>
+, <a class="el" href="subtask_8h.html#a5d4218ea7533a3703796cb69620ca811ab54fe65aaf170c3b45d6848c7c5c7a2b">SUBTASK_MAPHINT</a>
+, <br />
+&#160;&#160;<a class="el" href="subtask_8h.html#a5d4218ea7533a3703796cb69620ca811a9edc5901f2afed74cb1ee8c27fe1e88f">SUBTASK_KINSTONEMENU</a>
+, <a class="el" href="subtask_8h.html#a5d4218ea7533a3703796cb69620ca811ae025798769c003795311c2d259ab4f96">SUBTASK_AUXCUTSCENE</a>
+, <a class="el" href="subtask_8h.html#a5d4218ea7533a3703796cb69620ca811ae226f52c460328d444754192c1347c93">SUBTASK_PORTALCUTSCENE</a>
+, <a class="el" href="subtask_8h.html#a5d4218ea7533a3703796cb69620ca811ae5af507ebdb6d09062c384f1a6dd323b">SUBTASK_FIGURINEMENU</a>
+, <br />
+&#160;&#160;<a class="el" href="subtask_8h.html#a5d4218ea7533a3703796cb69620ca811a807915f85035e1fd9e141172d92ef219">SUBTASK_WORLDEVENT</a>
+, <a class="el" href="subtask_8h.html#a5d4218ea7533a3703796cb69620ca811a3732efd74e81222b97ece58e9dc0ae53">SUBTASK_FASTTRAVEL</a>
+, <a class="el" href="subtask_8h.html#a5d4218ea7533a3703796cb69620ca811a3f1d1a157014b904388fb70266de2200">SUBTASK_LOCALMAPHINT</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:a5d4218ea7533a3703796cb69620ca811"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtasks override the game task for short periods.  <a href="subtask_8h.html#a5d4218ea7533a3703796cb69620ca811">More...</a><br /></td></tr>
+<tr class="separator:a5d4218ea7533a3703796cb69620ca811"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a3404ad1e859757d500692a593d13264b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subtask_8h.html#a3404ad1e859757d500692a593d13264b">sub_080A4528</a> (void)</td></tr>
-<tr class="separator:a3404ad1e859757d500692a593d13264b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59c7132f05161d5718360835ec8d2123"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subtask_8h.html#a59c7132f05161d5718360835ec8d2123">sub_080A4398</a> (void)</td></tr>
 <tr class="separator:a59c7132f05161d5718360835ec8d2123"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6dddc2b2f8ea18a99ca3954a29826194"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subtask_8h.html#a6dddc2b2f8ea18a99ca3954a29826194">sub_080A7114</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)</td></tr>
-<tr class="separator:a6dddc2b2f8ea18a99ca3954a29826194"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accd86ba1485a623bef348b9bd4cfbf67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subtask_8h.html#accd86ba1485a623bef348b9bd4cfbf67">sub_080A3B74</a> (void)</td></tr>
-<tr class="separator:accd86ba1485a623bef348b9bd4cfbf67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef2122543bae11e73c82ae79b9a804b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subtask_8h.html#aef2122543bae11e73c82ae79b9a804b3">sub_080A4054</a> (void)</td></tr>
-<tr class="separator:aef2122543bae11e73c82ae79b9a804b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a250f45960f4f914d50caa9367a2e1af8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subtask_8h.html#a250f45960f4f914d50caa9367a2e1af8">SetMenuType</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)</td></tr>
+<tr class="separator:a250f45960f4f914d50caa9367a2e1af8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0133c683f77f5983d9ed3e0810d168a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subtask_8h.html#ae0133c683f77f5983d9ed3e0810d168a">sub_080A4D34</a> (void)</td></tr>
 <tr class="separator:ae0133c683f77f5983d9ed3e0810d168a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad552b2d16ecc733ca4ba6d4f8c2abd40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subtask_8h.html#ad552b2d16ecc733ca4ba6d4f8c2abd40">sub_080A4494</a> (void)</td></tr>
-<tr class="separator:ad552b2d16ecc733ca4ba6d4f8c2abd40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0038aea1851c9b72372339a677c2049d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subtask_8h.html#a0038aea1851c9b72372339a677c2049d">sub_080A4E90</a> (<a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>)</td></tr>
+<tr class="separator:a0038aea1851c9b72372339a677c2049d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50f249178749005764b73c7573a237dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subtask_8h.html#a50f249178749005764b73c7573a237dc">sub_080A4E84</a> (<a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>)</td></tr>
+<tr class="separator:a50f249178749005764b73c7573a237dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:af1a22d90bcc400835d74de73757f0d51"><td class="memItemLeft" >struct {</td></tr>
+<tr class="memitem:a41baa1bbd7282dd7b1593217ddf70250"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;&#160;&#160;<a class="el" href="subtask_8h.html#a6f514aa0a722452554e3e216ef977aab">unk0</a></td></tr>
+<tr class="separator:a41baa1bbd7282dd7b1593217ddf70250"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e6c87191340bdd4abd6ce9ec41b712b"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;&#160;&#160;<a class="el" href="subtask_8h.html#a63cedac94a1136e9bad63d61683c43ef">unk1</a></td></tr>
+<tr class="separator:a8e6c87191340bdd4abd6ce9ec41b712b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5954d4fd014c9ff69c75f0dfa8de362d"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;&#160;&#160;<a class="el" href="subtask_8h.html#ad9a4feb6ee35dcc01071d098d0cb8417">filler</a> [2]</td></tr>
+<tr class="separator:a5954d4fd014c9ff69c75f0dfa8de362d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab85df1be573a1b8b33978e70b1e78a55"><td class="memItemLeft" >&#160;&#160;&#160;void(*&#160;&#160;&#160;<a class="el" href="subtask_8h.html#a87cc763359903cf60b8a9f1b367476e8">func</a> )(void)</td></tr>
+<tr class="separator:ab85df1be573a1b8b33978e70b1e78a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1a22d90bcc400835d74de73757f0d51"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subtask_8h.html#af1a22d90bcc400835d74de73757f0d51">gUnk_08128A38</a> []</td></tr>
+<tr class="separator:af1a22d90bcc400835d74de73757f0d51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Subtask entrypoints</div></td></tr>
+<tr class="memitem:a7737c2a2835d35fb11be10e6746b4270"><td class="memItemLeft" align="right" valign="top"><a class="el" href="subtask_8h.html#a41045ea01d9ee8754ef2fae411d2e668">Subtask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subtask_8h.html#a7737c2a2835d35fb11be10e6746b4270">Subtask_Exit</a></td></tr>
+<tr class="memdesc:a7737c2a2835d35fb11be10e6746b4270"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtask entrypoint.  <a href="subtask_8h.html#a7737c2a2835d35fb11be10e6746b4270">More...</a><br /></td></tr>
+<tr class="separator:a7737c2a2835d35fb11be10e6746b4270"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ce6fda8edb15e5b76e43fdb665a2b35"><td class="memItemLeft" align="right" valign="top"><a class="el" href="subtask_8h.html#a41045ea01d9ee8754ef2fae411d2e668">Subtask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subtask_8h.html#a5ce6fda8edb15e5b76e43fdb665a2b35">Subtask_PauseMenu</a></td></tr>
+<tr class="memdesc:a5ce6fda8edb15e5b76e43fdb665a2b35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtask entrypoint.  <a href="subtask_8h.html#a5ce6fda8edb15e5b76e43fdb665a2b35">More...</a><br /></td></tr>
+<tr class="separator:a5ce6fda8edb15e5b76e43fdb665a2b35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af88e5134e00be981cc21fbeb7b5f3773"><td class="memItemLeft" align="right" valign="top"><a class="el" href="subtask_8h.html#a41045ea01d9ee8754ef2fae411d2e668">Subtask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subtask_8h.html#af88e5134e00be981cc21fbeb7b5f3773">Subtask_MapHint</a></td></tr>
+<tr class="memdesc:af88e5134e00be981cc21fbeb7b5f3773"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtask entrypoint.  <a href="subtask_8h.html#af88e5134e00be981cc21fbeb7b5f3773">More...</a><br /></td></tr>
+<tr class="separator:af88e5134e00be981cc21fbeb7b5f3773"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1c18d9561c64975a97ac79f26544b2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="subtask_8h.html#a41045ea01d9ee8754ef2fae411d2e668">Subtask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subtask_8h.html#aa1c18d9561c64975a97ac79f26544b2f">Subtask_KinstoneMenu</a></td></tr>
+<tr class="memdesc:aa1c18d9561c64975a97ac79f26544b2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtask entrypoint.  <a href="subtask_8h.html#aa1c18d9561c64975a97ac79f26544b2f">More...</a><br /></td></tr>
+<tr class="separator:aa1c18d9561c64975a97ac79f26544b2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0eb02720a087bf4cbd8c43a6f46e839d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="subtask_8h.html#a41045ea01d9ee8754ef2fae411d2e668">Subtask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subtask_8h.html#a0eb02720a087bf4cbd8c43a6f46e839d">Subtask_AuxCutscene</a></td></tr>
+<tr class="memdesc:a0eb02720a087bf4cbd8c43a6f46e839d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtask entrypoint.  <a href="subtask_8h.html#a0eb02720a087bf4cbd8c43a6f46e839d">More...</a><br /></td></tr>
+<tr class="separator:a0eb02720a087bf4cbd8c43a6f46e839d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6030c01334246de080c6d19c8426ff6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="subtask_8h.html#a41045ea01d9ee8754ef2fae411d2e668">Subtask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subtask_8h.html#a6030c01334246de080c6d19c8426ff6e">Subtask_PortalCutscene</a></td></tr>
+<tr class="memdesc:a6030c01334246de080c6d19c8426ff6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtask entrypoint.  <a href="subtask_8h.html#a6030c01334246de080c6d19c8426ff6e">More...</a><br /></td></tr>
+<tr class="separator:a6030c01334246de080c6d19c8426ff6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae677dbf83ee6b33bfb5deac7c47af8e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="subtask_8h.html#a41045ea01d9ee8754ef2fae411d2e668">Subtask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subtask_8h.html#ae677dbf83ee6b33bfb5deac7c47af8e3">Subtask_FigurineMenu</a></td></tr>
+<tr class="memdesc:ae677dbf83ee6b33bfb5deac7c47af8e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtask entrypoint.  <a href="subtask_8h.html#ae677dbf83ee6b33bfb5deac7c47af8e3">More...</a><br /></td></tr>
+<tr class="separator:ae677dbf83ee6b33bfb5deac7c47af8e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4eae0908c7c1668e7598bd7b7130d2e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="subtask_8h.html#a41045ea01d9ee8754ef2fae411d2e668">Subtask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subtask_8h.html#a4eae0908c7c1668e7598bd7b7130d2e7">Subtask_WorldEvent</a></td></tr>
+<tr class="memdesc:a4eae0908c7c1668e7598bd7b7130d2e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtask entrypoint.  <a href="subtask_8h.html#a4eae0908c7c1668e7598bd7b7130d2e7">More...</a><br /></td></tr>
+<tr class="separator:a4eae0908c7c1668e7598bd7b7130d2e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8c82ba0a00b83f15a681aaece0074e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="subtask_8h.html#a41045ea01d9ee8754ef2fae411d2e668">Subtask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subtask_8h.html#ae8c82ba0a00b83f15a681aaece0074e4">Subtask_FastTravel</a></td></tr>
+<tr class="memdesc:ae8c82ba0a00b83f15a681aaece0074e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtask entrypoint.  <a href="subtask_8h.html#ae8c82ba0a00b83f15a681aaece0074e4">More...</a><br /></td></tr>
+<tr class="separator:ae8c82ba0a00b83f15a681aaece0074e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8b94f07bbfaaab0a30cf29e1d6fdb9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="subtask_8h.html#a41045ea01d9ee8754ef2fae411d2e668">Subtask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="subtask_8h.html#ae8b94f07bbfaaab0a30cf29e1d6fdb9e">Subtask_LocalMapHint</a></td></tr>
+<tr class="memdesc:ae8b94f07bbfaaab0a30cf29e1d6fdb9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subtask entrypoint.  <a href="subtask_8h.html#ae8b94f07bbfaaab0a30cf29e1d6fdb9e">More...</a><br /></td></tr>
+<tr class="separator:ae8b94f07bbfaaab0a30cf29e1d6fdb9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="accd86ba1485a623bef348b9bd4cfbf67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accd86ba1485a623bef348b9bd4cfbf67">&#9670;&nbsp;</a></span>sub_080A3B74()</h2>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a41045ea01d9ee8754ef2fae411d2e668"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41045ea01d9ee8754ef2fae411d2e668">&#9670;&nbsp;</a></span>Subtask</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sub_080A3B74 </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">typedef void() Subtask(void)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aef2122543bae11e73c82ae79b9a804b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef2122543bae11e73c82ae79b9a804b3">&#9670;&nbsp;</a></span>sub_080A4054()</h2>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a5d4218ea7533a3703796cb69620ca811"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d4218ea7533a3703796cb69620ca811">&#9670;&nbsp;</a></span>ESubtask</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sub_080A4054 </td>
+          <td class="memname">enum <a class="el" href="subtask_8h.html#a5d4218ea7533a3703796cb69620ca811">ESubtask</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Subtasks override the game task for short periods. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5d4218ea7533a3703796cb69620ca811a8b39fff8bb68a98b54aecd5ea355fc86"></a>SUBTASK_EXIT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5d4218ea7533a3703796cb69620ca811a388d6513a0f089720b16e2d5a460a1bb"></a>SUBTASK_PAUSEMENU&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5d4218ea7533a3703796cb69620ca811a0757b2a1cba6353a0aa7dc67862fa36b"></a>SUBTASK_EXIT2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5d4218ea7533a3703796cb69620ca811ab54fe65aaf170c3b45d6848c7c5c7a2b"></a>SUBTASK_MAPHINT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5d4218ea7533a3703796cb69620ca811a9edc5901f2afed74cb1ee8c27fe1e88f"></a>SUBTASK_KINSTONEMENU&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5d4218ea7533a3703796cb69620ca811ae025798769c003795311c2d259ab4f96"></a>SUBTASK_AUXCUTSCENE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5d4218ea7533a3703796cb69620ca811ae226f52c460328d444754192c1347c93"></a>SUBTASK_PORTALCUTSCENE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5d4218ea7533a3703796cb69620ca811ae5af507ebdb6d09062c384f1a6dd323b"></a>SUBTASK_FIGURINEMENU&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5d4218ea7533a3703796cb69620ca811a807915f85035e1fd9e141172d92ef219"></a>SUBTASK_WORLDEVENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5d4218ea7533a3703796cb69620ca811a3732efd74e81222b97ece58e9dc0ae53"></a>SUBTASK_FASTTRAVEL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5d4218ea7533a3703796cb69620ca811a3f1d1a157014b904388fb70266de2200"></a>SUBTASK_LOCALMAPHINT&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a250f45960f4f914d50caa9367a2e1af8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a250f45960f4f914d50caa9367a2e1af8">&#9670;&nbsp;</a></span>SetMenuType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SetMenuType </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -181,42 +280,6 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">void sub_080A4398 </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad552b2d16ecc733ca4ba6d4f8c2abd40"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad552b2d16ecc733ca4ba6d4f8c2abd40">&#9670;&nbsp;</a></span>sub_080A4494()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> sub_080A4494 </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3404ad1e859757d500692a593d13264b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3404ad1e859757d500692a593d13264b">&#9670;&nbsp;</a></span>sub_080A4528()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sub_080A4528 </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -245,18 +308,295 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a6dddc2b2f8ea18a99ca3954a29826194"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6dddc2b2f8ea18a99ca3954a29826194">&#9670;&nbsp;</a></span>sub_080A7114()</h2>
+<a id="a50f249178749005764b73c7573a237dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50f249178749005764b73c7573a237dc">&#9670;&nbsp;</a></span>sub_080A4E84()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sub_080A7114 </td>
+          <td class="memname">void sub_080A4E84 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td>
+          <td class="paramname"><em>param_1</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0038aea1851c9b72372339a677c2049d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0038aea1851c9b72372339a677c2049d">&#9670;&nbsp;</a></span>sub_080A4E90()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_080A4E90 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td>
+          <td class="paramname"><em>param_1</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="ad9a4feb6ee35dcc01071d098d0cb8417"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9a4feb6ee35dcc01071d098d0cb8417">&#9670;&nbsp;</a></span>filler</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> filler[2]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87cc763359903cf60b8a9f1b367476e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87cc763359903cf60b8a9f1b367476e8">&#9670;&nbsp;</a></span>func</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(* func) (void) </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af1a22d90bcc400835d74de73757f0d51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1a22d90bcc400835d74de73757f0d51">&#9670;&nbsp;</a></span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const { ... }  gUnk_08128A38[]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0eb02720a087bf4cbd8c43a6f46e839d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0eb02720a087bf4cbd8c43a6f46e839d">&#9670;&nbsp;</a></span>Subtask_AuxCutscene</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="subtask_8h.html#a41045ea01d9ee8754ef2fae411d2e668">Subtask</a> Subtask_AuxCutscene </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Subtask entrypoint. </p>
+
+</div>
+</div>
+<a id="a7737c2a2835d35fb11be10e6746b4270"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7737c2a2835d35fb11be10e6746b4270">&#9670;&nbsp;</a></span>Subtask_Exit</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="subtask_8h.html#a41045ea01d9ee8754ef2fae411d2e668">Subtask</a> Subtask_Exit</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Subtask entrypoint. </p>
+
+</div>
+</div>
+<a id="ae8c82ba0a00b83f15a681aaece0074e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8c82ba0a00b83f15a681aaece0074e4">&#9670;&nbsp;</a></span>Subtask_FastTravel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="subtask_8h.html#a41045ea01d9ee8754ef2fae411d2e668">Subtask</a> Subtask_FastTravel</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Subtask entrypoint. </p>
+
+</div>
+</div>
+<a id="ae677dbf83ee6b33bfb5deac7c47af8e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae677dbf83ee6b33bfb5deac7c47af8e3">&#9670;&nbsp;</a></span>Subtask_FigurineMenu</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="subtask_8h.html#a41045ea01d9ee8754ef2fae411d2e668">Subtask</a> Subtask_FigurineMenu </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Subtask entrypoint. </p>
+
+</div>
+</div>
+<a id="aa1c18d9561c64975a97ac79f26544b2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1c18d9561c64975a97ac79f26544b2f">&#9670;&nbsp;</a></span>Subtask_KinstoneMenu</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="subtask_8h.html#a41045ea01d9ee8754ef2fae411d2e668">Subtask</a> Subtask_KinstoneMenu </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Subtask entrypoint. </p>
+
+</div>
+</div>
+<a id="ae8b94f07bbfaaab0a30cf29e1d6fdb9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8b94f07bbfaaab0a30cf29e1d6fdb9e">&#9670;&nbsp;</a></span>Subtask_LocalMapHint</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="subtask_8h.html#a41045ea01d9ee8754ef2fae411d2e668">Subtask</a> Subtask_LocalMapHint</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Subtask entrypoint. </p>
+
+</div>
+</div>
+<a id="af88e5134e00be981cc21fbeb7b5f3773"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af88e5134e00be981cc21fbeb7b5f3773">&#9670;&nbsp;</a></span>Subtask_MapHint</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="subtask_8h.html#a41045ea01d9ee8754ef2fae411d2e668">Subtask</a> Subtask_MapHint</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Subtask entrypoint. </p>
+
+</div>
+</div>
+<a id="a5ce6fda8edb15e5b76e43fdb665a2b35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ce6fda8edb15e5b76e43fdb665a2b35">&#9670;&nbsp;</a></span>Subtask_PauseMenu</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="subtask_8h.html#a41045ea01d9ee8754ef2fae411d2e668">Subtask</a> Subtask_PauseMenu </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Subtask entrypoint. </p>
+
+</div>
+</div>
+<a id="a6030c01334246de080c6d19c8426ff6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6030c01334246de080c6d19c8426ff6e">&#9670;&nbsp;</a></span>Subtask_PortalCutscene</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="subtask_8h.html#a41045ea01d9ee8754ef2fae411d2e668">Subtask</a> Subtask_PortalCutscene </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Subtask entrypoint. </p>
+
+</div>
+</div>
+<a id="a4eae0908c7c1668e7598bd7b7130d2e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4eae0908c7c1668e7598bd7b7130d2e7">&#9670;&nbsp;</a></span>Subtask_WorldEvent</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="subtask_8h.html#a41045ea01d9ee8754ef2fae411d2e668">Subtask</a> Subtask_WorldEvent </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Subtask entrypoint. </p>
+
+</div>
+</div>
+<a id="a6f514aa0a722452554e3e216ef977aab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f514aa0a722452554e3e216ef977aab">&#9670;&nbsp;</a></span>unk0</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> unk0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a63cedac94a1136e9bad63d61683c43ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63cedac94a1136e9bad63d61683c43ef">&#9670;&nbsp;</a></span>unk1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> unk1</td>
         </tr>
       </table>
 </div><div class="memdoc">

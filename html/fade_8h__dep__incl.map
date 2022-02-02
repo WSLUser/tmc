@@ -1,6 +1,6 @@
 <map id="include/fade.h" name="include/fade.h">
-<area shape="rect" id="node1" title=" " alt="" coords="3657,5,3760,32"/>
-<area shape="rect" id="node2" href="$screen_8h.html" title=" " alt="" coords="3651,80,3767,107"/>
+<area shape="rect" id="node1" title=" " alt="" coords="3851,5,3953,32"/>
+<area shape="rect" id="node2" href="$screen_8h.html" title=" " alt="" coords="3844,80,3960,107"/>
 <area shape="rect" id="node3" href="$affine_8c.html" title=" " alt="" coords="5,155,89,181"/>
 <area shape="rect" id="node4" href="$common_8c.html" title=" " alt="" coords="114,155,218,181"/>
 <area shape="rect" id="node5" href="$debug_8c.html" title="Debug task." alt="" coords="243,155,332,181"/>
@@ -32,19 +32,21 @@
 <area shape="rect" id="node31" href="$manager8_8c.html" title=" " alt="" coords="4699,155,4865,181"/>
 <area shape="rect" id="node32" href="$manager9_8c.html" title=" " alt="" coords="4889,155,5054,181"/>
 <area shape="rect" id="node33" href="$managerC_8c.html" title=" " alt="" coords="5079,155,5245,181"/>
-<area shape="rect" id="node34" href="$bigGoron_8c.html" title=" " alt="" coords="5270,155,5401,181"/>
-<area shape="rect" id="node35" href="$ghostBrothers_8c.html" title=" " alt="" coords="5425,155,5585,181"/>
-<area shape="rect" id="node36" href="$kingGustaf_8c.html" title=" " alt="" coords="5609,155,5752,181"/>
-<area shape="rect" id="node37" href="$phonograph_8c.html" title=" " alt="" coords="5777,155,5923,181"/>
-<area shape="rect" id="node38" href="$simon_8c.html" title=" " alt="" coords="5947,155,6062,181"/>
-<area shape="rect" id="node39" href="$greatFairy_8c.html" title=" " alt="" coords="6087,155,6237,181"/>
-<area shape="rect" id="node40" href="$gyorgBossObject_8c.html" title=" " alt="" coords="6262,155,6454,181"/>
-<area shape="rect" id="node41" href="$object6A_8c.html" title=" " alt="" coords="6478,155,6622,181"/>
-<area shape="rect" id="node42" href="$steam_8c.html" title=" " alt="" coords="6647,155,6776,181"/>
-<area shape="rect" id="node43" href="$player_8c.html" title="Player entity." alt="" coords="6801,155,6889,181"/>
-<area shape="rect" id="node44" href="$roomInit_8c.html" title=" " alt="" coords="6913,155,7014,181"/>
-<area shape="rect" id="node45" href="$script_8c.html" title=" " alt="" coords="7039,155,7125,181"/>
-<area shape="rect" id="node46" href="$sub__08055E08_8c.html" title=" " alt="" coords="7150,155,7289,181"/>
-<area shape="rect" id="node47" href="$subtask_8c.html" title=" " alt="" coords="7313,155,7413,181"/>
-<area shape="rect" id="node48" href="$title_8c.html" title="Title task." alt="" coords="7437,155,7511,181"/>
+<area shape="rect" id="node34" href="$figurine__menu_8c.html" title=" " alt="" coords="5270,155,5441,181"/>
+<area shape="rect" id="node35" href="$kinstone__menu_8c.html" title=" " alt="" coords="5465,155,5643,181"/>
+<area shape="rect" id="node36" href="$pause__menu_8c.html" title=" " alt="" coords="5668,155,5832,181"/>
+<area shape="rect" id="node37" href="$bigGoron_8c.html" title=" " alt="" coords="5857,155,5987,181"/>
+<area shape="rect" id="node38" href="$ghostBrothers_8c.html" title=" " alt="" coords="6011,155,6171,181"/>
+<area shape="rect" id="node39" href="$kingGustaf_8c.html" title=" " alt="" coords="6196,155,6339,181"/>
+<area shape="rect" id="node40" href="$phonograph_8c.html" title=" " alt="" coords="6363,155,6510,181"/>
+<area shape="rect" id="node41" href="$simon_8c.html" title=" " alt="" coords="6534,155,6649,181"/>
+<area shape="rect" id="node42" href="$greatFairy_8c.html" title=" " alt="" coords="6673,155,6824,181"/>
+<area shape="rect" id="node43" href="$gyorgBossObject_8c.html" title=" " alt="" coords="6849,155,7041,181"/>
+<area shape="rect" id="node44" href="$object6A_8c.html" title=" " alt="" coords="7065,155,7209,181"/>
+<area shape="rect" id="node45" href="$steam_8c.html" title=" " alt="" coords="7233,155,7363,181"/>
+<area shape="rect" id="node46" href="$player_8c.html" title="Player entity." alt="" coords="7387,155,7475,181"/>
+<area shape="rect" id="node47" href="$roomInit_8c.html" title=" " alt="" coords="7499,155,7601,181"/>
+<area shape="rect" id="node48" href="$script_8c.html" title=" " alt="" coords="7625,155,7712,181"/>
+<area shape="rect" id="node49" href="$sub__08055E08_8c.html" title=" " alt="" coords="7737,155,7875,181"/>
+<area shape="rect" id="node50" href="$title_8c.html" title="Title task." alt="" coords="7899,155,7974,181"/>
 </map>

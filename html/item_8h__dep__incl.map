@@ -1,5 +1,5 @@
 <map id="include/item.h" name="include/item.h">
-<area shape="rect" id="node1" title=" " alt="" coords="2869,5,2971,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="2958,5,3061,32"/>
 <area shape="rect" id="node2" href="$code__0805436C_8c.html" title=" " alt="" coords="5,80,152,107"/>
 <area shape="rect" id="node3" href="$businessScrub_8c.html" title="Business Scrub enemy." alt="" coords="177,80,359,107"/>
 <area shape="rect" id="node4" href="$likeLike_8c.html" title="Like Like enemy." alt="" coords="384,80,525,107"/>
@@ -22,15 +22,16 @@
 <area shape="rect" id="node21" href="$itemTryPickupObject_8c.html" title=" " alt="" coords="3366,80,3570,107"/>
 <area shape="rect" id="node22" href="$item_8c.html" title=" " alt="" coords="3594,80,3673,107"/>
 <area shape="rect" id="node23" href="$managerF_8c.html" title=" " alt="" coords="3697,80,3863,107"/>
-<area shape="rect" id="node24" href="$stockwell_8c.html" title=" " alt="" coords="3887,80,4022,107"/>
-<area shape="rect" id="node25" href="$bird_8c.html" title=" " alt="" coords="4047,80,4161,107"/>
-<area shape="rect" id="node26" href="$book_8c.html" title=" " alt="" coords="4186,80,4307,107"/>
-<area shape="rect" id="node27" href="$heartContainer_8c.html" title=" " alt="" coords="4331,80,4509,107"/>
-<area shape="rect" id="node28" href="$itemOnGround_8c.html" title=" " alt="" coords="4533,80,4710,107"/>
-<area shape="rect" id="node29" href="$lilypadLarge_8c.html" title="Large Lilypad object." alt="" coords="4735,80,4897,107"/>
-<area shape="rect" id="node30" href="$object6A_8c.html" title=" " alt="" coords="4921,80,5065,107"/>
-<area shape="rect" id="node31" href="$objectA8_8c.html" title=" " alt="" coords="5089,80,5233,107"/>
-<area shape="rect" id="node32" href="$player_8c.html" title="Player entity." alt="" coords="5257,80,5345,107"/>
-<area shape="rect" id="node33" href="$roomInit_8c.html" title=" " alt="" coords="5369,80,5471,107"/>
-<area shape="rect" id="node34" href="$title_8c.html" title="Title task." alt="" coords="5495,80,5569,107"/>
+<area shape="rect" id="node24" href="$pause__menu_8c.html" title=" " alt="" coords="3887,80,4051,107"/>
+<area shape="rect" id="node25" href="$stockwell_8c.html" title=" " alt="" coords="4075,80,4210,107"/>
+<area shape="rect" id="node26" href="$bird_8c.html" title=" " alt="" coords="4235,80,4349,107"/>
+<area shape="rect" id="node27" href="$book_8c.html" title=" " alt="" coords="4374,80,4495,107"/>
+<area shape="rect" id="node28" href="$heartContainer_8c.html" title=" " alt="" coords="4519,80,4697,107"/>
+<area shape="rect" id="node29" href="$itemOnGround_8c.html" title=" " alt="" coords="4721,80,4898,107"/>
+<area shape="rect" id="node30" href="$lilypadLarge_8c.html" title="Large Lilypad object." alt="" coords="4923,80,5085,107"/>
+<area shape="rect" id="node31" href="$object6A_8c.html" title=" " alt="" coords="5109,80,5253,107"/>
+<area shape="rect" id="node32" href="$objectA8_8c.html" title=" " alt="" coords="5277,80,5421,107"/>
+<area shape="rect" id="node33" href="$player_8c.html" title="Player entity." alt="" coords="5445,80,5533,107"/>
+<area shape="rect" id="node34" href="$roomInit_8c.html" title=" " alt="" coords="5557,80,5659,107"/>
+<area shape="rect" id="node35" href="$title_8c.html" title="Title task." alt="" coords="5683,80,5757,107"/>
 </map>
