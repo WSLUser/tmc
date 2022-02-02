@@ -25,28 +25,28 @@
 <area shape="rect" id="node24" href="$ropeGolden_8c.html" title="Golden Rope enemy." alt="" coords="3394,155,3557,181"/>
 <area shape="rect" id="node25" href="$rupeeLike_8c.html" title="Rupee Like enemy." alt="" coords="3581,155,3735,181"/>
 <area shape="rect" id="node26" href="$treeItem_8c.html" title="Tree Item enemy." alt="" coords="3759,155,3903,181"/>
-<area shape="rect" id="node27" href="$enterPortalSubtask_8c.html" title=" " alt="" coords="3927,155,4093,181"/>
-<area shape="rect" id="node28" href="$entity_8c.html" title=" " alt="" coords="4117,155,4202,181"/>
-<area shape="rect" id="node29" href="$fade_8c.html" title=" " alt="" coords="4227,155,4305,181"/>
-<area shape="rect" id="node30" href="$flags_8c.html" title=" " alt="" coords="4329,155,4411,181"/>
-<area shape="rect" id="node31" href="$game_8c.html" title="Game task." alt="" coords="4435,155,4521,181"/>
-<area shape="rect" id="node32" href="$m4a_8c.html" title=" " alt="" coords="4546,155,4650,181"/>
-<area shape="rect" id="node33" href="$interrupts_8c.html" title=" " alt="" coords="4675,155,4783,181"/>
-<area shape="rect" id="node34" href="$itemGustJar_8c.html" title=" " alt="" coords="4807,155,4962,181"/>
-<area shape="rect" id="node35" href="$itemPacciCane_8c.html" title=" " alt="" coords="4986,155,5157,181"/>
-<area shape="rect" id="node36" href="$itemShield_8c.html" title=" " alt="" coords="5181,155,5325,181"/>
-<area shape="rect" id="node37" href="$item_8c.html" title=" " alt="" coords="5349,155,5428,181"/>
-<area shape="rect" id="node38" href="$kinstone_8c.html" title=" " alt="" coords="5452,155,5555,181"/>
-<area shape="rect" id="node39" href="$manager1_8c.html" title=" " alt="" coords="5579,155,5745,181"/>
-<area shape="rect" id="node40" href="$manager10_8c.html" title=" " alt="" coords="5769,155,5941,181"/>
-<area shape="rect" id="node41" href="$manager14_8c.html" title=" " alt="" coords="5965,155,6137,181"/>
-<area shape="rect" id="node42" href="$manager15_8c.html" title=" " alt="" coords="6161,155,6333,181"/>
-<area shape="rect" id="node43" href="$manager1A_8c.html" title=" " alt="" coords="6357,155,6532,181"/>
-<area shape="rect" id="node44" href="$manager1E_8c.html" title=" " alt="" coords="6557,155,6730,181"/>
-<area shape="rect" id="node45" href="$manager2_8c.html" title=" " alt="" coords="6754,155,6919,181"/>
-<area shape="rect" id="node46" href="$manager20_8c.html" title=" " alt="" coords="6944,155,7116,181"/>
-<area shape="rect" id="node47" href="$manager26_8c.html" title=" " alt="" coords="7140,155,7312,181"/>
-<area shape="rect" id="node48" href="$manager27_8c.html" title=" " alt="" coords="7336,155,7508,181"/>
-<area shape="rect" id="node49" href="$manager28_8c.html" title=" " alt="" coords="7532,155,7704,181"/>
-<area shape="rect" id="node50" href="$manager2E_8c.html" title=" " alt="" coords="7729,155,7902,181"/>
+<area shape="rect" id="node27" href="$wizzrobeFire_8c.html" title="Wizzrobe Fire enemy." alt="" coords="3927,155,4095,181"/>
+<area shape="rect" id="node28" href="$wizzrobeIce_8c.html" title="Wizzrobe Ice enemy." alt="" coords="4120,155,4284,181"/>
+<area shape="rect" id="node29" href="$wizzrobeWind_8c.html" title="Wizzrobe Wind enemy." alt="" coords="4308,155,4483,181"/>
+<area shape="rect" id="node30" href="$enterPortalSubtask_8c.html" title=" " alt="" coords="4507,155,4673,181"/>
+<area shape="rect" id="node31" href="$entity_8c.html" title=" " alt="" coords="4697,155,4782,181"/>
+<area shape="rect" id="node32" href="$fade_8c.html" title=" " alt="" coords="4807,155,4885,181"/>
+<area shape="rect" id="node33" href="$flags_8c.html" title=" " alt="" coords="4909,155,4991,181"/>
+<area shape="rect" id="node34" href="$game_8c.html" title="Game task." alt="" coords="5015,155,5101,181"/>
+<area shape="rect" id="node35" href="$m4a_8c.html" title=" " alt="" coords="5126,155,5230,181"/>
+<area shape="rect" id="node36" href="$interrupts_8c.html" title=" " alt="" coords="5255,155,5363,181"/>
+<area shape="rect" id="node37" href="$itemGustJar_8c.html" title=" " alt="" coords="5387,155,5542,181"/>
+<area shape="rect" id="node38" href="$itemPacciCane_8c.html" title=" " alt="" coords="5566,155,5737,181"/>
+<area shape="rect" id="node39" href="$itemShield_8c.html" title=" " alt="" coords="5761,155,5905,181"/>
+<area shape="rect" id="node40" href="$item_8c.html" title=" " alt="" coords="5929,155,6008,181"/>
+<area shape="rect" id="node41" href="$kinstone_8c.html" title=" " alt="" coords="6032,155,6135,181"/>
+<area shape="rect" id="node42" href="$manager1_8c.html" title=" " alt="" coords="6159,155,6325,181"/>
+<area shape="rect" id="node43" href="$manager10_8c.html" title=" " alt="" coords="6349,155,6521,181"/>
+<area shape="rect" id="node44" href="$manager14_8c.html" title=" " alt="" coords="6545,155,6717,181"/>
+<area shape="rect" id="node45" href="$manager15_8c.html" title=" " alt="" coords="6741,155,6913,181"/>
+<area shape="rect" id="node46" href="$manager1A_8c.html" title=" " alt="" coords="6937,155,7112,181"/>
+<area shape="rect" id="node47" href="$manager1E_8c.html" title=" " alt="" coords="7137,155,7310,181"/>
+<area shape="rect" id="node48" href="$manager2_8c.html" title=" " alt="" coords="7334,155,7499,181"/>
+<area shape="rect" id="node49" href="$manager20_8c.html" title=" " alt="" coords="7524,155,7696,181"/>
+<area shape="rect" id="node50" href="$manager26_8c.html" title=" " alt="" coords="7720,155,7892,181"/>
 </map>

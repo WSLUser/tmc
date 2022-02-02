@@ -1,0 +1,6 @@
+<map id="include/enemy/wizzrobe.h" name="include/enemy/wizzrobe.h">
+<area shape="rect" id="node1" title=" " alt="" coords="195,5,365,32"/>
+<area shape="rect" id="node2" href="$wizzrobeFire_8c.html" title="Wizzrobe Fire enemy." alt="" coords="5,80,173,107"/>
+<area shape="rect" id="node3" href="$wizzrobeIce_8c.html" title="Wizzrobe Ice enemy." alt="" coords="198,80,362,107"/>
+<area shape="rect" id="node4" href="$wizzrobeWind_8c.html" title="Wizzrobe Wind enemy." alt="" coords="386,80,561,107"/>
+</map>

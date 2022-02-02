@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['saveresult_28828',['SaveResult',['../save_8h.html#a85868e93184e48095ce0f366c7494203',1,'save.h']]],
-  ['savestate_28829',['SaveState',['../save_8h.html#a6c2df2fe83b87c5fb34adb55c32b6ff2',1,'save.h']]],
-  ['savestatus_28830',['SaveStatus',['../fileselect_8c.html#a58f249b11ecd1b40950eb87a47fcbc49',1,'fileselect.c']]],
-  ['sleepstatus_28831',['SleepStatus',['../main_8h.html#a6c08197a075fbd066c74761d15126d3b',1,'main.h']]],
-  ['sound_28832',['Sound',['../sound_8h.html#a78d488655886fd6a1355b1162fba927f',1,'sound.h']]],
-  ['sprites_28833',['Sprites',['../definitions_8h.html#a43a1d9bb6b7a9c2b888825997e1658e8',1,'definitions.h']]],
-  ['surfacetype_28834',['SurfaceType',['../player_8h.html#a24dfdcf13ae4e2b7985a3868a1b5169f',1,'player.h']]]
+  ['saveresult_28897',['SaveResult',['../save_8h.html#a85868e93184e48095ce0f366c7494203',1,'save.h']]],
+  ['savestate_28898',['SaveState',['../save_8h.html#a6c2df2fe83b87c5fb34adb55c32b6ff2',1,'save.h']]],
+  ['savestatus_28899',['SaveStatus',['../fileselect_8c.html#a58f249b11ecd1b40950eb87a47fcbc49',1,'fileselect.c']]],
+  ['sleepstatus_28900',['SleepStatus',['../main_8h.html#a6c08197a075fbd066c74761d15126d3b',1,'main.h']]],
+  ['sound_28901',['Sound',['../sound_8h.html#a78d488655886fd6a1355b1162fba927f',1,'sound.h']]],
+  ['sprites_28902',['Sprites',['../definitions_8h.html#a43a1d9bb6b7a9c2b888825997e1658e8',1,'definitions.h']]],
+  ['surfacetype_28903',['SurfaceType',['../player_8h.html#a24dfdcf13ae4e2b7985a3868a1b5169f',1,'player.h']]]
 ];
