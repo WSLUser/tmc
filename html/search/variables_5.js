@@ -6,7 +6,7 @@ var searchData=
   ['eeprom_5fv124_3',['EEPROM_V124',['../eeprom_8c.html#a093f40924203805d4e294460f499cea4',1,'eeprom.c']]],
   ['effect_4',['effect',['../structStats.html#ad2b90a7af85557ba92e9bb78172e4bb2',1,'Stats']]],
   ['effecttimer_5',['effectTimer',['../structStats.html#a0841cfd221f4c7b381b841a7e8aa4faf',1,'Stats']]],
-  ['else_6',['else',['../itemTryPickupObject_8c.html#a0544c3fe466e421738dae463968b70ba',1,'else():&#160;itemTryPickupObject.c'],['../npc5_8c.html#a0544c3fe466e421738dae463968b70ba',1,'else():&#160;npc5.c'],['../pullableMushroom_8c.html#a0544c3fe466e421738dae463968b70ba',1,'else():&#160;pullableMushroom.c'],['../itemRocsCape_8c.html#a0544c3fe466e421738dae463968b70ba',1,'else():&#160;itemRocsCape.c'],['../itemGustJar_8c.html#a0544c3fe466e421738dae463968b70ba',1,'else():&#160;itemGustJar.c']]],
+  ['else_6',['else',['../npc5_8c.html#a0544c3fe466e421738dae463968b70ba',1,'else():&#160;npc5.c'],['../pullableMushroom_8c.html#a0544c3fe466e421738dae463968b70ba',1,'else():&#160;pullableMushroom.c'],['../itemTryPickupObject_8c.html#a0544c3fe466e421738dae463968b70ba',1,'else():&#160;itemTryPickupObject.c'],['../itemRocsCape_8c.html#a0544c3fe466e421738dae463968b70ba',1,'else():&#160;itemRocsCape.c']]],
   ['enable_7',['enable',['../structSioNormalCnt.html#aa827263e07451f1097651a7f315cb479',1,'SioNormalCnt::enable()'],['../structSioMultiCnt.html#a4616ecfed0bb56bf1b1b5069636491e5',1,'SioMultiCnt::enable()']]],
   ['endofanimation_8',['endOfAnimation',['../structPACKED.html#a9ae41a291e4f038a9d7fe59520a69646',1,'PACKED']]],
   ['enemies_9',['enemies',['../structManagerBHelper.html#aca5e9e00bfe31152b201f9af2b2eeed1',1,'ManagerBHelper::enemies()'],['../structManager28.html#ab92b7ef2b2e2b12f3ac058f31308200a',1,'Manager28::enemies()']]],

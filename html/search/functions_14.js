@@ -23,7 +23,7 @@ var searchData=
   ['updatemanagers_20',['UpdateManagers',['../entity_8c.html#a794a850c731d3e72a695d50cba2586c3',1,'UpdateManagers(void):&#160;entity.c'],['../entity_8h.html#a794a850c731d3e72a695d50cba2586c3',1,'UpdateManagers(void):&#160;entity.c']]],
   ['updateplayercollision_21',['UpdatePlayerCollision',['../player_8c.html#aaf6a16c49f8d4192b107cd1b6446d7d6',1,'player.c']]],
   ['updateplayermapcoords_22',['UpdatePlayerMapCoords',['../game_8c.html#a45be73f46cba02aef55ce677a4f3eec0',1,'game.c']]],
-  ['updateplayermovement_23',['UpdatePlayerMovement',['../itemMoleMitts_8c.html#a2652d385f70072f058a80a6dc635ec07',1,'UpdatePlayerMovement(void):&#160;itemMoleMitts.c'],['../player_8c.html#a2652d385f70072f058a80a6dc635ec07',1,'UpdatePlayerMovement(void):&#160;player.c']]],
+  ['updateplayermovement_23',['UpdatePlayerMovement',['../player_8c.html#a2652d385f70072f058a80a6dc635ec07',1,'UpdatePlayerMovement(void):&#160;player.c'],['../itemMoleMitts_8c.html#a2652d385f70072f058a80a6dc635ec07',1,'UpdatePlayerMovement(void):&#160;itemMoleMitts.c'],['../itemGustJar_8c.html#a2652d385f70072f058a80a6dc635ec07',1,'UpdatePlayerMovement(void):&#160;itemGustJar.c']]],
   ['updateplayerroomstatus_24',['UpdatePlayerRoomStatus',['../game_8c.html#a85efaa6206e41232067bb1e17d3a6389',1,'game.c']]],
   ['updateplayerskills_25',['UpdatePlayerSkills',['../player_8c.html#ad27ab280c406f5850cc9cb98dfaec0bd',1,'player.c']]],
   ['updatepressstarticon_26',['UpdatePressStartIcon',['../title_8c.html#a426c37a12229ef4ced2619203424e9bb',1,'title.c']]],
