@@ -30,7 +30,7 @@ var searchData=
   ['areametadata_27',['areaMetadata',['../structArea.html#a2c30f8931e3edbf10f18ee1a02a092be',1,'Area']]],
   ['areaoverflowmode_28',['areaOverflowMode',['../structBgCnt.html#ada6ebceed46b967f937b5d80908f9773',1,'BgCnt']]],
   ['areavisitflags_29',['areaVisitFlags',['../structSaveFile.html#a8b947c3d4ea13db08ea51c675f9310ed',1,'SaveFile']]],
-  ['arg1_30',['arg1',['../itemRocsCape_8c.html#a5484a51e959660919053cdf7b04da2b6',1,'arg1():&#160;itemRocsCape.c'],['../itemMoleMitts_8c.html#a274d4d7f36a06810856abd500e27a457',1,'arg1():&#160;itemMoleMitts.c'],['../code__08077B98_8c.html#aac7ccfbc9d00eefeab0c54096d454869',1,'arg1():&#160;code_08077B98.c'],['../itemSword_8c.html#adef3c559e5e1f0884b83689ccbb96eec',1,'arg1():&#160;itemSword.c'],['../itemTryPickupObject_8c.html#aac7ccfbc9d00eefeab0c54096d454869',1,'arg1():&#160;itemTryPickupObject.c']]],
+  ['arg1_30',['arg1',['../itemRocsCape_8c.html#a5484a51e959660919053cdf7b04da2b6',1,'arg1():&#160;itemRocsCape.c'],['../itemMoleMitts_8c.html#aac7ccfbc9d00eefeab0c54096d454869',1,'arg1():&#160;itemMoleMitts.c'],['../itemSword_8c.html#adef3c559e5e1f0884b83689ccbb96eec',1,'arg1():&#160;itemSword.c'],['../itemTryPickupObject_8c.html#aac7ccfbc9d00eefeab0c54096d454869',1,'arg1():&#160;itemTryPickupObject.c']]],
   ['arg2_31',['arg2',['../itemTryPickupObject_8c.html#a34ae30b53c6a26ff38afd89e454b7a09',1,'itemTryPickupObject.c']]],
   ['arg3_32',['arg3',['../itemTryPickupObject_8c.html#ab20a9eaf3c37d630273f17602141344d',1,'itemTryPickupObject.c']]],
   ['armos_5fdata_33',['armos_data',['../structRoomTransition.html#a25379905ad7f283e9cd551381f5a0fbe',1,'RoomTransition']]],
