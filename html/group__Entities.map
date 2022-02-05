@@ -1,10 +1,10 @@
 <map id="Entities" name="Entities">
-<area shape="rect" id="node1" href="$group__NPCs.html" title=" " alt="" coords="131,5,189,31"/>
-<area shape="rect" id="node2" href="$group__Enemies.html" title=" " alt="" coords="124,55,196,80"/>
-<area shape="rect" id="node3" href="$group__Objects.html" title=" " alt="" coords="127,104,193,129"/>
-<area shape="rect" id="node4" href="$group__Managers.html" title=" " alt="" coords="121,153,199,179"/>
-<area shape="rect" id="node5" href="$group__Projectiles.html" title=" " alt="" coords="119,203,201,228"/>
-<area shape="rect" id="node6" title=" " alt="" coords="5,153,71,179"/>
+<area shape="rect" id="node1" href="$group__Enemies.html" title=" " alt="" coords="124,5,196,31"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,153,71,179"/>
+<area shape="rect" id="node3" href="$group__Items.html" title=" " alt="" coords="133,55,187,80"/>
+<area shape="rect" id="node4" href="$group__Managers.html" title=" " alt="" coords="121,104,199,129"/>
+<area shape="rect" id="node5" href="$group__NPCs.html" title=" " alt="" coords="131,153,189,179"/>
+<area shape="rect" id="node6" href="$group__Objects.html" title=" " alt="" coords="127,203,193,228"/>
 <area shape="rect" id="node7" href="$group__Player.html" title=" " alt="" coords="131,252,189,277"/>
-<area shape="rect" id="node8" href="$group__Items.html" title=" " alt="" coords="133,301,187,327"/>
+<area shape="rect" id="node8" href="$group__Projectiles.html" title=" " alt="" coords="119,301,201,327"/>
 </map>

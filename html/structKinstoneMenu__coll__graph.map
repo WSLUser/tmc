@@ -1,5 +1,5 @@
 <map id="KinstoneMenu" name="KinstoneMenu">
-<area shape="rect" id="node1" title=" " alt="" coords="37,95,143,121"/>
-<area shape="rect" id="node2" href="$unionSplitWord.html" title=" " alt="" coords="5,5,84,32"/>
-<area shape="rect" id="node3" href="$structMenu.html" title=" " alt="" coords="108,5,163,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="25,95,131,121"/>
+<area shape="rect" id="node2" href="$structMenu.html" title=" " alt="" coords="5,5,60,32"/>
+<area shape="rect" id="node3" href="$unionSplitWord.html" title=" " alt="" coords="84,5,163,32"/>
 </map>

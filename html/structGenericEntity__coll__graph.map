@@ -1,7 +1,7 @@
 <map id="GenericEntity" name="GenericEntity">
-<area shape="rect" id="node1" title=" " alt="" coords="132,465,231,492"/>
-<area shape="rect" id="node2" href="$structEntity.html" title="Container for instantiable behavior." alt="" coords="154,309,209,335"/>
-<area shape="rect" id="node3" href="$unionSplitHWord.html" title=" " alt="" coords="5,5,93,32"/>
-<area shape="rect" id="node4" href="$unionSplitWord.html" title=" " alt="" coords="263,5,342,32"/>
-<area shape="rect" id="node5" href="$structHitbox.html" title="Hitbox structure." alt="" coords="152,5,211,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="110,465,209,492"/>
+<area shape="rect" id="node2" href="$structEntity.html" title="Container for instantiable behavior." alt="" coords="132,309,187,335"/>
+<area shape="rect" id="node3" href="$unionSplitWord.html" title=" " alt="" coords="5,5,84,32"/>
+<area shape="rect" id="node4" href="$structHitbox.html" title="Hitbox structure." alt="" coords="130,5,189,32"/>
+<area shape="rect" id="node5" href="$unionSplitHWord.html" title=" " alt="" coords="247,5,335,32"/>
 </map>

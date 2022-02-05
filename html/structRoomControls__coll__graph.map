@@ -1,7 +1,7 @@
 <map id="RoomControls" name="RoomControls">
-<area shape="rect" id="node1" title=" " alt="" coords="193,333,297,360"/>
-<area shape="rect" id="node2" href="$structEntity.html" title="Container for instantiable behavior." alt="" coords="143,243,198,269"/>
-<area shape="rect" id="node3" href="$unionSplitHWord.html" title=" " alt="" coords="5,5,93,32"/>
-<area shape="rect" id="node4" href="$unionSplitWord.html" title=" " alt="" coords="242,5,321,32"/>
-<area shape="rect" id="node5" href="$structHitbox.html" title="Hitbox structure." alt="" coords="131,5,189,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,333,109,360"/>
+<area shape="rect" id="node2" href="$unionSplitWord.html" title=" " alt="" coords="18,5,97,32"/>
+<area shape="rect" id="node3" href="$structEntity.html" title="Container for instantiable behavior." alt="" coords="137,243,191,269"/>
+<area shape="rect" id="node4" href="$structHitbox.html" title="Hitbox structure." alt="" coords="143,5,201,32"/>
+<area shape="rect" id="node5" href="$unionSplitHWord.html" title=" " alt="" coords="225,5,313,32"/>
 </map>

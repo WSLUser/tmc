@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['npcs_34020',['NPCs',['../group__NPCs.html',1,'']]]
+  ['npcs_0',['NPCs',['../group__NPCs.html',1,'']]]
 ];

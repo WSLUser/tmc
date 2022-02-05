@@ -1,5 +1,5 @@
 <map id="GenericMenu" name="GenericMenu">
-<area shape="rect" id="node1" title=" " alt="" coords="48,109,147,136"/>
-<area shape="rect" id="node2" href="$unionSplitHWord.html" title=" " alt="" coords="5,5,93,32"/>
-<area shape="rect" id="node3" href="$structMenu.html" title=" " alt="" coords="118,5,173,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="31,109,130,136"/>
+<area shape="rect" id="node2" href="$structMenu.html" title=" " alt="" coords="5,5,60,32"/>
+<area shape="rect" id="node3" href="$unionSplitHWord.html" title=" " alt="" coords="85,5,173,32"/>
 </map>

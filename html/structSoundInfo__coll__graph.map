@@ -1,10 +1,10 @@
 <map id="SoundInfo" name="SoundInfo">
-<area shape="rect" id="node1" title=" " alt="" coords="134,363,215,389"/>
-<area shape="rect" id="node2" href="$structSoundChannel.html" title=" " alt="" coords="5,95,112,121"/>
-<area shape="rect" id="node4" href="$structMusicPlayerTrack.html" title=" " alt="" coords="29,184,155,211"/>
-<area shape="rect" id="node3" href="$structWaveData.html" title=" " alt="" coords="76,5,159,32"/>
-<area shape="rect" id="node5" href="$structToneData.html" title=" " alt="" coords="141,95,219,121"/>
-<area shape="rect" id="node7" href="$structMusicPlayerInfo.html" title=" " alt="" coords="117,273,232,300"/>
-<area shape="rect" id="node8" href="$structSongHeader.html" title=" " alt="" coords="259,184,354,211"/>
-<area shape="rect" id="node6" href="$structCgbChannel.html" title=" " alt="" coords="310,273,402,300"/>
+<area shape="rect" id="node1" title=" " alt="" coords="139,363,220,389"/>
+<area shape="rect" id="node2" href="$structCgbChannel.html" title=" " alt="" coords="5,273,97,300"/>
+<area shape="rect" id="node3" href="$structMusicPlayerInfo.html" title=" " alt="" coords="122,273,237,300"/>
+<area shape="rect" id="node4" href="$structSongHeader.html" title=" " alt="" coords="167,184,261,211"/>
+<area shape="rect" id="node5" href="$structToneData.html" title=" " alt="" coords="224,95,303,121"/>
+<area shape="rect" id="node7" href="$structMusicPlayerTrack.html" title=" " alt="" coords="285,184,412,211"/>
+<area shape="rect" id="node6" href="$structWaveData.html" title=" " alt="" coords="365,5,447,32"/>
+<area shape="rect" id="node8" href="$structSoundChannel.html" title=" " alt="" coords="339,273,446,300"/>
 </map>

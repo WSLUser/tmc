@@ -1,8 +1,8 @@
 <map id="VaatiArm_HeapStruct" name="VaatiArm_HeapStruct">
-<area shape="rect" id="node1" title=" " alt="" coords="86,345,235,372"/>
-<area shape="rect" id="node2" href="$structEntity.html" title="Container for instantiable behavior." alt="" coords="197,241,252,268"/>
-<area shape="rect" id="node3" href="$unionSplitHWord.html" title=" " alt="" coords="49,5,137,32"/>
-<area shape="rect" id="node6" href="$structVaatiArm__HeapStruct1.html" title=" " alt="" coords="5,241,161,268"/>
-<area shape="rect" id="node4" href="$unionSplitWord.html" title=" " alt="" coords="199,5,277,32"/>
-<area shape="rect" id="node5" href="$structHitbox.html" title="Hitbox structure." alt="" coords="302,5,361,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="151,345,301,372"/>
+<area shape="rect" id="node2" href="$structEntity.html" title="Container for instantiable behavior." alt="" coords="135,241,189,268"/>
+<area shape="rect" id="node3" href="$unionSplitWord.html" title=" " alt="" coords="5,5,84,32"/>
+<area shape="rect" id="node4" href="$structHitbox.html" title="Hitbox structure." alt="" coords="109,5,167,32"/>
+<area shape="rect" id="node5" href="$unionSplitHWord.html" title=" " alt="" coords="231,5,319,32"/>
+<area shape="rect" id="node6" href="$structVaatiArm__HeapStruct1.html" title=" " alt="" coords="225,241,381,268"/>
 </map>

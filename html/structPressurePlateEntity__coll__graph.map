@@ -1,7 +1,7 @@
 <map id="PressurePlateEntity" name="PressurePlateEntity">
-<area shape="rect" id="node1" title=" " alt="" coords="5,363,141,389"/>
-<area shape="rect" id="node2" href="$structEntity.html" title="Container for instantiable behavior." alt="" coords="135,257,190,284"/>
-<area shape="rect" id="node3" href="$unionSplitHWord.html" title=" " alt="" coords="8,5,96,32"/>
-<area shape="rect" id="node4" href="$unionSplitWord.html" title=" " alt="" coords="145,5,223,32"/>
-<area shape="rect" id="node5" href="$structHitbox.html" title="Hitbox structure." alt="" coords="248,5,307,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="171,363,307,389"/>
+<area shape="rect" id="node2" href="$structEntity.html" title="Container for instantiable behavior." alt="" coords="145,257,200,284"/>
+<area shape="rect" id="node3" href="$unionSplitWord.html" title=" " alt="" coords="5,5,84,32"/>
+<area shape="rect" id="node4" href="$structHitbox.html" title="Hitbox structure." alt="" coords="109,5,167,32"/>
+<area shape="rect" id="node5" href="$unionSplitHWord.html" title=" " alt="" coords="226,5,314,32"/>
 </map>

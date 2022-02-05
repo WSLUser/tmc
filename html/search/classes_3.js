@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['defaults_16944',['Defaults',['../structDefaults.html',1,'']]],
-  ['dialog_16945',['Dialog',['../structDialog.html',1,'']]],
-  ['diggingcaveentrance_16946',['DiggingCaveEntrance',['../structDiggingCaveEntrance.html',1,'']]],
-  ['dmaregisters_16947',['DMARegisters',['../structDMARegisters.html',1,'']]],
-  ['dungeonlayout_16948',['DungeonLayout',['../structDungeonLayout.html',1,'']]]
+  ['defaults_0',['Defaults',['../structDefaults.html',1,'']]],
+  ['dialog_1',['Dialog',['../structDialog.html',1,'']]],
+  ['diggingcaveentrance_2',['DiggingCaveEntrance',['../structDiggingCaveEntrance.html',1,'']]],
+  ['dmaregisters_3',['DMARegisters',['../structDMARegisters.html',1,'']]],
+  ['droptable_4',['Droptable',['../unionDroptable.html',1,'']]],
+  ['dungeonlayout_5',['DungeonLayout',['../structDungeonLayout.html',1,'']]]
 ];

@@ -1,12 +1,12 @@
 <map id="GyorgHeap" name="GyorgHeap">
-<area shape="rect" id="node1" title=" " alt="" coords="641,112,728,139"/>
-<area shape="rect" id="node2" href="$structGyorgFemaleMouthEntity.html" title=" " alt="" coords="381,157,548,184"/>
-<area shape="rect" id="node3" href="$structEntity.html" title="Container for instantiable behavior." alt="" coords="234,124,289,151"/>
-<area shape="rect" id="node7" href="$structGenericEntity.html" title=" " alt="" coords="415,221,514,248"/>
-<area shape="rect" id="node8" href="$structGyorgBossObjectEntity.html" title=" " alt="" coords="387,56,543,83"/>
-<area shape="rect" id="node9" href="$structGyorgMaleEntity.html" title=" " alt="" coords="407,107,523,133"/>
-<area shape="rect" id="node10" href="$structGyorgFemaleEntity.html" title=" " alt="" coords="399,5,530,32"/>
-<area shape="rect" id="node4" href="$unionSplitHWord.html" title=" " alt="" coords="5,440,93,467"/>
-<area shape="rect" id="node5" href="$unionSplitWord.html" title=" " alt="" coords="10,215,89,241"/>
-<area shape="rect" id="node6" href="$structHitbox.html" title="Hitbox structure." alt="" coords="20,88,79,115"/>
+<area shape="rect" id="node1" title=" " alt="" coords="641,465,728,492"/>
+<area shape="rect" id="node2" href="$structGyorgBossObjectEntity.html" title=" " alt="" coords="387,516,543,543"/>
+<area shape="rect" id="node3" href="$structEntity.html" title="Container for instantiable behavior." alt="" coords="234,455,289,481"/>
+<area shape="rect" id="node7" href="$structGyorgFemaleEntity.html" title=" " alt="" coords="399,567,530,593"/>
+<area shape="rect" id="node8" href="$structGyorgMaleEntity.html" title=" " alt="" coords="407,415,523,441"/>
+<area shape="rect" id="node9" href="$structGyorgFemaleMouthEntity.html" title=" " alt="" coords="381,465,548,492"/>
+<area shape="rect" id="node10" href="$structGenericEntity.html" title=" " alt="" coords="415,348,514,375"/>
+<area shape="rect" id="node4" href="$unionSplitWord.html" title=" " alt="" coords="10,369,89,396"/>
+<area shape="rect" id="node5" href="$structHitbox.html" title="Hitbox structure." alt="" coords="20,484,79,511"/>
+<area shape="rect" id="node6" href="$unionSplitHWord.html" title=" " alt="" coords="5,279,93,305"/>
 </map>
