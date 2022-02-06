@@ -62,5 +62,6 @@ var searchData=
   ['gyorg_5ffemale_5fmouth_59',['GYORG_FEMALE_MOUTH',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba096d138c39d9fd9aacf1e197132661d0',1,'enemy.h']]],
   ['gyorg_5fmale_60',['GYORG_MALE',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08abac54971c771f9dfaa275d43f5faf16b0d',1,'enemy.h']]],
   ['gyorg_5fmale_5fenergy_5fprojectile_61',['GYORG_MALE_ENERGY_PROJECTILE',['../projectile_8h.html#ade7b79b8b6788010eb8b6a9fd994ada4acf1a834c56fac809aba66d3f624d42bb',1,'projectile.h']]],
-  ['gyorg_5ftail_62',['GYORG_TAIL',['../projectile_8h.html#ade7b79b8b6788010eb8b6a9fd994ada4a80386a981e414a0298ea9b4f3198a7c7',1,'projectile.h']]]
+  ['gyorg_5fmale_5feye_62',['GYORG_MALE_EYE',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08abadbfd4b39a230fb2a018ce469adabfd3d',1,'enemy.h']]],
+  ['gyorg_5ftail_63',['GYORG_TAIL',['../projectile_8h.html#ade7b79b8b6788010eb8b6a9fd994ada4a80386a981e414a0298ea9b4f3198a7c7',1,'projectile.h']]]
 ];

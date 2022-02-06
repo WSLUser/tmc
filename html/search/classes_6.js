@@ -15,5 +15,6 @@ var searchData=
   ['gyorgfemaleeyeentity_12',['GyorgFemaleEyeEntity',['../structGyorgFemaleEyeEntity.html',1,'']]],
   ['gyorgfemalemouthentity_13',['GyorgFemaleMouthEntity',['../structGyorgFemaleMouthEntity.html',1,'']]],
   ['gyorgheap_14',['GyorgHeap',['../structGyorgHeap.html',1,'']]],
-  ['gyorgmaleentity_15',['GyorgMaleEntity',['../structGyorgMaleEntity.html',1,'']]]
+  ['gyorgmaleentity_15',['GyorgMaleEntity',['../structGyorgMaleEntity.html',1,'']]],
+  ['gyorgmaleeyeentity_16',['GyorgMaleEyeEntity',['../structGyorgMaleEyeEntity.html',1,'']]]
 ];

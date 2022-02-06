@@ -29,5 +29,6 @@ var searchData=
   ['gyorgfemalemouth_2ec_26',['gyorgFemaleMouth.c',['../gyorgFemaleMouth_8c.html',1,'']]],
   ['gyorgmale_2ec_27',['gyorgMale.c',['../gyorgMale_8c.html',1,'']]],
   ['gyorgmaleenergyprojectile_2ec_28',['gyorgMaleEnergyProjectile.c',['../gyorgMaleEnergyProjectile_8c.html',1,'']]],
-  ['gyorgtail_2ec_29',['gyorgTail.c',['../gyorgTail_8c.html',1,'']]]
+  ['gyorgmaleeye_2ec_29',['gyorgMaleEye.c',['../gyorgMaleEye_8c.html',1,'']]],
+  ['gyorgtail_2ec_30',['gyorgTail.c',['../gyorgTail_8c.html',1,'']]]
 ];

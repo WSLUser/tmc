@@ -1,6 +1,8 @@
 <map id="include/fade.h" name="include/fade.h">
-<area shape="rect" id="node1" title=" " alt="" coords="3851,5,3953,32"/>
-<area shape="rect" id="node2" href="$screen_8h.html" title=" " alt="" coords="3844,80,3960,107"/>
+<area shape="rect" id="node1" title=" " alt="" coords="3813,5,3916,32"/>
+<area shape="rect" id="node2" href="$screen_8h.html" title=" " alt="" coords="3651,80,3767,107"/>
+<area shape="rect" id="node49" href="$enemy64_8c.html" title="Enemy64 enemy." alt="" coords="3791,80,3939,107"/>
+<area shape="rect" id="node50" href="$gyorgMaleEye_8c.html" title="GyorgMaleEye enemy." alt="" coords="3963,80,4139,107"/>
 <area shape="rect" id="node3" href="$affine_8c.html" title=" " alt="" coords="5,155,89,181"/>
 <area shape="rect" id="node4" href="$common_8c.html" title=" " alt="" coords="114,155,218,181"/>
 <area shape="rect" id="node5" href="$debug_8c.html" title="Debug task." alt="" coords="243,155,332,181"/>
@@ -47,6 +49,4 @@
 <area shape="rect" id="node46" href="$player_8c.html" title="Player entity." alt="" coords="7387,155,7475,181"/>
 <area shape="rect" id="node47" href="$roomInit_8c.html" title=" " alt="" coords="7499,155,7601,181"/>
 <area shape="rect" id="node48" href="$script_8c.html" title=" " alt="" coords="7625,155,7712,181"/>
-<area shape="rect" id="node49" href="$sub__08055E08_8c.html" title=" " alt="" coords="7737,155,7875,181"/>
-<area shape="rect" id="node50" href="$title_8c.html" title="Title task." alt="" coords="7899,155,7974,181"/>
 </map>
