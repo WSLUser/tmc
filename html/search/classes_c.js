@@ -51,8 +51,9 @@ var searchData=
   ['menucontrols_48',['MenuControls',['../structMenuControls.html',1,'']]],
   ['message_49',['Message',['../structMessage.html',1,'']]],
   ['minishentrancespawndata_50',['MinishEntranceSpawnData',['../structMinishEntranceSpawnData.html',1,'']]],
-  ['multibootparam_51',['MultiBootParam',['../structMultiBootParam.html',1,'']]],
-  ['musicplayer_52',['MusicPlayer',['../structMusicPlayer.html',1,'']]],
-  ['musicplayerinfo_53',['MusicPlayerInfo',['../structMusicPlayerInfo.html',1,'']]],
-  ['musicplayertrack_54',['MusicPlayerTrack',['../structMusicPlayerTrack.html',1,'']]]
+  ['mulldozerentity_51',['MulldozerEntity',['../structMulldozerEntity.html',1,'']]],
+  ['multibootparam_52',['MultiBootParam',['../structMultiBootParam.html',1,'']]],
+  ['musicplayer_53',['MusicPlayer',['../structMusicPlayer.html',1,'']]],
+  ['musicplayerinfo_54',['MusicPlayerInfo',['../structMusicPlayerInfo.html',1,'']]],
+  ['musicplayertrack_55',['MusicPlayerTrack',['../structMusicPlayerTrack.html',1,'']]]
 ];
