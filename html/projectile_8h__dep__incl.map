@@ -1,20 +1,20 @@
 <map id="include/projectile.h" name="include/projectile.h">
-<area shape="rect" id="node1" title=" " alt="" coords="7019,5,7149,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="7033,5,7162,32"/>
 <area shape="rect" id="node2" href="$enemy_8h.html" title=" " alt="" coords="3739,87,3853,114"/>
-<area shape="rect" id="node43" href="$octorokBoss_8c.html" title="Octorok boss enemy." alt="" coords="6682,177,6851,203"/>
-<area shape="rect" id="node44" href="$octorokBossProjectile_8c.html" title=" " alt="" coords="6876,169,7049,211"/>
-<area shape="rect" id="node45" href="$guard_8c.html" title=" " alt="" coords="6855,87,6966,114"/>
-<area shape="rect" id="node46" href="$ballAndChain_8c.html" title=" " alt="" coords="6991,87,7177,114"/>
-<area shape="rect" id="node47" href="$guardLineOfSight_8c.html" title=" " alt="" coords="7201,80,7359,121"/>
-<area shape="rect" id="node48" href="$gyorgTail_8c.html" title=" " alt="" coords="7383,87,7545,114"/>
-<area shape="rect" id="node49" href="$v1EyeLaser_8c.html" title=" " alt="" coords="7569,87,7748,114"/>
-<area shape="rect" id="node50" href="$winder_8c.html" title=" " alt="" coords="7773,87,7921,114"/>
-<area shape="rect" id="node3" href="$gyorg_8h.html" title=" " alt="" coords="6039,177,6190,203"/>
-<area shape="rect" id="node4" href="$gyorgFemale_8c.html" title=" " alt="" coords="5869,259,6040,285"/>
-<area shape="rect" id="node5" href="$gyorgFemaleEye_8c.html" title=" " alt="" coords="6065,259,6255,285"/>
-<area shape="rect" id="node6" href="$gyorgMale_8c.html" title="Gyorg Male enemy." alt="" coords="6280,259,6435,285"/>
-<area shape="rect" id="node7" href="$wizzrobe_8h.html" title=" " alt="" coords="6317,177,6486,203"/>
-<area shape="rect" id="node8" href="$code__0805436C_8c.html" title=" " alt="" coords="6511,177,6657,203"/>
+<area shape="rect" id="node43" href="$octorokBoss_8c.html" title="Octorok boss enemy." alt="" coords="6695,177,6865,203"/>
+<area shape="rect" id="node44" href="$octorokBossProjectile_8c.html" title=" " alt="" coords="6889,169,7063,211"/>
+<area shape="rect" id="node45" href="$guard_8c.html" title=" " alt="" coords="6869,87,6979,114"/>
+<area shape="rect" id="node46" href="$ballAndChain_8c.html" title=" " alt="" coords="7004,87,7191,114"/>
+<area shape="rect" id="node47" href="$guardLineOfSight_8c.html" title=" " alt="" coords="7215,80,7372,121"/>
+<area shape="rect" id="node48" href="$gyorgTail_8c.html" title=" " alt="" coords="7396,87,7559,114"/>
+<area shape="rect" id="node49" href="$v1EyeLaser_8c.html" title=" " alt="" coords="7583,87,7761,114"/>
+<area shape="rect" id="node50" href="$winder_8c.html" title=" " alt="" coords="7786,87,7934,114"/>
+<area shape="rect" id="node3" href="$gyorg_8h.html" title=" " alt="" coords="6053,177,6203,203"/>
+<area shape="rect" id="node4" href="$gyorgFemale_8c.html" title=" " alt="" coords="5883,259,6053,285"/>
+<area shape="rect" id="node5" href="$gyorgFemaleEye_8c.html" title=" " alt="" coords="6078,259,6269,285"/>
+<area shape="rect" id="node6" href="$gyorgMale_8c.html" title="Gyorg Male enemy." alt="" coords="6293,259,6448,285"/>
+<area shape="rect" id="node7" href="$wizzrobe_8h.html" title=" " alt="" coords="6330,177,6499,203"/>
+<area shape="rect" id="node8" href="$code__0805436C_8c.html" title=" " alt="" coords="6524,177,6671,203"/>
 <area shape="rect" id="node9" href="$collision_8c.html" title=" " alt="" coords="5,177,107,203"/>
 <area shape="rect" id="node10" href="$createEnemy_8c.html" title=" " alt="" coords="131,177,261,203"/>
 <area shape="rect" id="node11" href="$enemy_8c.html" title=" " alt="" coords="285,177,377,203"/>
@@ -37,16 +37,16 @@
 <area shape="rect" id="node28" href="$darkNut_8c.html" title="Dark Nut enemy." alt="" coords="3374,177,3517,203"/>
 <area shape="rect" id="node29" href="$doorMimic_8c.html" title="Door Mimic enemy." alt="" coords="3541,177,3697,203"/>
 <area shape="rect" id="node30" href="$enemy4D_8c.html" title="enemy 4D" alt="" coords="3721,177,3871,203"/>
-<area shape="rect" id="node31" href="$enemy64_8c.html" title="Enemy64 enemy." alt="" coords="3895,177,4043,203"/>
-<area shape="rect" id="node32" href="$enemyE_8c.html" title="enemy E" alt="" coords="4067,177,4210,203"/>
-<area shape="rect" id="node33" href="$fallingBoulder_8c.html" title="Falling Boulder enemy." alt="" coords="4234,177,4409,203"/>
-<area shape="rect" id="node34" href="$fireballGuy_8c.html" title="Fireball Guy enemy." alt="" coords="4433,177,4589,203"/>
-<area shape="rect" id="node35" href="$flyingSkull_8c.html" title=" " alt="" coords="4613,177,4768,203"/>
-<area shape="rect" id="node36" href="$ghini_8c.html" title="Ghini enemy." alt="" coords="4792,177,4915,203"/>
-<area shape="rect" id="node37" href="$gibdo_8c.html" title="Gibdo enemy." alt="" coords="4939,177,5066,203"/>
-<area shape="rect" id="node38" href="$gleerok_8c.html" title=" " alt="" coords="5091,177,5229,203"/>
-<area shape="rect" id="node39" href="$gyorgMaleEye_8c.html" title="GyorgMaleEye enemy." alt="" coords="5253,177,5429,203"/>
-<area shape="rect" id="node40" href="$hangingSeed_8c.html" title="Hanging Seed enemy." alt="" coords="5453,177,5624,203"/>
-<area shape="rect" id="node41" href="$helmasaur_8c.html" title="Helmasaur enemy." alt="" coords="5649,177,5805,203"/>
-<area shape="rect" id="node42" href="$keaton_8c.html" title="keaton enemy" alt="" coords="5829,177,5963,203"/>
+<area shape="rect" id="node31" href="$enemy50_8c.html" title="Enemy50 enemy." alt="" coords="3895,177,4043,203"/>
+<area shape="rect" id="node32" href="$enemy64_8c.html" title="Enemy64 enemy." alt="" coords="4067,177,4215,203"/>
+<area shape="rect" id="node33" href="$enemyE_8c.html" title="enemy E" alt="" coords="4239,177,4382,203"/>
+<area shape="rect" id="node34" href="$fallingBoulder_8c.html" title="Falling Boulder enemy." alt="" coords="4406,177,4581,203"/>
+<area shape="rect" id="node35" href="$fireballGuy_8c.html" title="Fireball Guy enemy." alt="" coords="4605,177,4761,203"/>
+<area shape="rect" id="node36" href="$flyingSkull_8c.html" title=" " alt="" coords="4785,177,4940,203"/>
+<area shape="rect" id="node37" href="$ghini_8c.html" title="Ghini enemy." alt="" coords="4964,177,5087,203"/>
+<area shape="rect" id="node38" href="$gibdo_8c.html" title="Gibdo enemy." alt="" coords="5111,177,5238,203"/>
+<area shape="rect" id="node39" href="$gleerok_8c.html" title=" " alt="" coords="5263,177,5401,203"/>
+<area shape="rect" id="node40" href="$gyorgMaleEye_8c.html" title="GyorgMaleEye enemy." alt="" coords="5425,177,5601,203"/>
+<area shape="rect" id="node41" href="$hangingSeed_8c.html" title="Hanging Seed enemy." alt="" coords="5625,177,5796,203"/>
+<area shape="rect" id="node42" href="$helmasaur_8c.html" title="Helmasaur enemy." alt="" coords="5821,177,5977,203"/>
 </map>
