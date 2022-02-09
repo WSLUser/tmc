@@ -26,7 +26,7 @@ var searchData=
   ['wizzrobeice_5ffunctions_23',['WizzrobeIce_Functions',['../wizzrobeIce_8c.html#a40a5094f7b64e5a41bc298987dc89374',1,'wizzrobeIce.c']]],
   ['wizzrobewind_5factions_24',['WizzrobeWind_Actions',['../wizzrobeWind_8c.html#a0dc748b2e9fbd1536c80ee8bcd7ab6ad',1,'wizzrobeWind.c']]],
   ['wizzrobewind_5ffunctions_25',['WizzrobeWind_Functions',['../wizzrobeWind_8c.html#a735ced97311dbecc62cad4a460784336',1,'wizzrobeWind.c']]],
-  ['word_26',['WORD',['../unionSplitWord.html#a9b89e74710e84c3633254f30091604bc',1,'SplitWord::WORD()'],['../unionCoords.html#a291a984e9f275254919e531fc237c783',1,'Coords::WORD()']]],
-  ['word_27',['word',['../structTextRender.html#ac0d20bebbf5b8d6a2b205de97aab47fa',1,'TextRender::word()'],['../structDMARegisters.html#aec3dd153ca8d23751974433840251468',1,'DMARegisters::word()']]],
+  ['word_26',['word',['../structTextRender.html#ac0d20bebbf5b8d6a2b205de97aab47fa',1,'TextRender::word()'],['../structDMARegisters.html#aec3dd153ca8d23751974433840251468',1,'DMARegisters::word()']]],
+  ['word_27',['WORD',['../unionSplitWord.html#a9b89e74710e84c3633254f30091604bc',1,'SplitWord::WORD()'],['../unionCoords.html#a291a984e9f275254919e531fc237c783',1,'Coords::WORD()']]],
   ['word_5fu_28',['WORD_U',['../unionSplitWord.html#a3210cb304594b037217d7909457f9846',1,'SplitWord']]]
 ];
