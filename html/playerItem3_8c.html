@@ -84,6 +84,7 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="entity_8h_source.html">entity.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sound_8h_source.html">sound.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="asm_8h_source.html">asm.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for playerItem3.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -91,58 +92,61 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="playerItem3_8c__incl.png" border="0" usemap="#asrc_2playerItem_2playerItem3_8c" alt=""/></div>
 <map name="asrc_2playerItem_2playerItem3_8c" id="asrc_2playerItem_2playerItem3_8c">
-<area shape="rect" title=" " alt="" coords="42,5,227,32"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="306,304,369,331"/>
-<area shape="rect" href="sound_8h.html" title=" " alt="" coords="5,304,72,331"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="332,80,417,107"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="339,453,405,480"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="221,379,281,405"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="305,379,369,405"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="481,528,559,555"/>
-<area shape="rect" title=" " alt="" coords="191,603,255,629"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="839,603,913,629"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="580,603,647,629"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="686,677,749,704"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="671,603,763,629"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="484,603,556,629"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="279,603,347,629"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="372,603,460,629"/>
-<area shape="rect" title=" " alt="" coords="842,677,910,704"/>
-<area shape="rect" title=" " alt="" coords="685,752,749,779"/>
-<area shape="rect" href="manager_8h.html" title=" " alt="" coords="585,229,668,256"/>
-<area shape="rect" href="coord_8h.html" title=" " alt="" coords="68,229,132,256"/>
-<area shape="rect" href="player_8h.html" title=" " alt="" coords="495,229,561,256"/>
-<area shape="rect" href="room_8h.html" title=" " alt="" coords="207,229,268,256"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="412,155,503,181"/>
-<area shape="rect" href="script_8h.html" title=" " alt="" coords="273,155,337,181"/>
+<area shape="rect" title=" " alt="" coords="449,5,634,32"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="283,304,346,331"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="579,80,645,107"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="360,80,445,107"/>
+<area shape="rect" href="asm_8h.html" title=" " alt="" coords="731,304,789,331"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="437,453,504,480"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="373,379,433,405"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="233,379,297,405"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="579,528,658,555"/>
+<area shape="rect" title=" " alt="" coords="289,603,353,629"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="938,603,1011,629"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="679,603,745,629"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="785,677,847,704"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="770,603,862,629"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="583,603,655,629"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="378,603,446,629"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="471,603,559,629"/>
+<area shape="rect" title=" " alt="" coords="941,677,1009,704"/>
+<area shape="rect" title=" " alt="" coords="784,752,848,779"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="5,229,88,256"/>
+<area shape="rect" href="coord_8h.html" title=" " alt="" coords="112,229,176,256"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="488,229,555,256"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="352,229,413,256"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="491,155,581,181"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="301,155,365,181"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a860d59a0a24e66dcf0272a48099bb12f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="playerItem3_8c.html#a860d59a0a24e66dcf0272a48099bb12f">sub_0801B804</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a860d59a0a24e66dcf0272a48099bb12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae69c49994fea92ebe2228c6039179927"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="playerItem3_8c.html#ae69c49994fea92ebe2228c6039179927">sub_0801B864</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:ae69c49994fea92ebe2228c6039179927"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68e50c4d9cdf61d608ea19ffd3c3e22e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="playerItem3_8c.html#a68e50c4d9cdf61d608ea19ffd3c3e22e">sub_08008782</a> (<a class="el" href="structEntity.html">Entity</a> *, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>, <a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a>, <a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a>)</td></tr>
-<tr class="separator:a68e50c4d9cdf61d608ea19ffd3c3e22e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a759f6e18475d88ac2f1966fd084642e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="playerItem3_8c.html#a759f6e18475d88ac2f1966fd084642e3">sub_0801B804</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
+<tr class="separator:a759f6e18475d88ac2f1966fd084642e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a835310701d7c8e8d1b800d8fd6d5519d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntity.html">Entity</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="playerItem3_8c.html#a835310701d7c8e8d1b800d8fd6d5519d">sub_0801B864</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
+<tr class="separator:a835310701d7c8e8d1b800d8fd6d5519d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa121619f26b5ecc6598d3f9b8210ea4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="playerItem3_8c.html#aaa121619f26b5ecc6598d3f9b8210ea4">sub_0801B584</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
+<tr class="separator:aaa121619f26b5ecc6598d3f9b8210ea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09eff51aacf27ff144a06465507be0d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="playerItem3_8c.html#a09eff51aacf27ff144a06465507be0d5">PlayerItem3_Init</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
+<tr class="separator:a09eff51aacf27ff144a06465507be0d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38d778746ed23f3cd5328a8f36406645"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="playerItem3_8c.html#a38d778746ed23f3cd5328a8f36406645">sub_0801B680</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
+<tr class="separator:a38d778746ed23f3cd5328a8f36406645"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1cb0fe2dfc6e10f036678c7c1a5601b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="playerItem3_8c.html#ae1cb0fe2dfc6e10f036678c7c1a5601b">sub_0801B7A8</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
+<tr class="separator:ae1cb0fe2dfc6e10f036678c7c1a5601b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64eba96465fb1474665661e8aeba287a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntity.html">Entity</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="playerItem3_8c.html#a64eba96465fb1474665661e8aeba287a">sub_08008782</a> (<a class="el" href="structEntity.html">Entity</a> *, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>, <a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a>, <a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a>)</td></tr>
+<tr class="separator:a64eba96465fb1474665661e8aeba287a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc92e88b3f4d4cd1dfba5ed616750794"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="playerItem3_8c.html#acc92e88b3f4d4cd1dfba5ed616750794">sub_080040E2</a> (<a class="el" href="structEntity.html">Entity</a> *, <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> *)</td></tr>
+<tr class="separator:acc92e88b3f4d4cd1dfba5ed616750794"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad07575ce4030885c56f4f3b9dff933e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="playerItem3_8c.html#ad07575ce4030885c56f4f3b9dff933e9">PlayerItem3</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
 <tr class="separator:ad07575ce4030885c56f4f3b9dff933e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53bf47d68a30a3d29a5048f55049f5d1"><td class="memItemLeft" align="right" valign="top">asm non_matching playerItem3 sub_0801B4C8 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="playerItem3_8c.html#a53bf47d68a30a3d29a5048f55049f5d1">sub_0801B4C8</a> (<a class="el" href="structEntity.html">Entity</a> *this)) 1(&quot;asm/non_matching/playerItem3/<a class="el" href="ui_8c.html#a65820f08ad65b0d8a4a5786046d67953">sub_0801B584.inc</a>&quot;</td></tr>
-<tr class="separator:a53bf47d68a30a3d29a5048f55049f5d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e9f9a4a087fb0603f81647102bede2b"><td class="memItemLeft" align="right" valign="top">asm non_matching playerItem3 <a class="el" href="playerItem3_8c.html#a53bf47d68a30a3d29a5048f55049f5d1">sub_0801B4C8</a> void void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="playerItem3_8c.html#a0e9f9a4a087fb0603f81647102bede2b">sub_0801B584</a> (<a class="el" href="structEntity.html">Entity</a> *this)) 1(&quot;asm/non_matching/playerItem3/<a class="el" href="ui_8c.html#a65820f08ad65b0d8a4a5786046d67953">sub_0801B680.inc</a>&quot;</td></tr>
-<tr class="separator:a0e9f9a4a087fb0603f81647102bede2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7010bb0ccaa4f7b57b7a364665ab40ca"><td class="memItemLeft" align="right" valign="top">asm non_matching playerItem3 <a class="el" href="playerItem3_8c.html#a53bf47d68a30a3d29a5048f55049f5d1">sub_0801B4C8</a> void void void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="playerItem3_8c.html#a7010bb0ccaa4f7b57b7a364665ab40ca">sub_0801B680</a> (<a class="el" href="structEntity.html">Entity</a> *this)) void sub_0801B7A8(<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a7010bb0ccaa4f7b57b7a364665ab40ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:aca9c17fa6045bd59b35cbaa423005e20"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="playerItem3_8c.html#aca9c17fa6045bd59b35cbaa423005e20">gUnk_080B77FC</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:aca9c17fa6045bd59b35cbaa423005e20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e07a509f2b8245ad59a4c6237f2b881"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a9e382f207c65ca13ab4ae98363aeda80">s8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="playerItem3_8c.html#a7e07a509f2b8245ad59a4c6237f2b881">gUnk_080B782E</a> []</td></tr>
-<tr class="separator:a7e07a509f2b8245ad59a4c6237f2b881"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab706a0c625de784ed9d891dbd282d4be"><td class="memItemLeft" align="right" valign="top">asm non_matching playerItem3 <a class="el" href="playerItem3_8c.html#a53bf47d68a30a3d29a5048f55049f5d1">sub_0801B4C8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="playerItem3_8c.html#ab706a0c625de784ed9d891dbd282d4be">inc</a></td></tr>
-<tr class="separator:ab706a0c625de784ed9d891dbd282d4be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8396b77c0e8a1c706644a32215c58c93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structHitbox.html">Hitbox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="playerItem3_8c.html#a8396b77c0e8a1c706644a32215c58c93">gUnk_081271CC</a></td></tr>
+<tr class="separator:a8396b77c0e8a1c706644a32215c58c93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadd130682c4b44586bcc0d4877952064"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="playerItem3_8c.html#aadd130682c4b44586bcc0d4877952064">gUnk_08003E44</a></td></tr>
+<tr class="separator:aadd130682c4b44586bcc0d4877952064"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ad07575ce4030885c56f4f3b9dff933e9" name="ad07575ce4030885c56f4f3b9dff933e9"></a>
@@ -163,14 +167,60 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a68e50c4d9cdf61d608ea19ffd3c3e22e" name="a68e50c4d9cdf61d608ea19ffd3c3e22e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68e50c4d9cdf61d608ea19ffd3c3e22e">&#9670;&nbsp;</a></span>sub_08008782()</h2>
+<a id="a09eff51aacf27ff144a06465507be0d5" name="a09eff51aacf27ff144a06465507be0d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09eff51aacf27ff144a06465507be0d5">&#9670;&nbsp;</a></span>PlayerItem3_Init()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sub_08008782 </td>
+          <td class="memname">void PlayerItem3_Init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acc92e88b3f4d4cd1dfba5ed616750794" name="acc92e88b3f4d4cd1dfba5ed616750794"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc92e88b3f4d4cd1dfba5ed616750794">&#9670;&nbsp;</a></span>sub_080040E2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a> sub_080040E2 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> *&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a64eba96465fb1474665661e8aeba287a" name="a64eba96465fb1474665661e8aeba287a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64eba96465fb1474665661e8aeba287a">&#9670;&nbsp;</a></span>sub_08008782()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structEntity.html">Entity</a> * sub_08008782 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
           <td class="paramname">, </td>
@@ -203,14 +253,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a53bf47d68a30a3d29a5048f55049f5d1" name="a53bf47d68a30a3d29a5048f55049f5d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53bf47d68a30a3d29a5048f55049f5d1">&#9670;&nbsp;</a></span>sub_0801B4C8()</h2>
+<a id="aaa121619f26b5ecc6598d3f9b8210ea4" name="aaa121619f26b5ecc6598d3f9b8210ea4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa121619f26b5ecc6598d3f9b8210ea4">&#9670;&nbsp;</a></span>sub_0801B584()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm non_matching playerItem3 sub_0801B4C8 void sub_0801B4C8 </td>
+          <td class="memname">void sub_0801B584 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
@@ -221,14 +271,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a0e9f9a4a087fb0603f81647102bede2b" name="a0e9f9a4a087fb0603f81647102bede2b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e9f9a4a087fb0603f81647102bede2b">&#9670;&nbsp;</a></span>sub_0801B584()</h2>
+<a id="a38d778746ed23f3cd5328a8f36406645" name="a38d778746ed23f3cd5328a8f36406645"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38d778746ed23f3cd5328a8f36406645">&#9670;&nbsp;</a></span>sub_0801B680()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm non_matching playerItem3 <a class="el" href="playerItem3_8c.html#a53bf47d68a30a3d29a5048f55049f5d1">sub_0801B4C8</a> void void sub_0801B584 </td>
+          <td class="memname">void sub_0801B680 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
@@ -239,14 +289,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a7010bb0ccaa4f7b57b7a364665ab40ca" name="a7010bb0ccaa4f7b57b7a364665ab40ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7010bb0ccaa4f7b57b7a364665ab40ca">&#9670;&nbsp;</a></span>sub_0801B680()</h2>
+<a id="ae1cb0fe2dfc6e10f036678c7c1a5601b" name="ae1cb0fe2dfc6e10f036678c7c1a5601b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1cb0fe2dfc6e10f036678c7c1a5601b">&#9670;&nbsp;</a></span>sub_0801B7A8()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm non_matching playerItem3 <a class="el" href="playerItem3_8c.html#a53bf47d68a30a3d29a5048f55049f5d1">sub_0801B4C8</a> void void void sub_0801B680 </td>
+          <td class="memname">void sub_0801B7A8 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
@@ -257,14 +307,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a860d59a0a24e66dcf0272a48099bb12f" name="a860d59a0a24e66dcf0272a48099bb12f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a860d59a0a24e66dcf0272a48099bb12f">&#9670;&nbsp;</a></span>sub_0801B804()</h2>
+<a id="a759f6e18475d88ac2f1966fd084642e3" name="a759f6e18475d88ac2f1966fd084642e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a759f6e18475d88ac2f1966fd084642e3">&#9670;&nbsp;</a></span>sub_0801B804()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm non_matching playerItem3 sub_0801B804 void sub_0801B804 </td>
+          <td class="memname">void sub_0801B804 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
@@ -275,17 +325,17 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ae69c49994fea92ebe2228c6039179927" name="ae69c49994fea92ebe2228c6039179927"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae69c49994fea92ebe2228c6039179927">&#9670;&nbsp;</a></span>sub_0801B864()</h2>
+<a id="a835310701d7c8e8d1b800d8fd6d5519d" name="a835310701d7c8e8d1b800d8fd6d5519d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a835310701d7c8e8d1b800d8fd6d5519d">&#9670;&nbsp;</a></span>sub_0801B864()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sub_0801B864 </td>
+          <td class="memname"><a class="el" href="structEntity.html">Entity</a> * sub_0801B864 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -294,8 +344,8 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="aca9c17fa6045bd59b35cbaa423005e20" name="aca9c17fa6045bd59b35cbaa423005e20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca9c17fa6045bd59b35cbaa423005e20">&#9670;&nbsp;</a></span>gUnk_080B77FC</h2>
+<a id="aadd130682c4b44586bcc0d4877952064" name="aadd130682c4b44586bcc0d4877952064"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadd130682c4b44586bcc0d4877952064">&#9670;&nbsp;</a></span>gUnk_08003E44</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -304,11 +354,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void(*const gUnk_080B77FC[])(<a class="el" href="structEntity.html">Entity</a> *) </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname"><a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gUnk_08003E44</td>
         </tr>
       </table>
   </td>
@@ -320,8 +366,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a7e07a509f2b8245ad59a4c6237f2b881" name="a7e07a509f2b8245ad59a4c6237f2b881"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e07a509f2b8245ad59a4c6237f2b881">&#9670;&nbsp;</a></span>gUnk_080B782E</h2>
+<a id="a8396b77c0e8a1c706644a32215c58c93" name="a8396b77c0e8a1c706644a32215c58c93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8396b77c0e8a1c706644a32215c58c93">&#9670;&nbsp;</a></span>gUnk_081271CC</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -330,7 +376,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a9e382f207c65ca13ab4ae98363aeda80">s8</a> gUnk_080B782E[]</td>
+          <td class="memname"><a class="el" href="structHitbox.html">Hitbox</a> gUnk_081271CC</td>
         </tr>
       </table>
   </td>
@@ -338,20 +384,6 @@ Variables</h2></td></tr>
 <span class="mlabels"><span class="mlabel">extern</span></span>  </td>
   </tr>
 </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab706a0c625de784ed9d891dbd282d4be" name="ab706a0c625de784ed9d891dbd282d4be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab706a0c625de784ed9d891dbd282d4be">&#9670;&nbsp;</a></span>inc</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">asm non_matching playerItem3 <a class="el" href="playerItem3_8c.html#a860d59a0a24e66dcf0272a48099bb12f">sub_0801B804</a> inc</td>
-        </tr>
-      </table>
 </div><div class="memdoc">
 
 </div>
