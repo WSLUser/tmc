@@ -76,6 +76,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">enemyUtils.c File Reference</div></div>
@@ -85,6 +86,9 @@ $(function() {
 <code>#include &quot;<a class="el" href="definitions_8h_source.html">definitions.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="object_8h_source.html">object.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="save_8h_source.html">save.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="projectile_8h_source.html">projectile.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="deathFx_8h_source.html">object/deathFx.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for enemyUtils.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -92,47 +96,72 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="enemyUtils_8c__incl.png" border="0" usemap="#asrc_2enemyUtils_8c" alt=""/></div>
 <map name="asrc_2enemyUtils_8c" id="asrc_2enemyUtils_8c">
-<area shape="rect" title=" " alt="" coords="151,5,270,32"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="282,304,345,331"/>
-<area shape="rect" href="definitions_8h.html" title=" " alt="" coords="109,80,200,107"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="224,80,309,107"/>
-<area shape="rect" href="object_8h.html" title=" " alt="" coords="675,155,741,181"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="425,453,492,480"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="197,379,257,405"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="281,379,345,405"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="561,528,639,555"/>
-<area shape="rect" title=" " alt="" coords="285,603,349,629"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="843,603,917,629"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="941,603,1008,629"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="495,677,558,704"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="374,603,466,629"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="491,603,563,629"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="638,603,706,629"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="731,603,819,629"/>
-<area shape="rect" title=" " alt="" coords="846,677,914,704"/>
-<area shape="rect" title=" " alt="" coords="495,752,559,779"/>
-<area shape="rect" href="manager_8h.html" title=" " alt="" coords="43,229,125,256"/>
-<area shape="rect" href="coord_8h.html" title=" " alt="" coords="149,229,213,256"/>
-<area shape="rect" href="player_8h.html" title=" " alt="" coords="440,229,507,256"/>
-<area shape="rect" href="room_8h.html" title=" " alt="" coords="677,229,739,256"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="341,155,432,181"/>
-<area shape="rect" href="script_8h.html" title=" " alt="" coords="200,155,264,181"/>
-<area shape="rect" href="asm_8h.html" title=" " alt="" coords="966,304,1023,331"/>
-<area shape="rect" href="common_8h.html" title=" " alt="" coords="635,304,717,331"/>
-<area shape="rect" href="sound_8h.html" title=" " alt="" coords="768,304,835,331"/>
-<area shape="rect" href="flags_8h.html" title=" " alt="" coords="815,379,873,405"/>
-<area shape="rect" href="effects_8h.html" title=" " alt="" coords="582,229,653,256"/>
+<area shape="rect" title=" " alt="" coords="622,5,741,32"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="458,304,521,331"/>
+<area shape="rect" href="definitions_8h.html" title=" " alt="" coords="787,80,877,107"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="384,80,469,107"/>
+<area shape="rect" href="object_8h.html" title=" " alt="" coords="1008,155,1075,181"/>
+<area shape="rect" href="save_8h.html" title=" " alt="" coords="651,80,711,107"/>
+<area shape="rect" href="projectile_8h.html" title=" " alt="" coords="902,80,986,107"/>
+<area shape="rect" href="deathFx_8h.html" title=" " alt="" coords="5,155,123,181"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="645,453,712,480"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="442,379,502,405"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="527,379,591,405"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="790,528,869,555"/>
+<area shape="rect" title=" " alt="" coords="495,603,559,629"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1142,603,1215,629"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1051,603,1117,629"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="694,677,757,704"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="679,603,771,629"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="583,603,655,629"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="795,603,863,629"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="888,603,976,629"/>
+<area shape="rect" title=" " alt="" coords="1145,677,1213,704"/>
+<area shape="rect" title=" " alt="" coords="693,752,757,779"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="197,229,280,256"/>
+<area shape="rect" href="coord_8h.html" title=" " alt="" coords="304,229,368,256"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="645,229,712,256"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="736,229,797,256"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="544,155,635,181"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="355,155,419,181"/>
+<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="767,304,859,331"/>
+<area shape="rect" href="asm_8h.html" title=" " alt="" coords="1155,379,1213,405"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="1237,379,1320,405"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="947,304,1013,331"/>
+<area shape="rect" href="flags_8h.html" title=" " alt="" coords="1037,304,1096,331"/>
+<area shape="rect" href="effects_8h.html" title=" " alt="" coords="822,229,893,256"/>
 </map>
 </div>
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ad9d9839ea73fbe32257e340298da916d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enemyUtils_8c.html#ad9d9839ea73fbe32257e340298da916d">NENT_DEPRECATED</a></td></tr>
+<tr class="separator:ad9d9839ea73fbe32257e340298da916d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ab4ed54c561facc8d4f416245eb737640"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enemyUtils_8c.html#ab4ed54c561facc8d4f416245eb737640">sub_08049CF4</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
+<tr class="separator:ab4ed54c561facc8d4f416245eb737640"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa260be2f68adcf21f056330e6fa4cd9f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structEnemyDefinition.html">EnemyDefinition</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enemyUtils_8c.html#aa260be2f68adcf21f056330e6fa4cd9f">GetEnemyDefinition</a> (<a class="el" href="structEntity.html">Entity</a> *<a class="el" href="zeldaFollower_8c.html#a89252e8fb26c4149b9d982d7a8bd35c3">entity</a>)</td></tr>
 <tr class="separator:aa260be2f68adcf21f056330e6fa4cd9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7201483413ff045e1cd0b3c3c1f76488"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enemyUtils_8c.html#a7201483413ff045e1cd0b3c3c1f76488">LoadEnemySprite</a> (<a class="el" href="structEntity.html">Entity</a> *<a class="el" href="zeldaFollower_8c.html#a89252e8fb26c4149b9d982d7a8bd35c3">entity</a>, const <a class="el" href="structEnemyDefinition.html">EnemyDefinition</a> *definition)</td></tr>
 <tr class="separator:a7201483413ff045e1cd0b3c3c1f76488"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13912c6b60c231243ae56055c4fe1731"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enemyUtils_8c.html#a13912c6b60c231243ae56055c4fe1731">EnemyInit</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a13912c6b60c231243ae56055c4fe1731"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ebeca53ec802254228d1472169283ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enemyUtils_8c.html#a5ebeca53ec802254228d1472169283ed">EnemyInit</a> (<a class="el" href="structGenericEntity.html">GenericEntity</a> *this)</td></tr>
+<tr class="separator:a5ebeca53ec802254228d1472169283ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab7b8c9cd6398dc898addd0df769ae04"><td class="memItemLeft" align="right" valign="top">asm non_matching enemyUtils sub_0804A720 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enemyUtils_8c.html#aab7b8c9cd6398dc898addd0df769ae04">sub_0804A720</a> (<a class="el" href="structEntity.html">Entity</a> *this)) void <a class="el" href="enemy_8h.html#adee537b896bc0c9ad0427052989693cb">CreateDeathFx</a>(<a class="el" href="structGenericEntity.html">GenericEntity</a> *parent</td></tr>
+<tr class="separator:aab7b8c9cd6398dc898addd0df769ae04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5419ed3da0607108b856ac6cbd62f6bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enemyUtils_8c.html#a5419ed3da0607108b856ac6cbd62f6bb">sub_0804A7D4</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
+<tr class="separator:a5419ed3da0607108b856ac6cbd62f6bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdd7c0b1a9bee531f7b464292b8750f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enemyUtils_8c.html#afdd7c0b1a9bee531f7b464292b8750f0">CreateDeathFx</a> (<a class="el" href="structGenericEntity.html">GenericEntity</a> *parent, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="el" href="enemyUtils_8c.html#a87297a90eb38a9dadbe08826d78a1f05">parentId</a>, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="el" href="enemyUtils_8c.html#a26663214a0a0827c157117125d4b9487">fixedItem</a>)</td></tr>
+<tr class="separator:afdd7c0b1a9bee531f7b464292b8750f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ade093a62dcbada51828586122e45dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntity.html">Entity</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enemyUtils_8c.html#a9ade093a62dcbada51828586122e45dd">CreateProjectileWithParent</a> (<a class="el" href="structEntity.html">Entity</a> *parent, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> projectileId, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> projectileType)</td></tr>
+<tr class="separator:a9ade093a62dcbada51828586122e45dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a797212b1a050bff7eec5d3a4b616bc6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enemyUtils_8c.html#a797212b1a050bff7eec5d3a4b616bc6c">SetChildOffset</a> (<a class="el" href="structEntity.html">Entity</a> *<a class="el" href="zeldaFollower_8c.html#a89252e8fb26c4149b9d982d7a8bd35c3">entity</a>, <a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a> xOffset, <a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a> yOffset, <a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a> zOffset)</td></tr>
+<tr class="separator:a797212b1a050bff7eec5d3a4b616bc6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc91e0eb43afe8ed2aebfd7c454fb246"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntity.html">Entity</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enemyUtils_8c.html#abc91e0eb43afe8ed2aebfd7c454fb246">sub_0804A9FC</a> (<a class="el" href="structEntity.html">Entity</a> *parent, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> fxType)</td></tr>
+<tr class="separator:abc91e0eb43afe8ed2aebfd7c454fb246"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5f027bea6c45a79196c6ace34591c03"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enemyUtils_8c.html#af5f027bea6c45a79196c6ace34591c03">sub_0804AA1C</a> (<a class="el" href="structEntity.html">Entity</a> *<a class="el" href="zeldaFollower_8c.html#a89252e8fb26c4149b9d982d7a8bd35c3">entity</a>)</td></tr>
+<tr class="separator:af5f027bea6c45a79196c6ace34591c03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -140,10 +169,99 @@ Variables</h2></td></tr>
 <tr class="separator:a54d07b3ec8fc531864e8db14dea586f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8ce7afe03caaa585df724e2f3496ac5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enemyUtils_8c.html#ab8ce7afe03caaa585df724e2f3496ac5">gUnk_080D3E74</a> []</td></tr>
 <tr class="separator:ab8ce7afe03caaa585df724e2f3496ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab61891f43735a125b22e4d8bfc9624b1"><td class="memItemLeft" align="right" valign="top">asm non_matching enemyUtils <a class="el" href="functions_8h.html#afe16245a73e043f87c1cb2bbc1d52454">sub_0804A720</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enemyUtils_8c.html#ab61891f43735a125b22e4d8bfc9624b1">inc</a></td></tr>
+<tr class="separator:ab61891f43735a125b22e4d8bfc9624b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87297a90eb38a9dadbe08826d78a1f05"><td class="memItemLeft" align="right" valign="top">asm non_matching enemyUtils <a class="el" href="functions_8h.html#afe16245a73e043f87c1cb2bbc1d52454">sub_0804A720</a> void <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enemyUtils_8c.html#a87297a90eb38a9dadbe08826d78a1f05">parentId</a></td></tr>
+<tr class="separator:a87297a90eb38a9dadbe08826d78a1f05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26663214a0a0827c157117125d4b9487"><td class="memItemLeft" align="right" valign="top">asm non_matching enemyUtils <a class="el" href="functions_8h.html#afe16245a73e043f87c1cb2bbc1d52454">sub_0804A720</a> void <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enemyUtils_8c.html#a26663214a0a0827c157117125d4b9487">fixedItem</a></td></tr>
+<tr class="separator:a26663214a0a0827c157117125d4b9487"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ad9d9839ea73fbe32257e340298da916d" name="ad9d9839ea73fbe32257e340298da916d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9d9839ea73fbe32257e340298da916d">&#9670;&nbsp;</a></span>NENT_DEPRECATED</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define NENT_DEPRECATED</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a13912c6b60c231243ae56055c4fe1731" name="a13912c6b60c231243ae56055c4fe1731"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13912c6b60c231243ae56055c4fe1731">&#9670;&nbsp;</a></span>EnemyInit()</h2>
+<a id="afdd7c0b1a9bee531f7b464292b8750f0" name="afdd7c0b1a9bee531f7b464292b8750f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdd7c0b1a9bee531f7b464292b8750f0">&#9670;&nbsp;</a></span>CreateDeathFx()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CreateDeathFx </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structGenericEntity.html">GenericEntity</a> *&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>parentId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>fixedItem</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9ade093a62dcbada51828586122e45dd" name="a9ade093a62dcbada51828586122e45dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ade093a62dcbada51828586122e45dd">&#9670;&nbsp;</a></span>CreateProjectileWithParent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structEntity.html">Entity</a> * CreateProjectileWithParent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>projectileId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>projectileType</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5ebeca53ec802254228d1472169283ed" name="a5ebeca53ec802254228d1472169283ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ebeca53ec802254228d1472169283ed">&#9670;&nbsp;</a></span>EnemyInit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -151,7 +269,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a> EnemyInit </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structGenericEntity.html">GenericEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -206,7 +324,161 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a797212b1a050bff7eec5d3a4b616bc6c" name="a797212b1a050bff7eec5d3a4b616bc6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a797212b1a050bff7eec5d3a4b616bc6c">&#9670;&nbsp;</a></span>SetChildOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SetChildOffset </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramname"><em>entity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a>&#160;</td>
+          <td class="paramname"><em>xOffset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a>&#160;</td>
+          <td class="paramname"><em>yOffset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a>&#160;</td>
+          <td class="paramname"><em>zOffset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab4ed54c561facc8d4f416245eb737640" name="ab4ed54c561facc8d4f416245eb737640"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4ed54c561facc8d4f416245eb737640">&#9670;&nbsp;</a></span>sub_08049CF4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_08049CF4 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aab7b8c9cd6398dc898addd0df769ae04" name="aab7b8c9cd6398dc898addd0df769ae04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab7b8c9cd6398dc898addd0df769ae04">&#9670;&nbsp;</a></span>sub_0804A720()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm non_matching enemyUtils sub_0804A720 void sub_0804A720 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5419ed3da0607108b856ac6cbd62f6bb" name="a5419ed3da0607108b856ac6cbd62f6bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5419ed3da0607108b856ac6cbd62f6bb">&#9670;&nbsp;</a></span>sub_0804A7D4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_0804A7D4 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abc91e0eb43afe8ed2aebfd7c454fb246" name="abc91e0eb43afe8ed2aebfd7c454fb246"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc91e0eb43afe8ed2aebfd7c454fb246">&#9670;&nbsp;</a></span>sub_0804A9FC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structEntity.html">Entity</a> * sub_0804A9FC </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>fxType</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af5f027bea6c45a79196c6ace34591c03" name="af5f027bea6c45a79196c6ace34591c03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5f027bea6c45a79196c6ace34591c03">&#9670;&nbsp;</a></span>sub_0804AA1C()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_0804AA1C </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramname"><em>entity</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="a26663214a0a0827c157117125d4b9487" name="a26663214a0a0827c157117125d4b9487"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26663214a0a0827c157117125d4b9487">&#9670;&nbsp;</a></span>fixedItem</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm non_matching enemyUtils <a class="el" href="functions_8h.html#afe16245a73e043f87c1cb2bbc1d52454">sub_0804A720</a> void <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> fixedItem</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a54d07b3ec8fc531864e8db14dea586f8" name="a54d07b3ec8fc531864e8db14dea586f8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a54d07b3ec8fc531864e8db14dea586f8">&#9670;&nbsp;</a></span>gEnemyDefinitions</h2>
 
@@ -247,6 +519,34 @@ Variables</h2></td></tr>
 <span class="mlabels"><span class="mlabel">extern</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab61891f43735a125b22e4d8bfc9624b1" name="ab61891f43735a125b22e4d8bfc9624b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab61891f43735a125b22e4d8bfc9624b1">&#9670;&nbsp;</a></span>inc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm non_matching enemyUtils <a class="el" href="functions_8h.html#afe16245a73e043f87c1cb2bbc1d52454">sub_0804A720</a> inc</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87297a90eb38a9dadbe08826d78a1f05" name="a87297a90eb38a9dadbe08826d78a1f05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87297a90eb38a9dadbe08826d78a1f05">&#9670;&nbsp;</a></span>parentId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm non_matching enemyUtils <a class="el" href="functions_8h.html#afe16245a73e043f87c1cb2bbc1d52454">sub_0804A720</a> void <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> parentId</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

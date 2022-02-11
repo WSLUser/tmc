@@ -1,35 +1,36 @@
 <map id="src/npc/bladeBrothers.c" name="src/npc/bladeBrothers.c">
-<area shape="rect" id="node1" title=" " alt="" coords="518,5,677,32"/>
-<area shape="rect" id="node2" href="$global_8h.html" title=" " alt="" coords="827,528,893,555"/>
-<area shape="rect" id="node14" href="$entity_8h.html" title=" " alt="" coords="691,379,754,405"/>
-<area shape="rect" id="node17" href="$flags_8h.html" title=" " alt="" coords="1352,155,1411,181"/>
-<area shape="rect" id="node18" href="$player_8h.html" title=" " alt="" coords="416,304,483,331"/>
-<area shape="rect" id="node19" href="$room_8h.html" title=" " alt="" coords="144,229,205,256"/>
-<area shape="rect" id="node20" href="$message_8h.html" title=" " alt="" coords="976,155,1061,181"/>
-<area shape="rect" id="node22" href="$save_8h.html" title=" " alt="" coords="270,155,330,181"/>
-<area shape="rect" id="node23" href="$script_8h.html" title=" " alt="" coords="648,229,712,256"/>
-<area shape="rect" id="node24" href="$npc_8h.html" title=" " alt="" coords="792,80,845,107"/>
-<area shape="rect" id="node30" href="$functions_8h.html" title=" " alt="" coords="405,155,491,181"/>
-<area shape="rect" id="node32" href="$game_8h.html" title=" " alt="" coords="1451,379,1515,405"/>
-<area shape="rect" id="node3" href="$gba_8h.html" title=" " alt="" coords="971,603,1050,629"/>
-<area shape="rect" id="node4" title=" " alt="" coords="676,677,740,704"/>
-<area shape="rect" id="node5" href="$defines_8h.html" title=" " alt="" coords="1323,677,1397,704"/>
-<area shape="rect" id="node7" href="$io__reg_8h.html" title=" " alt="" coords="1232,677,1299,704"/>
-<area shape="rect" id="node8" href="$types_8h.html" title=" " alt="" coords="875,752,938,779"/>
-<area shape="rect" id="node10" href="$multi__boot_8h.html" title=" " alt="" coords="861,677,953,704"/>
-<area shape="rect" id="node11" href="$syscall_8h.html" title=" " alt="" coords="764,677,836,704"/>
-<area shape="rect" id="node12" href="$macro_8h.html" title=" " alt="" coords="977,677,1045,704"/>
-<area shape="rect" id="node13" href="$isagbprint_8h.html" title=" " alt="" coords="1069,677,1157,704"/>
-<area shape="rect" id="node6" title=" " alt="" coords="1326,752,1394,779"/>
-<area shape="rect" id="node9" title=" " alt="" coords="875,827,939,853"/>
-<area shape="rect" id="node15" href="$color_8h.html" title=" " alt="" coords="830,453,890,480"/>
-<area shape="rect" id="node16" href="$sprite_8h.html" title=" " alt="" coords="691,453,755,480"/>
-<area shape="rect" id="node21" href="$structures_8h.html" title=" " alt="" coords="483,229,573,256"/>
-<area shape="rect" id="node25" href="$asm_8h.html" title=" " alt="" coords="1211,379,1269,405"/>
-<area shape="rect" id="node26" href="$common_8h.html" title=" " alt="" coords="1293,379,1376,405"/>
-<area shape="rect" id="node27" href="$sound_8h.html" title=" " alt="" coords="1109,304,1176,331"/>
-<area shape="rect" id="node28" href="$effects_8h.html" title=" " alt="" coords="811,304,882,331"/>
-<area shape="rect" id="node29" href="$coord_8h.html" title=" " alt="" coords="787,229,851,256"/>
-<area shape="rect" id="node31" href="$manager_8h.html" title=" " alt="" coords="309,304,392,331"/>
-<area shape="rect" id="node33" href="$area_8h.html" title=" " alt="" coords="1451,453,1509,480"/>
+<area shape="rect" id="node1" title=" " alt="" coords="399,5,558,32"/>
+<area shape="rect" id="node2" href="$global_8h.html" title=" " alt="" coords="876,528,943,555"/>
+<area shape="rect" id="node14" href="$entity_8h.html" title=" " alt="" coords="677,379,739,405"/>
+<area shape="rect" id="node17" href="$flags_8h.html" title=" " alt="" coords="1397,155,1456,181"/>
+<area shape="rect" id="node18" href="$player_8h.html" title=" " alt="" coords="413,304,480,331"/>
+<area shape="rect" id="node19" href="$room_8h.html" title=" " alt="" coords="203,229,264,256"/>
+<area shape="rect" id="node21" href="$message_8h.html" title=" " alt="" coords="356,155,441,181"/>
+<area shape="rect" id="node23" href="$save_8h.html" title=" " alt="" coords="271,155,331,181"/>
+<area shape="rect" id="node24" href="$script_8h.html" title=" " alt="" coords="1005,229,1069,256"/>
+<area shape="rect" id="node25" href="$npc_8h.html" title=" " alt="" coords="713,80,767,107"/>
+<area shape="rect" id="node31" href="$functions_8h.html" title=" " alt="" coords="777,155,863,181"/>
+<area shape="rect" id="node33" href="$game_8h.html" title=" " alt="" coords="1461,379,1525,405"/>
+<area shape="rect" id="node3" href="$gba_8h.html" title=" " alt="" coords="998,603,1077,629"/>
+<area shape="rect" id="node4" title=" " alt="" coords="749,677,813,704"/>
+<area shape="rect" id="node5" href="$defines_8h.html" title=" " alt="" coords="1397,677,1470,704"/>
+<area shape="rect" id="node7" href="$io__reg_8h.html" title=" " alt="" coords="837,677,904,704"/>
+<area shape="rect" id="node8" href="$types_8h.html" title=" " alt="" coords="1006,752,1069,779"/>
+<area shape="rect" id="node10" href="$multi__boot_8h.html" title=" " alt="" coords="1075,677,1167,704"/>
+<area shape="rect" id="node11" href="$syscall_8h.html" title=" " alt="" coords="928,677,1000,704"/>
+<area shape="rect" id="node12" href="$macro_8h.html" title=" " alt="" coords="1191,677,1259,704"/>
+<area shape="rect" id="node13" href="$isagbprint_8h.html" title=" " alt="" coords="1284,677,1372,704"/>
+<area shape="rect" id="node6" title=" " alt="" coords="1399,752,1467,779"/>
+<area shape="rect" id="node9" title=" " alt="" coords="1005,827,1069,853"/>
+<area shape="rect" id="node15" href="$color_8h.html" title=" " alt="" coords="673,453,733,480"/>
+<area shape="rect" id="node16" href="$sprite_8h.html" title=" " alt="" coords="757,453,821,480"/>
+<area shape="rect" id="node20" href="$droptables_8h.html" title=" " alt="" coords="195,304,287,331"/>
+<area shape="rect" id="node22" href="$structures_8h.html" title=" " alt="" coords="339,229,429,256"/>
+<area shape="rect" id="node26" href="$asm_8h.html" title=" " alt="" coords="1297,304,1354,331"/>
+<area shape="rect" id="node27" href="$common_8h.html" title=" " alt="" coords="1048,379,1131,405"/>
+<area shape="rect" id="node28" href="$sound_8h.html" title=" " alt="" coords="1155,379,1221,405"/>
+<area shape="rect" id="node29" href="$effects_8h.html" title=" " alt="" coords="707,229,778,256"/>
+<area shape="rect" id="node30" href="$coord_8h.html" title=" " alt="" coords="859,304,923,331"/>
+<area shape="rect" id="node32" href="$manager_8h.html" title=" " alt="" coords="947,304,1029,331"/>
+<area shape="rect" id="node34" href="$area_8h.html" title=" " alt="" coords="1430,453,1487,480"/>
 </map>

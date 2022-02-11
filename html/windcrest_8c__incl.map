@@ -1,11 +1,11 @@
 <map id="src/object/windcrest.c" name="src/object/windcrest.c">
-<area shape="rect" id="node1" title=" " alt="" coords="281,5,431,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="297,5,447,32"/>
 <area shape="rect" id="node2" href="$global_8h.html" title=" " alt="" coords="209,453,276,480"/>
 <area shape="rect" id="node14" href="$sound_8h.html" title=" " alt="" coords="43,155,109,181"/>
-<area shape="rect" id="node15" href="$entity_8h.html" title=" " alt="" coords="387,304,450,331"/>
-<area shape="rect" id="node18" href="$save_8h.html" title=" " alt="" coords="250,80,310,107"/>
-<area shape="rect" id="node22" href="$script_8h.html" title=" " alt="" coords="557,155,621,181"/>
-<area shape="rect" id="node23" href="$effects_8h.html" title=" " alt="" coords="381,80,451,107"/>
+<area shape="rect" id="node15" href="$entity_8h.html" title=" " alt="" coords="447,304,510,331"/>
+<area shape="rect" id="node18" href="$save_8h.html" title=" " alt="" coords="282,80,342,107"/>
+<area shape="rect" id="node23" href="$script_8h.html" title=" " alt="" coords="557,155,621,181"/>
+<area shape="rect" id="node24" href="$effects_8h.html" title=" " alt="" coords="397,80,467,107"/>
 <area shape="rect" id="node3" href="$gba_8h.html" title=" " alt="" coords="354,528,433,555"/>
 <area shape="rect" id="node4" title=" " alt="" coords="59,603,123,629"/>
 <area shape="rect" id="node5" href="$defines_8h.html" title=" " alt="" coords="706,603,779,629"/>
@@ -20,6 +20,7 @@
 <area shape="rect" id="node16" href="$color_8h.html" title=" " alt="" coords="382,379,442,405"/>
 <area shape="rect" id="node17" href="$sprite_8h.html" title=" " alt="" coords="467,379,531,405"/>
 <area shape="rect" id="node19" href="$player_8h.html" title=" " alt="" coords="229,229,296,256"/>
-<area shape="rect" id="node20" href="$structures_8h.html" title=" " alt="" coords="235,155,325,181"/>
+<area shape="rect" id="node20" href="$structures_8h.html" title=" " alt="" coords="184,155,275,181"/>
 <area shape="rect" id="node21" href="$room_8h.html" title=" " alt="" coords="320,229,381,256"/>
+<area shape="rect" id="node22" href="$droptables_8h.html" title=" " alt="" coords="331,304,423,331"/>
 </map>

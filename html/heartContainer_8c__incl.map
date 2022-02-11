@@ -1,10 +1,10 @@
 <map id="src/object/heartContainer.c" name="src/object/heartContainer.c">
-<area shape="rect" id="node1" title=" " alt="" coords="574,5,751,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="573,5,750,32"/>
 <area shape="rect" id="node2" href="$sound_8h.html" title=" " alt="" coords="5,304,72,331"/>
 <area shape="rect" id="node15" href="$entity_8h.html" title=" " alt="" coords="518,304,581,331"/>
 <area shape="rect" id="node18" href="$flags_8h.html" title=" " alt="" coords="820,80,879,107"/>
-<area shape="rect" id="node19" href="$functions_8h.html" title=" " alt="" coords="367,80,452,107"/>
-<area shape="rect" id="node26" href="$item_8h.html" title=" " alt="" coords="754,155,811,181"/>
+<area shape="rect" id="node19" href="$functions_8h.html" title=" " alt="" coords="365,80,451,107"/>
+<area shape="rect" id="node27" href="$item_8h.html" title=" " alt="" coords="754,155,811,181"/>
 <area shape="rect" id="node3" href="$global_8h.html" title=" " alt="" coords="431,453,497,480"/>
 <area shape="rect" id="node4" href="$gba_8h.html" title=" " alt="" coords="566,528,645,555"/>
 <area shape="rect" id="node5" title=" " alt="" coords="291,603,355,629"/>
@@ -23,6 +23,7 @@
 <area shape="rect" id="node21" href="$coord_8h.html" title=" " alt="" coords="253,229,317,256"/>
 <area shape="rect" id="node22" href="$player_8h.html" title=" " alt="" coords="680,229,747,256"/>
 <area shape="rect" id="node23" href="$room_8h.html" title=" " alt="" coords="341,229,403,256"/>
-<area shape="rect" id="node24" href="$structures_8h.html" title=" " alt="" coords="447,155,537,181"/>
-<area shape="rect" id="node25" href="$script_8h.html" title=" " alt="" coords="561,155,625,181"/>
+<area shape="rect" id="node25" href="$structures_8h.html" title=" " alt="" coords="445,155,536,181"/>
+<area shape="rect" id="node26" href="$script_8h.html" title=" " alt="" coords="560,155,624,181"/>
+<area shape="rect" id="node24" href="$droptables_8h.html" title=" " alt="" coords="310,304,402,331"/>
 </map>

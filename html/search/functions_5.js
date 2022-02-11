@@ -57,7 +57,7 @@ var searchData=
   ['enemy66_54',['Enemy66',['../enemy66_8c.html#afa511b7655436c4ff75e0f1f8896ab5e',1,'Enemy66(Entity *this):&#160;enemy66.c'],['../enemy_8h.html#a7584a885a32ff612a695f1930e8516cd',1,'Enemy66(Entity *):&#160;enemy66.c']]],
   ['enemye_55',['EnemyE',['../enemyE_8c.html#ae3ea662d081221440acecff510735560',1,'EnemyE(Entity *this):&#160;enemyE.c'],['../enemy_8h.html#ab86e58fb07519dbbc15132a64de23362',1,'EnemyE(Entity *):&#160;enemyE.c']]],
   ['enemyfunctionhandler_56',['EnemyFunctionHandler',['../enemy_8h.html#a11f5a39385192120e426ad11d13f8574',1,'enemy.h']]],
-  ['enemyinit_57',['EnemyInit',['../enemyUtils_8c.html#a13912c6b60c231243ae56055c4fe1731',1,'EnemyInit(Entity *this):&#160;enemyUtils.c'],['../enemy_8h.html#a13912c6b60c231243ae56055c4fe1731',1,'EnemyInit(Entity *this):&#160;enemyUtils.c']]],
+  ['enemyinit_57',['EnemyInit',['../enemyUtils_8c.html#a5ebeca53ec802254228d1472169283ed',1,'EnemyInit(GenericEntity *this):&#160;enemyUtils.c'],['../enemy_8h.html#a13912c6b60c231243ae56055c4fe1731',1,'EnemyInit(Entity *this):&#160;enemy.h']]],
   ['enemyitem_58',['EnemyItem',['../object_8h.html#a3e4be61a30da01c9563f8a224e33ba31',1,'object.h']]],
   ['enqueuesfx_59',['EnqueueSFX',['../sound_8h.html#ac7ccc6545184d5dc179a7b3e9f58825f',1,'sound.h']]],
   ['entityhasduplicateid_60',['EntityHasDuplicateID',['../entity_8c.html#a6fe45d954588dd3590f4ca2dc09d770b',1,'EntityHasDuplicateID(Entity *ent):&#160;entity.c'],['../entity_8h.html#ab6e4c4333a36d0e88d465149687c459d',1,'EntityHasDuplicateID(Entity *entity):&#160;entity.c']]],

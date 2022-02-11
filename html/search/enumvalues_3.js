@@ -38,9 +38,12 @@ var searchData=
   ['dr_5fleft_5fdesk2_35',['DR_LEFT_DESK2',['../furniture_8c.html#aa06e085575735587cc1ab6389b3f2662a5ba28ffdffb0d3e26bf02cb1ea655a29',1,'furniture.c']]],
   ['drawers_36',['DRAWERS',['../furniture_8c.html#aa06e085575735587cc1ab6389b3f2662a11a6c584af3561a4ed506f80f7f1fadd',1,'furniture.c']]],
   ['droplet_37',['DROPLET',['../greatFairy_8c.html#a39fca1837c5ce7715cbf571669660c13a5b2d646a62d7587c13a1eef8ea7f8006',1,'greatFairy.c']]],
-  ['drug_5f1_38',['DRUG_1',['../flags_8h.html#a3f3de3e0d751949b8d0b60ffb302944aa22b6fd3840d43630e859daf861339f1d',1,'flags.h']]],
-  ['drug_5f2_39',['DRUG_2',['../flags_8h.html#a3f3de3e0d751949b8d0b60ffb302944aaa599ce86843bfd784c56327a56f58aac',1,'flags.h']]],
-  ['drug_5f3_40',['DRUG_3',['../flags_8h.html#a3f3de3e0d751949b8d0b60ffb302944aa801ab03045cb1fcf796814cc5f50b4b4',1,'flags.h']]],
-  ['drug_5fcount_41',['DRUG_COUNT',['../flags_8h.html#a3f3de3e0d751949b8d0b60ffb302944aa0d7d6c98961166c429629a480b1fadd5',1,'flags.h']]],
-  ['dust_42',['DUST',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba5456265ad77aaf26fac342cd8128290f',1,'enemy.h']]]
+  ['droptable_5fno_5fkinstones_38',['DROPTABLE_NO_KINSTONES',['../droptables_8h.html#a458e651af6690959efa2afb96be7d609a8a87c05d4dec53c8c4c48b76cd34a772',1,'droptables.h']]],
+  ['droptable_5fno_5fshells_39',['DROPTABLE_NO_SHELLS',['../droptables_8h.html#a458e651af6690959efa2afb96be7d609abf0aacf3c847b39cb3f4d32313fc047a',1,'droptables.h']]],
+  ['droptable_5fnone_40',['DROPTABLE_NONE',['../droptables_8h.html#a458e651af6690959efa2afb96be7d609a3ddecc7ac29e55f6b41ff80b4a787858',1,'droptables.h']]],
+  ['drug_5f1_41',['DRUG_1',['../flags_8h.html#a3f3de3e0d751949b8d0b60ffb302944aa22b6fd3840d43630e859daf861339f1d',1,'flags.h']]],
+  ['drug_5f2_42',['DRUG_2',['../flags_8h.html#a3f3de3e0d751949b8d0b60ffb302944aaa599ce86843bfd784c56327a56f58aac',1,'flags.h']]],
+  ['drug_5f3_43',['DRUG_3',['../flags_8h.html#a3f3de3e0d751949b8d0b60ffb302944aa801ab03045cb1fcf796814cc5f50b4b4',1,'flags.h']]],
+  ['drug_5fcount_44',['DRUG_COUNT',['../flags_8h.html#a3f3de3e0d751949b8d0b60ffb302944aa0d7d6c98961166c429629a480b1fadd5',1,'flags.h']]],
+  ['dust_45',['DUST',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba5456265ad77aaf26fac342cd8128290f',1,'enemy.h']]]
 ];

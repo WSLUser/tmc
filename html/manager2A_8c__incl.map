@@ -1,9 +1,9 @@
 <map id="src/manager/manager2A.c" name="src/manager/manager2A.c">
-<area shape="rect" id="node1" title=" " alt="" coords="132,5,307,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="188,5,363,32"/>
 <area shape="rect" id="node2" href="$asm_8h.html" title=" " alt="" coords="5,155,63,181"/>
-<area shape="rect" id="node15" href="$manager_8h.html" title=" " alt="" coords="130,80,213,107"/>
-<area shape="rect" id="node19" href="$room_8h.html" title=" " alt="" coords="237,80,298,107"/>
-<area shape="rect" id="node20" href="$flags_8h.html" title=" " alt="" coords="413,155,471,181"/>
+<area shape="rect" id="node15" href="$manager_8h.html" title=" " alt="" coords="186,80,269,107"/>
+<area shape="rect" id="node19" href="$room_8h.html" title=" " alt="" coords="307,80,369,107"/>
+<area shape="rect" id="node21" href="$flags_8h.html" title=" " alt="" coords="459,229,518,256"/>
 <area shape="rect" id="node3" href="$global_8h.html" title=" " alt="" coords="186,304,253,331"/>
 <area shape="rect" id="node4" href="$gba_8h.html" title=" " alt="" coords="309,379,388,405"/>
 <area shape="rect" id="node5" title=" " alt="" coords="58,453,122,480"/>
@@ -16,7 +16,8 @@
 <area shape="rect" id="node14" href="$isagbprint_8h.html" title=" " alt="" coords="693,453,781,480"/>
 <area shape="rect" id="node7" title=" " alt="" coords="149,528,217,555"/>
 <area shape="rect" id="node10" title=" " alt="" coords="401,603,465,629"/>
-<area shape="rect" id="node16" href="$entity_8h.html" title=" " alt="" coords="188,155,251,181"/>
+<area shape="rect" id="node16" href="$entity_8h.html" title=" " alt="" coords="196,155,259,181"/>
 <area shape="rect" id="node17" href="$color_8h.html" title=" " alt="" coords="189,229,249,256"/>
 <area shape="rect" id="node18" href="$sprite_8h.html" title=" " alt="" coords="274,229,338,256"/>
+<area shape="rect" id="node20" href="$droptables_8h.html" title=" " alt="" coords="405,155,497,181"/>
 </map>

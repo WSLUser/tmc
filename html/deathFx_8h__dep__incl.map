@@ -1,0 +1,5 @@
+<map id="include/object/deathFx.h" name="include/object/deathFx.h">
+<area shape="rect" id="node1" title=" " alt="" coords="59,5,222,32"/>
+<area shape="rect" id="node2" href="$enemyUtils_8c.html" title=" " alt="" coords="5,80,124,107"/>
+<area shape="rect" id="node3" href="$deathFx_8c.html" title=" " alt="" coords="149,80,287,107"/>
+</map>
