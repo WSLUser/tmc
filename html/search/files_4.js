@@ -16,5 +16,6 @@ var searchData=
   ['entity_2ec_13',['entity.c',['../entity_8c.html',1,'']]],
   ['entity_2eh_14',['entity.h',['../entity_8h.html',1,'']]],
   ['epona_2ec_15',['epona.c',['../epona_8c.html',1,'']]],
-  ['ezlo_2ec_16',['ezlo.c',['../ezlo_8c.html',1,'']]]
+  ['eyegore_2ec_16',['eyegore.c',['../eyegore_8c.html',1,'']]],
+  ['ezlo_2ec_17',['ezlo.c',['../ezlo_8c.html',1,'']]]
 ];
