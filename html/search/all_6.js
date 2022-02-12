@@ -29,7 +29,7 @@ var searchData=
   ['fan_26',['Fan',['../object_8h.html#ab63f9c6d4bed7d0eb18f0efe66cc69b1',1,'Fan(Entity *):&#160;fan.c'],['../fan_8c.html#a2d18b0b5b4021a82369c6d4c2ed801d5',1,'Fan(Entity *this):&#160;fan.c']]],
   ['fan_27',['FAN',['../object_8h.html#a0b29a1e1c76a85a0dbaa7c34a9d2874aa9c9f442fa6e4d2b297452bc0235d4f73',1,'object.h']]],
   ['fan_2ec_28',['fan.c',['../fan_8c.html',1,'']]],
-  ['farmers_29',['Farmers',['../farmers_8c.html#a7393f2ec21483019a5ef5417ad8c8d81',1,'Farmers(Entity *this)) void sub_0806BC58(Entity *this):&#160;farmers.c'],['../npc_8h.html#aed1a11415c27b57ee6d87d4ea97b36e1',1,'Farmers(Entity *):&#160;farmers.c']]],
+  ['farmers_29',['Farmers',['../farmers_8c.html#a80c1b0b9b4cb94ec26e11901855e2846',1,'Farmers(Entity *this):&#160;farmers.c'],['../npc_8h.html#aed1a11415c27b57ee6d87d4ea97b36e1',1,'Farmers(Entity *):&#160;farmers.c']]],
   ['farmers_30',['FARMERS',['../npc_8h.html#ab86484a9fbeb0e4494cb75cadb5f4cf3a9c64e42378e78894a482102c8850dfd9',1,'npc.h']]],
   ['farmers_2ec_31',['farmers.c',['../farmers_8c.html',1,'']]],
   ['farmers_5ffusion_32',['Farmers_Fusion',['../npc_8h.html#aa8ae80661d2d7afc41ff9cb1d2afed9e',1,'Farmers_Fusion(Entity *):&#160;farmers.c'],['../farmers_8c.html#a42e9986b16aeecf8294629f68318dc44',1,'Farmers_Fusion(Entity *this):&#160;farmers.c']]],

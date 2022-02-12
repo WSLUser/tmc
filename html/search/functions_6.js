@@ -7,7 +7,7 @@ var searchData=
   ['fairy_4',['Fairy',['../object_8h.html#a4cf943440678be44d0c3cfdc8061f52c',1,'object.h']]],
   ['fallingboulder_5',['FallingBoulder',['../fallingBoulder_8c.html#aaa6781c8b3ebab09ed2279c729185dbf',1,'FallingBoulder(Entity *this):&#160;fallingBoulder.c'],['../enemy_8h.html#abe117721a622e500ed1688d764b5f19a',1,'FallingBoulder(Entity *):&#160;fallingBoulder.c']]],
   ['fan_6',['Fan',['../fan_8c.html#a2d18b0b5b4021a82369c6d4c2ed801d5',1,'Fan(Entity *this):&#160;fan.c'],['../object_8h.html#ab63f9c6d4bed7d0eb18f0efe66cc69b1',1,'Fan(Entity *):&#160;fan.c']]],
-  ['farmers_7',['Farmers',['../farmers_8c.html#a7393f2ec21483019a5ef5417ad8c8d81',1,'Farmers(Entity *this)) void sub_0806BC58(Entity *this):&#160;farmers.c'],['../npc_8h.html#aed1a11415c27b57ee6d87d4ea97b36e1',1,'Farmers(Entity *):&#160;farmers.c']]],
+  ['farmers_7',['Farmers',['../farmers_8c.html#a80c1b0b9b4cb94ec26e11901855e2846',1,'Farmers(Entity *this):&#160;farmers.c'],['../npc_8h.html#aed1a11415c27b57ee6d87d4ea97b36e1',1,'Farmers(Entity *):&#160;farmers.c']]],
   ['farmers_5ffusion_8',['Farmers_Fusion',['../npc_8h.html#aa8ae80661d2d7afc41ff9cb1d2afed9e',1,'Farmers_Fusion(Entity *):&#160;farmers.c'],['../farmers_8c.html#a42e9986b16aeecf8294629f68318dc44',1,'Farmers_Fusion(Entity *this):&#160;farmers.c']]],
   ['farmers_5fhead_9',['Farmers_Head',['../farmers_8c.html#a35fbcdb68d670fcc5df2be98b3a58e0e',1,'Farmers_Head(Entity *this):&#160;farmers.c'],['../npc_8h.html#ac17b14385606056c795279a4d582d7c3',1,'Farmers_Head(Entity *):&#160;farmers.c']]],
   ['farore_10',['Farore',['../farore_8c.html#aed781fc964d4f4e4458d3af89d97b6b9',1,'Farore(Entity *this):&#160;farore.c'],['../npc_8h.html#a1f3d588fe2745c6e570140f01ee6538b',1,'Farore(Entity *):&#160;farore.c']]],
