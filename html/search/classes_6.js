@@ -10,12 +10,13 @@ var searchData=
   ['goronshopspawndata_7',['GoronShopSpawnData',['../structGoronShopSpawnData.html',1,'']]],
   ['gunk_5f080d9348_5fstruct_8',['gUnk_080D9348_struct',['../structgUnk__080D9348__struct.html',1,'']]],
   ['gunk_5f0810c89c_5fstruct_9',['gUnk_0810C89C_struct',['../structgUnk__0810C89C__struct.html',1,'']]],
-  ['gyorgbossobjectentity_10',['GyorgBossObjectEntity',['../structGyorgBossObjectEntity.html',1,'']]],
-  ['gyorgchildentity_11',['GyorgChildEntity',['../structGyorgChildEntity.html',1,'']]],
-  ['gyorgfemaleentity_12',['GyorgFemaleEntity',['../structGyorgFemaleEntity.html',1,'']]],
-  ['gyorgfemaleeyeentity_13',['GyorgFemaleEyeEntity',['../structGyorgFemaleEyeEntity.html',1,'']]],
-  ['gyorgfemalemouthentity_14',['GyorgFemaleMouthEntity',['../structGyorgFemaleMouthEntity.html',1,'']]],
-  ['gyorgheap_15',['GyorgHeap',['../structGyorgHeap.html',1,'']]],
-  ['gyorgmaleentity_16',['GyorgMaleEntity',['../structGyorgMaleEntity.html',1,'']]],
-  ['gyorgmaleeyeentity_17',['GyorgMaleEyeEntity',['../structGyorgMaleEyeEntity.html',1,'']]]
+  ['gunk_5f0811b9a8_5fstruct_10',['gUnk_0811B9A8_struct',['../structgUnk__0811B9A8__struct.html',1,'']]],
+  ['gyorgbossobjectentity_11',['GyorgBossObjectEntity',['../structGyorgBossObjectEntity.html',1,'']]],
+  ['gyorgchildentity_12',['GyorgChildEntity',['../structGyorgChildEntity.html',1,'']]],
+  ['gyorgfemaleentity_13',['GyorgFemaleEntity',['../structGyorgFemaleEntity.html',1,'']]],
+  ['gyorgfemaleeyeentity_14',['GyorgFemaleEyeEntity',['../structGyorgFemaleEyeEntity.html',1,'']]],
+  ['gyorgfemalemouthentity_15',['GyorgFemaleMouthEntity',['../structGyorgFemaleMouthEntity.html',1,'']]],
+  ['gyorgheap_16',['GyorgHeap',['../structGyorgHeap.html',1,'']]],
+  ['gyorgmaleentity_17',['GyorgMaleEntity',['../structGyorgMaleEntity.html',1,'']]],
+  ['gyorgmaleeyeentity_18',['GyorgMaleEyeEntity',['../structGyorgMaleEyeEntity.html',1,'']]]
 ];
