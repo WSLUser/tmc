@@ -96,6 +96,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="game_8h_source.html">game.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="npc_8h_source.html">npc.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="kinstone_8h_source.html">kinstone.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="object_8h_source.html">object.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for roomInit.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -103,50 +104,55 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="roomInit_8c__incl.png" border="0" usemap="#asrc_2roomInit_8c" alt=""/></div>
 <map name="asrc_2roomInit_8c" id="asrc_2roomInit_8c">
-<area shape="rect" title=" " alt="" coords="769,5,871,32"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="721,528,788,555"/>
-<area shape="rect" href="main_8h.html" title=" " alt="" coords="45,80,105,107"/>
-<area shape="rect" href="common_8h.html" title=" " alt="" coords="179,155,261,181"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="1019,155,1104,181"/>
-<area shape="rect" href="sound_8h.html" title=" " alt="" coords="285,155,352,181"/>
-<area shape="rect" href="effects_8h.html" title=" " alt="" coords="873,155,943,181"/>
-<area shape="rect" href="screen_8h.html" title=" " alt="" coords="113,379,183,405"/>
-<area shape="rect" href="flags_8h.html" title=" " alt="" coords="376,155,435,181"/>
-<area shape="rect" href="item_8h.html" title=" " alt="" coords="1414,229,1471,256"/>
-<area shape="rect" href="save_8h.html" title=" " alt="" coords="1313,155,1373,181"/>
-<area shape="rect" href="area_8h.html" title=" " alt="" coords="1595,155,1653,181"/>
-<area shape="rect" href="game_8h.html" title=" " alt="" coords="1592,80,1656,107"/>
-<area shape="rect" href="npc_8h.html" title=" " alt="" coords="707,80,760,107"/>
-<area shape="rect" href="kinstone_8h.html" title=" " alt="" coords="1745,379,1826,405"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="866,603,945,629"/>
-<area shape="rect" title=" " alt="" coords="571,677,635,704"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1218,677,1291,704"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1127,677,1193,704"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="770,752,833,779"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="755,677,847,704"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="659,677,731,704"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="871,677,939,704"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="964,677,1052,704"/>
-<area shape="rect" title=" " alt="" coords="1221,752,1289,779"/>
-<area shape="rect" title=" " alt="" coords="769,827,833,853"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="823,379,886,405"/>
-<area shape="rect" href="manager_8h.html" title=" " alt="" coords="1243,304,1325,331"/>
-<area shape="rect" href="coord_8h.html" title=" " alt="" coords="581,304,645,331"/>
-<area shape="rect" href="player_8h.html" title=" " alt="" coords="1349,304,1416,331"/>
-<area shape="rect" href="room_8h.html" title=" " alt="" coords="1075,229,1136,256"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="960,229,1051,256"/>
-<area shape="rect" href="script_8h.html" title=" " alt="" coords="771,229,835,256"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="759,453,819,480"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="844,453,908,480"/>
-<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="1075,304,1167,331"/>
-<area shape="rect" href="fade_8h.html" title=" " alt="" coords="113,453,170,480"/>
-<area shape="rect" href="asm_8h.html" title=" " alt="" coords="449,304,506,331"/>
-<area shape="rect" href="message_8h.html" title=" " alt="" coords="611,155,696,181"/>
+<area shape="rect" title=" " alt="" coords="1216,5,1317,32"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="1132,528,1199,555"/>
+<area shape="rect" href="main_8h.html" title=" " alt="" coords="43,379,103,405"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="1403,155,1485,181"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="600,155,685,181"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="1643,155,1709,181"/>
+<area shape="rect" href="effects_8h.html" title=" " alt="" coords="811,155,882,181"/>
+<area shape="rect" href="screen_8h.html" title=" " alt="" coords="1709,379,1779,405"/>
+<area shape="rect" href="flags_8h.html" title=" " alt="" coords="1509,155,1568,181"/>
+<area shape="rect" href="item_8h.html" title=" " alt="" coords="230,229,287,256"/>
+<area shape="rect" href="save_8h.html" title=" " alt="" coords="287,155,347,181"/>
+<area shape="rect" href="area_8h.html" title=" " alt="" coords="1785,155,1842,181"/>
+<area shape="rect" href="game_8h.html" title=" " alt="" coords="1835,80,1899,107"/>
+<area shape="rect" href="npc_8h.html" title=" " alt="" coords="944,80,997,107"/>
+<area shape="rect" href="kinstone_8h.html" title=" " alt="" coords="1918,304,1999,331"/>
+<area shape="rect" href="object_8h.html" title=" " alt="" coords="1233,80,1300,107"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="1277,603,1355,629"/>
+<area shape="rect" title=" " alt="" coords="981,677,1045,704"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1629,677,1702,704"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1537,677,1604,704"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="1181,752,1243,779"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="1166,677,1258,704"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="1069,677,1141,704"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="1282,677,1350,704"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="1375,677,1463,704"/>
+<area shape="rect" title=" " alt="" coords="1631,752,1699,779"/>
+<area shape="rect" title=" " alt="" coords="1180,827,1244,853"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="910,379,973,405"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="472,304,555,331"/>
+<area shape="rect" href="coord_8h.html" title=" " alt="" coords="1013,229,1077,256"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="331,304,397,331"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="731,229,792,256"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="515,229,605,256"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="816,229,880,256"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="979,453,1039,480"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="1064,453,1128,480"/>
+<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="731,304,823,331"/>
+<area shape="rect" href="fade_8h.html" title=" " alt="" coords="1671,453,1729,480"/>
+<area shape="rect" href="asm_8h.html" title=" " alt="" coords="1321,155,1378,181"/>
+<area shape="rect" href="message_8h.html" title=" " alt="" coords="1008,155,1093,181"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstruct__080D8E54.html">struct_080D8E54</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structgUnk__080D9348__struct.html">gUnk_080D9348_struct</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstruct__086D4460.html">struct_086D4460</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -168,8 +174,8 @@ Functions</h2></td></tr>
 <tr class="separator:a40bb20360a62c6009f5e5b38871e9b8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3860586d553cc12a07a3c5cb2d256a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#ae3860586d553cc12a07a3c5cb2d256a2">sub_08059994</a> (void)</td></tr>
 <tr class="separator:ae3860586d553cc12a07a3c5cb2d256a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07d00ddf21a5a69c6dfd5a4a9bd10010"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a07d00ddf21a5a69c6dfd5a4a9bd10010">sub_0804E150</a> (void)</td></tr>
-<tr class="separator:a07d00ddf21a5a69c6dfd5a4a9bd10010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59054deb9cd3fcf45058a77287fad8f0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a59054deb9cd3fcf45058a77287fad8f0">sub_0804E150</a> (void)</td></tr>
+<tr class="separator:a59054deb9cd3fcf45058a77287fad8f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08b994708814ec4e94d6ab8ddb91c25d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a08b994708814ec4e94d6ab8ddb91c25d">sub_0804D0B4</a> (void)</td></tr>
 <tr class="separator:a08b994708814ec4e94d6ab8ddb91c25d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a196bc54490e905e702336ef7d0a176"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a0a196bc54490e905e702336ef7d0a176">sub_0804D9B0</a> (void)</td></tr>
@@ -178,6 +184,18 @@ Functions</h2></td></tr>
 <tr class="separator:aa6c8652b41eda52ba728e233bd2c268d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfbfe63cd2c26c0e2312b2a1b4244e4b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#adfbfe63cd2c26c0e2312b2a1b4244e4b">sub_0804F578</a> (void)</td></tr>
 <tr class="separator:adfbfe63cd2c26c0e2312b2a1b4244e4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3980fc3ac78b35516acd54913ca4373d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a3980fc3ac78b35516acd54913ca4373d">sub_080AF250</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)</td></tr>
+<tr class="separator:a3980fc3ac78b35516acd54913ca4373d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a856932e2c4c6a84f972087eb74c7d146"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a856932e2c4c6a84f972087eb74c7d146">sub_0804AFB0</a> (void **)</td></tr>
+<tr class="separator:a856932e2c4c6a84f972087eb74c7d146"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cc721cb58b2684aab41f920023277dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a2cc721cb58b2684aab41f920023277dc">sub_0804AF90</a> (void)</td></tr>
+<tr class="separator:a2cc721cb58b2684aab41f920023277dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf620ffa47fef19385515571e823ba4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#aaf620ffa47fef19385515571e823ba4e">sub_080AF250</a> ()</td></tr>
+<tr class="separator:aaf620ffa47fef19385515571e823ba4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20465fb2da971525b479bd1f8faa6efe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a20465fb2da971525b479bd1f8faa6efe">sub_0804C290</a> ()</td></tr>
+<tr class="separator:a20465fb2da971525b479bd1f8faa6efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0330528547ec05a0dd44df0ca0a685ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a0330528547ec05a0dd44df0ca0a685ef">sub_0804C258</a> ()</td></tr>
+<tr class="separator:a0330528547ec05a0dd44df0ca0a685ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6106af5bea74046726246905cbd288f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a6106af5bea74046726246905cbd288f5">sub_unk3_ArmosInteriors_RuinsEntranceNorth</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> arg0)</td></tr>
 <tr class="separator:a6106af5bea74046726246905cbd288f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd088e9b126b1eb7ba05a2c6a81ac5c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#acd088e9b126b1eb7ba05a2c6a81ac5c6">sub_StateChange_ArmosInteriors_RuinsEntranceNorth</a> (void)</td></tr>
@@ -464,8 +482,10 @@ Functions</h2></td></tr>
 <tr class="separator:ac008dd8a511c876f21d67512f7059644"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad685ed14d02c20bc7dd8ba86ad7f2143"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#ad685ed14d02c20bc7dd8ba86ad7f2143">sub_StateChange_GoronCave_Main</a> (void)</td></tr>
 <tr class="separator:ad685ed14d02c20bc7dd8ba86ad7f2143"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a753d647057adf5e28ef1fcc5447eabe1"><td class="memItemLeft" align="right" valign="top">asm non_matching sub_0804BF38 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a753d647057adf5e28ef1fcc5447eabe1">sub_0804BF38</a> (<a class="el" href="structEntity.html">Entity</a> *this, <a class="el" href="structScriptExecutionContext.html">ScriptExecutionContext</a> *<a class="el" href="librarians_8c.html#aace0eb4c23e95df134e46772a9763161">context</a>)) <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> sub_unk3_EzloAuxCutscene_Main(void)</td></tr>
-<tr class="separator:a753d647057adf5e28ef1fcc5447eabe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f332a77fb81a32e5fecfc112a6fe642"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a2f332a77fb81a32e5fecfc112a6fe642">sub_0804BF38</a> (<a class="el" href="structEntity.html">Entity</a> *this, <a class="el" href="structScriptExecutionContext.html">ScriptExecutionContext</a> *<a class="el" href="librarians_8c.html#aace0eb4c23e95df134e46772a9763161">context</a>)</td></tr>
+<tr class="separator:a2f332a77fb81a32e5fecfc112a6fe642"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acea4d73094f442f3d97dd7aebd0452b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#acea4d73094f442f3d97dd7aebd0452b9">sub_unk3_EzloAuxCutscene_Main</a> (void)</td></tr>
+<tr class="separator:acea4d73094f442f3d97dd7aebd0452b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70d05ea9846c637580397f9099711477"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a70d05ea9846c637580397f9099711477">sub_StateChange_EzloAuxCutscene_Main</a> (void)</td></tr>
 <tr class="separator:a70d05ea9846c637580397f9099711477"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7a83256e087b64c94c60e38ff478cf7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#af7a83256e087b64c94c60e38ff478cf7">sub_unk3_RoyalValley_Main</a> (void)</td></tr>
@@ -476,10 +496,10 @@ Functions</h2></td></tr>
 <tr class="separator:a040332bc1604d66c8a2336be74a41629"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affdc30bce7206d9d7b499c414e99e33d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#affdc30bce7206d9d7b499c414e99e33d">sub_StateChange_RoyalValley_ForestMaze</a> (void)</td></tr>
 <tr class="separator:affdc30bce7206d9d7b499c414e99e33d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d450c5c0a13933f394caf6f196effa8"><td class="memItemLeft" align="right" valign="top">asm non_matching sub_0804C128 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a1d450c5c0a13933f394caf6f196effa8">sub_0804C128</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> arg0)) 1(&quot;asm/non_matching/<a class="el" href="ui_8c.html#a65820f08ad65b0d8a4a5786046d67953">sub_0804C258.inc</a>&quot;</td></tr>
-<tr class="separator:a1d450c5c0a13933f394caf6f196effa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec10a73672a18f24f0eca014a576031a"><td class="memItemLeft" align="right" valign="top">asm non_matching <a class="el" href="functions_8h.html#af24333fc5cea18416dab61ce73662ed1">sub_0804C128</a> void void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#aec10a73672a18f24f0eca014a576031a">sub_0804C258</a> (void)</td></tr>
-<tr class="separator:aec10a73672a18f24f0eca014a576031a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5290421552e07a1b97831381f5542977"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a5290421552e07a1b97831381f5542977">sub_0804C128</a> ()</td></tr>
+<tr class="separator:a5290421552e07a1b97831381f5542977"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a452500b138257136adf2035762129023"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a452500b138257136adf2035762129023">sub_unk3_RoyalValleyGraves_HeartPiece</a> (void)</td></tr>
+<tr class="separator:a452500b138257136adf2035762129023"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a312c27c0c3d36582f29503a292c63a9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a312c27c0c3d36582f29503a292c63a9c">sub_StateChange_RoyalValleyGraves_HeartPiece</a> (void)</td></tr>
 <tr class="separator:a312c27c0c3d36582f29503a292c63a9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd37eb00a3945a20ba99c6ca31a286c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#afd37eb00a3945a20ba99c6ca31a286c7">sub_unk3_RoyalValleyGraves_Gina</a> (void)</td></tr>
@@ -1836,10 +1856,14 @@ Functions</h2></td></tr>
 <tr class="separator:a691fb9bd17e56d1170b9d5acb51687f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a992ee54aa8b91be4e2649ff97f6d4e1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a992ee54aa8b91be4e2649ff97f6d4e1a">sub_StateChange_Ruins_Beanstalk4</a> (void)</td></tr>
 <tr class="separator:a992ee54aa8b91be4e2649ff97f6d4e1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5c2f6f73367d993065b5dc045b6d19d"><td class="memItemLeft" align="right" valign="top">asm non_matching sub_unk3_HyruleTown_0 <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#af5c2f6f73367d993065b5dc045b6d19d">sub_unk3_HyruleTown_0</a> (void)</td></tr>
-<tr class="separator:af5c2f6f73367d993065b5dc045b6d19d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b4ceec917f153b524d2614a677368ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a2b4ceec917f153b524d2614a677368ab">sub_unk3_HyruleTown_0</a> (void)</td></tr>
+<tr class="separator:a2b4ceec917f153b524d2614a677368ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af970af5dc3e27e137aa95c50cd3d3aeb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#af970af5dc3e27e137aa95c50cd3d3aeb">sub_StateChange_HyruleTown_0</a> (void)</td></tr>
+<tr class="separator:af970af5dc3e27e137aa95c50cd3d3aeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61b5f870ff67e2ee7d8fc613935e45d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a61b5f870ff67e2ee7d8fc613935e45d7">sub_unk1_HyruleTown_8</a> (void)</td></tr>
 <tr class="separator:a61b5f870ff67e2ee7d8fc613935e45d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af92cd80cf46c483db4aca28d57248c66"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#af92cd80cf46c483db4aca28d57248c66">sub_unk3_HyruleTownMinishCaves_Entrance</a> (void)</td></tr>
+<tr class="separator:af92cd80cf46c483db4aca28d57248c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec394778a3287f8d3f58609b6f8ef729"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#aec394778a3287f8d3f58609b6f8ef729">sub_StateChange_HyruleTownMinishCaves_Entrance</a> (void)</td></tr>
 <tr class="separator:aec394778a3287f8d3f58609b6f8ef729"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2ae198fed1dd50f57b23183c4dca7d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#ad2ae198fed1dd50f57b23183c4dca7d8">sub_unk3_HyruleTownMinishCaves_NorthRoom</a> (void)</td></tr>
@@ -2647,6 +2671,8 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:a47355985be5647fb4001c4b0617f6cfd"><td class="memItemLeft" align="right" valign="top">void **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a47355985be5647fb4001c4b0617f6cfd">gCurrentRoomProperties</a></td></tr>
+<tr class="separator:a47355985be5647fb4001c4b0617f6cfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b67bbd1b89635d68867d54c483afc1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntityData.html">EntityData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a1b67bbd1b89635d68867d54c483afc1a">Entities_MinishPaths1_MayorsCabin_gUnk_080D6138</a></td></tr>
 <tr class="separator:a1b67bbd1b89635d68867d54c483afc1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44b6ed16491295d83117bab52daf20c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntityData.html">EntityData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a44b6ed16491295d83117bab52daf20c6">Entities_HouseInteriors1_Mayor_080D6210</a></td></tr>
@@ -2769,14 +2795,22 @@ Variables</h2></td></tr>
 <tr class="separator:a97424ef9f1a18d31866b728823854733"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee238eda83350aeeb435fa4c976987d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#aee238eda83350aeeb435fa4c976987d5">gUnk_080D8C68</a></td></tr>
 <tr class="separator:aee238eda83350aeeb435fa4c976987d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6077066f86e24fd6e3f410ce9867035"><td class="memItemLeft" align="right" valign="top">asm non_matching <a class="el" href="roomInit_8c.html#a753d647057adf5e28ef1fcc5447eabe1">sub_0804BF38</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#ac6077066f86e24fd6e3f410ce9867035">inc</a></td></tr>
-<tr class="separator:ac6077066f86e24fd6e3f410ce9867035"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaea8023e3354c7ca9aaef2a4db5ff15e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structstruct__080D8E54.html">struct_080D8E54</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#aaea8023e3354c7ca9aaef2a4db5ff15e">gUnk_080D8E50</a> []</td></tr>
+<tr class="separator:aaea8023e3354c7ca9aaef2a4db5ff15e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab25b203f04dd289e8590ec747bc2ef4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntityData.html">EntityData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#ab25b203f04dd289e8590ec747bc2ef4c">gUnk_080D90C8</a></td></tr>
 <tr class="separator:ab25b203f04dd289e8590ec747bc2ef4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4acc14ce1c8f389a4d51d985d9f5c92b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntityData.html">EntityData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a4acc14ce1c8f389a4d51d985d9f5c92b">gUnk_080D9108</a></td></tr>
 <tr class="separator:a4acc14ce1c8f389a4d51d985d9f5c92b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5c882624da4249832e157c8ad251554"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntityData.html">EntityData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#ac5c882624da4249832e157c8ad251554">gUnk_080D9098</a></td></tr>
 <tr class="separator:ac5c882624da4249832e157c8ad251554"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa294e4271364880cb36abf2377c16ce9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#aa294e4271364880cb36abf2377c16ce9">gUnk_080D9338</a> []</td></tr>
+<tr class="separator:aa294e4271364880cb36abf2377c16ce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8ef7e1810bf344ad0a83202ddf8065d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#ad8ef7e1810bf344ad0a83202ddf8065d">gUnk_080D9340</a> []</td></tr>
+<tr class="separator:ad8ef7e1810bf344ad0a83202ddf8065d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34bd4461965e25ad6b9574f3b55c507a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structTileEntity.html">TileEntity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a34bd4461965e25ad6b9574f3b55c507a">gUnk_080D9328</a> []</td></tr>
+<tr class="separator:a34bd4461965e25ad6b9574f3b55c507a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef260ecc9bcb13759b8469c3670a21dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgUnk__080D9348__struct.html">gUnk_080D9348_struct</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#aef260ecc9bcb13759b8469c3670a21dc">gUnk_080D9348</a> []</td></tr>
+<tr class="separator:aef260ecc9bcb13759b8469c3670a21dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a898d67e335710de9b7e27145df9f43bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntityData.html">EntityData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a898d67e335710de9b7e27145df9f43bf">gUnk_080D9800</a></td></tr>
 <tr class="separator:a898d67e335710de9b7e27145df9f43bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97265998a14d1b7982fe5567176ac004"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntityData.html">EntityData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a97265998a14d1b7982fe5567176ac004">gUnk_080D9CC8</a></td></tr>
@@ -2969,6 +3003,54 @@ Variables</h2></td></tr>
 <tr class="separator:ae52eabc6107063796a722af2965ef1d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0a9fe1629f065a74aea108bf4da5b4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntityData.html">EntityData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#aa0a9fe1629f065a74aea108bf4da5b4a">gUnk_080EE71C</a></td></tr>
 <tr class="separator:aa0a9fe1629f065a74aea108bf4da5b4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c47caa1091e34e22e23d52670cb3999"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a4c47caa1091e34e22e23d52670cb3999">Area_HyruleTown</a> []</td></tr>
+<tr class="separator:a4c47caa1091e34e22e23d52670cb3999"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8482f4e2911df1562fa120ff495ae19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntityData.html">EntityData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#ab8482f4e2911df1562fa120ff495ae19">gUnk_080EEB6C</a></td></tr>
+<tr class="separator:ab8482f4e2911df1562fa120ff495ae19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a418a629b7ec0ff501aa7a620823d292f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntityData.html">EntityData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a418a629b7ec0ff501aa7a620823d292f">gUnk_080EEB8C</a></td></tr>
+<tr class="separator:a418a629b7ec0ff501aa7a620823d292f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58178e7b71f9fd57ceab0084ada51a56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntityData.html">EntityData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a58178e7b71f9fd57ceab0084ada51a56">gUnk_080EE88C</a></td></tr>
+<tr class="separator:a58178e7b71f9fd57ceab0084ada51a56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d3cd33cbdb62f4525f9c6ba071e7f89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntityData.html">EntityData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a3d3cd33cbdb62f4525f9c6ba071e7f89">gUnk_080EE8FC</a></td></tr>
+<tr class="separator:a3d3cd33cbdb62f4525f9c6ba071e7f89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a062b417e05a57518c7aea697c7a87859"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntityData.html">EntityData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a062b417e05a57518c7aea697c7a87859">gUnk_080EE91C</a></td></tr>
+<tr class="separator:a062b417e05a57518c7aea697c7a87859"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac36d0e6c20bf00e51dcecee7fb95eeb7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntityData.html">EntityData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#ac36d0e6c20bf00e51dcecee7fb95eeb7">gUnk_080EECBC</a></td></tr>
+<tr class="separator:ac36d0e6c20bf00e51dcecee7fb95eeb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90636c367b394e90491085f2cdef9d65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntityData.html">EntityData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a90636c367b394e90491085f2cdef9d65">gUnk_080EE93C</a></td></tr>
+<tr class="separator:a90636c367b394e90491085f2cdef9d65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b89164cc4c62f6b1fae5507f6ba5bca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntityData.html">EntityData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a0b89164cc4c62f6b1fae5507f6ba5bca">gUnk_080EE95C</a></td></tr>
+<tr class="separator:a0b89164cc4c62f6b1fae5507f6ba5bca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b903b16905930b2a1aeb0661ea6b43b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntityData.html">EntityData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a9b903b16905930b2a1aeb0661ea6b43b">gUnk_080EE97C</a></td></tr>
+<tr class="separator:a9b903b16905930b2a1aeb0661ea6b43b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99074426bb622f0e8c291722b2b4c6cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntityData.html">EntityData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a99074426bb622f0e8c291722b2b4c6cf">gUnk_080EE9BC</a></td></tr>
+<tr class="separator:a99074426bb622f0e8c291722b2b4c6cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4752f3b18be05784cc421b392038dce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntityData.html">EntityData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#af4752f3b18be05784cc421b392038dce">gUnk_080EE99C</a></td></tr>
+<tr class="separator:af4752f3b18be05784cc421b392038dce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd72dc00b4a189244fbd7acd5401b8a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntityData.html">EntityData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#afd72dc00b4a189244fbd7acd5401b8a8">gUnk_080EE9DC</a></td></tr>
+<tr class="separator:afd72dc00b4a189244fbd7acd5401b8a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a796cf4d5b401df97d1da34cc21501d3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntityData.html">EntityData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a796cf4d5b401df97d1da34cc21501d3f">gUnk_080EEA3C</a></td></tr>
+<tr class="separator:a796cf4d5b401df97d1da34cc21501d3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66df67000f79e6c384573c55bd076987"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntityData.html">EntityData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a66df67000f79e6c384573c55bd076987">gUnk_080EEA1C</a></td></tr>
+<tr class="separator:a66df67000f79e6c384573c55bd076987"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1b419aafd5b53499ea9cfba4191720c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntityData.html">EntityData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#af1b419aafd5b53499ea9cfba4191720c">gUnk_080EE9FC</a></td></tr>
+<tr class="separator:af1b419aafd5b53499ea9cfba4191720c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1c379f0e0785105ef1ba800a23b034c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntityData.html">EntityData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#ae1c379f0e0785105ef1ba800a23b034c">gUnk_080EEA5C</a></td></tr>
+<tr class="separator:ae1c379f0e0785105ef1ba800a23b034c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2de58618070ea6e1d32d3d10f1b5360"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntityData.html">EntityData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#ad2de58618070ea6e1d32d3d10f1b5360">gUnk_080EEABC</a></td></tr>
+<tr class="separator:ad2de58618070ea6e1d32d3d10f1b5360"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4edcfe13967e193137c2c9ab78060fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntityData.html">EntityData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#ac4edcfe13967e193137c2c9ab78060fd">gUnk_080EEA7C</a></td></tr>
+<tr class="separator:ac4edcfe13967e193137c2c9ab78060fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10a351a930ab8d40341a5e4b008a2855"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntityData.html">EntityData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a10a351a930ab8d40341a5e4b008a2855">gUnk_080EEA9C</a></td></tr>
+<tr class="separator:a10a351a930ab8d40341a5e4b008a2855"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a2ec3b16bec3f79ecb29bd21440a61d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntityData.html">EntityData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a2a2ec3b16bec3f79ecb29bd21440a61d">gUnk_080EEBAC</a></td></tr>
+<tr class="separator:a2a2ec3b16bec3f79ecb29bd21440a61d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa63c69f352f23b419f77a363d42f3959"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#aa63c69f352f23b419f77a363d42f3959">gUnk_080EED2C</a> []</td></tr>
+<tr class="separator:aa63c69f352f23b419f77a363d42f3959"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af491e8bb9f83811f444e0511eac0fd71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#af491e8bb9f83811f444e0511eac0fd71">gUnk_080EED7A</a> []</td></tr>
+<tr class="separator:af491e8bb9f83811f444e0511eac0fd71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad22ced1b91b2ba762739ea2a301f5424"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#ad22ced1b91b2ba762739ea2a301f5424">gUnk_080EED8C</a> []</td></tr>
+<tr class="separator:ad22ced1b91b2ba762739ea2a301f5424"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a497f5623a8afe2a2bbee4001c82b9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a5a497f5623a8afe2a2bbee4001c82b9d">gUnk_080F09A0</a></td></tr>
 <tr class="separator:a5a497f5623a8afe2a2bbee4001c82b9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a827b179563ffd1a26ff35a5f60e2111e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structEntityData.html">EntityData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="roomInit_8c.html#a827b179563ffd1a26ff35a5f60e2111e">gUnk_080F0650</a></td></tr>
@@ -3512,6 +3594,42 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a2cc721cb58b2684aab41f920023277dc" name="a2cc721cb58b2684aab41f920023277dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cc721cb58b2684aab41f920023277dc">&#9670;&nbsp;</a></span>sub_0804AF90()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_0804AF90 </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a856932e2c4c6a84f972087eb74c7d146" name="a856932e2c4c6a84f972087eb74c7d146"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a856932e2c4c6a84f972087eb74c7d146">&#9670;&nbsp;</a></span>sub_0804AFB0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_0804AFB0 </td>
+          <td>(</td>
+          <td class="paramtype">void **&#160;</td>
+          <td class="paramname"><em>properties</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8a4e73299d0932fb5c0edff4dba60579" name="a8a4e73299d0932fb5c0edff4dba60579"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8a4e73299d0932fb5c0edff4dba60579">&#9670;&nbsp;</a></span>sub_0804BCDC()</h2>
 
@@ -3530,14 +3648,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a753d647057adf5e28ef1fcc5447eabe1" name="a753d647057adf5e28ef1fcc5447eabe1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a753d647057adf5e28ef1fcc5447eabe1">&#9670;&nbsp;</a></span>sub_0804BF38()</h2>
+<a id="a2f332a77fb81a32e5fecfc112a6fe642" name="a2f332a77fb81a32e5fecfc112a6fe642"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f332a77fb81a32e5fecfc112a6fe642">&#9670;&nbsp;</a></span>sub_0804BF38()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm non_matching sub_0804BF38 void sub_0804BF38 </td>
+          <td class="memname">void sub_0804BF38 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
           <td class="paramname"><em>this</em>, </td>
@@ -3558,17 +3676,16 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a1d450c5c0a13933f394caf6f196effa8" name="a1d450c5c0a13933f394caf6f196effa8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d450c5c0a13933f394caf6f196effa8">&#9670;&nbsp;</a></span>sub_0804C128()</h2>
+<a id="a5290421552e07a1b97831381f5542977" name="a5290421552e07a1b97831381f5542977"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5290421552e07a1b97831381f5542977">&#9670;&nbsp;</a></span>sub_0804C128()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm non_matching sub_0804C128 void sub_0804C128 </td>
+          <td class="memname">void sub_0804C128 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
-          <td class="paramname"><em>arg0</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -3576,14 +3693,32 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aec10a73672a18f24f0eca014a576031a" name="aec10a73672a18f24f0eca014a576031a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec10a73672a18f24f0eca014a576031a">&#9670;&nbsp;</a></span>sub_0804C258()</h2>
+<a id="a0330528547ec05a0dd44df0ca0a685ef" name="a0330528547ec05a0dd44df0ca0a685ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0330528547ec05a0dd44df0ca0a685ef">&#9670;&nbsp;</a></span>sub_0804C258()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm non_matching <a class="el" href="functions_8h.html#af24333fc5cea18416dab61ce73662ed1">sub_0804C128</a> void void sub_0804C258 </td>
+          <td class="memname">void sub_0804C258 </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a20465fb2da971525b479bd1f8faa6efe" name="a20465fb2da971525b479bd1f8faa6efe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20465fb2da971525b479bd1f8faa6efe">&#9670;&nbsp;</a></span>sub_0804C290()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_0804C290 </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -3682,8 +3817,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a07d00ddf21a5a69c6dfd5a4a9bd10010" name="a07d00ddf21a5a69c6dfd5a4a9bd10010"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07d00ddf21a5a69c6dfd5a4a9bd10010">&#9670;&nbsp;</a></span>sub_0804E150()</h2>
+<a id="a59054deb9cd3fcf45058a77287fad8f0" name="a59054deb9cd3fcf45058a77287fad8f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59054deb9cd3fcf45058a77287fad8f0">&#9670;&nbsp;</a></span>sub_0804E150()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3692,7 +3827,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">asm non_matching sub_0804E150 void sub_0804E150 </td>
+          <td class="memname">void sub_0804E150 </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -4529,6 +4664,41 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
           <td class="paramname"><em>r0</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaf620ffa47fef19385515571e823ba4e" name="aaf620ffa47fef19385515571e823ba4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf620ffa47fef19385515571e823ba4e">&#9670;&nbsp;</a></span>sub_080AF250() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_080AF250 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3980fc3ac78b35516acd54913ca4373d" name="a3980fc3ac78b35516acd54913ca4373d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3980fc3ac78b35516acd54913ca4373d">&#9670;&nbsp;</a></span>sub_080AF250() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_080AF250 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -10610,6 +10780,24 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">void sub_StateChange_HyruleField_WesternWoodSouth </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af970af5dc3e27e137aa95c50cd3d3aeb" name="af970af5dc3e27e137aa95c50cd3d3aeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af970af5dc3e27e137aa95c50cd3d3aeb">&#9670;&nbsp;</a></span>sub_StateChange_HyruleTown_0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_StateChange_HyruleTown_0 </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -19422,6 +19610,24 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="acea4d73094f442f3d97dd7aebd0452b9" name="acea4d73094f442f3d97dd7aebd0452b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acea4d73094f442f3d97dd7aebd0452b9">&#9670;&nbsp;</a></span>sub_unk3_EzloAuxCutscene_Main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> sub_unk3_EzloAuxCutscene_Main </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af2271dcdab085c0bdbdd881f97a956ca" name="af2271dcdab085c0bdbdd881f97a956ca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af2271dcdab085c0bdbdd881f97a956ca">&#9670;&nbsp;</a></span>sub_unk3_FortressOfWinds_BeforeMazaal()</h2>
 
@@ -21186,14 +21392,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="af5c2f6f73367d993065b5dc045b6d19d" name="af5c2f6f73367d993065b5dc045b6d19d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5c2f6f73367d993065b5dc045b6d19d">&#9670;&nbsp;</a></span>sub_unk3_HyruleTown_0()</h2>
+<a id="a2b4ceec917f153b524d2614a677368ab" name="a2b4ceec917f153b524d2614a677368ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b4ceec917f153b524d2614a677368ab">&#9670;&nbsp;</a></span>sub_unk3_HyruleTown_0()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm non_matching sub_unk3_HyruleTown_0 <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> sub_unk3_HyruleTown_0 </td>
+          <td class="memname"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> sub_unk3_HyruleTown_0 </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -21212,6 +21418,24 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> sub_unk3_HyruleTownMinishCaves_CrossIntersection </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af92cd80cf46c483db4aca28d57248c66" name="af92cd80cf46c483db4aca28d57248c66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af92cd80cf46c483db4aca28d57248c66">&#9670;&nbsp;</a></span>sub_unk3_HyruleTownMinishCaves_Entrance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> sub_unk3_HyruleTownMinishCaves_Entrance </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -23940,6 +24164,24 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a452500b138257136adf2035762129023" name="a452500b138257136adf2035762129023"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a452500b138257136adf2035762129023">&#9670;&nbsp;</a></span>sub_unk3_RoyalValleyGraves_HeartPiece()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> sub_unk3_RoyalValleyGraves_HeartPiece </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a65ef724ba94239b87ef99537f88a7f15" name="a65ef724ba94239b87ef99537f88a7f15"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a65ef724ba94239b87ef99537f88a7f15">&#9670;&nbsp;</a></span>sub_unk3_Ruins_Armos()</h2>
 
@@ -25741,6 +25983,28 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="a4c47caa1091e34e22e23d52670cb3999" name="a4c47caa1091e34e22e23d52670cb3999"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c47caa1091e34e22e23d52670cb3999">&#9670;&nbsp;</a></span>Area_HyruleTown</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> Area_HyruleTown[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2164fe829c1d19f7439f6987cacc36ce" name="a2164fe829c1d19f7439f6987cacc36ce"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2164fe829c1d19f7439f6987cacc36ce">&#9670;&nbsp;</a></span>Enemies_LakeHylia_Main</h2>
 
@@ -25796,6 +26060,28 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structEntityData.html">EntityData</a> Entities_MinishPaths1_MayorsCabin_gUnk_080D6138</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a47355985be5647fb4001c4b0617f6cfd" name="a47355985be5647fb4001c4b0617f6cfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47355985be5647fb4001c4b0617f6cfd">&#9670;&nbsp;</a></span>gCurrentRoomProperties</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void** gCurrentRoomProperties</td>
         </tr>
       </table>
   </td>
@@ -26841,6 +27127,28 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="aaea8023e3354c7ca9aaef2a4db5ff15e" name="aaea8023e3354c7ca9aaef2a4db5ff15e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaea8023e3354c7ca9aaef2a4db5ff15e">&#9670;&nbsp;</a></span>gUnk_080D8E50</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structstruct__080D8E54.html">struct_080D8E54</a> gUnk_080D8E50[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac5c882624da4249832e157c8ad251554" name="ac5c882624da4249832e157c8ad251554"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac5c882624da4249832e157c8ad251554">&#9670;&nbsp;</a></span>gUnk_080D9098</h2>
 
@@ -26896,6 +27204,94 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structEntityData.html">EntityData</a> gUnk_080D9108</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a34bd4461965e25ad6b9574f3b55c507a" name="a34bd4461965e25ad6b9574f3b55c507a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34bd4461965e25ad6b9574f3b55c507a">&#9670;&nbsp;</a></span>gUnk_080D9328</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structTileEntity.html">TileEntity</a> gUnk_080D9328[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa294e4271364880cb36abf2377c16ce9" name="aa294e4271364880cb36abf2377c16ce9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa294e4271364880cb36abf2377c16ce9">&#9670;&nbsp;</a></span>gUnk_080D9338</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gUnk_080D9338[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad8ef7e1810bf344ad0a83202ddf8065d" name="ad8ef7e1810bf344ad0a83202ddf8065d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8ef7e1810bf344ad0a83202ddf8065d">&#9670;&nbsp;</a></span>gUnk_080D9340</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gUnk_080D9340[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aef260ecc9bcb13759b8469c3670a21dc" name="aef260ecc9bcb13759b8469c3670a21dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef260ecc9bcb13759b8469c3670a21dc">&#9670;&nbsp;</a></span>gUnk_080D9348</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgUnk__080D9348__struct.html">gUnk_080D9348_struct</a> gUnk_080D9348[]</td>
         </tr>
       </table>
   </td>
@@ -28722,6 +29118,512 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structEntityData.html">EntityData</a> gUnk_080EE71C</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a58178e7b71f9fd57ceab0084ada51a56" name="a58178e7b71f9fd57ceab0084ada51a56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58178e7b71f9fd57ceab0084ada51a56">&#9670;&nbsp;</a></span>gUnk_080EE88C</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structEntityData.html">EntityData</a> gUnk_080EE88C</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3d3cd33cbdb62f4525f9c6ba071e7f89" name="a3d3cd33cbdb62f4525f9c6ba071e7f89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d3cd33cbdb62f4525f9c6ba071e7f89">&#9670;&nbsp;</a></span>gUnk_080EE8FC</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structEntityData.html">EntityData</a> gUnk_080EE8FC</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a062b417e05a57518c7aea697c7a87859" name="a062b417e05a57518c7aea697c7a87859"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a062b417e05a57518c7aea697c7a87859">&#9670;&nbsp;</a></span>gUnk_080EE91C</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structEntityData.html">EntityData</a> gUnk_080EE91C</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a90636c367b394e90491085f2cdef9d65" name="a90636c367b394e90491085f2cdef9d65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90636c367b394e90491085f2cdef9d65">&#9670;&nbsp;</a></span>gUnk_080EE93C</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structEntityData.html">EntityData</a> gUnk_080EE93C</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0b89164cc4c62f6b1fae5507f6ba5bca" name="a0b89164cc4c62f6b1fae5507f6ba5bca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b89164cc4c62f6b1fae5507f6ba5bca">&#9670;&nbsp;</a></span>gUnk_080EE95C</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structEntityData.html">EntityData</a> gUnk_080EE95C</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9b903b16905930b2a1aeb0661ea6b43b" name="a9b903b16905930b2a1aeb0661ea6b43b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b903b16905930b2a1aeb0661ea6b43b">&#9670;&nbsp;</a></span>gUnk_080EE97C</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structEntityData.html">EntityData</a> gUnk_080EE97C</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af4752f3b18be05784cc421b392038dce" name="af4752f3b18be05784cc421b392038dce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4752f3b18be05784cc421b392038dce">&#9670;&nbsp;</a></span>gUnk_080EE99C</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structEntityData.html">EntityData</a> gUnk_080EE99C</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a99074426bb622f0e8c291722b2b4c6cf" name="a99074426bb622f0e8c291722b2b4c6cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99074426bb622f0e8c291722b2b4c6cf">&#9670;&nbsp;</a></span>gUnk_080EE9BC</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structEntityData.html">EntityData</a> gUnk_080EE9BC</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afd72dc00b4a189244fbd7acd5401b8a8" name="afd72dc00b4a189244fbd7acd5401b8a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd72dc00b4a189244fbd7acd5401b8a8">&#9670;&nbsp;</a></span>gUnk_080EE9DC</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structEntityData.html">EntityData</a> gUnk_080EE9DC</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af1b419aafd5b53499ea9cfba4191720c" name="af1b419aafd5b53499ea9cfba4191720c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1b419aafd5b53499ea9cfba4191720c">&#9670;&nbsp;</a></span>gUnk_080EE9FC</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structEntityData.html">EntityData</a> gUnk_080EE9FC</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a66df67000f79e6c384573c55bd076987" name="a66df67000f79e6c384573c55bd076987"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66df67000f79e6c384573c55bd076987">&#9670;&nbsp;</a></span>gUnk_080EEA1C</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structEntityData.html">EntityData</a> gUnk_080EEA1C</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a796cf4d5b401df97d1da34cc21501d3f" name="a796cf4d5b401df97d1da34cc21501d3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a796cf4d5b401df97d1da34cc21501d3f">&#9670;&nbsp;</a></span>gUnk_080EEA3C</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structEntityData.html">EntityData</a> gUnk_080EEA3C</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae1c379f0e0785105ef1ba800a23b034c" name="ae1c379f0e0785105ef1ba800a23b034c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1c379f0e0785105ef1ba800a23b034c">&#9670;&nbsp;</a></span>gUnk_080EEA5C</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structEntityData.html">EntityData</a> gUnk_080EEA5C</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac4edcfe13967e193137c2c9ab78060fd" name="ac4edcfe13967e193137c2c9ab78060fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4edcfe13967e193137c2c9ab78060fd">&#9670;&nbsp;</a></span>gUnk_080EEA7C</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structEntityData.html">EntityData</a> gUnk_080EEA7C</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a10a351a930ab8d40341a5e4b008a2855" name="a10a351a930ab8d40341a5e4b008a2855"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10a351a930ab8d40341a5e4b008a2855">&#9670;&nbsp;</a></span>gUnk_080EEA9C</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structEntityData.html">EntityData</a> gUnk_080EEA9C</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad2de58618070ea6e1d32d3d10f1b5360" name="ad2de58618070ea6e1d32d3d10f1b5360"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2de58618070ea6e1d32d3d10f1b5360">&#9670;&nbsp;</a></span>gUnk_080EEABC</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structEntityData.html">EntityData</a> gUnk_080EEABC</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab8482f4e2911df1562fa120ff495ae19" name="ab8482f4e2911df1562fa120ff495ae19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8482f4e2911df1562fa120ff495ae19">&#9670;&nbsp;</a></span>gUnk_080EEB6C</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structEntityData.html">EntityData</a> gUnk_080EEB6C</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a418a629b7ec0ff501aa7a620823d292f" name="a418a629b7ec0ff501aa7a620823d292f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a418a629b7ec0ff501aa7a620823d292f">&#9670;&nbsp;</a></span>gUnk_080EEB8C</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structEntityData.html">EntityData</a> gUnk_080EEB8C</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2a2ec3b16bec3f79ecb29bd21440a61d" name="a2a2ec3b16bec3f79ecb29bd21440a61d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a2ec3b16bec3f79ecb29bd21440a61d">&#9670;&nbsp;</a></span>gUnk_080EEBAC</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structEntityData.html">EntityData</a> gUnk_080EEBAC</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac36d0e6c20bf00e51dcecee7fb95eeb7" name="ac36d0e6c20bf00e51dcecee7fb95eeb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac36d0e6c20bf00e51dcecee7fb95eeb7">&#9670;&nbsp;</a></span>gUnk_080EECBC</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structEntityData.html">EntityData</a> gUnk_080EECBC</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa63c69f352f23b419f77a363d42f3959" name="aa63c69f352f23b419f77a363d42f3959"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa63c69f352f23b419f77a363d42f3959">&#9670;&nbsp;</a></span>gUnk_080EED2C</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> gUnk_080EED2C[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af491e8bb9f83811f444e0511eac0fd71" name="af491e8bb9f83811f444e0511eac0fd71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af491e8bb9f83811f444e0511eac0fd71">&#9670;&nbsp;</a></span>gUnk_080EED7A</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> gUnk_080EED7A[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad22ced1b91b2ba762739ea2a301f5424" name="ad22ced1b91b2ba762739ea2a301f5424"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad22ced1b91b2ba762739ea2a301f5424">&#9670;&nbsp;</a></span>gUnk_080EED8C</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> gUnk_080EED8C[]</td>
         </tr>
       </table>
   </td>
@@ -31713,20 +32615,6 @@ Variables</h2></td></tr>
 <span class="mlabels"><span class="mlabel">extern</span></span>  </td>
   </tr>
 </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac6077066f86e24fd6e3f410ce9867035" name="ac6077066f86e24fd6e3f410ce9867035"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6077066f86e24fd6e3f410ce9867035">&#9670;&nbsp;</a></span>inc</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">asm non_matching <a class="el" href="roomInit_8c.html#a07d00ddf21a5a69c6dfd5a4a9bd10010">sub_0804E150</a> inc</td>
-        </tr>
-      </table>
 </div><div class="memdoc">
 
 </div>
