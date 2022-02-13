@@ -53,7 +53,7 @@ var searchData=
   ['loaddestructibletile_50',['LoadDestructibleTile',['../room_8c.html#ac7dd77717573ffa4166f37b6fab20559',1,'room.c']]],
   ['loaddungeonmap_51',['LoadDungeonMap',['../common_8c.html#a417d32343e67ed3919b0d02ac59fba94',1,'common.c']]],
   ['loadenemysprite_52',['LoadEnemySprite',['../enemyUtils_8c.html#a7201483413ff045e1cd0b3c3c1f76488',1,'enemyUtils.c']]],
-  ['loadextraspritedata_53',['LoadExtraSpriteData',['../coord_8c.html#ab2b3d350970ecca78d85a56b7f4fc61c',1,'LoadExtraSpriteData(Entity *ent, SpriteLoadData *data):&#160;coord.c'],['../entity_8h.html#aab9f6d060c591fb322b867829f102df5',1,'LoadExtraSpriteData(Entity *, SpriteLoadData *):&#160;coord.c']]],
+  ['loadextraspritedata_53',['LoadExtraSpriteData',['../coord_8c.html#ad5c9f9a208e903c8e10907cbf5a620c2',1,'LoadExtraSpriteData(Entity *ent, const SpriteLoadData *data):&#160;coord.c'],['../entity_8h.html#a431399466f1dd786ad6c2da6687a669a',1,'LoadExtraSpriteData(Entity *, const SpriteLoadData *):&#160;coord.c']]],
   ['loadfixedgfx_54',['LoadFixedGFX',['../functions_8h.html#abea9f1af83533968776ef12679ea00a6',1,'functions.h']]],
   ['loadgfxgroup_55',['LoadGfxGroup',['../common_8c.html#a197f813dd589da7f5211b32a5051b968',1,'LoadGfxGroup(u32 group):&#160;common.c'],['../common_8h.html#a197f813dd589da7f5211b32a5051b968',1,'LoadGfxGroup(u32 group):&#160;common.c']]],
   ['loadgfxgroups_56',['LoadGfxGroups',['../game_8c.html#a7482df4274a5bd5b05e79652139ca851',1,'LoadGfxGroups(void):&#160;game.c'],['../game_8h.html#a7482df4274a5bd5b05e79652139ca851',1,'LoadGfxGroups(void):&#160;game.c']]],
