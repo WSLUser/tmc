@@ -242,10 +242,17 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:a8c8d699f77e19d867cfadeb034c8b069"><td class="mdescLeft">&#160;</td><td class="mdescRight">Animation state.  <a href="entity_8h.html#a8c8d699f77e19d867cfadeb034c8b069">More...</a><br /></td></tr>
 <tr class="separator:a8c8d699f77e19d867cfadeb034c8b069"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a224b9163917ac32fc95a60d8c1eec3aa"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8h.html#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a> { <a class="el" href="entity_8h.html#a224b9163917ac32fc95a60d8c1eec3aaa8f1425d2ecbee7be057b4b1c31e25467">DirectionNorth</a> = 0x00
+<tr class="memitem:a224b9163917ac32fc95a60d8c1eec3aa"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8h.html#a224b9163917ac32fc95a60d8c1eec3aa">Direction</a> { <br />
+&#160;&#160;<a class="el" href="entity_8h.html#a224b9163917ac32fc95a60d8c1eec3aaa8f1425d2ecbee7be057b4b1c31e25467">DirectionNorth</a> = 0x00
+, <a class="el" href="entity_8h.html#a224b9163917ac32fc95a60d8c1eec3aaa6db56a7c25a036acea29d2e56e03e1b4">DirectionNorthEast</a> = 0x04
 , <a class="el" href="entity_8h.html#a224b9163917ac32fc95a60d8c1eec3aaa1aecb83f53401d022e3ce6928b1a8603">DirectionEast</a> = 0x08
-, <a class="el" href="entity_8h.html#a224b9163917ac32fc95a60d8c1eec3aaa9726cb1a975842fbbafc8fcb4a711f90">DirectionSouth</a> = 0x10
+, <a class="el" href="entity_8h.html#a224b9163917ac32fc95a60d8c1eec3aaafc7ad673786863dc1a63cc68e247c8fa">DirectionSouthEast</a> = 0x0c
+, <br />
+&#160;&#160;<a class="el" href="entity_8h.html#a224b9163917ac32fc95a60d8c1eec3aaa9726cb1a975842fbbafc8fcb4a711f90">DirectionSouth</a> = 0x10
+, <a class="el" href="entity_8h.html#a224b9163917ac32fc95a60d8c1eec3aaa3df371672501ae9c95133e2b6a502568">DirectionSouthWest</a> = 0x14
 , <a class="el" href="entity_8h.html#a224b9163917ac32fc95a60d8c1eec3aaaae592cfe015c4042a4dccf8edc21634d">DirectionWest</a> = 0x18
+, <a class="el" href="entity_8h.html#a224b9163917ac32fc95a60d8c1eec3aaa1d41c2e64aa05257e8984642dbe19255">DirectionNorthWest</a> = 0x1c
+<br />
  }</td></tr>
 <tr class="memdesc:a224b9163917ac32fc95a60d8c1eec3aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Direction.  <a href="entity_8h.html#a224b9163917ac32fc95a60d8c1eec3aa">More...</a><br /></td></tr>
 <tr class="separator:a224b9163917ac32fc95a60d8c1eec3aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -278,8 +285,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a5ebb68d9e92dab100e3c107ed4e0b463"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8h.html#a5ebb68d9e92dab100e3c107ed4e0b463">GetFacingDirection</a> (<a class="el" href="structEntity.html">Entity</a> *origin, <a class="el" href="structEntity.html">Entity</a> *target)</td></tr>
 <tr class="memdesc:a5ebb68d9e92dab100e3c107ed4e0b463"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the direction pointing from one <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> to another.  <a href="entity_8h.html#a5ebb68d9e92dab100e3c107ed4e0b463">More...</a><br /></td></tr>
 <tr class="separator:a5ebb68d9e92dab100e3c107ed4e0b463"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19f548f4df2c94bb67e7f5c4e2c67f36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8h.html#a19f548f4df2c94bb67e7f5c4e2c67f36">ProcessMovement</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a19f548f4df2c94bb67e7f5c4e2c67f36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a793e58ec68505a054effc1c2ca381b6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8h.html#a793e58ec68505a054effc1c2ca381b6e">ProcessMovement0</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
+<tr class="separator:a793e58ec68505a054effc1c2ca381b6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a773eed4b8020d1f54f34aa6b2b482110"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8h.html#a773eed4b8020d1f54f34aa6b2b482110">UpdateEntities</a> (void)</td></tr>
 <tr class="memdesc:a773eed4b8020d1f54f34aa6b2b482110"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iteratively execute every <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a>.  <a href="entity_8h.html#a773eed4b8020d1f54f34aa6b2b482110">More...</a><br /></td></tr>
 <tr class="separator:a773eed4b8020d1f54f34aa6b2b482110"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -907,11 +914,19 @@ Variables</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a224b9163917ac32fc95a60d8c1eec3aaa8f1425d2ecbee7be057b4b1c31e25467" name="a224b9163917ac32fc95a60d8c1eec3aaa8f1425d2ecbee7be057b4b1c31e25467"></a>DirectionNorth&#160;</td><td class="fielddoc"><p >North. </p>
 </td></tr>
+<tr><td class="fieldname"><a id="a224b9163917ac32fc95a60d8c1eec3aaa6db56a7c25a036acea29d2e56e03e1b4" name="a224b9163917ac32fc95a60d8c1eec3aaa6db56a7c25a036acea29d2e56e03e1b4"></a>DirectionNorthEast&#160;</td><td class="fielddoc"><p >North East. </p>
+</td></tr>
 <tr><td class="fieldname"><a id="a224b9163917ac32fc95a60d8c1eec3aaa1aecb83f53401d022e3ce6928b1a8603" name="a224b9163917ac32fc95a60d8c1eec3aaa1aecb83f53401d022e3ce6928b1a8603"></a>DirectionEast&#160;</td><td class="fielddoc"><p >East. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a224b9163917ac32fc95a60d8c1eec3aaafc7ad673786863dc1a63cc68e247c8fa" name="a224b9163917ac32fc95a60d8c1eec3aaafc7ad673786863dc1a63cc68e247c8fa"></a>DirectionSouthEast&#160;</td><td class="fielddoc"><p >South East. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a224b9163917ac32fc95a60d8c1eec3aaa9726cb1a975842fbbafc8fcb4a711f90" name="a224b9163917ac32fc95a60d8c1eec3aaa9726cb1a975842fbbafc8fcb4a711f90"></a>DirectionSouth&#160;</td><td class="fielddoc"><p >South. </p>
 </td></tr>
+<tr><td class="fieldname"><a id="a224b9163917ac32fc95a60d8c1eec3aaa3df371672501ae9c95133e2b6a502568" name="a224b9163917ac32fc95a60d8c1eec3aaa3df371672501ae9c95133e2b6a502568"></a>DirectionSouthWest&#160;</td><td class="fielddoc"><p >South West. </p>
+</td></tr>
 <tr><td class="fieldname"><a id="a224b9163917ac32fc95a60d8c1eec3aaaae592cfe015c4042a4dccf8edc21634d" name="a224b9163917ac32fc95a60d8c1eec3aaaae592cfe015c4042a4dccf8edc21634d"></a>DirectionWest&#160;</td><td class="fielddoc"><p >West. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a224b9163917ac32fc95a60d8c1eec3aaa1d41c2e64aa05257e8984642dbe19255" name="a224b9163917ac32fc95a60d8c1eec3aaa1d41c2e64aa05257e8984642dbe19255"></a>DirectionNorthWest&#160;</td><td class="fielddoc"><p >North West. </p>
 </td></tr>
 </table>
 
@@ -1821,14 +1836,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a19f548f4df2c94bb67e7f5c4e2c67f36" name="a19f548f4df2c94bb67e7f5c4e2c67f36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19f548f4df2c94bb67e7f5c4e2c67f36">&#9670;&nbsp;</a></span>ProcessMovement()</h2>
+<a id="a793e58ec68505a054effc1c2ca381b6e" name="a793e58ec68505a054effc1c2ca381b6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a793e58ec68505a054effc1c2ca381b6e">&#9670;&nbsp;</a></span>ProcessMovement0()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> ProcessMovement </td>
+          <td class="memname"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a> ProcessMovement0 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>

@@ -77,6 +77,9 @@ $(function() {
 <li>Dampe()&#160;:&#160;<a class="el" href="npc_8h.html#a4a8373fdfba2990b3c57dbd3a6a6e7e4">npc.h</a>, <a class="el" href="dampe_8c.html#a8698809da02b860865d6c3a3a2737f37">dampe.c</a></li>
 <li>Dampe_Fusion()&#160;:&#160;<a class="el" href="npc_8h.html#a84527841d619a0fb7a87838897b9d634">npc.h</a>, <a class="el" href="dampe_8c.html#aabe7301563681e25614280055cd1a7ba">dampe.c</a></li>
 <li>DarkNut()&#160;:&#160;<a class="el" href="enemy_8h.html#a212a86d488d3e37acd250ca9a06ac725">enemy.h</a>, <a class="el" href="darkNut_8c.html#aee5e89c9ac991b6963a9150ea8c0e928">darkNut.c</a></li>
+<li>DarkNut_OnCollision()&#160;:&#160;<a class="el" href="darkNut_8c.html#ace60448a2cdc3c9902bb00be473b6e5e">darkNut.c</a></li>
+<li>DarkNut_OnGrabbed()&#160;:&#160;<a class="el" href="darkNut_8c.html#a58a7b9ece73e3232be0ac05bd082d184">darkNut.c</a></li>
+<li>DarkNut_OnTick()&#160;:&#160;<a class="el" href="darkNut_8c.html#a1d8f58fd11ec5e6428575f5a15fd7708">darkNut.c</a></li>
 <li>DarkNutSwordSlash()&#160;:&#160;<a class="el" href="darkNutSwordSlash_8c.html#a6c0b2bc6f1c61261fa34a14d87674d05">darkNutSwordSlash.c</a>, <a class="el" href="projectile_8h.html#a3d3c2f15dd7eadfd0afa75e611033972">projectile.h</a></li>
 <li>DarkNutSwordSlash_Init()&#160;:&#160;<a class="el" href="darkNutSwordSlash_8c.html#aad51a48658f75c36fe1bb909a18346e1">darkNutSwordSlash.c</a></li>
 <li>DarkNutSwordSlash_OnTick()&#160;:&#160;<a class="el" href="darkNutSwordSlash_8c.html#a45d8a23ab948c89949e3546145fc2bdc">darkNutSwordSlash.c</a></li>
@@ -131,7 +134,7 @@ $(function() {
 <li>DirtBallProjectile_Action3()&#160;:&#160;<a class="el" href="dirtBallProjectile_8c.html#a9dc29305e8ae58292cac7868023d168c">dirtBallProjectile.c</a></li>
 <li>DirtBallProjectile_Init()&#160;:&#160;<a class="el" href="dirtBallProjectile_8c.html#a6af8403980ffcfde4f1c45cb9dc7c649">dirtBallProjectile.c</a></li>
 <li>DirtBallProjectile_OnTick()&#160;:&#160;<a class="el" href="dirtBallProjectile_8c.html#a2ad4c42686384bff8f0231f1e3c8ea1e">dirtBallProjectile.c</a></li>
-<li>DisableInterruptsAndDMA()&#160;:&#160;<a class="el" href="main_8h.html#afb3319fb2e573b4a8f133c7dec312d0b">main.h</a>, <a class="el" href="main_8c.html#afb3319fb2e573b4a8f133c7dec312d0b">main.c</a></li>
+<li>DisableInterruptsAndDMA()&#160;:&#160;<a class="el" href="main_8c.html#afb3319fb2e573b4a8f133c7dec312d0b">main.c</a>, <a class="el" href="main_8h.html#afb3319fb2e573b4a8f133c7dec312d0b">main.h</a></li>
 <li>DispCtrlSet()&#160;:&#160;<a class="el" href="interrupts_8c.html#ad632915127e156185e0e58e390a9baf4">interrupts.c</a></li>
 <li>DispCursor()&#160;:&#160;<a class="el" href="message_8c.html#a536126c7262f033e911c5f36f0155bd9">message.c</a></li>
 <li>DisplayEzloMessage()&#160;:&#160;<a class="el" href="game_8c.html#a05dee04fcc7811f8a485a7b8ea1c8f73">game.c</a>, <a class="el" href="game_8h.html#a05dee04fcc7811f8a485a7b8ea1c8f73">game.h</a></li>
@@ -141,12 +144,15 @@ $(function() {
 <li>Div()&#160;:&#160;<a class="el" href="syscall_8h.html#a2960b8e6a876ba30e2d6ac30ce0cde23">syscall.h</a></li>
 <li>DMA3Transfer()&#160;:&#160;<a class="el" href="eeprom_8c.html#a46626e7c9b1b26521222b6e13510d989">eeprom.c</a></li>
 <li>DoExitTransition()&#160;:&#160;<a class="el" href="room_8h.html#a21d3dac01c17d46f44719887df81dc9d">room.h</a></li>
-<li>Dog()&#160;:&#160;<a class="el" href="npc_8h.html#aa16e4b6238cbc4a91723836ddf02d343">npc.h</a>, <a class="el" href="dog_8c.html#a774d19a533a974a59eee0c9e9ec56052">dog.c</a></li>
-<li>Dog_Fusion()&#160;:&#160;<a class="el" href="dog_8c.html#aca79d799077c1e38cf90d4bb3d240e24">dog.c</a>, <a class="el" href="npc_8h.html#a7ba1279350b0207944d16c41215b6288">npc.h</a></li>
+<li>Dog()&#160;:&#160;<a class="el" href="dog_8c.html#a774d19a533a974a59eee0c9e9ec56052">dog.c</a>, <a class="el" href="npc_8h.html#aa16e4b6238cbc4a91723836ddf02d343">npc.h</a></li>
+<li>Dog_Fusion()&#160;:&#160;<a class="el" href="npc_8h.html#a7ba1279350b0207944d16c41215b6288">npc.h</a>, <a class="el" href="dog_8c.html#aca79d799077c1e38cf90d4bb3d240e24">dog.c</a></li>
 <li>Dog_Head()&#160;:&#160;<a class="el" href="dog_8c.html#a09b7480811b3a814cf2cd80004217c86">dog.c</a>, <a class="el" href="npc_8h.html#ab630bd491cf9a8924227093fedf6d3a9">npc.h</a></li>
 <li>DoGravity()&#160;:&#160;<a class="el" href="script_8c.html#a51f46276f4c85c88c9d0765080d88b34">script.c</a></li>
 <li>DoJump()&#160;:&#160;<a class="el" href="player_8c.html#a41af1b1fb887b5c6f9c58826524a98cb">player.c</a></li>
 <li>DoorMimic()&#160;:&#160;<a class="el" href="doorMimic_8c.html#a4d0c06096983a30afad97e3442cc418b">doorMimic.c</a>, <a class="el" href="enemy_8h.html#a359996202f1b19d74e32cd41d70f6e77">enemy.h</a></li>
+<li>DoorMimic_OnCollision()&#160;:&#160;<a class="el" href="doorMimic_8c.html#ab3c2b0e0dfa0b8c1e07dde5c9ea2c528">doorMimic.c</a></li>
+<li>DoorMimic_OnDeath()&#160;:&#160;<a class="el" href="doorMimic_8c.html#af2db25d766f1ac424bacad86ae7502cf">doorMimic.c</a></li>
+<li>DoorMimic_OnTick()&#160;:&#160;<a class="el" href="doorMimic_8c.html#a33e71485611c3fb6221a4208e4b91ed3">doorMimic.c</a></li>
 <li>DoPlayerAction()&#160;:&#160;<a class="el" href="interrupts_8c.html#a280e63732a45689662e5555109309524">interrupts.c</a>, <a class="el" href="player_8c.html#af456eb2153d5dd420ee7d1fd44ccfbff">player.c</a></li>
 <li>doPlaySound()&#160;:&#160;<a class="el" href="sound_8c.html#ae6e5df15a70093e4a5fc30f40de29a73">sound.c</a></li>
 <li>DoSoftReset()&#160;:&#160;<a class="el" href="main_8c.html#a6fb906bdecad7b7112e07a76cfdd17ac">main.c</a>, <a class="el" href="main_8h.html#a6fb906bdecad7b7112e07a76cfdd17ac">main.h</a></li>

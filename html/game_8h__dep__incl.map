@@ -1,5 +1,5 @@
 <map id="include/game.h" name="include/game.h">
-<area shape="rect" id="node1" title=" " alt="" coords="2905,5,3015,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="2973,5,3083,32"/>
 <area shape="rect" id="node2" href="$collision_8c.html" title=" " alt="" coords="5,87,107,114"/>
 <area shape="rect" id="node3" href="$common_8c.html" title=" " alt="" coords="131,87,235,114"/>
 <area shape="rect" id="node4" href="$debug_8c.html" title="Debug task." alt="" coords="259,87,349,114"/>
@@ -17,22 +17,23 @@
 <area shape="rect" id="node16" href="$manager39_8c.html" title=" " alt="" coords="2321,87,2493,114"/>
 <area shape="rect" id="node17" href="$figurine__menu_8c.html" title=" " alt="" coords="2517,87,2688,114"/>
 <area shape="rect" id="node18" href="$pause__menu_8c.html" title=" " alt="" coords="2713,87,2877,114"/>
-<area shape="rect" id="node19" href="$beedle_8c.html" title=" " alt="" coords="2901,87,3019,114"/>
-<area shape="rect" id="node20" href="$bladeBrothers_8c.html" title=" " alt="" coords="3043,87,3202,114"/>
-<area shape="rect" id="node21" href="$npc4E_8c.html" title=" " alt="" coords="3227,87,3341,114"/>
-<area shape="rect" id="node22" href="$archway_8c.html" title=" " alt="" coords="3365,87,3507,114"/>
-<area shape="rect" id="node23" href="$lockedDoor_8c.html" title=" " alt="" coords="3531,87,3690,114"/>
-<area shape="rect" id="node24" href="$minishSizedArchway_8c.html" title=" " alt="" coords="3715,87,3928,114"/>
-<area shape="rect" id="node25" href="$minishSizedEntrance_8c.html" title=" " alt="" coords="3953,87,4167,114"/>
-<area shape="rect" id="node26" href="$objectA_8c.html" title=" " alt="" coords="4191,87,4329,114"/>
-<area shape="rect" id="node27" href="$octorokBossObject_8c.html" title=" " alt="" coords="4353,87,4557,114"/>
-<area shape="rect" id="node28" href="$pullableMushroom_8c.html" title="Pullable Mushroom object." alt="" coords="4581,87,4779,114"/>
-<area shape="rect" id="node29" href="$warpPoint_8c.html" title=" " alt="" coords="4803,87,4954,114"/>
-<area shape="rect" id="node30" href="$player_8c.html" title="Player entity." alt="" coords="4979,87,5067,114"/>
-<area shape="rect" id="node31" href="$mandiblesProjectile_8c.html" title=" " alt="" coords="5091,80,5250,121"/>
-<area shape="rect" id="node32" href="$room_8c.html" title=" " alt="" coords="5275,87,5357,114"/>
-<area shape="rect" id="node33" href="$roomInit_8c.html" title=" " alt="" coords="5381,87,5483,114"/>
-<area shape="rect" id="node34" href="$save_8c.html" title=" " alt="" coords="5507,87,5589,114"/>
-<area shape="rect" id="node35" href="$script_8c.html" title=" " alt="" coords="5614,87,5701,114"/>
-<area shape="rect" id="node36" href="$scroll_8c.html" title=" " alt="" coords="5725,87,5811,114"/>
+<area shape="rect" id="node19" href="$movement_8c.html" title=" " alt="" coords="2901,87,3016,114"/>
+<area shape="rect" id="node20" href="$beedle_8c.html" title=" " alt="" coords="3040,87,3157,114"/>
+<area shape="rect" id="node21" href="$bladeBrothers_8c.html" title=" " alt="" coords="3182,87,3341,114"/>
+<area shape="rect" id="node22" href="$npc4E_8c.html" title=" " alt="" coords="3365,87,3480,114"/>
+<area shape="rect" id="node23" href="$archway_8c.html" title=" " alt="" coords="3504,87,3645,114"/>
+<area shape="rect" id="node24" href="$lockedDoor_8c.html" title=" " alt="" coords="3670,87,3829,114"/>
+<area shape="rect" id="node25" href="$minishSizedArchway_8c.html" title=" " alt="" coords="3853,87,4067,114"/>
+<area shape="rect" id="node26" href="$minishSizedEntrance_8c.html" title=" " alt="" coords="4091,87,4306,114"/>
+<area shape="rect" id="node27" href="$objectA_8c.html" title=" " alt="" coords="4330,87,4467,114"/>
+<area shape="rect" id="node28" href="$octorokBossObject_8c.html" title=" " alt="" coords="4491,87,4695,114"/>
+<area shape="rect" id="node29" href="$pullableMushroom_8c.html" title="Pullable Mushroom object." alt="" coords="4719,87,4918,114"/>
+<area shape="rect" id="node30" href="$warpPoint_8c.html" title=" " alt="" coords="4942,87,5093,114"/>
+<area shape="rect" id="node31" href="$player_8c.html" title="Player entity." alt="" coords="5117,87,5205,114"/>
+<area shape="rect" id="node32" href="$mandiblesProjectile_8c.html" title=" " alt="" coords="5230,80,5389,121"/>
+<area shape="rect" id="node33" href="$room_8c.html" title=" " alt="" coords="5413,87,5496,114"/>
+<area shape="rect" id="node34" href="$roomInit_8c.html" title=" " alt="" coords="5520,87,5621,114"/>
+<area shape="rect" id="node35" href="$save_8c.html" title=" " alt="" coords="5645,87,5728,114"/>
+<area shape="rect" id="node36" href="$script_8c.html" title=" " alt="" coords="5753,87,5839,114"/>
+<area shape="rect" id="node37" href="$scroll_8c.html" title=" " alt="" coords="5864,87,5949,114"/>
 </map>
