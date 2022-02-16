@@ -8,5 +8,6 @@ var searchData=
   ['objaffinesrcdata_5',['ObjAffineSrcData',['../structObjAffineSrcData.html',1,'']]],
   ['object6aentity_6',['Object6AEntity',['../structObject6AEntity.html',1,'']]],
   ['object6aentitytype15_7',['Object6AEntityType15',['../structObject6AEntityType15.html',1,'']]],
-  ['objectdefinition_8',['ObjectDefinition',['../structObjectDefinition.html',1,'']]]
+  ['object8eentity_8',['Object8EEntity',['../structObject8EEntity.html',1,'']]],
+  ['objectdefinition_9',['ObjectDefinition',['../structObjectDefinition.html',1,'']]]
 ];
