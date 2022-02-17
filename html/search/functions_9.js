@@ -41,7 +41,7 @@ var searchData=
   ['itemdebug_38',['ItemDebug',['../itemDebug_8c.html#aa34229ecbf4b26e6edebbdb72a9bafd8',1,'ItemDebug(ItemBehavior *beh, u32 arg1):&#160;itemDebug.c'],['../item_8h.html#abdd012c7bae6b59577243aa5a080a000',1,'ItemDebug(ItemBehavior *, u32):&#160;itemDebug.c']]],
   ['itemforsale_39',['ItemForSale',['../object_8h.html#a9eb1c56ab5637138a6b3d6bf4d05182f',1,'object.h']]],
   ['itemgustjar_40',['ItemGustJar',['../itemGustJar_8c.html#a51843fe08ae710014dea26f1a17c565c',1,'ItemGustJar(ItemBehavior *this, u32 arg1):&#160;itemGustJar.c'],['../item_8h.html#af1d2ad10de4e06163c0ff2d098b1305c',1,'ItemGustJar(ItemBehavior *, u32):&#160;itemGustJar.c']]],
-  ['iteminit_41',['ItemInit',['../playerItem_8c.html#ace887d0213728e07f051dc60b6648aca',1,'playerItem.c']]],
+  ['iteminit_41',['ItemInit',['../playerItem_8c.html#aabdfa559defc935245429e84127b7bea',1,'playerItem.c']]],
   ['itemisbottle_42',['ItemIsBottle',['../code__0805436C_8c.html#a5279334199fce0ffa9c2df4ddcea73fc',1,'code_0805436C.c']]],
   ['itemisshield_43',['ItemIsShield',['../game_8h.html#a722643f7edd47949ad0f8b8f4620d2a2',1,'ItemIsShield(u32 item):&#160;code_0805436C.c'],['../code__0805436C_8c.html#a885970d8012cde3027ca64fe3f9e1fcd',1,'ItemIsShield(u32 id):&#160;code_0805436C.c'],['../likeLike_8c.html#a73c4217cd9d4a5d16fa7bd09de4b8853',1,'ItemIsShield(u32):&#160;code_0805436C.c']]],
   ['itemissword_44',['ItemIsSword',['../code__0805436C_8c.html#a9bf43b44db39d21ecfe31789e450d984',1,'ItemIsSword(u32 item):&#160;code_0805436C.c'],['../player_8c.html#a1325eaaa1385e9399c30325cab4d3e29',1,'ItemIsSword(u32 item):&#160;code_0805436C.c'],['../game_8h.html#a9bf43b44db39d21ecfe31789e450d984',1,'ItemIsSword(u32 item):&#160;code_0805436C.c']]],
