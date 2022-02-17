@@ -42,7 +42,7 @@ var searchData=
   ['pita_39',['Pita',['../pita_8c.html#a73dd0752460d82f75efc2a690dddc706',1,'Pita(Entity *this):&#160;pita.c'],['../npc_8h.html#acb587f84b7c24be0ac7a1eb5418e4185',1,'Pita(Entity *):&#160;pita.c']]],
   ['playerbounce_40',['PlayerBounce',['../player_8c.html#a1e665804df4539a9f60326a2ebeb34d6',1,'player.c']]],
   ['playerbounceinit_41',['PlayerBounceInit',['../player_8c.html#aff5786a4877dc7a91e14818082ef52e9',1,'player.c']]],
-  ['playerbounceupdate_42',['PlayerBounceUpdate',['../player_8c.html#aa02125262c4a237519d9a6656d5fcad1',1,'player.c']]],
+  ['playerbounceupdate_42',['PlayerBounceUpdate',['../player_8c.html#a176303517d1c8e6db0342b42ffb950d7',1,'player.c']]],
   ['playerclimb_43',['PlayerClimb',['../player_8c.html#a88e739870518caca9737f3a8f818760f',1,'player.c']]],
   ['playerdrown_44',['PlayerDrown',['../player_8c.html#a23a7d54801338090e65535e2441ad549',1,'player.c']]],
   ['playerdrowninit_45',['PlayerDrownInit',['../player_8c.html#ab41bbb39a6da4e92607deaaa9e8b50b0',1,'player.c']]],

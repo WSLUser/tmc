@@ -257,7 +257,7 @@ var searchData=
   ['playeractions_254',['PlayerActions',['../player_8h.html#a31cd4a822edf57910c9ecb7801aca36e',1,'player.h']]],
   ['playerbounce_255',['PlayerBounce',['../player_8c.html#a1e665804df4539a9f60326a2ebeb34d6',1,'PlayerBounce(Entity *this):&#160;player.c'],['../player_8c.html#a68ec76632497e171e6c7a0207a47e5e8',1,'PlayerBounce():&#160;player.c']]],
   ['playerbounceinit_256',['PlayerBounceInit',['../player_8c.html#addd9108a52277d9eacd5ccd9ee17e076',1,'PlayerBounceInit():&#160;player.c'],['../player_8c.html#aff5786a4877dc7a91e14818082ef52e9',1,'PlayerBounceInit(Entity *this):&#160;player.c']]],
-  ['playerbounceupdate_257',['PlayerBounceUpdate',['../player_8c.html#ae60509753ba5bf77ab884de81bba9c07',1,'PlayerBounceUpdate():&#160;player.c'],['../player_8c.html#aa02125262c4a237519d9a6656d5fcad1',1,'PlayerBounceUpdate(Entity *this)):&#160;player.c']]],
+  ['playerbounceupdate_257',['PlayerBounceUpdate',['../player_8c.html#ae60509753ba5bf77ab884de81bba9c07',1,'PlayerBounceUpdate():&#160;player.c'],['../player_8c.html#a176303517d1c8e6db0342b42ffb950d7',1,'PlayerBounceUpdate(Entity *this):&#160;player.c']]],
   ['playerclimb_258',['PlayerClimb',['../player_8c.html#a4d9d8156c49684377384bc491e64ea07',1,'PlayerClimb():&#160;player.c'],['../player_8c.html#a88e739870518caca9737f3a8f818760f',1,'PlayerClimb(Entity *this):&#160;player.c']]],
   ['playercontrolmode_259',['PlayerControlMode',['../player_8h.html#a77ccb714ea1fe74fccd7c6f499518f07',1,'player.h']]],
   ['playerdrown_260',['PlayerDrown',['../player_8c.html#a080fec815abd515290d36a3bedbe282a',1,'PlayerDrown():&#160;player.c'],['../player_8c.html#a23a7d54801338090e65535e2441ad549',1,'PlayerDrown(Entity *this):&#160;player.c']]],
