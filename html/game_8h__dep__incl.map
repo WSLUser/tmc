@@ -1,5 +1,5 @@
 <map id="include/game.h" name="include/game.h">
-<area shape="rect" id="node1" title=" " alt="" coords="2973,5,3083,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="3044,5,3153,32"/>
 <area shape="rect" id="node2" href="$collision_8c.html" title=" " alt="" coords="5,87,107,114"/>
 <area shape="rect" id="node3" href="$common_8c.html" title=" " alt="" coords="131,87,235,114"/>
 <area shape="rect" id="node4" href="$debug_8c.html" title="Debug task." alt="" coords="259,87,349,114"/>
@@ -21,19 +21,20 @@
 <area shape="rect" id="node20" href="$beedle_8c.html" title=" " alt="" coords="3040,87,3157,114"/>
 <area shape="rect" id="node21" href="$bladeBrothers_8c.html" title=" " alt="" coords="3182,87,3341,114"/>
 <area shape="rect" id="node22" href="$npc4E_8c.html" title=" " alt="" coords="3365,87,3480,114"/>
-<area shape="rect" id="node23" href="$archway_8c.html" title=" " alt="" coords="3504,87,3645,114"/>
-<area shape="rect" id="node24" href="$lockedDoor_8c.html" title=" " alt="" coords="3670,87,3829,114"/>
-<area shape="rect" id="node25" href="$minishSizedArchway_8c.html" title=" " alt="" coords="3853,87,4067,114"/>
-<area shape="rect" id="node26" href="$minishSizedEntrance_8c.html" title=" " alt="" coords="4091,87,4306,114"/>
-<area shape="rect" id="node27" href="$objectA_8c.html" title=" " alt="" coords="4330,87,4467,114"/>
-<area shape="rect" id="node28" href="$octorokBossObject_8c.html" title=" " alt="" coords="4491,87,4695,114"/>
-<area shape="rect" id="node29" href="$pullableMushroom_8c.html" title="Pullable Mushroom object." alt="" coords="4719,87,4918,114"/>
-<area shape="rect" id="node30" href="$warpPoint_8c.html" title=" " alt="" coords="4942,87,5093,114"/>
-<area shape="rect" id="node31" href="$player_8c.html" title="Player entity." alt="" coords="5117,87,5205,114"/>
-<area shape="rect" id="node32" href="$mandiblesProjectile_8c.html" title=" " alt="" coords="5230,80,5389,121"/>
-<area shape="rect" id="node33" href="$room_8c.html" title=" " alt="" coords="5413,87,5496,114"/>
-<area shape="rect" id="node34" href="$roomInit_8c.html" title=" " alt="" coords="5520,87,5621,114"/>
-<area shape="rect" id="node35" href="$save_8c.html" title=" " alt="" coords="5645,87,5728,114"/>
-<area shape="rect" id="node36" href="$script_8c.html" title=" " alt="" coords="5753,87,5839,114"/>
-<area shape="rect" id="node37" href="$scroll_8c.html" title=" " alt="" coords="5864,87,5949,114"/>
+<area shape="rect" id="node23" href="$stockwell_8c.html" title=" " alt="" coords="3505,87,3639,114"/>
+<area shape="rect" id="node24" href="$archway_8c.html" title=" " alt="" coords="3664,87,3805,114"/>
+<area shape="rect" id="node25" href="$lockedDoor_8c.html" title=" " alt="" coords="3830,87,3989,114"/>
+<area shape="rect" id="node26" href="$minishSizedArchway_8c.html" title=" " alt="" coords="4013,87,4227,114"/>
+<area shape="rect" id="node27" href="$minishSizedEntrance_8c.html" title=" " alt="" coords="4251,87,4466,114"/>
+<area shape="rect" id="node28" href="$objectA_8c.html" title=" " alt="" coords="4490,87,4627,114"/>
+<area shape="rect" id="node29" href="$octorokBossObject_8c.html" title=" " alt="" coords="4651,87,4855,114"/>
+<area shape="rect" id="node30" href="$pullableMushroom_8c.html" title="Pullable Mushroom object." alt="" coords="4879,87,5078,114"/>
+<area shape="rect" id="node31" href="$warpPoint_8c.html" title=" " alt="" coords="5102,87,5253,114"/>
+<area shape="rect" id="node32" href="$player_8c.html" title="Player entity." alt="" coords="5277,87,5365,114"/>
+<area shape="rect" id="node33" href="$mandiblesProjectile_8c.html" title=" " alt="" coords="5390,80,5549,121"/>
+<area shape="rect" id="node34" href="$room_8c.html" title=" " alt="" coords="5573,87,5656,114"/>
+<area shape="rect" id="node35" href="$roomInit_8c.html" title=" " alt="" coords="5680,87,5781,114"/>
+<area shape="rect" id="node36" href="$save_8c.html" title=" " alt="" coords="5805,87,5888,114"/>
+<area shape="rect" id="node37" href="$script_8c.html" title=" " alt="" coords="5913,87,5999,114"/>
+<area shape="rect" id="node38" href="$scroll_8c.html" title=" " alt="" coords="6024,87,6109,114"/>
 </map>

@@ -105,8 +105,8 @@ var searchData=
   ['didallfusions_102',['didAllFusions',['../structSaveFile.html#a0bc501d9976d7a9af932bcd08a812eaa',1,'SaveFile']]],
   ['diggingcaveentrance_103',['DiggingCaveEntrance',['../structDiggingCaveEntrance.html',1,'']]],
   ['diggingcaveentrances_104',['diggingCaveEntrances',['../manager_8h.html#ac8b44f5034b59b599da2e333f59264e7',1,'manager.h']]],
-  ['din_105',['Din',['../npc_8h.html#ab4ec2c4341d00aab91adef03be59237f',1,'Din(Entity *):&#160;din.c'],['../din_8c.html#abba37f2013dc0df44998f6578c3a94d2',1,'Din(Entity *this):&#160;din.c']]],
-  ['din_106',['DIN',['../npc_8h.html#ab86484a9fbeb0e4494cb75cadb5f4cf3a5824b28625b0eaab46a92ee16b7c1793',1,'npc.h']]],
+  ['din_105',['DIN',['../npc_8h.html#ab86484a9fbeb0e4494cb75cadb5f4cf3a5824b28625b0eaab46a92ee16b7c1793',1,'npc.h']]],
+  ['din_106',['Din',['../npc_8h.html#ab4ec2c4341d00aab91adef03be59237f',1,'Din(Entity *):&#160;din.c'],['../din_8c.html#abba37f2013dc0df44998f6578c3a94d2',1,'Din(Entity *this):&#160;din.c']]],
   ['din_2ec_107',['din.c',['../din_8c.html',1,'']]],
   ['din_5ffusion_108',['Din_Fusion',['../din_8c.html#af5f954a71baa0bdbb2071f3a8287983c',1,'Din_Fusion(Entity *this):&#160;din.c'],['../npc_8h.html#ad27642d94f4eebb199bcb8c053f4b8dd',1,'Din_Fusion(Entity *):&#160;din.c']]],
   ['dir_109',['dir',['../structPressurePlateEntity.html#a2b4485c0ec55b3f63e1a2e2b0068ad9a',1,'PressurePlateEntity']]],
@@ -309,8 +309,8 @@ var searchData=
   ['dungeon_5fy_306',['dungeon_y',['../structPlayerRoomStatus.html#aac5acaace9515e8b25a10ff4bb1420fb',1,'PlayerRoomStatus']]],
   ['dungeonlayout_307',['DungeonLayout',['../structDungeonLayout.html',1,'']]],
   ['duration_308',['duration',['../structPACKED.html#a546c33fea20deb541e3546c0dbb63513',1,'PACKED']]],
-  ['dust_309',['DUST',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba5456265ad77aaf26fac342cd8128290f',1,'enemy.h']]],
-  ['dust_310',['Dust',['../enemy_8h.html#a54614f927628dd04eede7a682b228509',1,'enemy.h']]],
+  ['dust_309',['Dust',['../enemy_8h.html#a54614f927628dd04eede7a682b228509',1,'enemy.h']]],
+  ['dust_310',['DUST',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba5456265ad77aaf26fac342cd8128290f',1,'enemy.h']]],
   ['dx_311',['dx',['../structBgAffineDstData.html#a9854bc6c056eaf7997fe502e63d11649',1,'BgAffineDstData::dx()'],['../structBgTransformationSettings.html#a78ac2dc26bc5ff72e7f4e0c8540231cb',1,'BgTransformationSettings::dx()']]],
   ['dy_312',['dy',['../structBgAffineDstData.html#a04ad69f043c09619f055f79668b65579',1,'BgAffineDstData::dy()'],['../structBgTransformationSettings.html#a9348b4995d2a99e5e071c57a3e8d7916',1,'BgTransformationSettings::dy()']]]
 ];
