@@ -12,6 +12,7 @@ var searchData=
   ['bigpushableleverentity_9',['BigPushableLeverEntity',['../structBigPushableLeverEntity.html',1,'']]],
   ['blockpushedentity_10',['BlockPushedEntity',['../structBlockPushedEntity.html',1,'']]],
   ['bombarossaentity_11',['BombarossaEntity',['../structBombarossaEntity.html',1,'']]],
-  ['bowmoblinentity_12',['BowMoblinEntity',['../structBowMoblinEntity.html',1,'']]],
-  ['businessscrubprologueentity_13',['BusinessScrubPrologueEntity',['../structBusinessScrubPrologueEntity.html',1,'']]]
+  ['bossdoorentity_12',['BossDoorEntity',['../structBossDoorEntity.html',1,'']]],
+  ['bowmoblinentity_13',['BowMoblinEntity',['../structBowMoblinEntity.html',1,'']]],
+  ['businessscrubprologueentity_14',['BusinessScrubPrologueEntity',['../structBusinessScrubPrologueEntity.html',1,'']]]
 ];

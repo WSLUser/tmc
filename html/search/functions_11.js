@@ -82,7 +82,7 @@ var searchData=
   ['ropegolden_5fondeath_79',['RopeGolden_OnDeath',['../ropeGolden_8c.html#a5020c7b5ed9f5b5f9fe2803dcca22578',1,'ropeGolden.c']]],
   ['ropegolden_5fontick_80',['RopeGolden_OnTick',['../ropeGolden_8c.html#a99dec727edf1255d53fa8cd5bdf7660e',1,'ropeGolden.c']]],
   ['runqueuedaction_81',['RunQueuedAction',['../player_8c.html#a96083de90e360c527d2415d4401d6100',1,'player.c']]],
-  ['runtextcommand_82',['RunTextCommand',['../message_8c.html#a9f3d78c7fe4a036040e8e0fd7db22b17',1,'message.c']]],
+  ['runtextcommand_82',['RunTextCommand',['../message_8c.html#a2f459273487e6b5e45762e8c02f473c1',1,'message.c']]],
   ['rupee_83',['Rupee',['../rupee_8c.html#a82ebad9dab084a8003d1c42b4ab6ebf1',1,'Rupee(Entity *ent):&#160;rupee.c'],['../object_8h.html#a24297ad0dc9c520d0a063cab6fc357b1',1,'Rupee(Entity *):&#160;rupee.c']]],
   ['rupeelike_84',['RupeeLike',['../rupeeLike_8c.html#a61caa90bcf588d27f2e130dc432efdea',1,'RupeeLike(Entity *this):&#160;rupeeLike.c'],['../enemy_8h.html#a30d5b151c166c2910b21db0e6909d3fc',1,'RupeeLike(Entity *):&#160;rupeeLike.c']]],
   ['rupeelike_5foncollision_85',['RupeeLike_OnCollision',['../rupeeLike_8c.html#a2aa6b3d546d40222913949f3ac26b9d0',1,'rupeeLike.c']]],

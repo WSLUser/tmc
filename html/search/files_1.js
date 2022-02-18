@@ -21,9 +21,10 @@ var searchData=
   ['bombpeahat_2ec_18',['bombPeahat.c',['../bombPeahat_8c.html',1,'']]],
   ['boneprojectile_2ec_19',['boneProjectile.c',['../boneProjectile_8c.html',1,'']]],
   ['book_2ec_20',['book.c',['../book_8c.html',1,'']]],
-  ['bowmoblin_2ec_21',['bowMoblin.c',['../bowMoblin_8c.html',1,'']]],
-  ['brocco_2ec_22',['brocco.c',['../brocco_8c.html',1,'']]],
-  ['businessscrub_2ec_23',['businessScrub.c',['../businessScrub_8c.html',1,'']]],
-  ['businessscrubprologue_2ec_24',['businessScrubPrologue.c',['../businessScrubPrologue_8c.html',1,'']]],
-  ['button_2ec_25',['button.c',['../button_8c.html',1,'']]]
+  ['bossdoor_2ec_21',['bossDoor.c',['../bossDoor_8c.html',1,'']]],
+  ['bowmoblin_2ec_22',['bowMoblin.c',['../bowMoblin_8c.html',1,'']]],
+  ['brocco_2ec_23',['brocco.c',['../brocco_8c.html',1,'']]],
+  ['businessscrub_2ec_24',['businessScrub.c',['../businessScrub_8c.html',1,'']]],
+  ['businessscrubprologue_2ec_25',['businessScrubPrologue.c',['../businessScrubPrologue_8c.html',1,'']]],
+  ['button_2ec_26',['button.c',['../button_8c.html',1,'']]]
 ];

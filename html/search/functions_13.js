@@ -21,7 +21,7 @@ var searchData=
   ['tektitegolden_5fondeath_18',['TektiteGolden_OnDeath',['../tektiteGolden_8c.html#a6f6cf591901845037a174333f0924ba5',1,'tektiteGolden.c']]],
   ['tektitegolden_5fontick_19',['TektiteGolden_OnTick',['../tektiteGolden_8c.html#a04c01cc8d24f89126bbfb94398d40488',1,'tektiteGolden.c']]],
   ['textdispdie_20',['TextDispDie',['../message_8c.html#a76ad3a4277204c67f132c1d9930047b6',1,'message.c']]],
-  ['textdispenquiry_21',['TextDispEnquiry',['../message_8c.html#a5bd64597899cc971b07b498ace0a8ebe',1,'message.c']]],
+  ['textdispenquiry_21',['TextDispEnquiry',['../message_8c.html#a064ce688dbbedb9b5601ad44930703a0',1,'message.c']]],
   ['textdispinit_22',['TextDispInit',['../message_8c.html#adf889622123c8aafb8b4db11a016328c',1,'message.c']]],
   ['textdisproll_23',['TextDispRoll',['../message_8c.html#ac1cba49bf85e765d047ef8c460a72fec',1,'message.c']]],
   ['textdispupdate_24',['TextDispUpdate',['../message_8c.html#aa7d2124f3026dc14dcddbb1d85511380',1,'message.c']]],

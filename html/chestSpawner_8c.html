@@ -76,13 +76,22 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">chestSpawner.c File Reference</div></div>
+  <div class="headertitle"><div class="title">chestSpawner.c File Reference<div class="ingroups"><a class="el" href="group__Entities.html">Entities</a> &raquo; <a class="el" href="group__Objects.html">Objects</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Chest Spawner object.  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="global_8h_source.html">global.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="entity_8h_source.html">entity.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="object_8h_source.html">object.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="screen_8h_source.html">screen.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="structures_8h_source.html">structures.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="item_8h_source.html">item.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for chestSpawner.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -90,54 +99,123 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="chestSpawner_8c__incl.png" border="0" usemap="#asrc_2object_2chestSpawner_8c" alt=""/></div>
 <map name="asrc_2object_2chestSpawner_8c" id="asrc_2object_2chestSpawner_8c">
-<area shape="rect" title=" " alt="" coords="29,5,205,32"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="133,229,200,256"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="145,80,207,107"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="257,304,335,331"/>
-<area shape="rect" title=" " alt="" coords="5,379,69,405"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="94,379,167,405"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="192,379,259,405"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="349,453,411,480"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="334,379,426,405"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="451,379,523,405"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="547,379,615,405"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="640,379,728,405"/>
-<area shape="rect" title=" " alt="" coords="97,453,165,480"/>
-<area shape="rect" title=" " alt="" coords="348,528,412,555"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="171,155,231,181"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="256,155,320,181"/>
+<area shape="rect" title="Chest Spawner object." alt="" coords="852,5,1028,32"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="655,453,721,480"/>
+<area shape="rect" href="object_8h.html" title=" " alt="" coords="325,155,392,181"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="748,80,833,107"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="999,155,1089,181"/>
+<area shape="rect" href="screen_8h.html" title=" " alt="" coords="1251,304,1322,331"/>
+<area shape="rect" href="item_8h.html" title=" " alt="" coords="1114,155,1171,181"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="799,528,878,555"/>
+<area shape="rect" title=" " alt="" coords="504,603,568,629"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1151,603,1225,629"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1060,603,1127,629"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="703,677,766,704"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="689,603,781,629"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="592,603,664,629"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="805,603,873,629"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="897,603,985,629"/>
+<area shape="rect" title=" " alt="" coords="1154,677,1222,704"/>
+<area shape="rect" title=" " alt="" coords="703,752,767,779"/>
+<area shape="rect" href="asm_8h.html" title=" " alt="" coords="177,379,234,405"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="259,379,341,405"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="277,304,344,331"/>
+<area shape="rect" href="flags_8h.html" title=" " alt="" coords="43,304,101,331"/>
+<area shape="rect" href="effects_8h.html" title=" " alt="" coords="414,229,485,256"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="657,304,719,331"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="328,229,389,256"/>
+<area shape="rect" href="coord_8h.html" title=" " alt="" coords="509,229,573,256"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="907,229,973,256"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="726,379,786,405"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="587,379,651,405"/>
+<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="419,304,511,331"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="800,229,883,256"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="611,155,675,181"/>
+<area shape="rect" href="map_8h.html" title=" " alt="" coords="761,304,818,331"/>
+<area shape="rect" href="fade_8h.html" title=" " alt="" coords="1251,379,1309,405"/>
 </map>
 </div>
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ad9d9839ea73fbe32257e340298da916d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#ad9d9839ea73fbe32257e340298da916d">NENT_DEPRECATED</a></td></tr>
+<tr class="separator:ad9d9839ea73fbe32257e340298da916d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac07b6e0a0c85232793f58254c9132c4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#ac07b6e0a0c85232793f58254c9132c4e">sub_080842D8</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:ac07b6e0a0c85232793f58254c9132c4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14d4dab3f0797b3e26018680ac02fb19"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#a14d4dab3f0797b3e26018680ac02fb19">sub_08078828</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a14d4dab3f0797b3e26018680ac02fb19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c82a742b13bbf4e8a7d42a80139a3ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#a9c82a742b13bbf4e8a7d42a80139a3ab">sub_08083E20</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a9c82a742b13bbf4e8a7d42a80139a3ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac17f64a5eefadfc129b9a0c3922dced0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#ac17f64a5eefadfc129b9a0c3922dced0">ChestSpawner</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:ac17f64a5eefadfc129b9a0c3922dced0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7961d3d571fd9576991cbeee0e26ad84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#a7961d3d571fd9576991cbeee0e26ad84">sub_08083DF0</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a7961d3d571fd9576991cbeee0e26ad84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbdd2e42466cdebc533ab28f0ca7fc01"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#adbdd2e42466cdebc533ab28f0ca7fc01">sub_08083E08</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:adbdd2e42466cdebc533ab28f0ca7fc01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50b56a98943e2e017e03f825674de7d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#a50b56a98943e2e017e03f825674de7d2">sub_080842D8</a> (<a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *)</td></tr>
+<tr class="separator:a50b56a98943e2e017e03f825674de7d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d7756de8b21f1c73ef3c1a8b310b424"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#a5d7756de8b21f1c73ef3c1a8b310b424">sub_08078828</a> (<a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *)</td></tr>
+<tr class="separator:a5d7756de8b21f1c73ef3c1a8b310b424"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a494d1f0a632f0af81e3937a81224354f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#a494d1f0a632f0af81e3937a81224354f">sub_08083E20</a> (<a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *)</td></tr>
+<tr class="separator:a494d1f0a632f0af81e3937a81224354f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa67562eb4a414258bdec9bac91a78fa3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#aa67562eb4a414258bdec9bac91a78fa3">sub_08084074</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)</td></tr>
+<tr class="separator:aa67562eb4a414258bdec9bac91a78fa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4503256cb77ad48e82f8dcb37f84fc6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#ac4503256cb77ad48e82f8dcb37f84fc6">sub_080840A8</a> (<a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a>, <a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a>)</td></tr>
+<tr class="separator:ac4503256cb77ad48e82f8dcb37f84fc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9efe6b694867708623733260db192c2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#a9efe6b694867708623733260db192c2f">ChestSpawner_Type0</a> (<a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *)</td></tr>
+<tr class="separator:a9efe6b694867708623733260db192c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55a8bd52935686650ed136f38d37b6a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#a55a8bd52935686650ed136f38d37b6a7">ChestSpawner_Type2</a> (<a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *)</td></tr>
+<tr class="separator:a55a8bd52935686650ed136f38d37b6a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4005afe0cf745fac00f492075c672edd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#a4005afe0cf745fac00f492075c672edd">ChestSpawner_Type0Init</a> (<a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *)</td></tr>
+<tr class="separator:a4005afe0cf745fac00f492075c672edd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53225de180b677aabdb73593e9d983eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#a53225de180b677aabdb73593e9d983eb">ChestSpawner_Type0Action1</a> (<a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *)</td></tr>
+<tr class="separator:a53225de180b677aabdb73593e9d983eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75fd693a25aeeac88742c735460e82b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#a75fd693a25aeeac88742c735460e82b7">ChestSpawner_Type0Action2</a> (<a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *)</td></tr>
+<tr class="separator:a75fd693a25aeeac88742c735460e82b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28a5e6e226338ab83b23ff4021d2d0fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#a28a5e6e226338ab83b23ff4021d2d0fb">ChestSpawner_Type0Action3</a> (<a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *)</td></tr>
+<tr class="separator:a28a5e6e226338ab83b23ff4021d2d0fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7273ba5da365c0582d6995a5ee34a45"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#ab7273ba5da365c0582d6995a5ee34a45">ChestSpawner_Type2Init</a> (<a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *)</td></tr>
+<tr class="separator:ab7273ba5da365c0582d6995a5ee34a45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a072ef0a9319ace8e44e05871771c1baa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#a072ef0a9319ace8e44e05871771c1baa">ChestSpawner_Type2Action1</a> (<a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *)</td></tr>
+<tr class="separator:a072ef0a9319ace8e44e05871771c1baa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad5583cc2a4cc75a1f2e30f856e9f852"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#aad5583cc2a4cc75a1f2e30f856e9f852">ChestSpawner_Type2Action2</a> (<a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *)</td></tr>
+<tr class="separator:aad5583cc2a4cc75a1f2e30f856e9f852"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac67aa92dce15f4d9e59198ed0ec697cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#ac67aa92dce15f4d9e59198ed0ec697cd">ChestSpawner_Type2Action3</a> (<a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *)</td></tr>
+<tr class="separator:ac67aa92dce15f4d9e59198ed0ec697cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc8d8f7fa06a1a5d2bfb505ad90fd14d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#afc8d8f7fa06a1a5d2bfb505ad90fd14d">ChestSpawner_Type2Action4</a> (<a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *)</td></tr>
+<tr class="separator:afc8d8f7fa06a1a5d2bfb505ad90fd14d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d6110eac710e53cfc53f745f4e05486"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#a4d6110eac710e53cfc53f745f4e05486">ChestSpawner_Type2Action5</a> (<a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *)</td></tr>
+<tr class="separator:a4d6110eac710e53cfc53f745f4e05486"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f86e3fe5e3ceb3a7b8ff82bf3e741f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#a1f86e3fe5e3ceb3a7b8ff82bf3e741f1">ChestSpawner_Type2Action6</a> (<a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *)</td></tr>
+<tr class="separator:a1f86e3fe5e3ceb3a7b8ff82bf3e741f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2a3f8bc25d5861946efd4690b0ecf7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#ab2a3f8bc25d5861946efd4690b0ecf7e">ChestSpawner_Type2Action7</a> (<a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *)</td></tr>
+<tr class="separator:ab2a3f8bc25d5861946efd4690b0ecf7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa971fafb0af94d1958c20078a559ac6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#aa971fafb0af94d1958c20078a559ac6d">ChestSpawner</a> (<a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *this)</td></tr>
+<tr class="separator:aa971fafb0af94d1958c20078a559ac6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a564b79a9fcf5c7c575e7b811eeac966c"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#a564b79a9fcf5c7c575e7b811eeac966c">gUnk_0811F7E8</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a564b79a9fcf5c7c575e7b811eeac966c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb19cd0dce2a767a80964e1964c5d2af"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#aeb19cd0dce2a767a80964e1964c5d2af">gUnk_0811F808</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:aeb19cd0dce2a767a80964e1964c5d2af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45e1d3fe70feaacaf16eab48a1c8a140"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#a45e1d3fe70feaacaf16eab48a1c8a140">gUnk_0811F818</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a45e1d3fe70feaacaf16eab48a1c8a140"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69072c65bdc40f865a6f532e5bb31350"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#a69072c65bdc40f865a6f532e5bb31350">gUnk_0811F8B0</a></td></tr>
-<tr class="separator:a69072c65bdc40f865a6f532e5bb31350"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c521436d387c4ae21b698352213ecc8"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structHitbox.html">Hitbox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#a8c521436d387c4ae21b698352213ecc8">gUnk_0811F8A8</a> = { 0, -3, { 0, 0, 0, 0 }, 6, 6 }</td></tr>
+<tr class="separator:a8c521436d387c4ae21b698352213ecc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05d93d162b097981f5143051b8c69c99"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structHitbox.html">Hitbox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chestSpawner_8c.html#a05d93d162b097981f5143051b8c69c99">gUnk_0811F8B0</a> = { 0, -3, { 0, 0, 0, 0 }, 12, 6 }</td></tr>
+<tr class="separator:a05d93d162b097981f5143051b8c69c99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >Chest Spawner object. </p>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ad9d9839ea73fbe32257e340298da916d" name="ad9d9839ea73fbe32257e340298da916d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9d9839ea73fbe32257e340298da916d">&#9670;&nbsp;</a></span>NENT_DEPRECATED</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define NENT_DEPRECATED</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ac17f64a5eefadfc129b9a0c3922dced0" name="ac17f64a5eefadfc129b9a0c3922dced0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac17f64a5eefadfc129b9a0c3922dced0">&#9670;&nbsp;</a></span>ChestSpawner()</h2>
+<a id="aa971fafb0af94d1958c20078a559ac6d" name="aa971fafb0af94d1958c20078a559ac6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa971fafb0af94d1958c20078a559ac6d">&#9670;&nbsp;</a></span>ChestSpawner()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145,7 +223,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void ChestSpawner </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -154,8 +232,260 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a14d4dab3f0797b3e26018680ac02fb19" name="a14d4dab3f0797b3e26018680ac02fb19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14d4dab3f0797b3e26018680ac02fb19">&#9670;&nbsp;</a></span>sub_08078828()</h2>
+<a id="a9efe6b694867708623733260db192c2f" name="a9efe6b694867708623733260db192c2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9efe6b694867708623733260db192c2f">&#9670;&nbsp;</a></span>ChestSpawner_Type0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ChestSpawner_Type0 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a53225de180b677aabdb73593e9d983eb" name="a53225de180b677aabdb73593e9d983eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53225de180b677aabdb73593e9d983eb">&#9670;&nbsp;</a></span>ChestSpawner_Type0Action1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ChestSpawner_Type0Action1 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a75fd693a25aeeac88742c735460e82b7" name="a75fd693a25aeeac88742c735460e82b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75fd693a25aeeac88742c735460e82b7">&#9670;&nbsp;</a></span>ChestSpawner_Type0Action2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ChestSpawner_Type0Action2 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a28a5e6e226338ab83b23ff4021d2d0fb" name="a28a5e6e226338ab83b23ff4021d2d0fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28a5e6e226338ab83b23ff4021d2d0fb">&#9670;&nbsp;</a></span>ChestSpawner_Type0Action3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ChestSpawner_Type0Action3 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4005afe0cf745fac00f492075c672edd" name="a4005afe0cf745fac00f492075c672edd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4005afe0cf745fac00f492075c672edd">&#9670;&nbsp;</a></span>ChestSpawner_Type0Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ChestSpawner_Type0Init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a55a8bd52935686650ed136f38d37b6a7" name="a55a8bd52935686650ed136f38d37b6a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55a8bd52935686650ed136f38d37b6a7">&#9670;&nbsp;</a></span>ChestSpawner_Type2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ChestSpawner_Type2 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a072ef0a9319ace8e44e05871771c1baa" name="a072ef0a9319ace8e44e05871771c1baa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a072ef0a9319ace8e44e05871771c1baa">&#9670;&nbsp;</a></span>ChestSpawner_Type2Action1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ChestSpawner_Type2Action1 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aad5583cc2a4cc75a1f2e30f856e9f852" name="aad5583cc2a4cc75a1f2e30f856e9f852"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad5583cc2a4cc75a1f2e30f856e9f852">&#9670;&nbsp;</a></span>ChestSpawner_Type2Action2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ChestSpawner_Type2Action2 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac67aa92dce15f4d9e59198ed0ec697cd" name="ac67aa92dce15f4d9e59198ed0ec697cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac67aa92dce15f4d9e59198ed0ec697cd">&#9670;&nbsp;</a></span>ChestSpawner_Type2Action3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ChestSpawner_Type2Action3 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afc8d8f7fa06a1a5d2bfb505ad90fd14d" name="afc8d8f7fa06a1a5d2bfb505ad90fd14d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc8d8f7fa06a1a5d2bfb505ad90fd14d">&#9670;&nbsp;</a></span>ChestSpawner_Type2Action4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ChestSpawner_Type2Action4 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4d6110eac710e53cfc53f745f4e05486" name="a4d6110eac710e53cfc53f745f4e05486"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d6110eac710e53cfc53f745f4e05486">&#9670;&nbsp;</a></span>ChestSpawner_Type2Action5()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ChestSpawner_Type2Action5 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1f86e3fe5e3ceb3a7b8ff82bf3e741f1" name="a1f86e3fe5e3ceb3a7b8ff82bf3e741f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f86e3fe5e3ceb3a7b8ff82bf3e741f1">&#9670;&nbsp;</a></span>ChestSpawner_Type2Action6()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ChestSpawner_Type2Action6 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab2a3f8bc25d5861946efd4690b0ecf7e" name="ab2a3f8bc25d5861946efd4690b0ecf7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2a3f8bc25d5861946efd4690b0ecf7e">&#9670;&nbsp;</a></span>ChestSpawner_Type2Action7()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ChestSpawner_Type2Action7 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab7273ba5da365c0582d6995a5ee34a45" name="ab7273ba5da365c0582d6995a5ee34a45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7273ba5da365c0582d6995a5ee34a45">&#9670;&nbsp;</a></span>ChestSpawner_Type2Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ChestSpawner_Type2Init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5d7756de8b21f1c73ef3c1a8b310b424" name="a5d7756de8b21f1c73ef3c1a8b310b424"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d7756de8b21f1c73ef3c1a8b310b424">&#9670;&nbsp;</a></span>sub_08078828()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -163,8 +493,8 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08078828 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>ent</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -172,44 +502,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a7961d3d571fd9576991cbeee0e26ad84" name="a7961d3d571fd9576991cbeee0e26ad84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7961d3d571fd9576991cbeee0e26ad84">&#9670;&nbsp;</a></span>sub_08083DF0()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sub_08083DF0 </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>this</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="adbdd2e42466cdebc533ab28f0ca7fc01" name="adbdd2e42466cdebc533ab28f0ca7fc01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adbdd2e42466cdebc533ab28f0ca7fc01">&#9670;&nbsp;</a></span>sub_08083E08()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sub_08083E08 </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>this</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9c82a742b13bbf4e8a7d42a80139a3ab" name="a9c82a742b13bbf4e8a7d42a80139a3ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c82a742b13bbf4e8a7d42a80139a3ab">&#9670;&nbsp;</a></span>sub_08083E20()</h2>
+<a id="a494d1f0a632f0af81e3937a81224354f" name="a494d1f0a632f0af81e3937a81224354f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a494d1f0a632f0af81e3937a81224354f">&#9670;&nbsp;</a></span>sub_08083E20()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -217,7 +511,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08083E20 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -226,8 +520,54 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ac07b6e0a0c85232793f58254c9132c4e" name="ac07b6e0a0c85232793f58254c9132c4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac07b6e0a0c85232793f58254c9132c4e">&#9670;&nbsp;</a></span>sub_080842D8()</h2>
+<a id="aa67562eb4a414258bdec9bac91a78fa3" name="aa67562eb4a414258bdec9bac91a78fa3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa67562eb4a414258bdec9bac91a78fa3">&#9670;&nbsp;</a></span>sub_08084074()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_08084074 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>param_1</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac4503256cb77ad48e82f8dcb37f84fc6" name="ac4503256cb77ad48e82f8dcb37f84fc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4503256cb77ad48e82f8dcb37f84fc6">&#9670;&nbsp;</a></span>sub_080840A8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_080840A8 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a>&#160;</td>
+          <td class="paramname"><em>param_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a>&#160;</td>
+          <td class="paramname"><em>param_2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a50b56a98943e2e017e03f825674de7d2" name="a50b56a98943e2e017e03f825674de7d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50b56a98943e2e017e03f825674de7d2">&#9670;&nbsp;</a></span>sub_080842D8()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -235,8 +575,8 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_080842D8 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structChestSpawnerEntity.html">ChestSpawnerEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -245,102 +585,30 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a564b79a9fcf5c7c575e7b811eeac966c" name="a564b79a9fcf5c7c575e7b811eeac966c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a564b79a9fcf5c7c575e7b811eeac966c">&#9670;&nbsp;</a></span>gUnk_0811F7E8</h2>
+<a id="a8c521436d387c4ae21b698352213ecc8" name="a8c521436d387c4ae21b698352213ecc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c521436d387c4ae21b698352213ecc8">&#9670;&nbsp;</a></span>gUnk_0811F8A8</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void(*const gUnk_0811F7E8[])(<a class="el" href="structEntity.html">Entity</a> *) </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">const <a class="el" href="structHitbox.html">Hitbox</a> gUnk_0811F8A8 = { 0, -3, { 0, 0, 0, 0 }, 6, 6 }</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aeb19cd0dce2a767a80964e1964c5d2af" name="aeb19cd0dce2a767a80964e1964c5d2af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb19cd0dce2a767a80964e1964c5d2af">&#9670;&nbsp;</a></span>gUnk_0811F808</h2>
+<a id="a05d93d162b097981f5143051b8c69c99" name="a05d93d162b097981f5143051b8c69c99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05d93d162b097981f5143051b8c69c99">&#9670;&nbsp;</a></span>gUnk_0811F8B0</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void(*const gUnk_0811F808[])(<a class="el" href="structEntity.html">Entity</a> *) </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">const <a class="el" href="structHitbox.html">Hitbox</a> gUnk_0811F8B0 = { 0, -3, { 0, 0, 0, 0 }, 12, 6 }</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a45e1d3fe70feaacaf16eab48a1c8a140" name="a45e1d3fe70feaacaf16eab48a1c8a140"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45e1d3fe70feaacaf16eab48a1c8a140">&#9670;&nbsp;</a></span>gUnk_0811F818</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(*const gUnk_0811F818[])(<a class="el" href="structEntity.html">Entity</a> *) </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a69072c65bdc40f865a6f532e5bb31350" name="a69072c65bdc40f865a6f532e5bb31350"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69072c65bdc40f865a6f532e5bb31350">&#9670;&nbsp;</a></span>gUnk_0811F8B0</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gUnk_0811F8B0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>

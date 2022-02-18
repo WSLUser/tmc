@@ -7,6 +7,7 @@ var searchData=
   ['enemydefinition_4',['EnemyDefinition',['../structEnemyDefinition.html',1,'']]],
   ['entity_5',['Entity',['../structEntity.html',1,'']]],
   ['entitydata_6',['EntityData',['../structEntityData.html',1,'']]],
-  ['eyegoreentity_7',['EyegoreEntity',['../structEyegoreEntity.html',1,'']]],
-  ['ezlocapentity_8',['EzloCapEntity',['../structEzloCapEntity.html',1,'']]]
+  ['entitywithhitflag_7',['EntityWithHitFlag',['../structEntityWithHitFlag.html',1,'']]],
+  ['eyegoreentity_8',['EyegoreEntity',['../structEyegoreEntity.html',1,'']]],
+  ['ezlocapentity_9',['EzloCapEntity',['../structEzloCapEntity.html',1,'']]]
 ];
