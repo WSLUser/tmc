@@ -1,0 +1,7 @@
+<map id="include/playeritem.h" name="include/playeritem.h">
+<area shape="rect" id="node1" title=" " alt="" coords="245,5,381,32"/>
+<area shape="rect" id="node2" href="$pesto_8c.html" title="Pesto enemy." alt="" coords="5,80,133,107"/>
+<area shape="rect" id="node3" href="$itemBomb_8c.html" title=" " alt="" coords="158,80,301,107"/>
+<area shape="rect" id="node4" href="$itemSword_8c.html" title=" " alt="" coords="325,80,470,107"/>
+<area shape="rect" id="node5" href="$forestMinish_8c.html" title=" " alt="" coords="494,80,645,107"/>
+</map>
