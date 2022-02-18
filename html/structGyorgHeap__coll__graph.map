@@ -1,5 +1,5 @@
 <map id="GyorgHeap" name="GyorgHeap">
-<area shape="rect" id="node1" title=" " alt="" coords="641,465,728,492"/>
+<area shape="rect" id="node1" title=" " alt="" coords="672,491,759,517"/>
 <area shape="rect" id="node2" href="$structGyorgBossObjectEntity.html" title=" " alt="" coords="387,516,543,543"/>
 <area shape="rect" id="node3" href="$structEntity.html" title="Container for instantiable behavior." alt="" coords="234,455,289,481"/>
 <area shape="rect" id="node7" href="$structGyorgFemaleEntity.html" title=" " alt="" coords="399,567,530,593"/>
@@ -9,4 +9,5 @@
 <area shape="rect" id="node4" href="$unionSplitWord.html" title=" " alt="" coords="10,369,89,396"/>
 <area shape="rect" id="node5" href="$structHitbox.html" title="Hitbox structure." alt="" coords="20,484,79,511"/>
 <area shape="rect" id="node6" href="$unionSplitHWord.html" title=" " alt="" coords="5,279,93,305"/>
+<area shape="rect" id="node11" href="$unionCoords.html" title=" " alt="" coords="433,617,496,644"/>
 </map>

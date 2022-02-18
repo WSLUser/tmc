@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['echolength_0',['echoLength',['../structSoundChannel.html#afe4e34b1628b9f016c82704cf337770e',1,'SoundChannel::echoLength()'],['../structCgbChannel.html#a3d1093a6366edfce15f7746e6d2f48eb',1,'CgbChannel::echoLength()'],['../structMusicPlayerTrack.html#a6cb4d52d2c91266d4136a314a5b36cf5',1,'MusicPlayerTrack::echoLength()']]],
+  ['echolength_0',['echoLength',['../structSoundChannel.html#afe4e34b1628b9f016c82704cf337770e',1,'SoundChannel::echoLength()'],['../structMusicPlayerTrack.html#a6cb4d52d2c91266d4136a314a5b36cf5',1,'MusicPlayerTrack::echoLength()'],['../structCgbChannel.html#a3d1093a6366edfce15f7746e6d2f48eb',1,'CgbChannel::echoLength()']]],
   ['echovolume_1',['echoVolume',['../structCgbChannel.html#a04aa7b4de05f9b586ce16f6aeabddde4',1,'CgbChannel::echoVolume()'],['../structSoundChannel.html#ae958b0153494d5a63258dad709f87b28',1,'SoundChannel::echoVolume()'],['../structMusicPlayerTrack.html#af87107b3f8cd9d4b29c3144b517dc6b1',1,'MusicPlayerTrack::echoVolume()']]],
   ['eeprom_5fnowait_2',['EEPROM_NOWAIT',['../eeprom_8c.html#a35991bf380ae7e04b23662ab435e4333',1,'eeprom.c']]],
   ['eeprom_5fv124_3',['EEPROM_V124',['../eeprom_8c.html#a093f40924203805d4e294460f499cea4',1,'eeprom.c']]],
@@ -9,7 +9,7 @@ var searchData=
   ['else_6',['else',['../pullableMushroom_8c.html#a0544c3fe466e421738dae463968b70ba',1,'else():&#160;pullableMushroom.c'],['../movement_8c.html#a0544c3fe466e421738dae463968b70ba',1,'else():&#160;movement.c'],['../itemTryPickupObject_8c.html#a0544c3fe466e421738dae463968b70ba',1,'else():&#160;itemTryPickupObject.c']]],
   ['enable_7',['enable',['../structSioNormalCnt.html#aa827263e07451f1097651a7f315cb479',1,'SioNormalCnt::enable()'],['../structSioMultiCnt.html#a4616ecfed0bb56bf1b1b5069636491e5',1,'SioMultiCnt::enable()']]],
   ['endofanimation_8',['endOfAnimation',['../structPACKED.html#a9ae41a291e4f038a9d7fe59520a69646',1,'PACKED']]],
-  ['enemies_9',['enemies',['../structManager28.html#ab92b7ef2b2e2b12f3ac058f31308200a',1,'Manager28::enemies()'],['../structManagerBHelper.html#aca5e9e00bfe31152b201f9af2b2eeed1',1,'ManagerBHelper::enemies()']]],
+  ['enemies_9',['enemies',['../structManagerBHelper.html#aca5e9e00bfe31152b201f9af2b2eeed1',1,'ManagerBHelper::enemies()'],['../structManager28.html#ab92b7ef2b2e2b12f3ac058f31308200a',1,'Manager28::enemies()']]],
   ['enemies_5flakehylia_5fmain_10',['Enemies_LakeHylia_Main',['../roomInit_8c.html#a2164fe829c1d19f7439f6987cacc36ce',1,'roomInit.c']]],
   ['enemy4d_5ffunctions_11',['Enemy4D_Functions',['../enemy4D_8c.html#a89b326137b43fafac334fb8ab800224d',1,'enemy4D.c']]],
   ['enemy50_5factions_12',['Enemy50_Actions',['../enemy50_8c.html#af1d2798b7ef8406ccbbd3a9926bbdd37',1,'enemy50.c']]],
@@ -21,9 +21,9 @@ var searchData=
   ['enemy64_5faction4_5fsubactions_18',['Enemy64_Action4_SubActions',['../enemy64_8c.html#abfa20cad7cbe6f8aafd109aeb331588c',1,'enemy64.c']]],
   ['enemy64_5factions_19',['Enemy64_Actions',['../enemy64_8c.html#a12a653c762c42820dfbc21dd030d8100',1,'enemy64.c']]],
   ['enemye_5ffunctions_20',['EnemyE_Functions',['../enemyE_8c.html#a695f273b0ecb29b9b62a4a3ec8ac2e34',1,'enemyE.c']]],
-  ['ent_21',['ent',['../structFuseInfo.html#ab245e75be1363723d8aff61d5f975005',1,'FuseInfo::ent()'],['../structGleerok__HeapStruct.html#a510efeb658e346ea57db478141eb3203',1,'Gleerok_HeapStruct::ent()']]],
+  ['ent_21',['ent',['../structGleerok__HeapStruct.html#a510efeb658e346ea57db478141eb3203',1,'Gleerok_HeapStruct::ent()'],['../structFuseInfo.html#ab245e75be1363723d8aff61d5f975005',1,'FuseInfo::ent()']]],
   ['ent1_22',['ent1',['../structPicolyteBottleEntity.html#a7a1714810da24a3ea7473166c9862ac9',1,'PicolyteBottleEntity']]],
-  ['ent2_23',['ent2',['../structPicolyteBottleEntity.html#a49dc0e0ee1337abcfe4adf7630214aae',1,'PicolyteBottleEntity::ent2()'],['../structGleerok__HeapStruct.html#ab37a030e8bf1cae089d956882cd2e00c',1,'Gleerok_HeapStruct::ent2()']]],
+  ['ent2_23',['ent2',['../structGleerok__HeapStruct.html#ab37a030e8bf1cae089d956882cd2e00c',1,'Gleerok_HeapStruct::ent2()'],['../structPicolyteBottleEntity.html#a49dc0e0ee1337abcfe4adf7630214aae',1,'PicolyteBottleEntity::ent2()']]],
   ['ent3_24',['ent3',['../structPicolyteBottleEntity.html#a66aaeb0bba267164883ef384bc0bb682',1,'PicolyteBottleEntity']]],
   ['ent_5fpriority_25',['ent_priority',['../structPriorityHandler.html#aff0006fdd8ae09a43df5341e9785bcfe',1,'PriorityHandler']]],
   ['entcnt_26',['entCnt',['../structstruct__080D8E54.html#a4463f4f29c402e30711f5368c4660182',1,'struct_080D8E54']]],
@@ -50,5 +50,9 @@ var searchData=
   ['extvolpit_47',['ExtVolPit',['../structSoundInfo.html#ae5d4a57822455cc01ceddbe21109413c',1,'SoundInfo']]],
   ['eyegore_5ffunctions_48',['Eyegore_Functions',['../eyegore_8c.html#a7a1d6aa820d6ba4118d39f6ec1d9ca65',1,'eyegore.c']]],
   ['eyes_49',['eyes',['../structVaatiWrathHeapStruct.html#ad0cc1e2e72ebd492c5728bec2440e4ee',1,'VaatiWrathHeapStruct']]],
-  ['ezlonagfuncindex_50',['ezloNagFuncIndex',['../structstruct__0200AF00.html#ae41427e2dcd9ffc8202d625b828feaeb',1,'struct_0200AF00']]]
+  ['eyeshit_50',['eyesHit',['../structGyorgFemaleEntity.html#a2d43735889ec90af496f8323da878e70',1,'GyorgFemaleEntity']]],
+  ['eyeshitframe_51',['eyesHitFrame',['../structGyorgFemaleEntity.html#aa393a3f9321b3100dadb32516ef5dd45',1,'GyorgFemaleEntity']]],
+  ['eyesvulnerable_52',['eyesVulnerable',['../structGyorgFemaleEntity.html#a6532c1a4547629621ad99e16e1abe523',1,'GyorgFemaleEntity']]],
+  ['eyetimer_53',['eyeTimer',['../structGyorgFemaleEntity.html#ab2a64ad60195c564ad82b0cb44242452',1,'GyorgFemaleEntity']]],
+  ['ezlonagfuncindex_54',['ezloNagFuncIndex',['../structstruct__0200AF00.html#ae41427e2dcd9ffc8202d625b828feaeb',1,'struct_0200AF00']]]
 ];

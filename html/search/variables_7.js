@@ -1856,7 +1856,7 @@ var searchData=
   ['gunk_5f08124960_1853',['gUnk_08124960',['../jailBars_8c.html#a019a811ff02620fa34dbf820c004a028',1,'jailBars.c']]],
   ['gunk_5f0812497a_1854',['gUnk_0812497A',['../jailBars_8c.html#a6e3366cecb0bf9f11a2de38d6be428fd',1,'jailBars.c']]],
   ['gunk_5f08124c08_1855',['gUnk_08124C08',['../well_8c.html#a8edd076787aa956b9f85a98e1a138fe5',1,'well.c']]],
-  ['gunk_5f08124ff0_1856',['gUnk_08124FF0',['../gyorgBossObject_8c.html#afd72bd8621b1070f1fa75eced7984fed',1,'gyorgBossObject.c']]],
+  ['gunk_5f08124ff0_1856',['gUnk_08124FF0',['../gyorgBossObject_8c.html#af7d7b0be25c79dfaf9c1c9b3568892a8',1,'gyorgBossObject.c']]],
   ['gunk_5f08125010_1857',['gUnk_08125010',['../windcrest_8c.html#a7c409c667ab8742791403588165200b7',1,'windcrest.c']]],
   ['gunk_5f08125050_1858',['gUnk_08125050',['../pinwheel_8c.html#afa17baeae6a5cb2184dd91237d308149',1,'pinwheel.c']]],
   ['gunk_5f0812505c_1859',['gUnk_0812505C',['../pinwheel_8c.html#acbc59ca0b55dd7a0c42b5913d0ccec8a',1,'pinwheel.c']]],
