@@ -85,14 +85,16 @@ $(function() {
 <dd><a class="anchor" id="_bug000001"></a>This if was meant to check r5 instead of r3.  </dd>
 <dt>Global <a class="el" href="manager32_8c.html#ace1c17a2feaca0ee7c715a1b3f41ea1f">sub_0805DA90</a>  (<a class="el" href="structManager32.html">Manager32</a> *this, u32 param_2)</dt>
 <dd><a class="anchor" id="_bug000004"></a>: this always variable points to ROM, not a Manager*  </dd>
-<dt>Global <a class="el" href="npc5_8c.html#a896baa6c880e655640b591daa664fa31">sub_08060BA0</a>  (<a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> *this)</dt>
+<dt>Global <a class="el" href="npc5_8c.html#ac5562ad692a336f1e8bf1e9ac717a3cf">sub_08060BA0</a>  (<a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> *)</dt>
 <dd><a class="anchor" id="_bug000006"></a>: r5 is uninitialized  </dd>
+<dt>Global <a class="el" href="npc5_8c.html#aa0b7f2ab44815097b529e8378fad9a8a">sub_08061358</a>  (<a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> *)</dt>
+<dd><a class="anchor" id="_bug000007"></a>bVar4 (r6) is uninitialized.  </dd>
 <dt>Global <a class="el" href="pita_8c.html#aef62407de5722a4630c1443ea6b4bb5d">sub_08062EDC</a>  (<a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> *this, <a class="el" href="structScriptExecutionContext.html">ScriptExecutionContext</a> *context)</dt>
-<dd><a class="anchor" id="_bug000007"></a>: tmp is uninitialized, in practice player must have an item here  </dd>
+<dd><a class="anchor" id="_bug000008"></a>: tmp is uninitialized, in practice player must have an item here  </dd>
 <dt>Global <a class="el" href="stockwell_8c.html#a8f7f97066f387604a083b254384b4821">sub_080650CC</a>  (<a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> *this)</dt>
-<dd><a class="anchor" id="_bug000008"></a>itemPrice (r8) is not initialized if gRoomVars.shopItemType == 0  </dd>
+<dd><a class="anchor" id="_bug000009"></a>itemPrice (r8) is not initialized if gRoomVars.shopItemType == 0  </dd>
 <dt>Global <a class="el" href="player_8c.html#a2891ffa861a709944ea6c573324a026a">SurfaceAction_CloneTile</a>  (<a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> *this)</dt>
-<dd><a class="anchor" id="_bug000009"></a>: n is not initialized </dd>
+<dd><a class="anchor" id="_bug000010"></a>: n is not initialized </dd>
 </dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

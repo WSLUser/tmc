@@ -4,12 +4,11 @@ var searchData=
   ['x2_1',['x2',['../structSpikedRollersEntity.html#ac60690aa706fa575ec0f4fd47a6dc79e',1,'SpikedRollersEntity']]],
   ['x_5f0x78_2',['x_0x78',['../structTakkuriEntity.html#a880c72d8457d6df2bff03087f1706666',1,'TakkuriEntity']]],
   ['x_5fraw_3',['x_raw',['../structManagerA.html#a2eee0f1a3afcad08f5ecce1ca184dee6',1,'ManagerA']]],
-  ['xdist_4',['xDist',['../npc5_8c.html#a4848c29657fd3a5bb974a2a9d0dfb6b6',1,'npc5.c']]],
-  ['xoffset_5',['xOffset',['../structBgSettings.html#ab150dea40d3b03413c46358d69b891b2',1,'BgSettings::xOffset()'],['../structBgAffSettings.html#ad4af06dcc9a6e1f20267da18b6d27fe6',1,'BgAffSettings::xOffset()']]],
-  ['xpc_6',['xpc',['../structSoundChannel.html#adf81526a0324c71cc1379fc1b0e1bce8',1,'SoundChannel']]],
-  ['xpi_7',['xpi',['../structSoundChannel.html#adecead018f39867088a4d0c57861725d',1,'SoundChannel']]],
-  ['xpointleastsig_8',['xPointLeastSig',['../structBgTransformationSettings.html#a9fab06afeaef1e035bf57e21045bb606',1,'BgTransformationSettings']]],
-  ['xpointmostsig_9',['xPointMostSig',['../structBgTransformationSettings.html#a4e83aab9fd4711eb0a6300214d81f252',1,'BgTransformationSettings']]],
-  ['xpos_10',['xPos',['../structWindow.html#a6aa930a6c2ab45bcfc15d644c9d4ca0f',1,'Window::xPos()'],['../structEntityData.html#ada03f6a03e7c88e61a8687adb307ae97',1,'EntityData::xPos()']]],
-  ['xscale_11',['xScale',['../structObjAffineSrcData.html#afedfaed37cf8eac4eefa221154f6b9f4',1,'ObjAffineSrcData']]]
+  ['xoffset_4',['xOffset',['../structBgSettings.html#ab150dea40d3b03413c46358d69b891b2',1,'BgSettings::xOffset()'],['../structBgAffSettings.html#ad4af06dcc9a6e1f20267da18b6d27fe6',1,'BgAffSettings::xOffset()']]],
+  ['xpc_5',['xpc',['../structSoundChannel.html#adf81526a0324c71cc1379fc1b0e1bce8',1,'SoundChannel']]],
+  ['xpi_6',['xpi',['../structSoundChannel.html#adecead018f39867088a4d0c57861725d',1,'SoundChannel']]],
+  ['xpointleastsig_7',['xPointLeastSig',['../structBgTransformationSettings.html#a9fab06afeaef1e035bf57e21045bb606',1,'BgTransformationSettings']]],
+  ['xpointmostsig_8',['xPointMostSig',['../structBgTransformationSettings.html#a4e83aab9fd4711eb0a6300214d81f252',1,'BgTransformationSettings']]],
+  ['xpos_9',['xPos',['../structWindow.html#a6aa930a6c2ab45bcfc15d644c9d4ca0f',1,'Window::xPos()'],['../structEntityData.html#ada03f6a03e7c88e61a8687adb307ae97',1,'EntityData::xPos()']]],
+  ['xscale_10',['xScale',['../structObjAffineSrcData.html#afedfaed37cf8eac4eefa221154f6b9f4',1,'ObjAffineSrcData']]]
 ];

@@ -174,7 +174,7 @@ var searchData=
   ['framecount_171',['frameCount',['../structRoomTransition.html#a73b7b2a3d4fcd6ff79011426eba82d73',1,'RoomTransition']]],
   ['frameduration_172',['frameDuration',['../structEntity.html#aaf20e9e15d79acae160d573cd918cdf0',1,'Entity']]],
   ['frameindex_173',['frameIndex',['../structSpawnData.html#ad8a2ec91e0a6e18d569e900cd8e642e2',1,'SpawnData::frameIndex()'],['../structEntity.html#a03848ef3a5837f6e0f07991b6a18e9b8',1,'Entity::frameIndex()']]],
-  ['framesettings_174',['frameSettings',['../structPACKED.html#a1bca0fb7d2d9caf4ee722d1bc2f029fb',1,'PACKED']]],
+  ['framesettings_174',['frameSettings',['../structPACKED.html#a404e8cc37cb49a6cec8ae602c2a420d5',1,'PACKED']]],
   ['framespritesettings_175',['frameSpriteSettings',['../structEntity.html#a84166dd42b22304f0d8f5a0504b22535',1,'Entity']]],
   ['framestate_176',['framestate',['../itemTryPickupObject_8c.html#ae2a6938fb85f8fb7254a6f0f194983c8',1,'framestate():&#160;itemTryPickupObject.c'],['../structPlayerState.html#a243c83027a8eac071881559eae0bf11b',1,'PlayerState::framestate()']]],
   ['framestate_5flast_177',['framestate_last',['../structPlayerState.html#a9770f6fe1b2420a1b6c4b9374ff3373b',1,'PlayerState']]],

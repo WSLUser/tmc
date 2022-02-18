@@ -48,10 +48,9 @@ var searchData=
   ['yamadoukutu_5f0f_5fakindo_45',['YAMADOUKUTU_0F_AKINDO',['../flags_8h.html#ac5200b6a58d7d730931d3f59e937e92caf33fe8067d2279b675db0ac4af1221ec',1,'flags.h']]],
   ['yamadoukutu_5f10_5f00_46',['YAMADOUKUTU_10_00',['../flags_8h.html#ac5200b6a58d7d730931d3f59e937e92cac1c87db8a28ade54ca397ba07ebc483d',1,'flags.h']]],
   ['yamakobito_5fopen_47',['YAMAKOBITO_OPEN',['../flags_8h.html#ae13c3f8316aded37796748ddd1d667f0a1632f8fe30da2306cb0ae23812a5d264',1,'flags.h']]],
-  ['ydist_48',['yDist',['../npc5_8c.html#a4d4959de8300ff6214396ea06b7ab8b6',1,'npc5.c']]],
-  ['yoffset_49',['yOffset',['../structBgSettings.html#aaff8f9dabbfddbead671a159f010768e',1,'BgSettings::yOffset()'],['../structBgAffSettings.html#a84af18bb99dc75ad308a5dd288138d4d',1,'BgAffSettings::yOffset()']]],
-  ['ypointleastsig_50',['yPointLeastSig',['../structBgTransformationSettings.html#a94e3f5e71e6aaf7706d03b26d1b4cd58',1,'BgTransformationSettings']]],
-  ['ypointmostsig_51',['yPointMostSig',['../structBgTransformationSettings.html#aa45f4c4fd34ebc13468062909ade9c4f',1,'BgTransformationSettings']]],
-  ['ypos_52',['yPos',['../structWindow.html#a3e669bfd7d162ed6ca7bb57b6f0f4064',1,'Window::yPos()'],['../structEntityData.html#aa4335c259b5ff5b1118545a2320eba59',1,'EntityData::yPos()']]],
-  ['yscale_53',['yScale',['../structObjAffineSrcData.html#a27a8299de047737736af359ca5e8df2f',1,'ObjAffineSrcData']]]
+  ['yoffset_48',['yOffset',['../structBgSettings.html#aaff8f9dabbfddbead671a159f010768e',1,'BgSettings::yOffset()'],['../structBgAffSettings.html#a84af18bb99dc75ad308a5dd288138d4d',1,'BgAffSettings::yOffset()']]],
+  ['ypointleastsig_49',['yPointLeastSig',['../structBgTransformationSettings.html#a94e3f5e71e6aaf7706d03b26d1b4cd58',1,'BgTransformationSettings']]],
+  ['ypointmostsig_50',['yPointMostSig',['../structBgTransformationSettings.html#aa45f4c4fd34ebc13468062909ade9c4f',1,'BgTransformationSettings']]],
+  ['ypos_51',['yPos',['../structWindow.html#a3e669bfd7d162ed6ca7bb57b6f0f4064',1,'Window::yPos()'],['../structEntityData.html#aa4335c259b5ff5b1118545a2320eba59',1,'EntityData::yPos()']]],
+  ['yscale_52',['yScale',['../structObjAffineSrcData.html#a27a8299de047737736af359ca5e8df2f',1,'ObjAffineSrcData']]]
 ];
