@@ -70,7 +70,7 @@ var searchData=
   ['chuchuboss_5fonknockback_67',['ChuchuBoss_OnKnockback',['../chuchuBoss_8c.html#a66864dad0d6db8cdaa7179e11ca86f22',1,'chuchuBoss.c']]],
   ['chuchuboss_5fontick_68',['ChuchuBoss_OnTick',['../chuchuBoss_8c.html#a7f2a91f59ee6522d2481660e987c8d3b',1,'chuchuBoss.c']]],
   ['cleanupgfxslots_69',['CleanUpGFXSlots',['../game_8c.html#a51bbbdba6e17dbff8fbdfc88f1d930bd',1,'game.c']]],
-  ['cleanupobjpalettes_70',['CleanUpObjPalettes',['../color_8c.html#a13ed20e955f893bb4b3fad71060b5b59',1,'color.c']]],
+  ['cleanupobjpalettes_70',['CleanUpObjPalettes',['../color_8c.html#ad18e59ea2b17b4c89a1516d2a226d42c',1,'color.c']]],
   ['clear64byte_71',['Clear64byte',['../m4a_8c.html#a5a2475ce7a6ae90897e175b71ea9279d',1,'m4a.c']]],
   ['clearalldeletedentities_72',['ClearAllDeletedEntities',['../entity_8c.html#a9d66f8f33815b60c77480af2602aaf8e',1,'entity.c']]],
   ['cleararmosdata_73',['ClearArmosData',['../code__080300AC_8c.html#a783abc37336051098a99c428a5a3c97b',1,'ClearArmosData(void):&#160;code_080300AC.c'],['../game_8c.html#a783abc37336051098a99c428a5a3c97b',1,'ClearArmosData(void):&#160;code_080300AC.c']]],

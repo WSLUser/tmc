@@ -40,7 +40,7 @@ var searchData=
   ['condition_37',['condition',['../structScriptExecutionContext.html#a38d37cb61bf87bc329453c5a72c8a4b0',1,'ScriptExecutionContext']]],
   ['confusedtime_38',['confusedTime',['../structEntity.html#a6b2eae049800addae207f19718e3a690',1,'Entity']]],
   ['context_39',['context',['../librarians_8c.html#aace0eb4c23e95df134e46772a9763161',1,'librarians.c']]],
-  ['control_40',['control',['../structDMARegisters.html#a083515c5af699dc26943b6948335f548',1,'DMARegisters::control()'],['../structBgSettings.html#a1a841a4964122ea50479f18dd28d4197',1,'BgSettings::control()'],['../structBgAffSettings.html#a2016a48e0512b4a021667e219ca027f2',1,'BgAffSettings::control()']]],
+  ['control_40',['control',['../structDMARegisters.html#a0d87430c396aa228e7b911767d7a1445',1,'DMARegisters::control()'],['../structBgSettings.html#a1a841a4964122ea50479f18dd28d4197',1,'BgSettings::control()'],['../structBgAffSettings.html#a2016a48e0512b4a021667e219ca027f2',1,'BgAffSettings::control()']]],
   ['controlmode_41',['controlMode',['../structPlayerState.html#a7b66a5d0f7bf7832d57c858bf19378b9',1,'PlayerState']]],
   ['controls_42',['controls',['../structScreen.html#a3fc717d71bd00cd680fba7525597d5e1',1,'Screen']]],
   ['count_43',['count',['../structFlashSector.html#a7b29e153db250bbf60db9f0fbd2fb83b',1,'FlashSector::count()'],['../structSoundChannel.html#a3562ee7420e44a6261b7e40559c4b346',1,'SoundChannel::count()']]],

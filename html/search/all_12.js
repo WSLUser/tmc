@@ -581,7 +581,7 @@ var searchData=
   ['right_578',['right',['../structItemMenuTableEntry.html#a5da6047e5cf0e822bc7b58d9b6140101',1,'ItemMenuTableEntry']]],
   ['right_5falign_579',['right_align',['../structPopupOption.html#a6c9ba5a1406fc8b4bf6bbff7074a10b7',1,'PopupOption::right_align()'],['../structFont.html#a2fc651260a0615bd63ea369bbc7955d0',1,'Font::right_align()']]],
   ['rightvolume_580',['rightVolume',['../structCgbChannel.html#a16253bfddcfb84d4f3cbc16decad3783',1,'CgbChannel::rightVolume()'],['../structSoundChannel.html#a8916f0d577eadd58dacbdf321b6bc15e',1,'SoundChannel::rightVolume()']]],
-  ['ripple_581',['RIPPLE',['../greatFairy_8c.html#aae05225933a42f81e7c4a9fb286596f9a800be18020c992e464c36d795ddcec6b',1,'greatFairy.c']]],
+  ['ripple_581',['RIPPLE',['../greatFairy_8c.html#adb49720dc49f7d4e4cf9adbf2948e409a800be18020c992e464c36d795ddcec6b',1,'greatFairy.c']]],
   ['rluncompvram_582',['RLUnCompVram',['../syscall_8h.html#a813dce367a04c3ac851d6264306a2cd0',1,'syscall.h']]],
   ['rluncompwram_583',['RLUnCompWram',['../syscall_8h.html#a73a171bc6f6b7d1d95ea4c2074052f19',1,'syscall.h']]],
   ['rock_584',['ROCK',['../tiles_8h.html#acd2017d946fd818c3b8ca377bc4006c7ab39e373af8c527684a4f0ded36bd961c',1,'tiles.h']]],

@@ -18,7 +18,7 @@ var searchData=
   ['repaired_5fshoe_15',['REPAIRED_SHOE',['../furniture_8c.html#aa06e085575735587cc1ab6389b3f2662a2c46fe9265766c0bc9fd647ff5378e35',1,'furniture.c']]],
   ['result_5fascii_16',['RESULT_ASCII',['../fileselect_8c.html#ad58a3b30f4fd343b9a93c56f90b6641ba35ff12980f75a6756b30268725cd52c8',1,'fileselect.c']]],
   ['result_5finvalid_17',['RESULT_INVALID',['../fileselect_8c.html#ad58a3b30f4fd343b9a93c56f90b6641ba49aeca3518ed393158da84e3feb8eca7',1,'fileselect.c']]],
-  ['ripple_18',['RIPPLE',['../greatFairy_8c.html#aae05225933a42f81e7c4a9fb286596f9a800be18020c992e464c36d795ddcec6b',1,'greatFairy.c']]],
+  ['ripple_18',['RIPPLE',['../greatFairy_8c.html#adb49720dc49f7d4e4cf9adbf2948e409a800be18020c992e464c36d795ddcec6b',1,'greatFairy.c']]],
   ['rock_19',['ROCK',['../tiles_8h.html#acd2017d946fd818c3b8ca377bc4006c7ab39e373af8c527684a4f0ded36bd961c',1,'tiles.h']]],
   ['rock_5fchuchu_20',['ROCK_CHUCHU',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba539be1a9526acddc1abe93b21dbe4f2c',1,'enemy.h']]],
   ['rock_5fprojectile_21',['ROCK_PROJECTILE',['../projectile_8h.html#ade7b79b8b6788010eb8b6a9fd994ada4a57ea2d57e815400751854d3c273c63f3',1,'projectile.h']]],

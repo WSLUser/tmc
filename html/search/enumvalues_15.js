@@ -2,7 +2,7 @@ var searchData=
 [
   ['waitfordone_0',['WaitForDone',['../managerB_8c.html#a9141c0c3c2ec22cbeb2b992067947be9ab1eda855c0cd571c3a2b8080abdfa54c',1,'managerB.c']]],
   ['waitforflag_1',['WaitForFlag',['../managerB_8c.html#a9141c0c3c2ec22cbeb2b992067947be9abbfe9f0d4543ea2a64bb5eae8ae85e07',1,'managerB.c']]],
-  ['wake_2',['WAKE',['../greatFairy_8c.html#aae05225933a42f81e7c4a9fb286596f9a669539d1110f789cf3e282be447c3e77',1,'greatFairy.c']]],
+  ['wake_2',['WAKE',['../greatFairy_8c.html#adb49720dc49f7d4e4cf9adbf2948e409a669539d1110f789cf3e282be447c3e77',1,'greatFairy.c']]],
   ['wall_5fmaster_3',['WALL_MASTER',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba06b419b8c7cdf0eb4980209fc511eaab',1,'enemy.h']]],
   ['wall_5fmaster_5f2_4',['WALL_MASTER_2',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba5745194a8e75774ef5ccca1b373f9ec0',1,'enemy.h']]],
   ['warp_5f1st_5',['WARP_1ST',['../flags_8h.html#a3f3de3e0d751949b8d0b60ffb302944aa41ff69a9338279bb1d04c92d859a17fd',1,'flags.h']]],
@@ -26,7 +26,7 @@ var searchData=
   ['wind_5ftribespeople_23',['WIND_TRIBESPEOPLE',['../npc_8h.html#ab86484a9fbeb0e4494cb75cadb5f4cf3ad7afc15c608bcc0cf277e77d72214314',1,'npc.h']]],
   ['windcrest_24',['WINDCREST',['../object_8h.html#a0b29a1e1c76a85a0dbaa7c34a9d2874aa0d36984b8a29d94e587e12a302602182',1,'object.h']]],
   ['winder_25',['WINDER',['../projectile_8h.html#ade7b79b8b6788010eb8b6a9fd994ada4a7ecd8a8fea68b684de9f2fb87099cdfc',1,'projectile.h']]],
-  ['wings_26',['WINGS',['../greatFairy_8c.html#aae05225933a42f81e7c4a9fb286596f9ac5f9b2039b05f5eaaf2b4fa96d5bcb4c',1,'greatFairy.c']]],
+  ['wings_26',['WINGS',['../greatFairy_8c.html#adb49720dc49f7d4e4cf9adbf2948e409ac5f9b2039b05f5eaaf2b4fa96d5bcb4c',1,'greatFairy.c']]],
   ['wisp_27',['WISP',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba0bc9e3f29939dbed0d1399b18b88b67d',1,'enemy.h']]],
   ['wizzrobe_5ffire_28',['WIZZROBE_FIRE',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08abac234b750fed4dc626e8132b5514f9700',1,'enemy.h']]],
   ['wizzrobe_5fice_29',['WIZZROBE_ICE',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba1438753a9600a0255cd4ed4b65426e4f',1,'enemy.h']]],

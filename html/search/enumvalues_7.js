@@ -22,7 +22,7 @@ var searchData=
   ['hay_5fbed_19',['HAY_BED',['../furniture_8c.html#aa06e085575735587cc1ab6389b3f2662ac6f2ccb0a3e8668f5b30829f23e2c399',1,'furniture.c']]],
   ['heart_5fcontainer_20',['HEART_CONTAINER',['../object_8h.html#a0b29a1e1c76a85a0dbaa7c34a9d2874aa068963265cfe7b6fe7e544e386509c34',1,'object.h']]],
   ['helmasaur_21',['HELMASAUR',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08abaa9acbdd62c8fd8733ac0bab9717015cb',1,'enemy.h']]],
-  ['hidden_22',['HIDDEN',['../lakitu_8c.html#adc29c2ff13d900c2f185ee95427fb06ca41ae0a505430bf564b119bc82db7592d',1,'lakitu.c']]],
+  ['hidden_22',['HIDDEN',['../lakitu_8c.html#abc6126af1d45847bc59afa0aa3216b04a41ae0a505430bf564b119bc82db7592d',1,'lakitu.c']]],
   ['hidden_5fladder_5fdown_23',['HIDDEN_LADDER_DOWN',['../object_8h.html#a0b29a1e1c76a85a0dbaa7c34a9d2874aa79ae966cc089e9733aaaf1689062c1e1',1,'object.h']]],
   ['hikyou_5f00_5f00_24',['HIKYOU_00_00',['../flags_8h.html#ac7ee586aedbfebef94fe99abb6fcc16aa7bb8eab3df699c377571460f94aa884e',1,'flags.h']]],
   ['hikyou_5f00_5f01_25',['HIKYOU_00_01',['../flags_8h.html#ac7ee586aedbfebef94fe99abb6fcc16aa713edf021d0a8927b21e8c771ca033e6',1,'flags.h']]],

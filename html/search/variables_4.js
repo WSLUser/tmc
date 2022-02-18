@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['d_0',['d',['../structManager28.html#adfe711b7159705ed565620195ed73a9c',1,'Manager28']]],
+  ['d_0',['d',['../structManager28.html#a5c042e3182edb8a3501fe26718462acb',1,'Manager28']]],
   ['damage_1',['damage',['../structEntity.html#aa9f9e1993b7fd72a852e86b88a08b077',1,'Entity']]],
   ['damagetakencycle_2',['damageTakenCycle',['../structGyorgFemaleEntity.html#ae9524560f2edc8db01e44d8aa5dcff90',1,'GyorgFemaleEntity']]],
   ['damagetype_3',['damageType',['../structEnemyDefinition.html#ad8ae38d7eb6ccfb111a2d4fbc3013dba',1,'EnemyDefinition::damageType()'],['../structProjectileDefinition.html#a758a28275f07b872ec6bb0042e411154',1,'ProjectileDefinition::damageType()']]],

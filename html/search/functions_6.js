@@ -26,7 +26,7 @@ var searchData=
   ['finalizesave_23',['FinalizeSave',['../sub__0807CA18_8c.html#af34191b5e2bcc51574cdd6d9d4be4f4e',1,'FinalizeSave(void):&#160;sub_0807CA18.c'],['../game_8c.html#aaa26e7fdd1f78ba7d61bbbf008c2a7f7',1,'FinalizeSave(void):&#160;sub_0807CA18.c']]],
   ['findentity_24',['FindEntity',['../entity_8c.html#a8100a7c986c6110125e60a89f2bdd5ef',1,'FindEntity(u32 kind, u32 id, u32 listIndex, u32 type, u32 type2):&#160;entity.c'],['../entity_8h.html#a8100a7c986c6110125e60a89f2bdd5ef',1,'FindEntity(u32 kind, u32 id, u32 listIndex, u32 type, u32 type2):&#160;entity.c']]],
   ['findentitybyid_25',['FindEntityByID',['../entity_8c.html#a2f587d184019c57ef2da36f3fda3e7fd',1,'FindEntityByID(u32 kind, u32 id, u32 listIndex):&#160;entity.c'],['../entity_8h.html#a2f587d184019c57ef2da36f3fda3e7fd',1,'FindEntityByID(u32 kind, u32 id, u32 listIndex):&#160;entity.c']]],
-  ['findfreeobjpalette_26',['FindFreeObjPalette',['../color_8c.html#aaa77486b0c70d1bc92379db4c1098cd2',1,'color.c']]],
+  ['findfreeobjpalette_26',['FindFreeObjPalette',['../color_8c.html#a6070afb956f62c616aa6d37693e7cd8e',1,'color.c']]],
   ['findnextduplicateid_27',['FindNextDuplicateID',['../entity_8c.html#a4a2ac6b21bdc1fb33a062214cd79fe24',1,'FindNextDuplicateID(Entity *ent, int listIndex):&#160;entity.c'],['../entity_8h.html#aaa77b7fe0f4e0426165d434c22e4c281',1,'FindNextDuplicateID(Entity *entity, int listIndex):&#160;entity.c']]],
   ['findpalette_28',['FindPalette',['../color_8c.html#a5e7e11c33b3ae5f4dec0a02a2a79cd58',1,'FindPalette(u32 a1):&#160;color.c'],['../color_8h.html#a5e7e11c33b3ae5f4dec0a02a2a79cd58',1,'FindPalette(u32 a1):&#160;color.c']]],
   ['fireballchain_29',['FireballChain',['../object_8h.html#a9bc3662c9bd694eefd5f91159873c65b',1,'object.h']]],
