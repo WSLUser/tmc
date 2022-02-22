@@ -37,9 +37,9 @@ var searchData=
   ['octorokbossprojectile_5ffunctions_34',['OctorokBossProjectile_Functions',['../octorokBossProjectile_8c.html#a6e3829b2619cd1841baff7be5b65f0a7',1,'octorokBossProjectile.c']]],
   ['octorokgolden_5ffunctions_35',['OctorokGolden_Functions',['../octorokGolden_8c.html#ad9733168efd2b2e3920864d2bced3381',1,'octorokGolden.c']]],
   ['off_36',['off',['../structObject6AEntity.html#adca6de49802fbd2b412e8ce19792382c',1,'Object6AEntity']]],
-  ['offset_5fx_37',['offset_x',['../structHitbox3D.html#ad253eae94b9e4338110e6051e06b9844',1,'Hitbox3D::offset_x()'],['../structHitbox.html#a9a74dc476292b96ff949c5259824bce6',1,'Hitbox::offset_x()']]],
+  ['offset_5fx_37',['offset_x',['../structHitbox.html#a9a74dc476292b96ff949c5259824bce6',1,'Hitbox::offset_x()'],['../structHitbox3D.html#ad253eae94b9e4338110e6051e06b9844',1,'Hitbox3D::offset_x()']]],
   ['offset_5fy_38',['offset_y',['../structHitbox.html#a58a6dac2dbeb7809bd3401c3d3d864a7',1,'Hitbox::offset_y()'],['../structHitbox3D.html#aeb29f0db6a00ee64432e81272d412e04',1,'Hitbox3D::offset_y()']]],
-  ['offsetx_39',['offsetX',['../structGyorgChildSpawns.html#af64ed39aee2833e27d48e9b53a86760c',1,'GyorgChildSpawns::offsetX()'],['../structHitboxChange.html#aea71b2e3faa30140fe8018c394a428b9',1,'HitboxChange::offsetX()']]],
+  ['offsetx_39',['offsetX',['../structHitboxChange.html#aea71b2e3faa30140fe8018c394a428b9',1,'HitboxChange::offsetX()'],['../structGyorgChildSpawns.html#af64ed39aee2833e27d48e9b53a86760c',1,'GyorgChildSpawns::offsetX()']]],
   ['offsety_40',['offsetY',['../structHitboxChange.html#a796f3dc8b08a37a40b0f31952bea26e7',1,'HitboxChange::offsetY()'],['../structGyorgChildSpawns.html#a031273a5561d83cfcdf6adfa568f97ef',1,'GyorgChildSpawns::offsetY()']]],
   ['onenter_41',['onEnter',['../structArea.html#a8192d38df34b11c11ec1059590249d15',1,'Area']]],
   ['onexit_42',['onExit',['../structArea.html#aff6c8d59cf67c0d474cb876e7bc8ea5e',1,'Area']]],
@@ -50,9 +50,8 @@ var searchData=
   ['orgknockbackspeed_47',['orgKnockbackSpeed',['../structColSettings.html#ae256ecdd7d914dbd3d79139f4a642df5',1,'ColSettings']]],
   ['origin_5fx_48',['origin_x',['../structRoomControls.html#afebb64f64bdd129a398db72ca06221cd',1,'RoomControls']]],
   ['origin_5fy_49',['origin_y',['../structRoomControls.html#a0194bf06002cf23dfffcd1ec372f1fe9',1,'RoomControls']]],
-  ['other_50',['other',['../pullableMushroom_8c.html#aa07ed9ce84e679c4709b34635fb8e318',1,'pullableMushroom.c']]],
-  ['overlaytype_51',['overlayType',['../structMenu.html#afc4a9bd74f685c849c04c346ea488a79',1,'Menu']]],
-  ['overworld_5fmap_5fx_52',['overworld_map_x',['../structPlayerRoomStatus.html#a2958aa0cb92a5dbe97f0c1dfeb4fb778',1,'PlayerRoomStatus']]],
-  ['overworld_5fmap_5fy_53',['overworld_map_y',['../structPlayerRoomStatus.html#a536c14d3bf2025eae7cdaae89f24bd31',1,'PlayerRoomStatus']]],
-  ['own_5ftile_54',['own_tile',['../structManager30.html#a27e57a8fba2a321253878210006ec1b9',1,'Manager30']]]
+  ['overlaytype_50',['overlayType',['../structMenu.html#afc4a9bd74f685c849c04c346ea488a79',1,'Menu']]],
+  ['overworld_5fmap_5fx_51',['overworld_map_x',['../structPlayerRoomStatus.html#a2958aa0cb92a5dbe97f0c1dfeb4fb778',1,'PlayerRoomStatus']]],
+  ['overworld_5fmap_5fy_52',['overworld_map_y',['../structPlayerRoomStatus.html#a536c14d3bf2025eae7cdaae89f24bd31',1,'PlayerRoomStatus']]],
+  ['own_5ftile_53',['own_tile',['../structManager30.html#a27e57a8fba2a321253878210006ec1b9',1,'Manager30']]]
 ];

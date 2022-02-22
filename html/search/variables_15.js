@@ -210,6 +210,5 @@ var searchData=
   ['upperinn_5fnodin_207',['UpperInn_NoDin',['../roomInit_8c.html#aed5398127d1c07eef11dbca412966ad0',1,'roomInit.c']]],
   ['upperinn_5fnofarore_208',['UpperInn_NoFarore',['../roomInit_8c.html#adc95670c673b79f6aa0fecf2af4ee6c1',1,'roomInit.c']]],
   ['upperinn_5fnonayru_209',['UpperInn_NoNayru',['../roomInit_8c.html#aefb006c802bdccb2fb1178df45a2b758',1,'roomInit.c']]],
-  ['upperinn_5foracles_210',['UpperInn_Oracles',['../roomInit_8c.html#af24883b8b6880135046293f8d49dc2d2',1,'roomInit.c']]],
-  ['uvar3_211',['uVar3',['../pullableMushroom_8c.html#a56a0d6e877f8a820dfa63ab288a9c8e4',1,'pullableMushroom.c']]]
+  ['upperinn_5foracles_210',['UpperInn_Oracles',['../roomInit_8c.html#af24883b8b6880135046293f8d49dc2d2',1,'roomInit.c']]]
 ];
