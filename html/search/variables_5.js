@@ -11,7 +11,7 @@ var searchData=
   ['endofanimation_8',['endOfAnimation',['../structPACKED.html#a9ae41a291e4f038a9d7fe59520a69646',1,'PACKED']]],
   ['enemies_9',['enemies',['../structManagerBHelper.html#aca5e9e00bfe31152b201f9af2b2eeed1',1,'ManagerBHelper::enemies()'],['../structManager28.html#ab92b7ef2b2e2b12f3ac058f31308200a',1,'Manager28::enemies()']]],
   ['enemies_5flakehylia_5fmain_10',['Enemies_LakeHylia_Main',['../roomInit_8c.html#a2164fe829c1d19f7439f6987cacc36ce',1,'roomInit.c']]],
-  ['enemy4d_5ffunctions_11',['Enemy4D_Functions',['../enemy4D_8c.html#a89b326137b43fafac334fb8ab800224d',1,'enemy4D.c']]],
+  ['enemy4d_5ffunctions_11',['Enemy4D_Functions',['../enemy4D_8c.html#aa94bae2cab75c0baaf327910b70f8fae',1,'enemy4D.c']]],
   ['enemy50_5factions_12',['Enemy50_Actions',['../enemy50_8c.html#af1d2798b7ef8406ccbbd3a9926bbdd37',1,'enemy50.c']]],
   ['enemy50_5ffunctions_13',['Enemy50_Functions',['../enemy50_8c.html#ae5a95ed2f6643f9242c9dac2dbc9f6aa',1,'enemy50.c']]],
   ['enemy50_5fsubactions_14',['Enemy50_SubActions',['../enemy50_8c.html#a944c2e440a86ca6c05a1bbed9c73b781',1,'enemy50.c']]],
