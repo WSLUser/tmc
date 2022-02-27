@@ -1,12 +1,13 @@
 <map id="src/enemy/spinyChuchu.c" name="src/enemy/spinyChuchu.c">
-<area shape="rect" id="node1" title="Spiny Chuchu enemy." alt="" coords="486,5,657,32"/>
+<area shape="rect" id="node1" title="Spiny Chuchu enemy." alt="" coords="742,5,913,32"/>
 <area shape="rect" id="node2" href="$enemy_8h.html" title=" " alt="" coords="229,155,300,181"/>
 <area shape="rect" id="node24" href="$functions_8h.html" title=" " alt="" coords="785,80,870,107"/>
+<area shape="rect" id="node33" href="$hitbox_8h.html" title=" " alt="" coords="894,80,961,107"/>
 <area shape="rect" id="node3" href="$global_8h.html" title=" " alt="" coords="559,453,626,480"/>
 <area shape="rect" id="node15" href="$asm_8h.html" title=" " alt="" coords="300,379,357,405"/>
 <area shape="rect" id="node16" href="$sound_8h.html" title=" " alt="" coords="323,304,390,331"/>
 <area shape="rect" id="node17" href="$effects_8h.html" title=" " alt="" coords="460,229,531,256"/>
-<area shape="rect" id="node18" href="$entity_8h.html" title=" " alt="" coords="652,304,715,331"/>
+<area shape="rect" id="node18" href="$entity_8h.html" title=" " alt="" coords="653,304,716,331"/>
 <area shape="rect" id="node21" href="$flags_8h.html" title=" " alt="" coords="25,304,83,331"/>
 <area shape="rect" id="node22" href="$common_8h.html" title=" " alt="" coords="162,379,245,405"/>
 <area shape="rect" id="node23" href="$projectile_8h.html" title=" " alt="" coords="143,229,227,256"/>

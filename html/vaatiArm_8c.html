@@ -88,6 +88,7 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="enemy_8h_source.html">enemy.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="object_8h_source.html">object.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="hitbox_8h_source.html">hitbox.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for vaatiArm.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -95,10 +96,11 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="vaatiArm_8c__incl.png" border="0" usemap="#asrc_2enemy_2vaatiArm_8c" alt=""/></div>
 <map name="asrc_2enemy_2vaatiArm_8c" id="asrc_2enemy_2vaatiArm_8c">
-<area shape="rect" title="Vaati Arm enemy." alt="" coords="558,5,706,32"/>
+<area shape="rect" title="Vaati Arm enemy." alt="" coords="734,5,882,32"/>
 <area shape="rect" href="enemy_8h.html" title=" " alt="" coords="311,155,382,181"/>
-<area shape="rect" href="object_8h.html" title=" " alt="" coords="599,155,665,181"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="989,80,1075,107"/>
+<area shape="rect" href="object_8h.html" title=" " alt="" coords="621,155,688,181"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="919,80,1004,107"/>
+<area shape="rect" href="hitbox_8h.html" title=" " alt="" coords="1028,80,1095,107"/>
 <area shape="rect" href="global_8h.html" title=" " alt="" coords="783,453,849,480"/>
 <area shape="rect" href="asm_8h.html" title=" " alt="" coords="413,229,470,256"/>
 <area shape="rect" href="sound_8h.html" title=" " alt="" coords="132,229,199,256"/>
@@ -363,10 +365,6 @@ Variables</h2></td></tr>
 <tr class="separator:a958c20aab9fafdbe328e81c7f9aac92a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abec5725af3b71b6c45b2665318b906c5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vaatiArm_8c.html#abec5725af3b71b6c45b2665318b906c5">gUnk_080D1419</a> [] = { 0, 0xa, 0xa, 0xa, 0x1c }</td></tr>
 <tr class="separator:abec5725af3b71b6c45b2665318b906c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d8ab726dde55c67379a4b251f091d4f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structHitbox.html">Hitbox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vaatiArm_8c.html#a3d8ab726dde55c67379a4b251f091d4f">gUnk_080FD450</a></td></tr>
-<tr class="separator:a3d8ab726dde55c67379a4b251f091d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77784d39c5b5c4d4d43345daa3efd2ce"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structHitbox.html">Hitbox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vaatiArm_8c.html#a77784d39c5b5c4d4d43345daa3efd2ce">gUnk_080FD538</a></td></tr>
-<tr class="separator:a77784d39c5b5c4d4d43345daa3efd2ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fa3df92653a890e3892799c3cc244a3"><td class="memItemLeft" align="right" valign="top">asm non_matching vaati <a class="el" href="vaatiArm_8c.html#a8331bb00279f6a293c413962ca2697f9">sub_080432A8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vaatiArm_8c.html#a3fa3df92653a890e3892799c3cc244a3">inc</a></td></tr>
 <tr class="separator:a3fa3df92653a890e3892799c3cc244a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -1662,9 +1660,9 @@ Variables</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
 <div class="line">    <a class="code hl_function" href="vaatiArm_8c.html#a9629268e259be3493ba98f4628d680a1">sub_0804259C</a>, <a class="code hl_function" href="vaatiArm_8c.html#a3ea35343f7c89b3dd839cbf7e8fb0827">sub_08044078</a>, <a class="code hl_function" href="vaatiArm_8c.html#a3ea35343f7c89b3dd839cbf7e8fb0827">sub_08044078</a>, <a class="code hl_function" href="vaatiArm_8c.html#a3ea35343f7c89b3dd839cbf7e8fb0827">sub_08044078</a>, <a class="code hl_function" href="vaatiArm_8c.html#a7f2cc3ce4280d98e40f722876cf087dd">sub_080440CC</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="avaatiArm_8c_html_a3ea35343f7c89b3dd839cbf7e8fb0827"><div class="ttname"><a href="vaatiArm_8c.html#a3ea35343f7c89b3dd839cbf7e8fb0827">sub_08044078</a></div><div class="ttdeci">void sub_08044078(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:1447</div></div>
-<div class="ttc" id="avaatiArm_8c_html_a7f2cc3ce4280d98e40f722876cf087dd"><div class="ttname"><a href="vaatiArm_8c.html#a7f2cc3ce4280d98e40f722876cf087dd">sub_080440CC</a></div><div class="ttdeci">void sub_080440CC(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:1461</div></div>
-<div class="ttc" id="avaatiArm_8c_html_a9629268e259be3493ba98f4628d680a1"><div class="ttname"><a href="vaatiArm_8c.html#a9629268e259be3493ba98f4628d680a1">sub_0804259C</a></div><div class="ttdeci">void sub_0804259C(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:191</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a3ea35343f7c89b3dd839cbf7e8fb0827"><div class="ttname"><a href="vaatiArm_8c.html#a3ea35343f7c89b3dd839cbf7e8fb0827">sub_08044078</a></div><div class="ttdeci">void sub_08044078(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:1445</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a7f2cc3ce4280d98e40f722876cf087dd"><div class="ttname"><a href="vaatiArm_8c.html#a7f2cc3ce4280d98e40f722876cf087dd">sub_080440CC</a></div><div class="ttdeci">void sub_080440CC(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:1459</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a9629268e259be3493ba98f4628d680a1"><div class="ttname"><a href="vaatiArm_8c.html#a9629268e259be3493ba98f4628d680a1">sub_0804259C</a></div><div class="ttdeci">void sub_0804259C(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:189</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1687,15 +1685,15 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="vaatiArm_8c.html#a1092ab7e5a700ec5bc08e2773befa792">sub_080425B4</a>, <a class="code hl_function" href="vaatiArm_8c.html#a59fe8676febeb996f5e7276a8aba4648">sub_08042654</a>, <a class="code hl_function" href="vaatiArm_8c.html#a5c4968be7663bcb8f522858f459019ec">sub_08042818</a>, <a class="code hl_function" href="vaatiArm_8c.html#a8b7b45f010ec56b8decfe404be58aafc">sub_08042870</a>, <a class="code hl_function" href="vaatiArm_8c.html#a8f478713f89730d8a21fc497ee5803ad">sub_08042A3C</a>,</div>
 <div class="line">    <a class="code hl_function" href="vaatiArm_8c.html#a0dcbebcd71608f14d439baba5b3c972d">sub_08042C14</a>, <a class="code hl_function" href="vaatiArm_8c.html#ac53cc5c14387ab6ac156932318f005f2">sub_0804325C</a>, <a class="code hl_function" href="vaatiArm_8c.html#acf761d1d410093563e1e8230484b2ef0">sub_08043420</a>, <a class="code hl_function" href="vaatiArm_8c.html#a3c00befa30b9ae09f42804272e246d95">sub_08043680</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="avaatiArm_8c_html_a0dcbebcd71608f14d439baba5b3c972d"><div class="ttname"><a href="vaatiArm_8c.html#a0dcbebcd71608f14d439baba5b3c972d">sub_08042C14</a></div><div class="ttdeci">void sub_08042C14(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:515</div></div>
-<div class="ttc" id="avaatiArm_8c_html_a1092ab7e5a700ec5bc08e2773befa792"><div class="ttname"><a href="vaatiArm_8c.html#a1092ab7e5a700ec5bc08e2773befa792">sub_080425B4</a></div><div class="ttdeci">void sub_080425B4(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:195</div></div>
-<div class="ttc" id="avaatiArm_8c_html_a3c00befa30b9ae09f42804272e246d95"><div class="ttname"><a href="vaatiArm_8c.html#a3c00befa30b9ae09f42804272e246d95">sub_08043680</a></div><div class="ttdeci">void sub_08043680(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:1043</div></div>
-<div class="ttc" id="avaatiArm_8c_html_a59fe8676febeb996f5e7276a8aba4648"><div class="ttname"><a href="vaatiArm_8c.html#a59fe8676febeb996f5e7276a8aba4648">sub_08042654</a></div><div class="ttdeci">void sub_08042654(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:224</div></div>
-<div class="ttc" id="avaatiArm_8c_html_a5c4968be7663bcb8f522858f459019ec"><div class="ttname"><a href="vaatiArm_8c.html#a5c4968be7663bcb8f522858f459019ec">sub_08042818</a></div><div class="ttdeci">void sub_08042818(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:294</div></div>
-<div class="ttc" id="avaatiArm_8c_html_a8b7b45f010ec56b8decfe404be58aafc"><div class="ttname"><a href="vaatiArm_8c.html#a8b7b45f010ec56b8decfe404be58aafc">sub_08042870</a></div><div class="ttdeci">void sub_08042870(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:312</div></div>
-<div class="ttc" id="avaatiArm_8c_html_a8f478713f89730d8a21fc497ee5803ad"><div class="ttname"><a href="vaatiArm_8c.html#a8f478713f89730d8a21fc497ee5803ad">sub_08042A3C</a></div><div class="ttdeci">void sub_08042A3C(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:420</div></div>
-<div class="ttc" id="avaatiArm_8c_html_ac53cc5c14387ab6ac156932318f005f2"><div class="ttname"><a href="vaatiArm_8c.html#ac53cc5c14387ab6ac156932318f005f2">sub_0804325C</a></div><div class="ttdeci">void sub_0804325C(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:843</div></div>
-<div class="ttc" id="avaatiArm_8c_html_acf761d1d410093563e1e8230484b2ef0"><div class="ttname"><a href="vaatiArm_8c.html#acf761d1d410093563e1e8230484b2ef0">sub_08043420</a></div><div class="ttdeci">void sub_08043420(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:909</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a0dcbebcd71608f14d439baba5b3c972d"><div class="ttname"><a href="vaatiArm_8c.html#a0dcbebcd71608f14d439baba5b3c972d">sub_08042C14</a></div><div class="ttdeci">void sub_08042C14(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:513</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a1092ab7e5a700ec5bc08e2773befa792"><div class="ttname"><a href="vaatiArm_8c.html#a1092ab7e5a700ec5bc08e2773befa792">sub_080425B4</a></div><div class="ttdeci">void sub_080425B4(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:193</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a3c00befa30b9ae09f42804272e246d95"><div class="ttname"><a href="vaatiArm_8c.html#a3c00befa30b9ae09f42804272e246d95">sub_08043680</a></div><div class="ttdeci">void sub_08043680(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:1041</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a59fe8676febeb996f5e7276a8aba4648"><div class="ttname"><a href="vaatiArm_8c.html#a59fe8676febeb996f5e7276a8aba4648">sub_08042654</a></div><div class="ttdeci">void sub_08042654(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:222</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a5c4968be7663bcb8f522858f459019ec"><div class="ttname"><a href="vaatiArm_8c.html#a5c4968be7663bcb8f522858f459019ec">sub_08042818</a></div><div class="ttdeci">void sub_08042818(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:292</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a8b7b45f010ec56b8decfe404be58aafc"><div class="ttname"><a href="vaatiArm_8c.html#a8b7b45f010ec56b8decfe404be58aafc">sub_08042870</a></div><div class="ttdeci">void sub_08042870(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:310</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a8f478713f89730d8a21fc497ee5803ad"><div class="ttname"><a href="vaatiArm_8c.html#a8f478713f89730d8a21fc497ee5803ad">sub_08042A3C</a></div><div class="ttdeci">void sub_08042A3C(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:418</div></div>
+<div class="ttc" id="avaatiArm_8c_html_ac53cc5c14387ab6ac156932318f005f2"><div class="ttname"><a href="vaatiArm_8c.html#ac53cc5c14387ab6ac156932318f005f2">sub_0804325C</a></div><div class="ttdeci">void sub_0804325C(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:841</div></div>
+<div class="ttc" id="avaatiArm_8c_html_acf761d1d410093563e1e8230484b2ef0"><div class="ttname"><a href="vaatiArm_8c.html#acf761d1d410093563e1e8230484b2ef0">sub_08043420</a></div><div class="ttdeci">void sub_08043420(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:907</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1759,13 +1757,13 @@ Variables</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
 <div class="line">    <a class="code hl_function" href="vaatiArm_8c.html#a154736083a1fd78557f07ebad83158ce">sub_08042894</a>, <a class="code hl_function" href="vaatiArm_8c.html#a6de97f46c96deefc368a15452e66b25b">sub_080428AC</a>, <a class="code hl_function" href="vaatiArm_8c.html#a17f2d2a63004e2a71fb133c87ae0faf1">sub_080428FC</a>, <a class="code hl_function" href="vaatiArm_8c.html#a1861349d02e731d6c7cc73abc59ea331">sub_08042944</a>, <a class="code hl_function" href="vaatiArm_8c.html#a3853e94e89d1ba088c5427fbf749348f">sub_08042970</a>, <a class="code hl_function" href="vaatiArm_8c.html#a452db572d03a66c38793bf59117087e5">sub_080429D4</a>, <a class="code hl_function" href="vaatiArm_8c.html#a255241a9bbbec56b70598f4f95fe04fa">sub_080429FC</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="avaatiArm_8c_html_a154736083a1fd78557f07ebad83158ce"><div class="ttname"><a href="vaatiArm_8c.html#a154736083a1fd78557f07ebad83158ce">sub_08042894</a></div><div class="ttdeci">void sub_08042894(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:318</div></div>
-<div class="ttc" id="avaatiArm_8c_html_a17f2d2a63004e2a71fb133c87ae0faf1"><div class="ttname"><a href="vaatiArm_8c.html#a17f2d2a63004e2a71fb133c87ae0faf1">sub_080428FC</a></div><div class="ttdeci">void sub_080428FC(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:345</div></div>
-<div class="ttc" id="avaatiArm_8c_html_a1861349d02e731d6c7cc73abc59ea331"><div class="ttname"><a href="vaatiArm_8c.html#a1861349d02e731d6c7cc73abc59ea331">sub_08042944</a></div><div class="ttdeci">void sub_08042944(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:362</div></div>
-<div class="ttc" id="avaatiArm_8c_html_a255241a9bbbec56b70598f4f95fe04fa"><div class="ttname"><a href="vaatiArm_8c.html#a255241a9bbbec56b70598f4f95fe04fa">sub_080429FC</a></div><div class="ttdeci">void sub_080429FC(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:407</div></div>
-<div class="ttc" id="avaatiArm_8c_html_a3853e94e89d1ba088c5427fbf749348f"><div class="ttname"><a href="vaatiArm_8c.html#a3853e94e89d1ba088c5427fbf749348f">sub_08042970</a></div><div class="ttdeci">void sub_08042970(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:375</div></div>
-<div class="ttc" id="avaatiArm_8c_html_a452db572d03a66c38793bf59117087e5"><div class="ttname"><a href="vaatiArm_8c.html#a452db572d03a66c38793bf59117087e5">sub_080429D4</a></div><div class="ttdeci">void sub_080429D4(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:395</div></div>
-<div class="ttc" id="avaatiArm_8c_html_a6de97f46c96deefc368a15452e66b25b"><div class="ttname"><a href="vaatiArm_8c.html#a6de97f46c96deefc368a15452e66b25b">sub_080428AC</a></div><div class="ttdeci">void sub_080428AC(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:323</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a154736083a1fd78557f07ebad83158ce"><div class="ttname"><a href="vaatiArm_8c.html#a154736083a1fd78557f07ebad83158ce">sub_08042894</a></div><div class="ttdeci">void sub_08042894(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:316</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a17f2d2a63004e2a71fb133c87ae0faf1"><div class="ttname"><a href="vaatiArm_8c.html#a17f2d2a63004e2a71fb133c87ae0faf1">sub_080428FC</a></div><div class="ttdeci">void sub_080428FC(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:343</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a1861349d02e731d6c7cc73abc59ea331"><div class="ttname"><a href="vaatiArm_8c.html#a1861349d02e731d6c7cc73abc59ea331">sub_08042944</a></div><div class="ttdeci">void sub_08042944(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:360</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a255241a9bbbec56b70598f4f95fe04fa"><div class="ttname"><a href="vaatiArm_8c.html#a255241a9bbbec56b70598f4f95fe04fa">sub_080429FC</a></div><div class="ttdeci">void sub_080429FC(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:405</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a3853e94e89d1ba088c5427fbf749348f"><div class="ttname"><a href="vaatiArm_8c.html#a3853e94e89d1ba088c5427fbf749348f">sub_08042970</a></div><div class="ttdeci">void sub_08042970(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:373</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a452db572d03a66c38793bf59117087e5"><div class="ttname"><a href="vaatiArm_8c.html#a452db572d03a66c38793bf59117087e5">sub_080429D4</a></div><div class="ttdeci">void sub_080429D4(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:393</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a6de97f46c96deefc368a15452e66b25b"><div class="ttname"><a href="vaatiArm_8c.html#a6de97f46c96deefc368a15452e66b25b">sub_080428AC</a></div><div class="ttdeci">void sub_080428AC(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:321</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1860,10 +1858,10 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="vaatiArm_8c.html#a87f86675f4c3eec3003310b0b371b72e">sub_08042AEC</a>,</div>
 <div class="line">    <a class="code hl_function" href="vaatiArm_8c.html#a72d2b3f8a1e4a356236d1c6db7ac820a">sub_08042B20</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="avaatiArm_8c_html_a2fc4d95278efbe0cab3a56042a232dcf"><div class="ttname"><a href="vaatiArm_8c.html#a2fc4d95278efbe0cab3a56042a232dcf">sub_08042A6C</a></div><div class="ttdeci">void sub_08042A6C(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:429</div></div>
-<div class="ttc" id="avaatiArm_8c_html_a72d2b3f8a1e4a356236d1c6db7ac820a"><div class="ttname"><a href="vaatiArm_8c.html#a72d2b3f8a1e4a356236d1c6db7ac820a">sub_08042B20</a></div><div class="ttdeci">void sub_08042B20(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:467</div></div>
-<div class="ttc" id="avaatiArm_8c_html_a87f86675f4c3eec3003310b0b371b72e"><div class="ttname"><a href="vaatiArm_8c.html#a87f86675f4c3eec3003310b0b371b72e">sub_08042AEC</a></div><div class="ttdeci">void sub_08042AEC(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:457</div></div>
-<div class="ttc" id="avaatiArm_8c_html_adf3c8d43f0b20d1f284291e304fb8ba8"><div class="ttname"><a href="vaatiArm_8c.html#adf3c8d43f0b20d1f284291e304fb8ba8">sub_08042A88</a></div><div class="ttdeci">void sub_08042A88(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:436</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a2fc4d95278efbe0cab3a56042a232dcf"><div class="ttname"><a href="vaatiArm_8c.html#a2fc4d95278efbe0cab3a56042a232dcf">sub_08042A6C</a></div><div class="ttdeci">void sub_08042A6C(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:427</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a72d2b3f8a1e4a356236d1c6db7ac820a"><div class="ttname"><a href="vaatiArm_8c.html#a72d2b3f8a1e4a356236d1c6db7ac820a">sub_08042B20</a></div><div class="ttdeci">void sub_08042B20(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:465</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a87f86675f4c3eec3003310b0b371b72e"><div class="ttname"><a href="vaatiArm_8c.html#a87f86675f4c3eec3003310b0b371b72e">sub_08042AEC</a></div><div class="ttdeci">void sub_08042AEC(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:455</div></div>
+<div class="ttc" id="avaatiArm_8c_html_adf3c8d43f0b20d1f284291e304fb8ba8"><div class="ttname"><a href="vaatiArm_8c.html#adf3c8d43f0b20d1f284291e304fb8ba8">sub_08042A88</a></div><div class="ttdeci">void sub_08042A88(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:434</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1914,16 +1912,16 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="vaatiArm_8c.html#a8eaac5dc1a5edd0cf4dbf3ab694551b1">sub_08042C34</a>, <a class="code hl_function" href="vaatiArm_8c.html#a3ee060286b3e6f42b1b7c36e580a5c9d">sub_08042D24</a>, <a class="code hl_function" href="vaatiArm_8c.html#a03d13e63b87b167d664f36b9a6d6e3b6">sub_08042D6C</a>, <a class="code hl_function" href="vaatiArm_8c.html#afc06b32baf23bb71f7be76ee3ed0014e">sub_08042E30</a>, <a class="code hl_function" href="vaatiArm_8c.html#a76fb0f358522c2a9147229b53f4c5bef">sub_08042EF4</a>,</div>
 <div class="line">    <a class="code hl_function" href="vaatiArm_8c.html#a712afae9a9cbc65ad83976c8a827c0df">sub_08042FD8</a>, <a class="code hl_function" href="vaatiArm_8c.html#aa4bbf9f1995107b4ad614fe8a65a7e0b">sub_08043048</a>, <a class="code hl_function" href="vaatiArm_8c.html#a3c9c82b582aaf8a91400ed4eb874dd8e">sub_080430D0</a>, <a class="code hl_function" href="vaatiArm_8c.html#abd0e31be8d224a0a41700cc1e04f7e0a">sub_08043130</a>, <a class="code hl_function" href="vaatiArm_8c.html#a54549cf0634dd88e3a45b1237674787b">sub_080431E8</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="avaatiArm_8c_html_a03d13e63b87b167d664f36b9a6d6e3b6"><div class="ttname"><a href="vaatiArm_8c.html#a03d13e63b87b167d664f36b9a6d6e3b6">sub_08042D6C</a></div><div class="ttdeci">void sub_08042D6C(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:593</div></div>
-<div class="ttc" id="avaatiArm_8c_html_a3c9c82b582aaf8a91400ed4eb874dd8e"><div class="ttname"><a href="vaatiArm_8c.html#a3c9c82b582aaf8a91400ed4eb874dd8e">sub_080430D0</a></div><div class="ttdeci">void sub_080430D0(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:759</div></div>
-<div class="ttc" id="avaatiArm_8c_html_a3ee060286b3e6f42b1b7c36e580a5c9d"><div class="ttname"><a href="vaatiArm_8c.html#a3ee060286b3e6f42b1b7c36e580a5c9d">sub_08042D24</a></div><div class="ttdeci">void sub_08042D24(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:577</div></div>
-<div class="ttc" id="avaatiArm_8c_html_a54549cf0634dd88e3a45b1237674787b"><div class="ttname"><a href="vaatiArm_8c.html#a54549cf0634dd88e3a45b1237674787b">sub_080431E8</a></div><div class="ttdeci">void sub_080431E8(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:822</div></div>
-<div class="ttc" id="avaatiArm_8c_html_a712afae9a9cbc65ad83976c8a827c0df"><div class="ttname"><a href="vaatiArm_8c.html#a712afae9a9cbc65ad83976c8a827c0df">sub_08042FD8</a></div><div class="ttdeci">void sub_08042FD8(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:705</div></div>
-<div class="ttc" id="avaatiArm_8c_html_a76fb0f358522c2a9147229b53f4c5bef"><div class="ttname"><a href="vaatiArm_8c.html#a76fb0f358522c2a9147229b53f4c5bef">sub_08042EF4</a></div><div class="ttdeci">void sub_08042EF4(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:665</div></div>
-<div class="ttc" id="avaatiArm_8c_html_a8eaac5dc1a5edd0cf4dbf3ab694551b1"><div class="ttname"><a href="vaatiArm_8c.html#a8eaac5dc1a5edd0cf4dbf3ab694551b1">sub_08042C34</a></div><div class="ttdeci">void sub_08042C34(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:520</div></div>
-<div class="ttc" id="avaatiArm_8c_html_aa4bbf9f1995107b4ad614fe8a65a7e0b"><div class="ttname"><a href="vaatiArm_8c.html#aa4bbf9f1995107b4ad614fe8a65a7e0b">sub_08043048</a></div><div class="ttdeci">void sub_08043048(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:732</div></div>
-<div class="ttc" id="avaatiArm_8c_html_abd0e31be8d224a0a41700cc1e04f7e0a"><div class="ttname"><a href="vaatiArm_8c.html#abd0e31be8d224a0a41700cc1e04f7e0a">sub_08043130</a></div><div class="ttdeci">void sub_08043130(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:780</div></div>
-<div class="ttc" id="avaatiArm_8c_html_afc06b32baf23bb71f7be76ee3ed0014e"><div class="ttname"><a href="vaatiArm_8c.html#afc06b32baf23bb71f7be76ee3ed0014e">sub_08042E30</a></div><div class="ttdeci">void sub_08042E30(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:627</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a03d13e63b87b167d664f36b9a6d6e3b6"><div class="ttname"><a href="vaatiArm_8c.html#a03d13e63b87b167d664f36b9a6d6e3b6">sub_08042D6C</a></div><div class="ttdeci">void sub_08042D6C(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:591</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a3c9c82b582aaf8a91400ed4eb874dd8e"><div class="ttname"><a href="vaatiArm_8c.html#a3c9c82b582aaf8a91400ed4eb874dd8e">sub_080430D0</a></div><div class="ttdeci">void sub_080430D0(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:757</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a3ee060286b3e6f42b1b7c36e580a5c9d"><div class="ttname"><a href="vaatiArm_8c.html#a3ee060286b3e6f42b1b7c36e580a5c9d">sub_08042D24</a></div><div class="ttdeci">void sub_08042D24(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:575</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a54549cf0634dd88e3a45b1237674787b"><div class="ttname"><a href="vaatiArm_8c.html#a54549cf0634dd88e3a45b1237674787b">sub_080431E8</a></div><div class="ttdeci">void sub_080431E8(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:820</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a712afae9a9cbc65ad83976c8a827c0df"><div class="ttname"><a href="vaatiArm_8c.html#a712afae9a9cbc65ad83976c8a827c0df">sub_08042FD8</a></div><div class="ttdeci">void sub_08042FD8(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:703</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a76fb0f358522c2a9147229b53f4c5bef"><div class="ttname"><a href="vaatiArm_8c.html#a76fb0f358522c2a9147229b53f4c5bef">sub_08042EF4</a></div><div class="ttdeci">void sub_08042EF4(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:663</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a8eaac5dc1a5edd0cf4dbf3ab694551b1"><div class="ttname"><a href="vaatiArm_8c.html#a8eaac5dc1a5edd0cf4dbf3ab694551b1">sub_08042C34</a></div><div class="ttdeci">void sub_08042C34(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:518</div></div>
+<div class="ttc" id="avaatiArm_8c_html_aa4bbf9f1995107b4ad614fe8a65a7e0b"><div class="ttname"><a href="vaatiArm_8c.html#aa4bbf9f1995107b4ad614fe8a65a7e0b">sub_08043048</a></div><div class="ttdeci">void sub_08043048(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:730</div></div>
+<div class="ttc" id="avaatiArm_8c_html_abd0e31be8d224a0a41700cc1e04f7e0a"><div class="ttname"><a href="vaatiArm_8c.html#abd0e31be8d224a0a41700cc1e04f7e0a">sub_08043130</a></div><div class="ttdeci">void sub_08043130(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:778</div></div>
+<div class="ttc" id="avaatiArm_8c_html_afc06b32baf23bb71f7be76ee3ed0014e"><div class="ttname"><a href="vaatiArm_8c.html#afc06b32baf23bb71f7be76ee3ed0014e">sub_08042E30</a></div><div class="ttdeci">void sub_08042E30(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:625</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2047,12 +2045,12 @@ Variables</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
 <div class="line">    <a class="code hl_function" href="vaatiArm_8c.html#a6d683a17618388e5d668530ef472f8db">sub_08043440</a>, <a class="code hl_function" href="vaatiArm_8c.html#a347637663534b614007c2ae8d254536a">sub_08043490</a>, <a class="code hl_function" href="vaatiArm_8c.html#a9edd5e307eca02e5ee0a5d1db98c8cc3">sub_08043520</a>, <a class="code hl_function" href="vaatiArm_8c.html#ad0c67685f196f88644a5f76673f0aba5">sub_0804355C</a>, <a class="code hl_function" href="vaatiArm_8c.html#a89dbf1aa2f46a18cecba6b66241d03d8">sub_08043580</a>, <a class="code hl_function" href="vaatiArm_8c.html#a882d96de332f29b814b77eb94acbece1">sub_080435F4</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="avaatiArm_8c_html_a347637663534b614007c2ae8d254536a"><div class="ttname"><a href="vaatiArm_8c.html#a347637663534b614007c2ae8d254536a">sub_08043490</a></div><div class="ttdeci">void sub_08043490(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:947</div></div>
-<div class="ttc" id="avaatiArm_8c_html_a6d683a17618388e5d668530ef472f8db"><div class="ttname"><a href="vaatiArm_8c.html#a6d683a17618388e5d668530ef472f8db">sub_08043440</a></div><div class="ttdeci">void sub_08043440(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:914</div></div>
-<div class="ttc" id="avaatiArm_8c_html_a882d96de332f29b814b77eb94acbece1"><div class="ttname"><a href="vaatiArm_8c.html#a882d96de332f29b814b77eb94acbece1">sub_080435F4</a></div><div class="ttdeci">void sub_080435F4(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:1018</div></div>
-<div class="ttc" id="avaatiArm_8c_html_a89dbf1aa2f46a18cecba6b66241d03d8"><div class="ttname"><a href="vaatiArm_8c.html#a89dbf1aa2f46a18cecba6b66241d03d8">sub_08043580</a></div><div class="ttdeci">void sub_08043580(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:995</div></div>
-<div class="ttc" id="avaatiArm_8c_html_a9edd5e307eca02e5ee0a5d1db98c8cc3"><div class="ttname"><a href="vaatiArm_8c.html#a9edd5e307eca02e5ee0a5d1db98c8cc3">sub_08043520</a></div><div class="ttdeci">void sub_08043520(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:975</div></div>
-<div class="ttc" id="avaatiArm_8c_html_ad0c67685f196f88644a5f76673f0aba5"><div class="ttname"><a href="vaatiArm_8c.html#ad0c67685f196f88644a5f76673f0aba5">sub_0804355C</a></div><div class="ttdeci">void sub_0804355C(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:987</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a347637663534b614007c2ae8d254536a"><div class="ttname"><a href="vaatiArm_8c.html#a347637663534b614007c2ae8d254536a">sub_08043490</a></div><div class="ttdeci">void sub_08043490(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:945</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a6d683a17618388e5d668530ef472f8db"><div class="ttname"><a href="vaatiArm_8c.html#a6d683a17618388e5d668530ef472f8db">sub_08043440</a></div><div class="ttdeci">void sub_08043440(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:912</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a882d96de332f29b814b77eb94acbece1"><div class="ttname"><a href="vaatiArm_8c.html#a882d96de332f29b814b77eb94acbece1">sub_080435F4</a></div><div class="ttdeci">void sub_080435F4(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:1016</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a89dbf1aa2f46a18cecba6b66241d03d8"><div class="ttname"><a href="vaatiArm_8c.html#a89dbf1aa2f46a18cecba6b66241d03d8">sub_08043580</a></div><div class="ttdeci">void sub_08043580(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:993</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a9edd5e307eca02e5ee0a5d1db98c8cc3"><div class="ttname"><a href="vaatiArm_8c.html#a9edd5e307eca02e5ee0a5d1db98c8cc3">sub_08043520</a></div><div class="ttdeci">void sub_08043520(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:973</div></div>
+<div class="ttc" id="avaatiArm_8c_html_ad0c67685f196f88644a5f76673f0aba5"><div class="ttname"><a href="vaatiArm_8c.html#ad0c67685f196f88644a5f76673f0aba5">sub_0804355C</a></div><div class="ttdeci">void sub_0804355C(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:985</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2116,11 +2114,11 @@ Variables</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
 <div class="line">    <a class="code hl_function" href="vaatiArm_8c.html#a3a4943143a1087a01597571554cf59bf">sub_08043698</a>, <a class="code hl_function" href="vaatiArm_8c.html#ae33abd09cb86645482ddca914c2240c5">sub_080436C0</a>, <a class="code hl_function" href="vaatiArm_8c.html#a841b590b998b0709f64d51058f7d63e7">sub_08043700</a>, <a class="code hl_function" href="vaatiArm_8c.html#a5bfd5a04413cb91b252039df7523aef9">sub_08043738</a>, <a class="code hl_function" href="vaatiArm_8c.html#a55e62dbe33b299528b97c5bc85e3a15a">sub_08043770</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="avaatiArm_8c_html_a3a4943143a1087a01597571554cf59bf"><div class="ttname"><a href="vaatiArm_8c.html#a3a4943143a1087a01597571554cf59bf">sub_08043698</a></div><div class="ttdeci">void sub_08043698(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:1047</div></div>
-<div class="ttc" id="avaatiArm_8c_html_a55e62dbe33b299528b97c5bc85e3a15a"><div class="ttname"><a href="vaatiArm_8c.html#a55e62dbe33b299528b97c5bc85e3a15a">sub_08043770</a></div><div class="ttdeci">void sub_08043770(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:1084</div></div>
-<div class="ttc" id="avaatiArm_8c_html_a5bfd5a04413cb91b252039df7523aef9"><div class="ttname"><a href="vaatiArm_8c.html#a5bfd5a04413cb91b252039df7523aef9">sub_08043738</a></div><div class="ttdeci">void sub_08043738(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:1080</div></div>
-<div class="ttc" id="avaatiArm_8c_html_a841b590b998b0709f64d51058f7d63e7"><div class="ttname"><a href="vaatiArm_8c.html#a841b590b998b0709f64d51058f7d63e7">sub_08043700</a></div><div class="ttdeci">void sub_08043700(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:1076</div></div>
-<div class="ttc" id="avaatiArm_8c_html_ae33abd09cb86645482ddca914c2240c5"><div class="ttname"><a href="vaatiArm_8c.html#ae33abd09cb86645482ddca914c2240c5">sub_080436C0</a></div><div class="ttdeci">void sub_080436C0(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:1072</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a3a4943143a1087a01597571554cf59bf"><div class="ttname"><a href="vaatiArm_8c.html#a3a4943143a1087a01597571554cf59bf">sub_08043698</a></div><div class="ttdeci">void sub_08043698(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:1045</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a55e62dbe33b299528b97c5bc85e3a15a"><div class="ttname"><a href="vaatiArm_8c.html#a55e62dbe33b299528b97c5bc85e3a15a">sub_08043770</a></div><div class="ttdeci">void sub_08043770(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:1082</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a5bfd5a04413cb91b252039df7523aef9"><div class="ttname"><a href="vaatiArm_8c.html#a5bfd5a04413cb91b252039df7523aef9">sub_08043738</a></div><div class="ttdeci">void sub_08043738(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:1078</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a841b590b998b0709f64d51058f7d63e7"><div class="ttname"><a href="vaatiArm_8c.html#a841b590b998b0709f64d51058f7d63e7">sub_08043700</a></div><div class="ttdeci">void sub_08043700(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:1074</div></div>
+<div class="ttc" id="avaatiArm_8c_html_ae33abd09cb86645482ddca914c2240c5"><div class="ttname"><a href="vaatiArm_8c.html#ae33abd09cb86645482ddca914c2240c5">sub_080436C0</a></div><div class="ttdeci">void sub_080436C0(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:1070</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2314,50 +2312,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a3d8ab726dde55c67379a4b251f091d4f" name="a3d8ab726dde55c67379a4b251f091d4f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d8ab726dde55c67379a4b251f091d4f">&#9670;&nbsp;</a></span>gUnk_080FD450</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="structHitbox.html">Hitbox</a> gUnk_080FD450</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a77784d39c5b5c4d4d43345daa3efd2ce" name="a77784d39c5b5c4d4d43345daa3efd2ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77784d39c5b5c4d4d43345daa3efd2ce">&#9670;&nbsp;</a></span>gUnk_080FD538</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="structHitbox.html">Hitbox</a> gUnk_080FD538</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a3fa3df92653a890e3892799c3cc244a3" name="a3fa3df92653a890e3892799c3cc244a3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3fa3df92653a890e3892799c3cc244a3">&#9670;&nbsp;</a></span>inc</h2>
 
@@ -2393,9 +2347,9 @@ Variables</h2></td></tr>
 <div class="ttc" id="aasm_8h_html_a09aa45f972e08d71a1ddfae028ab1546"><div class="ttname"><a href="asm_8h.html#a09aa45f972e08d71a1ddfae028ab1546">GenericConfused</a></div><div class="ttdeci">void GenericConfused(struct Entity_ *)</div></div>
 <div class="ttc" id="aasm_8h_html_ae7f4b31c5b7b590b6da3fccb26e10806"><div class="ttname"><a href="asm_8h.html#ae7f4b31c5b7b590b6da3fccb26e10806">GenericKnockback</a></div><div class="ttdeci">void GenericKnockback(struct Entity_ *)</div></div>
 <div class="ttc" id="aenemyUtils_8c_html_a94401d9b7ce755d41ac7de8153fab145"><div class="ttname"><a href="enemyUtils_8c.html#a94401d9b7ce755d41ac7de8153fab145">GenericDeath</a></div><div class="ttdeci">void GenericDeath(Entity *this)</div><div class="ttdef"><b>Definition:</b> enemyUtils.c:99</div></div>
-<div class="ttc" id="avaatiArm_8c_html_a1239cd43ba1c0cc30033cc414d549428"><div class="ttname"><a href="vaatiArm_8c.html#a1239cd43ba1c0cc30033cc414d549428">VaatiArm_OnGrabbed</a></div><div class="ttdeci">void VaatiArm_OnGrabbed(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:188</div></div>
-<div class="ttc" id="avaatiArm_8c_html_ab9508fc4bd73d641a8b49778405c667c"><div class="ttname"><a href="vaatiArm_8c.html#ab9508fc4bd73d641a8b49778405c667c">VaatiArm_OnTick</a></div><div class="ttdeci">void VaatiArm_OnTick(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:180</div></div>
-<div class="ttc" id="avaatiArm_8c_html_afbd82cc92644c6a64209c2ef03973574"><div class="ttname"><a href="vaatiArm_8c.html#afbd82cc92644c6a64209c2ef03973574">VaatiArm_OnCollision</a></div><div class="ttdeci">void VaatiArm_OnCollision(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:184</div></div>
+<div class="ttc" id="avaatiArm_8c_html_a1239cd43ba1c0cc30033cc414d549428"><div class="ttname"><a href="vaatiArm_8c.html#a1239cd43ba1c0cc30033cc414d549428">VaatiArm_OnGrabbed</a></div><div class="ttdeci">void VaatiArm_OnGrabbed(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:186</div></div>
+<div class="ttc" id="avaatiArm_8c_html_ab9508fc4bd73d641a8b49778405c667c"><div class="ttname"><a href="vaatiArm_8c.html#ab9508fc4bd73d641a8b49778405c667c">VaatiArm_OnTick</a></div><div class="ttdeci">void VaatiArm_OnTick(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:178</div></div>
+<div class="ttc" id="avaatiArm_8c_html_afbd82cc92644c6a64209c2ef03973574"><div class="ttname"><a href="vaatiArm_8c.html#afbd82cc92644c6a64209c2ef03973574">VaatiArm_OnCollision</a></div><div class="ttdeci">void VaatiArm_OnCollision(Entity *)</div><div class="ttdef"><b>Definition:</b> vaatiArm.c:182</div></div>
 </div><!-- fragment -->
 </div>
 </div>

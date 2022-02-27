@@ -1,9 +1,10 @@
 <map id="src/object/pullableLever.c" name="src/object/pullableLever.c">
-<area shape="rect" id="node1" title="Pullable Lever object." alt="" coords="157,5,328,32"/>
+<area shape="rect" id="node1" title="Pullable Lever object." alt="" coords="247,5,417,32"/>
 <area shape="rect" id="node2" href="$global_8h.html" title=" " alt="" coords="541,453,608,480"/>
-<area shape="rect" id="node14" href="$object_8h.html" title=" " alt="" coords="265,155,332,181"/>
+<area shape="rect" id="node14" href="$object_8h.html" title=" " alt="" coords="299,155,365,181"/>
 <area shape="rect" id="node17" href="$sound_8h.html" title=" " alt="" coords="43,229,109,256"/>
-<area shape="rect" id="node27" href="$functions_8h.html" title=" " alt="" coords="759,80,844,107"/>
+<area shape="rect" id="node27" href="$functions_8h.html" title=" " alt="" coords="731,80,816,107"/>
+<area shape="rect" id="node32" href="$hitbox_8h.html" title=" " alt="" coords="840,80,907,107"/>
 <area shape="rect" id="node3" href="$gba_8h.html" title=" " alt="" coords="686,528,765,555"/>
 <area shape="rect" id="node4" title=" " alt="" coords="391,603,455,629"/>
 <area shape="rect" id="node5" href="$defines_8h.html" title=" " alt="" coords="1038,603,1111,629"/>
@@ -16,7 +17,7 @@
 <area shape="rect" id="node6" title=" " alt="" coords="1041,677,1109,704"/>
 <area shape="rect" id="node9" title=" " alt="" coords="589,752,653,779"/>
 <area shape="rect" id="node15" href="$asm_8h.html" title=" " alt="" coords="193,379,250,405"/>
-<area shape="rect" id="node16" href="$common_8h.html" title=" " alt="" coords="289,379,372,405"/>
+<area shape="rect" id="node16" href="$common_8h.html" title=" " alt="" coords="305,379,388,405"/>
 <area shape="rect" id="node18" href="$flags_8h.html" title=" " alt="" coords="285,304,344,331"/>
 <area shape="rect" id="node19" href="$effects_8h.html" title=" " alt="" coords="473,229,543,256"/>
 <area shape="rect" id="node20" href="$entity_8h.html" title=" " alt="" coords="699,304,762,331"/>
@@ -29,5 +30,5 @@
 <area shape="rect" id="node28" href="$manager_8h.html" title=" " alt="" coords="949,229,1032,256"/>
 <area shape="rect" id="node29" href="$structures_8h.html" title=" " alt="" coords="643,155,733,181"/>
 <area shape="rect" id="node30" href="$script_8h.html" title=" " alt="" coords="871,155,935,181"/>
-<area shape="rect" id="node31" href="$map_8h.html" title=" " alt="" coords="1009,304,1066,331"/>
+<area shape="rect" id="node31" href="$map_8h.html" title=" " alt="" coords="994,304,1051,331"/>
 </map>

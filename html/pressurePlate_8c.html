@@ -86,6 +86,7 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="object_8h_source.html">object.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="hitbox_8h_source.html">hitbox.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for pressurePlate.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -93,37 +94,38 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="pressurePlate_8c__incl.png" border="0" usemap="#asrc_2object_2pressurePlate_8c" alt=""/></div>
 <map name="asrc_2object_2pressurePlate_8c" id="asrc_2object_2pressurePlate_8c">
-<area shape="rect" title=" " alt="" coords="453,5,626,32"/>
-<area shape="rect" href="object_8h.html" title=" " alt="" coords="293,155,359,181"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="667,80,753,107"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="562,453,629,480"/>
-<area shape="rect" href="asm_8h.html" title=" " alt="" coords="5,379,63,405"/>
-<area shape="rect" href="common_8h.html" title=" " alt="" coords="87,379,170,405"/>
-<area shape="rect" href="sound_8h.html" title=" " alt="" coords="122,304,189,331"/>
-<area shape="rect" href="flags_8h.html" title=" " alt="" coords="213,304,271,331"/>
-<area shape="rect" href="effects_8h.html" title=" " alt="" coords="432,229,503,256"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="625,304,688,331"/>
-<area shape="rect" href="room_8h.html" title=" " alt="" coords="295,229,357,256"/>
-<area shape="rect" href="coord_8h.html" title=" " alt="" coords="770,229,834,256"/>
-<area shape="rect" href="player_8h.html" title=" " alt="" coords="527,229,594,256"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="697,528,776,555"/>
-<area shape="rect" title=" " alt="" coords="422,603,486,629"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="980,603,1053,629"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1078,603,1145,629"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="632,677,695,704"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="511,603,603,629"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="627,603,699,629"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="775,603,843,629"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="867,603,955,629"/>
-<area shape="rect" title=" " alt="" coords="983,677,1051,704"/>
-<area shape="rect" title=" " alt="" coords="631,752,695,779"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="565,379,625,405"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="650,379,714,405"/>
-<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="397,304,489,331"/>
-<area shape="rect" href="manager_8h.html" title=" " alt="" coords="909,229,991,256"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="623,155,714,181"/>
-<area shape="rect" href="script_8h.html" title=" " alt="" coords="535,155,599,181"/>
-<area shape="rect" href="map_8h.html" title=" " alt="" coords="1067,304,1124,331"/>
+<area shape="rect" title=" " alt="" coords="667,5,841,32"/>
+<area shape="rect" href="object_8h.html" title=" " alt="" coords="337,155,403,181"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="711,80,797,107"/>
+<area shape="rect" href="hitbox_8h.html" title=" " alt="" coords="821,80,887,107"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="573,453,639,480"/>
+<area shape="rect" href="asm_8h.html" title=" " alt="" coords="5,304,63,331"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="66,379,149,405"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="147,304,214,331"/>
+<area shape="rect" href="flags_8h.html" title=" " alt="" coords="223,379,282,405"/>
+<area shape="rect" href="effects_8h.html" title=" " alt="" coords="476,229,547,256"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="652,304,715,331"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="339,229,401,256"/>
+<area shape="rect" href="coord_8h.html" title=" " alt="" coords="814,229,878,256"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="571,229,638,256"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="708,528,787,555"/>
+<area shape="rect" title=" " alt="" coords="433,603,497,629"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="991,603,1064,629"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1089,603,1155,629"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="643,677,705,704"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="521,603,613,629"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="638,603,710,629"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="785,603,853,629"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="878,603,966,629"/>
+<area shape="rect" title=" " alt="" coords="993,677,1061,704"/>
+<area shape="rect" title=" " alt="" coords="642,752,706,779"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="576,379,636,405"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="661,379,725,405"/>
+<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="408,304,500,331"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="953,229,1035,256"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="667,155,758,181"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="579,155,643,181"/>
+<area shape="rect" href="map_8h.html" title=" " alt="" coords="1111,304,1168,331"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -144,8 +146,6 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6a5f0e95c5529ada830f51e3f64b7101"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pressurePlate_8c.html#a6a5f0e95c5529ada830f51e3f64b7101">IsColliding</a> (<a class="el" href="structEntity.html">Entity</a> *, <a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a6a5f0e95c5529ada830f51e3f64b7101"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2a10d862d8da1d76eb1a494ca13a8c8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pressurePlate_8c.html#ab2a10d862d8da1d76eb1a494ca13a8c8">sub_08088938</a> (<a class="el" href="structPressurePlateEntity.html">PressurePlateEntity</a> *)</td></tr>
 <tr class="separator:ab2a10d862d8da1d76eb1a494ca13a8c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaefd9fc195ebfcd1801dd3f096ad7636"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pressurePlate_8c.html#aaefd9fc195ebfcd1801dd3f096ad7636">get_standing_count</a> (<a class="el" href="structPressurePlateEntity.html">PressurePlateEntity</a> *)</td></tr>
@@ -167,8 +167,6 @@ Variables</h2></td></tr>
 <tr class="separator:a8cc028af44f879f063e55c2c3476e2be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ff8586a91345148a67fb167b3e70eb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="pressurePlate_8c.html#aba56ef30f5b5ea89b5abc0f7eea35414">PressurePlateAction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pressurePlate_8c.html#a9ff8586a91345148a67fb167b3e70eb2">sub_080888F4</a></td></tr>
 <tr class="separator:a9ff8586a91345148a67fb167b3e70eb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf63eecf8869e0ce392438508d3c8163"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structHitbox.html">Hitbox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pressurePlate_8c.html#aaf63eecf8869e0ce392438508d3c8163">gUnk_080FD1D4</a></td></tr>
-<tr class="separator:aaf63eecf8869e0ce392438508d3c8163"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab06ea6ce5700b39d6a9092b4f47a4f94"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pressurePlate_8c.html#ab06ea6ce5700b39d6a9092b4f47a4f94">sSpriteOffsets</a> []</td></tr>
 <tr class="separator:ab06ea6ce5700b39d6a9092b4f47a4f94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53b9e215a7cfa2ef51e747aa20e10b96"><td class="memItemLeft" align="right" valign="top">static const Frame&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pressurePlate_8c.html#a53b9e215a7cfa2ef51e747aa20e10b96">gSpriteAnimations_PressurePlate_0</a></td></tr>
@@ -237,34 +235,6 @@ Variables</h2></td></tr>
 <span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6a5f0e95c5529ada830f51e3f64b7101" name="a6a5f0e95c5529ada830f51e3f64b7101"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a5f0e95c5529ada830f51e3f64b7101">&#9670;&nbsp;</a></span>IsColliding()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> IsColliding </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>this</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>that</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
 </div><div class="memdoc">
 
 </div>
@@ -383,11 +353,11 @@ Variables</h2></td></tr>
 <div class="line">    &amp;<a class="code hl_variable" href="pressurePlate_8c.html#a53b9e215a7cfa2ef51e747aa20e10b96">gSpriteAnimations_PressurePlate_0</a>, &amp;<a class="code hl_variable" href="pressurePlate_8c.html#a1e9fd982a6daac50ae6e4c3162601e23">gSpriteAnimations_PressurePlate_1</a>, &amp;<a class="code hl_variable" href="pressurePlate_8c.html#a67e2988cff8252e906828dde56b58ce4">gSpriteAnimations_PressurePlate_2</a>,</div>
 <div class="line">    &amp;<a class="code hl_variable" href="pressurePlate_8c.html#af5cc44cbfb1951bd5cfd22fcfe85a8ee">gSpriteAnimations_PressurePlate_3</a>, &amp;<a class="code hl_variable" href="pressurePlate_8c.html#ae16116756b7128ddb34c7a144d9b7c89">gSpriteAnimations_PressurePlate_4</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="apressurePlate_8c_html_a1e9fd982a6daac50ae6e4c3162601e23"><div class="ttname"><a href="pressurePlate_8c.html#a1e9fd982a6daac50ae6e4c3162601e23">gSpriteAnimations_PressurePlate_1</a></div><div class="ttdeci">static const Frame gSpriteAnimations_PressurePlate_1</div><div class="ttdef"><b>Definition:</b> pressurePlate.c:154</div></div>
-<div class="ttc" id="apressurePlate_8c_html_a53b9e215a7cfa2ef51e747aa20e10b96"><div class="ttname"><a href="pressurePlate_8c.html#a53b9e215a7cfa2ef51e747aa20e10b96">gSpriteAnimations_PressurePlate_0</a></div><div class="ttdeci">static const Frame gSpriteAnimations_PressurePlate_0</div><div class="ttdef"><b>Definition:</b> pressurePlate.c:148</div></div>
-<div class="ttc" id="apressurePlate_8c_html_a67e2988cff8252e906828dde56b58ce4"><div class="ttname"><a href="pressurePlate_8c.html#a67e2988cff8252e906828dde56b58ce4">gSpriteAnimations_PressurePlate_2</a></div><div class="ttdeci">static const Frame gSpriteAnimations_PressurePlate_2</div><div class="ttdef"><b>Definition:</b> pressurePlate.c:160</div></div>
-<div class="ttc" id="apressurePlate_8c_html_ae16116756b7128ddb34c7a144d9b7c89"><div class="ttname"><a href="pressurePlate_8c.html#ae16116756b7128ddb34c7a144d9b7c89">gSpriteAnimations_PressurePlate_4</a></div><div class="ttdeci">static const Frame gSpriteAnimations_PressurePlate_4</div><div class="ttdef"><b>Definition:</b> pressurePlate.c:172</div></div>
-<div class="ttc" id="apressurePlate_8c_html_af5cc44cbfb1951bd5cfd22fcfe85a8ee"><div class="ttname"><a href="pressurePlate_8c.html#af5cc44cbfb1951bd5cfd22fcfe85a8ee">gSpriteAnimations_PressurePlate_3</a></div><div class="ttdeci">static const Frame gSpriteAnimations_PressurePlate_3</div><div class="ttdef"><b>Definition:</b> pressurePlate.c:166</div></div>
+<div class="ttc" id="apressurePlate_8c_html_a1e9fd982a6daac50ae6e4c3162601e23"><div class="ttname"><a href="pressurePlate_8c.html#a1e9fd982a6daac50ae6e4c3162601e23">gSpriteAnimations_PressurePlate_1</a></div><div class="ttdeci">static const Frame gSpriteAnimations_PressurePlate_1</div><div class="ttdef"><b>Definition:</b> pressurePlate.c:151</div></div>
+<div class="ttc" id="apressurePlate_8c_html_a53b9e215a7cfa2ef51e747aa20e10b96"><div class="ttname"><a href="pressurePlate_8c.html#a53b9e215a7cfa2ef51e747aa20e10b96">gSpriteAnimations_PressurePlate_0</a></div><div class="ttdeci">static const Frame gSpriteAnimations_PressurePlate_0</div><div class="ttdef"><b>Definition:</b> pressurePlate.c:145</div></div>
+<div class="ttc" id="apressurePlate_8c_html_a67e2988cff8252e906828dde56b58ce4"><div class="ttname"><a href="pressurePlate_8c.html#a67e2988cff8252e906828dde56b58ce4">gSpriteAnimations_PressurePlate_2</a></div><div class="ttdeci">static const Frame gSpriteAnimations_PressurePlate_2</div><div class="ttdef"><b>Definition:</b> pressurePlate.c:157</div></div>
+<div class="ttc" id="apressurePlate_8c_html_ae16116756b7128ddb34c7a144d9b7c89"><div class="ttname"><a href="pressurePlate_8c.html#ae16116756b7128ddb34c7a144d9b7c89">gSpriteAnimations_PressurePlate_4</a></div><div class="ttdeci">static const Frame gSpriteAnimations_PressurePlate_4</div><div class="ttdef"><b>Definition:</b> pressurePlate.c:169</div></div>
+<div class="ttc" id="apressurePlate_8c_html_af5cc44cbfb1951bd5cfd22fcfe85a8ee"><div class="ttname"><a href="pressurePlate_8c.html#af5cc44cbfb1951bd5cfd22fcfe85a8ee">gSpriteAnimations_PressurePlate_3</a></div><div class="ttdeci">static const Frame gSpriteAnimations_PressurePlate_3</div><div class="ttdef"><b>Definition:</b> pressurePlate.c:163</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -524,28 +494,6 @@ Variables</h2></td></tr>
 <div class="line">    .frameSettings = { .b = { .endOfAnimation = 1 } },</div>
 <div class="line">}</div>
 </div><!-- fragment -->
-</div>
-</div>
-<a id="aaf63eecf8869e0ce392438508d3c8163" name="aaf63eecf8869e0ce392438508d3c8163"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf63eecf8869e0ce392438508d3c8163">&#9670;&nbsp;</a></span>gUnk_080FD1D4</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structHitbox.html">Hitbox</a> gUnk_080FD1D4</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
 </div>
 </div>
 <a id="ab06ea6ce5700b39d6a9092b4f47a4f94" name="ab06ea6ce5700b39d6a9092b4f47a4f94"></a>

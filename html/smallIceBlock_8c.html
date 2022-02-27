@@ -89,6 +89,7 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="global_8h_source.html">global.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="object_8h_source.html">object.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="hitbox_8h_source.html">hitbox.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for smallIceBlock.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -96,10 +97,11 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="smallIceBlock_8c__incl.png" border="0" usemap="#asrc_2object_2smallIceBlock_8c" alt=""/></div>
 <map name="asrc_2object_2smallIceBlock_8c" id="asrc_2object_2smallIceBlock_8c">
-<area shape="rect" title="Small Ice Block object." alt="" coords="221,5,395,32"/>
+<area shape="rect" title="Small Ice Block object." alt="" coords="530,5,705,32"/>
 <area shape="rect" href="global_8h.html" title=" " alt="" coords="448,453,515,480"/>
-<area shape="rect" href="object_8h.html" title=" " alt="" coords="275,155,341,181"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="696,80,781,107"/>
+<area shape="rect" href="object_8h.html" title=" " alt="" coords="309,155,376,181"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="667,80,752,107"/>
+<area shape="rect" href="hitbox_8h.html" title=" " alt="" coords="776,80,843,107"/>
 <area shape="rect" href="gba_8h.html" title=" " alt="" coords="571,528,650,555"/>
 <area shape="rect" title=" " alt="" coords="320,603,384,629"/>
 <area shape="rect" href="defines_8h.html" title=" " alt="" coords="409,603,482,629"/>
@@ -124,8 +126,8 @@ $(function() {
 <area shape="rect" href="sprite_8h.html" title=" " alt="" coords="571,379,635,405"/>
 <area shape="rect" href="droptables_8h.html" title=" " alt="" coords="435,304,527,331"/>
 <area shape="rect" href="manager_8h.html" title=" " alt="" coords="773,229,856,256"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="801,155,892,181"/>
-<area shape="rect" href="script_8h.html" title=" " alt="" coords="916,155,980,181"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="797,155,888,181"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="912,155,976,181"/>
 <area shape="rect" href="map_8h.html" title=" " alt="" coords="1083,304,1141,331"/>
 </map>
 </div>
@@ -171,8 +173,6 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a7ba8003c6f0355a644cb3a359a8ac1ee"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structHitbox.html">Hitbox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="smallIceBlock_8c.html#a7ba8003c6f0355a644cb3a359a8ac1ee">gUnk_080FD408</a></td></tr>
-<tr class="separator:a7ba8003c6f0355a644cb3a359a8ac1ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a818b1a56d7f20e547ea687d9195f5c34"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#aa980e2c02ba2305e0f489d5650655425">s16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="smallIceBlock_8c.html#a818b1a56d7f20e547ea687d9195f5c34">gUnk_080B4488</a> []</td></tr>
 <tr class="separator:a818b1a56d7f20e547ea687d9195f5c34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a900bd477c000cfd4a08314cd5a0a76cb"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="smallIceBlock_8c.html#a900bd477c000cfd4a08314cd5a0a76cb">gUnk_08123734</a> [])(<a class="el" href="structSmallIceBlockEntity.html">SmallIceBlockEntity</a> *)</td></tr>
@@ -446,28 +446,6 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">const <a class="el" href="types_8h.html#aa980e2c02ba2305e0f489d5650655425">s16</a> gUnk_080B4488[]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7ba8003c6f0355a644cb3a359a8ac1ee" name="a7ba8003c6f0355a644cb3a359a8ac1ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ba8003c6f0355a644cb3a359a8ac1ee">&#9670;&nbsp;</a></span>gUnk_080FD408</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="structHitbox.html">Hitbox</a> gUnk_080FD408</td>
         </tr>
       </table>
   </td>

@@ -11,9 +11,10 @@ var searchData=
   ['flyingskullentity_8',['FlyingSkullEntity',['../structFlyingSkullEntity.html',1,'']]],
   ['font_9',['Font',['../structFont.html',1,'']]],
   ['force_5fword_5faligned_10',['FORCE_WORD_ALIGNED',['../structFORCE__WORD__ALIGNED.html',1,'']]],
-  ['framegfxdata_11',['FrameGfxData',['../structFrameGfxData.html',1,'']]],
-  ['frozenwaterelemententity_12',['FrozenWaterElementEntity',['../structFrozenWaterElementEntity.html',1,'']]],
-  ['furniturecfg_13',['FurnitureCfg',['../structFurnitureCfg.html',1,'']]],
-  ['furnitureentity_14',['FurnitureEntity',['../structFurnitureEntity.html',1,'']]],
-  ['fuseinfo_15',['FuseInfo',['../structFuseInfo.html',1,'']]]
+  ['fourelementsentity_11',['FourElementsEntity',['../structFourElementsEntity.html',1,'']]],
+  ['framegfxdata_12',['FrameGfxData',['../structFrameGfxData.html',1,'']]],
+  ['frozenwaterelemententity_13',['FrozenWaterElementEntity',['../structFrozenWaterElementEntity.html',1,'']]],
+  ['furniturecfg_14',['FurnitureCfg',['../structFurnitureCfg.html',1,'']]],
+  ['furnitureentity_15',['FurnitureEntity',['../structFurnitureEntity.html',1,'']]],
+  ['fuseinfo_16',['FuseInfo',['../structFuseInfo.html',1,'']]]
 ];

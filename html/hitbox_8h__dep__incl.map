@@ -1,8 +1,0 @@
-<map id="include/hitbox.h" name="include/hitbox.h">
-<area shape="rect" id="node1" title=" " alt="" coords="284,5,395,32"/>
-<area shape="rect" id="node2" href="$enemy_8c.html" title=" " alt="" coords="5,80,97,107"/>
-<area shape="rect" id="node3" href="$objectDefinitions_8c.html" title=" " alt="" coords="122,80,271,107"/>
-<area shape="rect" id="node4" href="$player_8c.html" title="Player entity." alt="" coords="295,80,383,107"/>
-<area shape="rect" id="node5" href="$projectile_8c.html" title=" " alt="" coords="407,80,514,107"/>
-<area shape="rect" id="node6" href="$ballAndChain_8c.html" title=" " alt="" coords="538,80,725,107"/>
-</map>

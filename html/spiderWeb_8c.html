@@ -86,6 +86,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="enemy_8h_source.html">enemy.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="object_8h_source.html">object.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="hitbox_8h_source.html">hitbox.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for spiderWeb.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -93,11 +94,12 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="spiderWeb_8c__incl.png" border="0" usemap="#asrc_2projectile_2spiderWeb_8c" alt=""/></div>
 <map name="asrc_2projectile_2spiderWeb_8c" id="asrc_2projectile_2spiderWeb_8c">
-<area shape="rect" title=" " alt="" coords="639,5,810,32"/>
+<area shape="rect" title=" " alt="" coords="722,5,893,32"/>
 <area shape="rect" href="entity_8h.html" title=" " alt="" coords="893,304,956,331"/>
 <area shape="rect" href="enemy_8h.html" title=" " alt="" coords="336,155,407,181"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="1046,80,1131,107"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="1005,80,1090,107"/>
 <area shape="rect" href="object_8h.html" title=" " alt="" coords="631,155,698,181"/>
+<area shape="rect" href="hitbox_8h.html" title=" " alt="" coords="1114,80,1181,107"/>
 <area shape="rect" href="global_8h.html" title=" " alt="" coords="847,453,914,480"/>
 <area shape="rect" href="color_8h.html" title=" " alt="" coords="808,379,868,405"/>
 <area shape="rect" href="sprite_8h.html" title=" " alt="" coords="893,379,957,405"/>
@@ -122,7 +124,7 @@ $(function() {
 <area shape="rect" href="coord_8h.html" title=" " alt="" coords="1013,229,1077,256"/>
 <area shape="rect" href="player_8h.html" title=" " alt="" coords="1101,229,1167,256"/>
 <area shape="rect" href="room_8h.html" title=" " alt="" coords="725,229,786,256"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="1158,155,1249,181"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="1155,155,1246,181"/>
 <area shape="rect" href="script_8h.html" title=" " alt="" coords="895,155,959,181"/>
 <area shape="rect" href="map_8h.html" title=" " alt="" coords="1363,304,1420,331"/>
 <area shape="rect" href="droptables_8h.html" title=" " alt="" coords="640,304,732,331"/>
@@ -185,14 +187,6 @@ Variables</h2></td></tr>
 <tr class="separator:a1ce58f2d00611f6e34c76a9821efba85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac23615dbec56998b962fd3468780fda8"><td class="memItemLeft" align="right" valign="top">asm non_matching spiderWeb <a class="el" href="spiderWeb_8c.html#accb66b0fb6f49c8fc7896b2686fbfff5">sub_080AA9E0</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spiderWeb_8c.html#ac23615dbec56998b962fd3468780fda8">inc</a></td></tr>
 <tr class="separator:ac23615dbec56998b962fd3468780fda8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7f1f814a182e28fdd35d9158f4ed18f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structHitbox.html">Hitbox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spiderWeb_8c.html#ae7f1f814a182e28fdd35d9158f4ed18f">gUnk_080FD41C</a></td></tr>
-<tr class="separator:ae7f1f814a182e28fdd35d9158f4ed18f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd00e4721a958939aa21bd2d587b6fa8"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structHitbox.html">Hitbox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spiderWeb_8c.html#acd00e4721a958939aa21bd2d587b6fa8">gUnk_080FD424</a></td></tr>
-<tr class="separator:acd00e4721a958939aa21bd2d587b6fa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa66d82b0e9102b351a442140d51ea876"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structHitbox.html">Hitbox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spiderWeb_8c.html#aa66d82b0e9102b351a442140d51ea876">gUnk_080FD42C</a></td></tr>
-<tr class="separator:aa66d82b0e9102b351a442140d51ea876"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcb83a1b6cec4264b5e12f5550524184"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structHitbox.html">Hitbox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spiderWeb_8c.html#afcb83a1b6cec4264b5e12f5550524184">gUnk_080FD434</a></td></tr>
-<tr class="separator:afcb83a1b6cec4264b5e12f5550524184"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a856381642a43e50a2511ae61cebfaeb3" name="a856381642a43e50a2511ae61cebfaeb3"></a>
@@ -430,94 +424,6 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="ae7f1f814a182e28fdd35d9158f4ed18f" name="ae7f1f814a182e28fdd35d9158f4ed18f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7f1f814a182e28fdd35d9158f4ed18f">&#9670;&nbsp;</a></span>gUnk_080FD41C</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="structHitbox.html">Hitbox</a> gUnk_080FD41C</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="acd00e4721a958939aa21bd2d587b6fa8" name="acd00e4721a958939aa21bd2d587b6fa8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd00e4721a958939aa21bd2d587b6fa8">&#9670;&nbsp;</a></span>gUnk_080FD424</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="structHitbox.html">Hitbox</a> gUnk_080FD424</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa66d82b0e9102b351a442140d51ea876" name="aa66d82b0e9102b351a442140d51ea876"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa66d82b0e9102b351a442140d51ea876">&#9670;&nbsp;</a></span>gUnk_080FD42C</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="structHitbox.html">Hitbox</a> gUnk_080FD42C</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afcb83a1b6cec4264b5e12f5550524184" name="afcb83a1b6cec4264b5e12f5550524184"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afcb83a1b6cec4264b5e12f5550524184">&#9670;&nbsp;</a></span>gUnk_080FD434</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="structHitbox.html">Hitbox</a> gUnk_080FD434</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aad59958239b2194e0dfdecaa7d27d847" name="aad59958239b2194e0dfdecaa7d27d847"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aad59958239b2194e0dfdecaa7d27d847">&#9670;&nbsp;</a></span>gUnk_0812A03C</h2>
 
@@ -547,15 +453,15 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    &amp;<a class="code hl_variable" href="spiderWeb_8c.html#ae7f1f814a182e28fdd35d9158f4ed18f">gUnk_080FD41C</a>,</div>
-<div class="line">    &amp;<a class="code hl_variable" href="spiderWeb_8c.html#acd00e4721a958939aa21bd2d587b6fa8">gUnk_080FD424</a>,</div>
-<div class="line">    &amp;<a class="code hl_variable" href="spiderWeb_8c.html#aa66d82b0e9102b351a442140d51ea876">gUnk_080FD42C</a>,</div>
-<div class="line">    &amp;<a class="code hl_variable" href="spiderWeb_8c.html#afcb83a1b6cec4264b5e12f5550524184">gUnk_080FD434</a>,</div>
+<div class="line">    &amp;<a class="code hl_variable" href="hitbox_8h.html#ae7f1f814a182e28fdd35d9158f4ed18f">gUnk_080FD41C</a>,</div>
+<div class="line">    &amp;<a class="code hl_variable" href="hitbox_8h.html#acd00e4721a958939aa21bd2d587b6fa8">gUnk_080FD424</a>,</div>
+<div class="line">    &amp;<a class="code hl_variable" href="hitbox_8h.html#aa66d82b0e9102b351a442140d51ea876">gUnk_080FD42C</a>,</div>
+<div class="line">    &amp;<a class="code hl_variable" href="hitbox_8h.html#afcb83a1b6cec4264b5e12f5550524184">gUnk_080FD434</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="aspiderWeb_8c_html_aa66d82b0e9102b351a442140d51ea876"><div class="ttname"><a href="spiderWeb_8c.html#aa66d82b0e9102b351a442140d51ea876">gUnk_080FD42C</a></div><div class="ttdeci">const Hitbox gUnk_080FD42C</div></div>
-<div class="ttc" id="aspiderWeb_8c_html_acd00e4721a958939aa21bd2d587b6fa8"><div class="ttname"><a href="spiderWeb_8c.html#acd00e4721a958939aa21bd2d587b6fa8">gUnk_080FD424</a></div><div class="ttdeci">const Hitbox gUnk_080FD424</div></div>
-<div class="ttc" id="aspiderWeb_8c_html_ae7f1f814a182e28fdd35d9158f4ed18f"><div class="ttname"><a href="spiderWeb_8c.html#ae7f1f814a182e28fdd35d9158f4ed18f">gUnk_080FD41C</a></div><div class="ttdeci">const Hitbox gUnk_080FD41C</div></div>
-<div class="ttc" id="aspiderWeb_8c_html_afcb83a1b6cec4264b5e12f5550524184"><div class="ttname"><a href="spiderWeb_8c.html#afcb83a1b6cec4264b5e12f5550524184">gUnk_080FD434</a></div><div class="ttdeci">const Hitbox gUnk_080FD434</div></div>
+<div class="ttc" id="ahitbox_8h_html_aa66d82b0e9102b351a442140d51ea876"><div class="ttname"><a href="hitbox_8h.html#aa66d82b0e9102b351a442140d51ea876">gUnk_080FD42C</a></div><div class="ttdeci">const Hitbox gUnk_080FD42C</div></div>
+<div class="ttc" id="ahitbox_8h_html_acd00e4721a958939aa21bd2d587b6fa8"><div class="ttname"><a href="hitbox_8h.html#acd00e4721a958939aa21bd2d587b6fa8">gUnk_080FD424</a></div><div class="ttdeci">const Hitbox gUnk_080FD424</div></div>
+<div class="ttc" id="ahitbox_8h_html_ae7f1f814a182e28fdd35d9158f4ed18f"><div class="ttname"><a href="hitbox_8h.html#ae7f1f814a182e28fdd35d9158f4ed18f">gUnk_080FD41C</a></div><div class="ttdeci">const Hitbox gUnk_080FD41C</div></div>
+<div class="ttc" id="ahitbox_8h_html_afcb83a1b6cec4264b5e12f5550524184"><div class="ttname"><a href="hitbox_8h.html#afcb83a1b6cec4264b5e12f5550524184">gUnk_080FD434</a></div><div class="ttdeci">const Hitbox gUnk_080FD434</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -652,10 +558,10 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="spiderWeb_8c.html#ad6bd6fdbf4ca45edaadc287989a4a679">SpiderWeb_Action2</a>,</div>
 <div class="line">    <a class="code hl_function" href="spiderWeb_8c.html#a50efff005730613e7819dccc62179184">SpiderWeb_Action3</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="aspiderWeb_8c_html_a101e9b417df78b9dbcb2c22d2a272f29"><div class="ttname"><a href="spiderWeb_8c.html#a101e9b417df78b9dbcb2c22d2a272f29">SpiderWeb_Init</a></div><div class="ttdeci">void SpiderWeb_Init(Entity *this)</div><div class="ttdef"><b>Definition:</b> spiderWeb.c:99</div></div>
-<div class="ttc" id="aspiderWeb_8c_html_a50efff005730613e7819dccc62179184"><div class="ttname"><a href="spiderWeb_8c.html#a50efff005730613e7819dccc62179184">SpiderWeb_Action3</a></div><div class="ttdeci">void SpiderWeb_Action3(Entity *this)</div><div class="ttdef"><b>Definition:</b> spiderWeb.c:163</div></div>
-<div class="ttc" id="aspiderWeb_8c_html_ad6bd6fdbf4ca45edaadc287989a4a679"><div class="ttname"><a href="spiderWeb_8c.html#ad6bd6fdbf4ca45edaadc287989a4a679">SpiderWeb_Action2</a></div><div class="ttdeci">void SpiderWeb_Action2(Entity *this)</div><div class="ttdef"><b>Definition:</b> spiderWeb.c:119</div></div>
-<div class="ttc" id="aspiderWeb_8c_html_ae5e471f91ca7686398a6acc1d0ae0eda"><div class="ttname"><a href="spiderWeb_8c.html#ae5e471f91ca7686398a6acc1d0ae0eda">SpiderWeb_Action1</a></div><div class="ttdeci">void SpiderWeb_Action1(Entity *this)</div><div class="ttdef"><b>Definition:</b> spiderWeb.c:112</div></div>
+<div class="ttc" id="aspiderWeb_8c_html_a101e9b417df78b9dbcb2c22d2a272f29"><div class="ttname"><a href="spiderWeb_8c.html#a101e9b417df78b9dbcb2c22d2a272f29">SpiderWeb_Init</a></div><div class="ttdeci">void SpiderWeb_Init(Entity *this)</div><div class="ttdef"><b>Definition:</b> spiderWeb.c:100</div></div>
+<div class="ttc" id="aspiderWeb_8c_html_a50efff005730613e7819dccc62179184"><div class="ttname"><a href="spiderWeb_8c.html#a50efff005730613e7819dccc62179184">SpiderWeb_Action3</a></div><div class="ttdeci">void SpiderWeb_Action3(Entity *this)</div><div class="ttdef"><b>Definition:</b> spiderWeb.c:164</div></div>
+<div class="ttc" id="aspiderWeb_8c_html_ad6bd6fdbf4ca45edaadc287989a4a679"><div class="ttname"><a href="spiderWeb_8c.html#ad6bd6fdbf4ca45edaadc287989a4a679">SpiderWeb_Action2</a></div><div class="ttdeci">void SpiderWeb_Action2(Entity *this)</div><div class="ttdef"><b>Definition:</b> spiderWeb.c:120</div></div>
+<div class="ttc" id="aspiderWeb_8c_html_ae5e471f91ca7686398a6acc1d0ae0eda"><div class="ttname"><a href="spiderWeb_8c.html#ae5e471f91ca7686398a6acc1d0ae0eda">SpiderWeb_Action1</a></div><div class="ttdeci">void SpiderWeb_Action1(Entity *this)</div><div class="ttdef"><b>Definition:</b> spiderWeb.c:113</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -677,10 +583,10 @@ Variables</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
 <div class="line">    <a class="code hl_function" href="spiderWeb_8c.html#a6d5387984d24cded66e64b8ceafea56c">SpiderWeb_OnTick</a>, <a class="code hl_function" href="spiderWeb_8c.html#aeb17bd295c9e5df59c95c7f798595b03">sub_080AA6C0</a>, <a class="code hl_function" href="entity_8c.html#a6c36abfca4590f417be8e49ebb2d48ca">DeleteEntity</a>, <a class="code hl_function" href="entity_8c.html#a6c36abfca4590f417be8e49ebb2d48ca">DeleteEntity</a>, <a class="code hl_function" href="entity_8c.html#a6c36abfca4590f417be8e49ebb2d48ca">DeleteEntity</a>, <a class="code hl_function" href="spiderWeb_8c.html#a16da22ddabb5a8f9b1f6b40a3d679e65">sub_080AA78C</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="aentity_8c_html_a6c36abfca4590f417be8e49ebb2d48ca"><div class="ttname"><a href="entity_8c.html#a6c36abfca4590f417be8e49ebb2d48ca">DeleteEntity</a></div><div class="ttdeci">void DeleteEntity(Entity *ent)</div><div class="ttdoc">Delete an Entity.</div><div class="ttdef"><b>Definition:</b> entity.c:343</div></div>
-<div class="ttc" id="aspiderWeb_8c_html_a16da22ddabb5a8f9b1f6b40a3d679e65"><div class="ttname"><a href="spiderWeb_8c.html#a16da22ddabb5a8f9b1f6b40a3d679e65">sub_080AA78C</a></div><div class="ttdeci">void sub_080AA78C(Entity *this)</div><div class="ttdef"><b>Definition:</b> spiderWeb.c:64</div></div>
-<div class="ttc" id="aspiderWeb_8c_html_a6d5387984d24cded66e64b8ceafea56c"><div class="ttname"><a href="spiderWeb_8c.html#a6d5387984d24cded66e64b8ceafea56c">SpiderWeb_OnTick</a></div><div class="ttdeci">void SpiderWeb_OnTick(Entity *this)</div><div class="ttdef"><b>Definition:</b> spiderWeb.c:30</div></div>
-<div class="ttc" id="aspiderWeb_8c_html_aeb17bd295c9e5df59c95c7f798595b03"><div class="ttname"><a href="spiderWeb_8c.html#aeb17bd295c9e5df59c95c7f798595b03">sub_080AA6C0</a></div><div class="ttdeci">void sub_080AA6C0(Entity *)</div><div class="ttdef"><b>Definition:</b> spiderWeb.c:34</div></div>
+<div class="ttc" id="aentity_8c_html_a6c36abfca4590f417be8e49ebb2d48ca"><div class="ttname"><a href="entity_8c.html#a6c36abfca4590f417be8e49ebb2d48ca">DeleteEntity</a></div><div class="ttdeci">void DeleteEntity(Entity *ent)</div><div class="ttdoc">Delete an Entity.</div><div class="ttdef"><b>Definition:</b> entity.c:342</div></div>
+<div class="ttc" id="aspiderWeb_8c_html_a16da22ddabb5a8f9b1f6b40a3d679e65"><div class="ttname"><a href="spiderWeb_8c.html#a16da22ddabb5a8f9b1f6b40a3d679e65">sub_080AA78C</a></div><div class="ttdeci">void sub_080AA78C(Entity *this)</div><div class="ttdef"><b>Definition:</b> spiderWeb.c:65</div></div>
+<div class="ttc" id="aspiderWeb_8c_html_a6d5387984d24cded66e64b8ceafea56c"><div class="ttname"><a href="spiderWeb_8c.html#a6d5387984d24cded66e64b8ceafea56c">SpiderWeb_OnTick</a></div><div class="ttdeci">void SpiderWeb_OnTick(Entity *this)</div><div class="ttdef"><b>Definition:</b> spiderWeb.c:31</div></div>
+<div class="ttc" id="aspiderWeb_8c_html_aeb17bd295c9e5df59c95c7f798595b03"><div class="ttname"><a href="spiderWeb_8c.html#aeb17bd295c9e5df59c95c7f798595b03">sub_080AA6C0</a></div><div class="ttdeci">void sub_080AA6C0(Entity *)</div><div class="ttdef"><b>Definition:</b> spiderWeb.c:35</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -703,8 +609,8 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="spiderWeb_8c.html#a73a28df579864877f72121661eb84010">SpiderWeb_SubAction0</a>,</div>
 <div class="line">    <a class="code hl_function" href="spiderWeb_8c.html#a599cd39f70da9e237fc34548f7962b61">SpiderWeb_SubAction1</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="aspiderWeb_8c_html_a599cd39f70da9e237fc34548f7962b61"><div class="ttname"><a href="spiderWeb_8c.html#a599cd39f70da9e237fc34548f7962b61">SpiderWeb_SubAction1</a></div><div class="ttdeci">void SpiderWeb_SubAction1(Entity *this)</div><div class="ttdef"><b>Definition:</b> spiderWeb.c:157</div></div>
-<div class="ttc" id="aspiderWeb_8c_html_a73a28df579864877f72121661eb84010"><div class="ttname"><a href="spiderWeb_8c.html#a73a28df579864877f72121661eb84010">SpiderWeb_SubAction0</a></div><div class="ttdeci">void SpiderWeb_SubAction0(Entity *this)</div><div class="ttdef"><b>Definition:</b> spiderWeb.c:124</div></div>
+<div class="ttc" id="aspiderWeb_8c_html_a599cd39f70da9e237fc34548f7962b61"><div class="ttname"><a href="spiderWeb_8c.html#a599cd39f70da9e237fc34548f7962b61">SpiderWeb_SubAction1</a></div><div class="ttdeci">void SpiderWeb_SubAction1(Entity *this)</div><div class="ttdef"><b>Definition:</b> spiderWeb.c:158</div></div>
+<div class="ttc" id="aspiderWeb_8c_html_a73a28df579864877f72121661eb84010"><div class="ttname"><a href="spiderWeb_8c.html#a73a28df579864877f72121661eb84010">SpiderWeb_SubAction0</a></div><div class="ttdeci">void SpiderWeb_SubAction0(Entity *this)</div><div class="ttdef"><b>Definition:</b> spiderWeb.c:125</div></div>
 </div><!-- fragment -->
 </div>
 </div>

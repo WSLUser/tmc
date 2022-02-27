@@ -91,6 +91,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="object_8h_source.html">object.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sound_8h_source.html">sound.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="hitbox_8h_source.html">hitbox.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for pullableLever.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -98,11 +99,12 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="pullableLever_8c__incl.png" border="0" usemap="#asrc_2object_2pullableLever_8c" alt=""/></div>
 <map name="asrc_2object_2pullableLever_8c" id="asrc_2object_2pullableLever_8c">
-<area shape="rect" title="Pullable Lever object." alt="" coords="157,5,328,32"/>
+<area shape="rect" title="Pullable Lever object." alt="" coords="247,5,417,32"/>
 <area shape="rect" href="global_8h.html" title=" " alt="" coords="541,453,608,480"/>
-<area shape="rect" href="object_8h.html" title=" " alt="" coords="265,155,332,181"/>
+<area shape="rect" href="object_8h.html" title=" " alt="" coords="299,155,365,181"/>
 <area shape="rect" href="sound_8h.html" title=" " alt="" coords="43,229,109,256"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="759,80,844,107"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="731,80,816,107"/>
+<area shape="rect" href="hitbox_8h.html" title=" " alt="" coords="840,80,907,107"/>
 <area shape="rect" href="gba_8h.html" title=" " alt="" coords="686,528,765,555"/>
 <area shape="rect" title=" " alt="" coords="391,603,455,629"/>
 <area shape="rect" href="defines_8h.html" title=" " alt="" coords="1038,603,1111,629"/>
@@ -115,7 +117,7 @@ $(function() {
 <area shape="rect" title=" " alt="" coords="1041,677,1109,704"/>
 <area shape="rect" title=" " alt="" coords="589,752,653,779"/>
 <area shape="rect" href="asm_8h.html" title=" " alt="" coords="193,379,250,405"/>
-<area shape="rect" href="common_8h.html" title=" " alt="" coords="289,379,372,405"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="305,379,388,405"/>
 <area shape="rect" href="flags_8h.html" title=" " alt="" coords="285,304,344,331"/>
 <area shape="rect" href="effects_8h.html" title=" " alt="" coords="473,229,543,256"/>
 <area shape="rect" href="entity_8h.html" title=" " alt="" coords="699,304,762,331"/>
@@ -128,7 +130,7 @@ $(function() {
 <area shape="rect" href="manager_8h.html" title=" " alt="" coords="949,229,1032,256"/>
 <area shape="rect" href="structures_8h.html" title=" " alt="" coords="643,155,733,181"/>
 <area shape="rect" href="script_8h.html" title=" " alt="" coords="871,155,935,181"/>
-<area shape="rect" href="map_8h.html" title=" " alt="" coords="1009,304,1066,331"/>
+<area shape="rect" href="map_8h.html" title=" " alt="" coords="994,304,1051,331"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -179,10 +181,6 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:af4aac82f5b49014d1ef5b90b58801daf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pullableLever_8c.html#af4aac82f5b49014d1ef5b90b58801daf">gUnk_02021F00</a> []</td></tr>
 <tr class="separator:af4aac82f5b49014d1ef5b90b58801daf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3de44bbb6a078fb23ff70d4f83ddfd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structHitbox.html">Hitbox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pullableLever_8c.html#af3de44bbb6a078fb23ff70d4f83ddfd9">gUnk_080FD270</a></td></tr>
-<tr class="separator:af3de44bbb6a078fb23ff70d4f83ddfd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a111df68dfe4f0a33c5123097229847cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structHitbox.html">Hitbox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pullableLever_8c.html#a111df68dfe4f0a33c5123097229847cf">gUnk_080FD278</a></td></tr>
-<tr class="separator:a111df68dfe4f0a33c5123097229847cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0a3408eaaa49034ba90ab7dc7041c97"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pullableLever_8c.html#ac0a3408eaaa49034ba90ab7dc7041c97">PullableLever_HandleActions</a> [])(<a class="el" href="structPullableLeverEntity.html">PullableLeverEntity</a> *)</td></tr>
 <tr class="separator:ac0a3408eaaa49034ba90ab7dc7041c97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a54cbf63f1631729b99180e79076451"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pullableLever_8c.html#a7a54cbf63f1631729b99180e79076451">PullableLever_MiddleActions</a> [])(<a class="el" href="structPullableLeverEntity.html">PullableLeverEntity</a> *)</td></tr>
@@ -455,50 +453,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="af3de44bbb6a078fb23ff70d4f83ddfd9" name="af3de44bbb6a078fb23ff70d4f83ddfd9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3de44bbb6a078fb23ff70d4f83ddfd9">&#9670;&nbsp;</a></span>gUnk_080FD270</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structHitbox.html">Hitbox</a> gUnk_080FD270</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a111df68dfe4f0a33c5123097229847cf" name="a111df68dfe4f0a33c5123097229847cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a111df68dfe4f0a33c5123097229847cf">&#9670;&nbsp;</a></span>gUnk_080FD278</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structHitbox.html">Hitbox</a> gUnk_080FD278</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="abbc9d216a97652961c1ac8c459720025" name="abbc9d216a97652961c1ac8c459720025"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abbc9d216a97652961c1ac8c459720025">&#9670;&nbsp;</a></span>gUnk_081222B8</h2>
 
@@ -556,9 +510,9 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="pullableLever_8c.html#a3dd5a6da398d4b7f860edb2df9c15b3b">PullableLever_HandleAction1</a>,</div>
 <div class="line">    <a class="code hl_function" href="pullableLever_8c.html#a15f987d4c455fc8a11e431fc93e87ec4">PullableLever_HandleAction2</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="apullableLever_8c_html_a15f987d4c455fc8a11e431fc93e87ec4"><div class="ttname"><a href="pullableLever_8c.html#a15f987d4c455fc8a11e431fc93e87ec4">PullableLever_HandleAction2</a></div><div class="ttdeci">void PullableLever_HandleAction2(PullableLeverEntity *this)</div><div class="ttdef"><b>Definition:</b> pullableLever.c:104</div></div>
-<div class="ttc" id="apullableLever_8c_html_a1668a74211581059ff14a7aa44ae4deb"><div class="ttname"><a href="pullableLever_8c.html#a1668a74211581059ff14a7aa44ae4deb">PullableLever_HandleInit</a></div><div class="ttdeci">void PullableLever_HandleInit(PullableLeverEntity *this)</div><div class="ttdef"><b>Definition:</b> pullableLever.c:66</div></div>
-<div class="ttc" id="apullableLever_8c_html_a3dd5a6da398d4b7f860edb2df9c15b3b"><div class="ttname"><a href="pullableLever_8c.html#a3dd5a6da398d4b7f860edb2df9c15b3b">PullableLever_HandleAction1</a></div><div class="ttdeci">void PullableLever_HandleAction1(PullableLeverEntity *this)</div><div class="ttdef"><b>Definition:</b> pullableLever.c:95</div></div>
+<div class="ttc" id="apullableLever_8c_html_a15f987d4c455fc8a11e431fc93e87ec4"><div class="ttname"><a href="pullableLever_8c.html#a15f987d4c455fc8a11e431fc93e87ec4">PullableLever_HandleAction2</a></div><div class="ttdeci">void PullableLever_HandleAction2(PullableLeverEntity *this)</div><div class="ttdef"><b>Definition:</b> pullableLever.c:103</div></div>
+<div class="ttc" id="apullableLever_8c_html_a1668a74211581059ff14a7aa44ae4deb"><div class="ttname"><a href="pullableLever_8c.html#a1668a74211581059ff14a7aa44ae4deb">PullableLever_HandleInit</a></div><div class="ttdeci">void PullableLever_HandleInit(PullableLeverEntity *this)</div><div class="ttdef"><b>Definition:</b> pullableLever.c:65</div></div>
+<div class="ttc" id="apullableLever_8c_html_a3dd5a6da398d4b7f860edb2df9c15b3b"><div class="ttname"><a href="pullableLever_8c.html#a3dd5a6da398d4b7f860edb2df9c15b3b">PullableLever_HandleAction1</a></div><div class="ttdeci">void PullableLever_HandleAction1(PullableLeverEntity *this)</div><div class="ttdef"><b>Definition:</b> pullableLever.c:94</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -581,8 +535,8 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="pullableLever_8c.html#a9cb49572d79cdb98bcf0bf330b89a50e">PullableLever_HandleSubAction0</a>,</div>
 <div class="line">    <a class="code hl_function" href="pullableLever_8c.html#ab70185b961d4fe03cc47ce85f412a2d1">PullableLever_HandleSubAction1</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="apullableLever_8c_html_a9cb49572d79cdb98bcf0bf330b89a50e"><div class="ttname"><a href="pullableLever_8c.html#a9cb49572d79cdb98bcf0bf330b89a50e">PullableLever_HandleSubAction0</a></div><div class="ttdeci">void PullableLever_HandleSubAction0(PullableLeverEntity *this)</div><div class="ttdef"><b>Definition:</b> pullableLever.c:109</div></div>
-<div class="ttc" id="apullableLever_8c_html_ab70185b961d4fe03cc47ce85f412a2d1"><div class="ttname"><a href="pullableLever_8c.html#ab70185b961d4fe03cc47ce85f412a2d1">PullableLever_HandleSubAction1</a></div><div class="ttdeci">void PullableLever_HandleSubAction1(PullableLeverEntity *this)</div><div class="ttdef"><b>Definition:</b> pullableLever.c:141</div></div>
+<div class="ttc" id="apullableLever_8c_html_a9cb49572d79cdb98bcf0bf330b89a50e"><div class="ttname"><a href="pullableLever_8c.html#a9cb49572d79cdb98bcf0bf330b89a50e">PullableLever_HandleSubAction0</a></div><div class="ttdeci">void PullableLever_HandleSubAction0(PullableLeverEntity *this)</div><div class="ttdef"><b>Definition:</b> pullableLever.c:108</div></div>
+<div class="ttc" id="apullableLever_8c_html_ab70185b961d4fe03cc47ce85f412a2d1"><div class="ttname"><a href="pullableLever_8c.html#ab70185b961d4fe03cc47ce85f412a2d1">PullableLever_HandleSubAction1</a></div><div class="ttdeci">void PullableLever_HandleSubAction1(PullableLeverEntity *this)</div><div class="ttdef"><b>Definition:</b> pullableLever.c:140</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -622,8 +576,8 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="pullableLever_8c.html#a756ef2519862142a847ad7f3f7dfeae7">PullableLever_MiddleInit</a>,</div>
 <div class="line">    <a class="code hl_function" href="pullableLever_8c.html#a4d839a84c43e4432ef750b63d911fdc7">PullableLever_MiddleAction1</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="apullableLever_8c_html_a4d839a84c43e4432ef750b63d911fdc7"><div class="ttname"><a href="pullableLever_8c.html#a4d839a84c43e4432ef750b63d911fdc7">PullableLever_MiddleAction1</a></div><div class="ttdeci">void PullableLever_MiddleAction1(PullableLeverEntity *this)</div><div class="ttdef"><b>Definition:</b> pullableLever.c:153</div></div>
-<div class="ttc" id="apullableLever_8c_html_a756ef2519862142a847ad7f3f7dfeae7"><div class="ttname"><a href="pullableLever_8c.html#a756ef2519862142a847ad7f3f7dfeae7">PullableLever_MiddleInit</a></div><div class="ttdeci">void PullableLever_MiddleInit(PullableLeverEntity *this)</div><div class="ttdef"><b>Definition:</b> pullableLever.c:146</div></div>
+<div class="ttc" id="apullableLever_8c_html_a4d839a84c43e4432ef750b63d911fdc7"><div class="ttname"><a href="pullableLever_8c.html#a4d839a84c43e4432ef750b63d911fdc7">PullableLever_MiddleAction1</a></div><div class="ttdeci">void PullableLever_MiddleAction1(PullableLeverEntity *this)</div><div class="ttdef"><b>Definition:</b> pullableLever.c:152</div></div>
+<div class="ttc" id="apullableLever_8c_html_a756ef2519862142a847ad7f3f7dfeae7"><div class="ttname"><a href="pullableLever_8c.html#a756ef2519862142a847ad7f3f7dfeae7">PullableLever_MiddleInit</a></div><div class="ttdeci">void PullableLever_MiddleInit(PullableLeverEntity *this)</div><div class="ttdef"><b>Definition:</b> pullableLever.c:145</div></div>
 </div><!-- fragment -->
 </div>
 </div>

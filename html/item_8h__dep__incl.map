@@ -1,5 +1,5 @@
 <map id="include/item.h" name="include/item.h">
-<area shape="rect" id="node1" title=" " alt="" coords="3519,5,3622,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="3615,5,3718,32"/>
 <area shape="rect" id="node2" href="$code__0805436C_8c.html" title=" " alt="" coords="5,87,152,114"/>
 <area shape="rect" id="node3" href="$businessScrub_8c.html" title="Business Scrub enemy." alt="" coords="177,87,359,114"/>
 <area shape="rect" id="node4" href="$likeLike_8c.html" title="Like Like enemy." alt="" coords="384,87,525,114"/>
@@ -35,10 +35,11 @@
 <area shape="rect" id="node34" href="$heartContainer_8c.html" title=" " alt="" coords="5539,87,5717,114"/>
 <area shape="rect" id="node35" href="$itemOnGround_8c.html" title=" " alt="" coords="5741,87,5918,114"/>
 <area shape="rect" id="node36" href="$lilypadLarge_8c.html" title="Large Lilypad object." alt="" coords="5943,87,6105,114"/>
-<area shape="rect" id="node37" href="$object6A_8c.html" title=" " alt="" coords="6129,87,6273,114"/>
-<area shape="rect" id="node38" href="$objectA8_8c.html" title="ObjectA8 object." alt="" coords="6297,87,6441,114"/>
-<area shape="rect" id="node39" href="$player_8c.html" title="Player entity." alt="" coords="6465,87,6553,114"/>
-<area shape="rect" id="node40" href="$playerItemBottle_8c.html" title=" " alt="" coords="6577,80,6745,121"/>
-<area shape="rect" id="node41" href="$roomInit_8c.html" title=" " alt="" coords="6769,87,6871,114"/>
-<area shape="rect" id="node42" href="$title_8c.html" title="Title task." alt="" coords="6895,87,6969,114"/>
+<area shape="rect" id="node37" href="$object43_8c.html" title="Object43 object." alt="" coords="6130,87,6273,114"/>
+<area shape="rect" id="node38" href="$object6A_8c.html" title=" " alt="" coords="6297,87,6441,114"/>
+<area shape="rect" id="node39" href="$objectA8_8c.html" title="ObjectA8 object." alt="" coords="6465,87,6609,114"/>
+<area shape="rect" id="node40" href="$player_8c.html" title="Player entity." alt="" coords="6633,87,6721,114"/>
+<area shape="rect" id="node41" href="$playerItemBottle_8c.html" title=" " alt="" coords="6745,80,6913,121"/>
+<area shape="rect" id="node42" href="$roomInit_8c.html" title=" " alt="" coords="6937,87,7039,114"/>
+<area shape="rect" id="node43" href="$title_8c.html" title="Title task." alt="" coords="7063,87,7137,114"/>
 </map>

@@ -78,8 +78,7 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">crenelBeanSprout.c File Reference<div class="ingroups"><a class="el" href="group__Entities.html">Entities</a> &raquo; <a class="el" href="group__Objects.html">Objects</a></div></div></div>
 </div><!--header-->
 <div class="contents">
@@ -89,6 +88,7 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="global_8h_source.html">global.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="object_8h_source.html">object.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="hitbox_8h_source.html">hitbox.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for crenelBeanSprout.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -96,10 +96,11 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="crenelBeanSprout_8c__incl.png" border="0" usemap="#asrc_2object_2crenelBeanSprout_8c" alt=""/></div>
 <map name="asrc_2object_2crenelBeanSprout_8c" id="asrc_2object_2crenelBeanSprout_8c">
-<area shape="rect" title="Crenel Bean Sprout object." alt="" coords="210,5,406,32"/>
+<area shape="rect" title="Crenel Bean Sprout object." alt="" coords="519,5,715,32"/>
 <area shape="rect" href="global_8h.html" title=" " alt="" coords="448,453,515,480"/>
-<area shape="rect" href="object_8h.html" title=" " alt="" coords="275,155,341,181"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="696,80,781,107"/>
+<area shape="rect" href="object_8h.html" title=" " alt="" coords="309,155,376,181"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="667,80,752,107"/>
+<area shape="rect" href="hitbox_8h.html" title=" " alt="" coords="776,80,843,107"/>
 <area shape="rect" href="gba_8h.html" title=" " alt="" coords="571,528,650,555"/>
 <area shape="rect" title=" " alt="" coords="320,603,384,629"/>
 <area shape="rect" href="defines_8h.html" title=" " alt="" coords="409,603,482,629"/>
@@ -124,8 +125,8 @@ $(function() {
 <area shape="rect" href="sprite_8h.html" title=" " alt="" coords="571,379,635,405"/>
 <area shape="rect" href="droptables_8h.html" title=" " alt="" coords="435,304,527,331"/>
 <area shape="rect" href="manager_8h.html" title=" " alt="" coords="773,229,856,256"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="801,155,892,181"/>
-<area shape="rect" href="script_8h.html" title=" " alt="" coords="916,155,980,181"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="797,155,888,181"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="912,155,976,181"/>
 <area shape="rect" href="map_8h.html" title=" " alt="" coords="1083,304,1141,331"/>
 </map>
 </div>
@@ -178,11 +179,6 @@ Functions</h2></td></tr>
 <tr class="separator:a4253208321721e3fc411861a1d1c1d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a80b4dd8d4954c1566ae16c316b654c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crenelBeanSprout_8c.html#a8a80b4dd8d4954c1566ae16c316b654c">CrenelBeanSprout</a> (<a class="el" href="structCrenelBeanSproutEntity.html">CrenelBeanSproutEntity</a> *this)</td></tr>
 <tr class="separator:a8a80b4dd8d4954c1566ae16c316b654c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:ab8ef9a8871afb890a19f008c3d379e59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structHitbox.html">Hitbox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crenelBeanSprout_8c.html#ab8ef9a8871afb890a19f008c3d379e59">gUnk_080FD2A8</a></td></tr>
-<tr class="separator:ab8ef9a8871afb890a19f008c3d379e59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Crenel Bean Sprout object. </p>
@@ -538,29 +534,6 @@ Variables</h2></td></tr>
           <td></td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="ab8ef9a8871afb890a19f008c3d379e59" name="ab8ef9a8871afb890a19f008c3d379e59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8ef9a8871afb890a19f008c3d379e59">&#9670;&nbsp;</a></span>gUnk_080FD2A8</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structHitbox.html">Hitbox</a> gUnk_080FD2A8</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>

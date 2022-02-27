@@ -86,6 +86,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="coord_8h_source.html">coord.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="game_8h_source.html">game.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="hitbox_8h_source.html">hitbox.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for mandiblesProjectile.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -93,12 +94,13 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="mandiblesProjectile_8c__incl.png" border="0" usemap="#asrc_2projectile_2mandiblesProjectile_8c" alt=""/></div>
 <map name="asrc_2projectile_2mandiblesProjectile_8c" id="asrc_2projectile_2mandiblesProjectile_8c">
-<area shape="rect" title=" " alt="" coords="606,5,765,47"/>
+<area shape="rect" title=" " alt="" coords="758,5,917,47"/>
 <area shape="rect" href="entity_8h.html" title=" " alt="" coords="737,319,799,345"/>
 <area shape="rect" href="enemy_8h.html" title=" " alt="" coords="271,169,342,196"/>
 <area shape="rect" href="coord_8h.html" title=" " alt="" coords="584,169,648,196"/>
 <area shape="rect" href="functions_8h.html" title=" " alt="" coords="905,95,991,121"/>
 <area shape="rect" href="game_8h.html" title=" " alt="" coords="1327,319,1391,345"/>
+<area shape="rect" href="hitbox_8h.html" title=" " alt="" coords="1360,95,1427,121"/>
 <area shape="rect" href="global_8h.html" title=" " alt="" coords="804,468,871,495"/>
 <area shape="rect" href="color_8h.html" title=" " alt="" coords="651,393,711,420"/>
 <area shape="rect" href="sprite_8h.html" title=" " alt="" coords="736,393,800,420"/>
@@ -113,10 +115,10 @@ $(function() {
 <area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="1109,617,1197,644"/>
 <area shape="rect" title=" " alt="" coords="1225,692,1293,719"/>
 <area shape="rect" title=" " alt="" coords="873,767,937,793"/>
-<area shape="rect" href="asm_8h.html" title=" " alt="" coords="175,319,233,345"/>
-<area shape="rect" href="sound_8h.html" title=" " alt="" coords="264,319,331,345"/>
+<area shape="rect" href="asm_8h.html" title=" " alt="" coords="175,393,233,420"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="232,319,299,345"/>
 <area shape="rect" href="effects_8h.html" title=" " alt="" coords="475,244,546,271"/>
-<area shape="rect" href="flags_8h.html" title=" " alt="" coords="341,393,400,420"/>
+<area shape="rect" href="flags_8h.html" title=" " alt="" coords="341,319,400,345"/>
 <area shape="rect" href="common_8h.html" title=" " alt="" coords="5,393,88,420"/>
 <area shape="rect" href="projectile_8h.html" title=" " alt="" coords="265,244,349,271"/>
 <area shape="rect" href="manager_8h.html" title=" " alt="" coords="1016,244,1099,271"/>
@@ -163,8 +165,6 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:aa4bdb0b1f11d4200a2ddbdb575162e0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structHitbox.html">Hitbox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mandiblesProjectile_8c.html#aa4bdb0b1f11d4200a2ddbdb575162e0a">gHitbox_0</a></td></tr>
-<tr class="separator:aa4bdb0b1f11d4200a2ddbdb575162e0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54de088e85224af29e2ce05314db838e"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mandiblesProjectile_8c.html#a54de088e85224af29e2ce05314db838e">MandiblesProjectile_Functions</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
 <tr class="separator:a54de088e85224af29e2ce05314db838e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b2e2ac3f6a794e599426605c812fedb"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mandiblesProjectile_8c.html#a4b2e2ac3f6a794e599426605c812fedb">MandiblesProjectile_Actions</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
@@ -458,28 +458,6 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="aa4bdb0b1f11d4200a2ddbdb575162e0a" name="aa4bdb0b1f11d4200a2ddbdb575162e0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa4bdb0b1f11d4200a2ddbdb575162e0a">&#9670;&nbsp;</a></span>gHitbox_0</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structHitbox.html">Hitbox</a> gHitbox_0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aeb650ba0c7e521ebdb16ce6606f4fc4d" name="aeb650ba0c7e521ebdb16ce6606f4fc4d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeb650ba0c7e521ebdb16ce6606f4fc4d">&#9670;&nbsp;</a></span>gUnk_08129CA4</h2>
 
@@ -638,14 +616,14 @@ Variables</h2></td></tr>
 <div class="line">    &amp;<a class="code hl_variable" href="mandiblesProjectile_8c.html#a9919cf15b180e04267da9bfa771f8bb5">gUnk_08129CB4</a>, &amp;<a class="code hl_variable" href="mandiblesProjectile_8c.html#a6e896ee3c88c59d20d4bdade717e1260">gUnk_08129CBC</a>, &amp;<a class="code hl_variable" href="mandiblesProjectile_8c.html#a8019ee9ba0d7247f875c3d295fe65c85">gUnk_08129CC4</a>, &amp;<a class="code hl_variable" href="mandiblesProjectile_8c.html#afb0b005393a50c5718eb295fcd4a4ef4">gUnk_08129CCC</a>,</div>
 <div class="line">    &amp;<a class="code hl_variable" href="mandiblesProjectile_8c.html#aaff70caa8d14508821989a3f3784f31a">gUnk_08129CD4</a>, &amp;<a class="code hl_variable" href="mandiblesProjectile_8c.html#a29cedf8c99b68c678d4ec485f32b76e6">gUnk_08129CDC</a>, &amp;<a class="code hl_variable" href="mandiblesProjectile_8c.html#ad45bc516bc2012e7d8b915c476b5b682">gUnk_08129CE4</a>, &amp;<a class="code hl_variable" href="mandiblesProjectile_8c.html#a600e0356bb1cfda5c5f1d44633a61c92">gUnk_08129CEC</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="amandiblesProjectile_8c_html_a29cedf8c99b68c678d4ec485f32b76e6"><div class="ttname"><a href="mandiblesProjectile_8c.html#a29cedf8c99b68c678d4ec485f32b76e6">gUnk_08129CDC</a></div><div class="ttdeci">const Hitbox gUnk_08129CDC</div><div class="ttdef"><b>Definition:</b> mandiblesProjectile.c:342</div></div>
-<div class="ttc" id="amandiblesProjectile_8c_html_a600e0356bb1cfda5c5f1d44633a61c92"><div class="ttname"><a href="mandiblesProjectile_8c.html#a600e0356bb1cfda5c5f1d44633a61c92">gUnk_08129CEC</a></div><div class="ttdeci">const Hitbox gUnk_08129CEC</div><div class="ttdef"><b>Definition:</b> mandiblesProjectile.c:344</div></div>
-<div class="ttc" id="amandiblesProjectile_8c_html_a6e896ee3c88c59d20d4bdade717e1260"><div class="ttname"><a href="mandiblesProjectile_8c.html#a6e896ee3c88c59d20d4bdade717e1260">gUnk_08129CBC</a></div><div class="ttdeci">const Hitbox gUnk_08129CBC</div><div class="ttdef"><b>Definition:</b> mandiblesProjectile.c:338</div></div>
-<div class="ttc" id="amandiblesProjectile_8c_html_a8019ee9ba0d7247f875c3d295fe65c85"><div class="ttname"><a href="mandiblesProjectile_8c.html#a8019ee9ba0d7247f875c3d295fe65c85">gUnk_08129CC4</a></div><div class="ttdeci">const Hitbox gUnk_08129CC4</div><div class="ttdef"><b>Definition:</b> mandiblesProjectile.c:339</div></div>
-<div class="ttc" id="amandiblesProjectile_8c_html_a9919cf15b180e04267da9bfa771f8bb5"><div class="ttname"><a href="mandiblesProjectile_8c.html#a9919cf15b180e04267da9bfa771f8bb5">gUnk_08129CB4</a></div><div class="ttdeci">const Hitbox gUnk_08129CB4</div><div class="ttdef"><b>Definition:</b> mandiblesProjectile.c:337</div></div>
-<div class="ttc" id="amandiblesProjectile_8c_html_aaff70caa8d14508821989a3f3784f31a"><div class="ttname"><a href="mandiblesProjectile_8c.html#aaff70caa8d14508821989a3f3784f31a">gUnk_08129CD4</a></div><div class="ttdeci">const Hitbox gUnk_08129CD4</div><div class="ttdef"><b>Definition:</b> mandiblesProjectile.c:341</div></div>
-<div class="ttc" id="amandiblesProjectile_8c_html_ad45bc516bc2012e7d8b915c476b5b682"><div class="ttname"><a href="mandiblesProjectile_8c.html#ad45bc516bc2012e7d8b915c476b5b682">gUnk_08129CE4</a></div><div class="ttdeci">const Hitbox gUnk_08129CE4</div><div class="ttdef"><b>Definition:</b> mandiblesProjectile.c:343</div></div>
-<div class="ttc" id="amandiblesProjectile_8c_html_afb0b005393a50c5718eb295fcd4a4ef4"><div class="ttname"><a href="mandiblesProjectile_8c.html#afb0b005393a50c5718eb295fcd4a4ef4">gUnk_08129CCC</a></div><div class="ttdeci">const Hitbox gUnk_08129CCC</div><div class="ttdef"><b>Definition:</b> mandiblesProjectile.c:340</div></div>
+<div class="ttc" id="amandiblesProjectile_8c_html_a29cedf8c99b68c678d4ec485f32b76e6"><div class="ttname"><a href="mandiblesProjectile_8c.html#a29cedf8c99b68c678d4ec485f32b76e6">gUnk_08129CDC</a></div><div class="ttdeci">const Hitbox gUnk_08129CDC</div><div class="ttdef"><b>Definition:</b> mandiblesProjectile.c:341</div></div>
+<div class="ttc" id="amandiblesProjectile_8c_html_a600e0356bb1cfda5c5f1d44633a61c92"><div class="ttname"><a href="mandiblesProjectile_8c.html#a600e0356bb1cfda5c5f1d44633a61c92">gUnk_08129CEC</a></div><div class="ttdeci">const Hitbox gUnk_08129CEC</div><div class="ttdef"><b>Definition:</b> mandiblesProjectile.c:343</div></div>
+<div class="ttc" id="amandiblesProjectile_8c_html_a6e896ee3c88c59d20d4bdade717e1260"><div class="ttname"><a href="mandiblesProjectile_8c.html#a6e896ee3c88c59d20d4bdade717e1260">gUnk_08129CBC</a></div><div class="ttdeci">const Hitbox gUnk_08129CBC</div><div class="ttdef"><b>Definition:</b> mandiblesProjectile.c:337</div></div>
+<div class="ttc" id="amandiblesProjectile_8c_html_a8019ee9ba0d7247f875c3d295fe65c85"><div class="ttname"><a href="mandiblesProjectile_8c.html#a8019ee9ba0d7247f875c3d295fe65c85">gUnk_08129CC4</a></div><div class="ttdeci">const Hitbox gUnk_08129CC4</div><div class="ttdef"><b>Definition:</b> mandiblesProjectile.c:338</div></div>
+<div class="ttc" id="amandiblesProjectile_8c_html_a9919cf15b180e04267da9bfa771f8bb5"><div class="ttname"><a href="mandiblesProjectile_8c.html#a9919cf15b180e04267da9bfa771f8bb5">gUnk_08129CB4</a></div><div class="ttdeci">const Hitbox gUnk_08129CB4</div><div class="ttdef"><b>Definition:</b> mandiblesProjectile.c:336</div></div>
+<div class="ttc" id="amandiblesProjectile_8c_html_aaff70caa8d14508821989a3f3784f31a"><div class="ttname"><a href="mandiblesProjectile_8c.html#aaff70caa8d14508821989a3f3784f31a">gUnk_08129CD4</a></div><div class="ttdeci">const Hitbox gUnk_08129CD4</div><div class="ttdef"><b>Definition:</b> mandiblesProjectile.c:340</div></div>
+<div class="ttc" id="amandiblesProjectile_8c_html_ad45bc516bc2012e7d8b915c476b5b682"><div class="ttname"><a href="mandiblesProjectile_8c.html#ad45bc516bc2012e7d8b915c476b5b682">gUnk_08129CE4</a></div><div class="ttdeci">const Hitbox gUnk_08129CE4</div><div class="ttdef"><b>Definition:</b> mandiblesProjectile.c:342</div></div>
+<div class="ttc" id="amandiblesProjectile_8c_html_afb0b005393a50c5718eb295fcd4a4ef4"><div class="ttname"><a href="mandiblesProjectile_8c.html#afb0b005393a50c5718eb295fcd4a4ef4">gUnk_08129CCC</a></div><div class="ttdeci">const Hitbox gUnk_08129CCC</div><div class="ttdef"><b>Definition:</b> mandiblesProjectile.c:339</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -682,11 +660,11 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="mandiblesProjectile_8c.html#a0c7464ce994f2b7c9b0b1eac2cb57ff0">MandiblesProjectile_Init</a>,    <a class="code hl_function" href="mandiblesProjectile_8c.html#aba68bdb1f4aa4f5a95b0c8ce7a6b1477">MandiblesProjectile_Action1</a>, <a class="code hl_function" href="mandiblesProjectile_8c.html#aad441d8763cf81c222d1b3b2aba65b3d">MandiblesProjectile_Action2</a>,</div>
 <div class="line">    <a class="code hl_function" href="mandiblesProjectile_8c.html#a922091c6ece34ae367ed5d7c2bf4cbbd">MandiblesProjectile_Action3</a>, <a class="code hl_function" href="mandiblesProjectile_8c.html#aa2bfe691ef4fa96856f2e6953350ab8b">MandiblesProjectile_Action4</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="amandiblesProjectile_8c_html_a0c7464ce994f2b7c9b0b1eac2cb57ff0"><div class="ttname"><a href="mandiblesProjectile_8c.html#a0c7464ce994f2b7c9b0b1eac2cb57ff0">MandiblesProjectile_Init</a></div><div class="ttdeci">void MandiblesProjectile_Init(Entity *this)</div><div class="ttdef"><b>Definition:</b> mandiblesProjectile.c:74</div></div>
-<div class="ttc" id="amandiblesProjectile_8c_html_a922091c6ece34ae367ed5d7c2bf4cbbd"><div class="ttname"><a href="mandiblesProjectile_8c.html#a922091c6ece34ae367ed5d7c2bf4cbbd">MandiblesProjectile_Action3</a></div><div class="ttdeci">void MandiblesProjectile_Action3(Entity *this)</div><div class="ttdef"><b>Definition:</b> mandiblesProjectile.c:111</div></div>
-<div class="ttc" id="amandiblesProjectile_8c_html_aa2bfe691ef4fa96856f2e6953350ab8b"><div class="ttname"><a href="mandiblesProjectile_8c.html#aa2bfe691ef4fa96856f2e6953350ab8b">MandiblesProjectile_Action4</a></div><div class="ttdeci">void MandiblesProjectile_Action4(Entity *this)</div><div class="ttdef"><b>Definition:</b> mandiblesProjectile.c:157</div></div>
-<div class="ttc" id="amandiblesProjectile_8c_html_aad441d8763cf81c222d1b3b2aba65b3d"><div class="ttname"><a href="mandiblesProjectile_8c.html#aad441d8763cf81c222d1b3b2aba65b3d">MandiblesProjectile_Action2</a></div><div class="ttdeci">void MandiblesProjectile_Action2(Entity *this)</div><div class="ttdef"><b>Definition:</b> mandiblesProjectile.c:99</div></div>
-<div class="ttc" id="amandiblesProjectile_8c_html_aba68bdb1f4aa4f5a95b0c8ce7a6b1477"><div class="ttname"><a href="mandiblesProjectile_8c.html#aba68bdb1f4aa4f5a95b0c8ce7a6b1477">MandiblesProjectile_Action1</a></div><div class="ttdeci">void MandiblesProjectile_Action1(Entity *this)</div><div class="ttdef"><b>Definition:</b> mandiblesProjectile.c:84</div></div>
+<div class="ttc" id="amandiblesProjectile_8c_html_a0c7464ce994f2b7c9b0b1eac2cb57ff0"><div class="ttname"><a href="mandiblesProjectile_8c.html#a0c7464ce994f2b7c9b0b1eac2cb57ff0">MandiblesProjectile_Init</a></div><div class="ttdeci">void MandiblesProjectile_Init(Entity *this)</div><div class="ttdef"><b>Definition:</b> mandiblesProjectile.c:73</div></div>
+<div class="ttc" id="amandiblesProjectile_8c_html_a922091c6ece34ae367ed5d7c2bf4cbbd"><div class="ttname"><a href="mandiblesProjectile_8c.html#a922091c6ece34ae367ed5d7c2bf4cbbd">MandiblesProjectile_Action3</a></div><div class="ttdeci">void MandiblesProjectile_Action3(Entity *this)</div><div class="ttdef"><b>Definition:</b> mandiblesProjectile.c:110</div></div>
+<div class="ttc" id="amandiblesProjectile_8c_html_aa2bfe691ef4fa96856f2e6953350ab8b"><div class="ttname"><a href="mandiblesProjectile_8c.html#aa2bfe691ef4fa96856f2e6953350ab8b">MandiblesProjectile_Action4</a></div><div class="ttdeci">void MandiblesProjectile_Action4(Entity *this)</div><div class="ttdef"><b>Definition:</b> mandiblesProjectile.c:156</div></div>
+<div class="ttc" id="amandiblesProjectile_8c_html_aad441d8763cf81c222d1b3b2aba65b3d"><div class="ttname"><a href="mandiblesProjectile_8c.html#aad441d8763cf81c222d1b3b2aba65b3d">MandiblesProjectile_Action2</a></div><div class="ttdeci">void MandiblesProjectile_Action2(Entity *this)</div><div class="ttdef"><b>Definition:</b> mandiblesProjectile.c:98</div></div>
+<div class="ttc" id="amandiblesProjectile_8c_html_aba68bdb1f4aa4f5a95b0c8ce7a6b1477"><div class="ttname"><a href="mandiblesProjectile_8c.html#aba68bdb1f4aa4f5a95b0c8ce7a6b1477">MandiblesProjectile_Action1</a></div><div class="ttdeci">void MandiblesProjectile_Action1(Entity *this)</div><div class="ttdef"><b>Definition:</b> mandiblesProjectile.c:83</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -708,9 +686,9 @@ Variables</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
 <div class="line">    <a class="code hl_function" href="mandiblesProjectile_8c.html#a286a326062c9bb999711621777875641">MandiblesProjectile_OnTick</a>, <a class="code hl_function" href="mandiblesProjectile_8c.html#af54799489934b7529165af96a845d89f">sub_080A9EBC</a>, <a class="code hl_function" href="entity_8c.html#a6c36abfca4590f417be8e49ebb2d48ca">DeleteEntity</a>, <a class="code hl_function" href="entity_8c.html#a6c36abfca4590f417be8e49ebb2d48ca">DeleteEntity</a>, <a class="code hl_function" href="entity_8c.html#a6c36abfca4590f417be8e49ebb2d48ca">DeleteEntity</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="aentity_8c_html_a6c36abfca4590f417be8e49ebb2d48ca"><div class="ttname"><a href="entity_8c.html#a6c36abfca4590f417be8e49ebb2d48ca">DeleteEntity</a></div><div class="ttdeci">void DeleteEntity(Entity *ent)</div><div class="ttdoc">Delete an Entity.</div><div class="ttdef"><b>Definition:</b> entity.c:343</div></div>
-<div class="ttc" id="amandiblesProjectile_8c_html_a286a326062c9bb999711621777875641"><div class="ttname"><a href="mandiblesProjectile_8c.html#a286a326062c9bb999711621777875641">MandiblesProjectile_OnTick</a></div><div class="ttdeci">void MandiblesProjectile_OnTick(Entity *this)</div><div class="ttdef"><b>Definition:</b> mandiblesProjectile.c:34</div></div>
-<div class="ttc" id="amandiblesProjectile_8c_html_af54799489934b7529165af96a845d89f"><div class="ttname"><a href="mandiblesProjectile_8c.html#af54799489934b7529165af96a845d89f">sub_080A9EBC</a></div><div class="ttdeci">void sub_080A9EBC(Entity *this)</div><div class="ttdef"><b>Definition:</b> mandiblesProjectile.c:41</div></div>
+<div class="ttc" id="aentity_8c_html_a6c36abfca4590f417be8e49ebb2d48ca"><div class="ttname"><a href="entity_8c.html#a6c36abfca4590f417be8e49ebb2d48ca">DeleteEntity</a></div><div class="ttdeci">void DeleteEntity(Entity *ent)</div><div class="ttdoc">Delete an Entity.</div><div class="ttdef"><b>Definition:</b> entity.c:342</div></div>
+<div class="ttc" id="amandiblesProjectile_8c_html_a286a326062c9bb999711621777875641"><div class="ttname"><a href="mandiblesProjectile_8c.html#a286a326062c9bb999711621777875641">MandiblesProjectile_OnTick</a></div><div class="ttdeci">void MandiblesProjectile_OnTick(Entity *this)</div><div class="ttdef"><b>Definition:</b> mandiblesProjectile.c:33</div></div>
+<div class="ttc" id="amandiblesProjectile_8c_html_af54799489934b7529165af96a845d89f"><div class="ttname"><a href="mandiblesProjectile_8c.html#af54799489934b7529165af96a845d89f">sub_080A9EBC</a></div><div class="ttdeci">void sub_080A9EBC(Entity *this)</div><div class="ttdef"><b>Definition:</b> mandiblesProjectile.c:40</div></div>
 </div><!-- fragment -->
 </div>
 </div>

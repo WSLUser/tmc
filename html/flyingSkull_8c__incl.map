@@ -1,8 +1,9 @@
 <map id="src/enemy/flyingSkull.c" name="src/enemy/flyingSkull.c">
-<area shape="rect" id="node1" title=" " alt="" coords="551,5,705,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="693,5,848,32"/>
 <area shape="rect" id="node2" href="$entity_8h.html" title=" " alt="" coords="751,304,814,331"/>
 <area shape="rect" id="node17" href="$enemy_8h.html" title=" " alt="" coords="247,155,318,181"/>
-<area shape="rect" id="node24" href="$functions_8h.html" title=" " alt="" coords="905,80,991,107"/>
+<area shape="rect" id="node24" href="$functions_8h.html" title=" " alt="" coords="871,80,956,107"/>
+<area shape="rect" id="node33" href="$hitbox_8h.html" title=" " alt="" coords="980,80,1047,107"/>
 <area shape="rect" id="node3" href="$global_8h.html" title=" " alt="" coords="663,453,729,480"/>
 <area shape="rect" id="node15" href="$color_8h.html" title=" " alt="" coords="666,379,726,405"/>
 <area shape="rect" id="node16" href="$sprite_8h.html" title=" " alt="" coords="751,379,815,405"/>

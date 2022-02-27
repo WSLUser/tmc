@@ -87,6 +87,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="sound_8h_source.html">sound.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="projectile_8h_source.html">projectile.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="hitbox_8h_source.html">hitbox.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for gyorgTail.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -94,34 +95,35 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="gyorgTail_8c__incl.png" border="0" usemap="#asrc_2projectile_2gyorgTail_8c" alt=""/></div>
 <map name="asrc_2projectile_2gyorgTail_8c" id="asrc_2projectile_2gyorgTail_8c">
-<area shape="rect" title=" " alt="" coords="543,5,705,32"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="318,304,381,331"/>
-<area shape="rect" href="asm_8h.html" title=" " alt="" coords="731,304,789,331"/>
-<area shape="rect" href="coord_8h.html" title=" " alt="" coords="5,229,69,256"/>
-<area shape="rect" href="sound_8h.html" title=" " alt="" coords="791,379,857,405"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="405,80,491,107"/>
-<area shape="rect" href="projectile_8h.html" title=" " alt="" coords="865,80,949,107"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="459,453,525,480"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="429,379,489,405"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="289,379,353,405"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="594,528,673,555"/>
-<area shape="rect" title=" " alt="" coords="319,603,383,629"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="877,603,950,629"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="975,603,1041,629"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="529,677,591,704"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="407,603,499,629"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="524,603,596,629"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="671,603,739,629"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="764,603,852,629"/>
-<area shape="rect" title=" " alt="" coords="879,677,947,704"/>
-<area shape="rect" title=" " alt="" coords="528,752,592,779"/>
-<area shape="rect" href="manager_8h.html" title=" " alt="" coords="229,229,312,256"/>
-<area shape="rect" href="player_8h.html" title=" " alt="" coords="539,229,605,256"/>
-<area shape="rect" href="room_8h.html" title=" " alt="" coords="93,229,155,256"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="444,155,535,181"/>
-<area shape="rect" href="script_8h.html" title=" " alt="" coords="305,155,369,181"/>
-<area shape="rect" href="map_8h.html" title=" " alt="" coords="665,155,722,181"/>
-<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="71,304,163,331"/>
+<area shape="rect" title=" " alt="" coords="708,5,870,32"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="292,304,355,331"/>
+<area shape="rect" href="asm_8h.html" title=" " alt="" coords="762,379,819,405"/>
+<area shape="rect" href="coord_8h.html" title=" " alt="" coords="84,155,148,181"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="826,304,893,331"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="400,80,485,107"/>
+<area shape="rect" href="projectile_8h.html" title=" " alt="" coords="878,80,962,107"/>
+<area shape="rect" href="hitbox_8h.html" title=" " alt="" coords="986,80,1053,107"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="502,453,569,480"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="324,379,384,405"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="409,379,473,405"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="624,528,703,555"/>
+<area shape="rect" title=" " alt="" coords="376,603,440,629"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1023,603,1096,629"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="464,603,530,629"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="632,677,695,704"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="702,603,794,629"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="554,603,626,629"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="818,603,886,629"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="910,603,998,629"/>
+<area shape="rect" title=" " alt="" coords="1026,677,1094,704"/>
+<area shape="rect" title=" " alt="" coords="632,752,696,779"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="361,229,444,256"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="518,229,585,256"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="36,229,97,256"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="438,155,529,181"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="222,229,286,256"/>
+<area shape="rect" href="map_8h.html" title=" " alt="" coords="694,155,751,181"/>
+<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="36,304,128,331"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -154,12 +156,6 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:a25b9807ede18d03dc9a9ec72a3a63d39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgTail_8c.html#a25b9807ede18d03dc9a9ec72a3a63d39">gEntCount</a></td></tr>
 <tr class="separator:a25b9807ede18d03dc9a9ec72a3a63d39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2188f4b6e74effa346302997dbe31963"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structHitbox.html">Hitbox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgTail_8c.html#a2188f4b6e74effa346302997dbe31963">gHitbox_21</a></td></tr>
-<tr class="separator:a2188f4b6e74effa346302997dbe31963"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a180ea6928272d4c0f14d3d2f7f6cb305"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structHitbox.html">Hitbox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgTail_8c.html#a180ea6928272d4c0f14d3d2f7f6cb305">gHitbox_1</a></td></tr>
-<tr class="separator:a180ea6928272d4c0f14d3d2f7f6cb305"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6464d13a8b0a41e848f5e6a65e6c692"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structHitbox.html">Hitbox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgTail_8c.html#ac6464d13a8b0a41e848f5e6a65e6c692">gHitbox_20</a></td></tr>
-<tr class="separator:ac6464d13a8b0a41e848f5e6a65e6c692"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebda9515df30ab8fe93d1ada577f7f0b"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgTail_8c.html#aebda9515df30ab8fe93d1ada577f7f0b">gUnk_0812A994</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
 <tr class="separator:aebda9515df30ab8fe93d1ada577f7f0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e238e79108fd5914d87a216ff4607d4"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="gyorgTail_8c.html#a2e238e79108fd5914d87a216ff4607d4">GyorgTail_Actions</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
@@ -397,72 +393,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a180ea6928272d4c0f14d3d2f7f6cb305" name="a180ea6928272d4c0f14d3d2f7f6cb305"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a180ea6928272d4c0f14d3d2f7f6cb305">&#9670;&nbsp;</a></span>gHitbox_1</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structHitbox.html">Hitbox</a> gHitbox_1</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac6464d13a8b0a41e848f5e6a65e6c692" name="ac6464d13a8b0a41e848f5e6a65e6c692"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6464d13a8b0a41e848f5e6a65e6c692">&#9670;&nbsp;</a></span>gHitbox_20</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structHitbox.html">Hitbox</a> gHitbox_20</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2188f4b6e74effa346302997dbe31963" name="a2188f4b6e74effa346302997dbe31963"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2188f4b6e74effa346302997dbe31963">&#9670;&nbsp;</a></span>gHitbox_21</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structHitbox.html">Hitbox</a> gHitbox_21</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aebda9515df30ab8fe93d1ada577f7f0b" name="aebda9515df30ab8fe93d1ada577f7f0b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aebda9515df30ab8fe93d1ada577f7f0b">&#9670;&nbsp;</a></span>gUnk_0812A994</h2>
 
@@ -481,9 +411,9 @@ Variables</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
 <div class="line">    <a class="code hl_function" href="gyorgTail_8c.html#ae0bbf52fc9cf0cc843ff35b581e3b3ef">sub_080AC328</a>, <a class="code hl_function" href="gyorgTail_8c.html#ab25994e32d60f0704e0e3535c0463d5c">sub_080AC510</a>, <a class="code hl_function" href="gyorgTail_8c.html#ab25994e32d60f0704e0e3535c0463d5c">sub_080AC510</a>, <a class="code hl_function" href="gyorgTail_8c.html#ab25994e32d60f0704e0e3535c0463d5c">sub_080AC510</a>, <a class="code hl_function" href="gyorgTail_8c.html#a61463294f123f5f1924e1d298379dec9">sub_080AC560</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="agyorgTail_8c_html_a61463294f123f5f1924e1d298379dec9"><div class="ttname"><a href="gyorgTail_8c.html#a61463294f123f5f1924e1d298379dec9">sub_080AC560</a></div><div class="ttdeci">void sub_080AC560(Entity *this)</div><div class="ttdef"><b>Definition:</b> gyorgTail.c:104</div></div>
-<div class="ttc" id="agyorgTail_8c_html_ab25994e32d60f0704e0e3535c0463d5c"><div class="ttname"><a href="gyorgTail_8c.html#ab25994e32d60f0704e0e3535c0463d5c">sub_080AC510</a></div><div class="ttdeci">void sub_080AC510(Entity *this)</div><div class="ttdef"><b>Definition:</b> gyorgTail.c:92</div></div>
-<div class="ttc" id="agyorgTail_8c_html_ae0bbf52fc9cf0cc843ff35b581e3b3ef"><div class="ttname"><a href="gyorgTail_8c.html#ae0bbf52fc9cf0cc843ff35b581e3b3ef">sub_080AC328</a></div><div class="ttdeci">void sub_080AC328(Entity *this)</div><div class="ttdef"><b>Definition:</b> gyorgTail.c:51</div></div>
+<div class="ttc" id="agyorgTail_8c_html_a61463294f123f5f1924e1d298379dec9"><div class="ttname"><a href="gyorgTail_8c.html#a61463294f123f5f1924e1d298379dec9">sub_080AC560</a></div><div class="ttdeci">void sub_080AC560(Entity *this)</div><div class="ttdef"><b>Definition:</b> gyorgTail.c:102</div></div>
+<div class="ttc" id="agyorgTail_8c_html_ab25994e32d60f0704e0e3535c0463d5c"><div class="ttname"><a href="gyorgTail_8c.html#ab25994e32d60f0704e0e3535c0463d5c">sub_080AC510</a></div><div class="ttdeci">void sub_080AC510(Entity *this)</div><div class="ttdef"><b>Definition:</b> gyorgTail.c:90</div></div>
+<div class="ttc" id="agyorgTail_8c_html_ae0bbf52fc9cf0cc843ff35b581e3b3ef"><div class="ttname"><a href="gyorgTail_8c.html#ae0bbf52fc9cf0cc843ff35b581e3b3ef">sub_080AC328</a></div><div class="ttdeci">void sub_080AC328(Entity *this)</div><div class="ttdef"><b>Definition:</b> gyorgTail.c:49</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -563,8 +493,8 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="gyorgTail_8c.html#a6983b5baf0def9b7953c83952ef9870e">sub_080AC388</a>,</div>
 <div class="line">    sub_080AC480,</div>
 <div class="line">}</div>
-<div class="ttc" id="agyorgTail_8c_html_a6983b5baf0def9b7953c83952ef9870e"><div class="ttname"><a href="gyorgTail_8c.html#a6983b5baf0def9b7953c83952ef9870e">sub_080AC388</a></div><div class="ttdeci">void sub_080AC388(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgTail.c:66</div></div>
-<div class="ttc" id="agyorgTail_8c_html_ab8bf5ac6f50a3da58070c20169888518"><div class="ttname"><a href="gyorgTail_8c.html#ab8bf5ac6f50a3da58070c20169888518">GyorgTail_Init</a></div><div class="ttdeci">void GyorgTail_Init(Entity *this)</div><div class="ttdef"><b>Definition:</b> gyorgTail.c:55</div></div>
+<div class="ttc" id="agyorgTail_8c_html_a6983b5baf0def9b7953c83952ef9870e"><div class="ttname"><a href="gyorgTail_8c.html#a6983b5baf0def9b7953c83952ef9870e">sub_080AC388</a></div><div class="ttdeci">void sub_080AC388(Entity *)</div><div class="ttdef"><b>Definition:</b> gyorgTail.c:64</div></div>
+<div class="ttc" id="agyorgTail_8c_html_ab8bf5ac6f50a3da58070c20169888518"><div class="ttname"><a href="gyorgTail_8c.html#ab8bf5ac6f50a3da58070c20169888518">GyorgTail_Init</a></div><div class="ttdeci">void GyorgTail_Init(Entity *this)</div><div class="ttdef"><b>Definition:</b> gyorgTail.c:53</div></div>
 </div><!-- fragment -->
 </div>
 </div>

@@ -1,12 +1,13 @@
 <map id="src/object/lightableSwitch.c" name="src/object/lightableSwitch.c">
-<area shape="rect" id="node1" title=" " alt="" coords="183,5,364,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="403,5,584,32"/>
 <area shape="rect" id="node2" href="$global_8h.html" title=" " alt="" coords="505,453,572,480"/>
 <area shape="rect" id="node14" href="$asm_8h.html" title=" " alt="" coords="43,304,101,331"/>
-<area shape="rect" id="node15" href="$sound_8h.html" title=" " alt="" coords="140,80,207,107"/>
+<area shape="rect" id="node15" href="$sound_8h.html" title=" " alt="" coords="168,379,235,405"/>
 <area shape="rect" id="node16" href="$entity_8h.html" title=" " alt="" coords="741,304,803,331"/>
 <area shape="rect" id="node19" href="$room_8h.html" title=" " alt="" coords="243,155,304,181"/>
-<area shape="rect" id="node21" href="$flags_8h.html" title=" " alt="" coords="985,304,1044,331"/>
-<area shape="rect" id="node22" href="$functions_8h.html" title=" " alt="" coords="499,80,584,107"/>
+<area shape="rect" id="node21" href="$flags_8h.html" title=" " alt="" coords="984,304,1043,331"/>
+<area shape="rect" id="node22" href="$functions_8h.html" title=" " alt="" coords="496,80,581,107"/>
+<area shape="rect" id="node29" href="$hitbox_8h.html" title=" " alt="" coords="1069,80,1136,107"/>
 <area shape="rect" id="node3" href="$gba_8h.html" title=" " alt="" coords="650,528,729,555"/>
 <area shape="rect" id="node4" title=" " alt="" coords="355,603,419,629"/>
 <area shape="rect" id="node5" href="$defines_8h.html" title=" " alt="" coords="1002,603,1075,629"/>
@@ -26,5 +27,5 @@
 <area shape="rect" id="node25" href="$player_8h.html" title=" " alt="" coords="568,229,635,256"/>
 <area shape="rect" id="node26" href="$structures_8h.html" title=" " alt="" coords="607,155,697,181"/>
 <area shape="rect" id="node27" href="$script_8h.html" title=" " alt="" coords="773,155,837,181"/>
-<area shape="rect" id="node28" href="$map_8h.html" title=" " alt="" coords="398,379,455,405"/>
+<area shape="rect" id="node28" href="$map_8h.html" title=" " alt="" coords="398,304,455,331"/>
 </map>
