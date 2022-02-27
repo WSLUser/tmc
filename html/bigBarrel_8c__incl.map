@@ -1,0 +1,30 @@
+<map id="src/object/bigBarrel.c" name="src/object/bigBarrel.c">
+<area shape="rect" id="node1" title=" " alt="" coords="587,5,731,32"/>
+<area shape="rect" id="node2" href="$entity_8h.html" title=" " alt="" coords="293,304,355,331"/>
+<area shape="rect" id="node17" href="$flags_8h.html" title=" " alt="" coords="656,229,715,256"/>
+<area shape="rect" id="node18" href="$save_8h.html" title=" " alt="" coords="150,80,210,107"/>
+<area shape="rect" id="node21" href="$room_8h.html" title=" " alt="" coords="432,229,493,256"/>
+<area shape="rect" id="node23" href="$asm_8h.html" title=" " alt="" coords="739,229,797,256"/>
+<area shape="rect" id="node24" href="$sound_8h.html" title=" " alt="" coords="821,229,888,256"/>
+<area shape="rect" id="node25" href="$common_8h.html" title=" " alt="" coords="912,229,995,256"/>
+<area shape="rect" id="node26" href="$object_8h.html" title=" " alt="" coords="581,155,648,181"/>
+<area shape="rect" id="node3" href="$global_8h.html" title=" " alt="" coords="481,453,548,480"/>
+<area shape="rect" id="node15" href="$color_8h.html" title=" " alt="" coords="329,379,389,405"/>
+<area shape="rect" id="node16" href="$sprite_8h.html" title=" " alt="" coords="413,379,477,405"/>
+<area shape="rect" id="node4" href="$gba_8h.html" title=" " alt="" coords="626,528,705,555"/>
+<area shape="rect" id="node5" title=" " alt="" coords="331,603,395,629"/>
+<area shape="rect" id="node6" href="$defines_8h.html" title=" " alt="" coords="978,603,1051,629"/>
+<area shape="rect" id="node8" href="$io__reg_8h.html" title=" " alt="" coords="887,603,953,629"/>
+<area shape="rect" id="node9" href="$types_8h.html" title=" " alt="" coords="530,677,593,704"/>
+<area shape="rect" id="node11" href="$multi__boot_8h.html" title=" " alt="" coords="515,603,607,629"/>
+<area shape="rect" id="node12" href="$syscall_8h.html" title=" " alt="" coords="419,603,491,629"/>
+<area shape="rect" id="node13" href="$macro_8h.html" title=" " alt="" coords="631,603,699,629"/>
+<area shape="rect" id="node14" href="$isagbprint_8h.html" title=" " alt="" coords="724,603,812,629"/>
+<area shape="rect" id="node7" title=" " alt="" coords="981,677,1049,704"/>
+<area shape="rect" id="node10" title=" " alt="" coords="529,752,593,779"/>
+<area shape="rect" id="node19" href="$player_8h.html" title=" " alt="" coords="144,229,211,256"/>
+<area shape="rect" id="node20" href="$structures_8h.html" title=" " alt="" coords="57,155,148,181"/>
+<area shape="rect" id="node22" href="$droptables_8h.html" title=" " alt="" coords="385,304,477,331"/>
+<area shape="rect" id="node27" href="$effects_8h.html" title=" " alt="" coords="286,229,357,256"/>
+<area shape="rect" id="node28" href="$coord_8h.html" title=" " alt="" coords="517,229,581,256"/>
+</map>

@@ -8,11 +8,12 @@ var searchData=
   ['bgcontrols_5',['BgControls',['../structBgControls.html',1,'']]],
   ['bgsettings_6',['BgSettings',['../structBgSettings.html',1,'']]],
   ['bgtransformationsettings_7',['BgTransformationSettings',['../structBgTransformationSettings.html',1,'']]],
-  ['bigiceblockentity_8',['BigIceBlockEntity',['../structBigIceBlockEntity.html',1,'']]],
-  ['bigpushableleverentity_9',['BigPushableLeverEntity',['../structBigPushableLeverEntity.html',1,'']]],
-  ['blockpushedentity_10',['BlockPushedEntity',['../structBlockPushedEntity.html',1,'']]],
-  ['bombarossaentity_11',['BombarossaEntity',['../structBombarossaEntity.html',1,'']]],
-  ['bossdoorentity_12',['BossDoorEntity',['../structBossDoorEntity.html',1,'']]],
-  ['bowmoblinentity_13',['BowMoblinEntity',['../structBowMoblinEntity.html',1,'']]],
-  ['businessscrubprologueentity_14',['BusinessScrubPrologueEntity',['../structBusinessScrubPrologueEntity.html',1,'']]]
+  ['bigbarrelentity_8',['BigBarrelEntity',['../structBigBarrelEntity.html',1,'']]],
+  ['bigiceblockentity_9',['BigIceBlockEntity',['../structBigIceBlockEntity.html',1,'']]],
+  ['bigpushableleverentity_10',['BigPushableLeverEntity',['../structBigPushableLeverEntity.html',1,'']]],
+  ['blockpushedentity_11',['BlockPushedEntity',['../structBlockPushedEntity.html',1,'']]],
+  ['bombarossaentity_12',['BombarossaEntity',['../structBombarossaEntity.html',1,'']]],
+  ['bossdoorentity_13',['BossDoorEntity',['../structBossDoorEntity.html',1,'']]],
+  ['bowmoblinentity_14',['BowMoblinEntity',['../structBowMoblinEntity.html',1,'']]],
+  ['businessscrubprologueentity_15',['BusinessScrubPrologueEntity',['../structBusinessScrubPrologueEntity.html',1,'']]]
 ];
