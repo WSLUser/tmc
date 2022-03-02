@@ -10,7 +10,6 @@ var searchData=
   ['entity_7',['Entity',['../structEntity.html',1,'']]],
   ['entitydata_8',['EntityData',['../structEntityData.html',1,'']]],
   ['entitywithhitflag_9',['EntityWithHitFlag',['../structEntityWithHitFlag.html',1,'']]],
-  ['evilspiritentity_10',['EvilSpiritEntity',['../structEvilSpiritEntity.html',1,'']]],
-  ['eyegoreentity_11',['EyegoreEntity',['../structEyegoreEntity.html',1,'']]],
-  ['ezlocapentity_12',['EzloCapEntity',['../structEzloCapEntity.html',1,'']]]
+  ['eyegoreentity_10',['EyegoreEntity',['../structEyegoreEntity.html',1,'']]],
+  ['ezlocapentity_11',['EzloCapEntity',['../structEzloCapEntity.html',1,'']]]
 ];

@@ -1,10 +1,9 @@
 <map id="src/item/itemGustJar.c" name="src/item/itemGustJar.c">
-<area shape="rect" id="node1" title=" " alt="" coords="92,5,247,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="67,5,221,32"/>
 <area shape="rect" id="node2" href="$global_8h.html" title=" " alt="" coords="407,453,473,480"/>
 <area shape="rect" id="node14" href="$entity_8h.html" title=" " alt="" coords="347,304,410,331"/>
 <area shape="rect" id="node17" href="$item_8h.html" title=" " alt="" coords="74,155,131,181"/>
-<area shape="rect" id="node19" href="$functions_8h.html" title=" " alt="" coords="431,80,516,107"/>
-<area shape="rect" id="node27" href="$playeritem_8h.html" title=" " alt="" coords="540,80,631,107"/>
+<area shape="rect" id="node19" href="$functions_8h.html" title=" " alt="" coords="456,80,541,107"/>
 <area shape="rect" id="node3" href="$gba_8h.html" title=" " alt="" coords="542,528,621,555"/>
 <area shape="rect" id="node4" title=" " alt="" coords="267,603,331,629"/>
 <area shape="rect" id="node5" href="$defines_8h.html" title=" " alt="" coords="825,603,898,629"/>
