@@ -84,6 +84,8 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="entity_8h_source.html">entity.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="player_8h_source.html">player.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="structures_8h_source.html">structures.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="room_8h_source.html">room.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="common_8h_source.html">common.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for code_0805EC04.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -91,13 +93,15 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="code__0805EC04_8c__incl.png" border="0" usemap="#asrc_2code__0805EC04_8c" alt=""/></div>
 <map name="asrc_2code__0805EC04_8c" id="asrc_2code__0805EC04_8c">
-<area shape="rect" title=" " alt="" coords="115,5,263,32"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="158,229,221,256"/>
-<area shape="rect" href="player_8h.html" title=" " alt="" coords="85,155,152,181"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="227,80,317,107"/>
+<area shape="rect" title=" " alt="" coords="166,5,314,32"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="126,229,189,256"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="53,155,120,181"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="195,80,285,107"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="296,155,357,181"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="399,80,481,107"/>
 <area shape="rect" href="global_8h.html" title=" " alt="" coords="156,379,223,405"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="159,304,219,331"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="244,304,308,331"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="73,304,133,331"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="157,304,221,331"/>
 <area shape="rect" href="gba_8h.html" title=" " alt="" coords="301,453,379,480"/>
 <area shape="rect" title=" " alt="" coords="5,528,69,555"/>
 <area shape="rect" href="defines_8h.html" title=" " alt="" coords="653,528,726,555"/>
@@ -109,6 +113,7 @@ $(function() {
 <area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="399,528,487,555"/>
 <area shape="rect" title=" " alt="" coords="655,603,723,629"/>
 <area shape="rect" title=" " alt="" coords="204,677,268,704"/>
+<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="347,229,439,256"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -118,19 +123,23 @@ Functions</h2></td></tr>
 <tr class="separator:a7bcd5e2682aa5d118a4401ba46f19fdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e05e1c47992c1c983e330dbb3311e00"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="code__0805EC04_8c.html#a9e05e1c47992c1c983e330dbb3311e00">sub_0805EC60</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
 <tr class="separator:a9e05e1c47992c1c983e330dbb3311e00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9dbccd4fb86acc526e2784b4defa9b87"><td class="memItemLeft" align="right" valign="top">asm non_matching sub_0805EC9C <a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="code__0805EC04_8c.html#a9dbccd4fb86acc526e2784b4defa9b87">sub_0805EC9C</a> (<a class="el" href="structEntity.html">Entity</a> *ent, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="el" href="pushableFurniture_8c.html#af96d724fb4144c382992a9ef4929b7fb">param_2</a>, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="el" href="code__0805EC04_8c.html#ae258e8ef7a1dc3f70ca399fa85d467fd">param_3</a>, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="el" href="code__0805EC04_8c.html#a6f1607c729152038a3d8be0cbb470e6c">param_4</a>)) void <a class="el" href="ui_8c.html#a5bed499113295e024adc6f3b4974007c">sub_0805ECEC</a>(int param_1</td></tr>
+<tr class="memitem:a9dbccd4fb86acc526e2784b4defa9b87"><td class="memItemLeft" align="right" valign="top">asm non_matching sub_0805EC9C <a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="code__0805EC04_8c.html#a9dbccd4fb86acc526e2784b4defa9b87">sub_0805EC9C</a> (<a class="el" href="structEntity.html">Entity</a> *ent, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="el" href="subtask2_8c.html#a016929c9398b0110595887ef9ca0483c">param_2</a>, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="el" href="subtask2_8c.html#ab360824c86cb4dadb26743ed66aaab0a">param_3</a>, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="el" href="code__0805EC04_8c.html#a6f1607c729152038a3d8be0cbb470e6c">param_4</a>)) void <a class="el" href="ui_8c.html#a5bed499113295e024adc6f3b4974007c">sub_0805ECEC</a>(int param_1</td></tr>
 <tr class="separator:a9dbccd4fb86acc526e2784b4defa9b87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77b56581874af2727fdb772aae1322da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="code__0805EC04_8c.html#a77b56581874af2727fdb772aae1322da">sub_0805ED14</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> param_1)</td></tr>
 <tr class="separator:a77b56581874af2727fdb772aae1322da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7256c2556511663a6c7d3868e70d825"><td class="memItemLeft" align="right" valign="top">asm non_matching code_0805EC04 sub_0805ED30 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="code__0805EC04_8c.html#af7256c2556511663a6c7d3868e70d825">sub_0805ED30</a> ()) <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> sub_0805EE04(<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> param_1)</td></tr>
+<tr class="separator:af7256c2556511663a6c7d3868e70d825"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a461f78b5adb21cebad9a24cdab6470ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="code__0805EC04_8c.html#a461f78b5adb21cebad9a24cdab6470ab">sub_0805EE88</a> (void)</td></tr>
+<tr class="separator:a461f78b5adb21cebad9a24cdab6470ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a06050b285f9cd373ae09ed06dd2e3e23"><td class="memItemLeft" align="right" valign="top">asm non_matching <a class="el" href="functions_8h.html#a2fe0f8b4057910ac7496754327176477">sub_0805EC9C</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="code__0805EC04_8c.html#a06050b285f9cd373ae09ed06dd2e3e23">inc</a></td></tr>
-<tr class="separator:a06050b285f9cd373ae09ed06dd2e3e23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad566ef068afbc23352d5882bcbddbee"><td class="memItemLeft" align="right" valign="top">asm non_matching <a class="el" href="functions_8h.html#a2fe0f8b4057910ac7496754327176477">sub_0805EC9C</a> <a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a> <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="code__0805EC04_8c.html#aad566ef068afbc23352d5882bcbddbee">param_2</a></td></tr>
-<tr class="separator:aad566ef068afbc23352d5882bcbddbee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae258e8ef7a1dc3f70ca399fa85d467fd"><td class="memItemLeft" align="right" valign="top">asm non_matching <a class="el" href="functions_8h.html#a2fe0f8b4057910ac7496754327176477">sub_0805EC9C</a> <a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a> <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="code__0805EC04_8c.html#ae258e8ef7a1dc3f70ca399fa85d467fd">param_3</a></td></tr>
-<tr class="separator:ae258e8ef7a1dc3f70ca399fa85d467fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac11fb7140892261fc7f7596f528ffc21"><td class="memItemLeft" align="right" valign="top">asm non_matching <a class="el" href="functions_8h.html#a2fe0f8b4057910ac7496754327176477">sub_0805EC9C</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="code__0805EC04_8c.html#ac11fb7140892261fc7f7596f528ffc21">inc</a></td></tr>
+<tr class="separator:ac11fb7140892261fc7f7596f528ffc21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8987ad7a1890fce22409427e2551c17"><td class="memItemLeft" align="right" valign="top">asm non_matching <a class="el" href="functions_8h.html#a2fe0f8b4057910ac7496754327176477">sub_0805EC9C</a> <a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a> <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="code__0805EC04_8c.html#ae8987ad7a1890fce22409427e2551c17">param_2</a></td></tr>
+<tr class="separator:ae8987ad7a1890fce22409427e2551c17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab360824c86cb4dadb26743ed66aaab0a"><td class="memItemLeft" align="right" valign="top">asm non_matching <a class="el" href="functions_8h.html#a2fe0f8b4057910ac7496754327176477">sub_0805EC9C</a> <a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a> <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="code__0805EC04_8c.html#ab360824c86cb4dadb26743ed66aaab0a">param_3</a></td></tr>
+<tr class="separator:ab360824c86cb4dadb26743ed66aaab0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f1607c729152038a3d8be0cbb470e6c"><td class="memItemLeft" align="right" valign="top">asm non_matching <a class="el" href="functions_8h.html#a2fe0f8b4057910ac7496754327176477">sub_0805EC9C</a> <a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a> <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="code__0805EC04_8c.html#a6f1607c729152038a3d8be0cbb470e6c">param_4</a></td></tr>
 <tr class="separator:a6f1607c729152038a3d8be0cbb470e6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5dc65c127781a3738a4c48cdf6b22d01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structures_8h.html#a17794dbe9b3c702641ef1f2eb31a9bb1">gOAMControls</a> unk[0]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="code__0805EC04_8c.html#a5dc65c127781a3738a4c48cdf6b22d01">unk7</a> = 1</td></tr>
@@ -233,47 +242,104 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="af7256c2556511663a6c7d3868e70d825" name="af7256c2556511663a6c7d3868e70d825"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7256c2556511663a6c7d3868e70d825">&#9670;&nbsp;</a></span>sub_0805ED30()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm non_matching code_0805EC04 sub_0805ED30 void sub_0805ED30 </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a461f78b5adb21cebad9a24cdab6470ab" name="a461f78b5adb21cebad9a24cdab6470ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a461f78b5adb21cebad9a24cdab6470ab">&#9670;&nbsp;</a></span>sub_0805EE88()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_0805EE88 </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a06050b285f9cd373ae09ed06dd2e3e23" name="a06050b285f9cd373ae09ed06dd2e3e23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06050b285f9cd373ae09ed06dd2e3e23">&#9670;&nbsp;</a></span>inc</h2>
+<a id="ac11fb7140892261fc7f7596f528ffc21" name="ac11fb7140892261fc7f7596f528ffc21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac11fb7140892261fc7f7596f528ffc21">&#9670;&nbsp;</a></span>inc</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm non_matching <a class="el" href="functions_8h.html#a2fe0f8b4057910ac7496754327176477">sub_0805EC9C</a> inc</td>
+          <td class="memname">asm non_matching code_0805EC04 <a class="el" href="entity_8c.html#ade70d37e488d661de9326afee809a9c8">sub_0805ED30</a> inc</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aad566ef068afbc23352d5882bcbddbee" name="aad566ef068afbc23352d5882bcbddbee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad566ef068afbc23352d5882bcbddbee">&#9670;&nbsp;</a></span>param_2</h2>
+<a id="ae8987ad7a1890fce22409427e2551c17" name="ae8987ad7a1890fce22409427e2551c17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8987ad7a1890fce22409427e2551c17">&#9670;&nbsp;</a></span>param_2</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm non_matching <a class="el" href="functions_8h.html#a2fe0f8b4057910ac7496754327176477">sub_0805EC9C</a> <a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a> <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> param_2</td>
+          <td class="memname">asm non_matching subtask2 <a class="el" href="subtask2_8c.html#adb1957fa7708560aec09ea336119cf5e">sub_080A5C9C</a> void void * param_2</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">{</div>
+<div class="line">    <span class="keywordflow">if</span> (<a class="code hl_variable" href="playerUtils_8c.html#a59b695ddf72a975ae374a49c5b74ecb4">gUnk_0811C118</a>[param_1 &gt;&gt; 2] == <a class="code hl_variable" href="code__0805EC04_8c.html#ae8987ad7a1890fce22409427e2551c17">param_2</a>) {</div>
+<div class="line">        <a class="code hl_variable" href="player_8h.html#adfc0f05534fecd56fde145542f9675c9">gPlayerEntity</a>.<a class="code hl_variable" href="structEntity.html#adb65248e8047c287b9005fec248ef110">direction</a> = (<a class="code hl_variable" href="player_8h.html#adfc0f05534fecd56fde145542f9675c9">gPlayerEntity</a>.<a class="code hl_variable" href="structEntity.html#adb65248e8047c287b9005fec248ef110">direction</a> + 4) &amp; 0x1f;</div>
+<div class="line">    } <span class="keywordflow">else</span> {</div>
+<div class="line">        <span class="keywordflow">if</span> (<a class="code hl_variable" href="playerUtils_8c.html#a59b695ddf72a975ae374a49c5b74ecb4">gUnk_0811C118</a>[(param_1 &gt;&gt; 2) + 1] != <a class="code hl_variable" href="code__0805EC04_8c.html#ae8987ad7a1890fce22409427e2551c17">param_2</a>) {</div>
+<div class="line">            <span class="keywordflow">return</span> <a class="code hl_define" href="defines_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>;</div>
+<div class="line">        }</div>
+<div class="line">        <a class="code hl_variable" href="player_8h.html#adfc0f05534fecd56fde145542f9675c9">gPlayerEntity</a>.<a class="code hl_variable" href="structEntity.html#adb65248e8047c287b9005fec248ef110">direction</a> = (<a class="code hl_variable" href="player_8h.html#adfc0f05534fecd56fde145542f9675c9">gPlayerEntity</a>.<a class="code hl_variable" href="structEntity.html#adb65248e8047c287b9005fec248ef110">direction</a> - 4) &amp; 0x1f;</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    <span class="keywordflow">return</span> <a class="code hl_define" href="defines_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></div>
+<div class="ttc" id="acode__0805EC04_8c_html_ae8987ad7a1890fce22409427e2551c17"><div class="ttname"><a href="code__0805EC04_8c.html#ae8987ad7a1890fce22409427e2551c17">param_2</a></div><div class="ttdeci">asm non_matching sub_0805EC9C bool32 u32 param_2</div><div class="ttdef"><b>Definition:</b> code_0805EC04.c:37</div></div>
+<div class="ttc" id="adefines_8h_html_aa8cecfc5c5c054d2875c03e77b7be15d"><div class="ttname"><a href="defines_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></div><div class="ttdeci">#define TRUE</div><div class="ttdef"><b>Definition:</b> defines.h:6</div></div>
+<div class="ttc" id="adefines_8h_html_aa93f0eb578d23995850d61f7d61c55c1"><div class="ttname"><a href="defines_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></div><div class="ttdeci">#define FALSE</div><div class="ttdef"><b>Definition:</b> defines.h:7</div></div>
+<div class="ttc" id="aplayerUtils_8c_html_a59b695ddf72a975ae374a49c5b74ecb4"><div class="ttname"><a href="playerUtils_8c.html#a59b695ddf72a975ae374a49c5b74ecb4">gUnk_0811C118</a></div><div class="ttdeci">const u8 gUnk_0811C118[]</div></div>
+<div class="ttc" id="aplayer_8h_html_adfc0f05534fecd56fde145542f9675c9"><div class="ttname"><a href="player_8h.html#adfc0f05534fecd56fde145542f9675c9">gPlayerEntity</a></div><div class="ttdeci">Entity gPlayerEntity</div></div>
+<div class="ttc" id="astructEntity_html_adb65248e8047c287b9005fec248ef110"><div class="ttname"><a href="structEntity.html#adb65248e8047c287b9005fec248ef110">Entity::direction</a></div><div class="ttdeci">u8 direction</div><div class="ttdoc">Facing direction.</div><div class="ttdef"><b>Definition:</b> entity.h:134</div></div>
+</div><!-- fragment -->
 </div>
 </div>
-<a id="ae258e8ef7a1dc3f70ca399fa85d467fd" name="ae258e8ef7a1dc3f70ca399fa85d467fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae258e8ef7a1dc3f70ca399fa85d467fd">&#9670;&nbsp;</a></span>param_3</h2>
+<a id="ab360824c86cb4dadb26743ed66aaab0a" name="ab360824c86cb4dadb26743ed66aaab0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab360824c86cb4dadb26743ed66aaab0a">&#9670;&nbsp;</a></span>param_3</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm non_matching <a class="el" href="functions_8h.html#a2fe0f8b4057910ac7496754327176477">sub_0805EC9C</a> <a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a> <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> param_3</td>
+          <td class="memname">asm non_matching subtask2 <a class="el" href="subtask2_8c.html#adb1957fa7708560aec09ea336119cf5e">sub_080A5C9C</a> void void <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> param_3</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">{</div>
+<div class="line">    <a class="code hl_function" href="common_8c.html#ae63a2e8f8a57ab3114b3e6f8066fd73d">DrawDungeonFeatures</a>(menuType, <a class="code hl_variable" href="code__0805EC04_8c.html#ae8987ad7a1890fce22409427e2551c17">param_2</a>, <a class="code hl_variable" href="code__0805EC04_8c.html#ab360824c86cb4dadb26743ed66aaab0a">param_3</a>)</div>
+<div class="ttc" id="acode__0805EC04_8c_html_ab360824c86cb4dadb26743ed66aaab0a"><div class="ttname"><a href="code__0805EC04_8c.html#ab360824c86cb4dadb26743ed66aaab0a">param_3</a></div><div class="ttdeci">asm non_matching sub_0805EC9C bool32 u32 u32 param_3</div><div class="ttdef"><b>Definition:</b> code_0805EC04.c:37</div></div>
+<div class="ttc" id="acommon_8c_html_ae63a2e8f8a57ab3114b3e6f8066fd73d"><div class="ttname"><a href="common_8c.html#ae63a2e8f8a57ab3114b3e6f8066fd73d">DrawDungeonFeatures</a></div><div class="ttdeci">asm non_matching common DrawDungeonFeatures void DrawDungeonFeatures(u32 room, void *data, u32 size))</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a6f1607c729152038a3d8be0cbb470e6c" name="a6f1607c729152038a3d8be0cbb470e6c"></a>
@@ -289,7 +355,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">{</div>
 <div class="line">    <a class="code hl_typedef" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>* <a class="code hl_variable" href="code__0805EC04_8c.html#a63decfba3fa65c31648cff94ecaaf62c">temp</a></div>
-<div class="ttc" id="acode__0805EC04_8c_html_a63decfba3fa65c31648cff94ecaaf62c"><div class="ttname"><a href="code__0805EC04_8c.html#a63decfba3fa65c31648cff94ecaaf62c">temp</a></div><div class="ttdeci">temp</div><div class="ttdef"><b>Definition:</b> code_0805EC04.c:40</div></div>
+<div class="ttc" id="acode__0805EC04_8c_html_a63decfba3fa65c31648cff94ecaaf62c"><div class="ttname"><a href="code__0805EC04_8c.html#a63decfba3fa65c31648cff94ecaaf62c">temp</a></div><div class="ttdeci">temp</div><div class="ttdef"><b>Definition:</b> code_0805EC04.c:42</div></div>
 <div class="ttc" id="atypes_8h_html_ace9d960e74685e2cd84b36132dbbf8aa"><div class="ttname"><a href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a></div><div class="ttdeci">uint16_t u16</div><div class="ttdef"><b>Definition:</b> types.h:7</div></div>
 </div><!-- fragment -->
 </div>

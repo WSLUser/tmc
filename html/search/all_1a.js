@@ -1,8 +1,8 @@
 var searchData=
 [
   ['z_0',['z',['../structEntity.html#a737c8759545fbcff2a5b14a38e261505',1,'Entity']]],
-  ['zelda_1',['ZELDA',['../npc_8h.html#ab86484a9fbeb0e4494cb75cadb5f4cf3a362817822e1f080ade0d4e1172ff25c8',1,'npc.h']]],
-  ['zelda_2',['Zelda',['../zelda_8c.html#a348a62a975c187b7169e57c2677a8932',1,'Zelda(Entity *this):&#160;zelda.c'],['../npc_8h.html#a6c528caad84ee475a254339f81d1a1a7',1,'Zelda(Entity *):&#160;zelda.c']]],
+  ['zelda_1',['Zelda',['../zelda_8c.html#a348a62a975c187b7169e57c2677a8932',1,'Zelda(Entity *this):&#160;zelda.c'],['../npc_8h.html#a6c528caad84ee475a254339f81d1a1a7',1,'Zelda(Entity *):&#160;zelda.c']]],
+  ['zelda_2',['ZELDA',['../npc_8h.html#ab86484a9fbeb0e4494cb75cadb5f4cf3a362817822e1f080ade0d4e1172ff25c8',1,'npc.h']]],
   ['zelda_2ec_3',['zelda.c',['../zelda_8c.html',1,'']]],
   ['zelda_5fchase_4',['ZELDA_CHASE',['../flags_8h.html#a3f3de3e0d751949b8d0b60ffb302944aa0deb86765b8793cd70db1e26ce9fa3b6',1,'flags.h']]],
   ['zelda_5ffollower_5',['ZELDA_FOLLOWER',['../npc_8h.html#ab86484a9fbeb0e4494cb75cadb5f4cf3a2a2f434fe5c3de307eeb02f412b15c50',1,'npc.h']]],

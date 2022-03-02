@@ -85,6 +85,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="room_8h_source.html">room.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="flags_8h_source.html">flags.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="area_8h_source.html">area.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="save_8h_source.html">save.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for flags.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -92,26 +93,29 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="flags_8c__incl.png" border="0" usemap="#asrc_2flags_8c" alt=""/></div>
 <map name="asrc_2flags_8c" id="asrc_2flags_8c">
-<area shape="rect" title=" " alt="" coords="126,5,207,32"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="133,304,200,331"/>
-<area shape="rect" href="room_8h.html" title=" " alt="" coords="103,80,164,107"/>
-<area shape="rect" href="flags_8h.html" title=" " alt="" coords="289,155,348,181"/>
-<area shape="rect" href="area_8h.html" title=" " alt="" coords="339,80,397,107"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="257,379,335,405"/>
-<area shape="rect" title=" " alt="" coords="5,453,69,480"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="94,453,167,480"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="192,453,259,480"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="349,528,411,555"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="334,453,426,480"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="451,453,523,480"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="547,453,615,480"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="640,453,728,480"/>
-<area shape="rect" title=" " alt="" coords="97,528,165,555"/>
-<area shape="rect" title=" " alt="" coords="348,603,412,629"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="86,155,149,181"/>
-<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="173,155,265,181"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="137,229,197,256"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="221,229,285,256"/>
+<area shape="rect" title=" " alt="" coords="329,5,410,32"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="380,453,447,480"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="193,155,255,181"/>
+<area shape="rect" href="flags_8h.html" title=" " alt="" coords="587,304,645,331"/>
+<area shape="rect" href="area_8h.html" title=" " alt="" coords="646,80,703,107"/>
+<area shape="rect" href="save_8h.html" title=" " alt="" coords="339,80,399,107"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="529,528,607,555"/>
+<area shape="rect" title=" " alt="" coords="227,603,291,629"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="874,603,947,629"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="687,603,753,629"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="618,677,681,704"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="315,603,407,629"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="777,603,849,629"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="431,603,499,629"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="524,603,612,629"/>
+<area shape="rect" title=" " alt="" coords="877,677,945,704"/>
+<area shape="rect" title=" " alt="" coords="617,752,681,779"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="315,304,378,331"/>
+<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="43,229,135,256"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="262,379,322,405"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="347,379,411,405"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="375,229,441,256"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="283,155,373,181"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -566,20 +570,20 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_enumvalue" href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501a8d21743d03316ca3475010c4f178fbef">FLAG_BANK_G</a>, <a class="code hl_enumvalue" href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501af1ee177e0f0854be6e10d73cd7d5bc4f">FLAG_BANK_0</a>, <a class="code hl_enumvalue" href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501abe7f550084942d9da0971da47c879245">FLAG_BANK_1</a>, <a class="code hl_enumvalue" href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501add262d45c07a0def05ead0c604a354f0">FLAG_BANK_2</a>, <a class="code hl_enumvalue" href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501a95f44507169362641f5bcf86f01bf7a6">FLAG_BANK_3</a>,  <a class="code hl_enumvalue" href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501a6d5f112bc4deb8e5e0009b09aeebb078">FLAG_BANK_4</a>,  <a class="code hl_enumvalue" href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501a7ceffe8a2dccb6a8d3d5053b304890d5">FLAG_BANK_5</a>,</div>
 <div class="line">    <a class="code hl_enumvalue" href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501a7d861f63a890d10810e15bcaef419954">FLAG_BANK_6</a>, <a class="code hl_enumvalue" href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501a0e5a868d2b42fffdce22755f4b2aebe6">FLAG_BANK_7</a>, <a class="code hl_enumvalue" href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501a987eb214d95cdc3af8abfc4d1f2dfafb">FLAG_BANK_8</a>, <a class="code hl_enumvalue" href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501ae1d952f4c0348727f9a07854d075458f">FLAG_BANK_9</a>, <a class="code hl_enumvalue" href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501a42e6b532dc22bda344c748b0a36d8012">FLAG_BANK_10</a>, <a class="code hl_enumvalue" href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501aafa995c6a4499e6ac34b7907667991c1">FLAG_BANK_11</a>, <a class="code hl_enumvalue" href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501a6cc2a50c94a3ae198a980e94bbae2e56">FLAG_BANK_12</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="aflags_8h_html_a3c145633bf6e7fed7e789eadb7312501a0e5a868d2b42fffdce22755f4b2aebe6"><div class="ttname"><a href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501a0e5a868d2b42fffdce22755f4b2aebe6">FLAG_BANK_7</a></div><div class="ttdeci">@ FLAG_BANK_7</div><div class="ttdef"><b>Definition:</b> flags.h:46</div></div>
-<div class="ttc" id="aflags_8h_html_a3c145633bf6e7fed7e789eadb7312501a42e6b532dc22bda344c748b0a36d8012"><div class="ttname"><a href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501a42e6b532dc22bda344c748b0a36d8012">FLAG_BANK_10</a></div><div class="ttdeci">@ FLAG_BANK_10</div><div class="ttdef"><b>Definition:</b> flags.h:49</div></div>
-<div class="ttc" id="aflags_8h_html_a3c145633bf6e7fed7e789eadb7312501a6cc2a50c94a3ae198a980e94bbae2e56"><div class="ttname"><a href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501a6cc2a50c94a3ae198a980e94bbae2e56">FLAG_BANK_12</a></div><div class="ttdeci">@ FLAG_BANK_12</div><div class="ttdef"><b>Definition:</b> flags.h:51</div></div>
-<div class="ttc" id="aflags_8h_html_a3c145633bf6e7fed7e789eadb7312501a6d5f112bc4deb8e5e0009b09aeebb078"><div class="ttname"><a href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501a6d5f112bc4deb8e5e0009b09aeebb078">FLAG_BANK_4</a></div><div class="ttdeci">@ FLAG_BANK_4</div><div class="ttdef"><b>Definition:</b> flags.h:43</div></div>
-<div class="ttc" id="aflags_8h_html_a3c145633bf6e7fed7e789eadb7312501a7ceffe8a2dccb6a8d3d5053b304890d5"><div class="ttname"><a href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501a7ceffe8a2dccb6a8d3d5053b304890d5">FLAG_BANK_5</a></div><div class="ttdeci">@ FLAG_BANK_5</div><div class="ttdef"><b>Definition:</b> flags.h:44</div></div>
-<div class="ttc" id="aflags_8h_html_a3c145633bf6e7fed7e789eadb7312501a7d861f63a890d10810e15bcaef419954"><div class="ttname"><a href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501a7d861f63a890d10810e15bcaef419954">FLAG_BANK_6</a></div><div class="ttdeci">@ FLAG_BANK_6</div><div class="ttdef"><b>Definition:</b> flags.h:45</div></div>
-<div class="ttc" id="aflags_8h_html_a3c145633bf6e7fed7e789eadb7312501a8d21743d03316ca3475010c4f178fbef"><div class="ttname"><a href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501a8d21743d03316ca3475010c4f178fbef">FLAG_BANK_G</a></div><div class="ttdeci">@ FLAG_BANK_G</div><div class="ttdef"><b>Definition:</b> flags.h:38</div></div>
-<div class="ttc" id="aflags_8h_html_a3c145633bf6e7fed7e789eadb7312501a95f44507169362641f5bcf86f01bf7a6"><div class="ttname"><a href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501a95f44507169362641f5bcf86f01bf7a6">FLAG_BANK_3</a></div><div class="ttdeci">@ FLAG_BANK_3</div><div class="ttdef"><b>Definition:</b> flags.h:42</div></div>
-<div class="ttc" id="aflags_8h_html_a3c145633bf6e7fed7e789eadb7312501a987eb214d95cdc3af8abfc4d1f2dfafb"><div class="ttname"><a href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501a987eb214d95cdc3af8abfc4d1f2dfafb">FLAG_BANK_8</a></div><div class="ttdeci">@ FLAG_BANK_8</div><div class="ttdef"><b>Definition:</b> flags.h:47</div></div>
-<div class="ttc" id="aflags_8h_html_a3c145633bf6e7fed7e789eadb7312501aafa995c6a4499e6ac34b7907667991c1"><div class="ttname"><a href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501aafa995c6a4499e6ac34b7907667991c1">FLAG_BANK_11</a></div><div class="ttdeci">@ FLAG_BANK_11</div><div class="ttdef"><b>Definition:</b> flags.h:50</div></div>
-<div class="ttc" id="aflags_8h_html_a3c145633bf6e7fed7e789eadb7312501abe7f550084942d9da0971da47c879245"><div class="ttname"><a href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501abe7f550084942d9da0971da47c879245">FLAG_BANK_1</a></div><div class="ttdeci">@ FLAG_BANK_1</div><div class="ttdef"><b>Definition:</b> flags.h:40</div></div>
-<div class="ttc" id="aflags_8h_html_a3c145633bf6e7fed7e789eadb7312501add262d45c07a0def05ead0c604a354f0"><div class="ttname"><a href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501add262d45c07a0def05ead0c604a354f0">FLAG_BANK_2</a></div><div class="ttdeci">@ FLAG_BANK_2</div><div class="ttdef"><b>Definition:</b> flags.h:41</div></div>
-<div class="ttc" id="aflags_8h_html_a3c145633bf6e7fed7e789eadb7312501ae1d952f4c0348727f9a07854d075458f"><div class="ttname"><a href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501ae1d952f4c0348727f9a07854d075458f">FLAG_BANK_9</a></div><div class="ttdeci">@ FLAG_BANK_9</div><div class="ttdef"><b>Definition:</b> flags.h:48</div></div>
-<div class="ttc" id="aflags_8h_html_a3c145633bf6e7fed7e789eadb7312501af1ee177e0f0854be6e10d73cd7d5bc4f"><div class="ttname"><a href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501af1ee177e0f0854be6e10d73cd7d5bc4f">FLAG_BANK_0</a></div><div class="ttdeci">@ FLAG_BANK_0</div><div class="ttdef"><b>Definition:</b> flags.h:39</div></div>
+<div class="ttc" id="aflags_8h_html_a3c145633bf6e7fed7e789eadb7312501a0e5a868d2b42fffdce22755f4b2aebe6"><div class="ttname"><a href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501a0e5a868d2b42fffdce22755f4b2aebe6">FLAG_BANK_7</a></div><div class="ttdeci">@ FLAG_BANK_7</div><div class="ttdef"><b>Definition:</b> flags.h:44</div></div>
+<div class="ttc" id="aflags_8h_html_a3c145633bf6e7fed7e789eadb7312501a42e6b532dc22bda344c748b0a36d8012"><div class="ttname"><a href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501a42e6b532dc22bda344c748b0a36d8012">FLAG_BANK_10</a></div><div class="ttdeci">@ FLAG_BANK_10</div><div class="ttdef"><b>Definition:</b> flags.h:47</div></div>
+<div class="ttc" id="aflags_8h_html_a3c145633bf6e7fed7e789eadb7312501a6cc2a50c94a3ae198a980e94bbae2e56"><div class="ttname"><a href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501a6cc2a50c94a3ae198a980e94bbae2e56">FLAG_BANK_12</a></div><div class="ttdeci">@ FLAG_BANK_12</div><div class="ttdef"><b>Definition:</b> flags.h:49</div></div>
+<div class="ttc" id="aflags_8h_html_a3c145633bf6e7fed7e789eadb7312501a6d5f112bc4deb8e5e0009b09aeebb078"><div class="ttname"><a href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501a6d5f112bc4deb8e5e0009b09aeebb078">FLAG_BANK_4</a></div><div class="ttdeci">@ FLAG_BANK_4</div><div class="ttdef"><b>Definition:</b> flags.h:41</div></div>
+<div class="ttc" id="aflags_8h_html_a3c145633bf6e7fed7e789eadb7312501a7ceffe8a2dccb6a8d3d5053b304890d5"><div class="ttname"><a href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501a7ceffe8a2dccb6a8d3d5053b304890d5">FLAG_BANK_5</a></div><div class="ttdeci">@ FLAG_BANK_5</div><div class="ttdef"><b>Definition:</b> flags.h:42</div></div>
+<div class="ttc" id="aflags_8h_html_a3c145633bf6e7fed7e789eadb7312501a7d861f63a890d10810e15bcaef419954"><div class="ttname"><a href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501a7d861f63a890d10810e15bcaef419954">FLAG_BANK_6</a></div><div class="ttdeci">@ FLAG_BANK_6</div><div class="ttdef"><b>Definition:</b> flags.h:43</div></div>
+<div class="ttc" id="aflags_8h_html_a3c145633bf6e7fed7e789eadb7312501a8d21743d03316ca3475010c4f178fbef"><div class="ttname"><a href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501a8d21743d03316ca3475010c4f178fbef">FLAG_BANK_G</a></div><div class="ttdeci">@ FLAG_BANK_G</div><div class="ttdef"><b>Definition:</b> flags.h:36</div></div>
+<div class="ttc" id="aflags_8h_html_a3c145633bf6e7fed7e789eadb7312501a95f44507169362641f5bcf86f01bf7a6"><div class="ttname"><a href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501a95f44507169362641f5bcf86f01bf7a6">FLAG_BANK_3</a></div><div class="ttdeci">@ FLAG_BANK_3</div><div class="ttdef"><b>Definition:</b> flags.h:40</div></div>
+<div class="ttc" id="aflags_8h_html_a3c145633bf6e7fed7e789eadb7312501a987eb214d95cdc3af8abfc4d1f2dfafb"><div class="ttname"><a href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501a987eb214d95cdc3af8abfc4d1f2dfafb">FLAG_BANK_8</a></div><div class="ttdeci">@ FLAG_BANK_8</div><div class="ttdef"><b>Definition:</b> flags.h:45</div></div>
+<div class="ttc" id="aflags_8h_html_a3c145633bf6e7fed7e789eadb7312501aafa995c6a4499e6ac34b7907667991c1"><div class="ttname"><a href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501aafa995c6a4499e6ac34b7907667991c1">FLAG_BANK_11</a></div><div class="ttdeci">@ FLAG_BANK_11</div><div class="ttdef"><b>Definition:</b> flags.h:48</div></div>
+<div class="ttc" id="aflags_8h_html_a3c145633bf6e7fed7e789eadb7312501abe7f550084942d9da0971da47c879245"><div class="ttname"><a href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501abe7f550084942d9da0971da47c879245">FLAG_BANK_1</a></div><div class="ttdeci">@ FLAG_BANK_1</div><div class="ttdef"><b>Definition:</b> flags.h:38</div></div>
+<div class="ttc" id="aflags_8h_html_a3c145633bf6e7fed7e789eadb7312501add262d45c07a0def05ead0c604a354f0"><div class="ttname"><a href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501add262d45c07a0def05ead0c604a354f0">FLAG_BANK_2</a></div><div class="ttdeci">@ FLAG_BANK_2</div><div class="ttdef"><b>Definition:</b> flags.h:39</div></div>
+<div class="ttc" id="aflags_8h_html_a3c145633bf6e7fed7e789eadb7312501ae1d952f4c0348727f9a07854d075458f"><div class="ttname"><a href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501ae1d952f4c0348727f9a07854d075458f">FLAG_BANK_9</a></div><div class="ttdeci">@ FLAG_BANK_9</div><div class="ttdef"><b>Definition:</b> flags.h:46</div></div>
+<div class="ttc" id="aflags_8h_html_a3c145633bf6e7fed7e789eadb7312501af1ee177e0f0854be6e10d73cd7d5bc4f"><div class="ttname"><a href="flags_8h.html#a3c145633bf6e7fed7e789eadb7312501af1ee177e0f0854be6e10d73cd7d5bc4f">FLAG_BANK_0</a></div><div class="ttdeci">@ FLAG_BANK_0</div><div class="ttdef"><b>Definition:</b> flags.h:37</div></div>
 </div><!-- fragment -->
 </div>
 </div>

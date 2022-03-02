@@ -163,7 +163,9 @@ var menudata={children:[
 {text:"t",url:"globals_vars_t.html#index_t"},
 {text:"u",url:"globals_vars_u.html#index_u"},
 {text:"v",url:"globals_vars_v.html#index_v"},
-{text:"w",url:"globals_vars_w.html#index_w"}]},
+{text:"w",url:"globals_vars_w.html#index_w"},
+{text:"x",url:"globals_vars_x.html#index_x"},
+{text:"y",url:"globals_vars_y.html#index_y"}]},
 {text:"Typedefs",url:"globals_type.html",children:[
 {text:"a",url:"globals_type.html#index_a"},
 {text:"b",url:"globals_type.html#index_b"},

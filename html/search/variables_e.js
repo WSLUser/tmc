@@ -17,5 +17,6 @@ var searchData=
   ['npc_5funk_14',['npc_unk',['../npc_8c.html#a3b786d327271b2a42530fb7b1187d613',1,'npc.c']]],
   ['ntracks_15',['nTracks',['../structMusicPlayer.html#a31c08f05e31b68de67ead515252a5919',1,'MusicPlayer']]],
   ['numgfxtiles_16',['numGfxTiles',['../structFrameGfxData.html#a042876ea11bc77f09629dabce2bb31c1',1,'FrameGfxData']]],
-  ['numpalettes_17',['numPalettes',['../structPaletteGroup.html#a68d0c0050d4447cdf5a9c7de1ff582f2',1,'PaletteGroup']]]
+  ['numpalettes_17',['numPalettes',['../structPaletteGroup.html#a68d0c0050d4447cdf5a9c7de1ff582f2',1,'PaletteGroup']]],
+  ['numtiles_18',['numTiles',['../structSpriteFrame.html#a54de6e562d8ed3e603a03020d232e43e',1,'SpriteFrame']]]
 ];

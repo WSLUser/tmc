@@ -4,7 +4,7 @@ var searchData=
   ['y2_1',['y2',['../structMacroDecorationEntity.html#a3d0f632e58043626bb9008f370142538',1,'MacroDecorationEntity::y2()'],['../structSpikedRollersEntity.html#a4e771a1d607edaa82c3c1ff5cf2e35e4',1,'SpikedRollersEntity::y2()']]],
   ['y_5f0x7a_2',['y_0x7a',['../structTakkuriEntity.html#a7d784dcc76b459c8af52b42885563f0b',1,'TakkuriEntity']]],
   ['y_5fraw_3',['y_raw',['../structManagerA.html#aa52776beabecded78287fcfe8b9c6e29',1,'ManagerA']]],
-  ['yoffset_4',['yOffset',['../structBgSettings.html#aaff8f9dabbfddbead671a159f010768e',1,'BgSettings::yOffset()'],['../structBgAffSettings.html#a84af18bb99dc75ad308a5dd288138d4d',1,'BgAffSettings::yOffset()']]],
+  ['yoffset_4',['yOffset',['../structBgSettings.html#aaff8f9dabbfddbead671a159f010768e',1,'BgSettings::yOffset()'],['../structBgAffSettings.html#a84af18bb99dc75ad308a5dd288138d4d',1,'BgAffSettings::yOffset()'],['../subtask2_8c.html#abff147354349a9e5c616977409dd606b',1,'yOffset():&#160;subtask2.c']]],
   ['ypointleastsig_5',['yPointLeastSig',['../structBgTransformationSettings.html#a94e3f5e71e6aaf7706d03b26d1b4cd58',1,'BgTransformationSettings']]],
   ['ypointmostsig_6',['yPointMostSig',['../structBgTransformationSettings.html#aa45f4c4fd34ebc13468062909ade9c4f',1,'BgTransformationSettings']]],
   ['ypos_7',['yPos',['../structWindow.html#a3e669bfd7d162ed6ca7bb57b6f0f4064',1,'Window::yPos()'],['../structEntityData.html#aa4335c259b5ff5b1118545a2320eba59',1,'EntityData::yPos()']]],

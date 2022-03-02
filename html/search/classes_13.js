@@ -7,13 +7,12 @@ var searchData=
   ['unk_5f0811e84c_4',['Unk_0811E84C',['../structUnk__0811E84C.html',1,'']]],
   ['unk_5f80868ec_5',['unk_80868EC',['../structunk__80868EC.html',1,'']]],
   ['unk_5fdoorproperty_6',['unk_DoorProperty',['../structunk__DoorProperty.html',1,'']]],
-  ['unk_5fstruct_7',['Unk_struct',['../structUnk__struct.html',1,'']]],
+  ['unk_5fstruct_5fin_5f08077ec8_7',['Unk_struct_in_08077EC8',['../structUnk__struct__in__08077EC8.html',1,'']]],
   ['unkheap_8',['UnkHeap',['../structUnkHeap.html',1,'']]],
-  ['unkitemstruct_9',['UnkItemStruct',['../structUnkItemStruct.html',1,'']]],
-  ['unkmanager26helperstruct_10',['UnkManager26HelperStruct',['../structUnkManager26HelperStruct.html',1,'']]],
-  ['unknown_11',['Unknown',['../structUnknown.html',1,'']]],
-  ['unkstruct_12',['UnkStruct',['../structUnkStruct.html',1,'']]],
-  ['unkstruct_5fmineralwater_13',['UnkStruct_MineralWater',['../structUnkStruct__MineralWater.html',1,'']]],
-  ['updatecontext_14',['UpdateContext',['../structUpdateContext.html',1,'']]],
-  ['ustruct_15',['UStruct',['../structUStruct.html',1,'']]]
+  ['unkmanager26helperstruct_9',['UnkManager26HelperStruct',['../structUnkManager26HelperStruct.html',1,'']]],
+  ['unknown_10',['Unknown',['../structUnknown.html',1,'']]],
+  ['unkstruct_11',['UnkStruct',['../structUnkStruct.html',1,'']]],
+  ['unkstruct_5fmineralwater_12',['UnkStruct_MineralWater',['../structUnkStruct__MineralWater.html',1,'']]],
+  ['updatecontext_13',['UpdateContext',['../structUpdateContext.html',1,'']]],
+  ['ustruct_14',['UStruct',['../structUStruct.html',1,'']]]
 ];

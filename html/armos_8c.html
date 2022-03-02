@@ -90,6 +90,8 @@ $(function() {
 <code>#include &quot;<a class="el" href="enemy_8h_source.html">enemy.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="hitbox_8h_source.html">hitbox.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="common_8h_source.html">common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="flags_8h_source.html">flags.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for armos.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -97,39 +99,39 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="armos_8c__incl.png" border="0" usemap="#asrc_2enemy_2armos_8c" alt=""/></div>
 <map name="asrc_2enemy_2armos_8c" id="asrc_2enemy_2armos_8c">
-<area shape="rect" title="Armos enemy." alt="" coords="653,5,785,32"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="644,453,711,480"/>
-<area shape="rect" href="enemy_8h.html" title=" " alt="" coords="271,155,342,181"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="821,80,907,107"/>
-<area shape="rect" href="hitbox_8h.html" title=" " alt="" coords="931,80,997,107"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="789,528,867,555"/>
-<area shape="rect" title=" " alt="" coords="493,603,557,629"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1141,603,1214,629"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1049,603,1116,629"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="693,677,755,704"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="678,603,770,629"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="581,603,653,629"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="794,603,862,629"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="887,603,975,629"/>
-<area shape="rect" title=" " alt="" coords="1143,677,1211,704"/>
-<area shape="rect" title=" " alt="" coords="692,752,756,779"/>
-<area shape="rect" href="asm_8h.html" title=" " alt="" coords="267,379,325,405"/>
-<area shape="rect" href="sound_8h.html" title=" " alt="" coords="332,304,399,331"/>
-<area shape="rect" href="effects_8h.html" title=" " alt="" coords="539,229,610,256"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="762,304,825,331"/>
-<area shape="rect" href="flags_8h.html" title=" " alt="" coords="49,379,108,405"/>
-<area shape="rect" href="common_8h.html" title=" " alt="" coords="93,304,176,331"/>
-<area shape="rect" href="projectile_8h.html" title=" " alt="" coords="345,229,429,256"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="819,379,879,405"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="680,379,744,405"/>
-<area shape="rect" href="manager_8h.html" title=" " alt="" coords="635,229,717,256"/>
-<area shape="rect" href="coord_8h.html" title=" " alt="" coords="1085,229,1149,256"/>
-<area shape="rect" href="player_8h.html" title=" " alt="" coords="893,229,960,256"/>
-<area shape="rect" href="room_8h.html" title=" " alt="" coords="453,229,515,256"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="971,155,1061,181"/>
-<area shape="rect" href="script_8h.html" title=" " alt="" coords="832,155,896,181"/>
-<area shape="rect" href="map_8h.html" title=" " alt="" coords="1141,304,1198,331"/>
-<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="438,304,530,331"/>
+<area shape="rect" title="Armos enemy." alt="" coords="334,5,466,32"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="647,453,713,480"/>
+<area shape="rect" href="enemy_8h.html" title=" " alt="" coords="285,155,355,181"/>
+<area shape="rect" href="flags_8h.html" title=" " alt="" coords="43,229,101,256"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="387,229,469,256"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="872,80,957,107"/>
+<area shape="rect" href="hitbox_8h.html" title=" " alt="" coords="981,80,1048,107"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="769,528,847,555"/>
+<area shape="rect" title=" " alt="" coords="520,603,584,629"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1167,603,1241,629"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="608,603,675,629"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="777,677,839,704"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="846,603,938,629"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="699,603,771,629"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="962,603,1030,629"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="1055,603,1143,629"/>
+<area shape="rect" title=" " alt="" coords="1170,677,1238,704"/>
+<area shape="rect" title=" " alt="" coords="776,752,840,779"/>
+<area shape="rect" href="asm_8h.html" title=" " alt="" coords="122,379,179,405"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="176,304,243,331"/>
+<area shape="rect" href="effects_8h.html" title=" " alt="" coords="494,229,565,256"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="778,304,841,331"/>
+<area shape="rect" href="projectile_8h.html" title=" " alt="" coords="278,229,362,256"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="743,379,803,405"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="828,379,892,405"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="1019,229,1101,256"/>
+<area shape="rect" href="coord_8h.html" title=" " alt="" coords="1125,229,1189,256"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="741,229,808,256"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="933,229,995,256"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="660,155,751,181"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="883,155,947,181"/>
+<area shape="rect" href="map_8h.html" title=" " alt="" coords="1185,304,1242,331"/>
+<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="966,304,1058,331"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -173,6 +175,14 @@ Functions</h2></td></tr>
 <tr class="separator:a0a131e9168e8809b93d38c6d3212fcf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7306c341b34587edd3cc92cc294b940b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="armos_8c.html#a7306c341b34587edd3cc92cc294b940b">sub_08030590</a> (<a class="el" href="structArmosEntity.html">ArmosEntity</a> *)</td></tr>
 <tr class="separator:a7306c341b34587edd3cc92cc294b940b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a783abc37336051098a99c428a5a3c97b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="armos_8c.html#a783abc37336051098a99c428a5a3c97b">ClearArmosData</a> (void)</td></tr>
+<tr class="separator:a783abc37336051098a99c428a5a3c97b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb71996f1fc2977f87e24ff1de7d90df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="armos_8c.html#aeb71996f1fc2977f87e24ff1de7d90df">sub_080300C4</a> (void)</td></tr>
+<tr class="separator:aeb71996f1fc2977f87e24ff1de7d90df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92b89c5e47501951792b96b319ba902a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="armos_8c.html#a92b89c5e47501951792b96b319ba902a">sub_080300E8</a> (void)</td></tr>
+<tr class="separator:a92b89c5e47501951792b96b319ba902a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa43353af2357f93b77f43ea269a39918"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="armos_8c.html#aa43353af2357f93b77f43ea269a39918">sub_08030118</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> param_1)</td></tr>
+<tr class="separator:aa43353af2357f93b77f43ea269a39918"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a248af9207931a7725ae1a6e415436176"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="armos_8c.html#a248af9207931a7725ae1a6e415436176">Armos</a> (<a class="el" href="structArmosEntity.html">ArmosEntity</a> *this)</td></tr>
 <tr class="separator:a248af9207931a7725ae1a6e415436176"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52c38bfb5511944d47248f7a5c8cebb4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="armos_8c.html#a52c38bfb5511944d47248f7a5c8cebb4">sub_080301BC</a> (<a class="el" href="structArmosEntity.html">ArmosEntity</a> *this)</td></tr>
@@ -257,6 +267,24 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a783abc37336051098a99c428a5a3c97b" name="a783abc37336051098a99c428a5a3c97b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a783abc37336051098a99c428a5a3c97b">&#9670;&nbsp;</a></span>ClearArmosData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClearArmosData </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af5588bf71d48395d02d9c2f41117b810" name="af5588bf71d48395d02d9c2f41117b810"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af5588bf71d48395d02d9c2f41117b810">&#9670;&nbsp;</a></span>nullsub_17()</h2>
 
@@ -275,6 +303,60 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="aeb71996f1fc2977f87e24ff1de7d90df" name="aeb71996f1fc2977f87e24ff1de7d90df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb71996f1fc2977f87e24ff1de7d90df">&#9670;&nbsp;</a></span>sub_080300C4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_080300C4 </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a92b89c5e47501951792b96b319ba902a" name="a92b89c5e47501951792b96b319ba902a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92b89c5e47501951792b96b319ba902a">&#9670;&nbsp;</a></span>sub_080300E8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_080300E8 </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa43353af2357f93b77f43ea269a39918" name="aa43353af2357f93b77f43ea269a39918"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa43353af2357f93b77f43ea269a39918">&#9670;&nbsp;</a></span>sub_08030118()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_08030118 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>param_1</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a6a3ba52932c5524fbe139fe8430a9457" name="a6a3ba52932c5524fbe139fe8430a9457"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6a3ba52932c5524fbe139fe8430a9457">&#9670;&nbsp;</a></span>sub_08030150()</h2>
 
@@ -285,7 +367,7 @@ Variables</h2></td></tr>
           <td class="memname">void sub_08030150 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structArmosEntity.html">ArmosEntity</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -839,13 +921,13 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="armos_8c.html#a52c38bfb5511944d47248f7a5c8cebb4">sub_080301BC</a>, <a class="code hl_function" href="armos_8c.html#a7c80e19f70035bbac3423be3d8052762">sub_080301D4</a>, (void (*)(<a class="code hl_struct" href="structArmosEntity.html">ArmosEntity</a>*))<a class="code hl_function" href="asm_8h.html#ae7f4b31c5b7b590b6da3fccb26e10806">GenericKnockback</a>, (void (*)(<a class="code hl_struct" href="structArmosEntity.html">ArmosEntity</a>*))<a class="code hl_function" href="enemyUtils_8c.html#a94401d9b7ce755d41ac7de8153fab145">GenericDeath</a>,</div>
 <div class="line">    <a class="code hl_function" href="armos_8c.html#a24fe3fbca5826ee1e1f63909a85ece03">sub_08030240</a>, <a class="code hl_function" href="armos_8c.html#af5588bf71d48395d02d9c2f41117b810">nullsub_17</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="aarmos_8c_html_a24fe3fbca5826ee1e1f63909a85ece03"><div class="ttname"><a href="armos_8c.html#a24fe3fbca5826ee1e1f63909a85ece03">sub_08030240</a></div><div class="ttdeci">void sub_08030240(ArmosEntity *this)</div><div class="ttdef"><b>Definition:</b> armos.c:77</div></div>
-<div class="ttc" id="aarmos_8c_html_a52c38bfb5511944d47248f7a5c8cebb4"><div class="ttname"><a href="armos_8c.html#a52c38bfb5511944d47248f7a5c8cebb4">sub_080301BC</a></div><div class="ttdeci">void sub_080301BC(ArmosEntity *this)</div><div class="ttdef"><b>Definition:</b> armos.c:57</div></div>
-<div class="ttc" id="aarmos_8c_html_a7c80e19f70035bbac3423be3d8052762"><div class="ttname"><a href="armos_8c.html#a7c80e19f70035bbac3423be3d8052762">sub_080301D4</a></div><div class="ttdeci">void sub_080301D4(ArmosEntity *this)</div><div class="ttdef"><b>Definition:</b> armos.c:61</div></div>
-<div class="ttc" id="aarmos_8c_html_af5588bf71d48395d02d9c2f41117b810"><div class="ttname"><a href="armos_8c.html#af5588bf71d48395d02d9c2f41117b810">nullsub_17</a></div><div class="ttdeci">void nullsub_17(ArmosEntity *this)</div><div class="ttdef"><b>Definition:</b> armos.c:86</div></div>
+<div class="ttc" id="aarmos_8c_html_a24fe3fbca5826ee1e1f63909a85ece03"><div class="ttname"><a href="armos_8c.html#a24fe3fbca5826ee1e1f63909a85ece03">sub_08030240</a></div><div class="ttdeci">void sub_08030240(ArmosEntity *this)</div><div class="ttdef"><b>Definition:</b> armos.c:114</div></div>
+<div class="ttc" id="aarmos_8c_html_a52c38bfb5511944d47248f7a5c8cebb4"><div class="ttname"><a href="armos_8c.html#a52c38bfb5511944d47248f7a5c8cebb4">sub_080301BC</a></div><div class="ttdeci">void sub_080301BC(ArmosEntity *this)</div><div class="ttdef"><b>Definition:</b> armos.c:94</div></div>
+<div class="ttc" id="aarmos_8c_html_a7c80e19f70035bbac3423be3d8052762"><div class="ttname"><a href="armos_8c.html#a7c80e19f70035bbac3423be3d8052762">sub_080301D4</a></div><div class="ttdeci">void sub_080301D4(ArmosEntity *this)</div><div class="ttdef"><b>Definition:</b> armos.c:98</div></div>
+<div class="ttc" id="aarmos_8c_html_af5588bf71d48395d02d9c2f41117b810"><div class="ttname"><a href="armos_8c.html#af5588bf71d48395d02d9c2f41117b810">nullsub_17</a></div><div class="ttdeci">void nullsub_17(ArmosEntity *this)</div><div class="ttdef"><b>Definition:</b> armos.c:123</div></div>
 <div class="ttc" id="aasm_8h_html_ae7f4b31c5b7b590b6da3fccb26e10806"><div class="ttname"><a href="asm_8h.html#ae7f4b31c5b7b590b6da3fccb26e10806">GenericKnockback</a></div><div class="ttdeci">void GenericKnockback(struct Entity_ *)</div></div>
 <div class="ttc" id="aenemyUtils_8c_html_a94401d9b7ce755d41ac7de8153fab145"><div class="ttname"><a href="enemyUtils_8c.html#a94401d9b7ce755d41ac7de8153fab145">GenericDeath</a></div><div class="ttdeci">void GenericDeath(Entity *this)</div><div class="ttdef"><b>Definition:</b> enemyUtils.c:99</div></div>
-<div class="ttc" id="astructArmosEntity_html"><div class="ttname"><a href="structArmosEntity.html">ArmosEntity</a></div><div class="ttdef"><b>Definition:</b> armos.c:14</div></div>
+<div class="ttc" id="astructArmosEntity_html"><div class="ttname"><a href="structArmosEntity.html">ArmosEntity</a></div><div class="ttdef"><b>Definition:</b> armos.c:16</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -868,15 +950,15 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="armos_8c.html#a13fbe3145928ab23565c0f21a4e0ed33">sub_0803026C</a>, <a class="code hl_function" href="armos_8c.html#ab70cef1cfc084431c2880efe75cdae0b">sub_0803030C</a>, <a class="code hl_function" href="armos_8c.html#ac05bfa68069346454ef78cec9fd239e1">sub_08030338</a>, <a class="code hl_function" href="armos_8c.html#af9b0556cc94a45e0771be2d4d7a94894">sub_08030430</a>, <a class="code hl_function" href="armos_8c.html#af17e7356d2310052e7481b7b620b3d5f">sub_08030474</a>,</div>
 <div class="line">    <a class="code hl_function" href="armos_8c.html#a0bf3b536b819dede0673da6d7af39854">sub_080304BC</a>, <a class="code hl_function" href="armos_8c.html#ae945095c178be9da7cd5a787e1c1bb1d">sub_080304F4</a>, <a class="code hl_function" href="armos_8c.html#a344ed2173de424a30aea5808ef14f47f">sub_08030524</a>, <a class="code hl_function" href="armos_8c.html#a514ad6d1c512a9be4aa83071b016d3aa">sub_08030554</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="aarmos_8c_html_a0bf3b536b819dede0673da6d7af39854"><div class="ttname"><a href="armos_8c.html#a0bf3b536b819dede0673da6d7af39854">sub_080304BC</a></div><div class="ttdeci">asm non_matching armos sub_080304BC void sub_080304BC(ArmosEntity *this))</div><div class="ttdef"><b>Definition:</b> armos.c:206</div></div>
-<div class="ttc" id="aarmos_8c_html_a13fbe3145928ab23565c0f21a4e0ed33"><div class="ttname"><a href="armos_8c.html#a13fbe3145928ab23565c0f21a4e0ed33">sub_0803026C</a></div><div class="ttdeci">void sub_0803026C(ArmosEntity *this)</div><div class="ttdef"><b>Definition:</b> armos.c:89</div></div>
-<div class="ttc" id="aarmos_8c_html_a344ed2173de424a30aea5808ef14f47f"><div class="ttname"><a href="armos_8c.html#a344ed2173de424a30aea5808ef14f47f">sub_08030524</a></div><div class="ttdeci">void sub_08030524(ArmosEntity *this)</div><div class="ttdef"><b>Definition:</b> armos.c:232</div></div>
-<div class="ttc" id="aarmos_8c_html_a514ad6d1c512a9be4aa83071b016d3aa"><div class="ttname"><a href="armos_8c.html#a514ad6d1c512a9be4aa83071b016d3aa">sub_08030554</a></div><div class="ttdeci">void sub_08030554(ArmosEntity *this)</div><div class="ttdef"><b>Definition:</b> armos.c:241</div></div>
-<div class="ttc" id="aarmos_8c_html_ab70cef1cfc084431c2880efe75cdae0b"><div class="ttname"><a href="armos_8c.html#ab70cef1cfc084431c2880efe75cdae0b">sub_0803030C</a></div><div class="ttdeci">void sub_0803030C(ArmosEntity *this)</div><div class="ttdef"><b>Definition:</b> armos.c:113</div></div>
-<div class="ttc" id="aarmos_8c_html_ac05bfa68069346454ef78cec9fd239e1"><div class="ttname"><a href="armos_8c.html#ac05bfa68069346454ef78cec9fd239e1">sub_08030338</a></div><div class="ttdeci">void sub_08030338(ArmosEntity *this)</div><div class="ttdef"><b>Definition:</b> armos.c:120</div></div>
-<div class="ttc" id="aarmos_8c_html_ae945095c178be9da7cd5a787e1c1bb1d"><div class="ttname"><a href="armos_8c.html#ae945095c178be9da7cd5a787e1c1bb1d">sub_080304F4</a></div><div class="ttdeci">void sub_080304F4(ArmosEntity *this)</div><div class="ttdef"><b>Definition:</b> armos.c:222</div></div>
-<div class="ttc" id="aarmos_8c_html_af17e7356d2310052e7481b7b620b3d5f"><div class="ttname"><a href="armos_8c.html#af17e7356d2310052e7481b7b620b3d5f">sub_08030474</a></div><div class="ttdeci">void sub_08030474(ArmosEntity *this)</div><div class="ttdef"><b>Definition:</b> armos.c:190</div></div>
-<div class="ttc" id="aarmos_8c_html_af9b0556cc94a45e0771be2d4d7a94894"><div class="ttname"><a href="armos_8c.html#af9b0556cc94a45e0771be2d4d7a94894">sub_08030430</a></div><div class="ttdeci">void sub_08030430(ArmosEntity *this)</div><div class="ttdef"><b>Definition:</b> armos.c:176</div></div>
+<div class="ttc" id="aarmos_8c_html_a0bf3b536b819dede0673da6d7af39854"><div class="ttname"><a href="armos_8c.html#a0bf3b536b819dede0673da6d7af39854">sub_080304BC</a></div><div class="ttdeci">asm non_matching armos sub_080304BC void sub_080304BC(ArmosEntity *this))</div><div class="ttdef"><b>Definition:</b> armos.c:243</div></div>
+<div class="ttc" id="aarmos_8c_html_a13fbe3145928ab23565c0f21a4e0ed33"><div class="ttname"><a href="armos_8c.html#a13fbe3145928ab23565c0f21a4e0ed33">sub_0803026C</a></div><div class="ttdeci">void sub_0803026C(ArmosEntity *this)</div><div class="ttdef"><b>Definition:</b> armos.c:126</div></div>
+<div class="ttc" id="aarmos_8c_html_a344ed2173de424a30aea5808ef14f47f"><div class="ttname"><a href="armos_8c.html#a344ed2173de424a30aea5808ef14f47f">sub_08030524</a></div><div class="ttdeci">void sub_08030524(ArmosEntity *this)</div><div class="ttdef"><b>Definition:</b> armos.c:269</div></div>
+<div class="ttc" id="aarmos_8c_html_a514ad6d1c512a9be4aa83071b016d3aa"><div class="ttname"><a href="armos_8c.html#a514ad6d1c512a9be4aa83071b016d3aa">sub_08030554</a></div><div class="ttdeci">void sub_08030554(ArmosEntity *this)</div><div class="ttdef"><b>Definition:</b> armos.c:278</div></div>
+<div class="ttc" id="aarmos_8c_html_ab70cef1cfc084431c2880efe75cdae0b"><div class="ttname"><a href="armos_8c.html#ab70cef1cfc084431c2880efe75cdae0b">sub_0803030C</a></div><div class="ttdeci">void sub_0803030C(ArmosEntity *this)</div><div class="ttdef"><b>Definition:</b> armos.c:150</div></div>
+<div class="ttc" id="aarmos_8c_html_ac05bfa68069346454ef78cec9fd239e1"><div class="ttname"><a href="armos_8c.html#ac05bfa68069346454ef78cec9fd239e1">sub_08030338</a></div><div class="ttdeci">void sub_08030338(ArmosEntity *this)</div><div class="ttdef"><b>Definition:</b> armos.c:157</div></div>
+<div class="ttc" id="aarmos_8c_html_ae945095c178be9da7cd5a787e1c1bb1d"><div class="ttname"><a href="armos_8c.html#ae945095c178be9da7cd5a787e1c1bb1d">sub_080304F4</a></div><div class="ttdeci">void sub_080304F4(ArmosEntity *this)</div><div class="ttdef"><b>Definition:</b> armos.c:259</div></div>
+<div class="ttc" id="aarmos_8c_html_af17e7356d2310052e7481b7b620b3d5f"><div class="ttname"><a href="armos_8c.html#af17e7356d2310052e7481b7b620b3d5f">sub_08030474</a></div><div class="ttdeci">void sub_08030474(ArmosEntity *this)</div><div class="ttdef"><b>Definition:</b> armos.c:227</div></div>
+<div class="ttc" id="aarmos_8c_html_af9b0556cc94a45e0771be2d4d7a94894"><div class="ttname"><a href="armos_8c.html#af9b0556cc94a45e0771be2d4d7a94894">sub_08030430</a></div><div class="ttdeci">void sub_08030430(ArmosEntity *this)</div><div class="ttdef"><b>Definition:</b> armos.c:213</div></div>
 </div><!-- fragment -->
 </div>
 </div>

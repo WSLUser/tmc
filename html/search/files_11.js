@@ -39,9 +39,9 @@ var searchData=
   ['sturgeon_2ec_36',['sturgeon.c',['../sturgeon_8c.html',1,'']]],
   ['sub_5f080451cc_2ec_37',['sub_080451CC.c',['../sub__080451CC_8c.html',1,'']]],
   ['sub_5f08055e08_2ec_38',['sub_08055E08.c',['../sub__08055E08_8c.html',1,'']]],
-  ['sub_5f0807b820_2ec_39',['sub_0807B820.c',['../sub__0807B820_8c.html',1,'']]],
-  ['sub_5f0807ca18_2ec_40',['sub_0807CA18.c',['../sub__0807CA18_8c.html',1,'']]],
-  ['subtask_2eh_41',['subtask.h',['../subtask_8h.html',1,'']]],
+  ['subtask_2ec_39',['subtask.c',['../subtask_8c.html',1,'']]],
+  ['subtask_2eh_40',['subtask.h',['../subtask_8h.html',1,'']]],
+  ['subtask2_2ec_41',['subtask2.c',['../subtask2_8c.html',1,'']]],
   ['swordsmannewsletter_2ec_42',['swordsmanNewsletter.c',['../swordsmanNewsletter_8c.html',1,'']]],
   ['syrup_2ec_43',['syrup.c',['../syrup_8c.html',1,'']]],
   ['syscall_2eh_44',['syscall.h',['../syscall_8h.html',1,'']]]

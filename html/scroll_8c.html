@@ -87,6 +87,9 @@ $(function() {
 <code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="game_8h_source.html">game.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="map_8h_source.html">map.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="asm_8h_source.html">asm.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="common_8h_source.html">common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="fileselect_8h_source.html">fileselect.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for scroll.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -94,49 +97,102 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="scroll_8c__incl.png" border="0" usemap="#asrc_2scroll_8c" alt=""/></div>
 <map name="asrc_2scroll_8c" id="asrc_2scroll_8c">
-<area shape="rect" title=" " alt="" coords="300,5,385,32"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="419,453,485,480"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="301,304,363,331"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="95,155,185,181"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="385,80,471,107"/>
-<area shape="rect" href="map_8h.html" title=" " alt="" coords="702,155,759,181"/>
-<area shape="rect" href="game_8h.html" title=" " alt="" coords="768,304,832,331"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="541,528,619,555"/>
-<area shape="rect" title=" " alt="" coords="292,603,356,629"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="939,603,1013,629"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="380,603,447,629"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="549,677,611,704"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="618,603,710,629"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="471,603,543,629"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="734,603,802,629"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="827,603,915,629"/>
-<area shape="rect" title=" " alt="" coords="942,677,1010,704"/>
-<area shape="rect" title=" " alt="" coords="548,752,612,779"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="215,379,275,405"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="300,379,364,405"/>
-<area shape="rect" href="player_8h.html" title=" " alt="" coords="144,229,211,256"/>
-<area shape="rect" href="manager_8h.html" title=" " alt="" coords="472,229,555,256"/>
-<area shape="rect" href="coord_8h.html" title=" " alt="" coords="579,229,643,256"/>
-<area shape="rect" href="room_8h.html" title=" " alt="" coords="387,229,448,256"/>
-<area shape="rect" href="script_8h.html" title=" " alt="" coords="361,155,425,181"/>
-<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="445,304,537,331"/>
-<area shape="rect" href="area_8h.html" title=" " alt="" coords="769,379,826,405"/>
+<area shape="rect" title=" " alt="" coords="643,5,728,32"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="637,528,704,555"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="295,379,358,405"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="541,229,632,256"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="436,155,521,181"/>
+<area shape="rect" href="map_8h.html" title=" " alt="" coords="657,229,714,256"/>
+<area shape="rect" href="game_8h.html" title=" " alt="" coords="829,379,893,405"/>
+<area shape="rect" href="asm_8h.html" title=" " alt="" coords="971,379,1029,405"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="1051,80,1133,107"/>
+<area shape="rect" href="fileselect_8h.html" title=" " alt="" coords="1157,80,1240,107"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="782,603,861,629"/>
+<area shape="rect" title=" " alt="" coords="487,677,551,704"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1134,677,1207,704"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1043,677,1109,704"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="686,752,749,779"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="671,677,763,704"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="575,677,647,704"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="787,677,855,704"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="880,677,968,704"/>
+<area shape="rect" title=" " alt="" coords="1137,752,1205,779"/>
+<area shape="rect" title=" " alt="" coords="685,827,749,853"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="297,453,357,480"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="381,453,445,480"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="491,304,557,331"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="43,304,125,331"/>
+<area shape="rect" href="coord_8h.html" title=" " alt="" coords="149,304,213,331"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="789,229,851,256"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="352,229,416,256"/>
+<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="734,304,826,331"/>
+<area shape="rect" href="area_8h.html" title=" " alt="" coords="835,453,893,480"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="1165,155,1232,181"/>
+<area shape="rect" href="save_8h.html" title=" " alt="" coords="790,155,850,181"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aee91752dfae832cde06ff86bfd7e651e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#aee91752dfae832cde06ff86bfd7e651e">sub_08080BC4</a> (void)</td></tr>
-<tr class="separator:aee91752dfae832cde06ff86bfd7e651e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a997ce604bb960142cf7545e743630acd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#a997ce604bb960142cf7545e743630acd">sub_080808D8</a> (void)</td></tr>
-<tr class="separator:a997ce604bb960142cf7545e743630acd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c2b2993d6721f67d97a12dae648b75a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#a9c2b2993d6721f67d97a12dae648b75a">sub_08080BC4</a> (void)</td></tr>
+<tr class="separator:a9c2b2993d6721f67d97a12dae648b75a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6abb59b89e0b9a71af4929d2aaf5df4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#a6abb59b89e0b9a71af4929d2aaf5df4f">sub_0807FC7C</a> (<a class="el" href="structRoomControls.html">RoomControls</a> *)</td></tr>
+<tr class="separator:a6abb59b89e0b9a71af4929d2aaf5df4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad590e515e1e758cdc01625bd5b451a7a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#ad590e515e1e758cdc01625bd5b451a7a">sub_080805F8</a> (void)</td></tr>
+<tr class="separator:ad590e515e1e758cdc01625bd5b451a7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3d089cd647158c30f896bbafa1ec65c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#af3d089cd647158c30f896bbafa1ec65c">UpdateScroll</a> (void)</td></tr>
+<tr class="separator:af3d089cd647158c30f896bbafa1ec65c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac468d5a9b16398d6f0d9adcaf204557c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#ac468d5a9b16398d6f0d9adcaf204557c">sub_0807FC64</a> (<a class="el" href="structRoomControls.html">RoomControls</a> *controls)</td></tr>
+<tr class="separator:ac468d5a9b16398d6f0d9adcaf204557c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e3f111977b5c58802a1a91734a59534"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#a0e3f111977b5c58802a1a91734a59534">sub_0807FDC8</a> (<a class="el" href="structRoomControls.html">RoomControls</a> *controls)</td></tr>
+<tr class="separator:a0e3f111977b5c58802a1a91734a59534"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9e55b60418dcda88427efc1c1447c41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#af9e55b60418dcda88427efc1c1447c41">sub_0807FDE4</a> (<a class="el" href="structRoomControls.html">RoomControls</a> *controls)</td></tr>
+<tr class="separator:af9e55b60418dcda88427efc1c1447c41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8027548c917c14e6b5a7edbcd9adb067"><td class="memItemLeft" align="right" valign="top">asm non_matching scroll sub_0807FDF8 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#a8027548c917c14e6b5a7edbcd9adb067">sub_0807FDF8</a> ()) void sub_0807FEC8(<a class="el" href="structRoomControls.html">RoomControls</a> *this)</td></tr>
+<tr class="separator:a8027548c917c14e6b5a7edbcd9adb067"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31086f93bfabb01b1904370d3a0bb7f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#a31086f93bfabb01b1904370d3a0bb7f8">sub_0807FEF0</a> (<a class="el" href="structRoomControls.html">RoomControls</a> *controls)</td></tr>
+<tr class="separator:a31086f93bfabb01b1904370d3a0bb7f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa146a7113ca6300760fb19482bba591a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#aa146a7113ca6300760fb19482bba591a">sub_0807FF08</a> (<a class="el" href="structRoomControls.html">RoomControls</a> *controls)</td></tr>
+<tr class="separator:aa146a7113ca6300760fb19482bba591a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a856ffa9d2e196e6794b61aaa5a33ea34"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#a856ffa9d2e196e6794b61aaa5a33ea34">sub_0807FF1C</a> (<a class="el" href="structRoomControls.html">RoomControls</a> *controls)</td></tr>
+<tr class="separator:a856ffa9d2e196e6794b61aaa5a33ea34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba5bfeae7d5400a77709682b4de9c366"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#aba5bfeae7d5400a77709682b4de9c366">sub_0807FF54</a> (<a class="el" href="structRoomControls.html">RoomControls</a> *controls)</td></tr>
+<tr class="separator:aba5bfeae7d5400a77709682b4de9c366"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1d00cccbeb49f55d948be87dc78d963"><td class="memItemLeft" align="right" valign="top">asm non_matching scroll sub_0807FF6C void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#ac1d00cccbeb49f55d948be87dc78d963">sub_0807FF6C</a> ()) 1(&quot;asm/non_matching/scroll/<a class="el" href="ui_8c.html#a65820f08ad65b0d8a4a5786046d67953">sub_0807FFE4.inc</a>&quot;</td></tr>
+<tr class="separator:ac1d00cccbeb49f55d948be87dc78d963"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a275326f75993b256bd98c3e4ef26b8ef"><td class="memItemLeft" align="right" valign="top">asm non_matching scroll <a class="el" href="scroll_8c.html#ac1d00cccbeb49f55d948be87dc78d963">sub_0807FF6C</a> void void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#a275326f75993b256bd98c3e4ef26b8ef">sub_0807FFE4</a> ()) 1(&quot;asm/non_matching/scroll/<a class="el" href="ui_8c.html#a65820f08ad65b0d8a4a5786046d67953">sub_08080040.inc</a>&quot;</td></tr>
+<tr class="separator:a275326f75993b256bd98c3e4ef26b8ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68055cec5291fc8a8910d9a46c0a7830"><td class="memItemLeft" align="right" valign="top">asm non_matching scroll <a class="el" href="scroll_8c.html#ac1d00cccbeb49f55d948be87dc78d963">sub_0807FF6C</a> void void void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#a68055cec5291fc8a8910d9a46c0a7830">sub_08080040</a> ()) 1(&quot;asm/non_matching/scroll/<a class="el" href="ui_8c.html#a65820f08ad65b0d8a4a5786046d67953">sub_08080108.inc</a>&quot;</td></tr>
+<tr class="separator:a68055cec5291fc8a8910d9a46c0a7830"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ebd3d4dfae8ec0441b4d39b26663594"><td class="memItemLeft" align="right" valign="top">asm non_matching scroll <a class="el" href="scroll_8c.html#ac1d00cccbeb49f55d948be87dc78d963">sub_0807FF6C</a> void void void void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#a3ebd3d4dfae8ec0441b4d39b26663594">sub_08080108</a> ()) void sub_08080198(<a class="el" href="structRoomControls.html">RoomControls</a> *controls)</td></tr>
+<tr class="separator:a3ebd3d4dfae8ec0441b4d39b26663594"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4256b156a76a6b6452d181530c649868"><td class="memItemLeft" align="right" valign="top">asm non_matching scroll sub_080801BC void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#a4256b156a76a6b6452d181530c649868">sub_080801BC</a> ()) 1(&quot;asm/non_matching/scroll/<a class="el" href="ui_8c.html#a65820f08ad65b0d8a4a5786046d67953">sub_08080278.inc</a>&quot;</td></tr>
+<tr class="separator:a4256b156a76a6b6452d181530c649868"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a159528e05e61b1316cb206f0eab30a3a"><td class="memItemLeft" align="right" valign="top">asm non_matching scroll <a class="el" href="scroll_8c.html#a4256b156a76a6b6452d181530c649868">sub_080801BC</a> void void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#a159528e05e61b1316cb206f0eab30a3a">sub_08080278</a> ()) 1(&quot;asm/non_matching/scroll/<a class="el" href="ui_8c.html#a65820f08ad65b0d8a4a5786046d67953">sub_08080368.inc</a>&quot;</td></tr>
+<tr class="separator:a159528e05e61b1316cb206f0eab30a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e97a1cf4f2f7af70d60c9f9b636a132"><td class="memItemLeft" align="right" valign="top">asm non_matching scroll <a class="el" href="scroll_8c.html#a4256b156a76a6b6452d181530c649868">sub_080801BC</a> void void void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#a4e97a1cf4f2f7af70d60c9f9b636a132">sub_08080368</a> ()) 1(&quot;asm/non_matching/scroll/<a class="el" href="ui_8c.html#a65820f08ad65b0d8a4a5786046d67953">sub_080803D0.inc</a>&quot;</td></tr>
+<tr class="separator:a4e97a1cf4f2f7af70d60c9f9b636a132"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a13084fbe18aa4abbac36db92b207dc"><td class="memItemLeft" align="right" valign="top">asm non_matching scroll <a class="el" href="scroll_8c.html#a4256b156a76a6b6452d181530c649868">sub_080801BC</a> void void void void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#a8a13084fbe18aa4abbac36db92b207dc">sub_080803D0</a> ()) void <a class="el" href="scroll_8c.html#ad590e515e1e758cdc01625bd5b451a7a">sub_080805F8</a>(void)</td></tr>
+<tr class="separator:a8a13084fbe18aa4abbac36db92b207dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed511425ab86e64a5ff0addb4bdd24a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#aed511425ab86e64a5ff0addb4bdd24a8">ClearTilemaps</a> (void)</td></tr>
+<tr class="separator:aed511425ab86e64a5ff0addb4bdd24a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef7f023563232a0f0a5244b1e51ff5cb"><td class="memItemLeft" align="right" valign="top">asm non_matching scroll sub_080806BC <a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#aef7f023563232a0f0a5244b1e51ff5cb">sub_080806BC</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> a, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> b, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> c, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> d)) 1(&quot;asm/non_matching/scroll/<a class="el" href="ui_8c.html#a65820f08ad65b0d8a4a5786046d67953">sub_08080734.inc</a>&quot;</td></tr>
+<tr class="separator:aef7f023563232a0f0a5244b1e51ff5cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33736bc707012a9ab57e464ce5f1b978"><td class="memItemLeft" align="right" valign="top">asm non_matching scroll <a class="el" href="functions_8h.html#a8455926be15e33526dcdda935bbbc7cb">sub_080806BC</a> <a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#a33736bc707012a9ab57e464ce5f1b978">sub_08080734</a> ()) 1(&quot;asm/non_matching/scroll/<a class="el" href="ui_8c.html#a65820f08ad65b0d8a4a5786046d67953">sub_08080794.inc</a>&quot;</td></tr>
+<tr class="separator:a33736bc707012a9ab57e464ce5f1b978"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e05557da43bcab3694290a6939e892f"><td class="memItemLeft" align="right" valign="top">asm non_matching scroll <a class="el" href="functions_8h.html#a8455926be15e33526dcdda935bbbc7cb">sub_080806BC</a> <a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a> void void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#a8e05557da43bcab3694290a6939e892f">sub_08080794</a> ()) 1(&quot;asm/non_matching/scroll/<a class="el" href="ui_8c.html#a65820f08ad65b0d8a4a5786046d67953">sub_08080808.inc</a>&quot;</td></tr>
+<tr class="separator:a8e05557da43bcab3694290a6939e892f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a629d491f0aab6df18a2dda3d3402ee56"><td class="memItemLeft" align="right" valign="top">asm non_matching scroll <a class="el" href="functions_8h.html#a8455926be15e33526dcdda935bbbc7cb">sub_080806BC</a> <a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a> void void void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#a629d491f0aab6df18a2dda3d3402ee56">sub_08080808</a> ()) 1(&quot;asm/non_matching/scroll/<a class="el" href="ui_8c.html#a65820f08ad65b0d8a4a5786046d67953">DoExitTransition.inc</a>&quot;</td></tr>
+<tr class="separator:a629d491f0aab6df18a2dda3d3402ee56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac85e42055f5d695cbf832e53658dbaf3"><td class="memItemLeft" align="right" valign="top">asm non_matching scroll <a class="el" href="functions_8h.html#a8455926be15e33526dcdda935bbbc7cb">sub_080806BC</a> <a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a> void void void void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#ac85e42055f5d695cbf832e53658dbaf3">DoExitTransition</a> (const <a class="el" href="structScreenTransitionData.html">ScreenTransitionData</a> *data)) void sub_080808D8(void)</td></tr>
+<tr class="separator:ac85e42055f5d695cbf832e53658dbaf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec379275a583915152a84b47aad381c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#aec379275a583915152a84b47aad381c7">sub_080808E4</a> (void)</td></tr>
 <tr class="separator:aec379275a583915152a84b47aad381c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22388be617f45df4ba5b82bb2703e107"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#a22388be617f45df4ba5b82bb2703e107">sub_08080904</a> (void)</td></tr>
 <tr class="separator:a22388be617f45df4ba5b82bb2703e107"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd63108a8ec2ad45d0ad0a8b7a3f14ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#acd63108a8ec2ad45d0ad0a8b7a3f14ec">sub_08080910</a> (void)</td></tr>
 <tr class="separator:acd63108a8ec2ad45d0ad0a8b7a3f14ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a432c02b92635cb3beb76e4fba1667d24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#a432c02b92635cb3beb76e4fba1667d24">sub_0808091C</a> (const <a class="el" href="structScreenTransitionData.html">ScreenTransitionData</a> *param_1, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="el" href="pushableFurniture_8c.html#af96d724fb4144c382992a9ef4929b7fb">param_2</a>)</td></tr>
+<tr class="memitem:a432c02b92635cb3beb76e4fba1667d24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#a432c02b92635cb3beb76e4fba1667d24">sub_0808091C</a> (const <a class="el" href="structScreenTransitionData.html">ScreenTransitionData</a> *param_1, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="el" href="subtask2_8c.html#a016929c9398b0110595887ef9ca0483c">param_2</a>)</td></tr>
 <tr class="separator:a432c02b92635cb3beb76e4fba1667d24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad822ae2985a1c7c22a60ad328943efc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#aad822ae2985a1c7c22a60ad328943efc">sub_08080930</a> (void)</td></tr>
 <tr class="separator:aad822ae2985a1c7c22a60ad328943efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,13 +204,65 @@ Functions</h2></td></tr>
 <tr class="separator:a1a74d004559543ceb210391c797f4e1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf0ea47666018fdc1509688deaeb5099"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#aaf0ea47666018fdc1509688deaeb5099">sub_080809D4</a> (void)</td></tr>
 <tr class="separator:aaf0ea47666018fdc1509688deaeb5099"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90a9dcfd1c357fd402868b1138f434ca"><td class="memItemLeft" align="right" valign="top">asm non_matching scroll UpdateDoorTransition void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#a90a9dcfd1c357fd402868b1138f434ca">UpdateDoorTransition</a> ()) 1(&quot;asm/non_matching/scroll/<a class="el" href="ui_8c.html#a65820f08ad65b0d8a4a5786046d67953">sub_08080B60.inc</a>&quot;</td></tr>
+<tr class="separator:a90a9dcfd1c357fd402868b1138f434ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16c5e700c69085ecf054375b82403941"><td class="memItemLeft" align="right" valign="top">asm non_matching scroll <a class="el" href="scroll_8c.html#a90a9dcfd1c357fd402868b1138f434ca">UpdateDoorTransition</a> void void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#a16c5e700c69085ecf054375b82403941">sub_08080B60</a> ()) 1(&quot;asm/non_matching/scroll/<a class="el" href="ui_8c.html#a65820f08ad65b0d8a4a5786046d67953">sub_08080BC4.inc</a>&quot;</td></tr>
+<tr class="separator:a16c5e700c69085ecf054375b82403941"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c22d24a3f879086e8295f982cc3c118"><td class="memItemLeft" align="right" valign="top">asm non_matching scroll <a class="el" href="scroll_8c.html#a90a9dcfd1c357fd402868b1138f434ca">UpdateDoorTransition</a> void void void void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#a0c22d24a3f879086e8295f982cc3c118">sub_08080C80</a> ()) 1(&quot;asm/non_matching/scroll/<a class="el" href="ui_8c.html#a65820f08ad65b0d8a4a5786046d67953">sub_08080CB4.inc</a>&quot;</td></tr>
+<tr class="separator:a0c22d24a3f879086e8295f982cc3c118"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a9826f31a307186987c06c97074637fd7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#a9826f31a307186987c06c97074637fd7">gUpdateVisibleTiles</a></td></tr>
 <tr class="separator:a9826f31a307186987c06c97074637fd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa458f8c0d2249ddc70449e1f99d12434"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#aa458f8c0d2249ddc70449e1f99d12434">gUnk_0811E768</a> [])(<a class="el" href="structRoomControls.html">RoomControls</a> *)</td></tr>
+<tr class="separator:aa458f8c0d2249ddc70449e1f99d12434"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1e0f6ccee2b86e81b8b2ee6d4d3be72"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#af1e0f6ccee2b86e81b8b2ee6d4d3be72">gUnk_0811E780</a> [])(<a class="el" href="structRoomControls.html">RoomControls</a> *)</td></tr>
+<tr class="separator:af1e0f6ccee2b86e81b8b2ee6d4d3be72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a467b633e59fbe5499f5f3dbecba25053"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#a467b633e59fbe5499f5f3dbecba25053">gUnk_0811E794</a> [])(<a class="el" href="structRoomControls.html">RoomControls</a> *)</td></tr>
+<tr class="separator:a467b633e59fbe5499f5f3dbecba25053"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcd9235f7c778a57a9eb83cc4a8e5c4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#abcd9235f7c778a57a9eb83cc4a8e5c4c">gMapDataTopSpecial</a> []</td></tr>
+<tr class="separator:abcd9235f7c778a57a9eb83cc4a8e5c4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1acc95c391b71f788ca53bceb65d117d"><td class="memItemLeft" align="right" valign="top">asm non_matching scroll <a class="el" href="scroll_8c.html#a6abb59b89e0b9a71af4929d2aaf5df4f">sub_0807FC7C</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scroll_8c.html#a1acc95c391b71f788ca53bceb65d117d">inc</a></td></tr>
+<tr class="separator:a1acc95c391b71f788ca53bceb65d117d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="aed511425ab86e64a5ff0addb4bdd24a8" name="aed511425ab86e64a5ff0addb4bdd24a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed511425ab86e64a5ff0addb4bdd24a8">&#9670;&nbsp;</a></span>ClearTilemaps()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ClearTilemaps </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac85e42055f5d695cbf832e53658dbaf3" name="ac85e42055f5d695cbf832e53658dbaf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac85e42055f5d695cbf832e53658dbaf3">&#9670;&nbsp;</a></span>DoExitTransition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm non_matching scroll <a class="el" href="functions_8h.html#a8455926be15e33526dcdda935bbbc7cb">sub_080806BC</a> <a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a> void void void void DoExitTransition </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structScreenTransitionData.html">ScreenTransitionData</a> *&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a031f92ebeebb468d06069f804ed3bb46" name="a031f92ebeebb468d06069f804ed3bb46"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a031f92ebeebb468d06069f804ed3bb46">&#9670;&nbsp;</a></span>GetLayerByIndex()</h2>
 
@@ -201,16 +309,404 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a997ce604bb960142cf7545e743630acd" name="a997ce604bb960142cf7545e743630acd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a997ce604bb960142cf7545e743630acd">&#9670;&nbsp;</a></span>sub_080808D8()</h2>
+<a id="ac468d5a9b16398d6f0d9adcaf204557c" name="ac468d5a9b16398d6f0d9adcaf204557c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac468d5a9b16398d6f0d9adcaf204557c">&#9670;&nbsp;</a></span>sub_0807FC64()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sub_080808D8 </td>
+          <td class="memname">void sub_0807FC64 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structRoomControls.html">RoomControls</a> *&#160;</td>
+          <td class="paramname"><em>controls</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6abb59b89e0b9a71af4929d2aaf5df4f" name="a6abb59b89e0b9a71af4929d2aaf5df4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6abb59b89e0b9a71af4929d2aaf5df4f">&#9670;&nbsp;</a></span>sub_0807FC7C()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm non_matching scroll sub_0807FC7C void sub_0807FC7C </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structRoomControls.html">RoomControls</a> *&#160;</td>
+          <td class="paramname"><em>controls</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0e3f111977b5c58802a1a91734a59534" name="a0e3f111977b5c58802a1a91734a59534"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e3f111977b5c58802a1a91734a59534">&#9670;&nbsp;</a></span>sub_0807FDC8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_0807FDC8 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structRoomControls.html">RoomControls</a> *&#160;</td>
+          <td class="paramname"><em>controls</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af9e55b60418dcda88427efc1c1447c41" name="af9e55b60418dcda88427efc1c1447c41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9e55b60418dcda88427efc1c1447c41">&#9670;&nbsp;</a></span>sub_0807FDE4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_0807FDE4 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structRoomControls.html">RoomControls</a> *&#160;</td>
+          <td class="paramname"><em>controls</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8027548c917c14e6b5a7edbcd9adb067" name="a8027548c917c14e6b5a7edbcd9adb067"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8027548c917c14e6b5a7edbcd9adb067">&#9670;&nbsp;</a></span>sub_0807FDF8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm non_matching scroll sub_0807FDF8 void sub_0807FDF8 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a31086f93bfabb01b1904370d3a0bb7f8" name="a31086f93bfabb01b1904370d3a0bb7f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31086f93bfabb01b1904370d3a0bb7f8">&#9670;&nbsp;</a></span>sub_0807FEF0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_0807FEF0 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structRoomControls.html">RoomControls</a> *&#160;</td>
+          <td class="paramname"><em>controls</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa146a7113ca6300760fb19482bba591a" name="aa146a7113ca6300760fb19482bba591a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa146a7113ca6300760fb19482bba591a">&#9670;&nbsp;</a></span>sub_0807FF08()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_0807FF08 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structRoomControls.html">RoomControls</a> *&#160;</td>
+          <td class="paramname"><em>controls</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a856ffa9d2e196e6794b61aaa5a33ea34" name="a856ffa9d2e196e6794b61aaa5a33ea34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a856ffa9d2e196e6794b61aaa5a33ea34">&#9670;&nbsp;</a></span>sub_0807FF1C()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_0807FF1C </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structRoomControls.html">RoomControls</a> *&#160;</td>
+          <td class="paramname"><em>controls</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba5bfeae7d5400a77709682b4de9c366" name="aba5bfeae7d5400a77709682b4de9c366"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba5bfeae7d5400a77709682b4de9c366">&#9670;&nbsp;</a></span>sub_0807FF54()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_0807FF54 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structRoomControls.html">RoomControls</a> *&#160;</td>
+          <td class="paramname"><em>controls</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac1d00cccbeb49f55d948be87dc78d963" name="ac1d00cccbeb49f55d948be87dc78d963"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1d00cccbeb49f55d948be87dc78d963">&#9670;&nbsp;</a></span>sub_0807FF6C()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm non_matching scroll sub_0807FF6C void sub_0807FF6C </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a275326f75993b256bd98c3e4ef26b8ef" name="a275326f75993b256bd98c3e4ef26b8ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a275326f75993b256bd98c3e4ef26b8ef">&#9670;&nbsp;</a></span>sub_0807FFE4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm non_matching scroll <a class="el" href="scroll_8c.html#ac1d00cccbeb49f55d948be87dc78d963">sub_0807FF6C</a> void void sub_0807FFE4 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a68055cec5291fc8a8910d9a46c0a7830" name="a68055cec5291fc8a8910d9a46c0a7830"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68055cec5291fc8a8910d9a46c0a7830">&#9670;&nbsp;</a></span>sub_08080040()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm non_matching scroll <a class="el" href="scroll_8c.html#ac1d00cccbeb49f55d948be87dc78d963">sub_0807FF6C</a> void void void sub_08080040 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3ebd3d4dfae8ec0441b4d39b26663594" name="a3ebd3d4dfae8ec0441b4d39b26663594"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ebd3d4dfae8ec0441b4d39b26663594">&#9670;&nbsp;</a></span>sub_08080108()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm non_matching scroll <a class="el" href="scroll_8c.html#ac1d00cccbeb49f55d948be87dc78d963">sub_0807FF6C</a> void void void void sub_08080108 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4256b156a76a6b6452d181530c649868" name="a4256b156a76a6b6452d181530c649868"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4256b156a76a6b6452d181530c649868">&#9670;&nbsp;</a></span>sub_080801BC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm non_matching scroll sub_080801BC void sub_080801BC </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a159528e05e61b1316cb206f0eab30a3a" name="a159528e05e61b1316cb206f0eab30a3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a159528e05e61b1316cb206f0eab30a3a">&#9670;&nbsp;</a></span>sub_08080278()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm non_matching scroll <a class="el" href="scroll_8c.html#a4256b156a76a6b6452d181530c649868">sub_080801BC</a> void void sub_08080278 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4e97a1cf4f2f7af70d60c9f9b636a132" name="a4e97a1cf4f2f7af70d60c9f9b636a132"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e97a1cf4f2f7af70d60c9f9b636a132">&#9670;&nbsp;</a></span>sub_08080368()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm non_matching scroll <a class="el" href="scroll_8c.html#a4256b156a76a6b6452d181530c649868">sub_080801BC</a> void void void sub_08080368 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8a13084fbe18aa4abbac36db92b207dc" name="a8a13084fbe18aa4abbac36db92b207dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a13084fbe18aa4abbac36db92b207dc">&#9670;&nbsp;</a></span>sub_080803D0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm non_matching scroll <a class="el" href="scroll_8c.html#a4256b156a76a6b6452d181530c649868">sub_080801BC</a> void void void void sub_080803D0 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad590e515e1e758cdc01625bd5b451a7a" name="ad590e515e1e758cdc01625bd5b451a7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad590e515e1e758cdc01625bd5b451a7a">&#9670;&nbsp;</a></span>sub_080805F8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_080805F8 </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aef7f023563232a0f0a5244b1e51ff5cb" name="aef7f023563232a0f0a5244b1e51ff5cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef7f023563232a0f0a5244b1e51ff5cb">&#9670;&nbsp;</a></span>sub_080806BC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm non_matching scroll sub_080806BC <a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a> sub_080806BC </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>d</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a33736bc707012a9ab57e464ce5f1b978" name="a33736bc707012a9ab57e464ce5f1b978"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33736bc707012a9ab57e464ce5f1b978">&#9670;&nbsp;</a></span>sub_08080734()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm non_matching scroll <a class="el" href="functions_8h.html#a8455926be15e33526dcdda935bbbc7cb">sub_080806BC</a> <a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a> void sub_08080734 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8e05557da43bcab3694290a6939e892f" name="a8e05557da43bcab3694290a6939e892f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e05557da43bcab3694290a6939e892f">&#9670;&nbsp;</a></span>sub_08080794()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm non_matching scroll <a class="el" href="functions_8h.html#a8455926be15e33526dcdda935bbbc7cb">sub_080806BC</a> <a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a> void void sub_08080794 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a629d491f0aab6df18a2dda3d3402ee56" name="a629d491f0aab6df18a2dda3d3402ee56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a629d491f0aab6df18a2dda3d3402ee56">&#9670;&nbsp;</a></span>sub_08080808()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm non_matching scroll <a class="el" href="functions_8h.html#a8455926be15e33526dcdda935bbbc7cb">sub_080806BC</a> <a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a> void void void sub_08080808 </td>
+          <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -365,14 +861,84 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aee91752dfae832cde06ff86bfd7e651e" name="aee91752dfae832cde06ff86bfd7e651e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee91752dfae832cde06ff86bfd7e651e">&#9670;&nbsp;</a></span>sub_08080BC4()</h2>
+<a id="a16c5e700c69085ecf054375b82403941" name="a16c5e700c69085ecf054375b82403941"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16c5e700c69085ecf054375b82403941">&#9670;&nbsp;</a></span>sub_08080B60()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sub_08080BC4 </td>
+          <td class="memname">asm non_matching scroll <a class="el" href="scroll_8c.html#a90a9dcfd1c357fd402868b1138f434ca">UpdateDoorTransition</a> void void sub_08080B60 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9c2b2993d6721f67d97a12dae648b75a" name="a9c2b2993d6721f67d97a12dae648b75a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c2b2993d6721f67d97a12dae648b75a">&#9670;&nbsp;</a></span>sub_08080BC4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm non_matching scroll <a class="el" href="scroll_8c.html#a90a9dcfd1c357fd402868b1138f434ca">UpdateDoorTransition</a> void void void sub_08080BC4 </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0c22d24a3f879086e8295f982cc3c118" name="a0c22d24a3f879086e8295f982cc3c118"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c22d24a3f879086e8295f982cc3c118">&#9670;&nbsp;</a></span>sub_08080C80()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm non_matching scroll <a class="el" href="scroll_8c.html#a90a9dcfd1c357fd402868b1138f434ca">UpdateDoorTransition</a> void void void void sub_08080C80 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a90a9dcfd1c357fd402868b1138f434ca" name="a90a9dcfd1c357fd402868b1138f434ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90a9dcfd1c357fd402868b1138f434ca">&#9670;&nbsp;</a></span>UpdateDoorTransition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm non_matching scroll UpdateDoorTransition void UpdateDoorTransition </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af3d089cd647158c30f896bbafa1ec65c" name="af3d089cd647158c30f896bbafa1ec65c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3d089cd647158c30f896bbafa1ec65c">&#9670;&nbsp;</a></span>UpdateScroll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UpdateScroll </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -384,6 +950,106 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="abcd9235f7c778a57a9eb83cc4a8e5c4c" name="abcd9235f7c778a57a9eb83cc4a8e5c4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcd9235f7c778a57a9eb83cc4a8e5c4c">&#9670;&nbsp;</a></span>gMapDataTopSpecial</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gMapDataTopSpecial[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa458f8c0d2249ddc70449e1f99d12434" name="aa458f8c0d2249ddc70449e1f99d12434"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa458f8c0d2249ddc70449e1f99d12434">&#9670;&nbsp;</a></span>gUnk_0811E768</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(*const gUnk_0811E768[])(<a class="el" href="structRoomControls.html">RoomControls</a> *) </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structRoomControls.html">RoomControls</a> *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af1e0f6ccee2b86e81b8b2ee6d4d3be72" name="af1e0f6ccee2b86e81b8b2ee6d4d3be72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1e0f6ccee2b86e81b8b2ee6d4d3be72">&#9670;&nbsp;</a></span>gUnk_0811E780</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(*const gUnk_0811E780[])(<a class="el" href="structRoomControls.html">RoomControls</a> *) </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structRoomControls.html">RoomControls</a> *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a467b633e59fbe5499f5f3dbecba25053" name="a467b633e59fbe5499f5f3dbecba25053"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a467b633e59fbe5499f5f3dbecba25053">&#9670;&nbsp;</a></span>gUnk_0811E794</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(*const gUnk_0811E794[])(<a class="el" href="structRoomControls.html">RoomControls</a> *) </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structRoomControls.html">RoomControls</a> *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9826f31a307186987c06c97074637fd7" name="a9826f31a307186987c06c97074637fd7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9826f31a307186987c06c97074637fd7">&#9670;&nbsp;</a></span>gUpdateVisibleTiles</h2>
 
@@ -402,6 +1068,20 @@ Variables</h2></td></tr>
 <span class="mlabels"><span class="mlabel">extern</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1acc95c391b71f788ca53bceb65d117d" name="a1acc95c391b71f788ca53bceb65d117d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1acc95c391b71f788ca53bceb65d117d">&#9670;&nbsp;</a></span>inc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm non_matching scroll <a class="el" href="scroll_8c.html#a90a9dcfd1c357fd402868b1138f434ca">UpdateDoorTransition</a> inc</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

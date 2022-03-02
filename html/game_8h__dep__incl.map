@@ -1,5 +1,5 @@
 <map id="include/game.h" name="include/game.h">
-<area shape="rect" id="node1" title=" " alt="" coords="3044,5,3153,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="3207,5,3316,32"/>
 <area shape="rect" id="node2" href="$collision_8c.html" title=" " alt="" coords="5,87,107,114"/>
 <area shape="rect" id="node3" href="$common_8c.html" title=" " alt="" coords="131,87,235,114"/>
 <area shape="rect" id="node4" href="$debug_8c.html" title="Debug task." alt="" coords="259,87,349,114"/>
@@ -31,10 +31,12 @@
 <area shape="rect" id="node30" href="$pullableMushroom_8c.html" title="Pullable Mushroom object." alt="" coords="4879,87,5078,114"/>
 <area shape="rect" id="node31" href="$warpPoint_8c.html" title=" " alt="" coords="5102,87,5253,114"/>
 <area shape="rect" id="node32" href="$player_8c.html" title="Player entity." alt="" coords="5277,87,5365,114"/>
-<area shape="rect" id="node33" href="$mandiblesProjectile_8c.html" title=" " alt="" coords="5390,80,5549,121"/>
-<area shape="rect" id="node34" href="$room_8c.html" title=" " alt="" coords="5573,87,5656,114"/>
-<area shape="rect" id="node35" href="$roomInit_8c.html" title=" " alt="" coords="5680,87,5781,114"/>
-<area shape="rect" id="node36" href="$save_8c.html" title=" " alt="" coords="5805,87,5888,114"/>
-<area shape="rect" id="node37" href="$script_8c.html" title=" " alt="" coords="5913,87,5999,114"/>
-<area shape="rect" id="node38" href="$scroll_8c.html" title=" " alt="" coords="6024,87,6109,114"/>
+<area shape="rect" id="node33" href="$playerUtils_8c.html" title=" " alt="" coords="5389,87,5504,114"/>
+<area shape="rect" id="node34" href="$mandiblesProjectile_8c.html" title=" " alt="" coords="5529,80,5687,121"/>
+<area shape="rect" id="node35" href="$room_8c.html" title=" " alt="" coords="5712,87,5795,114"/>
+<area shape="rect" id="node36" href="$roomInit_8c.html" title=" " alt="" coords="5819,87,5920,114"/>
+<area shape="rect" id="node37" href="$save_8c.html" title=" " alt="" coords="5944,87,6027,114"/>
+<area shape="rect" id="node38" href="$script_8c.html" title=" " alt="" coords="6051,87,6138,114"/>
+<area shape="rect" id="node39" href="$scroll_8c.html" title=" " alt="" coords="6163,87,6248,114"/>
+<area shape="rect" id="node40" href="$subtask2_8c.html" title=" " alt="" coords="6272,87,6379,114"/>
 </map>

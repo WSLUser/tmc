@@ -1,7 +1,8 @@
 <map id="PlayerState" name="PlayerState">
-<area shape="rect" id="node1" title=" " alt="" coords="93,331,183,357"/>
+<area shape="rect" id="node1" title=" " alt="" coords="143,331,232,357"/>
 <area shape="rect" id="node2" href="$structEntity.html" title="Container for instantiable behavior." alt="" coords="111,241,165,268"/>
 <area shape="rect" id="node3" href="$unionSplitWord.html" title=" " alt="" coords="5,5,84,32"/>
 <area shape="rect" id="node4" href="$structHitbox.html" title="Hitbox structure." alt="" coords="109,5,167,32"/>
 <area shape="rect" id="node5" href="$unionSplitHWord.html" title=" " alt="" coords="191,5,279,32"/>
+<area shape="rect" id="node6" href="$structChargeState.html" title=" " alt="" coords="189,241,284,268"/>
 </map>
