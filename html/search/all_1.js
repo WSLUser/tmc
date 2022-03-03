@@ -95,7 +95,7 @@ var searchData=
   ['animationstatewalk_92',['AnimationStateWalk',['../entity_8h.html#a73f0934bf3421c2123707edf1c6f1b00',1,'entity.h']]],
   ['animflags_93',['animFlags',['../structRoomVars.html#aec25df8de09fcbe3c385394cbf968b57',1,'RoomVars']]],
   ['animindex_94',['animIndex',['../structgUnk__0811B9A8__struct.html#ab8d2138571ba4606dd8d16a26e1300bf',1,'gUnk_0811B9A8_struct::animIndex()'],['../structstruct__081299F8.html#a13cbede445c436d7b7418a50f236b518',1,'struct_081299F8::animIndex()'],['../structEntity.html#a33d98988b93ad534ee76fd01bd8db210',1,'Entity::animIndex()'],['../structSpriteLoadData.html#aa04e38261e71c86b4e6d34993230beea',1,'SpriteLoadData::animIndex()']]],
-  ['animptr_95',['animPtr',['../structEntity.html#ab4d11224f92f89c14d993bdad4ee61ad',1,'Entity']]],
+  ['animptr_95',['animPtr',['../structEntity.html#a6dc095da2c8ee90f033cde0fea531ed5',1,'Entity']]],
   ['anju_96',['Anju',['../anju_8c.html#a72a430a008baa75a20a55ddf0221f019',1,'Anju(Entity *this):&#160;anju.c'],['../npc_8h.html#a8398e347d2987834f2258e0340a1d464',1,'Anju(Entity *):&#160;anju.c']]],
   ['anju_97',['ANJU',['../npc_8h.html#ab86484a9fbeb0e4494cb75cadb5f4cf3aaac390f2fa7f7661c1fb2dc0afd42c1d',1,'npc.h']]],
   ['anju_2ec_98',['anju.c',['../anju_8c.html',1,'']]],

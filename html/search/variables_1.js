@@ -27,7 +27,7 @@ var searchData=
   ['animationstate_24',['animationState',['../structEntity.html#a5410b327717551069d1a5251161b4390',1,'Entity']]],
   ['animflags_25',['animFlags',['../structRoomVars.html#aec25df8de09fcbe3c385394cbf968b57',1,'RoomVars']]],
   ['animindex_26',['animIndex',['../structSpriteLoadData.html#aa04e38261e71c86b4e6d34993230beea',1,'SpriteLoadData::animIndex()'],['../structstruct__081299F8.html#a13cbede445c436d7b7418a50f236b518',1,'struct_081299F8::animIndex()'],['../structgUnk__0811B9A8__struct.html#ab8d2138571ba4606dd8d16a26e1300bf',1,'gUnk_0811B9A8_struct::animIndex()'],['../structEntity.html#a33d98988b93ad534ee76fd01bd8db210',1,'Entity::animIndex()']]],
-  ['animptr_27',['animPtr',['../structEntity.html#ab4d11224f92f89c14d993bdad4ee61ad',1,'Entity']]],
+  ['animptr_27',['animPtr',['../structEntity.html#a6dc095da2c8ee90f033cde0fea531ed5',1,'Entity']]],
   ['area_28',['area',['../structScreenTransitionData.html#a5ca60e010e6d350bfdc5ec424b2f8b61',1,'ScreenTransitionData::area()'],['../structCutsceneData.html#a77245155f67cc753f6dff74d1a992465',1,'CutsceneData::area()'],['../structRoomControls.html#a9a7c09bff7678fe03e2ccb6cf1645768',1,'RoomControls::area()']]],
   ['area_5fhyruletown_29',['Area_HyruleTown',['../roomInit_8c.html#a4c47caa1091e34e22e23d52670cb3999',1,'roomInit.c']]],
   ['area_5fnext_30',['area_next',['../structPlayerRoomStatus.html#a845e94c3d811a70c8e151cba5a49a2fb',1,'PlayerRoomStatus']]],
