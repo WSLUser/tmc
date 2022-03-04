@@ -17,7 +17,7 @@ var searchData=
   ['wallmaster_5fontick_14',['WallMaster_OnTick',['../wallMaster_8c.html#afe985e389cfb09cf0aacc575853340eb',1,'wallMaster.c']]],
   ['warppoint_15',['WarpPoint',['../warpPoint_8c.html#adf2b5a71d6b08faffa486e6d6bd3438c',1,'WarpPoint(Entity *this):&#160;warpPoint.c'],['../object_8h.html#a15eff706caf4bad35e8a9c21fd7d8dcc',1,'WarpPoint(Entity *):&#160;warpPoint.c']]],
   ['waterdrop_16',['WaterDrop',['../waterDrop_8c.html#af90c1e1b700f24fea3b806d889e34c1d',1,'WaterDrop(Entity *this):&#160;waterDrop.c'],['../enemy_8h.html#a15ed58044af3e70cd9f9d132355ebfd7',1,'WaterDrop(Entity *):&#160;waterDrop.c']]],
-  ['waterfallopening_17',['WaterfallOpening',['../object_8h.html#a6fa854af11de3cf782091000b079d928',1,'object.h']]],
+  ['waterfallopening_17',['WaterfallOpening',['../waterfallOpening_8c.html#a64c2c3a5f7b92eed85c15253fd5e56d5',1,'WaterfallOpening(Entity *this):&#160;waterfallOpening.c'],['../object_8h.html#a6fa854af11de3cf782091000b079d928',1,'WaterfallOpening(Entity *):&#160;waterfallOpening.c']]],
   ['well_18',['Well',['../object_8h.html#a29b0b78fd252ee472836ca4f16ad82af',1,'Well(Entity *):&#160;well.c'],['../well_8c.html#a2187c1992dd490d5781ae932fa152ca3',1,'Well(Entity *ent):&#160;well.c']]],
   ['wheaton_19',['Wheaton',['../wheaton_8c.html#a359411fee361c2ea97b3442c2551dcde',1,'Wheaton(Entity *this):&#160;wheaton.c'],['../npc_8h.html#ab5678dff6b5ed2568b0cf0faf9e657a3',1,'Wheaton(Entity *):&#160;wheaton.c']]],
   ['whirlwind_20',['Whirlwind',['../whirlwind_8c.html#a7d054b7b8132feb6b5c41b3f0ef1b4db',1,'Whirlwind(Entity *this):&#160;whirlwind.c'],['../object_8h.html#a099073e21b24c3170b4e926d5d34b523',1,'Whirlwind(Entity *):&#160;whirlwind.c']]],
