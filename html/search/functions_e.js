@@ -79,7 +79,7 @@ var searchData=
   ['nullsub_5f5_76',['nullsub_5',['../peahat_8c.html#aa52cbd1a28bf3f6ec01e4d6c519d61bc',1,'peahat.c']]],
   ['nullsub_5f501_77',['nullsub_501',['../smith_8c.html#af56a80ac52ee6331b7ad1bf0d81a5a79',1,'smith.c']]],
   ['nullsub_5f502_78',['nullsub_502',['../melari_8c.html#ab716b2e5cab76fdff6966f69a6a31004',1,'melari.c']]],
-  ['nullsub_5f503_79',['nullsub_503',['../rem_8c.html#a53baf827da50728f17de31b1957d9b30',1,'rem.c']]],
+  ['nullsub_5f503_79',['nullsub_503',['../rem_8c.html#ab43b264105e0000beb5f88e72c6158df',1,'rem.c']]],
   ['nullsub_5f506_80',['nullsub_506',['../playerUtils_8c.html#a1b5ff9ab7f1675168ffd802ffc5b712a',1,'playerUtils.c']]],
   ['nullsub_5f510_81',['nullsub_510',['../itemOnGround_8c.html#aaeed07f408fc3b31a9ce7d56e25edf0b',1,'itemOnGround.c']]],
   ['nullsub_5f511_82',['nullsub_511',['../pot_8c.html#a1b4c95f785256b3c5b6949adc4247efd',1,'pot.c']]],
