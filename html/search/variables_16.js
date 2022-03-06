@@ -53,5 +53,6 @@ var searchData=
   ['volumemastertarget_50',['volumeMasterTarget',['../structSoundPlayingInfo.html#afd33b82febebbdb987a6699c37dfe382',1,'SoundPlayingInfo']]],
   ['volumemasterunk_51',['volumeMasterUnk',['../structSoundPlayingInfo.html#a48d711580b4f057b7132643d1f8fd085',1,'SoundPlayingInfo']]],
   ['volumesfx_52',['volumeSfx',['../structSoundPlayingInfo.html#a428e5140fea5c0b9f746221275391266',1,'SoundPlayingInfo']]],
-  ['volx_53',['volX',['../structMusicPlayerTrack.html#af294b017649455fdabf3fedbf68fa8d6',1,'MusicPlayerTrack']]]
+  ['volx_53',['volX',['../structMusicPlayerTrack.html#af294b017649455fdabf3fedbf68fa8d6',1,'MusicPlayerTrack']]],
+  ['vramstatus_54',['vramStatus',['../structGfxSlot.html#a6701c9d692a95a69a5071d1ee7aed9f8',1,'GfxSlot']]]
 ];

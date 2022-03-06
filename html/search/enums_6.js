@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['item_0',['Item',['../item_8h.html#a9933216bbddb97e671cd515e268dfa42',1,'item.h']]],
-  ['itemmenutableslot_1',['ItemMenuTableSlot',['../itemMetaData_8h.html#a43a3ccb0bc0528805372429e2a869a99',1,'itemMetaData.h']]]
+  ['gfxslotstatus_0',['GfxSlotStatus',['../structures_8h.html#a72664ef11711e813efe8aee41d671081',1,'structures.h']]],
+  ['gfxslotvramstatus_1',['GfxSlotVramStatus',['../structures_8h.html#a5bd260d4e0848b2a867d0c60af49805c',1,'structures.h']]]
 ];

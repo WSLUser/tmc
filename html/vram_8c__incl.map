@@ -1,0 +1,26 @@
+<map id="src/vram.c" name="src/vram.c">
+<area shape="rect" id="node1" title=" " alt="" coords="124,5,207,32"/>
+<area shape="rect" id="node2" href="$global_8h.html" title=" " alt="" coords="279,528,345,555"/>
+<area shape="rect" id="node14" href="$common_8h.html" title=" " alt="" coords="87,229,169,256"/>
+<area shape="rect" id="node15" href="$structures_8h.html" title=" " alt="" coords="247,229,337,256"/>
+<area shape="rect" id="node20" href="$fileselect_8h.html" title=" " alt="" coords="500,80,583,107"/>
+<area shape="rect" id="node3" href="$gba_8h.html" title=" " alt="" coords="423,603,502,629"/>
+<area shape="rect" id="node4" title=" " alt="" coords="128,677,192,704"/>
+<area shape="rect" id="node5" href="$defines_8h.html" title=" " alt="" coords="775,677,849,704"/>
+<area shape="rect" id="node7" href="$io__reg_8h.html" title=" " alt="" coords="684,677,751,704"/>
+<area shape="rect" id="node8" href="$types_8h.html" title=" " alt="" coords="327,752,390,779"/>
+<area shape="rect" id="node10" href="$multi__boot_8h.html" title=" " alt="" coords="313,677,405,704"/>
+<area shape="rect" id="node11" href="$syscall_8h.html" title=" " alt="" coords="216,677,288,704"/>
+<area shape="rect" id="node12" href="$macro_8h.html" title=" " alt="" coords="429,677,497,704"/>
+<area shape="rect" id="node13" href="$isagbprint_8h.html" title=" " alt="" coords="521,677,609,704"/>
+<area shape="rect" id="node6" title=" " alt="" coords="778,752,846,779"/>
+<area shape="rect" id="node9" title=" " alt="" coords="327,827,391,853"/>
+<area shape="rect" id="node16" href="$entity_8h.html" title=" " alt="" coords="270,379,333,405"/>
+<area shape="rect" id="node19" href="$player_8h.html" title=" " alt="" coords="329,304,396,331"/>
+<area shape="rect" id="node17" href="$color_8h.html" title=" " alt="" coords="195,453,255,480"/>
+<area shape="rect" id="node18" href="$sprite_8h.html" title=" " alt="" coords="280,453,344,480"/>
+<area shape="rect" id="node21" href="$sound_8h.html" title=" " alt="" coords="688,155,755,181"/>
+<area shape="rect" id="node22" href="$save_8h.html" title=" " alt="" coords="421,155,481,181"/>
+<area shape="rect" id="node23" href="$room_8h.html" title=" " alt="" coords="420,304,481,331"/>
+<area shape="rect" id="node24" href="$droptables_8h.html" title=" " alt="" coords="470,379,562,405"/>
+</map>
