@@ -97,6 +97,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="subtask_8h_source.html">subtask.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="item_8h_source.html">item.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="game_8h_source.html">game.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for fileselect.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -104,46 +105,48 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="fileselect_8c__incl.png" border="0" usemap="#asrc_2fileselect_8c" alt=""/></div>
 <map name="asrc_2fileselect_8c" id="asrc_2fileselect_8c">
-<area shape="rect" title="File select task." alt="" coords="1161,5,1266,32"/>
-<area shape="rect" href="fileselect_8h.html" title=" " alt="" coords="120,80,203,107"/>
-<area shape="rect" href="main_8h.html" title=" " alt="" coords="1325,155,1385,181"/>
-<area shape="rect" href="common_8h.html" title=" " alt="" coords="1208,304,1291,331"/>
+<area shape="rect" title="File select task." alt="" coords="1225,5,1330,32"/>
+<area shape="rect" href="fileselect_8h.html" title=" " alt="" coords="135,80,217,107"/>
+<area shape="rect" href="main_8h.html" title=" " alt="" coords="1371,155,1431,181"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="1157,304,1240,331"/>
 <area shape="rect" href="screen_8h.html" title=" " alt="" coords="1518,379,1589,405"/>
-<area shape="rect" href="menu_8h.html" title=" " alt="" coords="1568,80,1632,107"/>
-<area shape="rect" href="message_8h.html" title=" " alt="" coords="675,155,760,181"/>
-<area shape="rect" href="object_8h.html" title=" " alt="" coords="424,229,491,256"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="931,155,1016,181"/>
-<area shape="rect" href="subtask_8h.html" title=" " alt="" coords="1657,80,1735,107"/>
-<area shape="rect" href="item_8h.html" title=" " alt="" coords="1139,229,1197,256"/>
+<area shape="rect" href="menu_8h.html" title=" " alt="" coords="1557,80,1621,107"/>
+<area shape="rect" href="message_8h.html" title=" " alt="" coords="681,155,767,181"/>
+<area shape="rect" href="object_8h.html" title=" " alt="" coords="333,229,400,256"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="939,155,1024,181"/>
+<area shape="rect" href="subtask_8h.html" title=" " alt="" coords="1646,80,1725,107"/>
+<area shape="rect" href="item_8h.html" title=" " alt="" coords="1249,229,1306,256"/>
+<area shape="rect" href="game_8h.html" title=" " alt="" coords="1731,379,1795,405"/>
 <area shape="rect" href="sound_8h.html" title=" " alt="" coords="93,304,160,331"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="839,528,905,555"/>
-<area shape="rect" href="save_8h.html" title=" " alt="" coords="235,155,295,181"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="983,603,1062,629"/>
-<area shape="rect" title=" " alt="" coords="688,677,752,704"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1335,677,1409,704"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1244,677,1311,704"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="887,752,950,779"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="873,677,965,704"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="776,677,848,704"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="989,677,1057,704"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="1081,677,1169,704"/>
-<area shape="rect" title=" " alt="" coords="1338,752,1406,779"/>
-<area shape="rect" title=" " alt="" coords="887,827,951,853"/>
-<area shape="rect" href="player_8h.html" title=" " alt="" coords="669,304,736,331"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="631,229,721,256"/>
-<area shape="rect" href="room_8h.html" title=" " alt="" coords="235,304,296,331"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="794,379,857,405"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="799,453,859,480"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="884,453,948,480"/>
-<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="278,379,370,405"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="904,528,971,555"/>
+<area shape="rect" href="save_8h.html" title=" " alt="" coords="266,155,326,181"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="1026,603,1105,629"/>
+<area shape="rect" title=" " alt="" coords="777,677,841,704"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1425,677,1498,704"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="865,677,932,704"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="1034,752,1097,779"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="1103,677,1195,704"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="956,677,1028,704"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="1219,677,1287,704"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="1312,677,1400,704"/>
+<area shape="rect" title=" " alt="" coords="1427,752,1495,779"/>
+<area shape="rect" title=" " alt="" coords="1033,827,1097,853"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="808,304,875,331"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="768,229,859,256"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="336,304,397,331"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="750,379,813,405"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="675,453,735,480"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="760,453,824,480"/>
+<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="419,379,511,405"/>
 <area shape="rect" href="fade_8h.html" title=" " alt="" coords="1537,453,1594,480"/>
-<area shape="rect" href="asm_8h.html" title=" " alt="" coords="466,453,523,480"/>
-<area shape="rect" href="flags_8h.html" title=" " alt="" coords="144,379,203,405"/>
-<area shape="rect" href="effects_8h.html" title=" " alt="" coords="422,304,493,331"/>
-<area shape="rect" href="coord_8h.html" title=" " alt="" coords="963,304,1027,331"/>
-<area shape="rect" href="manager_8h.html" title=" " alt="" coords="1101,304,1184,331"/>
-<area shape="rect" href="script_8h.html" title=" " alt="" coords="847,229,911,256"/>
+<area shape="rect" href="asm_8h.html" title=" " alt="" coords="235,453,293,480"/>
+<area shape="rect" href="flags_8h.html" title=" " alt="" coords="285,379,344,405"/>
+<area shape="rect" href="effects_8h.html" title=" " alt="" coords="611,304,682,331"/>
+<area shape="rect" href="coord_8h.html" title=" " alt="" coords="523,304,587,331"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="1051,304,1133,331"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="984,229,1048,256"/>
 <area shape="rect" href="map_8h.html" title=" " alt="" coords="1385,379,1442,405"/>
+<area shape="rect" href="area_8h.html" title=" " alt="" coords="1771,453,1829,480"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -1947,14 +1950,14 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="fileselect_8c.html#a346a12370b4fc67cae8016ea4b0d3f0f">HandleFileSelect</a>, <a class="code hl_function" href="fileselect_8c.html#aee27ecfebaa2b94fa1a230328224cbc3">HandleFileNew</a>,  <a class="code hl_function" href="fileselect_8c.html#a7a56d535db1420d608b6d2bc7d4b2198">HandleFileLanguageSelect</a>, <a class="code hl_function" href="fileselect_8c.html#adb8d7bc1cdb5d2e29953d291eab70e60">HandleFileOptions</a>,</div>
 <div class="line">    <a class="code hl_function" href="fileselect_8c.html#a0b580ab8fcf489eb0c7c798699dc7d42">HandleFileView</a>,   <a class="code hl_function" href="fileselect_8c.html#aa27beed92bceaa54d0eb8883f8d7d491">HandleFileCopy</a>, <a class="code hl_function" href="fileselect_8c.html#ae3fb0460cf832c55dad696b03059954a">HandleFileDelete</a>,         <a class="code hl_function" href="fileselect_8c.html#ad3ea6cf11a31358a0f9c7b2a30bd4c93">HandleFileStart</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="afileselect_8c_html_a0b580ab8fcf489eb0c7c798699dc7d42"><div class="ttname"><a href="fileselect_8c.html#a0b580ab8fcf489eb0c7c798699dc7d42">HandleFileView</a></div><div class="ttdeci">static void HandleFileView(void)</div><div class="ttdef"><b>Definition:</b> fileselect.c:615</div></div>
-<div class="ttc" id="afileselect_8c_html_a346a12370b4fc67cae8016ea4b0d3f0f"><div class="ttname"><a href="fileselect_8c.html#a346a12370b4fc67cae8016ea4b0d3f0f">HandleFileSelect</a></div><div class="ttdeci">static void HandleFileSelect(void)</div><div class="ttdef"><b>Definition:</b> fileselect.c:357</div></div>
-<div class="ttc" id="afileselect_8c_html_a7a56d535db1420d608b6d2bc7d4b2198"><div class="ttname"><a href="fileselect_8c.html#a7a56d535db1420d608b6d2bc7d4b2198">HandleFileLanguageSelect</a></div><div class="ttdeci">static void HandleFileLanguageSelect(void)</div><div class="ttdef"><b>Definition:</b> fileselect.c:682</div></div>
-<div class="ttc" id="afileselect_8c_html_aa27beed92bceaa54d0eb8883f8d7d491"><div class="ttname"><a href="fileselect_8c.html#aa27beed92bceaa54d0eb8883f8d7d491">HandleFileCopy</a></div><div class="ttdeci">void HandleFileCopy(void)</div><div class="ttdef"><b>Definition:</b> fileselect.c:1092</div></div>
-<div class="ttc" id="afileselect_8c_html_ad3ea6cf11a31358a0f9c7b2a30bd4c93"><div class="ttname"><a href="fileselect_8c.html#ad3ea6cf11a31358a0f9c7b2a30bd4c93">HandleFileStart</a></div><div class="ttdeci">void HandleFileStart(void)</div><div class="ttdef"><b>Definition:</b> fileselect.c:1210</div></div>
-<div class="ttc" id="afileselect_8c_html_adb8d7bc1cdb5d2e29953d291eab70e60"><div class="ttname"><a href="fileselect_8c.html#adb8d7bc1cdb5d2e29953d291eab70e60">HandleFileOptions</a></div><div class="ttdeci">void HandleFileOptions(void)</div><div class="ttdef"><b>Definition:</b> fileselect.c:743</div></div>
-<div class="ttc" id="afileselect_8c_html_ae3fb0460cf832c55dad696b03059954a"><div class="ttname"><a href="fileselect_8c.html#ae3fb0460cf832c55dad696b03059954a">HandleFileDelete</a></div><div class="ttdeci">void HandleFileDelete(void)</div><div class="ttdef"><b>Definition:</b> fileselect.c:1037</div></div>
-<div class="ttc" id="afileselect_8c_html_aee27ecfebaa2b94fa1a230328224cbc3"><div class="ttname"><a href="fileselect_8c.html#aee27ecfebaa2b94fa1a230328224cbc3">HandleFileNew</a></div><div class="ttdeci">void HandleFileNew(void)</div><div class="ttdef"><b>Definition:</b> fileselect.c:860</div></div>
+<div class="ttc" id="afileselect_8c_html_a0b580ab8fcf489eb0c7c798699dc7d42"><div class="ttname"><a href="fileselect_8c.html#a0b580ab8fcf489eb0c7c798699dc7d42">HandleFileView</a></div><div class="ttdeci">static void HandleFileView(void)</div><div class="ttdef"><b>Definition:</b> fileselect.c:616</div></div>
+<div class="ttc" id="afileselect_8c_html_a346a12370b4fc67cae8016ea4b0d3f0f"><div class="ttname"><a href="fileselect_8c.html#a346a12370b4fc67cae8016ea4b0d3f0f">HandleFileSelect</a></div><div class="ttdeci">static void HandleFileSelect(void)</div><div class="ttdef"><b>Definition:</b> fileselect.c:358</div></div>
+<div class="ttc" id="afileselect_8c_html_a7a56d535db1420d608b6d2bc7d4b2198"><div class="ttname"><a href="fileselect_8c.html#a7a56d535db1420d608b6d2bc7d4b2198">HandleFileLanguageSelect</a></div><div class="ttdeci">static void HandleFileLanguageSelect(void)</div><div class="ttdef"><b>Definition:</b> fileselect.c:683</div></div>
+<div class="ttc" id="afileselect_8c_html_aa27beed92bceaa54d0eb8883f8d7d491"><div class="ttname"><a href="fileselect_8c.html#aa27beed92bceaa54d0eb8883f8d7d491">HandleFileCopy</a></div><div class="ttdeci">void HandleFileCopy(void)</div><div class="ttdef"><b>Definition:</b> fileselect.c:1095</div></div>
+<div class="ttc" id="afileselect_8c_html_ad3ea6cf11a31358a0f9c7b2a30bd4c93"><div class="ttname"><a href="fileselect_8c.html#ad3ea6cf11a31358a0f9c7b2a30bd4c93">HandleFileStart</a></div><div class="ttdeci">void HandleFileStart(void)</div><div class="ttdef"><b>Definition:</b> fileselect.c:1214</div></div>
+<div class="ttc" id="afileselect_8c_html_adb8d7bc1cdb5d2e29953d291eab70e60"><div class="ttname"><a href="fileselect_8c.html#adb8d7bc1cdb5d2e29953d291eab70e60">HandleFileOptions</a></div><div class="ttdeci">void HandleFileOptions(void)</div><div class="ttdef"><b>Definition:</b> fileselect.c:744</div></div>
+<div class="ttc" id="afileselect_8c_html_ae3fb0460cf832c55dad696b03059954a"><div class="ttname"><a href="fileselect_8c.html#ae3fb0460cf832c55dad696b03059954a">HandleFileDelete</a></div><div class="ttdeci">void HandleFileDelete(void)</div><div class="ttdef"><b>Definition:</b> fileselect.c:1040</div></div>
+<div class="ttc" id="afileselect_8c_html_aee27ecfebaa2b94fa1a230328224cbc3"><div class="ttname"><a href="fileselect_8c.html#aee27ecfebaa2b94fa1a230328224cbc3">HandleFileNew</a></div><div class="ttdeci">void HandleFileNew(void)</div><div class="ttdef"><b>Definition:</b> fileselect.c:862</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1986,9 +1989,9 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="fileselect_8c.html#a38156da95dc750d2ee31d9d77ea83969">sub_0805086C</a>,</div>
 <div class="line">    <a class="code hl_function" href="fileselect_8c.html#ae1732918163007ce4d01d165ed7a23f7">sub_08050940</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="afileselect_8c_html_a38156da95dc750d2ee31d9d77ea83969"><div class="ttname"><a href="fileselect_8c.html#a38156da95dc750d2ee31d9d77ea83969">sub_0805086C</a></div><div class="ttdeci">static void sub_0805086C(void)</div><div class="ttdef"><b>Definition:</b> fileselect.c:370</div></div>
-<div class="ttc" id="afileselect_8c_html_a4a8ffcbbc045da4ccc0bfd02b38e28cf"><div class="ttname"><a href="fileselect_8c.html#a4a8ffcbbc045da4ccc0bfd02b38e28cf">sub_08050848</a></div><div class="ttdeci">static void sub_08050848(void)</div><div class="ttdef"><b>Definition:</b> fileselect.c:362</div></div>
-<div class="ttc" id="afileselect_8c_html_ae1732918163007ce4d01d165ed7a23f7"><div class="ttname"><a href="fileselect_8c.html#ae1732918163007ce4d01d165ed7a23f7">sub_08050940</a></div><div class="ttdeci">static void sub_08050940(void)</div><div class="ttdef"><b>Definition:</b> fileselect.c:414</div></div>
+<div class="ttc" id="afileselect_8c_html_a38156da95dc750d2ee31d9d77ea83969"><div class="ttname"><a href="fileselect_8c.html#a38156da95dc750d2ee31d9d77ea83969">sub_0805086C</a></div><div class="ttdeci">static void sub_0805086C(void)</div><div class="ttdef"><b>Definition:</b> fileselect.c:371</div></div>
+<div class="ttc" id="afileselect_8c_html_a4a8ffcbbc045da4ccc0bfd02b38e28cf"><div class="ttname"><a href="fileselect_8c.html#a4a8ffcbbc045da4ccc0bfd02b38e28cf">sub_08050848</a></div><div class="ttdeci">static void sub_08050848(void)</div><div class="ttdef"><b>Definition:</b> fileselect.c:363</div></div>
+<div class="ttc" id="afileselect_8c_html_ae1732918163007ce4d01d165ed7a23f7"><div class="ttname"><a href="fileselect_8c.html#ae1732918163007ce4d01d165ed7a23f7">sub_08050940</a></div><div class="ttdeci">static void sub_08050940(void)</div><div class="ttdef"><b>Definition:</b> fileselect.c:415</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2020,9 +2023,9 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="fileselect_8c.html#a4f2860f82227dce92a9c58c97cd51873">HandleFileScreenActive</a>,</div>
 <div class="line">    <a class="code hl_function" href="fileselect_8c.html#a0881494cb91c7ff7a85ee1fe0df07e6c">HandleFileScreenExit</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="afileselect_8c_html_a0881494cb91c7ff7a85ee1fe0df07e6c"><div class="ttname"><a href="fileselect_8c.html#a0881494cb91c7ff7a85ee1fe0df07e6c">HandleFileScreenExit</a></div><div class="ttdeci">static void HandleFileScreenExit(void)</div><div class="ttdef"><b>Definition:</b> fileselect.c:242</div></div>
-<div class="ttc" id="afileselect_8c_html_a2b13719b1d9f727b68d30a9a908a5cab"><div class="ttname"><a href="fileselect_8c.html#a2b13719b1d9f727b68d30a9a908a5cab">HandleFileScreenEnter</a></div><div class="ttdeci">static void HandleFileScreenEnter(void)</div><div class="ttdef"><b>Definition:</b> fileselect.c:198</div></div>
-<div class="ttc" id="afileselect_8c_html_a4f2860f82227dce92a9c58c97cd51873"><div class="ttname"><a href="fileselect_8c.html#a4f2860f82227dce92a9c58c97cd51873">HandleFileScreenActive</a></div><div class="ttdeci">static void HandleFileScreenActive(void)</div><div class="ttdef"><b>Definition:</b> fileselect.c:239</div></div>
+<div class="ttc" id="afileselect_8c_html_a0881494cb91c7ff7a85ee1fe0df07e6c"><div class="ttname"><a href="fileselect_8c.html#a0881494cb91c7ff7a85ee1fe0df07e6c">HandleFileScreenExit</a></div><div class="ttdeci">static void HandleFileScreenExit(void)</div><div class="ttdef"><b>Definition:</b> fileselect.c:243</div></div>
+<div class="ttc" id="afileselect_8c_html_a2b13719b1d9f727b68d30a9a908a5cab"><div class="ttname"><a href="fileselect_8c.html#a2b13719b1d9f727b68d30a9a908a5cab">HandleFileScreenEnter</a></div><div class="ttdeci">static void HandleFileScreenEnter(void)</div><div class="ttdef"><b>Definition:</b> fileselect.c:199</div></div>
+<div class="ttc" id="afileselect_8c_html_a4f2860f82227dce92a9c58c97cd51873"><div class="ttname"><a href="fileselect_8c.html#a4f2860f82227dce92a9c58c97cd51873">HandleFileScreenActive</a></div><div class="ttdeci">static void HandleFileScreenActive(void)</div><div class="ttdef"><b>Definition:</b> fileselect.c:240</div></div>
 </div><!-- fragment -->
 </div>
 </div>

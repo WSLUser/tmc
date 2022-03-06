@@ -147,6 +147,8 @@ Macros</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Tile Macros</div></td></tr>
 <tr class="memitem:a1c90f4f786ae8c749d2b50a6c7686b96"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8h.html#a1c90f4f786ae8c749d2b50a6c7686b96">TILE</a>(x,  y)&#160;&#160;&#160;(((((x)-gRoomControls.origin_x) &gt;&gt; 4) &amp; 0x3F) | ((((y)-gRoomControls.origin_y) &gt;&gt; 4) &amp; 0x3F) &lt;&lt; 6)</td></tr>
 <tr class="separator:a1c90f4f786ae8c749d2b50a6c7686b96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf1fece7e6eba5f984da82d0b0d6921c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8h.html#acf1fece7e6eba5f984da82d0b0d6921c">TILE_POS</a>(x,  y)&#160;&#160;&#160;(x + (y &lt;&lt; 6))</td></tr>
+<tr class="separator:acf1fece7e6eba5f984da82d0b0d6921c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a905f5a63735e45a4d53b69647594b9a7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8h.html#a905f5a63735e45a4d53b69647594b9a7">COORD_TO_TILE</a>(<a class="el" href="zeldaFollower_8c.html#a89252e8fb26c4149b9d982d7a8bd35c3">entity</a>)&#160;&#160;&#160;<a class="el" href="entity_8h.html#a1c90f4f786ae8c749d2b50a6c7686b96">TILE</a>((<a class="el" href="zeldaFollower_8c.html#a89252e8fb26c4149b9d982d7a8bd35c3">entity</a>)-&gt;x.HALF.HI, (<a class="el" href="zeldaFollower_8c.html#a89252e8fb26c4149b9d982d7a8bd35c3">entity</a>)-&gt;y.HALF.HI)</td></tr>
 <tr class="separator:a905f5a63735e45a4d53b69647594b9a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96e588bb93301c1f87ea119f3c115d1e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="entity_8h.html#a96e588bb93301c1f87ea119f3c115d1e">COORD_TO_TILE_OFFSET</a>(<a class="el" href="zeldaFollower_8c.html#a89252e8fb26c4149b9d982d7a8bd35c3">entity</a>,  xOff,  yOff)&#160;&#160;&#160;<a class="el" href="entity_8h.html#a1c90f4f786ae8c749d2b50a6c7686b96">TILE</a>((<a class="el" href="zeldaFollower_8c.html#a89252e8fb26c4149b9d982d7a8bd35c3">entity</a>)-&gt;x.HALF.HI - (xOff), (<a class="el" href="zeldaFollower_8c.html#a89252e8fb26c4149b9d982d7a8bd35c3">entity</a>)-&gt;y.HALF.HI - (yOff))</td></tr>
@@ -822,6 +824,34 @@ Variables</h2></td></tr>
           <td></td>
           <td>)</td>
           <td></td><td>&#160;&#160;&#160;(((((x)-gRoomControls.origin_x) &gt;&gt; 4) &amp; 0x3F) | ((((y)-gRoomControls.origin_y) &gt;&gt; 4) &amp; 0x3F) &lt;&lt; 6)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acf1fece7e6eba5f984da82d0b0d6921c" name="acf1fece7e6eba5f984da82d0b0d6921c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf1fece7e6eba5f984da82d0b0d6921c">&#9670;&nbsp;</a></span>TILE_POS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TILE_POS</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">y&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;(x + (y &lt;&lt; 6))</td>
         </tr>
       </table>
 </div><div class="memdoc">

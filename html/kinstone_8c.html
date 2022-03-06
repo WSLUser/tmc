@@ -81,6 +81,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="global_8h_source.html">global.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="room_8h_source.html">room.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for kinstone.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -88,26 +89,29 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="kinstone_8c__incl.png" border="0" usemap="#asrc_2kinstone_8c" alt=""/></div>
 <map name="asrc_2kinstone_8c" id="asrc_2kinstone_8c">
-<area shape="rect" title=" " alt="" coords="115,5,218,32"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="133,80,200,107"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="257,155,335,181"/>
-<area shape="rect" title=" " alt="" coords="5,229,69,256"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="94,229,167,256"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="192,229,259,256"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="349,304,411,331"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="334,229,426,256"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="451,229,523,256"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="547,229,615,256"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="640,229,728,256"/>
-<area shape="rect" title=" " alt="" coords="97,304,165,331"/>
-<area shape="rect" title=" " alt="" coords="348,379,412,405"/>
+<area shape="rect" title=" " alt="" coords="47,5,150,32"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="133,304,200,331"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="128,80,189,107"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="257,379,335,405"/>
+<area shape="rect" title=" " alt="" coords="5,453,69,480"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="94,453,167,480"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="192,453,259,480"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="349,528,411,555"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="334,453,426,480"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="451,453,523,480"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="547,453,615,480"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="640,453,728,480"/>
+<area shape="rect" title=" " alt="" coords="97,528,165,555"/>
+<area shape="rect" title=" " alt="" coords="348,603,412,629"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="154,155,217,181"/>
+<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="241,155,333,181"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="205,229,265,256"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="289,229,353,256"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a5a57417bc8f98cf04917a1446802dcbf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="kinstone_8c.html#a5a57417bc8f98cf04917a1446802dcbf">SetTileType</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> tileID, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> tilePos, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> layerID)</td></tr>
-<tr class="separator:a5a57417bc8f98cf04917a1446802dcbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec0186ac7dfdf97d093a9c21db871c99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="kinstone_8c.html#aec0186ac7dfdf97d093a9c21db871c99">CreateMinishEntrance</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> tilePos)</td></tr>
 <tr class="separator:aec0186ac7dfdf97d093a9c21db871c99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac11712c1e60a870c1938685cefc6139a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="kinstone_8c.html#ac11712c1e60a870c1938685cefc6139a">sub_08018C58</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> tilePos)</td></tr>
@@ -126,40 +130,6 @@ Functions</h2></td></tr>
           <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
           <td class="paramname"><em>tilePos</em></td><td>)</td>
           <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5a57417bc8f98cf04917a1446802dcbf" name="a5a57417bc8f98cf04917a1446802dcbf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a57417bc8f98cf04917a1446802dcbf">&#9670;&nbsp;</a></span>SetTileType()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> SetTileType </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
-          <td class="paramname"><em>tileID</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
-          <td class="paramname"><em>tilePos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
-          <td class="paramname"><em>layerID</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
