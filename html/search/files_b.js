@@ -15,5 +15,6 @@ var searchData=
   ['likelike_2ec_12',['likeLike.c',['../likeLike_8c.html',1,'']]],
   ['lilypadlarge_2ec_13',['lilypadLarge.c',['../lilypadLarge_8c.html',1,'']]],
   ['lilypadsmall_2ec_14',['lilypadSmall.c',['../lilypadSmall_8c.html',1,'']]],
-  ['lockeddoor_2ec_15',['lockedDoor.c',['../lockedDoor_8c.html',1,'']]]
+  ['litarea_2ec_15',['litArea.c',['../litArea_8c.html',1,'']]],
+  ['lockeddoor_2ec_16',['lockedDoor.c',['../lockedDoor_8c.html',1,'']]]
 ];
