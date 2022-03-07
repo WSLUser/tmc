@@ -18,13 +18,14 @@ var searchData=
   ['gunk_5f080d9348_5fstruct_15',['gUnk_080D9348_struct',['../structgUnk__080D9348__struct.html',1,'']]],
   ['gunk_5f0810c89c_5fstruct_16',['gUnk_0810C89C_struct',['../structgUnk__0810C89C__struct.html',1,'']]],
   ['gunk_5f0811b9a8_5fstruct_17',['gUnk_0811B9A8_struct',['../structgUnk__0811B9A8__struct.html',1,'']]],
-  ['gyorgbossobjectentity_18',['GyorgBossObjectEntity',['../structGyorgBossObjectEntity.html',1,'']]],
-  ['gyorgchildentity_19',['GyorgChildEntity',['../structGyorgChildEntity.html',1,'']]],
-  ['gyorgchildspawns_20',['GyorgChildSpawns',['../structGyorgChildSpawns.html',1,'']]],
-  ['gyorgfemaleentity_21',['GyorgFemaleEntity',['../structGyorgFemaleEntity.html',1,'']]],
-  ['gyorgfemaleeyeentity_22',['GyorgFemaleEyeEntity',['../structGyorgFemaleEyeEntity.html',1,'']]],
-  ['gyorgfemalemouthentity_23',['GyorgFemaleMouthEntity',['../structGyorgFemaleMouthEntity.html',1,'']]],
-  ['gyorgheap_24',['GyorgHeap',['../structGyorgHeap.html',1,'']]],
-  ['gyorgmaleentity_25',['GyorgMaleEntity',['../structGyorgMaleEntity.html',1,'']]],
-  ['gyorgmaleeyeentity_26',['GyorgMaleEyeEntity',['../structGyorgMaleEyeEntity.html',1,'']]]
+  ['gunk_5f081227cc_5fstruct_18',['gUnk_081227CC_struct',['../structgUnk__081227CC__struct.html',1,'']]],
+  ['gyorgbossobjectentity_19',['GyorgBossObjectEntity',['../structGyorgBossObjectEntity.html',1,'']]],
+  ['gyorgchildentity_20',['GyorgChildEntity',['../structGyorgChildEntity.html',1,'']]],
+  ['gyorgchildspawns_21',['GyorgChildSpawns',['../structGyorgChildSpawns.html',1,'']]],
+  ['gyorgfemaleentity_22',['GyorgFemaleEntity',['../structGyorgFemaleEntity.html',1,'']]],
+  ['gyorgfemaleeyeentity_23',['GyorgFemaleEyeEntity',['../structGyorgFemaleEyeEntity.html',1,'']]],
+  ['gyorgfemalemouthentity_24',['GyorgFemaleMouthEntity',['../structGyorgFemaleMouthEntity.html',1,'']]],
+  ['gyorgheap_25',['GyorgHeap',['../structGyorgHeap.html',1,'']]],
+  ['gyorgmaleentity_26',['GyorgMaleEntity',['../structGyorgMaleEntity.html',1,'']]],
+  ['gyorgmaleeyeentity_27',['GyorgMaleEyeEntity',['../structGyorgMaleEyeEntity.html',1,'']]]
 ];

@@ -1,8 +1,8 @@
 var searchData=
 [
   ['h_0',['h',['../structGenericMenu.html#a82dc49d1acdaaf439d113dad2bbdf5a7',1,'GenericMenu::h()'],['../structFigurineMenu.html#a72b11a24cecff16e02dd84d3343b3eb4',1,'FigurineMenu::h()'],['../structPACKED.html#a4b943e27687db792c10ad1181c8f9905',1,'PACKED::h()']]],
-  ['half_1',['HALF',['../unionCoords.html#abc226cfe144b8e1301cd644ebbcca400',1,'Coords::HALF()'],['../unionSplitWord.html#afd3326ebf56c71a8fadc048f733c9cf2',1,'SplitWord::HALF()'],['../unionSplitHWord.html#a0c3a61ff4e9545a46857a7335c5622f5',1,'SplitHWord::HALF()'],['../unionSplitSHWord.html#ad85eca3d052d4f07357e5968a0874969',1,'SplitSHWord::HALF()']]],
-  ['half_2',['half',['../structDMARegisters.html#aac06143552a6ca38dbf8c6f2ef9ae4d6',1,'DMARegisters']]],
+  ['half_1',['half',['../structDMARegisters.html#aac06143552a6ca38dbf8c6f2ef9ae4d6',1,'DMARegisters']]],
+  ['half_2',['HALF',['../unionCoords.html#abc226cfe144b8e1301cd644ebbcca400',1,'Coords::HALF()'],['../unionSplitWord.html#afd3326ebf56c71a8fadc048f733c9cf2',1,'SplitWord::HALF()'],['../unionSplitHWord.html#a0c3a61ff4e9545a46857a7335c5622f5',1,'SplitHWord::HALF()'],['../unionSplitSHWord.html#ad85eca3d052d4f07357e5968a0874969',1,'SplitSHWord::HALF()']]],
   ['half_5fu_3',['HALF_U',['../unionSplitWord.html#a1c8e22e04a38ea89e19e40040c96c26a',1,'SplitWord']]],
   ['handshake_5fdata_4',['handshake_data',['../structMultiBootParam.html#a16f25d7693ed8dc3d58de7089c68cd8e',1,'MultiBootParam']]],
   ['handshake_5ftimeout_5',['handshake_timeout',['../structMultiBootParam.html#af8155ab1a3c27e9a67e6ba6ab39c9d21',1,'MultiBootParam']]],
@@ -17,17 +17,18 @@ var searchData=
   ['heldobject_14',['heldObject',['../structPlayerState.html#a207f7d105ad00dc2e7947baff65162c8',1,'PlayerState::heldObject()'],['../itemTryPickupObject_8c.html#a7d0837428a7f5d0accf5b66a8d3fbf4d',1,'heldObject():&#160;itemTryPickupObject.c']]],
   ['helmasaur_5ffunctions_15',['Helmasaur_Functions',['../helmasaur_8c.html#a245458350ad56db120a5290330a13fd9',1,'helmasaur.c']]],
   ['hflip_16',['hFlip',['../structPACKED.html#ac7cec74f86ee7be87f1ad8daf845fcd2',1,'PACKED']]],
-  ['hi_17',['HI',['../unionSplitSHWord.html#adb330441ba20c380f0462d41ceb72ae5',1,'SplitSHWord::HI()'],['../structstruct__086D4460.html#a4f26b7a6341d158c36efa58220bf448e',1,'struct_086D4460::HI()'],['../unionSplitHWord.html#a41852c4047ccd43cf4f20599e37da0cd',1,'SplitHWord::HI()'],['../unionSplitWord.html#a32c6259fb28a442f1e2a78aaa3935d20',1,'SplitWord::HI()'],['../unionSplitWord.html#a510bf5b60996e858932a548313f515a1',1,'SplitWord::HI()']]],
+  ['hi_17',['HI',['../structstruct__086D4460.html#a4f26b7a6341d158c36efa58220bf448e',1,'struct_086D4460::HI()'],['../unionSplitWord.html#a32c6259fb28a442f1e2a78aaa3935d20',1,'SplitWord::HI()'],['../unionSplitWord.html#a510bf5b60996e858932a548313f515a1',1,'SplitWord::HI()'],['../unionSplitSHWord.html#adb330441ba20c380f0462d41ceb72ae5',1,'SplitSHWord::HI()'],['../unionSplitHWord.html#a41852c4047ccd43cf4f20599e37da0cd',1,'SplitHWord::HI()']]],
   ['high_18',['high',['../structDMARegisters.html#afccc537134cd7c879259a96537cee21c',1,'DMARegisters']]],
   ['hint_5fheight_19',['hint_height',['../structRoomTransition.html#afb625df87630097bed05dce8c8da6014',1,'RoomTransition']]],
   ['hint_5fidx_20',['hint_idx',['../structRoomTransition.html#a673e79ba8494c75d1a4c48e308db7197',1,'RoomTransition']]],
   ['hit_21',['hit',['../structHitboxCfg.html#a886c68edbb7885e2c0bf8e127dc9ba8e',1,'HitboxCfg']]],
   ['hitbox_22',['hitbox',['../structstruct__081299F8.html#aef15a750cee508f7f5867d234d3c96fa',1,'struct_081299F8::hitbox()'],['../structEnemyDefinition.html#aa211c27431193e0e8e376c9f2de69150',1,'EnemyDefinition::hitbox()'],['../structProjectileDefinition.html#a0744e534d4fe1380f6d108ce2c904167',1,'ProjectileDefinition::hitbox()'],['../structObjectDefinition.html#ac7d6ee83489574edb3cd08e192e600d8',1,'ObjectDefinition::hitbox()'],['../structNPCDefinition.html#a85fc5596948d943c579766c8a3730d67',1,'NPCDefinition::hitbox()'],['../structEntity.html#a570112c03a8ff3b3b078a018a580fe11',1,'Entity::hitbox()']]],
-  ['hitflag_23',['hitFlag',['../structObjectOnPillarEntity.html#ace1fa2cdd8c3cb03a92fe105a9d05bf4',1,'ObjectOnPillarEntity::hitFlag()'],['../structEntityWithHitFlag.html#a75d3cac7dd4f8a6818b30ae6db337a83',1,'EntityWithHitFlag::hitFlag()'],['../structHittableLeverEntity.html#aff9bd7e15e9df41ebef10fde5a4adcbf',1,'HittableLeverEntity::hitFlag()']]],
+  ['hitflag_23',['hitFlag',['../structEntityWithHitFlag.html#a75d3cac7dd4f8a6818b30ae6db337a83',1,'EntityWithHitFlag::hitFlag()'],['../structObjectOnPillarEntity.html#ace1fa2cdd8c3cb03a92fe105a9d05bf4',1,'ObjectOnPillarEntity::hitFlag()'],['../structHittableLeverEntity.html#aff9bd7e15e9df41ebef10fde5a4adcbf',1,'HittableLeverEntity::hitFlag()']]],
   ['hittablelever_5factions_24',['HittableLever_Actions',['../hittableLever_8c.html#aa7e053249d13f4e33fc3070fe4e04da4',1,'hittableLever.c']]],
   ['hittablelever_5fhitbox_25',['HittableLever_Hitbox',['../hittableLever_8c.html#a98495d73bffe405a5886e8bc91122ced',1,'hittableLever.c']]],
   ['hittype_26',['hitType',['../structEntity.html#ae2ae39bc7fae6b0a6580ec253c0f656a',1,'Entity::hitType()'],['../structPlayerItemDefinition.html#aeeebf93fd56f7cbf1be382a0a327de30',1,'PlayerItemDefinition::hitType()']]],
-  ['hurtblinkspeed_27',['hurtBlinkSpeed',['../structPlayerState.html#a100a050c2838d8464fb510f1adaacfc9',1,'PlayerState']]],
-  ['hurttype_28',['hurtType',['../structPlayerItemDefinition.html#a7dfd5af80b1225a35d1e7b4da5693d9d',1,'PlayerItemDefinition::hurtType()'],['../structEntity.html#afa486c4faf0d7c3559558c07da5fad02',1,'Entity::hurtType()'],['../structRoomTransition.html#a59796783888c52fb3e15a38c64452405',1,'RoomTransition::hurtType()']]],
-  ['hword_29',['HWORD',['../unionSplitHWord.html#a2089c3239cf2927e0b7cf784113e1135',1,'SplitHWord']]]
+  ['housedoorinteriorframeindices_27',['HouseDoorInteriorFrameIndices',['../houseDoorInterior_8c.html#a08c8768be4e4a071a5aa6dbe00652944',1,'houseDoorInterior.c']]],
+  ['hurtblinkspeed_28',['hurtBlinkSpeed',['../structPlayerState.html#a100a050c2838d8464fb510f1adaacfc9',1,'PlayerState']]],
+  ['hurttype_29',['hurtType',['../structPlayerItemDefinition.html#a7dfd5af80b1225a35d1e7b4da5693d9d',1,'PlayerItemDefinition::hurtType()'],['../structEntity.html#afa486c4faf0d7c3559558c07da5fad02',1,'Entity::hurtType()'],['../structRoomTransition.html#a59796783888c52fb3e15a38c64452405',1,'RoomTransition::hurtType()']]],
+  ['hword_30',['HWORD',['../unionSplitHWord.html#a2089c3239cf2927e0b7cf784113e1135',1,'SplitHWord']]]
 ];

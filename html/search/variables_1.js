@@ -24,7 +24,7 @@ var searchData=
   ['anim_21',['anim',['../structType1F.html#af823841b32d4db1024739184688e7e18',1,'Type1F']]],
   ['animation_22',['animation',['../structPlayerState.html#a9005cf97afa6707f07574d4f6d8e770e',1,'PlayerState']]],
   ['animations_23',['animations',['../structSpritePtr.html#a617722a47aa19e3ebbb1d86eb8c15f23',1,'SpritePtr']]],
-  ['animationstate_24',['animationState',['../structEntity.html#a5410b327717551069d1a5251161b4390',1,'Entity']]],
+  ['animationstate_24',['animationState',['../structgUnk__081227CC__struct.html#ac5733fd690fa2fe34ad405291583d798',1,'gUnk_081227CC_struct::animationState()'],['../structEntity.html#a5410b327717551069d1a5251161b4390',1,'Entity::animationState()']]],
   ['animflags_25',['animFlags',['../structRoomVars.html#aec25df8de09fcbe3c385394cbf968b57',1,'RoomVars']]],
   ['animindex_26',['animIndex',['../structSpriteLoadData.html#aa04e38261e71c86b4e6d34993230beea',1,'SpriteLoadData::animIndex()'],['../structstruct__081299F8.html#a13cbede445c436d7b7418a50f236b518',1,'struct_081299F8::animIndex()'],['../structgUnk__0811B9A8__struct.html#ab8d2138571ba4606dd8d16a26e1300bf',1,'gUnk_0811B9A8_struct::animIndex()'],['../structEntity.html#a33d98988b93ad534ee76fd01bd8db210',1,'Entity::animIndex()']]],
   ['animptr_27',['animPtr',['../structEntity.html#a6dc095da2c8ee90f033cde0fea531ed5',1,'Entity']]],
