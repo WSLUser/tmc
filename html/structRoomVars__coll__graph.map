@@ -1,4 +1,8 @@
 <map id="RoomVars" name="RoomVars">
-<area shape="rect" id="node1" title=" " alt="" coords="5,95,88,121"/>
-<area shape="rect" id="node2" href="$unionDroptable.html" title=" " alt="" coords="8,5,85,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="80,331,163,357"/>
+<area shape="rect" id="node2" href="$unionDroptable.html" title=" " alt="" coords="5,241,83,268"/>
+<area shape="rect" id="node3" href="$structEntity.html" title="Container for instantiable behavior." alt="" coords="173,241,227,268"/>
+<area shape="rect" id="node4" href="$unionSplitWord.html" title=" " alt="" coords="67,5,146,32"/>
+<area shape="rect" id="node5" href="$structHitbox.html" title="Hitbox structure." alt="" coords="171,5,229,32"/>
+<area shape="rect" id="node6" href="$unionSplitHWord.html" title=" " alt="" coords="253,5,341,32"/>
 </map>
