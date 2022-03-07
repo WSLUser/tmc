@@ -1,0 +1,8 @@
+<map id="UI" name="UI">
+<area shape="rect" id="node1" title="HUD structure." alt="" coords="38,423,77,449"/>
+<area shape="rect" id="node2" href="$structRoomControls.html" title=" " alt="" coords="5,333,109,360"/>
+<area shape="rect" id="node3" href="$unionSplitWord.html" title=" " alt="" coords="18,5,97,32"/>
+<area shape="rect" id="node4" href="$structEntity.html" title="Container for instantiable behavior." alt="" coords="137,243,191,269"/>
+<area shape="rect" id="node5" href="$structHitbox.html" title="Hitbox structure." alt="" coords="143,5,201,32"/>
+<area shape="rect" id="node6" href="$unionSplitHWord.html" title=" " alt="" coords="225,5,313,32"/>
+</map>

@@ -1,8 +1,8 @@
 <map id="src/affine.c" name="src/affine.c">
-<area shape="rect" id="node1" title=" " alt="" coords="255,5,339,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="217,5,301,32"/>
 <area shape="rect" id="node2" href="$global_8h.html" title=" " alt="" coords="263,379,329,405"/>
-<area shape="rect" id="node14" href="$structures_8h.html" title=" " alt="" coords="117,80,208,107"/>
-<area shape="rect" id="node19" href="$main_8h.html" title=" " alt="" coords="371,80,431,107"/>
+<area shape="rect" id="node14" href="$structures_8h.html" title=" " alt="" coords="121,80,212,107"/>
+<area shape="rect" id="node19" href="$main_8h.html" title=" " alt="" coords="297,80,357,107"/>
 <area shape="rect" id="node20" href="$room_8h.html" title=" " alt="" coords="267,155,328,181"/>
 <area shape="rect" id="node22" href="$screen_8h.html" title=" " alt="" coords="470,229,541,256"/>
 <area shape="rect" id="node3" href="$gba_8h.html" title=" " alt="" coords="381,453,459,480"/>
