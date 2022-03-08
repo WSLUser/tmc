@@ -11,5 +11,6 @@ var searchData=
   ['entitydata_8',['EntityData',['../structEntityData.html',1,'']]],
   ['entitywithhitflag_9',['EntityWithHitFlag',['../structEntityWithHitFlag.html',1,'']]],
   ['eyegoreentity_10',['EyegoreEntity',['../structEyegoreEntity.html',1,'']]],
-  ['ezlocapentity_11',['EzloCapEntity',['../structEzloCapEntity.html',1,'']]]
+  ['eyeswitchentity_11',['EyeSwitchEntity',['../structEyeSwitchEntity.html',1,'']]],
+  ['ezlocapentity_12',['EzloCapEntity',['../structEzloCapEntity.html',1,'']]]
 ];

@@ -18,6 +18,7 @@ var searchData=
   ['entity_2eh_15',['entity.h',['../entity_8h.html',1,'']]],
   ['epona_2ec_16',['epona.c',['../epona_8c.html',1,'']]],
   ['eyegore_2ec_17',['eyegore.c',['../eyegore_8c.html',1,'']]],
-  ['ezlo_2ec_18',['ezlo.c',['../ezlo_8c.html',1,'']]],
-  ['ezlocap_2ec_19',['ezloCap.c',['../ezloCap_8c.html',1,'']]]
+  ['eyeswitch_2ec_18',['eyeSwitch.c',['../eyeSwitch_8c.html',1,'']]],
+  ['ezlo_2ec_19',['ezlo.c',['../ezlo_8c.html',1,'']]],
+  ['ezlocap_2ec_20',['ezloCap.c',['../ezloCap_8c.html',1,'']]]
 ];

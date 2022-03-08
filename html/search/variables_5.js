@@ -6,8 +6,8 @@ var searchData=
   ['eeprom_5fv124_3',['EEPROM_V124',['../eeprom_8c.html#a093f40924203805d4e294460f499cea4',1,'eeprom.c']]],
   ['effect_4',['effect',['../structStats.html#ad2b90a7af85557ba92e9bb78172e4bb2',1,'Stats']]],
   ['effecttimer_5',['effectTimer',['../structStats.html#a0841cfd221f4c7b381b841a7e8aa4faf',1,'Stats']]],
-  ['else_6',['else',['../movement_8c.html#a0544c3fe466e421738dae463968b70ba',1,'else():&#160;movement.c'],['../itemTryPickupObject_8c.html#a0544c3fe466e421738dae463968b70ba',1,'else():&#160;itemTryPickupObject.c'],['../playerUtils_8c.html#a0544c3fe466e421738dae463968b70ba',1,'else():&#160;playerUtils.c']]],
-  ['enable_7',['enable',['../structSioNormalCnt.html#aa827263e07451f1097651a7f315cb479',1,'SioNormalCnt::enable()'],['../structSioMultiCnt.html#a4616ecfed0bb56bf1b1b5069636491e5',1,'SioMultiCnt::enable()']]],
+  ['else_6',['else',['../itemTryPickupObject_8c.html#a0544c3fe466e421738dae463968b70ba',1,'else():&#160;itemTryPickupObject.c'],['../movement_8c.html#a0544c3fe466e421738dae463968b70ba',1,'else():&#160;movement.c'],['../playerUtils_8c.html#a0544c3fe466e421738dae463968b70ba',1,'else():&#160;playerUtils.c']]],
+  ['enable_7',['enable',['../structSioMultiCnt.html#a4616ecfed0bb56bf1b1b5069636491e5',1,'SioMultiCnt::enable()'],['../structSioNormalCnt.html#aa827263e07451f1097651a7f315cb479',1,'SioNormalCnt::enable()']]],
   ['endofanimation_8',['endOfAnimation',['../structPACKED.html#a9ae41a291e4f038a9d7fe59520a69646',1,'PACKED']]],
   ['enemies_9',['enemies',['../structManager28.html#ab92b7ef2b2e2b12f3ac058f31308200a',1,'Manager28::enemies()'],['../structManagerBHelper.html#aca5e9e00bfe31152b201f9af2b2eeed1',1,'ManagerBHelper::enemies()']]],
   ['enemies_5flakehylia_5fmain_10',['Enemies_LakeHylia_Main',['../roomInit_8c.html#a2164fe829c1d19f7439f6987cacc36ce',1,'roomInit.c']]],
@@ -42,8 +42,8 @@ var searchData=
   ['envelopevolumeright_39',['envelopeVolumeRight',['../structSoundChannel.html#afa3da911b5655cda7760426664685849',1,'SoundChannel']]],
   ['eraseflashchip_40',['eraseFlashChip',['../structFlashSetupInfo.html#ace0a102909b81d16dfeb1a8eaa6a0db3',1,'FlashSetupInfo']]],
   ['eraseflashsector_41',['eraseFlashSector',['../structFlashSetupInfo.html#ae25b2051c497e9c95f53d87b5773a46d',1,'FlashSetupInfo']]],
-  ['error_42',['error',['../structSioUartCnt.html#a2f1d8a86751e07cc37e3b5be8c161048',1,'SioUartCnt::error()'],['../structSioMultiCnt.html#ae466af3d71d2e1884caba7489ddc3646',1,'SioMultiCnt::error()']]],
-  ['evt_5ftype_43',['evt_type',['../structstruct__080C9CBC.html#a8e35c7171ff2a35edcf21cc52c7d2502',1,'struct_080C9CBC::evt_type()'],['../structstruct__080FE320.html#a51493b467a29aeb978231f29916f2f07',1,'struct_080FE320::evt_type()']]],
+  ['error_42',['error',['../structSioMultiCnt.html#ae466af3d71d2e1884caba7489ddc3646',1,'SioMultiCnt::error()'],['../structSioUartCnt.html#a2f1d8a86751e07cc37e3b5be8c161048',1,'SioUartCnt::error()']]],
+  ['evt_5ftype_43',['evt_type',['../structstruct__080FE320.html#a51493b467a29aeb978231f29916f2f07',1,'struct_080FE320::evt_type()'],['../structstruct__080C9CBC.html#a8e35c7171ff2a35edcf21cc52c7d2502',1,'struct_080C9CBC::evt_type()']]],
   ['exits_44',['exits',['../structRoomResInfo.html#aec03d7f0f7815f262ac2fde637defa29',1,'RoomResInfo']]],
   ['extended_45',['extended',['../structToken.html#a21a051396877c2e1d9ab123e1f5617bb',1,'Token']]],
   ['extraframeindex_46',['extraFrameIndex',['../structPACKED.html#a037896ab981f5ef0bbd39b132367cf93',1,'PACKED']]],
@@ -53,6 +53,8 @@ var searchData=
   ['eyeshit_50',['eyesHit',['../structGyorgFemaleEntity.html#a2d43735889ec90af496f8323da878e70',1,'GyorgFemaleEntity']]],
   ['eyeshitframe_51',['eyesHitFrame',['../structGyorgFemaleEntity.html#aa393a3f9321b3100dadb32516ef5dd45',1,'GyorgFemaleEntity']]],
   ['eyesvulnerable_52',['eyesVulnerable',['../structGyorgFemaleEntity.html#a6532c1a4547629621ad99e16e1abe523',1,'GyorgFemaleEntity']]],
-  ['eyetimer_53',['eyeTimer',['../structGyorgFemaleEntity.html#ab2a64ad60195c564ad82b0cb44242452',1,'GyorgFemaleEntity']]],
-  ['ezlonagfuncindex_54',['ezloNagFuncIndex',['../structstruct__0200AF00.html#ae41427e2dcd9ffc8202d625b828feaeb',1,'struct_0200AF00']]]
+  ['eyeswitchflags_53',['eyeSwitchFlags',['../structEyeSwitchEntity.html#a7b9953298143e355334e54318c6756e3',1,'EyeSwitchEntity']]],
+  ['eyeswitchflags2_54',['eyeSwitchFlags2',['../structEyeSwitchEntity.html#ac6c8c28d468bc898a73f8055bac918e6',1,'EyeSwitchEntity']]],
+  ['eyetimer_55',['eyeTimer',['../structGyorgFemaleEntity.html#ab2a64ad60195c564ad82b0cb44242452',1,'GyorgFemaleEntity']]],
+  ['ezlonagfuncindex_56',['ezloNagFuncIndex',['../structstruct__0200AF00.html#ae41427e2dcd9ffc8202d625b828feaeb',1,'struct_0200AF00']]]
 ];
