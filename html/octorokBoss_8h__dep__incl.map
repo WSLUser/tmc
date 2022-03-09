@@ -1,0 +1,5 @@
+<map id="include/enemy/octorokBoss.h" name="include/enemy/octorokBoss.h">
+<area shape="rect" id="node1" title=" " alt="" coords="91,5,283,32"/>
+<area shape="rect" id="node2" href="$octorokBoss_8c.html" title="Octorok boss enemy." alt="" coords="5,80,175,107"/>
+<area shape="rect" id="node3" href="$frozenOctorok_8c.html" title="Frozen Octorok object." alt="" coords="199,80,373,107"/>
+</map>

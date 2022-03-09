@@ -1,8 +1,8 @@
 var searchData=
 [
   ['tabidachi_0',['TABIDACHI',['../flags_8h.html#a3f3de3e0d751949b8d0b60ffb302944aa1a2e9c09f456553889e2dc0bc53dd5b0',1,'flags.h']]],
-  ['tail_1',['TAIL',['../octorokBoss_8c.html#a686d1656c9ab884942eed5aa41e0f7d9a4c28487b052a2b05f3db4dc5a722b1d7',1,'octorokBoss.c']]],
-  ['tail_5fend_2',['TAIL_END',['../octorokBoss_8c.html#a686d1656c9ab884942eed5aa41e0f7d9a928b7c7eb7508eaf4c36290c5d74a812',1,'octorokBoss.c']]],
+  ['tail_1',['TAIL',['../octorokBoss_8h.html#a686d1656c9ab884942eed5aa41e0f7d9a4c28487b052a2b05f3db4dc5a722b1d7',1,'octorokBoss.h']]],
+  ['tail_5fend_2',['TAIL_END',['../octorokBoss_8h.html#a686d1656c9ab884942eed5aa41e0f7d9a928b7c7eb7508eaf4c36290c5d74a812',1,'octorokBoss.h']]],
   ['taima_5fsaibai_5f1st_3',['TAIMA_SAIBAI_1ST',['../flags_8h.html#ae13c3f8316aded37796748ddd1d667f0a17661cc3b14e70627e72a1a15ba92c7b',1,'flags.h']]],
   ['takkuri_4',['TAKKURI',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba0ebc27d09d0217277db3a4e869873328',1,'enemy.h']]],
   ['talon_5',['TALON',['../npc_8h.html#ab86484a9fbeb0e4494cb75cadb5f4cf3acb8cfec283c4b7b86d8c1cd0720b6593',1,'npc.h']]],

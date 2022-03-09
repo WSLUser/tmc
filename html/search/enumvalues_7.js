@@ -47,7 +47,7 @@ var searchData=
   ['hikyou_5fdoukutu0_5f04_5fh00_44',['HIKYOU_DOUKUTU0_04_H00',['../flags_8h.html#ac5200b6a58d7d730931d3f59e937e92ca78846a4c69cd14a8552856226ea97d9a',1,'flags.h']]],
   ['hikyou_5fdoukutu1_5f00_5f00_45',['HIKYOU_DOUKUTU1_00_00',['../flags_8h.html#ac5200b6a58d7d730931d3f59e937e92ca25cf78cf5ebbcb4ebdb7a9948e46acaf',1,'flags.h']]],
   ['hikyou_5fdoukutu1_5f00_5ft0_46',['HIKYOU_DOUKUTU1_00_T0',['../flags_8h.html#ac5200b6a58d7d730931d3f59e937e92caa61a934153c0e12279fd1f73457b6c08',1,'flags.h']]],
-  ['hit_47',['HIT',['../octorokBoss_8c.html#a83d7e04c6c4e912a8e829869fb21b45dad4cf8619fedf804702c72835be555da0',1,'octorokBoss.c']]],
+  ['hit_47',['HIT',['../octorokBoss_8h.html#a83d7e04c6c4e912a8e829869fb21b45dad4cf8619fedf804702c72835be555da0',1,'octorokBoss.h']]],
   ['hittable_5flever_48',['HITTABLE_LEVER',['../object_8h.html#a0b29a1e1c76a85a0dbaa7c34a9d2874aa715ba0164463e7310348c64e8abbdcf4',1,'object.h']]],
   ['house_5fdoor_5fext_49',['HOUSE_DOOR_EXT',['../object_8h.html#a0b29a1e1c76a85a0dbaa7c34a9d2874aaa5aeed5272cb43c112a3125e4ac0c939',1,'object.h']]],
   ['house_5fdoor_5fint_50',['HOUSE_DOOR_INT',['../object_8h.html#a0b29a1e1c76a85a0dbaa7c34a9d2874aa4b650d1d34d0a9f5250a0725e6509399',1,'object.h']]],

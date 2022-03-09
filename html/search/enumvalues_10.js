@@ -26,8 +26,8 @@ var searchData=
   ['room_5fvisit_5fmarker_23',['ROOM_VISIT_MARKER',['../room_8h.html#a88b930e1434992042a6c78203f58b442aff7e07bc6885df0950d6e38d30455e0a',1,'room.h']]],
   ['rope_24',['ROPE',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba24d6f5addc374131ab07a16c222d6992',1,'enemy.h']]],
   ['rope_5fgolden_25',['ROPE_GOLDEN',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba5aba0ed64c1b5135731683e09241d6cb',1,'enemy.h']]],
-  ['rotation_5fccw_26',['ROTATION_CCW',['../octorokBoss_8c.html#a5786a5a5f55194e6d51e7a7b9aba70e1aaa314a3fd6f07f380d1d20140cd69624',1,'octorokBoss.c']]],
-  ['rotation_5fcw_27',['ROTATION_CW',['../octorokBoss_8c.html#a5786a5a5f55194e6d51e7a7b9aba70e1a44ad7e08c71dccfbfb55f851037b83cf',1,'octorokBoss.c']]],
+  ['rotation_5fccw_26',['ROTATION_CCW',['../octorokBoss_8h.html#a5786a5a5f55194e6d51e7a7b9aba70e1aaa314a3fd6f07f380d1d20140cd69624',1,'octorokBoss.h']]],
+  ['rotation_5fcw_27',['ROTATION_CW',['../octorokBoss_8h.html#a5786a5a5f55194e6d51e7a7b9aba70e1a44ad7e08c71dccfbfb55f851037b83cf',1,'octorokBoss.h']]],
   ['rupee_5flike_28',['RUPEE_LIKE',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba6e2ca20176b4869e10d4cf779becd495',1,'enemy.h']]],
   ['rupee_5fobject_29',['RUPEE_OBJECT',['../object_8h.html#a0b29a1e1c76a85a0dbaa7c34a9d2874aa12e9dfd8c5636f1b0ccd4fac63d674f2',1,'object.h']]]
 ];

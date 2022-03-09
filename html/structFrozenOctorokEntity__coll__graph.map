@@ -1,0 +1,9 @@
+<map id="FrozenOctorokEntity" name="FrozenOctorokEntity">
+<area shape="rect" id="node1" title=" " alt="" coords="53,600,192,627"/>
+<area shape="rect" id="node2" href="$structEntity.html" title="Container for instantiable behavior." alt="" coords="75,272,130,299"/>
+<area shape="rect" id="node7" href="$structOctorokBossEntity.html" title=" " alt="" coords="139,392,269,419"/>
+<area shape="rect" id="node3" href="$unionSplitWord.html" title=" " alt="" coords="241,5,319,32"/>
+<area shape="rect" id="node4" href="$structHitbox.html" title="Hitbox structure." alt="" coords="5,5,64,32"/>
+<area shape="rect" id="node5" href="$unionSplitHWord.html" title=" " alt="" coords="125,5,213,32"/>
+<area shape="rect" id="node6" href="$structOctorokBossHeap.html" title=" " alt="" coords="139,511,269,537"/>
+</map>

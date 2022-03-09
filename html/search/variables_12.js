@@ -43,7 +43,7 @@ var searchData=
   ['roomresinfos_40',['roomResInfos',['../structArea.html#a6a851616776ba1c1ba28a550d2de8192',1,'Area']]],
   ['rope_5ffunctions_41',['Rope_Functions',['../rope_8c.html#aafcba88e56caf9f2d3b29410e725eb8b',1,'rope.c']]],
   ['ropegolden_5ffunctions_42',['RopeGolden_Functions',['../ropeGolden_8c.html#ab2f1be44be5fc3585fcaa1d4e5c10857',1,'ropeGolden.c']]],
-  ['rotation_43',['rotation',['../structObjAffineSrcData.html#a32a9731823e045b5eb0079ab9c9a9bba',1,'ObjAffineSrcData::rotation()'],['../structHelperStruct.html#a16bb3513b4156aae363f8b480ca6adfe',1,'HelperStruct::rotation()']]],
+  ['rotation_43',['rotation',['../structObjAffineSrcData.html#a32a9731823e045b5eb0079ab9c9a9bba',1,'ObjAffineSrcData::rotation()'],['../structOctorokBossHeap.html#abcf933e7f42a396c3fab9da62c6eb472',1,'OctorokBossHeap::rotation()']]],
   ['runningstatus_44',['runningStatus',['../structMusicPlayerTrack.html#a015a14e603d6167e7c752a207cefbc87',1,'MusicPlayerTrack']]],
   ['rupee1_45',['rupee1',['../unionDroptable.html#aba7dda0e29820a6ef68021173dc99615',1,'Droptable']]],
   ['rupee20_46',['rupee20',['../unionDroptable.html#a30e5fc2854d15ec50dcaba1f17a85bda',1,'Droptable']]],

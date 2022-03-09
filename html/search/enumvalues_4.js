@@ -15,7 +15,7 @@ var searchData=
   ['end_5f8_12',['END_8',['../flags_8h.html#acc58ffb29629f7b16f57632a8847735faafc600e93bda27d0adebad622a32af42',1,'flags.h']]],
   ['end_5f9_13',['END_9',['../flags_8h.html#ac3e4aa611c70247ea14052e29b0cb463a7db11b04a5ef96cd5b62da406683158e',1,'flags.h']]],
   ['end_5fhide_14',['END_HIDE',['../lakitu_8c.html#abc6126af1d45847bc59afa0aa3216b04a5a122d557db644ebbf6b11ea8e9f075d',1,'lakitu.c']]],
-  ['end_5fof_5fattack_5fpattern_15',['END_OF_ATTACK_PATTERN',['../octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3aaad1a777ab7e22406bc6e9c301653964',1,'octorokBoss.c']]],
+  ['end_5fof_5fattack_5fpattern_15',['END_OF_ATTACK_PATTERN',['../octorokBoss_8h.html#aa63c35e91056c7052c4aad0c4446bcd3aaad1a777ab7e22406bc6e9c301653964',1,'octorokBoss.h']]],
   ['ending_16',['ENDING',['../flags_8h.html#a3f3de3e0d751949b8d0b60ffb302944aaca114391980a4b8e57873b25c0e16b75',1,'flags.h']]],
   ['enemy_17',['ENEMY',['../entity_8h.html#ad90c5929a39651126870429e8f6689b3a5ce368bdfc444a87fef6c208b4101571',1,'entity.h']]],
   ['enemy_5f4d_18',['ENEMY_4D',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08abac888263554eb718af71e5c9011e516b0',1,'enemy.h']]],

@@ -14,8 +14,9 @@ var searchData=
   ['force_5fword_5faligned_11',['FORCE_WORD_ALIGNED',['../structFORCE__WORD__ALIGNED.html',1,'']]],
   ['fourelementsentity_12',['FourElementsEntity',['../structFourElementsEntity.html',1,'']]],
   ['framegfxdata_13',['FrameGfxData',['../structFrameGfxData.html',1,'']]],
-  ['frozenwaterelemententity_14',['FrozenWaterElementEntity',['../structFrozenWaterElementEntity.html',1,'']]],
-  ['furniturecfg_15',['FurnitureCfg',['../structFurnitureCfg.html',1,'']]],
-  ['furnitureentity_16',['FurnitureEntity',['../structFurnitureEntity.html',1,'']]],
-  ['fuseinfo_17',['FuseInfo',['../structFuseInfo.html',1,'']]]
+  ['frozenoctorokentity_14',['FrozenOctorokEntity',['../structFrozenOctorokEntity.html',1,'']]],
+  ['frozenwaterelemententity_15',['FrozenWaterElementEntity',['../structFrozenWaterElementEntity.html',1,'']]],
+  ['furniturecfg_16',['FurnitureCfg',['../structFurnitureCfg.html',1,'']]],
+  ['furnitureentity_17',['FurnitureEntity',['../structFurnitureEntity.html',1,'']]],
+  ['fuseinfo_18',['FuseInfo',['../structFuseInfo.html',1,'']]]
 ];

@@ -18,5 +18,7 @@ var searchData=
   ['objectc1entity_15',['ObjectC1Entity',['../structObjectC1Entity.html',1,'']]],
   ['objectdefinition_16',['ObjectDefinition',['../structObjectDefinition.html',1,'']]],
   ['objectonpillarentity_17',['ObjectOnPillarEntity',['../structObjectOnPillarEntity.html',1,'']]],
-  ['objectonspinybeetleentity_18',['ObjectOnSpinyBeetleEntity',['../structObjectOnSpinyBeetleEntity.html',1,'']]]
+  ['objectonspinybeetleentity_18',['ObjectOnSpinyBeetleEntity',['../structObjectOnSpinyBeetleEntity.html',1,'']]],
+  ['octorokbossentity_19',['OctorokBossEntity',['../structOctorokBossEntity.html',1,'']]],
+  ['octorokbossheap_20',['OctorokBossHeap',['../structOctorokBossHeap.html',1,'']]]
 ];

@@ -195,7 +195,7 @@ var searchData=
   ['bread_5fshelf_192',['BREAD_SHELF',['../furniture_8c.html#aa06e085575735587cc1ab6389b3f2662a8c75ec650c2b71ccd368b3e6180ee67c',1,'furniture.c']]],
   ['brocco_193',['BROCCO',['../npc_8h.html#ab86484a9fbeb0e4494cb75cadb5f4cf3abc7044be86230be099d4b3dbb7164ddd',1,'npc.h']]],
   ['bulletin_5fboard_194',['BULLETIN_BOARD',['../furniture_8c.html#aa06e085575735587cc1ab6389b3f2662a8c836653680dbe8c105bdf37610bc1b1',1,'furniture.c']]],
-  ['burning_195',['BURNING',['../octorokBoss_8c.html#a83d7e04c6c4e912a8e829869fb21b45dad790b28b6f6640a2aeb099fdd740566b',1,'octorokBoss.c']]],
+  ['burning_195',['BURNING',['../octorokBoss_8h.html#a83d7e04c6c4e912a8e829869fb21b45dad790b28b6f6640a2aeb099fdd740566b',1,'octorokBoss.h']]],
   ['business_5fscrub_196',['BUSINESS_SCRUB',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08abafb8e3a471b56a2377cbda9048e2e2af5',1,'enemy.h']]],
   ['business_5fscrub_5fprologue_197',['BUSINESS_SCRUB_PROLOGUE',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08abaa6dd417127fe3ffb7eadfb41cec6d983',1,'enemy.h']]],
   ['button_198',['BUTTON',['../object_8h.html#a0b29a1e1c76a85a0dbaa7c34a9d2874aa7d67f007544f534278ecca3cdca12565',1,'object.h']]]

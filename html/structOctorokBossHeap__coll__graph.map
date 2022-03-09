@@ -1,0 +1,8 @@
+<map id="OctorokBossHeap" name="OctorokBossHeap">
+<area shape="rect" id="node1" title=" " alt="" coords="5,272,135,299"/>
+<area shape="rect" id="node2" href="$structOctorokBossEntity.html" title=" " alt="" coords="139,421,270,448"/>
+<area shape="rect" id="node3" href="$structEntity.html" title="Container for instantiable behavior." alt="" coords="303,272,357,299"/>
+<area shape="rect" id="node4" href="$unionSplitWord.html" title=" " alt="" coords="187,5,265,32"/>
+<area shape="rect" id="node5" href="$structHitbox.html" title="Hitbox structure." alt="" coords="311,5,370,32"/>
+<area shape="rect" id="node6" href="$unionSplitHWord.html" title=" " alt="" coords="429,5,517,32"/>
+</map>

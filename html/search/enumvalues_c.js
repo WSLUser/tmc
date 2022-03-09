@@ -298,7 +298,7 @@ var searchData=
   ['mori_5f00_5fkobito_295',['MORI_00_KOBITO',['../flags_8h.html#ac7ee586aedbfebef94fe99abb6fcc16aa161bd9675c70a44d669d442151493c1f',1,'flags.h']]],
   ['mori_5fentrance_5f1st_296',['MORI_ENTRANCE_1ST',['../flags_8h.html#ac7ee586aedbfebef94fe99abb6fcc16aa6fa3735958befb6940c09ee5eaf9854e',1,'flags.h']]],
   ['mountain_5fminish_297',['MOUNTAIN_MINISH',['../npc_8h.html#ab86484a9fbeb0e4494cb75cadb5f4cf3ada916e476ac5e346e7765efb38eb6b5b',1,'npc.h']]],
-  ['mouth_298',['MOUTH',['../octorokBoss_8c.html#a686d1656c9ab884942eed5aa41e0f7d9a77a7d9d225c9c4bb11ae05b1207ad58e',1,'octorokBoss.c']]],
+  ['mouth_298',['MOUTH',['../octorokBoss_8h.html#a686d1656c9ab884942eed5aa41e0f7d9a77a7d9d225c9c4bb11ae05b1207ad58e',1,'octorokBoss.h']]],
   ['msg_5fbackground_299',['MSG_BACKGROUND',['../message_8c.html#a80155586fa275b28773c9b203f52cabaacbdf66b28e4290c9366545843757368b',1,'message.c']]],
   ['msg_5fborder_5fcorner_300',['MSG_BORDER_CORNER',['../message_8c.html#a80155586fa275b28773c9b203f52cabaaeea722228d71e55ebf5b8be36def128a',1,'message.c']]],
   ['msg_5fborder_5fh_5fcorner_301',['MSG_BORDER_H_CORNER',['../message_8c.html#a80155586fa275b28773c9b203f52cabaa0228cd09405eb2b7e09457b1279f9968',1,'message.c']]],

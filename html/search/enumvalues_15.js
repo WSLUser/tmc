@@ -19,7 +19,7 @@ var searchData=
   ['wheaton_16',['WHEATON',['../npc_8h.html#ab86484a9fbeb0e4494cb75cadb5f4cf3a010823d93e9dec1c62c936d44608d70b',1,'npc.h']]],
   ['whirlwind_17',['WHIRLWIND',['../object_8h.html#a0b29a1e1c76a85a0dbaa7c34a9d2874aa4f40e870d16c3f7b0020bd5548640b3e',1,'object.h']]],
   ['white_5fsword_5fend_18',['WHITE_SWORD_END',['../flags_8h.html#a3f3de3e0d751949b8d0b60ffb302944aa0c23339c5b04b42a4090b0f322df4e9c',1,'flags.h']]],
-  ['whole_19',['WHOLE',['../octorokBoss_8c.html#a686d1656c9ab884942eed5aa41e0f7d9a22e41d649f93ab26b3fef686f088703e',1,'octorokBoss.c']]],
+  ['whole_19',['WHOLE',['../octorokBoss_8h.html#a686d1656c9ab884942eed5aa41e0f7d9a22e41d649f93ab26b3fef686f088703e',1,'octorokBoss.h']]],
   ['wind_5fprojectile_20',['WIND_PROJECTILE',['../projectile_8h.html#ade7b79b8b6788010eb8b6a9fd994ada4a032b65ef441d27074a4f0e77ec26fd3d',1,'projectile.h']]],
   ['wind_5ftribe_5fflag_21',['WIND_TRIBE_FLAG',['../object_8h.html#a0b29a1e1c76a85a0dbaa7c34a9d2874aa881eae1d05ea624f2c6e73983097e4ae',1,'object.h']]],
   ['wind_5ftribe_5fteleporter_22',['WIND_TRIBE_TELEPORTER',['../object_8h.html#a0b29a1e1c76a85a0dbaa7c34a9d2874aa8f427a2422c209defa670c5bd4a41101',1,'object.h']]],

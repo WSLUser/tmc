@@ -1,12 +1,12 @@
 var searchData=
 [
   ['acro_5fbandit_0',['ACRO_BANDIT',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08abaf20c8b05bfa247184a2a3ef2e9323ae4',1,'enemy.h']]],
-  ['action1_1',['ACTION1',['../octorokBoss_8c.html#a83d7e04c6c4e912a8e829869fb21b45dae717e40fffc2c08ebc547fdc08e888db',1,'octorokBoss.c']]],
-  ['action1_5faimtowardsplayer_2',['ACTION1_AIMTOWARDSPLAYER',['../octorokBoss_8c.html#a3f77497ae5648f693f124ba517febfe7a373262f61257a580f143276c3662cd4d',1,'octorokBoss.c']]],
-  ['action1_5fattack_3',['ACTION1_ATTACK',['../octorokBoss_8c.html#a3f77497ae5648f693f124ba517febfe7ab7e82efdb0fb6e7dbab8924dbb4481f0',1,'octorokBoss.c']]],
-  ['action1_5fsubaction2_4',['ACTION1_SUBACTION2',['../octorokBoss_8c.html#a3f77497ae5648f693f124ba517febfe7a5a67274eb95321b0ab6178e7b3d056f9',1,'octorokBoss.c']]],
-  ['action1_5fwaitforattack_5',['ACTION1_WAITFORATTACK',['../octorokBoss_8c.html#a3f77497ae5648f693f124ba517febfe7ad07cf1c44c0a9d854610ce7919755f98',1,'octorokBoss.c']]],
-  ['action1_5fwaitforturn_6',['ACTION1_WAITFORTURN',['../octorokBoss_8c.html#a3f77497ae5648f693f124ba517febfe7a64ff6becfacaa8502181002ecaf3d493',1,'octorokBoss.c']]],
+  ['action1_1',['ACTION1',['../octorokBoss_8h.html#a83d7e04c6c4e912a8e829869fb21b45dae717e40fffc2c08ebc547fdc08e888db',1,'octorokBoss.h']]],
+  ['action1_5faimtowardsplayer_2',['ACTION1_AIMTOWARDSPLAYER',['../octorokBoss_8h.html#a3f77497ae5648f693f124ba517febfe7a373262f61257a580f143276c3662cd4d',1,'octorokBoss.h']]],
+  ['action1_5fattack_3',['ACTION1_ATTACK',['../octorokBoss_8h.html#a3f77497ae5648f693f124ba517febfe7ab7e82efdb0fb6e7dbab8924dbb4481f0',1,'octorokBoss.h']]],
+  ['action1_5fsubaction2_4',['ACTION1_SUBACTION2',['../octorokBoss_8h.html#a3f77497ae5648f693f124ba517febfe7a5a67274eb95321b0ab6178e7b3d056f9',1,'octorokBoss.h']]],
+  ['action1_5fwaitforattack_5',['ACTION1_WAITFORATTACK',['../octorokBoss_8h.html#a3f77497ae5648f693f124ba517febfe7ad07cf1c44c0a9d854610ce7919755f98',1,'octorokBoss.h']]],
+  ['action1_5fwaitforturn_6',['ACTION1_WAITFORTURN',['../octorokBoss_8h.html#a3f77497ae5648f693f124ba517febfe7a64ff6becfacaa8502181002ecaf3d493',1,'octorokBoss.h']]],
   ['advance_5fkey_5fpressed_7',['ADVANCE_KEY_PRESSED',['../title_8c.html#aaf8fd5f0e57d456151c951e0f3715fc4a978f3b8293fa053b8d3c734d152227fd',1,'title.c']]],
   ['advance_5fnone_8',['ADVANCE_NONE',['../title_8c.html#aaf8fd5f0e57d456151c951e0f3715fc4ac2d8fc23f46a4e72b6f512b5b94ab200',1,'title.c']]],
   ['advance_5ftimer_5fexpired_9',['ADVANCE_TIMER_EXPIRED',['../title_8c.html#aaf8fd5f0e57d456151c951e0f3715fc4a2d6857ac3a3f21386a30f357200aad5e',1,'title.c']]],
@@ -182,8 +182,8 @@ var searchData=
   ['area_5fwind_5ftribe_5ftower_5froof_179',['AREA_WIND_TRIBE_TOWER_ROOF',['../area_8h.html#af4c28b21e4d386e79ba0a57f28d59064aaae660fccf7e5f23de654697b0ec9d71',1,'area.h']]],
   ['armos_180',['ARMOS',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba495f41634af145301e1cc09444da0c4d',1,'enemy.h']]],
   ['arrow_5fprojectile_181',['ARROW_PROJECTILE',['../projectile_8h.html#ade7b79b8b6788010eb8b6a9fd994ada4a3080d59290b1dbc999f282cc71e79240',1,'projectile.h']]],
-  ['attack_5ffreeze_182',['ATTACK_FREEZE',['../octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a753e46e130219411986aafa7f0f016c3',1,'octorokBoss.c']]],
-  ['attack_5fsmoke_183',['ATTACK_SMOKE',['../octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3aa50becb5a7c64969e572fa31d6ff1883',1,'octorokBoss.c']]],
-  ['attack_5fspitrock_184',['ATTACK_SPITROCK',['../octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a628e03e955003cadb26e29f7eefc321e',1,'octorokBoss.c']]],
-  ['attack_5fvacuum_185',['ATTACK_VACUUM',['../octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a7b8ca6262811cd573af61d788281ea7d',1,'octorokBoss.c']]]
+  ['attack_5ffreeze_182',['ATTACK_FREEZE',['../octorokBoss_8h.html#aa63c35e91056c7052c4aad0c4446bcd3a753e46e130219411986aafa7f0f016c3',1,'octorokBoss.h']]],
+  ['attack_5fsmoke_183',['ATTACK_SMOKE',['../octorokBoss_8h.html#aa63c35e91056c7052c4aad0c4446bcd3aa50becb5a7c64969e572fa31d6ff1883',1,'octorokBoss.h']]],
+  ['attack_5fspitrock_184',['ATTACK_SPITROCK',['../octorokBoss_8h.html#aa63c35e91056c7052c4aad0c4446bcd3a628e03e955003cadb26e29f7eefc321e',1,'octorokBoss.h']]],
+  ['attack_5fvacuum_185',['ATTACK_VACUUM',['../octorokBoss_8h.html#aa63c35e91056c7052c4aad0c4446bcd3a7b8ca6262811cd573af61d788281ea7d',1,'octorokBoss.h']]]
 ];

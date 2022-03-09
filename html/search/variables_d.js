@@ -61,7 +61,7 @@ var searchData=
   ['mosaic_58',['mosaic',['../structBgCnt.html#acb50e49922014a4191c85b93a9d5d231',1,'BgCnt::mosaic()'],['../structOamData.html#aa07778360184dbaf34985a9b85e15f56',1,'OamData::mosaic()']]],
   ['mosaicsize_59',['mosaicSize',['../structBgControls.html#a8522ff238609d95893131c7c9ee4e8bc',1,'BgControls']]],
   ['mouth_60',['mouth',['../structGyorgHeap.html#a185c4a083ab5606cf93ca7636dbcacdd',1,'GyorgHeap']]],
-  ['mouthobject_61',['mouthObject',['../structHelperStruct.html#ac3c26790cedaea38cf37036e06c4bc00',1,'HelperStruct']]],
+  ['mouthobject_61',['mouthObject',['../structHelperStruct.html#ac3d3124fe9bd1867fd1023d0a9e90f90',1,'HelperStruct::mouthObject()'],['../structOctorokBossHeap.html#a57f90ce8c4943f386826ebb71d833141',1,'OctorokBossHeap::mouthObject()']]],
   ['moveb_62',['moveB',['../movement_8c.html#a6a6cf6e850624e65d3f94067cd7f7b38',1,'movement.c']]],
   ['mplayjumptable_63',['MPlayJumpTable',['../structSoundInfo.html#aea9bb6800a4ad3f94ff07bdd95039fa8',1,'SoundInfo']]],
   ['mplaymainhead_64',['MPlayMainHead',['../structSoundInfo.html#a984164f6ca7d30c95f9811ad833a3601',1,'SoundInfo']]],

@@ -76,9 +76,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Data Structures</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">octorokBoss.c File Reference<div class="ingroups"><a class="el" href="group__Entities.html">Entities</a> &raquo; <a class="el" href="group__Enemies.html">Enemies</a></div></div></div>
@@ -87,11 +85,11 @@ $(function() {
 
 <p>Octorok boss enemy.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;<a class="el" href="enemy_8h_source.html">enemy.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="octorokBoss_8h_source.html">enemy/octorokBoss.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="game_8h_source.html">game.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="object_8h_source.html">object.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="projectile_8h_source.html">projectile.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="game_8h_source.html">game.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for octorokBoss.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -100,11 +98,12 @@ $(function() {
 <div class="center"><img src="octorokBoss_8c__incl.png" border="0" usemap="#asrc_2enemy_2octorokBoss_8c" alt=""/></div>
 <map name="asrc_2enemy_2octorokBoss_8c" id="asrc_2enemy_2octorokBoss_8c">
 <area shape="rect" title="Octorok boss enemy." alt="" coords="565,5,735,32"/>
-<area shape="rect" href="enemy_8h.html" title=" " alt="" coords="348,155,419,181"/>
+<area shape="rect" href="octorokBoss_8h.html" title=" " alt="" coords="350,80,497,107"/>
 <area shape="rect" href="projectile_8h.html" title=" " alt="" coords="5,229,89,256"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="999,80,1085,107"/>
-<area shape="rect" href="object_8h.html" title=" " alt="" coords="617,155,683,181"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="978,80,1063,107"/>
 <area shape="rect" href="game_8h.html" title=" " alt="" coords="1450,304,1514,331"/>
+<area shape="rect" href="object_8h.html" title=" " alt="" coords="617,155,683,181"/>
+<area shape="rect" href="enemy_8h.html" title=" " alt="" coords="348,155,419,181"/>
 <area shape="rect" href="global_8h.html" title=" " alt="" coords="877,453,943,480"/>
 <area shape="rect" href="asm_8h.html" title=" " alt="" coords="355,229,412,256"/>
 <area shape="rect" href="sound_8h.html" title=" " alt="" coords="437,229,503,256"/>
@@ -129,7 +128,7 @@ $(function() {
 <area shape="rect" href="coord_8h.html" title=" " alt="" coords="725,229,789,256"/>
 <area shape="rect" href="player_8h.html" title=" " alt="" coords="1157,229,1223,256"/>
 <area shape="rect" href="room_8h.html" title=" " alt="" coords="965,229,1026,256"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="1179,155,1270,181"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="1198,155,1289,181"/>
 <area shape="rect" href="script_8h.html" title=" " alt="" coords="826,155,890,181"/>
 <area shape="rect" href="map_8h.html" title=" " alt="" coords="1317,304,1375,331"/>
 <area shape="rect" href="droptables_8h.html" title=" " alt="" coords="1021,304,1113,331"/>
@@ -137,411 +136,132 @@ $(function() {
 </map>
 </div>
 </div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Data Structures</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structHelperStruct.html">HelperStruct</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a38301478e996cfc9e30920dd383042f9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a38301478e996cfc9e30920dd383042f9">IS_FROZEN</a>(this)&#160;&#160;&#160;((this)-&gt;field_0x7c.BYTES.byte0 &amp; 1)</td></tr>
+<tr class="memitem:ad9d9839ea73fbe32257e340298da916d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#ad9d9839ea73fbe32257e340298da916d">NENT_DEPRECATED</a></td></tr>
+<tr class="separator:ad9d9839ea73fbe32257e340298da916d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38301478e996cfc9e30920dd383042f9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a38301478e996cfc9e30920dd383042f9">IS_FROZEN</a>(this)&#160;&#160;&#160;((this)-&gt;bossPhase &amp; 1)</td></tr>
 <tr class="separator:a38301478e996cfc9e30920dd383042f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7090b6d270528bbe6ebbd6b355f00d2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#ab7090b6d270528bbe6ebbd6b355f00d2">GET_BOSS_PHASE</a>(this)&#160;&#160;&#160;((this)-&gt;field_0x7c.BYTES.byte0)</td></tr>
-<tr class="separator:ab7090b6d270528bbe6ebbd6b355f00d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87dd1b40591c22bb55a25e08751cf605"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a87dd1b40591c22bb55a25e08751cf605">GET_TIMER</a>(this)&#160;&#160;&#160;((this)-&gt;field_0x78.HALF.HI)</td></tr>
-<tr class="separator:a87dd1b40591c22bb55a25e08751cf605"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ee05d240df7f336433e27dbc5ecd351"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a1ee05d240df7f336433e27dbc5ecd351">GET_ATTACK_WAIT_TURNS</a>(this)&#160;&#160;&#160;((this)-&gt;field_0x78.HALF.LO)</td></tr>
-<tr class="separator:a1ee05d240df7f336433e27dbc5ecd351"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4eeda74b985d0c0bbc1b72d7828dcaf2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a4eeda74b985d0c0bbc1b72d7828dcaf2">GET_ANGLE</a>(this)&#160;&#160;&#160;((this)-&gt;field_0x7a.HWORD)</td></tr>
-<tr class="separator:a4eeda74b985d0c0bbc1b72d7828dcaf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9dd10712043e8d7d228ce8fcb56c719"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#ab9dd10712043e8d7d228ce8fcb56c719">GET_ANGLE_HI</a>(this)&#160;&#160;&#160;((this)-&gt;field_0x7a.HALF.HI)</td></tr>
-<tr class="separator:ab9dd10712043e8d7d228ce8fcb56c719"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a302d1c526f4fbbf35e8670b5b9cf7985"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a302d1c526f4fbbf35e8670b5b9cf7985">GET_ANGULAR_VEL</a>(this)&#160;&#160;&#160;((this)-&gt;field_0x82.HWORD)</td></tr>
-<tr class="separator:a302d1c526f4fbbf35e8670b5b9cf7985"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00417a3c2fd9e176fc3ec67394275474"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a00417a3c2fd9e176fc3ec67394275474">GET_CURRENT_ATTACK</a>(this)&#160;&#160;&#160;this-&gt;field_0x7c.BYTES.byte1</td></tr>
-<tr class="separator:a00417a3c2fd9e176fc3ec67394275474"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f76b61085b9a77e33c3e0e860b1c041"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a2f76b61085b9a77e33c3e0e860b1c041">GET_NEXT_ATTACK_INDEX</a>(this)&#160;&#160;&#160;this-&gt;field_0x7c.BYTES.byte2</td></tr>
-<tr class="separator:a2f76b61085b9a77e33c3e0e860b1c041"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9313f758b5d961996e385c056d6aed18"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a9313f758b5d961996e385c056d6aed18">GET_TAIL_RADIUS</a>(this)&#160;&#160;&#160;this-&gt;field_0x7c.BYTES.byte1</td></tr>
+<tr class="memitem:a9313f758b5d961996e385c056d6aed18"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a9313f758b5d961996e385c056d6aed18">GET_TAIL_RADIUS</a>(this)&#160;&#160;&#160;this-&gt;currentAttack</td></tr>
 <tr class="separator:a9313f758b5d961996e385c056d6aed18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76ca4baf31e1a6245f0b0425cd7b89c6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a76ca4baf31e1a6245f0b0425cd7b89c6">GET_HELPER</a>(this)&#160;&#160;&#160;(*(<a class="el" href="structHelperStruct.html">HelperStruct</a>**)&amp;this-&gt;cutsceneBeh)</td></tr>
-<tr class="separator:a76ca4baf31e1a6245f0b0425cd7b89c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfc0cc2d8a7b1eca3c981db614c38d02"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#abfc0cc2d8a7b1eca3c981db614c38d02">GET_PHASE4_ATTACK_PATTERN</a>(this)&#160;&#160;&#160;this-&gt;field_0x80.HALF.HI</td></tr>
-<tr class="separator:abfc0cc2d8a7b1eca3c981db614c38d02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a5786a5a5f55194e6d51e7a7b9aba70e1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a5786a5a5f55194e6d51e7a7b9aba70e1">OctorokRotation</a> { <a class="el" href="octorokBoss_8c.html#a5786a5a5f55194e6d51e7a7b9aba70e1a44ad7e08c71dccfbfb55f851037b83cf">ROTATION_CW</a>
-, <a class="el" href="octorokBoss_8c.html#a5786a5a5f55194e6d51e7a7b9aba70e1aaa314a3fd6f07f380d1d20140cd69624">ROTATION_CCW</a>
-, <a class="el" href="octorokBoss_8c.html#a5786a5a5f55194e6d51e7a7b9aba70e1aa7b522eba767bd9e3d19631055606a6a">NO_ROTATION</a> = 0xff
- }</td></tr>
-<tr class="separator:a5786a5a5f55194e6d51e7a7b9aba70e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a686d1656c9ab884942eed5aa41e0f7d9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a686d1656c9ab884942eed5aa41e0f7d9">OctorokBossPart</a> { <br />
-&#160;&#160;<a class="el" href="octorokBoss_8c.html#a686d1656c9ab884942eed5aa41e0f7d9a22e41d649f93ab26b3fef686f088703e">WHOLE</a>
-, <a class="el" href="octorokBoss_8c.html#a686d1656c9ab884942eed5aa41e0f7d9a30c6daf99a98677979d19653ea9fe929">LEG_BR</a>
-, <a class="el" href="octorokBoss_8c.html#a686d1656c9ab884942eed5aa41e0f7d9a0c1fe47311a87f390e2cdb576ffdc53a">LEG_FR</a>
-, <a class="el" href="octorokBoss_8c.html#a686d1656c9ab884942eed5aa41e0f7d9a7c971438e2c64f766539a711b5190ebf">LEG_FL</a>
-, <br />
-&#160;&#160;<a class="el" href="octorokBoss_8c.html#a686d1656c9ab884942eed5aa41e0f7d9a47e9d963e34886b5e179c47ad29cf306">LEG_BL</a>
-, <a class="el" href="octorokBoss_8c.html#a686d1656c9ab884942eed5aa41e0f7d9a77a7d9d225c9c4bb11ae05b1207ad58e">MOUTH</a>
-, <a class="el" href="octorokBoss_8c.html#a686d1656c9ab884942eed5aa41e0f7d9a928b7c7eb7508eaf4c36290c5d74a812">TAIL_END</a>
-, <a class="el" href="octorokBoss_8c.html#a686d1656c9ab884942eed5aa41e0f7d9a4c28487b052a2b05f3db4dc5a722b1d7">TAIL</a>
-<br />
- }</td></tr>
-<tr class="separator:a686d1656c9ab884942eed5aa41e0f7d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83d7e04c6c4e912a8e829869fb21b45d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a83d7e04c6c4e912a8e829869fb21b45d">OctorokBossAction</a> { <br />
-&#160;&#160;<a class="el" href="octorokBoss_8c.html#a83d7e04c6c4e912a8e829869fb21b45da0cb1b2c6a7db1f1084886c98909a3f36">INIT</a>
-, <a class="el" href="octorokBoss_8c.html#a83d7e04c6c4e912a8e829869fb21b45dae717e40fffc2c08ebc547fdc08e888db">ACTION1</a>
-, <a class="el" href="octorokBoss_8c.html#a83d7e04c6c4e912a8e829869fb21b45dad4cf8619fedf804702c72835be555da0">HIT</a>
-, <a class="el" href="octorokBoss_8c.html#a83d7e04c6c4e912a8e829869fb21b45da27c2b33ab0a8943297e1cb0b3d25eb98">INTRO</a>
-, <br />
-&#160;&#160;<a class="el" href="octorokBoss_8c.html#a83d7e04c6c4e912a8e829869fb21b45dad790b28b6f6640a2aeb099fdd740566b">BURNING</a>
-<br />
- }</td></tr>
-<tr class="separator:a83d7e04c6c4e912a8e829869fb21b45d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa63c35e91056c7052c4aad0c4446bcd3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3">OctorokBossAttack</a> { <br />
-&#160;&#160;<a class="el" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a628e03e955003cadb26e29f7eefc321e">ATTACK_SPITROCK</a>
-, <a class="el" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a7b8ca6262811cd573af61d788281ea7d">ATTACK_VACUUM</a>
-, <a class="el" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3aa50becb5a7c64969e572fa31d6ff1883">ATTACK_SMOKE</a>
-, <a class="el" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a753e46e130219411986aafa7f0f016c3">ATTACK_FREEZE</a>
-, <br />
-&#160;&#160;<a class="el" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a981987fd8265a89d47f9c7d6e1fdf1e0">NO_ATTACK</a>
-, <a class="el" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3aaad1a777ab7e22406bc6e9c301653964">END_OF_ATTACK_PATTERN</a>
-<br />
- }</td></tr>
-<tr class="separator:aa63c35e91056c7052c4aad0c4446bcd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f77497ae5648f693f124ba517febfe7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a3f77497ae5648f693f124ba517febfe7">OctorokBossAction1SubAction</a> { <br />
-&#160;&#160;<a class="el" href="octorokBoss_8c.html#a3f77497ae5648f693f124ba517febfe7a373262f61257a580f143276c3662cd4d">ACTION1_AIMTOWARDSPLAYER</a>
-, <a class="el" href="octorokBoss_8c.html#a3f77497ae5648f693f124ba517febfe7a64ff6becfacaa8502181002ecaf3d493">ACTION1_WAITFORTURN</a>
-, <a class="el" href="octorokBoss_8c.html#a3f77497ae5648f693f124ba517febfe7a5a67274eb95321b0ab6178e7b3d056f9">ACTION1_SUBACTION2</a>
-, <a class="el" href="octorokBoss_8c.html#a3f77497ae5648f693f124ba517febfe7ad07cf1c44c0a9d854610ce7919755f98">ACTION1_WAITFORATTACK</a>
-, <br />
-&#160;&#160;<a class="el" href="octorokBoss_8c.html#a3f77497ae5648f693f124ba517febfe7ab7e82efdb0fb6e7dbab8924dbb4481f0">ACTION1_ATTACK</a>
-<br />
- }</td></tr>
-<tr class="separator:a3f77497ae5648f693f124ba517febfe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a224d6ecf51b939ad9f57210f065503fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a224d6ecf51b939ad9f57210f065503fb">OctorokBoss_Hit</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a224d6ecf51b939ad9f57210f065503fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a4d5ee4afcdfb50641af28fef971388"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a8a4d5ee4afcdfb50641af28fef971388">OctorokBoss_Action1</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a8a4d5ee4afcdfb50641af28fef971388"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c507136281657f5d1888311b767a3c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a0c507136281657f5d1888311b767a3c5">OctorokBoss_Burning_SubAction1</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a0c507136281657f5d1888311b767a3c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac983cbe63d5e362aa8c45cc7be88cdcd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#ac983cbe63d5e362aa8c45cc7be88cdcd">sub_080368D8</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:ac983cbe63d5e362aa8c45cc7be88cdcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedd92ab13c5bde0778d793fd265964d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#aedd92ab13c5bde0778d793fd265964d6">OctorokBoss_Hit</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:aedd92ab13c5bde0778d793fd265964d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13e995d9c4d835226996b61c8bbf13e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a13e995d9c4d835226996b61c8bbf13e0">OctorokBoss_Action1</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:a13e995d9c4d835226996b61c8bbf13e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12a1def441093df1730c001c82753e7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a12a1def441093df1730c001c82753e7c">OctorokBoss_Burning_SubAction1</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:a12a1def441093df1730c001c82753e7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ceefcba5ac73970f930388f01307672"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a3ceefcba5ac73970f930388f01307672">sub_080368D8</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:a3ceefcba5ac73970f930388f01307672"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37d85dc5e8996ceb5eb3eb60633d3142"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a37d85dc5e8996ceb5eb3eb60633d3142">sub_08036914</a> (<a class="el" href="structEntity.html">Entity</a> *, <a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a>, <a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a>)</td></tr>
 <tr class="separator:a37d85dc5e8996ceb5eb3eb60633d3142"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acdff95bb8a8a81dc2e74e01f305a8d27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#acdff95bb8a8a81dc2e74e01f305a8d27">sub_08036998</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:acdff95bb8a8a81dc2e74e01f305a8d27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98aaf655cba78c4e6efbb5f3d9afa096"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a98aaf655cba78c4e6efbb5f3d9afa096">sub_080369D0</a> (<a class="el" href="structEntity.html">Entity</a> *, <a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a>, <a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a>)</td></tr>
-<tr class="separator:a98aaf655cba78c4e6efbb5f3d9afa096"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43a8f6d40933cd9664ce8118704e82e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a43a8f6d40933cd9664ce8118704e82e4">sub_08036AF0</a> (<a class="el" href="structEntity.html">Entity</a> *, <a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a>, <a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a>)</td></tr>
-<tr class="separator:a43a8f6d40933cd9664ce8118704e82e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3ca4f5d182ce05e4a08ed3949a50ed4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#ad3ca4f5d182ce05e4a08ed3949a50ed4">OctorokBoss_SetAttackTimer</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:ad3ca4f5d182ce05e4a08ed3949a50ed4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e9d8fa9bcb85edb63693f1e02775a0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a6e9d8fa9bcb85edb63693f1e02775a0f">OctorokBoss_ResetToSubAction0</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a6e9d8fa9bcb85edb63693f1e02775a0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1f8b64cd99742fbafd8fe534c489fdd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#af1f8b64cd99742fbafd8fe534c489fdd">OctorokBoss_WaitAnotherTurn</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:af1f8b64cd99742fbafd8fe534c489fdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9dc4c698d5a8b0ff2e79e23a83fb553"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#ac9dc4c698d5a8b0ff2e79e23a83fb553">OctorokBoss_SetWaitTurnsForNextAttack</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:ac9dc4c698d5a8b0ff2e79e23a83fb553"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95e794b64cd186efbf04ca2866d0015b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a95e794b64cd186efbf04ca2866d0015b">OctorokBoss_StartRegularAttack</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a95e794b64cd186efbf04ca2866d0015b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46cb0467bc7ec1df6fc64ea8cd1d3380"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a46cb0467bc7ec1df6fc64ea8cd1d3380">OctorokBoss_ChangePalette</a> (<a class="el" href="structEntity.html">Entity</a> *, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)</td></tr>
-<tr class="separator:a46cb0467bc7ec1df6fc64ea8cd1d3380"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1dfa8b2f8f96aefadd1155b10d4edff4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a1dfa8b2f8f96aefadd1155b10d4edff4">sub_08036F60</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a1dfa8b2f8f96aefadd1155b10d4edff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5744a116a902b2d13fc367d56a7742c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a5744a116a902b2d13fc367d56a7742c4">OctorokBoss_StepSound</a> (<a class="el" href="structEntity.html">Entity</a> *, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)</td></tr>
-<tr class="separator:a5744a116a902b2d13fc367d56a7742c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e1a56e6eddf87fb03d7d24ccb61c38d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a1e1a56e6eddf87fb03d7d24ccb61c38d">sub_08036FE4</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a1e1a56e6eddf87fb03d7d24ccb61c38d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a017fa8f908168ae488cf95c3ceaa05d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a017fa8f908168ae488cf95c3ceaa05d7">OctorokBoss</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a017fa8f908168ae488cf95c3ceaa05d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25896c5cf57a19fe44e7c202862cd8e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a25896c5cf57a19fe44e7c202862cd8e2">OctorokBoss_Death</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a25896c5cf57a19fe44e7c202862cd8e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac9d1d6ef3e74044ca6851a173af909b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#aac9d1d6ef3e74044ca6851a173af909b">OctorokBoss_Hit_SubAction0</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:aac9d1d6ef3e74044ca6851a173af909b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68027e1ee1412bbdfd9224085efe6e28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a68027e1ee1412bbdfd9224085efe6e28">OctorokBoss_Hit_SubAction1</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a68027e1ee1412bbdfd9224085efe6e28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b2d82ecac7978b063c28890d6e7c11c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a9b2d82ecac7978b063c28890d6e7c11c">OctorokBoss_Hit_SubAction2</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a9b2d82ecac7978b063c28890d6e7c11c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acda8e3183c98577cada62e865d66e7fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#acda8e3183c98577cada62e865d66e7fd">OctorokBoss_Hit_SubAction3</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:acda8e3183c98577cada62e865d66e7fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeef4358ed545eafc25292ff8d4b6f978"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#aeef4358ed545eafc25292ff8d4b6f978">OctorokBoss_Hit_SubAction4</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:aeef4358ed545eafc25292ff8d4b6f978"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92027d14bc8ef6816672d05f96c72b1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a92027d14bc8ef6816672d05f96c72b1a">OctorokBoss_Hit_SubAction5</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a92027d14bc8ef6816672d05f96c72b1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe3409c450fe3ee816d538b45b273d8e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#abe3409c450fe3ee816d538b45b273d8e">OctorokBoss_Hit_SubAction6</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:abe3409c450fe3ee816d538b45b273d8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5387f9e341a96c31c337a0199d56b8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#af5387f9e341a96c31c337a0199d56b8a">OctorokBoss_OnTick</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:af5387f9e341a96c31c337a0199d56b8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbf9aa2a72c43729579569122affe371"><td class="memItemLeft" align="right" valign="top">asm non_matching octorokBoss OctorokBoss_Init void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#acbf9aa2a72c43729579569122affe371">OctorokBoss_Init</a> (<a class="el" href="structEntity.html">Entity</a> *this)) void OctorokBoss_Intro(<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:acbf9aa2a72c43729579569122affe371"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a224723053c193826e7bfc28f5dc696b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a224723053c193826e7bfc28f5dc696b1">OctorokBoss_Intro_SubAction0</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a224723053c193826e7bfc28f5dc696b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf55a9492bcf35980f7e3e5d80916551"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#aaf55a9492bcf35980f7e3e5d80916551">OctorokBoss_Intro_SubAction1</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:aaf55a9492bcf35980f7e3e5d80916551"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d67764dcbd7520d010c8f079a993260"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a0d67764dcbd7520d010c8f079a993260">OctorokBoss_Intro_SubAction2</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a0d67764dcbd7520d010c8f079a993260"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7fb143cbd9fb1c9df166a7548fb44fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#ad7fb143cbd9fb1c9df166a7548fb44fd">OctorokBoss_Intro_SubAction3</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:ad7fb143cbd9fb1c9df166a7548fb44fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ca887afc43e95504a6038787fe64cb2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a4ca887afc43e95504a6038787fe64cb2">OctorokBoss_Intro_SubAction4</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a4ca887afc43e95504a6038787fe64cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3613c1c212ddc31dec92b09dffea156e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a3613c1c212ddc31dec92b09dffea156e">OctorokBoss_Intro_SubAction5</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a3613c1c212ddc31dec92b09dffea156e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9da432ac380826d35ac91bac380706e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#aa9da432ac380826d35ac91bac380706e">OctorokBoss_Action1_AimTowardsPlayer</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:aa9da432ac380826d35ac91bac380706e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acee8b9d10a7c29c7bfeb56ffe624efda"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#acee8b9d10a7c29c7bfeb56ffe624efda">OctorokBoss_Action1_WaitForTurn</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:acee8b9d10a7c29c7bfeb56ffe624efda"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefef57f6f8225c0ca80a0e3dc31126b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#aefef57f6f8225c0ca80a0e3dc31126b8">OctorokBoss_Action1_WaitForAttack</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:aefef57f6f8225c0ca80a0e3dc31126b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85f1fe62eee5bf01db4d2de4b08753ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a85f1fe62eee5bf01db4d2de4b08753ae">OctorokBoss_Action1_ChargeAttack</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a85f1fe62eee5bf01db4d2de4b08753ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1bca9cc14c523b43b221f24b4d375b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#ad1bca9cc14c523b43b221f24b4d375b4">OctorokBoss_Action1_Attack</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:ad1bca9cc14c523b43b221f24b4d375b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75e01030cce8e665b970755b55e91521"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a75e01030cce8e665b970755b55e91521">OctorokBoss_Action1_Attack_Type2_0</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a75e01030cce8e665b970755b55e91521"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27e8995e8b3bf33fc39a69af2b49bd7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a27e8995e8b3bf33fc39a69af2b49bd7e">OctorokBoss_Action1_Attack_Type2_1</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a27e8995e8b3bf33fc39a69af2b49bd7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7bfd0e08c7f76c2fce468e1ef4dbf19"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#aa7bfd0e08c7f76c2fce468e1ef4dbf19">OctorokBoss_Action1_Attack_Type2_2</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:aa7bfd0e08c7f76c2fce468e1ef4dbf19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08baa391a0f240cb564db2825d2ee416"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a08baa391a0f240cb564db2825d2ee416">OctorokBoss_Action1_Attack_Type2_3</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a08baa391a0f240cb564db2825d2ee416"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a8a28f5e4074967ed99bbeb2a9e6dc2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a4a8a28f5e4074967ed99bbeb2a9e6dc2">OctorokBoss_ExecuteAttackSpitRock</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a4a8a28f5e4074967ed99bbeb2a9e6dc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af44e513620e18efcd99e44d7d310d697"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#af44e513620e18efcd99e44d7d310d697">OctorokBoss_ExecuteAttackVacuum</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:af44e513620e18efcd99e44d7d310d697"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4676b8f50326d4c3958ea304a90a6192"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a4676b8f50326d4c3958ea304a90a6192">OctorokBoss_ExecuteAttackSmoke</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a4676b8f50326d4c3958ea304a90a6192"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96892532338379018aff3d3c47a563f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a96892532338379018aff3d3c47a563f1">OctorokBoss_ExecuteAttackFreeze</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a96892532338379018aff3d3c47a563f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8afed202b0b77c63b1b3d219b4746f93"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a8afed202b0b77c63b1b3d219b4746f93">OctorokBoss_Burning</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a8afed202b0b77c63b1b3d219b4746f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06c1d2ca638f2f8331bf5858287427a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a06c1d2ca638f2f8331bf5858287427a7">OctorokBoss_Burning_SubAction0</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a06c1d2ca638f2f8331bf5858287427a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e8fc01e7506910a04be87c159fd1a81"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a0e8fc01e7506910a04be87c159fd1a81">OctorokBoss_Burning_SubAction2</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a0e8fc01e7506910a04be87c159fd1a81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a808ecdb787243a253ed8fa0a5b0f552d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a808ecdb787243a253ed8fa0a5b0f552d">sub_08036998</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:a808ecdb787243a253ed8fa0a5b0f552d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a808d8f1880d5b5854e77eb650221234e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a808d8f1880d5b5854e77eb650221234e">sub_080369D0</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *this, <a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a> <a class="el" href="movement_8c.html#a10c8f56b4a63e239e3fe5f508ef2697b">radius</a>, <a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a> angleSpeed)) 1(&quot;asm/non_matching/octorokBoss/<a class="el" href="vram_8c.html#aad973c195b26444d779e27ee693ef6d2">sub_08036AF0.inc</a>&quot;</td></tr>
+<tr class="memdesc:a808d8f1880d5b5854e77eb650221234e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate tail angles frozen sub_08036AF0.  <a href="octorokBoss_8c.html#a808d8f1880d5b5854e77eb650221234e">More...</a><br /></td></tr>
+<tr class="separator:a808d8f1880d5b5854e77eb650221234e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e0b3025093ebe5a7296ebec22c5dd66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a2e0b3025093ebe5a7296ebec22c5dd66">sub_08036AF0</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *, <a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a>, <a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a>)</td></tr>
+<tr class="separator:a2e0b3025093ebe5a7296ebec22c5dd66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0e3962a1259a53865804ac86ba34c16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#aa0e3962a1259a53865804ac86ba34c16">OctorokBoss_SetAttackTimer</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:aa0e3962a1259a53865804ac86ba34c16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a364365ca8446542db0e0d893f07c6287"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a364365ca8446542db0e0d893f07c6287">OctorokBoss_ResetToSubAction0</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:a364365ca8446542db0e0d893f07c6287"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a305c28bba4df8f6c24515a8bc10362ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a305c28bba4df8f6c24515a8bc10362ad">OctorokBoss_WaitAnotherTurn</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:a305c28bba4df8f6c24515a8bc10362ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4772860a36ea54115d1dc59f0f9a1d3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a4772860a36ea54115d1dc59f0f9a1d3e">OctorokBoss_SetWaitTurnsForNextAttack</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:a4772860a36ea54115d1dc59f0f9a1d3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ad6ff5a2185689cd6ce28d2fcba8122"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a5ad6ff5a2185689cd6ce28d2fcba8122">OctorokBoss_StartRegularAttack</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:a5ad6ff5a2185689cd6ce28d2fcba8122"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e817d32deac04884035e14daea25e95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a4e817d32deac04884035e14daea25e95">OctorokBoss_ChangePalette</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)</td></tr>
+<tr class="separator:a4e817d32deac04884035e14daea25e95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a701e3e1d6d3e980870f337f6abf54747"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a701e3e1d6d3e980870f337f6abf54747">sub_08036F60</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:a701e3e1d6d3e980870f337f6abf54747"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67ddba42ea5d71f2ed428156163cd15e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a67ddba42ea5d71f2ed428156163cd15e">OctorokBoss_StepSound</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)</td></tr>
+<tr class="separator:a67ddba42ea5d71f2ed428156163cd15e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad67ae709b3a2ad449b6d0dc6af239b22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#ad67ae709b3a2ad449b6d0dc6af239b22">sub_08036FE4</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:ad67ae709b3a2ad449b6d0dc6af239b22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a307233f5e32be3a36cf841d1ab999270"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a307233f5e32be3a36cf841d1ab999270">OctorokBoss_OnTick</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:a307233f5e32be3a36cf841d1ab999270"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8efe6d5b8384317e974279767371f25"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#aa8efe6d5b8384317e974279767371f25">OctorokBoss_OnDeath</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:aa8efe6d5b8384317e974279767371f25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53420dcea63b9a0ed30f2076d98e0402"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a53420dcea63b9a0ed30f2076d98e0402">OctorokBoss_Hit_SubAction0</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:a53420dcea63b9a0ed30f2076d98e0402"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace55fcc0df93d7f552d05495144f270d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#ace55fcc0df93d7f552d05495144f270d">OctorokBoss_Hit_SubAction1</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:ace55fcc0df93d7f552d05495144f270d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afabbd887ef26bf74a54456f1d32853ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#afabbd887ef26bf74a54456f1d32853ee">OctorokBoss_Hit_SubAction2</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:afabbd887ef26bf74a54456f1d32853ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab632bd6ae84aa0e88a4577a11947449a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#ab632bd6ae84aa0e88a4577a11947449a">OctorokBoss_Hit_SubAction3</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:ab632bd6ae84aa0e88a4577a11947449a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a279ea9ffa97f84fe2f4fc4143d6e7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a0a279ea9ffa97f84fe2f4fc4143d6e7e">OctorokBoss_Hit_SubAction4</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:a0a279ea9ffa97f84fe2f4fc4143d6e7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7094ab67f4db7294cbc596a3972fd67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#af7094ab67f4db7294cbc596a3972fd67">OctorokBoss_Hit_SubAction5</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:af7094ab67f4db7294cbc596a3972fd67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5b5f4b4262309f8bfa14009adda4e3d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#ab5b5f4b4262309f8bfa14009adda4e3d">OctorokBoss_Hit_SubAction6</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:ab5b5f4b4262309f8bfa14009adda4e3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c679757cc94e916b85e4d208a8d8c58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a5c679757cc94e916b85e4d208a8d8c58">OctorokBoss_Intro_SubAction0</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:a5c679757cc94e916b85e4d208a8d8c58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e5ca64e507082e15c6c4a89293b84d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a1e5ca64e507082e15c6c4a89293b84d9">OctorokBoss_Intro_SubAction1</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:a1e5ca64e507082e15c6c4a89293b84d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05c18259ddf76ac84bd906c5a4b8f1f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a05c18259ddf76ac84bd906c5a4b8f1f9">OctorokBoss_Intro_SubAction2</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:a05c18259ddf76ac84bd906c5a4b8f1f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a617bed121e789ebb2379b6d14084a97a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a617bed121e789ebb2379b6d14084a97a">OctorokBoss_Intro_SubAction3</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:a617bed121e789ebb2379b6d14084a97a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acec7f9dbd22fba6b40a9103809fe6c30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#acec7f9dbd22fba6b40a9103809fe6c30">OctorokBoss_Intro_SubAction4</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:acec7f9dbd22fba6b40a9103809fe6c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c7c44a9425d92c065ed261e8626bc01"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a8c7c44a9425d92c065ed261e8626bc01">OctorokBoss_Intro_SubAction5</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:a8c7c44a9425d92c065ed261e8626bc01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dd35ac5bb279a24430d68c943e032fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a0dd35ac5bb279a24430d68c943e032fe">OctorokBoss_Action1_AimTowardsPlayer</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:a0dd35ac5bb279a24430d68c943e032fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3039728ecaeebc083e158c2e5d92e600"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a3039728ecaeebc083e158c2e5d92e600">OctorokBoss_Action1_WaitForTurn</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:a3039728ecaeebc083e158c2e5d92e600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a101eabb3c37f2c902d23062a42ade9a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a101eabb3c37f2c902d23062a42ade9a6">OctorokBoss_Action1_WaitForAttack</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:a101eabb3c37f2c902d23062a42ade9a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04caec031d1c891053e234fe7833f7d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a04caec031d1c891053e234fe7833f7d8">OctorokBoss_Action1_ChargeAttack</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:a04caec031d1c891053e234fe7833f7d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac31fc53f82ea6472bf00124a1755f737"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#ac31fc53f82ea6472bf00124a1755f737">OctorokBoss_Action1_Attack</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:ac31fc53f82ea6472bf00124a1755f737"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af76ce7b2ac4f5351604749d95506ff38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#af76ce7b2ac4f5351604749d95506ff38">OctorokBoss_Init</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:af76ce7b2ac4f5351604749d95506ff38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac659a5abdddcf6ba816a6097948034b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#ac659a5abdddcf6ba816a6097948034b9">OctorokBoss_Intro</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:ac659a5abdddcf6ba816a6097948034b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a350b08406ee62558716783c463f78e34"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a350b08406ee62558716783c463f78e34">OctorokBoss_Burning</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:a350b08406ee62558716783c463f78e34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7097566cd60897d7052f88fac138baf7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a7097566cd60897d7052f88fac138baf7">OctorokBoss_Action1_Attack_Type2_0</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:a7097566cd60897d7052f88fac138baf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa652c504b3cba47b40e6ab9fae5fdc7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#aa652c504b3cba47b40e6ab9fae5fdc7c">OctorokBoss_Action1_Attack_Type2_1</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:aa652c504b3cba47b40e6ab9fae5fdc7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36fada28058f69da79d035902f26646f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a36fada28058f69da79d035902f26646f">OctorokBoss_Action1_Attack_Type2_2</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:a36fada28058f69da79d035902f26646f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3630a7e135b99def450d45c014d0897c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a3630a7e135b99def450d45c014d0897c">OctorokBoss_Action1_Attack_Type2_3</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:a3630a7e135b99def450d45c014d0897c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18a85c4e2a63b1a71663eb40c417a418"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a18a85c4e2a63b1a71663eb40c417a418">OctorokBoss_ExecuteAttackSpitRock</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:a18a85c4e2a63b1a71663eb40c417a418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad68d87c1378ddb660c00910dbd8490a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#ad68d87c1378ddb660c00910dbd8490a6">OctorokBoss_ExecuteAttackVacuum</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:ad68d87c1378ddb660c00910dbd8490a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab96df0e97b47b404aaf8bff8fcce0053"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#ab96df0e97b47b404aaf8bff8fcce0053">OctorokBoss_ExecuteAttackSmoke</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:ab96df0e97b47b404aaf8bff8fcce0053"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf56127c19238cfbceacb283f7a69d8e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#adf56127c19238cfbceacb283f7a69d8e">OctorokBoss_ExecuteAttackFreeze</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:adf56127c19238cfbceacb283f7a69d8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af917a97989b11e5193cffd746363d522"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#af917a97989b11e5193cffd746363d522">OctorokBoss_Burning_SubAction0</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:af917a97989b11e5193cffd746363d522"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd2fa1a1a1d428f5ca1a21a8b753da23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#afd2fa1a1a1d428f5ca1a21a8b753da23">OctorokBoss_Burning_SubAction2</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *)</td></tr>
+<tr class="separator:afd2fa1a1a1d428f5ca1a21a8b753da23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e98b85a107d29476b3c32d2ce6a3066"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a1e98b85a107d29476b3c32d2ce6a3066">OctorokBoss</a> (<a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *this)</td></tr>
+<tr class="separator:a1e98b85a107d29476b3c32d2ce6a3066"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a102445fc6521ec18586eb3f0af38526c"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a102445fc6521ec18586eb3f0af38526c">OctorokBoss_Functions</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a102445fc6521ec18586eb3f0af38526c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0700a361a3d0e7f6dc04189374d7f763"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a0700a361a3d0e7f6dc04189374d7f763">OctorokBoss_Hit_SubActions</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a0700a361a3d0e7f6dc04189374d7f763"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01a8d5ed3541eeaaf8b3ee68b7e810b1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a01a8d5ed3541eeaaf8b3ee68b7e810b1">OctorokBoss_HealthPerPhase</a> []</td></tr>
-<tr class="separator:a01a8d5ed3541eeaaf8b3ee68b7e810b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e6f2113a3ab9c99c06cef12abc18b51"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a6e6f2113a3ab9c99c06cef12abc18b51">OctorokBoss_Actions</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a6e6f2113a3ab9c99c06cef12abc18b51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a313f22f8ade9ed806b679d1b090bb2f6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a313f22f8ade9ed806b679d1b090bb2f6">gUnk_080CF08C</a> []</td></tr>
-<tr class="separator:a313f22f8ade9ed806b679d1b090bb2f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88c29e8fb3c12881b99e864537569b81"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a88c29e8fb3c12881b99e864537569b81">OctorokBoss_Intro_SubActions</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a88c29e8fb3c12881b99e864537569b81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3a0771b5b8250326e52cf2a2dd86b52"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#af3a0771b5b8250326e52cf2a2dd86b52">OctorokBoss_Action1_SubActions</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:af3a0771b5b8250326e52cf2a2dd86b52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3795c22082e285edd46d7efe2ab8a15"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#ad3795c22082e285edd46d7efe2ab8a15">OctorokBoss_LegAngleOffset</a> []</td></tr>
-<tr class="separator:ad3795c22082e285edd46d7efe2ab8a15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa332c4a1497b75aa4ad68fd07d88b8f5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#aa332c4a1497b75aa4ad68fd07d88b8f5">OctorokBoss_LegAngleOffset2</a> []</td></tr>
-<tr class="separator:aa332c4a1497b75aa4ad68fd07d88b8f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08766fee36fe7683f594cb833df8fe2e"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a08766fee36fe7683f594cb833df8fe2e">OctorokBoss_Action1_Attack_Type2s</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a08766fee36fe7683f594cb833df8fe2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add73de86cf26682966a970b15f7f6a93"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#add73de86cf26682966a970b15f7f6a93">OctorokBoss_AttackFunctions</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:add73de86cf26682966a970b15f7f6a93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7e60a62d9882f549c48b80046b5347d"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#af7e60a62d9882f549c48b80046b5347d">OctorokBoss_Burning_SubActions</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:af7e60a62d9882f549c48b80046b5347d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae45af167773120924d2fcc3f04cec5a5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#ae45af167773120924d2fcc3f04cec5a5">OctorokBoss_AttackTimerWeights</a> []</td></tr>
-<tr class="separator:ae45af167773120924d2fcc3f04cec5a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ca21dda437ab6e3bdad3c0e8a9f806e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a6ca21dda437ab6e3bdad3c0e8a9f806e">OctorokBoss_AttackTimerValues</a> []</td></tr>
-<tr class="separator:a6ca21dda437ab6e3bdad3c0e8a9f806e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26c1717713059693d0f722ae5679e004"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a26c1717713059693d0f722ae5679e004">OctorokBoss_Phase4AttackPatterns</a> []</td></tr>
-<tr class="separator:a26c1717713059693d0f722ae5679e004"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a439ae2d4020372a5fa6de27e94b4d0d2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a439ae2d4020372a5fa6de27e94b4d0d2">OctorokBoss_TurnTimeWeights</a> []</td></tr>
-<tr class="separator:a439ae2d4020372a5fa6de27e94b4d0d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fdaaedf376f73438d4d37e946e343de"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a1fdaaedf376f73438d4d37e946e343de">OctorokBoss_TurnTimeValues</a> []</td></tr>
-<tr class="separator:a1fdaaedf376f73438d4d37e946e343de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affd7596ed934ab8914367e654366cc09"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#affd7596ed934ab8914367e654366cc09">OctorokBoss_WaitForAttackTurnsWeights</a> []</td></tr>
-<tr class="separator:affd7596ed934ab8914367e654366cc09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79bb4dca6e3e4e4ac9013437a3abfe54"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a79bb4dca6e3e4e4ac9013437a3abfe54">OctorokBoss_WaitForAttackTurnsValues</a> []</td></tr>
-<tr class="separator:a79bb4dca6e3e4e4ac9013437a3abfe54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45be2b8e3ba4dabae2628745b380d305"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a45be2b8e3ba4dabae2628745b380d305">OctorokBoss_NormalAttackPatterns</a> []</td></tr>
-<tr class="separator:a45be2b8e3ba4dabae2628745b380d305"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a061842f67fca166189e3de0876e08d8d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a061842f67fca166189e3de0876e08d8d">OctorokBoss_FrozenAttackPatterns</a> []</td></tr>
-<tr class="separator:a061842f67fca166189e3de0876e08d8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d9ea3904ecf28229cff52407dfdc5a6"><td class="memItemLeft" align="right" valign="top">asm non_matching octorokBoss <a class="el" href="octorokBoss_8c.html#acbf9aa2a72c43729579569122affe371">OctorokBoss_Init</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a6d9ea3904ecf28229cff52407dfdc5a6">inc</a></td></tr>
+<tr class="memitem:a0950eb6e4a54ffa8ee9089892f4a21fb"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a0950eb6e4a54ffa8ee9089892f4a21fb">gUnk_080CF08C</a> []</td></tr>
+<tr class="separator:a0950eb6e4a54ffa8ee9089892f4a21fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d9ea3904ecf28229cff52407dfdc5a6"><td class="memItemLeft" align="right" valign="top">asm non_matching octorokBoss <a class="el" href="octorokBoss_8c.html#af76ce7b2ac4f5351604749d95506ff38">OctorokBoss_Init</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a6d9ea3904ecf28229cff52407dfdc5a6">inc</a></td></tr>
+<tr class="memdesc:a6d9ea3904ecf28229cff52407dfdc5a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate tail angles regular.  <a href="octorokBoss_8c.html#a6d9ea3904ecf28229cff52407dfdc5a6">More...</a><br /></td></tr>
 <tr class="separator:a6d9ea3904ecf28229cff52407dfdc5a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24274e7a08b19e2d501305c2f0a35b4d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a24274e7a08b19e2d501305c2f0a35b4d">OctorokBoss_Phase4AttackPattern0</a> []</td></tr>
-<tr class="separator:a24274e7a08b19e2d501305c2f0a35b4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a484fba095af5a1cf7ba3a9ce95d53d58"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#a484fba095af5a1cf7ba3a9ce95d53d58">OctorokBoss_Phase4AttackPattern1</a> []</td></tr>
-<tr class="separator:a484fba095af5a1cf7ba3a9ce95d53d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6b8758505f935c47c6c9014e22db611"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="octorokBoss_8c.html#af6b8758505f935c47c6c9014e22db611">OctorokBoss_Phase4AttackPattern2</a> []</td></tr>
-<tr class="separator:af6b8758505f935c47c6c9014e22db611"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Octorok boss enemy. </p>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a4eeda74b985d0c0bbc1b72d7828dcaf2" name="a4eeda74b985d0c0bbc1b72d7828dcaf2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4eeda74b985d0c0bbc1b72d7828dcaf2">&#9670;&nbsp;</a></span>GET_ANGLE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define GET_ANGLE</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">this</td><td>)</td>
-          <td>&#160;&#160;&#160;((this)-&gt;field_0x7a.HWORD)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab9dd10712043e8d7d228ce8fcb56c719" name="ab9dd10712043e8d7d228ce8fcb56c719"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9dd10712043e8d7d228ce8fcb56c719">&#9670;&nbsp;</a></span>GET_ANGLE_HI</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define GET_ANGLE_HI</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">this</td><td>)</td>
-          <td>&#160;&#160;&#160;((this)-&gt;field_0x7a.HALF.HI)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a302d1c526f4fbbf35e8670b5b9cf7985" name="a302d1c526f4fbbf35e8670b5b9cf7985"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a302d1c526f4fbbf35e8670b5b9cf7985">&#9670;&nbsp;</a></span>GET_ANGULAR_VEL</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define GET_ANGULAR_VEL</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">this</td><td>)</td>
-          <td>&#160;&#160;&#160;((this)-&gt;field_0x82.HWORD)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1ee05d240df7f336433e27dbc5ecd351" name="a1ee05d240df7f336433e27dbc5ecd351"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ee05d240df7f336433e27dbc5ecd351">&#9670;&nbsp;</a></span>GET_ATTACK_WAIT_TURNS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define GET_ATTACK_WAIT_TURNS</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">this</td><td>)</td>
-          <td>&#160;&#160;&#160;((this)-&gt;field_0x78.HALF.LO)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab7090b6d270528bbe6ebbd6b355f00d2" name="ab7090b6d270528bbe6ebbd6b355f00d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7090b6d270528bbe6ebbd6b355f00d2">&#9670;&nbsp;</a></span>GET_BOSS_PHASE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define GET_BOSS_PHASE</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">this</td><td>)</td>
-          <td>&#160;&#160;&#160;((this)-&gt;field_0x7c.BYTES.byte0)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a00417a3c2fd9e176fc3ec67394275474" name="a00417a3c2fd9e176fc3ec67394275474"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00417a3c2fd9e176fc3ec67394275474">&#9670;&nbsp;</a></span>GET_CURRENT_ATTACK</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define GET_CURRENT_ATTACK</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">this</td><td>)</td>
-          <td>&#160;&#160;&#160;this-&gt;field_0x7c.BYTES.byte1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a76ca4baf31e1a6245f0b0425cd7b89c6" name="a76ca4baf31e1a6245f0b0425cd7b89c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a76ca4baf31e1a6245f0b0425cd7b89c6">&#9670;&nbsp;</a></span>GET_HELPER</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define GET_HELPER</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">this</td><td>)</td>
-          <td>&#160;&#160;&#160;(*(<a class="el" href="structHelperStruct.html">HelperStruct</a>**)&amp;this-&gt;cutsceneBeh)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2f76b61085b9a77e33c3e0e860b1c041" name="a2f76b61085b9a77e33c3e0e860b1c041"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f76b61085b9a77e33c3e0e860b1c041">&#9670;&nbsp;</a></span>GET_NEXT_ATTACK_INDEX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define GET_NEXT_ATTACK_INDEX</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">this</td><td>)</td>
-          <td>&#160;&#160;&#160;this-&gt;field_0x7c.BYTES.byte2</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abfc0cc2d8a7b1eca3c981db614c38d02" name="abfc0cc2d8a7b1eca3c981db614c38d02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abfc0cc2d8a7b1eca3c981db614c38d02">&#9670;&nbsp;</a></span>GET_PHASE4_ATTACK_PATTERN</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define GET_PHASE4_ATTACK_PATTERN</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">this</td><td>)</td>
-          <td>&#160;&#160;&#160;this-&gt;field_0x80.HALF.HI</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a9313f758b5d961996e385c056d6aed18" name="a9313f758b5d961996e385c056d6aed18"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9313f758b5d961996e385c056d6aed18">&#9670;&nbsp;</a></span>GET_TAIL_RADIUS</h2>
 
@@ -553,25 +273,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">this</td><td>)</td>
-          <td>&#160;&#160;&#160;this-&gt;field_0x7c.BYTES.byte1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a87dd1b40591c22bb55a25e08751cf605" name="a87dd1b40591c22bb55a25e08751cf605"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87dd1b40591c22bb55a25e08751cf605">&#9670;&nbsp;</a></span>GET_TIMER</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define GET_TIMER</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">this</td><td>)</td>
-          <td>&#160;&#160;&#160;((this)-&gt;field_0x78.HALF.HI)</td>
+          <td>&#160;&#160;&#160;this-&gt;currentAttack</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -589,124 +291,30 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">this</td><td>)</td>
-          <td>&#160;&#160;&#160;((this)-&gt;field_0x7c.BYTES.byte0 &amp; 1)</td>
+          <td>&#160;&#160;&#160;((this)-&gt;bossPhase &amp; 1)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a83d7e04c6c4e912a8e829869fb21b45d" name="a83d7e04c6c4e912a8e829869fb21b45d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83d7e04c6c4e912a8e829869fb21b45d">&#9670;&nbsp;</a></span>OctorokBossAction</h2>
+<a id="ad9d9839ea73fbe32257e340298da916d" name="ad9d9839ea73fbe32257e340298da916d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9d9839ea73fbe32257e340298da916d">&#9670;&nbsp;</a></span>NENT_DEPRECATED</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="octorokBoss_8c.html#a83d7e04c6c4e912a8e829869fb21b45d">OctorokBossAction</a></td>
+          <td class="memname">#define NENT_DEPRECATED</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a83d7e04c6c4e912a8e829869fb21b45da0cb1b2c6a7db1f1084886c98909a3f36" name="a83d7e04c6c4e912a8e829869fb21b45da0cb1b2c6a7db1f1084886c98909a3f36"></a>INIT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a83d7e04c6c4e912a8e829869fb21b45dae717e40fffc2c08ebc547fdc08e888db" name="a83d7e04c6c4e912a8e829869fb21b45dae717e40fffc2c08ebc547fdc08e888db"></a>ACTION1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a83d7e04c6c4e912a8e829869fb21b45dad4cf8619fedf804702c72835be555da0" name="a83d7e04c6c4e912a8e829869fb21b45dad4cf8619fedf804702c72835be555da0"></a>HIT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a83d7e04c6c4e912a8e829869fb21b45da27c2b33ab0a8943297e1cb0b3d25eb98" name="a83d7e04c6c4e912a8e829869fb21b45da27c2b33ab0a8943297e1cb0b3d25eb98"></a>INTRO&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a83d7e04c6c4e912a8e829869fb21b45dad790b28b6f6640a2aeb099fdd740566b" name="a83d7e04c6c4e912a8e829869fb21b45dad790b28b6f6640a2aeb099fdd740566b"></a>BURNING&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="a3f77497ae5648f693f124ba517febfe7" name="a3f77497ae5648f693f124ba517febfe7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f77497ae5648f693f124ba517febfe7">&#9670;&nbsp;</a></span>OctorokBossAction1SubAction</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="octorokBoss_8c.html#a3f77497ae5648f693f124ba517febfe7">OctorokBossAction1SubAction</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3f77497ae5648f693f124ba517febfe7a373262f61257a580f143276c3662cd4d" name="a3f77497ae5648f693f124ba517febfe7a373262f61257a580f143276c3662cd4d"></a>ACTION1_AIMTOWARDSPLAYER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3f77497ae5648f693f124ba517febfe7a64ff6becfacaa8502181002ecaf3d493" name="a3f77497ae5648f693f124ba517febfe7a64ff6becfacaa8502181002ecaf3d493"></a>ACTION1_WAITFORTURN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3f77497ae5648f693f124ba517febfe7a5a67274eb95321b0ab6178e7b3d056f9" name="a3f77497ae5648f693f124ba517febfe7a5a67274eb95321b0ab6178e7b3d056f9"></a>ACTION1_SUBACTION2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3f77497ae5648f693f124ba517febfe7ad07cf1c44c0a9d854610ce7919755f98" name="a3f77497ae5648f693f124ba517febfe7ad07cf1c44c0a9d854610ce7919755f98"></a>ACTION1_WAITFORATTACK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3f77497ae5648f693f124ba517febfe7ab7e82efdb0fb6e7dbab8924dbb4481f0" name="a3f77497ae5648f693f124ba517febfe7ab7e82efdb0fb6e7dbab8924dbb4481f0"></a>ACTION1_ATTACK&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="aa63c35e91056c7052c4aad0c4446bcd3" name="aa63c35e91056c7052c4aad0c4446bcd3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa63c35e91056c7052c4aad0c4446bcd3">&#9670;&nbsp;</a></span>OctorokBossAttack</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3">OctorokBossAttack</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa63c35e91056c7052c4aad0c4446bcd3a628e03e955003cadb26e29f7eefc321e" name="aa63c35e91056c7052c4aad0c4446bcd3a628e03e955003cadb26e29f7eefc321e"></a>ATTACK_SPITROCK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa63c35e91056c7052c4aad0c4446bcd3a7b8ca6262811cd573af61d788281ea7d" name="aa63c35e91056c7052c4aad0c4446bcd3a7b8ca6262811cd573af61d788281ea7d"></a>ATTACK_VACUUM&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa63c35e91056c7052c4aad0c4446bcd3aa50becb5a7c64969e572fa31d6ff1883" name="aa63c35e91056c7052c4aad0c4446bcd3aa50becb5a7c64969e572fa31d6ff1883"></a>ATTACK_SMOKE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa63c35e91056c7052c4aad0c4446bcd3a753e46e130219411986aafa7f0f016c3" name="aa63c35e91056c7052c4aad0c4446bcd3a753e46e130219411986aafa7f0f016c3"></a>ATTACK_FREEZE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa63c35e91056c7052c4aad0c4446bcd3a981987fd8265a89d47f9c7d6e1fdf1e0" name="aa63c35e91056c7052c4aad0c4446bcd3a981987fd8265a89d47f9c7d6e1fdf1e0"></a>NO_ATTACK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa63c35e91056c7052c4aad0c4446bcd3aaad1a777ab7e22406bc6e9c301653964" name="aa63c35e91056c7052c4aad0c4446bcd3aaad1a777ab7e22406bc6e9c301653964"></a>END_OF_ATTACK_PATTERN&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="a686d1656c9ab884942eed5aa41e0f7d9" name="a686d1656c9ab884942eed5aa41e0f7d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a686d1656c9ab884942eed5aa41e0f7d9">&#9670;&nbsp;</a></span>OctorokBossPart</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="octorokBoss_8c.html#a686d1656c9ab884942eed5aa41e0f7d9">OctorokBossPart</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a686d1656c9ab884942eed5aa41e0f7d9a22e41d649f93ab26b3fef686f088703e" name="a686d1656c9ab884942eed5aa41e0f7d9a22e41d649f93ab26b3fef686f088703e"></a>WHOLE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a686d1656c9ab884942eed5aa41e0f7d9a30c6daf99a98677979d19653ea9fe929" name="a686d1656c9ab884942eed5aa41e0f7d9a30c6daf99a98677979d19653ea9fe929"></a>LEG_BR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a686d1656c9ab884942eed5aa41e0f7d9a0c1fe47311a87f390e2cdb576ffdc53a" name="a686d1656c9ab884942eed5aa41e0f7d9a0c1fe47311a87f390e2cdb576ffdc53a"></a>LEG_FR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a686d1656c9ab884942eed5aa41e0f7d9a7c971438e2c64f766539a711b5190ebf" name="a686d1656c9ab884942eed5aa41e0f7d9a7c971438e2c64f766539a711b5190ebf"></a>LEG_FL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a686d1656c9ab884942eed5aa41e0f7d9a47e9d963e34886b5e179c47ad29cf306" name="a686d1656c9ab884942eed5aa41e0f7d9a47e9d963e34886b5e179c47ad29cf306"></a>LEG_BL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a686d1656c9ab884942eed5aa41e0f7d9a77a7d9d225c9c4bb11ae05b1207ad58e" name="a686d1656c9ab884942eed5aa41e0f7d9a77a7d9d225c9c4bb11ae05b1207ad58e"></a>MOUTH&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a686d1656c9ab884942eed5aa41e0f7d9a928b7c7eb7508eaf4c36290c5d74a812" name="a686d1656c9ab884942eed5aa41e0f7d9a928b7c7eb7508eaf4c36290c5d74a812"></a>TAIL_END&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a686d1656c9ab884942eed5aa41e0f7d9a4c28487b052a2b05f3db4dc5a722b1d7" name="a686d1656c9ab884942eed5aa41e0f7d9a4c28487b052a2b05f3db4dc5a722b1d7"></a>TAIL&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="a5786a5a5f55194e6d51e7a7b9aba70e1" name="a5786a5a5f55194e6d51e7a7b9aba70e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5786a5a5f55194e6d51e7a7b9aba70e1">&#9670;&nbsp;</a></span>OctorokRotation</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="octorokBoss_8c.html#a5786a5a5f55194e6d51e7a7b9aba70e1">OctorokRotation</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5786a5a5f55194e6d51e7a7b9aba70e1a44ad7e08c71dccfbfb55f851037b83cf" name="a5786a5a5f55194e6d51e7a7b9aba70e1a44ad7e08c71dccfbfb55f851037b83cf"></a>ROTATION_CW&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5786a5a5f55194e6d51e7a7b9aba70e1aaa314a3fd6f07f380d1d20140cd69624" name="a5786a5a5f55194e6d51e7a7b9aba70e1aaa314a3fd6f07f380d1d20140cd69624"></a>ROTATION_CCW&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5786a5a5f55194e6d51e7a7b9aba70e1aa7b522eba767bd9e3d19631055606a6a" name="a5786a5a5f55194e6d51e7a7b9aba70e1aa7b522eba767bd9e3d19631055606a6a"></a>NO_ROTATION&#160;</td><td class="fielddoc"></td></tr>
-</table>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a017fa8f908168ae488cf95c3ceaa05d7" name="a017fa8f908168ae488cf95c3ceaa05d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a017fa8f908168ae488cf95c3ceaa05d7">&#9670;&nbsp;</a></span>OctorokBoss()</h2>
+<a id="a1e98b85a107d29476b3c32d2ce6a3066" name="a1e98b85a107d29476b3c32d2ce6a3066"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e98b85a107d29476b3c32d2ce6a3066">&#9670;&nbsp;</a></span>OctorokBoss()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -714,7 +322,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -723,8 +331,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a8a4d5ee4afcdfb50641af28fef971388" name="a8a4d5ee4afcdfb50641af28fef971388"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a4d5ee4afcdfb50641af28fef971388">&#9670;&nbsp;</a></span>OctorokBoss_Action1()</h2>
+<a id="a13e995d9c4d835226996b61c8bbf13e0" name="a13e995d9c4d835226996b61c8bbf13e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13e995d9c4d835226996b61c8bbf13e0">&#9670;&nbsp;</a></span>OctorokBoss_Action1()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -732,7 +340,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_Action1 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -741,8 +349,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aa9da432ac380826d35ac91bac380706e" name="aa9da432ac380826d35ac91bac380706e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9da432ac380826d35ac91bac380706e">&#9670;&nbsp;</a></span>OctorokBoss_Action1_AimTowardsPlayer()</h2>
+<a id="a0dd35ac5bb279a24430d68c943e032fe" name="a0dd35ac5bb279a24430d68c943e032fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0dd35ac5bb279a24430d68c943e032fe">&#9670;&nbsp;</a></span>OctorokBoss_Action1_AimTowardsPlayer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -750,7 +358,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_Action1_AimTowardsPlayer </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -759,8 +367,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ad1bca9cc14c523b43b221f24b4d375b4" name="ad1bca9cc14c523b43b221f24b4d375b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1bca9cc14c523b43b221f24b4d375b4">&#9670;&nbsp;</a></span>OctorokBoss_Action1_Attack()</h2>
+<a id="ac31fc53f82ea6472bf00124a1755f737" name="ac31fc53f82ea6472bf00124a1755f737"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac31fc53f82ea6472bf00124a1755f737">&#9670;&nbsp;</a></span>OctorokBoss_Action1_Attack()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -768,7 +376,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_Action1_Attack </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -777,8 +385,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a75e01030cce8e665b970755b55e91521" name="a75e01030cce8e665b970755b55e91521"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75e01030cce8e665b970755b55e91521">&#9670;&nbsp;</a></span>OctorokBoss_Action1_Attack_Type2_0()</h2>
+<a id="a7097566cd60897d7052f88fac138baf7" name="a7097566cd60897d7052f88fac138baf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7097566cd60897d7052f88fac138baf7">&#9670;&nbsp;</a></span>OctorokBoss_Action1_Attack_Type2_0()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -786,7 +394,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_Action1_Attack_Type2_0 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -795,8 +403,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a27e8995e8b3bf33fc39a69af2b49bd7e" name="a27e8995e8b3bf33fc39a69af2b49bd7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27e8995e8b3bf33fc39a69af2b49bd7e">&#9670;&nbsp;</a></span>OctorokBoss_Action1_Attack_Type2_1()</h2>
+<a id="aa652c504b3cba47b40e6ab9fae5fdc7c" name="aa652c504b3cba47b40e6ab9fae5fdc7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa652c504b3cba47b40e6ab9fae5fdc7c">&#9670;&nbsp;</a></span>OctorokBoss_Action1_Attack_Type2_1()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -804,7 +412,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_Action1_Attack_Type2_1 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -813,8 +421,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aa7bfd0e08c7f76c2fce468e1ef4dbf19" name="aa7bfd0e08c7f76c2fce468e1ef4dbf19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7bfd0e08c7f76c2fce468e1ef4dbf19">&#9670;&nbsp;</a></span>OctorokBoss_Action1_Attack_Type2_2()</h2>
+<a id="a36fada28058f69da79d035902f26646f" name="a36fada28058f69da79d035902f26646f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36fada28058f69da79d035902f26646f">&#9670;&nbsp;</a></span>OctorokBoss_Action1_Attack_Type2_2()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -822,7 +430,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_Action1_Attack_Type2_2 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -831,8 +439,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a08baa391a0f240cb564db2825d2ee416" name="a08baa391a0f240cb564db2825d2ee416"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08baa391a0f240cb564db2825d2ee416">&#9670;&nbsp;</a></span>OctorokBoss_Action1_Attack_Type2_3()</h2>
+<a id="a3630a7e135b99def450d45c014d0897c" name="a3630a7e135b99def450d45c014d0897c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3630a7e135b99def450d45c014d0897c">&#9670;&nbsp;</a></span>OctorokBoss_Action1_Attack_Type2_3()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -840,7 +448,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_Action1_Attack_Type2_3 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -849,8 +457,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a85f1fe62eee5bf01db4d2de4b08753ae" name="a85f1fe62eee5bf01db4d2de4b08753ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85f1fe62eee5bf01db4d2de4b08753ae">&#9670;&nbsp;</a></span>OctorokBoss_Action1_ChargeAttack()</h2>
+<a id="a04caec031d1c891053e234fe7833f7d8" name="a04caec031d1c891053e234fe7833f7d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04caec031d1c891053e234fe7833f7d8">&#9670;&nbsp;</a></span>OctorokBoss_Action1_ChargeAttack()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -858,7 +466,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_Action1_ChargeAttack </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -867,8 +475,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aefef57f6f8225c0ca80a0e3dc31126b8" name="aefef57f6f8225c0ca80a0e3dc31126b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aefef57f6f8225c0ca80a0e3dc31126b8">&#9670;&nbsp;</a></span>OctorokBoss_Action1_WaitForAttack()</h2>
+<a id="a101eabb3c37f2c902d23062a42ade9a6" name="a101eabb3c37f2c902d23062a42ade9a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a101eabb3c37f2c902d23062a42ade9a6">&#9670;&nbsp;</a></span>OctorokBoss_Action1_WaitForAttack()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -876,7 +484,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_Action1_WaitForAttack </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -885,8 +493,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="acee8b9d10a7c29c7bfeb56ffe624efda" name="acee8b9d10a7c29c7bfeb56ffe624efda"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acee8b9d10a7c29c7bfeb56ffe624efda">&#9670;&nbsp;</a></span>OctorokBoss_Action1_WaitForTurn()</h2>
+<a id="a3039728ecaeebc083e158c2e5d92e600" name="a3039728ecaeebc083e158c2e5d92e600"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3039728ecaeebc083e158c2e5d92e600">&#9670;&nbsp;</a></span>OctorokBoss_Action1_WaitForTurn()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -894,7 +502,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_Action1_WaitForTurn </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -903,8 +511,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a8afed202b0b77c63b1b3d219b4746f93" name="a8afed202b0b77c63b1b3d219b4746f93"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8afed202b0b77c63b1b3d219b4746f93">&#9670;&nbsp;</a></span>OctorokBoss_Burning()</h2>
+<a id="a350b08406ee62558716783c463f78e34" name="a350b08406ee62558716783c463f78e34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a350b08406ee62558716783c463f78e34">&#9670;&nbsp;</a></span>OctorokBoss_Burning()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -912,7 +520,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_Burning </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -921,8 +529,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a06c1d2ca638f2f8331bf5858287427a7" name="a06c1d2ca638f2f8331bf5858287427a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06c1d2ca638f2f8331bf5858287427a7">&#9670;&nbsp;</a></span>OctorokBoss_Burning_SubAction0()</h2>
+<a id="af917a97989b11e5193cffd746363d522" name="af917a97989b11e5193cffd746363d522"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af917a97989b11e5193cffd746363d522">&#9670;&nbsp;</a></span>OctorokBoss_Burning_SubAction0()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -930,7 +538,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_Burning_SubAction0 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -939,8 +547,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a0c507136281657f5d1888311b767a3c5" name="a0c507136281657f5d1888311b767a3c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c507136281657f5d1888311b767a3c5">&#9670;&nbsp;</a></span>OctorokBoss_Burning_SubAction1()</h2>
+<a id="a12a1def441093df1730c001c82753e7c" name="a12a1def441093df1730c001c82753e7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12a1def441093df1730c001c82753e7c">&#9670;&nbsp;</a></span>OctorokBoss_Burning_SubAction1()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -948,7 +556,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_Burning_SubAction1 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -957,8 +565,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a0e8fc01e7506910a04be87c159fd1a81" name="a0e8fc01e7506910a04be87c159fd1a81"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e8fc01e7506910a04be87c159fd1a81">&#9670;&nbsp;</a></span>OctorokBoss_Burning_SubAction2()</h2>
+<a id="afd2fa1a1a1d428f5ca1a21a8b753da23" name="afd2fa1a1a1d428f5ca1a21a8b753da23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd2fa1a1a1d428f5ca1a21a8b753da23">&#9670;&nbsp;</a></span>OctorokBoss_Burning_SubAction2()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -966,7 +574,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_Burning_SubAction2 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -975,8 +583,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a46cb0467bc7ec1df6fc64ea8cd1d3380" name="a46cb0467bc7ec1df6fc64ea8cd1d3380"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46cb0467bc7ec1df6fc64ea8cd1d3380">&#9670;&nbsp;</a></span>OctorokBoss_ChangePalette()</h2>
+<a id="a4e817d32deac04884035e14daea25e95" name="a4e817d32deac04884035e14daea25e95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e817d32deac04884035e14daea25e95">&#9670;&nbsp;</a></span>OctorokBoss_ChangePalette()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -984,7 +592,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_ChangePalette </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -1003,26 +611,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a25896c5cf57a19fe44e7c202862cd8e2" name="a25896c5cf57a19fe44e7c202862cd8e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25896c5cf57a19fe44e7c202862cd8e2">&#9670;&nbsp;</a></span>OctorokBoss_Death()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void OctorokBoss_Death </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>this</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a96892532338379018aff3d3c47a563f1" name="a96892532338379018aff3d3c47a563f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96892532338379018aff3d3c47a563f1">&#9670;&nbsp;</a></span>OctorokBoss_ExecuteAttackFreeze()</h2>
+<a id="adf56127c19238cfbceacb283f7a69d8e" name="adf56127c19238cfbceacb283f7a69d8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf56127c19238cfbceacb283f7a69d8e">&#9670;&nbsp;</a></span>OctorokBoss_ExecuteAttackFreeze()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1030,7 +620,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_ExecuteAttackFreeze </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1039,8 +629,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a4676b8f50326d4c3958ea304a90a6192" name="a4676b8f50326d4c3958ea304a90a6192"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4676b8f50326d4c3958ea304a90a6192">&#9670;&nbsp;</a></span>OctorokBoss_ExecuteAttackSmoke()</h2>
+<a id="ab96df0e97b47b404aaf8bff8fcce0053" name="ab96df0e97b47b404aaf8bff8fcce0053"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab96df0e97b47b404aaf8bff8fcce0053">&#9670;&nbsp;</a></span>OctorokBoss_ExecuteAttackSmoke()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1048,7 +638,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_ExecuteAttackSmoke </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1057,8 +647,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a4a8a28f5e4074967ed99bbeb2a9e6dc2" name="a4a8a28f5e4074967ed99bbeb2a9e6dc2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a8a28f5e4074967ed99bbeb2a9e6dc2">&#9670;&nbsp;</a></span>OctorokBoss_ExecuteAttackSpitRock()</h2>
+<a id="a18a85c4e2a63b1a71663eb40c417a418" name="a18a85c4e2a63b1a71663eb40c417a418"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18a85c4e2a63b1a71663eb40c417a418">&#9670;&nbsp;</a></span>OctorokBoss_ExecuteAttackSpitRock()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1066,7 +656,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_ExecuteAttackSpitRock </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1075,8 +665,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="af44e513620e18efcd99e44d7d310d697" name="af44e513620e18efcd99e44d7d310d697"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af44e513620e18efcd99e44d7d310d697">&#9670;&nbsp;</a></span>OctorokBoss_ExecuteAttackVacuum()</h2>
+<a id="ad68d87c1378ddb660c00910dbd8490a6" name="ad68d87c1378ddb660c00910dbd8490a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad68d87c1378ddb660c00910dbd8490a6">&#9670;&nbsp;</a></span>OctorokBoss_ExecuteAttackVacuum()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1084,7 +674,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_ExecuteAttackVacuum </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1093,8 +683,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a224d6ecf51b939ad9f57210f065503fb" name="a224d6ecf51b939ad9f57210f065503fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a224d6ecf51b939ad9f57210f065503fb">&#9670;&nbsp;</a></span>OctorokBoss_Hit()</h2>
+<a id="aedd92ab13c5bde0778d793fd265964d6" name="aedd92ab13c5bde0778d793fd265964d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedd92ab13c5bde0778d793fd265964d6">&#9670;&nbsp;</a></span>OctorokBoss_Hit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1102,7 +692,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_Hit </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1111,8 +701,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aac9d1d6ef3e74044ca6851a173af909b" name="aac9d1d6ef3e74044ca6851a173af909b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac9d1d6ef3e74044ca6851a173af909b">&#9670;&nbsp;</a></span>OctorokBoss_Hit_SubAction0()</h2>
+<a id="a53420dcea63b9a0ed30f2076d98e0402" name="a53420dcea63b9a0ed30f2076d98e0402"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53420dcea63b9a0ed30f2076d98e0402">&#9670;&nbsp;</a></span>OctorokBoss_Hit_SubAction0()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1120,7 +710,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_Hit_SubAction0 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1129,8 +719,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a68027e1ee1412bbdfd9224085efe6e28" name="a68027e1ee1412bbdfd9224085efe6e28"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68027e1ee1412bbdfd9224085efe6e28">&#9670;&nbsp;</a></span>OctorokBoss_Hit_SubAction1()</h2>
+<a id="ace55fcc0df93d7f552d05495144f270d" name="ace55fcc0df93d7f552d05495144f270d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace55fcc0df93d7f552d05495144f270d">&#9670;&nbsp;</a></span>OctorokBoss_Hit_SubAction1()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1138,7 +728,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_Hit_SubAction1 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1147,8 +737,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a9b2d82ecac7978b063c28890d6e7c11c" name="a9b2d82ecac7978b063c28890d6e7c11c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b2d82ecac7978b063c28890d6e7c11c">&#9670;&nbsp;</a></span>OctorokBoss_Hit_SubAction2()</h2>
+<a id="afabbd887ef26bf74a54456f1d32853ee" name="afabbd887ef26bf74a54456f1d32853ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afabbd887ef26bf74a54456f1d32853ee">&#9670;&nbsp;</a></span>OctorokBoss_Hit_SubAction2()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1156,7 +746,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_Hit_SubAction2 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1165,8 +755,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="acda8e3183c98577cada62e865d66e7fd" name="acda8e3183c98577cada62e865d66e7fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acda8e3183c98577cada62e865d66e7fd">&#9670;&nbsp;</a></span>OctorokBoss_Hit_SubAction3()</h2>
+<a id="ab632bd6ae84aa0e88a4577a11947449a" name="ab632bd6ae84aa0e88a4577a11947449a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab632bd6ae84aa0e88a4577a11947449a">&#9670;&nbsp;</a></span>OctorokBoss_Hit_SubAction3()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1174,7 +764,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_Hit_SubAction3 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1183,8 +773,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aeef4358ed545eafc25292ff8d4b6f978" name="aeef4358ed545eafc25292ff8d4b6f978"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeef4358ed545eafc25292ff8d4b6f978">&#9670;&nbsp;</a></span>OctorokBoss_Hit_SubAction4()</h2>
+<a id="a0a279ea9ffa97f84fe2f4fc4143d6e7e" name="a0a279ea9ffa97f84fe2f4fc4143d6e7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a279ea9ffa97f84fe2f4fc4143d6e7e">&#9670;&nbsp;</a></span>OctorokBoss_Hit_SubAction4()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1192,7 +782,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_Hit_SubAction4 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1201,8 +791,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a92027d14bc8ef6816672d05f96c72b1a" name="a92027d14bc8ef6816672d05f96c72b1a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92027d14bc8ef6816672d05f96c72b1a">&#9670;&nbsp;</a></span>OctorokBoss_Hit_SubAction5()</h2>
+<a id="af7094ab67f4db7294cbc596a3972fd67" name="af7094ab67f4db7294cbc596a3972fd67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7094ab67f4db7294cbc596a3972fd67">&#9670;&nbsp;</a></span>OctorokBoss_Hit_SubAction5()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1210,7 +800,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_Hit_SubAction5 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1219,8 +809,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="abe3409c450fe3ee816d538b45b273d8e" name="abe3409c450fe3ee816d538b45b273d8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe3409c450fe3ee816d538b45b273d8e">&#9670;&nbsp;</a></span>OctorokBoss_Hit_SubAction6()</h2>
+<a id="ab5b5f4b4262309f8bfa14009adda4e3d" name="ab5b5f4b4262309f8bfa14009adda4e3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5b5f4b4262309f8bfa14009adda4e3d">&#9670;&nbsp;</a></span>OctorokBoss_Hit_SubAction6()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1228,7 +818,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_Hit_SubAction6 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1237,8 +827,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="acbf9aa2a72c43729579569122affe371" name="acbf9aa2a72c43729579569122affe371"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acbf9aa2a72c43729579569122affe371">&#9670;&nbsp;</a></span>OctorokBoss_Init()</h2>
+<a id="af76ce7b2ac4f5351604749d95506ff38" name="af76ce7b2ac4f5351604749d95506ff38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af76ce7b2ac4f5351604749d95506ff38">&#9670;&nbsp;</a></span>OctorokBoss_Init()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1246,7 +836,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">asm non_matching octorokBoss OctorokBoss_Init void OctorokBoss_Init </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1255,160 +845,16 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a224723053c193826e7bfc28f5dc696b1" name="a224723053c193826e7bfc28f5dc696b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a224723053c193826e7bfc28f5dc696b1">&#9670;&nbsp;</a></span>OctorokBoss_Intro_SubAction0()</h2>
+<a id="ac659a5abdddcf6ba816a6097948034b9" name="ac659a5abdddcf6ba816a6097948034b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac659a5abdddcf6ba816a6097948034b9">&#9670;&nbsp;</a></span>OctorokBoss_Intro()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void OctorokBoss_Intro_SubAction0 </td>
+          <td class="memname">void OctorokBoss_Intro </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>this</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aaf55a9492bcf35980f7e3e5d80916551" name="aaf55a9492bcf35980f7e3e5d80916551"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf55a9492bcf35980f7e3e5d80916551">&#9670;&nbsp;</a></span>OctorokBoss_Intro_SubAction1()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void OctorokBoss_Intro_SubAction1 </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>this</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0d67764dcbd7520d010c8f079a993260" name="a0d67764dcbd7520d010c8f079a993260"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d67764dcbd7520d010c8f079a993260">&#9670;&nbsp;</a></span>OctorokBoss_Intro_SubAction2()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void OctorokBoss_Intro_SubAction2 </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>this</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad7fb143cbd9fb1c9df166a7548fb44fd" name="ad7fb143cbd9fb1c9df166a7548fb44fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7fb143cbd9fb1c9df166a7548fb44fd">&#9670;&nbsp;</a></span>OctorokBoss_Intro_SubAction3()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void OctorokBoss_Intro_SubAction3 </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>this</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4ca887afc43e95504a6038787fe64cb2" name="a4ca887afc43e95504a6038787fe64cb2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ca887afc43e95504a6038787fe64cb2">&#9670;&nbsp;</a></span>OctorokBoss_Intro_SubAction4()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void OctorokBoss_Intro_SubAction4 </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>this</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3613c1c212ddc31dec92b09dffea156e" name="a3613c1c212ddc31dec92b09dffea156e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3613c1c212ddc31dec92b09dffea156e">&#9670;&nbsp;</a></span>OctorokBoss_Intro_SubAction5()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void OctorokBoss_Intro_SubAction5 </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>this</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af5387f9e341a96c31c337a0199d56b8a" name="af5387f9e341a96c31c337a0199d56b8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5387f9e341a96c31c337a0199d56b8a">&#9670;&nbsp;</a></span>OctorokBoss_OnTick()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void OctorokBoss_OnTick </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>this</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6e9d8fa9bcb85edb63693f1e02775a0f" name="a6e9d8fa9bcb85edb63693f1e02775a0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e9d8fa9bcb85edb63693f1e02775a0f">&#9670;&nbsp;</a></span>OctorokBoss_ResetToSubAction0()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void OctorokBoss_ResetToSubAction0 </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>this</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad3ca4f5d182ce05e4a08ed3949a50ed4" name="ad3ca4f5d182ce05e4a08ed3949a50ed4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3ca4f5d182ce05e4a08ed3949a50ed4">&#9670;&nbsp;</a></span>OctorokBoss_SetAttackTimer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void OctorokBoss_SetAttackTimer </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1417,8 +863,188 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ac9dc4c698d5a8b0ff2e79e23a83fb553" name="ac9dc4c698d5a8b0ff2e79e23a83fb553"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9dc4c698d5a8b0ff2e79e23a83fb553">&#9670;&nbsp;</a></span>OctorokBoss_SetWaitTurnsForNextAttack()</h2>
+<a id="a5c679757cc94e916b85e4d208a8d8c58" name="a5c679757cc94e916b85e4d208a8d8c58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c679757cc94e916b85e4d208a8d8c58">&#9670;&nbsp;</a></span>OctorokBoss_Intro_SubAction0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OctorokBoss_Intro_SubAction0 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1e5ca64e507082e15c6c4a89293b84d9" name="a1e5ca64e507082e15c6c4a89293b84d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e5ca64e507082e15c6c4a89293b84d9">&#9670;&nbsp;</a></span>OctorokBoss_Intro_SubAction1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OctorokBoss_Intro_SubAction1 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a05c18259ddf76ac84bd906c5a4b8f1f9" name="a05c18259ddf76ac84bd906c5a4b8f1f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05c18259ddf76ac84bd906c5a4b8f1f9">&#9670;&nbsp;</a></span>OctorokBoss_Intro_SubAction2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OctorokBoss_Intro_SubAction2 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a617bed121e789ebb2379b6d14084a97a" name="a617bed121e789ebb2379b6d14084a97a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a617bed121e789ebb2379b6d14084a97a">&#9670;&nbsp;</a></span>OctorokBoss_Intro_SubAction3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OctorokBoss_Intro_SubAction3 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acec7f9dbd22fba6b40a9103809fe6c30" name="acec7f9dbd22fba6b40a9103809fe6c30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acec7f9dbd22fba6b40a9103809fe6c30">&#9670;&nbsp;</a></span>OctorokBoss_Intro_SubAction4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OctorokBoss_Intro_SubAction4 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8c7c44a9425d92c065ed261e8626bc01" name="a8c7c44a9425d92c065ed261e8626bc01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c7c44a9425d92c065ed261e8626bc01">&#9670;&nbsp;</a></span>OctorokBoss_Intro_SubAction5()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OctorokBoss_Intro_SubAction5 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa8efe6d5b8384317e974279767371f25" name="aa8efe6d5b8384317e974279767371f25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8efe6d5b8384317e974279767371f25">&#9670;&nbsp;</a></span>OctorokBoss_OnDeath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OctorokBoss_OnDeath </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a307233f5e32be3a36cf841d1ab999270" name="a307233f5e32be3a36cf841d1ab999270"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a307233f5e32be3a36cf841d1ab999270">&#9670;&nbsp;</a></span>OctorokBoss_OnTick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OctorokBoss_OnTick </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a364365ca8446542db0e0d893f07c6287" name="a364365ca8446542db0e0d893f07c6287"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a364365ca8446542db0e0d893f07c6287">&#9670;&nbsp;</a></span>OctorokBoss_ResetToSubAction0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OctorokBoss_ResetToSubAction0 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa0e3962a1259a53865804ac86ba34c16" name="aa0e3962a1259a53865804ac86ba34c16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0e3962a1259a53865804ac86ba34c16">&#9670;&nbsp;</a></span>OctorokBoss_SetAttackTimer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OctorokBoss_SetAttackTimer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4772860a36ea54115d1dc59f0f9a1d3e" name="a4772860a36ea54115d1dc59f0f9a1d3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4772860a36ea54115d1dc59f0f9a1d3e">&#9670;&nbsp;</a></span>OctorokBoss_SetWaitTurnsForNextAttack()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1426,7 +1052,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_SetWaitTurnsForNextAttack </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1435,8 +1061,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a95e794b64cd186efbf04ca2866d0015b" name="a95e794b64cd186efbf04ca2866d0015b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95e794b64cd186efbf04ca2866d0015b">&#9670;&nbsp;</a></span>OctorokBoss_StartRegularAttack()</h2>
+<a id="a5ad6ff5a2185689cd6ce28d2fcba8122" name="a5ad6ff5a2185689cd6ce28d2fcba8122"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ad6ff5a2185689cd6ce28d2fcba8122">&#9670;&nbsp;</a></span>OctorokBoss_StartRegularAttack()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1444,7 +1070,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_StartRegularAttack </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1453,8 +1079,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a5744a116a902b2d13fc367d56a7742c4" name="a5744a116a902b2d13fc367d56a7742c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5744a116a902b2d13fc367d56a7742c4">&#9670;&nbsp;</a></span>OctorokBoss_StepSound()</h2>
+<a id="a67ddba42ea5d71f2ed428156163cd15e" name="a67ddba42ea5d71f2ed428156163cd15e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67ddba42ea5d71f2ed428156163cd15e">&#9670;&nbsp;</a></span>OctorokBoss_StepSound()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1462,7 +1088,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_StepSound </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -1481,8 +1107,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="af1f8b64cd99742fbafd8fe534c489fdd" name="af1f8b64cd99742fbafd8fe534c489fdd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1f8b64cd99742fbafd8fe534c489fdd">&#9670;&nbsp;</a></span>OctorokBoss_WaitAnotherTurn()</h2>
+<a id="a305c28bba4df8f6c24515a8bc10362ad" name="a305c28bba4df8f6c24515a8bc10362ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a305c28bba4df8f6c24515a8bc10362ad">&#9670;&nbsp;</a></span>OctorokBoss_WaitAnotherTurn()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1490,7 +1116,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void OctorokBoss_WaitAnotherTurn </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1499,8 +1125,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ac983cbe63d5e362aa8c45cc7be88cdcd" name="ac983cbe63d5e362aa8c45cc7be88cdcd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac983cbe63d5e362aa8c45cc7be88cdcd">&#9670;&nbsp;</a></span>sub_080368D8()</h2>
+<a id="a3ceefcba5ac73970f930388f01307672" name="a3ceefcba5ac73970f930388f01307672"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ceefcba5ac73970f930388f01307672">&#9670;&nbsp;</a></span>sub_080368D8()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1508,7 +1134,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_080368D8 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1551,8 +1177,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="acdff95bb8a8a81dc2e74e01f305a8d27" name="acdff95bb8a8a81dc2e74e01f305a8d27"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acdff95bb8a8a81dc2e74e01f305a8d27">&#9670;&nbsp;</a></span>sub_08036998()</h2>
+<a id="a808ecdb787243a253ed8fa0a5b0f552d" name="a808ecdb787243a253ed8fa0a5b0f552d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a808ecdb787243a253ed8fa0a5b0f552d">&#9670;&nbsp;</a></span>sub_08036998()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1560,7 +1186,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">asm non_matching octorokBoss sub_08036998 void sub_08036998 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1569,8 +1195,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a98aaf655cba78c4e6efbb5f3d9afa096" name="a98aaf655cba78c4e6efbb5f3d9afa096"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98aaf655cba78c4e6efbb5f3d9afa096">&#9670;&nbsp;</a></span>sub_080369D0()</h2>
+<a id="a808d8f1880d5b5854e77eb650221234e" name="a808d8f1880d5b5854e77eb650221234e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a808d8f1880d5b5854e77eb650221234e">&#9670;&nbsp;</a></span>sub_080369D0()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1578,7 +1204,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">asm non_matching octorokBoss sub_080369D0 void sub_080369D0 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -1601,18 +1227,20 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Calculate tail angles frozen sub_08036AF0. </p>
+
 </div>
 </div>
-<a id="a43a8f6d40933cd9664ce8118704e82e4" name="a43a8f6d40933cd9664ce8118704e82e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43a8f6d40933cd9664ce8118704e82e4">&#9670;&nbsp;</a></span>sub_08036AF0()</h2>
+<a id="a2e0b3025093ebe5a7296ebec22c5dd66" name="a2e0b3025093ebe5a7296ebec22c5dd66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e0b3025093ebe5a7296ebec22c5dd66">&#9670;&nbsp;</a></span>sub_08036AF0()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm non_matching octorokBoss <a class="el" href="octorokBoss_8c.html#a98aaf655cba78c4e6efbb5f3d9afa096">sub_080369D0</a> void void sub_08036AF0 </td>
+          <td class="memname">asm non_matching octorokBoss <a class="el" href="octorokBoss_8c.html#a808d8f1880d5b5854e77eb650221234e">sub_080369D0</a> void void sub_08036AF0 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -1637,8 +1265,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a1dfa8b2f8f96aefadd1155b10d4edff4" name="a1dfa8b2f8f96aefadd1155b10d4edff4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1dfa8b2f8f96aefadd1155b10d4edff4">&#9670;&nbsp;</a></span>sub_08036F60()</h2>
+<a id="a701e3e1d6d3e980870f337f6abf54747" name="a701e3e1d6d3e980870f337f6abf54747"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a701e3e1d6d3e980870f337f6abf54747">&#9670;&nbsp;</a></span>sub_08036F60()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1646,7 +1274,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08036F60 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1655,8 +1283,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a1e1a56e6eddf87fb03d7d24ccb61c38d" name="a1e1a56e6eddf87fb03d7d24ccb61c38d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e1a56e6eddf87fb03d7d24ccb61c38d">&#9670;&nbsp;</a></span>sub_08036FE4()</h2>
+<a id="ad67ae709b3a2ad449b6d0dc6af239b22" name="ad67ae709b3a2ad449b6d0dc6af239b22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad67ae709b3a2ad449b6d0dc6af239b22">&#9670;&nbsp;</a></span>sub_08036FE4()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1664,7 +1292,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08036FE4 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structOctorokBossEntity.html">OctorokBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1674,14 +1302,14 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a313f22f8ade9ed806b679d1b090bb2f6" name="a313f22f8ade9ed806b679d1b090bb2f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a313f22f8ade9ed806b679d1b090bb2f6">&#9670;&nbsp;</a></span>gUnk_080CF08C</h2>
+<a id="a0950eb6e4a54ffa8ee9089892f4a21fb" name="a0950eb6e4a54ffa8ee9089892f4a21fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0950eb6e4a54ffa8ee9089892f4a21fb">&#9670;&nbsp;</a></span>gUnk_080CF08C</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gUnk_080CF08C</td>
+          <td class="memname">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gUnk_080CF08C[]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1698,516 +1326,13 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm non_matching octorokBoss <a class="el" href="octorokBoss_8c.html#a98aaf655cba78c4e6efbb5f3d9afa096">sub_080369D0</a> inc</td>
+          <td class="memname">asm non_matching octorokBoss <a class="el" href="octorokBoss_8c.html#a808d8f1880d5b5854e77eb650221234e">sub_080369D0</a> inc</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a08766fee36fe7683f594cb833df8fe2e" name="a08766fee36fe7683f594cb833df8fe2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08766fee36fe7683f594cb833df8fe2e">&#9670;&nbsp;</a></span>OctorokBoss_Action1_Attack_Type2s</h2>
+<p>Calculate tail angles regular. </p>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(*const OctorokBoss_Action1_Attack_Type2s[])(<a class="el" href="structEntity.html">Entity</a> *) </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_function" href="octorokBoss_8c.html#a75e01030cce8e665b970755b55e91521">OctorokBoss_Action1_Attack_Type2_0</a>,</div>
-<div class="line">    <a class="code hl_function" href="octorokBoss_8c.html#a27e8995e8b3bf33fc39a69af2b49bd7e">OctorokBoss_Action1_Attack_Type2_1</a>,</div>
-<div class="line">    <a class="code hl_function" href="octorokBoss_8c.html#aa7bfd0e08c7f76c2fce468e1ef4dbf19">OctorokBoss_Action1_Attack_Type2_2</a>,</div>
-<div class="line">    <a class="code hl_function" href="octorokBoss_8c.html#a08baa391a0f240cb564db2825d2ee416">OctorokBoss_Action1_Attack_Type2_3</a>,</div>
-<div class="line">}</div>
-<div class="ttc" id="aoctorokBoss_8c_html_a08baa391a0f240cb564db2825d2ee416"><div class="ttname"><a href="octorokBoss_8c.html#a08baa391a0f240cb564db2825d2ee416">OctorokBoss_Action1_Attack_Type2_3</a></div><div class="ttdeci">void OctorokBoss_Action1_Attack_Type2_3(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:896</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_a27e8995e8b3bf33fc39a69af2b49bd7e"><div class="ttname"><a href="octorokBoss_8c.html#a27e8995e8b3bf33fc39a69af2b49bd7e">OctorokBoss_Action1_Attack_Type2_1</a></div><div class="ttdeci">void OctorokBoss_Action1_Attack_Type2_1(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:855</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_a75e01030cce8e665b970755b55e91521"><div class="ttname"><a href="octorokBoss_8c.html#a75e01030cce8e665b970755b55e91521">OctorokBoss_Action1_Attack_Type2_0</a></div><div class="ttdeci">void OctorokBoss_Action1_Attack_Type2_0(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:840</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_aa7bfd0e08c7f76c2fce468e1ef4dbf19"><div class="ttname"><a href="octorokBoss_8c.html#aa7bfd0e08c7f76c2fce468e1ef4dbf19">OctorokBoss_Action1_Attack_Type2_2</a></div><div class="ttdeci">void OctorokBoss_Action1_Attack_Type2_2(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:877</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="af3a0771b5b8250326e52cf2a2dd86b52" name="af3a0771b5b8250326e52cf2a2dd86b52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3a0771b5b8250326e52cf2a2dd86b52">&#9670;&nbsp;</a></span>OctorokBoss_Action1_SubActions</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(*const OctorokBoss_Action1_SubActions[])(<a class="el" href="structEntity.html">Entity</a> *) </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_function" href="octorokBoss_8c.html#aa9da432ac380826d35ac91bac380706e">OctorokBoss_Action1_AimTowardsPlayer</a>, <a class="code hl_function" href="octorokBoss_8c.html#acee8b9d10a7c29c7bfeb56ffe624efda">OctorokBoss_Action1_WaitForTurn</a>, <a class="code hl_function" href="octorokBoss_8c.html#a85f1fe62eee5bf01db4d2de4b08753ae">OctorokBoss_Action1_ChargeAttack</a>,</div>
-<div class="line">    <a class="code hl_function" href="octorokBoss_8c.html#aefef57f6f8225c0ca80a0e3dc31126b8">OctorokBoss_Action1_WaitForAttack</a>,    <a class="code hl_function" href="octorokBoss_8c.html#ad1bca9cc14c523b43b221f24b4d375b4">OctorokBoss_Action1_Attack</a>,</div>
-<div class="line">}</div>
-<div class="ttc" id="aoctorokBoss_8c_html_a85f1fe62eee5bf01db4d2de4b08753ae"><div class="ttname"><a href="octorokBoss_8c.html#a85f1fe62eee5bf01db4d2de4b08753ae">OctorokBoss_Action1_ChargeAttack</a></div><div class="ttdeci">void OctorokBoss_Action1_ChargeAttack(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:797</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_aa9da432ac380826d35ac91bac380706e"><div class="ttname"><a href="octorokBoss_8c.html#aa9da432ac380826d35ac91bac380706e">OctorokBoss_Action1_AimTowardsPlayer</a></div><div class="ttdeci">void OctorokBoss_Action1_AimTowardsPlayer(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:730</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_acee8b9d10a7c29c7bfeb56ffe624efda"><div class="ttname"><a href="octorokBoss_8c.html#acee8b9d10a7c29c7bfeb56ffe624efda">OctorokBoss_Action1_WaitForTurn</a></div><div class="ttdeci">void OctorokBoss_Action1_WaitForTurn(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:778</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_ad1bca9cc14c523b43b221f24b4d375b4"><div class="ttname"><a href="octorokBoss_8c.html#ad1bca9cc14c523b43b221f24b4d375b4">OctorokBoss_Action1_Attack</a></div><div class="ttdeci">void OctorokBoss_Action1_Attack(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:825</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_aefef57f6f8225c0ca80a0e3dc31126b8"><div class="ttname"><a href="octorokBoss_8c.html#aefef57f6f8225c0ca80a0e3dc31126b8">OctorokBoss_Action1_WaitForAttack</a></div><div class="ttdeci">void OctorokBoss_Action1_WaitForAttack(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:790</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a6e6f2113a3ab9c99c06cef12abc18b51" name="a6e6f2113a3ab9c99c06cef12abc18b51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e6f2113a3ab9c99c06cef12abc18b51">&#9670;&nbsp;</a></span>OctorokBoss_Actions</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(*const OctorokBoss_Actions[])(<a class="el" href="structEntity.html">Entity</a> *) </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_function" href="octorokBoss_8c.html#acbf9aa2a72c43729579569122affe371">OctorokBoss_Init</a>, <a class="code hl_function" href="octorokBoss_8c.html#a8a4d5ee4afcdfb50641af28fef971388">OctorokBoss_Action1</a>, <a class="code hl_function" href="octorokBoss_8c.html#a224d6ecf51b939ad9f57210f065503fb">OctorokBoss_Hit</a>, OctorokBoss_Intro, <a class="code hl_function" href="octorokBoss_8c.html#a8afed202b0b77c63b1b3d219b4746f93">OctorokBoss_Burning</a>,</div>
-<div class="line">}</div>
-<div class="ttc" id="aoctorokBoss_8c_html_a224d6ecf51b939ad9f57210f065503fb"><div class="ttname"><a href="octorokBoss_8c.html#a224d6ecf51b939ad9f57210f065503fb">OctorokBoss_Hit</a></div><div class="ttdeci">void OctorokBoss_Hit(Entity *)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:169</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_a8a4d5ee4afcdfb50641af28fef971388"><div class="ttname"><a href="octorokBoss_8c.html#a8a4d5ee4afcdfb50641af28fef971388">OctorokBoss_Action1</a></div><div class="ttdeci">void OctorokBoss_Action1(Entity *)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:588</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_a8afed202b0b77c63b1b3d219b4746f93"><div class="ttname"><a href="octorokBoss_8c.html#a8afed202b0b77c63b1b3d219b4746f93">OctorokBoss_Burning</a></div><div class="ttdeci">void OctorokBoss_Burning(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:1042</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_acbf9aa2a72c43729579569122affe371"><div class="ttname"><a href="octorokBoss_8c.html#acbf9aa2a72c43729579569122affe371">OctorokBoss_Init</a></div><div class="ttdeci">asm non_matching octorokBoss OctorokBoss_Init void OctorokBoss_Init(Entity *this)) void OctorokBoss_Intro(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:367</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="add73de86cf26682966a970b15f7f6a93" name="add73de86cf26682966a970b15f7f6a93"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add73de86cf26682966a970b15f7f6a93">&#9670;&nbsp;</a></span>OctorokBoss_AttackFunctions</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(*const OctorokBoss_AttackFunctions[])(<a class="el" href="structEntity.html">Entity</a> *) </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_function" href="octorokBoss_8c.html#a4a8a28f5e4074967ed99bbeb2a9e6dc2">OctorokBoss_ExecuteAttackSpitRock</a>,</div>
-<div class="line">    <a class="code hl_function" href="octorokBoss_8c.html#af44e513620e18efcd99e44d7d310d697">OctorokBoss_ExecuteAttackVacuum</a>,</div>
-<div class="line">    <a class="code hl_function" href="octorokBoss_8c.html#a4676b8f50326d4c3958ea304a90a6192">OctorokBoss_ExecuteAttackSmoke</a>,</div>
-<div class="line">    <a class="code hl_function" href="octorokBoss_8c.html#a96892532338379018aff3d3c47a563f1">OctorokBoss_ExecuteAttackFreeze</a>,</div>
-<div class="line">}</div>
-<div class="ttc" id="aoctorokBoss_8c_html_a4676b8f50326d4c3958ea304a90a6192"><div class="ttname"><a href="octorokBoss_8c.html#a4676b8f50326d4c3958ea304a90a6192">OctorokBoss_ExecuteAttackSmoke</a></div><div class="ttdeci">void OctorokBoss_ExecuteAttackSmoke(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:1009</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_a4a8a28f5e4074967ed99bbeb2a9e6dc2"><div class="ttname"><a href="octorokBoss_8c.html#a4a8a28f5e4074967ed99bbeb2a9e6dc2">OctorokBoss_ExecuteAttackSpitRock</a></div><div class="ttdeci">void OctorokBoss_ExecuteAttackSpitRock(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:914</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_a96892532338379018aff3d3c47a563f1"><div class="ttname"><a href="octorokBoss_8c.html#a96892532338379018aff3d3c47a563f1">OctorokBoss_ExecuteAttackFreeze</a></div><div class="ttdeci">void OctorokBoss_ExecuteAttackFreeze(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:1026</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_af44e513620e18efcd99e44d7d310d697"><div class="ttname"><a href="octorokBoss_8c.html#af44e513620e18efcd99e44d7d310d697">OctorokBoss_ExecuteAttackVacuum</a></div><div class="ttdeci">void OctorokBoss_ExecuteAttackVacuum(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:925</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a6ca21dda437ab6e3bdad3c0e8a9f806e" name="a6ca21dda437ab6e3bdad3c0e8a9f806e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ca21dda437ab6e3bdad3c0e8a9f806e">&#9670;&nbsp;</a></span>OctorokBoss_AttackTimerValues</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> OctorokBoss_AttackTimerValues</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    5,</div>
-<div class="line">    10,</div>
-<div class="line">    15,</div>
-<div class="line">    30,</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ae45af167773120924d2fcc3f04cec5a5" name="ae45af167773120924d2fcc3f04cec5a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae45af167773120924d2fcc3f04cec5a5">&#9670;&nbsp;</a></span>OctorokBoss_AttackTimerWeights</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> OctorokBoss_AttackTimerWeights</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    48,</div>
-<div class="line">    96,</div>
-<div class="line">    80,</div>
-<div class="line">    32,</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="af7e60a62d9882f549c48b80046b5347d" name="af7e60a62d9882f549c48b80046b5347d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7e60a62d9882f549c48b80046b5347d">&#9670;&nbsp;</a></span>OctorokBoss_Burning_SubActions</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(*const OctorokBoss_Burning_SubActions[])(<a class="el" href="structEntity.html">Entity</a> *) </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_function" href="octorokBoss_8c.html#a06c1d2ca638f2f8331bf5858287427a7">OctorokBoss_Burning_SubAction0</a>,</div>
-<div class="line">    <a class="code hl_function" href="octorokBoss_8c.html#a0c507136281657f5d1888311b767a3c5">OctorokBoss_Burning_SubAction1</a>,</div>
-<div class="line">    <a class="code hl_function" href="octorokBoss_8c.html#a0e8fc01e7506910a04be87c159fd1a81">OctorokBoss_Burning_SubAction2</a>,</div>
-<div class="line">}</div>
-<div class="ttc" id="aoctorokBoss_8c_html_a06c1d2ca638f2f8331bf5858287427a7"><div class="ttname"><a href="octorokBoss_8c.html#a06c1d2ca638f2f8331bf5858287427a7">OctorokBoss_Burning_SubAction0</a></div><div class="ttdeci">void OctorokBoss_Burning_SubAction0(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:1054</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_a0c507136281657f5d1888311b767a3c5"><div class="ttname"><a href="octorokBoss_8c.html#a0c507136281657f5d1888311b767a3c5">OctorokBoss_Burning_SubAction1</a></div><div class="ttdeci">void OctorokBoss_Burning_SubAction1(Entity *)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:1066</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_a0e8fc01e7506910a04be87c159fd1a81"><div class="ttname"><a href="octorokBoss_8c.html#a0e8fc01e7506910a04be87c159fd1a81">OctorokBoss_Burning_SubAction2</a></div><div class="ttdeci">void OctorokBoss_Burning_SubAction2(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:1093</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a061842f67fca166189e3de0876e08d8d" name="a061842f67fca166189e3de0876e08d8d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a061842f67fca166189e3de0876e08d8d">&#9670;&nbsp;</a></span>OctorokBoss_FrozenAttackPatterns</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> OctorokBoss_FrozenAttackPatterns</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_enumvalue" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a7b8ca6262811cd573af61d788281ea7d">ATTACK_VACUUM</a>, <a class="code hl_enumvalue" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a753e46e130219411986aafa7f0f016c3">ATTACK_FREEZE</a>, <a class="code hl_enumvalue" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a7b8ca6262811cd573af61d788281ea7d">ATTACK_VACUUM</a>, <a class="code hl_enumvalue" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a753e46e130219411986aafa7f0f016c3">ATTACK_FREEZE</a>, <a class="code hl_enumvalue" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a7b8ca6262811cd573af61d788281ea7d">ATTACK_VACUUM</a>,</div>
-<div class="line">}</div>
-<div class="ttc" id="aoctorokBoss_8c_html_aa63c35e91056c7052c4aad0c4446bcd3a753e46e130219411986aafa7f0f016c3"><div class="ttname"><a href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a753e46e130219411986aafa7f0f016c3">ATTACK_FREEZE</a></div><div class="ttdeci">@ ATTACK_FREEZE</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:73</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_aa63c35e91056c7052c4aad0c4446bcd3a7b8ca6262811cd573af61d788281ea7d"><div class="ttname"><a href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a7b8ca6262811cd573af61d788281ea7d">ATTACK_VACUUM</a></div><div class="ttdeci">@ ATTACK_VACUUM</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:71</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a102445fc6521ec18586eb3f0af38526c" name="a102445fc6521ec18586eb3f0af38526c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a102445fc6521ec18586eb3f0af38526c">&#9670;&nbsp;</a></span>OctorokBoss_Functions</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(*const OctorokBoss_Functions[])(<a class="el" href="structEntity.html">Entity</a> *) </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_function" href="octorokBoss_8c.html#af5387f9e341a96c31c337a0199d56b8a">OctorokBoss_OnTick</a>, <a class="code hl_function" href="octorokBoss_8c.html#af5387f9e341a96c31c337a0199d56b8a">OctorokBoss_OnTick</a>, <a class="code hl_function" href="asm_8h.html#ae7f4b31c5b7b590b6da3fccb26e10806">GenericKnockback</a>, <a class="code hl_function" href="octorokBoss_8c.html#a25896c5cf57a19fe44e7c202862cd8e2">OctorokBoss_Death</a>, <a class="code hl_function" href="asm_8h.html#a09aa45f972e08d71a1ddfae028ab1546">GenericConfused</a>,</div>
-<div class="line">}</div>
-<div class="ttc" id="aasm_8h_html_a09aa45f972e08d71a1ddfae028ab1546"><div class="ttname"><a href="asm_8h.html#a09aa45f972e08d71a1ddfae028ab1546">GenericConfused</a></div><div class="ttdeci">void GenericConfused(struct Entity_ *)</div></div>
-<div class="ttc" id="aasm_8h_html_ae7f4b31c5b7b590b6da3fccb26e10806"><div class="ttname"><a href="asm_8h.html#ae7f4b31c5b7b590b6da3fccb26e10806">GenericKnockback</a></div><div class="ttdeci">void GenericKnockback(struct Entity_ *)</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_a25896c5cf57a19fe44e7c202862cd8e2"><div class="ttname"><a href="octorokBoss_8c.html#a25896c5cf57a19fe44e7c202862cd8e2">OctorokBoss_Death</a></div><div class="ttdeci">void OctorokBoss_Death(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:150</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_af5387f9e341a96c31c337a0199d56b8a"><div class="ttname"><a href="octorokBoss_8c.html#af5387f9e341a96c31c337a0199d56b8a">OctorokBoss_OnTick</a></div><div class="ttdeci">void OctorokBoss_OnTick(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:362</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a01a8d5ed3541eeaaf8b3ee68b7e810b1" name="a01a8d5ed3541eeaaf8b3ee68b7e810b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01a8d5ed3541eeaaf8b3ee68b7e810b1">&#9670;&nbsp;</a></span>OctorokBoss_HealthPerPhase</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> OctorokBoss_HealthPerPhase</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    3, 1, 3, 1, 3, 1, 3, 0,</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a0700a361a3d0e7f6dc04189374d7f763" name="a0700a361a3d0e7f6dc04189374d7f763"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0700a361a3d0e7f6dc04189374d7f763">&#9670;&nbsp;</a></span>OctorokBoss_Hit_SubActions</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(*const OctorokBoss_Hit_SubActions[])(<a class="el" href="structEntity.html">Entity</a> *) </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_function" href="octorokBoss_8c.html#aac9d1d6ef3e74044ca6851a173af909b">OctorokBoss_Hit_SubAction0</a>, <a class="code hl_function" href="octorokBoss_8c.html#a68027e1ee1412bbdfd9224085efe6e28">OctorokBoss_Hit_SubAction1</a>, <a class="code hl_function" href="octorokBoss_8c.html#a9b2d82ecac7978b063c28890d6e7c11c">OctorokBoss_Hit_SubAction2</a>, <a class="code hl_function" href="octorokBoss_8c.html#acda8e3183c98577cada62e865d66e7fd">OctorokBoss_Hit_SubAction3</a>,</div>
-<div class="line">    <a class="code hl_function" href="octorokBoss_8c.html#aeef4358ed545eafc25292ff8d4b6f978">OctorokBoss_Hit_SubAction4</a>, <a class="code hl_function" href="octorokBoss_8c.html#a92027d14bc8ef6816672d05f96c72b1a">OctorokBoss_Hit_SubAction5</a>, <a class="code hl_function" href="octorokBoss_8c.html#abe3409c450fe3ee816d538b45b273d8e">OctorokBoss_Hit_SubAction6</a>,</div>
-<div class="line">}</div>
-<div class="ttc" id="aoctorokBoss_8c_html_a68027e1ee1412bbdfd9224085efe6e28"><div class="ttname"><a href="octorokBoss_8c.html#a68027e1ee1412bbdfd9224085efe6e28">OctorokBoss_Hit_SubAction1</a></div><div class="ttdeci">void OctorokBoss_Hit_SubAction1(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:214</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_a92027d14bc8ef6816672d05f96c72b1a"><div class="ttname"><a href="octorokBoss_8c.html#a92027d14bc8ef6816672d05f96c72b1a">OctorokBoss_Hit_SubAction5</a></div><div class="ttdeci">void OctorokBoss_Hit_SubAction5(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:314</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_a9b2d82ecac7978b063c28890d6e7c11c"><div class="ttname"><a href="octorokBoss_8c.html#a9b2d82ecac7978b063c28890d6e7c11c">OctorokBoss_Hit_SubAction2</a></div><div class="ttdeci">void OctorokBoss_Hit_SubAction2(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:284</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_aac9d1d6ef3e74044ca6851a173af909b"><div class="ttname"><a href="octorokBoss_8c.html#aac9d1d6ef3e74044ca6851a173af909b">OctorokBoss_Hit_SubAction0</a></div><div class="ttdeci">void OctorokBoss_Hit_SubAction0(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:190</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_abe3409c450fe3ee816d538b45b273d8e"><div class="ttname"><a href="octorokBoss_8c.html#abe3409c450fe3ee816d538b45b273d8e">OctorokBoss_Hit_SubAction6</a></div><div class="ttdeci">void OctorokBoss_Hit_SubAction6(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:322</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_acda8e3183c98577cada62e865d66e7fd"><div class="ttname"><a href="octorokBoss_8c.html#acda8e3183c98577cada62e865d66e7fd">OctorokBoss_Hit_SubAction3</a></div><div class="ttdeci">void OctorokBoss_Hit_SubAction3(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:294</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_aeef4358ed545eafc25292ff8d4b6f978"><div class="ttname"><a href="octorokBoss_8c.html#aeef4358ed545eafc25292ff8d4b6f978">OctorokBoss_Hit_SubAction4</a></div><div class="ttdeci">void OctorokBoss_Hit_SubAction4(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:305</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a88c29e8fb3c12881b99e864537569b81" name="a88c29e8fb3c12881b99e864537569b81"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88c29e8fb3c12881b99e864537569b81">&#9670;&nbsp;</a></span>OctorokBoss_Intro_SubActions</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(*const OctorokBoss_Intro_SubActions[])(<a class="el" href="structEntity.html">Entity</a> *) </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_function" href="octorokBoss_8c.html#a224723053c193826e7bfc28f5dc696b1">OctorokBoss_Intro_SubAction0</a>, <a class="code hl_function" href="octorokBoss_8c.html#aaf55a9492bcf35980f7e3e5d80916551">OctorokBoss_Intro_SubAction1</a>, <a class="code hl_function" href="octorokBoss_8c.html#a0d67764dcbd7520d010c8f079a993260">OctorokBoss_Intro_SubAction2</a>,</div>
-<div class="line">    <a class="code hl_function" href="octorokBoss_8c.html#ad7fb143cbd9fb1c9df166a7548fb44fd">OctorokBoss_Intro_SubAction3</a>, <a class="code hl_function" href="octorokBoss_8c.html#a4ca887afc43e95504a6038787fe64cb2">OctorokBoss_Intro_SubAction4</a>, <a class="code hl_function" href="octorokBoss_8c.html#a3613c1c212ddc31dec92b09dffea156e">OctorokBoss_Intro_SubAction5</a>,</div>
-<div class="line">}</div>
-<div class="ttc" id="aoctorokBoss_8c_html_a0d67764dcbd7520d010c8f079a993260"><div class="ttname"><a href="octorokBoss_8c.html#a0d67764dcbd7520d010c8f079a993260">OctorokBoss_Intro_SubAction2</a></div><div class="ttdeci">void OctorokBoss_Intro_SubAction2(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:532</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_a224723053c193826e7bfc28f5dc696b1"><div class="ttname"><a href="octorokBoss_8c.html#a224723053c193826e7bfc28f5dc696b1">OctorokBoss_Intro_SubAction0</a></div><div class="ttdeci">void OctorokBoss_Intro_SubAction0(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:509</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_a3613c1c212ddc31dec92b09dffea156e"><div class="ttname"><a href="octorokBoss_8c.html#a3613c1c212ddc31dec92b09dffea156e">OctorokBoss_Intro_SubAction5</a></div><div class="ttdeci">void OctorokBoss_Intro_SubAction5(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:569</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_a4ca887afc43e95504a6038787fe64cb2"><div class="ttname"><a href="octorokBoss_8c.html#a4ca887afc43e95504a6038787fe64cb2">OctorokBoss_Intro_SubAction4</a></div><div class="ttdeci">void OctorokBoss_Intro_SubAction4(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:555</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_aaf55a9492bcf35980f7e3e5d80916551"><div class="ttname"><a href="octorokBoss_8c.html#aaf55a9492bcf35980f7e3e5d80916551">OctorokBoss_Intro_SubAction1</a></div><div class="ttdeci">void OctorokBoss_Intro_SubAction1(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:518</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_ad7fb143cbd9fb1c9df166a7548fb44fd"><div class="ttname"><a href="octorokBoss_8c.html#ad7fb143cbd9fb1c9df166a7548fb44fd">OctorokBoss_Intro_SubAction3</a></div><div class="ttdeci">void OctorokBoss_Intro_SubAction3(Entity *this)</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:543</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ad3795c22082e285edd46d7efe2ab8a15" name="ad3795c22082e285edd46d7efe2ab8a15"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3795c22082e285edd46d7efe2ab8a15">&#9670;&nbsp;</a></span>OctorokBoss_LegAngleOffset</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> OctorokBoss_LegAngleOffset</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    40,</div>
-<div class="line">    80,</div>
-<div class="line">    176,</div>
-<div class="line">    216,</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="aa332c4a1497b75aa4ad68fd07d88b8f5" name="aa332c4a1497b75aa4ad68fd07d88b8f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa332c4a1497b75aa4ad68fd07d88b8f5">&#9670;&nbsp;</a></span>OctorokBoss_LegAngleOffset2</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> OctorokBoss_LegAngleOffset2</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    128,</div>
-<div class="line">    0,</div>
-<div class="line">    0,</div>
-<div class="line">    128,</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a45be2b8e3ba4dabae2628745b380d305" name="a45be2b8e3ba4dabae2628745b380d305"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45be2b8e3ba4dabae2628745b380d305">&#9670;&nbsp;</a></span>OctorokBoss_NormalAttackPatterns</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> OctorokBoss_NormalAttackPatterns</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_enumvalue" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a7b8ca6262811cd573af61d788281ea7d">ATTACK_VACUUM</a>, <a class="code hl_enumvalue" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a628e03e955003cadb26e29f7eefc321e">ATTACK_SPITROCK</a>, <a class="code hl_enumvalue" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a7b8ca6262811cd573af61d788281ea7d">ATTACK_VACUUM</a>, <a class="code hl_enumvalue" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a628e03e955003cadb26e29f7eefc321e">ATTACK_SPITROCK</a>, <a class="code hl_enumvalue" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a628e03e955003cadb26e29f7eefc321e">ATTACK_SPITROCK</a>,</div>
-<div class="line">}</div>
-<div class="ttc" id="aoctorokBoss_8c_html_aa63c35e91056c7052c4aad0c4446bcd3a628e03e955003cadb26e29f7eefc321e"><div class="ttname"><a href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a628e03e955003cadb26e29f7eefc321e">ATTACK_SPITROCK</a></div><div class="ttdeci">@ ATTACK_SPITROCK</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:70</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a24274e7a08b19e2d501305c2f0a35b4d" name="a24274e7a08b19e2d501305c2f0a35b4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24274e7a08b19e2d501305c2f0a35b4d">&#9670;&nbsp;</a></span>OctorokBoss_Phase4AttackPattern0</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> OctorokBoss_Phase4AttackPattern0[]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_enumvalue" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a628e03e955003cadb26e29f7eefc321e">ATTACK_SPITROCK</a>, <a class="code hl_enumvalue" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a981987fd8265a89d47f9c7d6e1fdf1e0">NO_ATTACK</a>, <a class="code hl_enumvalue" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a628e03e955003cadb26e29f7eefc321e">ATTACK_SPITROCK</a>, <a class="code hl_enumvalue" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3aa50becb5a7c64969e572fa31d6ff1883">ATTACK_SMOKE</a>, <a class="code hl_enumvalue" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3aaad1a777ab7e22406bc6e9c301653964">END_OF_ATTACK_PATTERN</a>,</div>
-<div class="line">}</div>
-<div class="ttc" id="aoctorokBoss_8c_html_aa63c35e91056c7052c4aad0c4446bcd3a981987fd8265a89d47f9c7d6e1fdf1e0"><div class="ttname"><a href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a981987fd8265a89d47f9c7d6e1fdf1e0">NO_ATTACK</a></div><div class="ttdeci">@ NO_ATTACK</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:74</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_aa63c35e91056c7052c4aad0c4446bcd3aa50becb5a7c64969e572fa31d6ff1883"><div class="ttname"><a href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3aa50becb5a7c64969e572fa31d6ff1883">ATTACK_SMOKE</a></div><div class="ttdeci">@ ATTACK_SMOKE</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:72</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_aa63c35e91056c7052c4aad0c4446bcd3aaad1a777ab7e22406bc6e9c301653964"><div class="ttname"><a href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3aaad1a777ab7e22406bc6e9c301653964">END_OF_ATTACK_PATTERN</a></div><div class="ttdeci">@ END_OF_ATTACK_PATTERN</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:75</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a484fba095af5a1cf7ba3a9ce95d53d58" name="a484fba095af5a1cf7ba3a9ce95d53d58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a484fba095af5a1cf7ba3a9ce95d53d58">&#9670;&nbsp;</a></span>OctorokBoss_Phase4AttackPattern1</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> OctorokBoss_Phase4AttackPattern1[]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_enumvalue" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a7b8ca6262811cd573af61d788281ea7d">ATTACK_VACUUM</a>, <a class="code hl_enumvalue" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a981987fd8265a89d47f9c7d6e1fdf1e0">NO_ATTACK</a>, <a class="code hl_enumvalue" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a628e03e955003cadb26e29f7eefc321e">ATTACK_SPITROCK</a>, <a class="code hl_enumvalue" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3aa50becb5a7c64969e572fa31d6ff1883">ATTACK_SMOKE</a>, <a class="code hl_enumvalue" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3aaad1a777ab7e22406bc6e9c301653964">END_OF_ATTACK_PATTERN</a>,</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="af6b8758505f935c47c6c9014e22db611" name="af6b8758505f935c47c6c9014e22db611"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6b8758505f935c47c6c9014e22db611">&#9670;&nbsp;</a></span>OctorokBoss_Phase4AttackPattern2</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> OctorokBoss_Phase4AttackPattern2[]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_enumvalue" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a628e03e955003cadb26e29f7eefc321e">ATTACK_SPITROCK</a>, <a class="code hl_enumvalue" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a981987fd8265a89d47f9c7d6e1fdf1e0">NO_ATTACK</a>, <a class="code hl_enumvalue" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a628e03e955003cadb26e29f7eefc321e">ATTACK_SPITROCK</a>, <a class="code hl_enumvalue" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a981987fd8265a89d47f9c7d6e1fdf1e0">NO_ATTACK</a>, <a class="code hl_enumvalue" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3a628e03e955003cadb26e29f7eefc321e">ATTACK_SPITROCK</a>, <a class="code hl_enumvalue" href="octorokBoss_8c.html#aa63c35e91056c7052c4aad0c4446bcd3aaad1a777ab7e22406bc6e9c301653964">END_OF_ATTACK_PATTERN</a>,</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a26c1717713059693d0f722ae5679e004" name="a26c1717713059693d0f722ae5679e004"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26c1717713059693d0f722ae5679e004">&#9670;&nbsp;</a></span>OctorokBoss_Phase4AttackPatterns</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> *const OctorokBoss_Phase4AttackPatterns</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_variable" href="octorokBoss_8c.html#a24274e7a08b19e2d501305c2f0a35b4d">OctorokBoss_Phase4AttackPattern0</a>,</div>
-<div class="line">    <a class="code hl_variable" href="octorokBoss_8c.html#a484fba095af5a1cf7ba3a9ce95d53d58">OctorokBoss_Phase4AttackPattern1</a>,</div>
-<div class="line">    <a class="code hl_variable" href="octorokBoss_8c.html#af6b8758505f935c47c6c9014e22db611">OctorokBoss_Phase4AttackPattern2</a>,</div>
-<div class="line">    <a class="code hl_variable" href="octorokBoss_8c.html#a484fba095af5a1cf7ba3a9ce95d53d58">OctorokBoss_Phase4AttackPattern1</a>,</div>
-<div class="line">}</div>
-<div class="ttc" id="aoctorokBoss_8c_html_a24274e7a08b19e2d501305c2f0a35b4d"><div class="ttname"><a href="octorokBoss_8c.html#a24274e7a08b19e2d501305c2f0a35b4d">OctorokBoss_Phase4AttackPattern0</a></div><div class="ttdeci">const u8 OctorokBoss_Phase4AttackPattern0[]</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:1521</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_a484fba095af5a1cf7ba3a9ce95d53d58"><div class="ttname"><a href="octorokBoss_8c.html#a484fba095af5a1cf7ba3a9ce95d53d58">OctorokBoss_Phase4AttackPattern1</a></div><div class="ttdeci">const u8 OctorokBoss_Phase4AttackPattern1[]</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:1524</div></div>
-<div class="ttc" id="aoctorokBoss_8c_html_af6b8758505f935c47c6c9014e22db611"><div class="ttname"><a href="octorokBoss_8c.html#af6b8758505f935c47c6c9014e22db611">OctorokBoss_Phase4AttackPattern2</a></div><div class="ttdeci">const u8 OctorokBoss_Phase4AttackPattern2[]</div><div class="ttdef"><b>Definition:</b> octorokBoss.c:1527</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a1fdaaedf376f73438d4d37e946e343de" name="a1fdaaedf376f73438d4d37e946e343de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1fdaaedf376f73438d4d37e946e343de">&#9670;&nbsp;</a></span>OctorokBoss_TurnTimeValues</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> OctorokBoss_TurnTimeValues</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    70,</div>
-<div class="line">    80,</div>
-<div class="line">    90,</div>
-<div class="line">    100,</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a439ae2d4020372a5fa6de27e94b4d0d2" name="a439ae2d4020372a5fa6de27e94b4d0d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a439ae2d4020372a5fa6de27e94b4d0d2">&#9670;&nbsp;</a></span>OctorokBoss_TurnTimeWeights</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> OctorokBoss_TurnTimeWeights</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    48,</div>
-<div class="line">    96,</div>
-<div class="line">    80,</div>
-<div class="line">    32,</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a79bb4dca6e3e4e4ac9013437a3abfe54" name="a79bb4dca6e3e4e4ac9013437a3abfe54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79bb4dca6e3e4e4ac9013437a3abfe54">&#9670;&nbsp;</a></span>OctorokBoss_WaitForAttackTurnsValues</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> OctorokBoss_WaitForAttackTurnsValues</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    1,</div>
-<div class="line">    2,</div>
-<div class="line">    3,</div>
-<div class="line">}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="affd7596ed934ab8914367e654366cc09" name="affd7596ed934ab8914367e654366cc09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#affd7596ed934ab8914367e654366cc09">&#9670;&nbsp;</a></span>OctorokBoss_WaitForAttackTurnsWeights</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> OctorokBoss_WaitForAttackTurnsWeights</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    64,</div>
-<div class="line">    128,</div>
-<div class="line">    64,</div>
-<div class="line">}</div>
-</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
