@@ -42,8 +42,7 @@ var searchData=
   ['_5fb_39',['_b',['../structColSettings.html#ad9c3afbad986b8b2f07c78c660137053',1,'ColSettings']]],
   ['_5fc_40',['_c',['../structstruct__080FE320.html#ad51ba2bb72afacbf2f614a050d9a1054',1,'struct_080FE320::_c()'],['../structFont.html#a78039fb7e521ed7b50a3987ed5dadd3b',1,'Font::_c()'],['../structHitboxCfg.html#a75f813356b0b169b6a7674d42a85fcdf',1,'HitboxCfg::_c()'],['../structToken.html#ababc58f38a2c3808a93fbb6281b0526d',1,'Token::_c()']]],
   ['_5fcall_5fvia_5fr0_41',['_call_via_r0',['../castleMaid_8c.html#afc294af55f97ba1bd954413c7978c57c',1,'castleMaid.c']]],
-  ['_5fclearandupdateentities_42',['_ClearAndUpdateEntities',['../entity_8c.html#a5b10134ac896fc7556062c515a061e2e',1,'entity.c']]],
-  ['_5ff_43',['_f',['../structSaveHeader.html#aebe9d13416ee023c21eb7d79f9c8310c',1,'SaveHeader']]],
-  ['_5fpadding_44',['_padding',['../structSpawnData.html#a13f086e808daef0377255ba5fe02f105',1,'SpawnData']]],
-  ['_5frgb_45',['_RGB',['../defines_8h.html#aad69b0b0d54a168735dad8b9149b5cf9',1,'defines.h']]]
+  ['_5ff_42',['_f',['../structSaveHeader.html#aebe9d13416ee023c21eb7d79f9c8310c',1,'SaveHeader']]],
+  ['_5fpadding_43',['_padding',['../structSpawnData.html#a13f086e808daef0377255ba5fe02f105',1,'SpawnData']]],
+  ['_5frgb_44',['_RGB',['../defines_8h.html#aad69b0b0d54a168735dad8b9149b5cf9',1,'defines.h']]]
 ];
