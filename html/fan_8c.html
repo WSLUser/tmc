@@ -76,6 +76,8 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">fan.c File Reference</div></div>
@@ -84,6 +86,10 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="global_8h_source.html">global.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="entity_8h_source.html">entity.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="flags_8h_source.html">flags.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="player_8h_source.html">player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="sound_8h_source.html">sound.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="object_8h_source.html">object.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for fan.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -91,56 +97,99 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="fan_8c__incl.png" border="0" usemap="#asrc_2object_2fan_8c" alt=""/></div>
 <map name="asrc_2object_2fan_8c" id="asrc_2object_2fan_8c">
-<area shape="rect" title=" " alt="" coords="111,5,222,32"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="133,229,200,256"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="135,80,198,107"/>
-<area shape="rect" href="flags_8h.html" title=" " alt="" coords="257,80,316,107"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="257,304,335,331"/>
-<area shape="rect" title=" " alt="" coords="5,379,69,405"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="94,379,167,405"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="192,379,259,405"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="349,453,411,480"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="334,379,426,405"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="451,379,523,405"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="547,379,615,405"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="640,379,728,405"/>
-<area shape="rect" title=" " alt="" coords="97,453,165,480"/>
-<area shape="rect" title=" " alt="" coords="348,528,412,555"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="137,155,197,181"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="221,155,285,181"/>
+<area shape="rect" title=" " alt="" coords="641,5,751,32"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="587,453,653,480"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="526,304,589,331"/>
+<area shape="rect" href="flags_8h.html" title=" " alt="" coords="1067,229,1125,256"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="352,229,419,256"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="403,80,488,107"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="1149,229,1216,256"/>
+<area shape="rect" href="object_8h.html" title=" " alt="" coords="825,155,892,181"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="731,528,810,555"/>
+<area shape="rect" title=" " alt="" coords="436,603,500,629"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1083,603,1157,629"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="992,603,1059,629"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="635,677,698,704"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="621,603,713,629"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="524,603,596,629"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="737,603,805,629"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="829,603,917,629"/>
+<area shape="rect" title=" " alt="" coords="1086,677,1154,704"/>
+<area shape="rect" title=" " alt="" coords="635,752,699,779"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="547,379,607,405"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="632,379,696,405"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="144,229,227,256"/>
+<area shape="rect" href="coord_8h.html" title=" " alt="" coords="827,229,891,256"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="741,229,803,256"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="227,155,317,181"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="493,155,557,181"/>
+<area shape="rect" href="map_8h.html" title=" " alt="" coords="106,304,163,331"/>
+<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="625,304,717,331"/>
+<area shape="rect" href="asm_8h.html" title=" " alt="" coords="843,379,901,405"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="909,304,992,331"/>
+<area shape="rect" href="effects_8h.html" title=" " alt="" coords="595,229,666,256"/>
 </map>
 </div>
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structFanEntity.html">FanEntity</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ad9d9839ea73fbe32257e340298da916d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fan_8c.html#ad9d9839ea73fbe32257e340298da916d">NENT_DEPRECATED</a></td></tr>
+<tr class="separator:ad9d9839ea73fbe32257e340298da916d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a02601b911d994c5d6f4c95cf75ca13f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fan_8c.html#a02601b911d994c5d6f4c95cf75ca13f0">sub_0809EE34</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a02601b911d994c5d6f4c95cf75ca13f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54b5dd78f1a7633c6f0f72529235aaab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fan_8c.html#a54b5dd78f1a7633c6f0f72529235aaab">sub_0809EFB0</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a54b5dd78f1a7633c6f0f72529235aaab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85e5c3c8e721dca6e3ccf6d088415a96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fan_8c.html#a85e5c3c8e721dca6e3ccf6d088415a96">sub_0809EE08</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a85e5c3c8e721dca6e3ccf6d088415a96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2be940fd84bb695dc326c2f365549b17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fan_8c.html#a2be940fd84bb695dc326c2f365549b17">sub_0809F08C</a> (void)</td></tr>
-<tr class="separator:a2be940fd84bb695dc326c2f365549b17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10b582d2419e410afa4ac3eeca9b7824"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fan_8c.html#a10b582d2419e410afa4ac3eeca9b7824">sub_0809EE44</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a10b582d2419e410afa4ac3eeca9b7824"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac83bf25f1b43c763c1bd529154a9fdbc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fan_8c.html#ac83bf25f1b43c763c1bd529154a9fdbc">sub_0809EE24</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:ac83bf25f1b43c763c1bd529154a9fdbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94cc543be824328dca4028a51ed928f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fan_8c.html#a94cc543be824328dca4028a51ed928f0">sub_0809EFB0</a> (<a class="el" href="structFanEntity.html">FanEntity</a> *)</td></tr>
+<tr class="separator:a94cc543be824328dca4028a51ed928f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92fb2205f9afe9030e30386465d8c7ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fan_8c.html#a92fb2205f9afe9030e30386465d8c7ef">sub_0809EE44</a> (<a class="el" href="structFanEntity.html">FanEntity</a> *)</td></tr>
+<tr class="separator:a92fb2205f9afe9030e30386465d8c7ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abef3c5e75d3baa91d7de2658318b877d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fan_8c.html#abef3c5e75d3baa91d7de2658318b877d">sub_0809F08C</a> (<a class="el" href="structFanEntity.html">FanEntity</a> *)</td></tr>
+<tr class="separator:abef3c5e75d3baa91d7de2658318b877d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bbd52d3e1ecc83f967f2ac1c072bd7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fan_8c.html#a5bbd52d3e1ecc83f967f2ac1c072bd7e">sub_0809EE24</a> (<a class="el" href="structFanEntity.html">FanEntity</a> *)</td></tr>
+<tr class="separator:a5bbd52d3e1ecc83f967f2ac1c072bd7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e88fce8cd3a36dde7913fe0c0f4ad9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fan_8c.html#a1e88fce8cd3a36dde7913fe0c0f4ad9b">sub_0809EE08</a> (<a class="el" href="structFanEntity.html">FanEntity</a> *)</td></tr>
+<tr class="separator:a1e88fce8cd3a36dde7913fe0c0f4ad9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0880f7ca6f2df1caa0342184b084db0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fan_8c.html#ad0880f7ca6f2df1caa0342184b084db0">sub_0809EE34</a> (<a class="el" href="structFanEntity.html">FanEntity</a> *)</td></tr>
+<tr class="separator:ad0880f7ca6f2df1caa0342184b084db0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3c49995800fcb7249e368a3db828fc5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fan_8c.html#af3c49995800fcb7249e368a3db828fc5">sub_0809F0E4</a> (<a class="el" href="structFanEntity.html">FanEntity</a> *)</td></tr>
+<tr class="separator:af3c49995800fcb7249e368a3db828fc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a982f40dc351c512989b0873edbc97f8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fan_8c.html#a982f40dc351c512989b0873edbc97f8f">Fan_Init</a> (<a class="el" href="structFanEntity.html">FanEntity</a> *this)</td></tr>
+<tr class="separator:a982f40dc351c512989b0873edbc97f8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30cb4add542ec6cdf1e26228623c2ccf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fan_8c.html#a30cb4add542ec6cdf1e26228623c2ccf">Fan_Action1</a> (<a class="el" href="structFanEntity.html">FanEntity</a> *this)</td></tr>
+<tr class="separator:a30cb4add542ec6cdf1e26228623c2ccf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a697a07d09cb64e0cfb8f8351c69a42cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fan_8c.html#a697a07d09cb64e0cfb8f8351c69a42cd">Fan_Action2</a> (<a class="el" href="structFanEntity.html">FanEntity</a> *this)</td></tr>
+<tr class="separator:a697a07d09cb64e0cfb8f8351c69a42cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3005525605b1dc1af3f970230c664ff4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fan_8c.html#a3005525605b1dc1af3f970230c664ff4">Fan_Action3</a> (<a class="el" href="structFanEntity.html">FanEntity</a> *this)</td></tr>
+<tr class="separator:a3005525605b1dc1af3f970230c664ff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a999856c42660a835d1d6a8b59d27d93e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fan_8c.html#a999856c42660a835d1d6a8b59d27d93e">sub_0809EF78</a> (<a class="el" href="structFanEntity.html">FanEntity</a> *, <a class="el" href="structEntity.html">Entity</a> *)</td></tr>
+<tr class="separator:a999856c42660a835d1d6a8b59d27d93e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d18b0b5b4021a82369c6d4c2ed801d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fan_8c.html#a2d18b0b5b4021a82369c6d4c2ed801d5">Fan</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
 <tr class="separator:a2d18b0b5b4021a82369c6d4c2ed801d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4381c98a3188920d76ea7b76b0daf93"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fan_8c.html#af4381c98a3188920d76ea7b76b0daf93">sub_0809ED30</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:af4381c98a3188920d76ea7b76b0daf93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e7159823aa60a5de42805fbe54188c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fan_8c.html#a3e7159823aa60a5de42805fbe54188c9">sub_0809ED54</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a3e7159823aa60a5de42805fbe54188c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a635f039680f1b55fad48a88409245415"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fan_8c.html#a635f039680f1b55fad48a88409245415">sub_0809ED88</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a635f039680f1b55fad48a88409245415"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb2c881c4d6a2ef327a8268ef9d1dd66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fan_8c.html#acb2c881c4d6a2ef327a8268ef9d1dd66">sub_0809EDE4</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:acb2c881c4d6a2ef327a8268ef9d1dd66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:abd4a0a15d10a7920a3a731f8946e43c3"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fan_8c.html#abd4a0a15d10a7920a3a731f8946e43c3">gUnk_081243D4</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:abd4a0a15d10a7920a3a731f8946e43c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27c308ac29651829ccbb1d914b0b3da0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fan_8c.html#a27c308ac29651829ccbb1d914b0b3da0">gUnk_02027EB4</a> []</td></tr>
+<tr class="separator:a27c308ac29651829ccbb1d914b0b3da0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ad9d9839ea73fbe32257e340298da916d" name="ad9d9839ea73fbe32257e340298da916d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9d9839ea73fbe32257e340298da916d">&#9670;&nbsp;</a></span>NENT_DEPRECATED</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define NENT_DEPRECATED</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a2d18b0b5b4021a82369c6d4c2ed801d5" name="a2d18b0b5b4021a82369c6d4c2ed801d5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2d18b0b5b4021a82369c6d4c2ed801d5">&#9670;&nbsp;</a></span>Fan()</h2>
@@ -160,16 +209,16 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="af4381c98a3188920d76ea7b76b0daf93" name="af4381c98a3188920d76ea7b76b0daf93"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4381c98a3188920d76ea7b76b0daf93">&#9670;&nbsp;</a></span>sub_0809ED30()</h2>
+<a id="a30cb4add542ec6cdf1e26228623c2ccf" name="a30cb4add542ec6cdf1e26228623c2ccf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30cb4add542ec6cdf1e26228623c2ccf">&#9670;&nbsp;</a></span>Fan_Action1()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sub_0809ED30 </td>
+          <td class="memname">void Fan_Action1 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structFanEntity.html">FanEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -178,16 +227,16 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a3e7159823aa60a5de42805fbe54188c9" name="a3e7159823aa60a5de42805fbe54188c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e7159823aa60a5de42805fbe54188c9">&#9670;&nbsp;</a></span>sub_0809ED54()</h2>
+<a id="a697a07d09cb64e0cfb8f8351c69a42cd" name="a697a07d09cb64e0cfb8f8351c69a42cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a697a07d09cb64e0cfb8f8351c69a42cd">&#9670;&nbsp;</a></span>Fan_Action2()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sub_0809ED54 </td>
+          <td class="memname">void Fan_Action2 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structFanEntity.html">FanEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -196,16 +245,16 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a635f039680f1b55fad48a88409245415" name="a635f039680f1b55fad48a88409245415"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a635f039680f1b55fad48a88409245415">&#9670;&nbsp;</a></span>sub_0809ED88()</h2>
+<a id="a3005525605b1dc1af3f970230c664ff4" name="a3005525605b1dc1af3f970230c664ff4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3005525605b1dc1af3f970230c664ff4">&#9670;&nbsp;</a></span>Fan_Action3()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sub_0809ED88 </td>
+          <td class="memname">void Fan_Action3 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structFanEntity.html">FanEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -214,16 +263,16 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="acb2c881c4d6a2ef327a8268ef9d1dd66" name="acb2c881c4d6a2ef327a8268ef9d1dd66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb2c881c4d6a2ef327a8268ef9d1dd66">&#9670;&nbsp;</a></span>sub_0809EDE4()</h2>
+<a id="a982f40dc351c512989b0873edbc97f8f" name="a982f40dc351c512989b0873edbc97f8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a982f40dc351c512989b0873edbc97f8f">&#9670;&nbsp;</a></span>Fan_Init()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sub_0809EDE4 </td>
+          <td class="memname">void Fan_Init </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structFanEntity.html">FanEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -232,8 +281,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a85e5c3c8e721dca6e3ccf6d088415a96" name="a85e5c3c8e721dca6e3ccf6d088415a96"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85e5c3c8e721dca6e3ccf6d088415a96">&#9670;&nbsp;</a></span>sub_0809EE08()</h2>
+<a id="a1e88fce8cd3a36dde7913fe0c0f4ad9b" name="a1e88fce8cd3a36dde7913fe0c0f4ad9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e88fce8cd3a36dde7913fe0c0f4ad9b">&#9670;&nbsp;</a></span>sub_0809EE08()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -241,7 +290,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_0809EE08 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structFanEntity.html">FanEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -250,8 +299,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ac83bf25f1b43c763c1bd529154a9fdbc" name="ac83bf25f1b43c763c1bd529154a9fdbc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac83bf25f1b43c763c1bd529154a9fdbc">&#9670;&nbsp;</a></span>sub_0809EE24()</h2>
+<a id="a5bbd52d3e1ecc83f967f2ac1c072bd7e" name="a5bbd52d3e1ecc83f967f2ac1c072bd7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bbd52d3e1ecc83f967f2ac1c072bd7e">&#9670;&nbsp;</a></span>sub_0809EE24()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -259,7 +308,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_0809EE24 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structFanEntity.html">FanEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -268,8 +317,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a02601b911d994c5d6f4c95cf75ca13f0" name="a02601b911d994c5d6f4c95cf75ca13f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a02601b911d994c5d6f4c95cf75ca13f0">&#9670;&nbsp;</a></span>sub_0809EE34()</h2>
+<a id="ad0880f7ca6f2df1caa0342184b084db0" name="ad0880f7ca6f2df1caa0342184b084db0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0880f7ca6f2df1caa0342184b084db0">&#9670;&nbsp;</a></span>sub_0809EE34()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -277,7 +326,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_0809EE34 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structFanEntity.html">FanEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -286,8 +335,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a10b582d2419e410afa4ac3eeca9b7824" name="a10b582d2419e410afa4ac3eeca9b7824"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10b582d2419e410afa4ac3eeca9b7824">&#9670;&nbsp;</a></span>sub_0809EE44()</h2>
+<a id="a92fb2205f9afe9030e30386465d8c7ef" name="a92fb2205f9afe9030e30386465d8c7ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92fb2205f9afe9030e30386465d8c7ef">&#9670;&nbsp;</a></span>sub_0809EE44()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -295,8 +344,8 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_0809EE44 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structFanEntity.html">FanEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -304,8 +353,36 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a54b5dd78f1a7633c6f0f72529235aaab" name="a54b5dd78f1a7633c6f0f72529235aaab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54b5dd78f1a7633c6f0f72529235aaab">&#9670;&nbsp;</a></span>sub_0809EFB0()</h2>
+<a id="a999856c42660a835d1d6a8b59d27d93e" name="a999856c42660a835d1d6a8b59d27d93e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a999856c42660a835d1d6a8b59d27d93e">&#9670;&nbsp;</a></span>sub_0809EF78()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a> sub_0809EF78 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structFanEntity.html">FanEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramname"><em>ent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a94cc543be824328dca4028a51ed928f0" name="a94cc543be824328dca4028a51ed928f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94cc543be824328dca4028a51ed928f0">&#9670;&nbsp;</a></span>sub_0809EFB0()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -313,8 +390,8 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_0809EFB0 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structFanEntity.html">FanEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -322,8 +399,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a2be940fd84bb695dc326c2f365549b17" name="a2be940fd84bb695dc326c2f365549b17"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2be940fd84bb695dc326c2f365549b17">&#9670;&nbsp;</a></span>sub_0809F08C()</h2>
+<a id="abef3c5e75d3baa91d7de2658318b877d" name="abef3c5e75d3baa91d7de2658318b877d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abef3c5e75d3baa91d7de2658318b877d">&#9670;&nbsp;</a></span>sub_0809F08C()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -331,8 +408,26 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_0809F08C </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structFanEntity.html">FanEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af3c49995800fcb7249e368a3db828fc5" name="af3c49995800fcb7249e368a3db828fc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3c49995800fcb7249e368a3db828fc5">&#9670;&nbsp;</a></span>sub_0809F0E4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_0809F0E4 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structFanEntity.html">FanEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -341,8 +436,8 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="abd4a0a15d10a7920a3a731f8946e43c3" name="abd4a0a15d10a7920a3a731f8946e43c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd4a0a15d10a7920a3a731f8946e43c3">&#9670;&nbsp;</a></span>gUnk_081243D4</h2>
+<a id="a27c308ac29651829ccbb1d914b0b3da0" name="a27c308ac29651829ccbb1d914b0b3da0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27c308ac29651829ccbb1d914b0b3da0">&#9670;&nbsp;</a></span>gUnk_02027EB4</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -351,11 +446,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void(*const gUnk_081243D4[])(<a class="el" href="structEntity.html">Entity</a> *) </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gUnk_02027EB4[]</td>
         </tr>
       </table>
   </td>
