@@ -18,7 +18,7 @@ var searchData=
   ['datadoublewritewithstatus_15',['DataDoubleWriteWithStatus',['../save_8c.html#a93501203dee6db5858cca7b270d2000e',1,'save.c']]],
   ['dataread_16',['DataRead',['../save_8c.html#ac81b51214b91fbb5397ed582bfa29664',1,'save.c']]],
   ['datawrite_17',['DataWrite',['../save_8c.html#a04f4a671c49b9c5af0e1f8d895ac1d21',1,'save.c']]],
-  ['deathfx_18',['DeathFx',['../deathFx_8c.html#ae8a154aad53d2585ea69439911cf0de7',1,'DeathFx(Entity *this):&#160;deathFx.c'],['../object_8h.html#a56037e5b92fb08964cb6cdb5ee2ba075',1,'DeathFx(Entity *):&#160;deathFx.c']]],
+  ['deathfx_18',['DeathFx',['../deathFx_8c.html#ae8a154aad53d2585ea69439911cf0de7',1,'DeathFx(Entity *this):&#160;deathFx.c'],['../object_8h.html#a5fa9b27ecb5fb6da2e164c18231ba41c',1,'DeathFx():&#160;object.h']]],
   ['deathfx_5faction0_19',['DeathFx_Action0',['../deathFx_8c.html#a34f85b21ad90c4aef8cda3d880355de5',1,'deathFx.c']]],
   ['deathfx_5faction1_20',['DeathFx_Action1',['../deathFx_8c.html#a751f47468afd0f09852ef8643ff068da',1,'deathFx.c']]],
   ['deathfx_5faction2_21',['DeathFx_Action2',['../deathFx_8c.html#a7645654b82c4fa2998c3f7a3ef04a891',1,'deathFx.c']]],

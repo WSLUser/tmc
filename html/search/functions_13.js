@@ -26,7 +26,7 @@ var searchData=
   ['textdisproll_23',['TextDispRoll',['../message_8c.html#ac1cba49bf85e765d047ef8c460a72fec',1,'message.c']]],
   ['textdispupdate_24',['TextDispUpdate',['../message_8c.html#aa7d2124f3026dc14dcddbb1d85511380',1,'message.c']]],
   ['textdispwait_25',['TextDispWait',['../message_8c.html#a10748a9f8888b67469bb730fb63296b7',1,'message.c']]],
-  ['thoughtbubble_26',['ThoughtBubble',['../thoughtBubble_8c.html#a7e36d6fab9ebb74bb0acb2c19afa3b2a',1,'ThoughtBubble(Entity *this):&#160;thoughtBubble.c'],['../object_8h.html#a62762e7127844f7cbf57202b80850719',1,'ThoughtBubble(Entity *):&#160;thoughtBubble.c']]],
+  ['thoughtbubble_26',['ThoughtBubble',['../thoughtBubble_8c.html#a7e36d6fab9ebb74bb0acb2c19afa3b2a',1,'ThoughtBubble(Entity *this):&#160;thoughtBubble.c'],['../object_8h.html#a9e7a6da4e1693c0f1191192fdeceae49',1,'ThoughtBubble():&#160;object.h']]],
   ['thoughtbubble_5finit_27',['ThoughtBubble_Init',['../thoughtBubble_8c.html#a80fe06b230adf4020a158355d9b275e1',1,'thoughtBubble.c']]],
   ['thoughtbubble_5fupdate_28',['ThoughtBubble_Update',['../thoughtBubble_8c.html#ad0753737172dfd870caf1fe3704ce091',1,'thoughtBubble.c']]],
   ['tilecollisionfunction0_29',['TileCollisionFunction0',['../movement_8c.html#a89d4c3eb3c58836910060415c30416ea',1,'movement.c']]],
@@ -58,9 +58,9 @@ var searchData=
   ['townsperson_5ffusion_55',['Townsperson_Fusion',['../townsperson_8c.html#a4bc78a1277d6b7882b1b90a810f2d6b9',1,'Townsperson_Fusion(Entity *this):&#160;townsperson.c'],['../npc_8h.html#abe565c9e93c223b5dc4934866eb291df',1,'Townsperson_Fusion(Entity *):&#160;townsperson.c']]],
   ['townsperson_5fhead_56',['Townsperson_Head',['../npc_8h.html#aa826c4a65dfa51a9ad5b3ae72392d854',1,'Townsperson_Head(Entity *):&#160;townsperson.c'],['../townsperson_8c.html#af672fa5cc146577765850eaa17b236e8',1,'Townsperson_Head(Entity *this)):&#160;townsperson.c']]],
   ['trackstop_57',['TrackStop',['../m4a_8c.html#aca9208bbed127b764cff3871369a2c04',1,'m4a.c']]],
-  ['treehidingportal_58',['TreeHidingPortal',['../treeHidingPortal_8c.html#af22b507aba514f0be35c7a4532e5e354',1,'TreeHidingPortal(Entity *this):&#160;treeHidingPortal.c'],['../object_8h.html#ad34140ef5ca510e039171eec07d4bd3c',1,'TreeHidingPortal(Entity *):&#160;treeHidingPortal.c']]],
+  ['treehidingportal_58',['TreeHidingPortal',['../treeHidingPortal_8c.html#af22b507aba514f0be35c7a4532e5e354',1,'TreeHidingPortal(Entity *this):&#160;treeHidingPortal.c'],['../object_8h.html#a81157ca1731af9bbbc85c27f8cf4517e',1,'TreeHidingPortal():&#160;object.h']]],
   ['treeitem_59',['TreeItem',['../treeItem_8c.html#acb444935394757b146b1ba3ba08ac02a',1,'TreeItem(Entity *this):&#160;treeItem.c'],['../enemy_8h.html#a235e9d9473b158eb2f55665040ba1de7',1,'TreeItem(Entity *):&#160;treeItem.c']]],
-  ['treethorns_60',['TreeThorns',['../treeThorns_8c.html#a0b77c1c2861facbb5722b8056196c107',1,'TreeThorns(Entity *this):&#160;treeThorns.c'],['../object_8h.html#a39b7c164eb414f25b8b7a9562c1ff9b8',1,'TreeThorns(Entity *):&#160;treeThorns.c']]],
+  ['treethorns_60',['TreeThorns',['../treeThorns_8c.html#a0b77c1c2861facbb5722b8056196c107',1,'TreeThorns(Entity *this):&#160;treeThorns.c'],['../object_8h.html#a790a66469c3b06dacaa4b596ad059a75',1,'TreeThorns():&#160;object.h']]],
   ['trkvolpitset_61',['TrkVolPitSet',['../m4a_8c.html#ac2b3ffd13edb49c3d9429698edd7ff02',1,'m4a.c']]],
   ['tryloadprologuehyruletown_62',['TryLoadPrologueHyruleTown',['../manager12_8c.html#ab1e67c53033330e394898ad16142791d',1,'TryLoadPrologueHyruleTown(void):&#160;manager12.c'],['../functions_8h.html#ab1e67c53033330e394898ad16142791d',1,'TryLoadPrologueHyruleTown(void):&#160;manager12.c']]]
 ];

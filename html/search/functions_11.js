@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['railtrack_0',['Railtrack',['../object_8h.html#adb6eaa9d31c252cded52dff7492f1058',1,'Railtrack(Entity *):&#160;railtrack.c'],['../railtrack_8c.html#a3e8e26afb1468cd74e94ce341f839863',1,'Railtrack(Entity *this):&#160;railtrack.c']]],
+  ['railtrack_0',['Railtrack',['../object_8h.html#a92dcabd2bb1357af80fb6c27d4b16127',1,'Railtrack():&#160;object.h'],['../railtrack_8c.html#a3e8e26afb1468cd74e94ce341f839863',1,'Railtrack(Entity *this):&#160;railtrack.c']]],
   ['ram_5fclearandupdateentities_1',['ram_ClearAndUpdateEntities',['../entity_8c.html#aa212752003f7233fccc907a424c70c15',1,'entity.c']]],
   ['ram_5fcollideall_2',['ram_CollideAll',['../collision_8c.html#a6b0a3fa997523a06c8e4a5d7383e75a5',1,'collision.c']]],
   ['ram_5fintrmain_3',['ram_IntrMain',['../interrupts_8c.html#a2028b2428a072bdb31d9481df0c3e91f',1,'interrupts.c']]],
@@ -91,7 +91,7 @@ var searchData=
   ['ropegolden_5fontick_88',['RopeGolden_OnTick',['../ropeGolden_8c.html#a99dec727edf1255d53fa8cd5bdf7660e',1,'ropeGolden.c']]],
   ['runqueuedaction_89',['RunQueuedAction',['../player_8c.html#a96083de90e360c527d2415d4401d6100',1,'RunQueuedAction(void):&#160;playerUtils.c'],['../playerUtils_8c.html#a8658aac4a8ecb0de80fba859a6523f65',1,'RunQueuedAction(void):&#160;playerUtils.c']]],
   ['runtextcommand_90',['RunTextCommand',['../message_8c.html#a2f459273487e6b5e45762e8c02f473c1',1,'message.c']]],
-  ['rupee_91',['Rupee',['../rupee_8c.html#a82ebad9dab084a8003d1c42b4ab6ebf1',1,'Rupee(Entity *ent):&#160;rupee.c'],['../object_8h.html#a24297ad0dc9c520d0a063cab6fc357b1',1,'Rupee(Entity *):&#160;rupee.c']]],
+  ['rupee_91',['Rupee',['../rupee_8c.html#a82ebad9dab084a8003d1c42b4ab6ebf1',1,'Rupee(Entity *ent):&#160;rupee.c'],['../object_8h.html#ad03d3c8f5992ec5547d81a44c49a7366',1,'Rupee():&#160;object.h']]],
   ['rupeelike_92',['RupeeLike',['../rupeeLike_8c.html#a61caa90bcf588d27f2e130dc432efdea',1,'RupeeLike(Entity *this):&#160;rupeeLike.c'],['../enemy_8h.html#a30d5b151c166c2910b21db0e6909d3fc',1,'RupeeLike(Entity *):&#160;rupeeLike.c']]],
   ['rupeelike_5foncollision_93',['RupeeLike_OnCollision',['../rupeeLike_8c.html#a2aa6b3d546d40222913949f3ac26b9d0',1,'rupeeLike.c']]],
   ['rupeelike_5fondeath_94',['RupeeLike_OnDeath',['../rupeeLike_8c.html#a00c1b7f1bc558017f1633aebff8e767c',1,'rupeeLike.c']]],

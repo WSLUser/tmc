@@ -1,11 +1,12 @@
 <map id="include/kinstone.h" name="include/kinstone.h">
-<area shape="rect" id="node1" title=" " alt="" coords="563,5,690,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="659,5,786,32"/>
 <area shape="rect" id="node2" href="$common_8c.html" title=" " alt="" coords="5,80,109,107"/>
 <area shape="rect" id="node3" href="$kinstone__menu_8c.html" title=" " alt="" coords="133,80,312,107"/>
 <area shape="rect" id="node4" href="$npcUtils_8c.html" title=" " alt="" coords="337,80,439,107"/>
 <area shape="rect" id="node5" href="$itemForSale_8c.html" title="Item for Sale object." alt="" coords="464,80,627,107"/>
-<area shape="rect" id="node6" href="$playerUtils_8c.html" title=" " alt="" coords="651,80,765,107"/>
-<area shape="rect" id="node7" href="$roomInit_8c.html" title=" " alt="" coords="789,80,891,107"/>
-<area shape="rect" id="node8" href="$script_8c.html" title=" " alt="" coords="915,80,1002,107"/>
-<area shape="rect" id="node9" href="$subtask_8c.html" title=" " alt="" coords="1026,80,1126,107"/>
+<area shape="rect" id="node6" href="$objectB3_8c.html" title="ObjectB3 object." alt="" coords="651,80,795,107"/>
+<area shape="rect" id="node7" href="$playerUtils_8c.html" title=" " alt="" coords="819,80,933,107"/>
+<area shape="rect" id="node8" href="$roomInit_8c.html" title=" " alt="" coords="957,80,1059,107"/>
+<area shape="rect" id="node9" href="$script_8c.html" title=" " alt="" coords="1083,80,1170,107"/>
+<area shape="rect" id="node10" href="$subtask_8c.html" title=" " alt="" coords="1194,80,1294,107"/>
 </map>

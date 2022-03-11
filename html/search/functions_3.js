@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['cabinfurniture_0',['CabinFurniture',['../object_8h.html#a34352f07ba82140b7a84dd641f556a32',1,'CabinFurniture(Entity *):&#160;cabinFurniture.c'],['../cabinFurniture_8c.html#abab88a69775a46f997c341ec3a8ae7e0',1,'CabinFurniture(Entity *this):&#160;cabinFurniture.c']]],
+  ['cabinfurniture_0',['CabinFurniture',['../object_8h.html#a149b84d9e9da5f2598abf073e4aef79b',1,'CabinFurniture():&#160;object.h'],['../cabinFurniture_8c.html#abab88a69775a46f997c341ec3a8ae7e0',1,'CabinFurniture(Entity *this):&#160;cabinFurniture.c']]],
   ['cabinfurniture_5finit_1',['CabinFurniture_Init',['../cabinFurniture_8c.html#a17d1be9ad9a69c928040d2aded1f3260',1,'cabinFurniture.c']]],
   ['calculatechecksum_2',['CalculateChecksum',['../save_8c.html#a8d83e2915e470dc766688141b2a9219c',1,'save.c']]],
   ['calculatedirectionto_3',['CalculateDirectionTo',['../asm_8h.html#a754a10660eb15aa3c5c0d25f3e0f2d51',1,'asm.h']]],
@@ -107,7 +107,7 @@ var searchData=
   ['cleartilemaps_104',['ClearTilemaps',['../scroll_8c.html#aed511425ab86e64a5ff0addb4bdd24a8',1,'ClearTilemaps(void):&#160;scroll.c'],['../fileselect_8h.html#aed511425ab86e64a5ff0addb4bdd24a8',1,'ClearTilemaps(void):&#160;scroll.c']]],
   ['clonemapdata_105',['CloneMapData',['../game_8c.html#a28e1e34572950bcd60ecd1345c298bda',1,'game.c']]],
   ['clothesrack_106',['ClothesRack',['../clothesRack_8c.html#a5f5f36fbb83f6f9241f592519bfae668',1,'ClothesRack(Entity *this):&#160;clothesRack.c'],['../npc_8h.html#a08890a89a840945f5b7056f72cc16474',1,'ClothesRack(Entity *):&#160;clothesRack.c']]],
-  ['cloud_107',['Cloud',['../cloud_8c.html#a35ff27337c57a068f3d3a9ee8754fc24',1,'Cloud(Entity *this):&#160;cloud.c'],['../object_8h.html#a05a2d515ddfa41d9e8bdfb09aab7f9fd',1,'Cloud(Entity *):&#160;cloud.c']]],
+  ['cloud_107',['Cloud',['../cloud_8c.html#a35ff27337c57a068f3d3a9ee8754fc24',1,'Cloud(Entity *this):&#160;cloud.c'],['../object_8h.html#afb4eded4e0fcfc5e23485e2e7f21a852',1,'Cloud():&#160;object.h']]],
   ['cloudpiranha_108',['CloudPiranha',['../cloudPiranha_8c.html#a597970654b375f8d3057c02aaca5d415',1,'CloudPiranha(CloudPiranhaEntity *this):&#160;cloudPiranha.c'],['../enemy_8h.html#ae331faf64879d6a33a233f328ca99a0a',1,'CloudPiranha():&#160;enemy.h']]],
   ['cloudpiranha_5faction1_109',['CloudPiranha_Action1',['../cloudPiranha_8c.html#a9e561d841791d1b569f862552d7228e0',1,'cloudPiranha.c']]],
   ['cloudpiranha_5faction3_110',['CloudPiranha_Action3',['../cloudPiranha_8c.html#a4a918049654a03f8cf4d324aa2cf8c4b',1,'cloudPiranha.c']]],
