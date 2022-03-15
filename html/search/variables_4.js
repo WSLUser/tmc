@@ -25,7 +25,7 @@ var searchData=
   ['didallfusions_22',['didAllFusions',['../structSaveFile.html#a0bc501d9976d7a9af932bcd08a812eaa',1,'SaveFile']]],
   ['diggingcaveentrances_23',['diggingCaveEntrances',['../manager_8h.html#ac8b44f5034b59b599da2e333f59264e7',1,'manager.h']]],
   ['dir_24',['dir',['../structPressurePlateEntity.html#a2b4485c0ec55b3f63e1a2e2b0068ad9a',1,'PressurePlateEntity']]],
-  ['direction_25',['direction',['../movement_8c.html#aeba99e45784d8719d3f6f6ce37859736',1,'direction():&#160;movement.c'],['../structEntity.html#adb65248e8047c287b9005fec248ef110',1,'Entity::direction()'],['../structPACKED.html#a96076a991fcdbb119f9d2b5feeea1e04',1,'PACKED::direction()']]],
+  ['direction_25',['direction',['../structEntity.html#adb65248e8047c287b9005fec248ef110',1,'Entity::direction()'],['../movement_8c.html#aeba99e45784d8719d3f6f6ce37859736',1,'direction():&#160;movement.c'],['../structPACKED.html#a96076a991fcdbb119f9d2b5feeea1e04',1,'PACKED::direction()'],['../structgUnk__081229D0__struct.html#affd0412fe271f15506dbc736e6ccd4a5',1,'gUnk_081229D0_struct::direction()']]],
   ['dirtballprojectile_5factions_26',['DirtBallProjectile_Actions',['../dirtBallProjectile_8c.html#a608f80f4929b95ee4c23a9d52ac3d198',1,'dirtBallProjectile.c']]],
   ['dirtballprojectile_5ffunctions_27',['DirtBallProjectile_Functions',['../dirtBallProjectile_8c.html#a3b7f18d6eaa519bccd151a6c35cbfcbc',1,'dirtBallProjectile.c']]],
   ['displaycontrol_28',['displayControl',['../structLcdControls.html#af91421a3a4bf45b5fd2b8727f49917f1',1,'LcdControls']]],

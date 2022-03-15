@@ -1,0 +1,20 @@
+<map id="src/object/object45.c" name="src/object/object45.c">
+<area shape="rect" id="node1" title=" " alt="" coords="118,5,261,32"/>
+<area shape="rect" id="node2" href="$entity_8h.html" title=" " alt="" coords="158,229,221,256"/>
+<area shape="rect" id="node17" href="$player_8h.html" title=" " alt="" coords="85,155,152,181"/>
+<area shape="rect" id="node18" href="$item_8h.html" title=" " alt="" coords="227,80,285,107"/>
+<area shape="rect" id="node3" href="$global_8h.html" title=" " alt="" coords="156,379,223,405"/>
+<area shape="rect" id="node15" href="$color_8h.html" title=" " alt="" coords="159,304,219,331"/>
+<area shape="rect" id="node16" href="$sprite_8h.html" title=" " alt="" coords="244,304,308,331"/>
+<area shape="rect" id="node4" href="$gba_8h.html" title=" " alt="" coords="301,453,379,480"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,528,69,555"/>
+<area shape="rect" id="node6" href="$defines_8h.html" title=" " alt="" coords="653,528,726,555"/>
+<area shape="rect" id="node8" href="$io__reg_8h.html" title=" " alt="" coords="561,528,628,555"/>
+<area shape="rect" id="node9" href="$types_8h.html" title=" " alt="" coords="205,603,267,629"/>
+<area shape="rect" id="node11" href="$multi__boot_8h.html" title=" " alt="" coords="190,528,282,555"/>
+<area shape="rect" id="node12" href="$syscall_8h.html" title=" " alt="" coords="93,528,165,555"/>
+<area shape="rect" id="node13" href="$macro_8h.html" title=" " alt="" coords="306,528,374,555"/>
+<area shape="rect" id="node14" href="$isagbprint_8h.html" title=" " alt="" coords="399,528,487,555"/>
+<area shape="rect" id="node7" title=" " alt="" coords="655,603,723,629"/>
+<area shape="rect" id="node10" title=" " alt="" coords="204,677,268,704"/>
+</map>
