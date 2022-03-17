@@ -19,5 +19,5 @@ var searchData=
   ['ntracks_16',['nTracks',['../structMusicPlayer.html#a31c08f05e31b68de67ead515252a5919',1,'MusicPlayer']]],
   ['numgfxtiles_17',['numGfxTiles',['../structFrameGfxData.html#a042876ea11bc77f09629dabce2bb31c1',1,'FrameGfxData']]],
   ['numpalettes_18',['numPalettes',['../structPaletteGroup.html#a68d0c0050d4447cdf5a9c7de1ff582f2',1,'PaletteGroup']]],
-  ['numtiles_19',['numTiles',['../structSpriteFrame.html#a54de6e562d8ed3e603a03020d232e43e',1,'SpriteFrame']]]
+  ['numtiles_19',['numTiles',['../structUIElement.html#ad0633b52f49fa1fd2d7215a0aad04ade',1,'UIElement::numTiles()'],['../structSpriteFrame.html#a54de6e562d8ed3e603a03020d232e43e',1,'SpriteFrame::numTiles()']]]
 ];

@@ -184,6 +184,9 @@ Data Structures</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstruct__020354C0.html">struct_020354C0</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUIElement.html">UIElement</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Floating <a class="el" href="structUI.html" title="HUD structure.">UI</a> element.  <a href="structUIElement.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstruct__0200AF00.html">struct_0200AF00</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structGfxSlot.html">GfxSlot</a></td></tr>
@@ -217,11 +220,30 @@ Data Structures</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:aed177d6ab8c419e7a33600d19d92bd12"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structures_8h.html#aed177d6ab8c419e7a33600d19d92bd12">gSaveHeader</a>&#160;&#160;&#160;((<a class="el" href="structSaveHeader.html">SaveHeader</a>*)(0x2000000))</td></tr>
 <tr class="separator:aed177d6ab8c419e7a33600d19d92bd12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2485b5aae328cd7c9e35859d07e9cef3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structures_8h.html#a2485b5aae328cd7c9e35859d07e9cef3">MAX_UI_ELEMENTS</a>&#160;&#160;&#160;24</td></tr>
+<tr class="separator:a2485b5aae328cd7c9e35859d07e9cef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e2afb69b65c1ba35bda46e4f17acd10"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structures_8h.html#a6e2afb69b65c1ba35bda46e4f17acd10">MAX_GFX_SLOTS</a>&#160;&#160;&#160;44</td></tr>
 <tr class="separator:a6e2afb69b65c1ba35bda46e4f17acd10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
+<tr class="memitem:ae610a12890f04f3353a0734c433daa61"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structures_8h.html#ae610a12890f04f3353a0734c433daa61">UIElementType</a> { <br />
+&#160;&#160;<a class="el" href="structures_8h.html#ae610a12890f04f3353a0734c433daa61a24023fff1df3edf3dd42dcc48d4f74d0">UI_ELEMENT_BUTTON_A</a>
+, <a class="el" href="structures_8h.html#ae610a12890f04f3353a0734c433daa61a525eff0ced6f1a3731c80991617abd91">UI_ELEMENT_BUTTON_B</a>
+, <a class="el" href="structures_8h.html#ae610a12890f04f3353a0734c433daa61aca5ad847a9f035ac462a21d0ad9c7362">UI_ELEMENT_BUTTON_R</a>
+, <a class="el" href="structures_8h.html#ae610a12890f04f3353a0734c433daa61ae53119636eadfc240833c743f251fb5d">UI_ELEMENT_ITEM_A</a>
+, <br />
+&#160;&#160;<a class="el" href="structures_8h.html#ae610a12890f04f3353a0734c433daa61a8139611a5792ad55c188ba84fe66b2e0">UI_ELEMENT_ITEM_B</a>
+, <a class="el" href="structures_8h.html#ae610a12890f04f3353a0734c433daa61a885afda1e15be19ff0f56ccfb132d884">UI_ELEMENT_TEXT_R</a>
+, <a class="el" href="structures_8h.html#ae610a12890f04f3353a0734c433daa61a8f54482f372ca175c58331f02d5921bd">UI_ELEMENT_HEART</a>
+, <a class="el" href="structures_8h.html#ae610a12890f04f3353a0734c433daa61a0a470ae7825c879e4c7c1e93499a8bbd">UI_ELEMENT_EZLONAGSTART</a>
+, <br />
+&#160;&#160;<a class="el" href="structures_8h.html#ae610a12890f04f3353a0734c433daa61afd02faa50945b66bf9dc957cccfad939">UI_ELEMENT_EZLONAGACTIVE</a>
+, <a class="el" href="structures_8h.html#ae610a12890f04f3353a0734c433daa61ae8c32d14675fc894ff85e6644da5c475">UI_ELEMENT_TEXT_A</a>
+, <a class="el" href="structures_8h.html#ae610a12890f04f3353a0734c433daa61a3bee99d160d0503300539b277c2135d6">UI_ELEMENT_TEXT_B</a>
+<br />
+ }</td></tr>
+<tr class="separator:ae610a12890f04f3353a0734c433daa61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72664ef11711e813efe8aee41d671081"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structures_8h.html#a72664ef11711e813efe8aee41d671081">GfxSlotStatus</a> { <br />
 &#160;&#160;<a class="el" href="structures_8h.html#a72664ef11711e813efe8aee41d671081ae378c77c491028fef09301ebef6993e4">GFX_SLOT_FREE</a>
 , <a class="el" href="structures_8h.html#a72664ef11711e813efe8aee41d671081a80051ce9b2aa2a5c53de566e322ec5f2">GFX_SLOT_UNLOADED</a>
@@ -326,6 +348,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a2485b5aae328cd7c9e35859d07e9cef3" name="a2485b5aae328cd7c9e35859d07e9cef3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2485b5aae328cd7c9e35859d07e9cef3">&#9670;&nbsp;</a></span>MAX_UI_ELEMENTS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX_UI_ELEMENTS&#160;&#160;&#160;24</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a72664ef11711e813efe8aee41d671081" name="a72664ef11711e813efe8aee41d671081"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a72664ef11711e813efe8aee41d671081">&#9670;&nbsp;</a></span>GfxSlotStatus</h2>
@@ -366,6 +402,33 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a5bd260d4e0848b2a867d0c60af49805cadb16842400062a22f1154d0750b30003" name="a5bd260d4e0848b2a867d0c60af49805cadb16842400062a22f1154d0750b30003"></a>GFX_VRAM_1&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a5bd260d4e0848b2a867d0c60af49805cae995a206250349d7498a9071de54688a" name="a5bd260d4e0848b2a867d0c60af49805cae995a206250349d7498a9071de54688a"></a>GFX_VRAM_2&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a5bd260d4e0848b2a867d0c60af49805ca5aec4c8d1ee31fd4c39c60c04d32301f" name="a5bd260d4e0848b2a867d0c60af49805ca5aec4c8d1ee31fd4c39c60c04d32301f"></a>GFX_VRAM_3&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="ae610a12890f04f3353a0734c433daa61" name="ae610a12890f04f3353a0734c433daa61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae610a12890f04f3353a0734c433daa61">&#9670;&nbsp;</a></span>UIElementType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="structures_8h.html#ae610a12890f04f3353a0734c433daa61">UIElementType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae610a12890f04f3353a0734c433daa61a24023fff1df3edf3dd42dcc48d4f74d0" name="ae610a12890f04f3353a0734c433daa61a24023fff1df3edf3dd42dcc48d4f74d0"></a>UI_ELEMENT_BUTTON_A&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae610a12890f04f3353a0734c433daa61a525eff0ced6f1a3731c80991617abd91" name="ae610a12890f04f3353a0734c433daa61a525eff0ced6f1a3731c80991617abd91"></a>UI_ELEMENT_BUTTON_B&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae610a12890f04f3353a0734c433daa61aca5ad847a9f035ac462a21d0ad9c7362" name="ae610a12890f04f3353a0734c433daa61aca5ad847a9f035ac462a21d0ad9c7362"></a>UI_ELEMENT_BUTTON_R&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae610a12890f04f3353a0734c433daa61ae53119636eadfc240833c743f251fb5d" name="ae610a12890f04f3353a0734c433daa61ae53119636eadfc240833c743f251fb5d"></a>UI_ELEMENT_ITEM_A&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae610a12890f04f3353a0734c433daa61a8139611a5792ad55c188ba84fe66b2e0" name="ae610a12890f04f3353a0734c433daa61a8139611a5792ad55c188ba84fe66b2e0"></a>UI_ELEMENT_ITEM_B&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae610a12890f04f3353a0734c433daa61a885afda1e15be19ff0f56ccfb132d884" name="ae610a12890f04f3353a0734c433daa61a885afda1e15be19ff0f56ccfb132d884"></a>UI_ELEMENT_TEXT_R&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae610a12890f04f3353a0734c433daa61a8f54482f372ca175c58331f02d5921bd" name="ae610a12890f04f3353a0734c433daa61a8f54482f372ca175c58331f02d5921bd"></a>UI_ELEMENT_HEART&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae610a12890f04f3353a0734c433daa61a0a470ae7825c879e4c7c1e93499a8bbd" name="ae610a12890f04f3353a0734c433daa61a0a470ae7825c879e4c7c1e93499a8bbd"></a>UI_ELEMENT_EZLONAGSTART&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae610a12890f04f3353a0734c433daa61afd02faa50945b66bf9dc957cccfad939" name="ae610a12890f04f3353a0734c433daa61afd02faa50945b66bf9dc957cccfad939"></a>UI_ELEMENT_EZLONAGACTIVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae610a12890f04f3353a0734c433daa61ae8c32d14675fc894ff85e6644da5c475" name="ae610a12890f04f3353a0734c433daa61ae8c32d14675fc894ff85e6644da5c475"></a>UI_ELEMENT_TEXT_A&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae610a12890f04f3353a0734c433daa61a3bee99d160d0503300539b277c2135d6" name="ae610a12890f04f3353a0734c433daa61a3bee99d160d0503300539b277c2135d6"></a>UI_ELEMENT_TEXT_B&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>

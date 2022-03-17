@@ -31,8 +31,7 @@ var searchData=
   ['wizzrobewind_5factions_28',['WizzrobeWind_Actions',['../wizzrobeWind_8c.html#a0dc748b2e9fbd1536c80ee8bcd7ab6ad',1,'wizzrobeWind.c']]],
   ['wizzrobewind_5ffunctions_29',['WizzrobeWind_Functions',['../wizzrobeWind_8c.html#a735ced97311dbecc62cad4a460784336',1,'wizzrobeWind.c']]],
   ['wobbletime_30',['wobbleTime',['../structLavaPlatformEntity.html#ab0322417c20a3c04bd49633acfa578cf',1,'LavaPlatformEntity::wobbleTime()'],['../structLavaPlatformEntry.html#aea2ba398f7176578eda78fef140ea99e',1,'LavaPlatformEntry::wobbleTime()']]],
-  ['word_31',['WORD',['../unionSplitWord.html#a9b89e74710e84c3633254f30091604bc',1,'SplitWord::WORD()'],['../unionCoords.html#a291a984e9f275254919e531fc237c783',1,'Coords::WORD()']]],
-  ['word_32',['word',['../structTextRender.html#ac0d20bebbf5b8d6a2b205de97aab47fa',1,'TextRender::word()'],['../structDMARegisters.html#aec3dd153ca8d23751974433840251468',1,'DMARegisters::word()']]],
-  ['word_33',['WORD',['../movement_8c.html#af3a4ba07cb523c09770bb3fcb8be936d',1,'movement.c']]],
-  ['word_5fu_34',['WORD_U',['../unionSplitWord.html#a3210cb304594b037217d7909457f9846',1,'SplitWord']]]
+  ['word_31',['word',['../structTextRender.html#ac0d20bebbf5b8d6a2b205de97aab47fa',1,'TextRender::word()'],['../structDMARegisters.html#aec3dd153ca8d23751974433840251468',1,'DMARegisters::word()']]],
+  ['word_32',['WORD',['../unionSplitWord.html#a9b89e74710e84c3633254f30091604bc',1,'SplitWord::WORD()'],['../unionCoords.html#a291a984e9f275254919e531fc237c783',1,'Coords::WORD()'],['../movement_8c.html#af3a4ba07cb523c09770bb3fcb8be936d',1,'WORD():&#160;movement.c']]],
+  ['word_5fu_33',['WORD_U',['../unionSplitWord.html#a3210cb304594b037217d7909457f9846',1,'SplitWord']]]
 ];

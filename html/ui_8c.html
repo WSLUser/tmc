@@ -85,6 +85,13 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="global_8h_source.html">global.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sound_8h_source.html">sound.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="message_8h_source.html">message.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="screen_8h_source.html">screen.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="common_8h_source.html">common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="save_8h_source.html">save.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="player_8h_source.html">player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="area_8h_source.html">area.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="game_8h_source.html">game.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for ui.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -92,74 +99,159 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="ui_8c__incl.png" border="0" usemap="#asrc_2ui_8c" alt=""/></div>
 <map name="asrc_2ui_8c" id="asrc_2ui_8c">
-<area shape="rect" title=" " alt="" coords="44,5,108,32"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="157,453,224,480"/>
-<area shape="rect" href="sound_8h.html" title=" " alt="" coords="43,155,109,181"/>
-<area shape="rect" href="message_8h.html" title=" " alt="" coords="205,80,291,107"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="279,528,358,555"/>
-<area shape="rect" title=" " alt="" coords="31,603,95,629"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="678,603,751,629"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="119,603,185,629"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="287,677,350,704"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="357,603,449,629"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="209,603,281,629"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="473,603,541,629"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="565,603,653,629"/>
-<area shape="rect" title=" " alt="" coords="681,677,749,704"/>
-<area shape="rect" title=" " alt="" coords="287,752,351,779"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="242,304,305,331"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="152,155,243,181"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="195,379,255,405"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="280,379,344,405"/>
-<area shape="rect" href="player_8h.html" title=" " alt="" coords="144,229,211,256"/>
+<area shape="rect" title=" " alt="" coords="593,5,657,32"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="769,453,836,480"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="43,304,109,331"/>
+<area shape="rect" href="message_8h.html" title=" " alt="" coords="213,80,299,107"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="387,229,453,256"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="659,80,744,107"/>
+<area shape="rect" href="screen_8h.html" title=" " alt="" coords="1094,304,1165,331"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="1189,304,1272,331"/>
+<area shape="rect" href="save_8h.html" title=" " alt="" coords="374,80,434,107"/>
+<area shape="rect" href="area_8h.html" title=" " alt="" coords="1265,155,1322,181"/>
+<area shape="rect" href="game_8h.html" title=" " alt="" coords="1283,80,1347,107"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="905,528,983,555"/>
+<area shape="rect" title=" " alt="" coords="629,603,693,629"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1187,603,1261,629"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1285,603,1352,629"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="839,677,902,704"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="718,603,810,629"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="835,603,907,629"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="982,603,1050,629"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="1075,603,1163,629"/>
+<area shape="rect" title=" " alt="" coords="1190,677,1258,704"/>
+<area shape="rect" title=" " alt="" coords="839,752,903,779"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="747,304,810,331"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="293,155,384,181"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="686,379,746,405"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="771,379,835,405"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="885,229,968,256"/>
+<area shape="rect" href="coord_8h.html" title=" " alt="" coords="1043,229,1107,256"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="560,155,621,181"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="747,229,811,256"/>
+<area shape="rect" href="map_8h.html" title=" " alt="" coords="961,379,1018,405"/>
+<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="529,229,621,256"/>
+<area shape="rect" href="fade_8h.html" title=" " alt="" coords="1145,379,1202,405"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Data Structures</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structElement.html">Element</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsubstruct__160.html">substruct_160</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstruct__02035160.html">struct_02035160</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstruct__02034CF0.html">struct_02034CF0</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstruct__02034D30.html">struct_02034D30</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsubstruct__0E2.html">substruct_0E2</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstruct__020350E2.html">struct_020350E2</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structUIElementDefinition.html">UIElementDefinition</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a5bed499113295e024adc6f3b4974007c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#a5bed499113295e024adc6f3b4974007c">sub_0805ECEC</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)</td></tr>
 <tr class="separator:a5bed499113295e024adc6f3b4974007c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad35a98b1c89fd6af33a9f5fa15d2d726"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#ad35a98b1c89fd6af33a9f5fa15d2d726">sub_0801CAD0</a> (<a class="el" href="structElement.html">Element</a> *)</td></tr>
-<tr class="separator:ad35a98b1c89fd6af33a9f5fa15d2d726"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27564b394b63f59bfc81e9db5e17a9c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#a27564b394b63f59bfc81e9db5e17a9c1">EzloNag</a> (<a class="el" href="structElement.html">Element</a> *arg0)</td></tr>
-<tr class="separator:a27564b394b63f59bfc81e9db5e17a9c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c71634a6fa2f3976bd87c0731631985"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#a1c71634a6fa2f3976bd87c0731631985">sub_0801CAB8</a> (<a class="el" href="structElement.html">Element</a> *, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> *)</td></tr>
-<tr class="separator:a1c71634a6fa2f3976bd87c0731631985"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc94ce2d9683b9dcf3a961b5d55241d0"><td class="memItemLeft" align="right" valign="top">asm non_matching sub_0801CED8 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#acc94ce2d9683b9dcf3a961b5d55241d0">sub_0801CED8</a> (<a class="el" href="structElement.html">Element</a> *arg0))</td></tr>
-<tr class="separator:acc94ce2d9683b9dcf3a961b5d55241d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82425b964f9cd985277d612e465a88cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#a82425b964f9cd985277d612e465a88cc">sub_0801CF18</a> (<a class="el" href="structElement.html">Element</a> *arg0)</td></tr>
-<tr class="separator:a82425b964f9cd985277d612e465a88cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad90ade307d9dbce3785f19f90015be30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#ad90ade307d9dbce3785f19f90015be30">sub_0801CF60</a> (<a class="el" href="structElement.html">Element</a> *arg0)</td></tr>
-<tr class="separator:ad90ade307d9dbce3785f19f90015be30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7d3c8a956c68bfe712cbb2b71b387cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#ac7d3c8a956c68bfe712cbb2b71b387cb">ItemIsBottle</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)</td></tr>
+<tr class="separator:ac7d3c8a956c68bfe712cbb2b71b387cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcf6a600191c194d2d0261d03dc15b96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#abcf6a600191c194d2d0261d03dc15b96">sub_0801C2F0</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)</td></tr>
+<tr class="separator:abcf6a600191c194d2d0261d03dc15b96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7547511563391ed50c9d97be1fd00d1b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#a7547511563391ed50c9d97be1fd00d1b">DrawHearts</a> (void)</td></tr>
+<tr class="separator:a7547511563391ed50c9d97be1fd00d1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5819c2967d6f4b085df8433627ce06ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#a5819c2967d6f4b085df8433627ce06ef">DrawChargeBar</a> (void)</td></tr>
+<tr class="separator:a5819c2967d6f4b085df8433627ce06ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4284cc97749349ce6eb5c585641b87fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#a4284cc97749349ce6eb5c585641b87fe">DrawRupees</a> (void)</td></tr>
+<tr class="separator:a4284cc97749349ce6eb5c585641b87fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fdeccb2e9f571b0128b2851a730896d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#a1fdeccb2e9f571b0128b2851a730896d">DrawKeys</a> (void)</td></tr>
+<tr class="separator:a1fdeccb2e9f571b0128b2851a730896d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeece8ffaa4739b5b610dfce87d64b9f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#aeece8ffaa4739b5b610dfce87d64b9f4">CreateUIElement</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)</td></tr>
+<tr class="separator:aeece8ffaa4739b5b610dfce87d64b9f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8eac394c73e41d6a914610b95099d63c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#a8eac394c73e41d6a914610b95099d63c">sub_0801C5E0</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)</td></tr>
+<tr class="separator:a8eac394c73e41d6a914610b95099d63c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef17cce7ffb42b9ed8b20d796bee1e5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#aef17cce7ffb42b9ed8b20d796bee1e5f">sub_0801CAFC</a> (<a class="el" href="structUIElement.html">UIElement</a> *, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)</td></tr>
+<tr class="separator:aef17cce7ffb42b9ed8b20d796bee1e5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af675e0bc943dadf66707bc852afae98b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#af675e0bc943dadf66707bc852afae98b">sub_0801CB20</a> (<a class="el" href="structUIElement.html">UIElement</a> *, <a class="el" href="structUIElementDefinition.html">UIElementDefinition</a> *)</td></tr>
+<tr class="separator:af675e0bc943dadf66707bc852afae98b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae03bd1562511f0f2e11426461b1e29d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structUIElement.html">UIElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#ae03bd1562511f0f2e11426461b1e29d1">FindUIElement</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)</td></tr>
+<tr class="separator:ae03bd1562511f0f2e11426461b1e29d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfea9ba55ebb372f9fedbbb8d60a19af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#abfea9ba55ebb372f9fedbbb8d60a19af">sub_0801CAD0</a> (<a class="el" href="structUIElement.html">UIElement</a> *)</td></tr>
+<tr class="separator:abfea9ba55ebb372f9fedbbb8d60a19af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5f619d90a61cd8ec3ebd2b69e9e2558"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#ae5f619d90a61cd8ec3ebd2b69e9e2558">sub_0801CAB8</a> (<a class="el" href="structUIElement.html">UIElement</a> *, Frame *)</td></tr>
+<tr class="separator:ae5f619d90a61cd8ec3ebd2b69e9e2558"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e20512f6cb63417edfe70f23788b173"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#a9e20512f6cb63417edfe70f23788b173">UpdateUIElements</a> (void)</td></tr>
+<tr class="separator:a9e20512f6cb63417edfe70f23788b173"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc8a21a1b92881e3b7279cb50443b4cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#afc8a21a1b92881e3b7279cb50443b4cd">DrawUIElements</a> (void)</td></tr>
+<tr class="separator:afc8a21a1b92881e3b7279cb50443b4cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a47b96e9f6242395e2f010298006385"><td class="memItemLeft" align="right" valign="top">asm non_matching ui sub_0801C25C void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#a1a47b96e9f6242395e2f010298006385">sub_0801C25C</a> (void))</td></tr>
+<tr class="separator:a1a47b96e9f6242395e2f010298006385"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb16833191eb3a0301e33aef3f372b39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#aeb16833191eb3a0301e33aef3f372b39">InitUI</a> (<a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a> keepHealthAndRupees)</td></tr>
+<tr class="separator:aeb16833191eb3a0301e33aef3f372b39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a971c1ac7281a209b52f56b3e814cd13b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#a971c1ac7281a209b52f56b3e814cd13b">RefreshUI</a> (void)</td></tr>
+<tr class="separator:a971c1ac7281a209b52f56b3e814cd13b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0a8d5f7e036d0d65cc22aac623ec9cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#af0a8d5f7e036d0d65cc22aac623ec9cb">RecoverUI</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> bottomPt, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> topPt)</td></tr>
+<tr class="separator:af0a8d5f7e036d0d65cc22aac623ec9cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a369692f5f0c0b0c3a8d3ff81c59c935f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#a369692f5f0c0b0c3a8d3ff81c59c935f">ButtonUIElement</a> (<a class="el" href="structUIElement.html">UIElement</a> *element)</td></tr>
+<tr class="separator:a369692f5f0c0b0c3a8d3ff81c59c935f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28c344dbfc776e38c7fcbd87fa0b0cf4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#a28c344dbfc776e38c7fcbd87fa0b0cf4">ButtonUIElement_Action0</a> (<a class="el" href="structUIElement.html">UIElement</a> *element)</td></tr>
+<tr class="separator:a28c344dbfc776e38c7fcbd87fa0b0cf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a483b1e7fd1ea9649a5544027dfee05de"><td class="memItemLeft" align="right" valign="top">asm non_matching ui ButtonUIElement_Action1 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#a483b1e7fd1ea9649a5544027dfee05de">ButtonUIElement_Action1</a> ()) <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> sub_0801CC80(<a class="el" href="structUIElement.html">UIElement</a> *element)</td></tr>
+<tr class="separator:a483b1e7fd1ea9649a5544027dfee05de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb0120925e59ddf3ea851d9dc28d485e"><td class="memItemLeft" align="right" valign="top">asm non_matching ui ItemUIElement void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#abb0120925e59ddf3ea851d9dc28d485e">ItemUIElement</a> ()) 1(&quot;asm/non_matching/ui/<a class="el" href="vram_8c.html#aad973c195b26444d779e27ee693ef6d2">TextUIElement.inc</a>&quot;</td></tr>
+<tr class="separator:abb0120925e59ddf3ea851d9dc28d485e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c517d28e06860399ec58e62e3e3d48c"><td class="memItemLeft" align="right" valign="top">asm non_matching ui <a class="el" href="ui_8c.html#abb0120925e59ddf3ea851d9dc28d485e">ItemUIElement</a> void void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#a9c517d28e06860399ec58e62e3e3d48c">TextUIElement</a> (<a class="el" href="structUIElement.html">UIElement</a> *element))</td></tr>
+<tr class="separator:a9c517d28e06860399ec58e62e3e3d48c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0905bcbc996120648147f768992cd8c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#a0905bcbc996120648147f768992cd8c8">HeartUIElement</a> (<a class="el" href="structUIElement.html">UIElement</a> *element)</td></tr>
+<tr class="separator:a0905bcbc996120648147f768992cd8c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e8728389e692ae2c846413f2e66708d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#a3e8728389e692ae2c846413f2e66708d">EzloNagUIElement</a> (<a class="el" href="structUIElement.html">UIElement</a> *element)</td></tr>
+<tr class="separator:a3e8728389e692ae2c846413f2e66708d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e05e478b0f98f12646c1412224a8732"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#a7e05e478b0f98f12646c1412224a8732">EzloNagUIElement_Action0</a> (<a class="el" href="structUIElement.html">UIElement</a> *element)</td></tr>
+<tr class="separator:a7e05e478b0f98f12646c1412224a8732"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83d5c6c86b077e13f679939420e8dea3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#a83d5c6c86b077e13f679939420e8dea3">EzloNagUIElement_Action1</a> (<a class="el" href="structUIElement.html">UIElement</a> *element)</td></tr>
+<tr class="separator:a83d5c6c86b077e13f679939420e8dea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a1d7dd540acf5cc8731a1cff87cb800"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#a2a1d7dd540acf5cc8731a1cff87cb800">EzloNagUIElement_Action2</a> (<a class="el" href="structUIElement.html">UIElement</a> *element)</td></tr>
+<tr class="separator:a2a1d7dd540acf5cc8731a1cff87cb800"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a3531bcc7bc60ef61c86b8571fbc307c8"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#a3531bcc7bc60ef61c86b8571fbc307c8">gUnk_080C904C</a> [])(<a class="el" href="structElement.html">Element</a> *)</td></tr>
-<tr class="separator:a3531bcc7bc60ef61c86b8571fbc307c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6d7d4a4cd55cbd97e962c9137577cd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structstruct__02035160.html">struct_02035160</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#aa6d7d4a4cd55cbd97e962c9137577cd2">gUnk_02035160</a></td></tr>
+<tr class="separator:aa6d7d4a4cd55cbd97e962c9137577cd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f5d395a6cc91480e928095eba517a60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structstruct__02034CF0.html">struct_02034CF0</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#a2f5d395a6cc91480e928095eba517a60">gUnk_02034CF0</a> []</td></tr>
+<tr class="separator:a2f5d395a6cc91480e928095eba517a60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c1e3f92101b8b192cc52f2da3d9a476"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structstruct__02034D30.html">struct_02034D30</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#a0c1e3f92101b8b192cc52f2da3d9a476">gUnk_02034D30</a></td></tr>
+<tr class="separator:a0c1e3f92101b8b192cc52f2da3d9a476"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b93f6e0af3638bf749d68150e97c73d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structstruct__020350E2.html">struct_020350E2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#a1b93f6e0af3638bf749d68150e97c73d">gUnk_020350E2</a></td></tr>
+<tr class="separator:a1b93f6e0af3638bf749d68150e97c73d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dd9620dc2cc4cc1132aa7144edb9b0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structUIElementDefinition.html">UIElementDefinition</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#a5dd9620dc2cc4cc1132aa7144edb9b0c">gUIElementDefinitions</a> []</td></tr>
+<tr class="separator:a5dd9620dc2cc4cc1132aa7144edb9b0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa60a2d6e7e79d9b96ca13530bb93a900"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#aa60a2d6e7e79d9b96ca13530bb93a900">ButtonUIElement_Actions</a> [])(<a class="el" href="structUIElement.html">UIElement</a> *)</td></tr>
+<tr class="separator:aa60a2d6e7e79d9b96ca13530bb93a900"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99e902a9c2019106c5c5eba10d73cf1e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#a99e902a9c2019106c5c5eba10d73cf1e">gUnk_080C9044</a> []</td></tr>
+<tr class="separator:a99e902a9c2019106c5c5eba10d73cf1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca4cc650a73cbbd57662464412fffb45"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#aca4cc650a73cbbd57662464412fffb45">EzloNagUIElement_Actions</a> [])(<a class="el" href="structUIElement.html">UIElement</a> *)</td></tr>
+<tr class="separator:aca4cc650a73cbbd57662464412fffb45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a377f58ebf1b6103fbc9cb5750b0ffb8d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#a377f58ebf1b6103fbc9cb5750b0ffb8d">gUnk_080C9058</a> []</td></tr>
 <tr class="separator:a377f58ebf1b6103fbc9cb5750b0ffb8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1196698758258c4cdd2ee7b99ddecb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#aa1196698758258c4cdd2ee7b99ddecb3">gUnk_080C9094</a></td></tr>
-<tr class="separator:aa1196698758258c4cdd2ee7b99ddecb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65820f08ad65b0d8a4a5786046d67953"><td class="memItemLeft" align="right" valign="top">asm non_matching <a class="el" href="ui_8c.html#acc94ce2d9683b9dcf3a961b5d55241d0">sub_0801CED8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#a65820f08ad65b0d8a4a5786046d67953">inc</a></td></tr>
-<tr class="separator:a65820f08ad65b0d8a4a5786046d67953"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade030dc7d55f95011d459ff4e6c0f804"><td class="memItemLeft" align="right" valign="top">Frame&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#ade030dc7d55f95011d459ff4e6c0f804">gUnk_080C9094</a> []</td></tr>
+<tr class="separator:ade030dc7d55f95011d459ff4e6c0f804"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67c3f53bef4c1d8e35ab85efec07274f"><td class="memItemLeft" align="right" valign="top">asm non_matching ui <a class="el" href="functions_8h.html#a1f8895b8d02388bb12126ebe7ffc8fa6">sub_0801C25C</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ui_8c.html#a67c3f53bef4c1d8e35ab85efec07274f">inc</a></td></tr>
+<tr class="separator:a67c3f53bef4c1d8e35ab85efec07274f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a27564b394b63f59bfc81e9db5e17a9c1" name="a27564b394b63f59bfc81e9db5e17a9c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27564b394b63f59bfc81e9db5e17a9c1">&#9670;&nbsp;</a></span>EzloNag()</h2>
+<a id="a369692f5f0c0b0c3a8d3ff81c59c935f" name="a369692f5f0c0b0c3a8d3ff81c59c935f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a369692f5f0c0b0c3a8d3ff81c59c935f">&#9670;&nbsp;</a></span>ButtonUIElement()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void EzloNag </td>
+          <td class="memname">void ButtonUIElement </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structElement.html">Element</a> *&#160;</td>
-          <td class="paramname"><em>arg0</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structUIElement.html">UIElement</a> *&#160;</td>
+          <td class="paramname"><em>element</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -167,22 +259,57 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a1c71634a6fa2f3976bd87c0731631985" name="a1c71634a6fa2f3976bd87c0731631985"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c71634a6fa2f3976bd87c0731631985">&#9670;&nbsp;</a></span>sub_0801CAB8()</h2>
+<a id="a28c344dbfc776e38c7fcbd87fa0b0cf4" name="a28c344dbfc776e38c7fcbd87fa0b0cf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28c344dbfc776e38c7fcbd87fa0b0cf4">&#9670;&nbsp;</a></span>ButtonUIElement_Action0()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sub_0801CAB8 </td>
+          <td class="memname">void ButtonUIElement_Action0 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structElement.html">Element</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structUIElement.html">UIElement</a> *&#160;</td>
+          <td class="paramname"><em>element</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a483b1e7fd1ea9649a5544027dfee05de" name="a483b1e7fd1ea9649a5544027dfee05de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a483b1e7fd1ea9649a5544027dfee05de">&#9670;&nbsp;</a></span>ButtonUIElement_Action1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm non_matching ui ButtonUIElement_Action1 void ButtonUIElement_Action1 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeece8ffaa4739b5b610dfce87d64b9f4" name="aeece8ffaa4739b5b610dfce87d64b9f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeece8ffaa4739b5b610dfce87d64b9f4">&#9670;&nbsp;</a></span>CreateUIElement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CreateUIElement </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -195,16 +322,16 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ad35a98b1c89fd6af33a9f5fa15d2d726" name="ad35a98b1c89fd6af33a9f5fa15d2d726"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad35a98b1c89fd6af33a9f5fa15d2d726">&#9670;&nbsp;</a></span>sub_0801CAD0()</h2>
+<a id="a5819c2967d6f4b085df8433627ce06ef" name="a5819c2967d6f4b085df8433627ce06ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5819c2967d6f4b085df8433627ce06ef">&#9670;&nbsp;</a></span>DrawChargeBar()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sub_0801CAD0 </td>
+          <td class="memname">asm non_matching ui DrawChargeBar void DrawChargeBar </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structElement.html">Element</a> *&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -213,17 +340,17 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="acc94ce2d9683b9dcf3a961b5d55241d0" name="acc94ce2d9683b9dcf3a961b5d55241d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc94ce2d9683b9dcf3a961b5d55241d0">&#9670;&nbsp;</a></span>sub_0801CED8()</h2>
+<a id="a7547511563391ed50c9d97be1fd00d1b" name="a7547511563391ed50c9d97be1fd00d1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7547511563391ed50c9d97be1fd00d1b">&#9670;&nbsp;</a></span>DrawHearts()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm non_matching sub_0801CED8 void sub_0801CED8 </td>
+          <td class="memname">asm non_matching ui DrawHearts void DrawHearts </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structElement.html">Element</a> *&#160;</td>
-          <td class="paramname"><em>arg0</em></td><td>)</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -231,17 +358,17 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a82425b964f9cd985277d612e465a88cc" name="a82425b964f9cd985277d612e465a88cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82425b964f9cd985277d612e465a88cc">&#9670;&nbsp;</a></span>sub_0801CF18()</h2>
+<a id="a1fdeccb2e9f571b0128b2851a730896d" name="a1fdeccb2e9f571b0128b2851a730896d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fdeccb2e9f571b0128b2851a730896d">&#9670;&nbsp;</a></span>DrawKeys()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sub_0801CF18 </td>
+          <td class="memname">asm non_matching ui <a class="el" href="ui_8c.html#a5819c2967d6f4b085df8433627ce06ef">DrawChargeBar</a> void void DrawKeys </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structElement.html">Element</a> *&#160;</td>
-          <td class="paramname"><em>arg0</em></td><td>)</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -249,18 +376,431 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ad90ade307d9dbce3785f19f90015be30" name="ad90ade307d9dbce3785f19f90015be30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad90ade307d9dbce3785f19f90015be30">&#9670;&nbsp;</a></span>sub_0801CF60()</h2>
+<a id="a4284cc97749349ce6eb5c585641b87fe" name="a4284cc97749349ce6eb5c585641b87fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4284cc97749349ce6eb5c585641b87fe">&#9670;&nbsp;</a></span>DrawRupees()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sub_0801CF60 </td>
+          <td class="memname">asm non_matching ui DrawRupees void DrawRupees </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structElement.html">Element</a> *&#160;</td>
-          <td class="paramname"><em>arg0</em></td><td>)</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afc8a21a1b92881e3b7279cb50443b4cd" name="afc8a21a1b92881e3b7279cb50443b4cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc8a21a1b92881e3b7279cb50443b4cd">&#9670;&nbsp;</a></span>DrawUIElements()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DrawUIElements </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3e8728389e692ae2c846413f2e66708d" name="a3e8728389e692ae2c846413f2e66708d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e8728389e692ae2c846413f2e66708d">&#9670;&nbsp;</a></span>EzloNagUIElement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EzloNagUIElement </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structUIElement.html">UIElement</a> *&#160;</td>
+          <td class="paramname"><em>element</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7e05e478b0f98f12646c1412224a8732" name="a7e05e478b0f98f12646c1412224a8732"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e05e478b0f98f12646c1412224a8732">&#9670;&nbsp;</a></span>EzloNagUIElement_Action0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EzloNagUIElement_Action0 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structUIElement.html">UIElement</a> *&#160;</td>
+          <td class="paramname"><em>element</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a83d5c6c86b077e13f679939420e8dea3" name="a83d5c6c86b077e13f679939420e8dea3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83d5c6c86b077e13f679939420e8dea3">&#9670;&nbsp;</a></span>EzloNagUIElement_Action1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EzloNagUIElement_Action1 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structUIElement.html">UIElement</a> *&#160;</td>
+          <td class="paramname"><em>element</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2a1d7dd540acf5cc8731a1cff87cb800" name="a2a1d7dd540acf5cc8731a1cff87cb800"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a1d7dd540acf5cc8731a1cff87cb800">&#9670;&nbsp;</a></span>EzloNagUIElement_Action2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EzloNagUIElement_Action2 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structUIElement.html">UIElement</a> *&#160;</td>
+          <td class="paramname"><em>element</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae03bd1562511f0f2e11426461b1e29d1" name="ae03bd1562511f0f2e11426461b1e29d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae03bd1562511f0f2e11426461b1e29d1">&#9670;&nbsp;</a></span>FindUIElement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structUIElement.html">UIElement</a> * FindUIElement </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0905bcbc996120648147f768992cd8c8" name="a0905bcbc996120648147f768992cd8c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0905bcbc996120648147f768992cd8c8">&#9670;&nbsp;</a></span>HeartUIElement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HeartUIElement </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structUIElement.html">UIElement</a> *&#160;</td>
+          <td class="paramname"><em>element</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeb16833191eb3a0301e33aef3f372b39" name="aeb16833191eb3a0301e33aef3f372b39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb16833191eb3a0301e33aef3f372b39">&#9670;&nbsp;</a></span>InitUI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InitUI </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a>&#160;</td>
+          <td class="paramname"><em>keepHealthAndRupees</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac7d3c8a956c68bfe712cbb2b71b387cb" name="ac7d3c8a956c68bfe712cbb2b71b387cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7d3c8a956c68bfe712cbb2b71b387cb">&#9670;&nbsp;</a></span>ItemIsBottle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a> ItemIsBottle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abb0120925e59ddf3ea851d9dc28d485e" name="abb0120925e59ddf3ea851d9dc28d485e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb0120925e59ddf3ea851d9dc28d485e">&#9670;&nbsp;</a></span>ItemUIElement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm non_matching ui ItemUIElement void ItemUIElement </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af0a8d5f7e036d0d65cc22aac623ec9cb" name="af0a8d5f7e036d0d65cc22aac623ec9cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0a8d5f7e036d0d65cc22aac623ec9cb">&#9670;&nbsp;</a></span>RecoverUI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RecoverUI </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>bottomPt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>topPt</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a971c1ac7281a209b52f56b3e814cd13b" name="a971c1ac7281a209b52f56b3e814cd13b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a971c1ac7281a209b52f56b3e814cd13b">&#9670;&nbsp;</a></span>RefreshUI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RefreshUI </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1a47b96e9f6242395e2f010298006385" name="a1a47b96e9f6242395e2f010298006385"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a47b96e9f6242395e2f010298006385">&#9670;&nbsp;</a></span>sub_0801C25C()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm non_matching ui sub_0801C25C void sub_0801C25C </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abcf6a600191c194d2d0261d03dc15b96" name="abcf6a600191c194d2d0261d03dc15b96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcf6a600191c194d2d0261d03dc15b96">&#9670;&nbsp;</a></span>sub_0801C2F0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_0801C2F0 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8eac394c73e41d6a914610b95099d63c" name="a8eac394c73e41d6a914610b95099d63c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8eac394c73e41d6a914610b95099d63c">&#9670;&nbsp;</a></span>sub_0801C5E0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_0801C5E0 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae5f619d90a61cd8ec3ebd2b69e9e2558" name="ae5f619d90a61cd8ec3ebd2b69e9e2558"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5f619d90a61cd8ec3ebd2b69e9e2558">&#9670;&nbsp;</a></span>sub_0801CAB8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_0801CAB8 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structUIElement.html">UIElement</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Frame *&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abfea9ba55ebb372f9fedbbb8d60a19af" name="abfea9ba55ebb372f9fedbbb8d60a19af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfea9ba55ebb372f9fedbbb8d60a19af">&#9670;&nbsp;</a></span>sub_0801CAD0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_0801CAD0 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structUIElement.html">UIElement</a> *&#160;</td>
+          <td class="paramname"><em>element</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aef17cce7ffb42b9ed8b20d796bee1e5f" name="aef17cce7ffb42b9ed8b20d796bee1e5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef17cce7ffb42b9ed8b20d796bee1e5f">&#9670;&nbsp;</a></span>sub_0801CAFC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_0801CAFC </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structUIElement.html">UIElement</a> *&#160;</td>
+          <td class="paramname"><em>element</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>frameIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af675e0bc943dadf66707bc852afae98b" name="af675e0bc943dadf66707bc852afae98b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af675e0bc943dadf66707bc852afae98b">&#9670;&nbsp;</a></span>sub_0801CB20()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_0801CB20 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structUIElement.html">UIElement</a> *&#160;</td>
+          <td class="paramname"><em>element</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structUIElementDefinition.html">UIElementDefinition</a> *&#160;</td>
+          <td class="paramname"><em>definition</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -307,9 +847,45 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a9c517d28e06860399ec58e62e3e3d48c" name="a9c517d28e06860399ec58e62e3e3d48c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c517d28e06860399ec58e62e3e3d48c">&#9670;&nbsp;</a></span>TextUIElement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm non_matching ui <a class="el" href="ui_8c.html#abb0120925e59ddf3ea851d9dc28d485e">ItemUIElement</a> void void TextUIElement </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structUIElement.html">UIElement</a> *&#160;</td>
+          <td class="paramname"><em>element</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9e20512f6cb63417edfe70f23788b173" name="a9e20512f6cb63417edfe70f23788b173"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e20512f6cb63417edfe70f23788b173">&#9670;&nbsp;</a></span>UpdateUIElements()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UpdateUIElements </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a3531bcc7bc60ef61c86b8571fbc307c8" name="a3531bcc7bc60ef61c86b8571fbc307c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3531bcc7bc60ef61c86b8571fbc307c8">&#9670;&nbsp;</a></span>gUnk_080C904C</h2>
+<a id="aa60a2d6e7e79d9b96ca13530bb93a900" name="aa60a2d6e7e79d9b96ca13530bb93a900"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa60a2d6e7e79d9b96ca13530bb93a900">&#9670;&nbsp;</a></span>ButtonUIElement_Actions</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -318,11 +894,169 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void(*const gUnk_080C904C[])(<a class="el" href="structElement.html">Element</a> *) </td>
+          <td class="memname">void(*const ButtonUIElement_Actions[])(<a class="el" href="structUIElement.html">UIElement</a> *) </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structElement.html">Element</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structUIElement.html">UIElement</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aca4cc650a73cbbd57662464412fffb45" name="aca4cc650a73cbbd57662464412fffb45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca4cc650a73cbbd57662464412fffb45">&#9670;&nbsp;</a></span>EzloNagUIElement_Actions</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(*const EzloNagUIElement_Actions[])(<a class="el" href="structUIElement.html">UIElement</a> *) </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structUIElement.html">UIElement</a> *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5dd9620dc2cc4cc1132aa7144edb9b0c" name="a5dd9620dc2cc4cc1132aa7144edb9b0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dd9620dc2cc4cc1132aa7144edb9b0c">&#9670;&nbsp;</a></span>gUIElementDefinitions</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structUIElementDefinition.html">UIElementDefinition</a> gUIElementDefinitions[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2f5d395a6cc91480e928095eba517a60" name="a2f5d395a6cc91480e928095eba517a60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f5d395a6cc91480e928095eba517a60">&#9670;&nbsp;</a></span>gUnk_02034CF0</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structstruct__02034CF0.html">struct_02034CF0</a> gUnk_02034CF0[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0c1e3f92101b8b192cc52f2da3d9a476" name="a0c1e3f92101b8b192cc52f2da3d9a476"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c1e3f92101b8b192cc52f2da3d9a476">&#9670;&nbsp;</a></span>gUnk_02034D30</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structstruct__02034D30.html">struct_02034D30</a> gUnk_02034D30</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1b93f6e0af3638bf749d68150e97c73d" name="a1b93f6e0af3638bf749d68150e97c73d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b93f6e0af3638bf749d68150e97c73d">&#9670;&nbsp;</a></span>gUnk_020350E2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structstruct__020350E2.html">struct_020350E2</a> gUnk_020350E2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa6d7d4a4cd55cbd97e962c9137577cd2" name="aa6d7d4a4cd55cbd97e962c9137577cd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6d7d4a4cd55cbd97e962c9137577cd2">&#9670;&nbsp;</a></span>gUnk_02035160</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structstruct__02035160.html">struct_02035160</a> gUnk_02035160</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a99e902a9c2019106c5c5eba10d73cf1e" name="a99e902a9c2019106c5c5eba10d73cf1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99e902a9c2019106c5c5eba10d73cf1e">&#9670;&nbsp;</a></span>gUnk_080C9044</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gUnk_080C9044[]</td>
         </tr>
       </table>
   </td>
@@ -356,8 +1090,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aa1196698758258c4cdd2ee7b99ddecb3" name="aa1196698758258c4cdd2ee7b99ddecb3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1196698758258c4cdd2ee7b99ddecb3">&#9670;&nbsp;</a></span>gUnk_080C9094</h2>
+<a id="ade030dc7d55f95011d459ff4e6c0f804" name="ade030dc7d55f95011d459ff4e6c0f804"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade030dc7d55f95011d459ff4e6c0f804">&#9670;&nbsp;</a></span>gUnk_080C9094</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -366,7 +1100,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> gUnk_080C9094</td>
+          <td class="memname">Frame gUnk_080C9094[]</td>
         </tr>
       </table>
   </td>
@@ -378,14 +1112,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a65820f08ad65b0d8a4a5786046d67953" name="a65820f08ad65b0d8a4a5786046d67953"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65820f08ad65b0d8a4a5786046d67953">&#9670;&nbsp;</a></span>inc</h2>
+<a id="a67c3f53bef4c1d8e35ab85efec07274f" name="a67c3f53bef4c1d8e35ab85efec07274f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67c3f53bef4c1d8e35ab85efec07274f">&#9670;&nbsp;</a></span>inc</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm non_matching <a class="el" href="ui_8c.html#acc94ce2d9683b9dcf3a961b5d55241d0">sub_0801CED8</a> inc</td>
+          <td class="memname">asm non_matching ui <a class="el" href="ui_8c.html#abb0120925e59ddf3ea851d9dc28d485e">ItemUIElement</a> inc</td>
         </tr>
       </table>
 </div><div class="memdoc">
