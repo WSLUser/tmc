@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['waitforcameratouchroomborder_0',['WaitForCameraTouchRoomBorder',['../script_8c.html#af53c3edd74b633410b61a361eb89b8b2',1,'script.c']]],
-  ['waitforframehibit_1',['WaitForFrameHiBit',['../script_8c.html#a6512531953adfa8d93ed0ba6e8378721',1,'script.c']]],
+  ['waitforanimdone_0',['WaitForAnimDone',['../script_8c.html#a90f4ee7da232102468e424af205cbd9b',1,'script.c']]],
+  ['waitforcameratouchroomborder_1',['WaitForCameraTouchRoomBorder',['../script_8c.html#af53c3edd74b633410b61a361eb89b8b2',1,'script.c']]],
   ['waitfornextframe_2',['WaitForNextFrame',['../interrupts_8h.html#ae3d3e19a76335f5f3a99d2f7786c96cf',1,'WaitForNextFrame(void):&#160;interrupts.c'],['../interrupts_8c.html#ae3d3e19a76335f5f3a99d2f7786c96cf',1,'WaitForNextFrame(void):&#160;interrupts.c']]],
   ['waitforplayerframehibit_3',['WaitForPlayerFrameHiBit',['../script_8c.html#a9a8d1ebcaf20467d5207b5c037ee0cfb',1,'script.c']]],
   ['waitforplayeridle_4',['WaitForPlayerIdle',['../script_8c.html#adacb8cbbcffd7942bf52de140c519e29',1,'script.c']]],

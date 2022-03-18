@@ -8,11 +8,13 @@ var searchData=
   ['agb_5fwarning_5',['AGB_WARNING',['../isagbprint_8h.html#a169785d0ff7e7a479b214b811df9576f',1,'isagbprint.h']]],
   ['agb_5fwarning_5fex_6',['AGB_WARNING_EX',['../isagbprint_8h.html#a5d67317b74c68e10213b3def9619ac24',1,'isagbprint.h']]],
   ['aligned_7',['ALIGNED',['../defines_8h.html#a5c3720156dd81cfb1f2b2223302cb43c',1,'defines.h']]],
-  ['animationstateidle_8',['AnimationStateIdle',['../entity_8h.html#a293d7102e6c051c99d760a90b5a41916',1,'entity.h']]],
-  ['animationstateturnaround_9',['AnimationStateTurnAround',['../entity_8h.html#af104c04a620d1acfa722dd45a4d90cd1',1,'entity.h']]],
-  ['animationstatewalk_10',['AnimationStateWalk',['../entity_8h.html#a73f0934bf3421c2123707edf1c6f1b00',1,'entity.h']]],
-  ['array_5fcount_11',['ARRAY_COUNT',['../global_8h.html#a6476a142e89bd6749f9a56d030cb11df',1,'global.h']]],
-  ['asm_5fcomment_12',['asm_comment',['../global_8h.html#a7c3453c4698ae152ee23e04549ce7960',1,'global.h']]],
-  ['asm_5ffunc_13',['ASM_FUNC',['../global_8h.html#ade5a01479b6de75bec7bf1c0a4e5f8f2',1,'global.h']]],
-  ['asm_5funified_14',['asm_unified',['../global_8h.html#acb6b3148c677cfff5c6dc2df18a24336',1,'global.h']]]
+  ['anim_5fdone_8',['ANIM_DONE',['../entity_8h.html#ac2b0dbe2042c8f30eb9c22747fb8e01a',1,'entity.h']]],
+  ['animationstateflip180_9',['AnimationStateFlip180',['../entity_8h.html#a982b11e9f857d01b95e4c8ecfb60fb31',1,'entity.h']]],
+  ['animationstateflip90_10',['AnimationStateFlip90',['../entity_8h.html#a4cdd2e3be6d7756617d56c56a1984219',1,'entity.h']]],
+  ['animationstateidle_11',['AnimationStateIdle',['../entity_8h.html#a293d7102e6c051c99d760a90b5a41916',1,'entity.h']]],
+  ['animationstatewalk_12',['AnimationStateWalk',['../entity_8h.html#a73f0934bf3421c2123707edf1c6f1b00',1,'entity.h']]],
+  ['array_5fcount_13',['ARRAY_COUNT',['../global_8h.html#a6476a142e89bd6749f9a56d030cb11df',1,'global.h']]],
+  ['asm_5fcomment_14',['asm_comment',['../global_8h.html#a7c3453c4698ae152ee23e04549ce7960',1,'global.h']]],
+  ['asm_5ffunc_15',['ASM_FUNC',['../global_8h.html#ade5a01479b6de75bec7bf1c0a4e5f8f2',1,'global.h']]],
+  ['asm_5funified_16',['asm_unified',['../global_8h.html#acb6b3148c677cfff5c6dc2df18a24336',1,'global.h']]]
 ];

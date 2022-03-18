@@ -84,6 +84,7 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="entity_8h_source.html">entity.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="enemy_8h_source.html">enemy.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="coord_8h_source.html">coord.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for moblinSpear.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -91,29 +92,30 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="moblinSpear_8c__incl.png" border="0" usemap="#asrc_2projectile_2moblinSpear_8c" alt=""/></div>
 <map name="asrc_2projectile_2moblinSpear_8c" id="asrc_2projectile_2moblinSpear_8c">
-<area shape="rect" title=" " alt="" coords="40,5,223,32"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="23,229,85,256"/>
-<area shape="rect" href="enemy_8h.html" title=" " alt="" coords="229,80,300,107"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="203,379,270,405"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="24,304,84,331"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="109,304,173,331"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="327,453,405,480"/>
-<area shape="rect" title=" " alt="" coords="75,528,139,555"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="164,528,237,555"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="262,528,329,555"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="419,603,481,629"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="404,528,496,555"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="521,528,593,555"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="617,528,685,555"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="710,528,798,555"/>
-<area shape="rect" title=" " alt="" coords="167,603,235,629"/>
-<area shape="rect" title=" " alt="" coords="418,677,482,704"/>
-<area shape="rect" href="asm_8h.html" title=" " alt="" coords="236,229,293,256"/>
-<area shape="rect" href="sound_8h.html" title=" " alt="" coords="318,229,385,256"/>
-<area shape="rect" href="effects_8h.html" title=" " alt="" coords="92,155,163,181"/>
-<area shape="rect" href="flags_8h.html" title=" " alt="" coords="375,304,434,331"/>
-<area shape="rect" href="common_8h.html" title=" " alt="" coords="449,155,531,181"/>
-<area shape="rect" href="projectile_8h.html" title=" " alt="" coords="556,155,640,181"/>
+<area shape="rect" title=" " alt="" coords="409,5,592,32"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="396,229,458,256"/>
+<area shape="rect" href="enemy_8h.html" title=" " alt="" coords="160,80,230,107"/>
+<area shape="rect" href="coord_8h.html" title=" " alt="" coords="538,155,602,181"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="218,379,284,405"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="340,304,400,331"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="424,304,488,331"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="340,453,418,480"/>
+<area shape="rect" title=" " alt="" coords="91,528,155,555"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="738,528,812,555"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="179,528,246,555"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="348,603,410,629"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="417,528,509,555"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="270,528,342,555"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="533,528,601,555"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="626,528,714,555"/>
+<area shape="rect" title=" " alt="" coords="741,603,809,629"/>
+<area shape="rect" title=" " alt="" coords="347,677,411,704"/>
+<area shape="rect" href="asm_8h.html" title=" " alt="" coords="37,304,94,331"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="80,229,147,256"/>
+<area shape="rect" href="effects_8h.html" title=" " alt="" coords="392,155,462,181"/>
+<area shape="rect" href="flags_8h.html" title=" " alt="" coords="171,229,230,256"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="254,229,336,256"/>
+<area shape="rect" href="projectile_8h.html" title=" " alt="" coords="284,155,368,181"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -124,8 +126,6 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a588ddca738c9c814c4af9866f92b920b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="moblinSpear_8c.html#a588ddca738c9c814c4af9866f92b920b">AllocMutableHitbox</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a588ddca738c9c814c4af9866f92b920b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85f615158cf8a517ad7a9d2c7c699b0d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="moblinSpear_8c.html#a85f615158cf8a517ad7a9d2c7c699b0d">MoblinSpear</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
 <tr class="separator:a85f615158cf8a517ad7a9d2c7c699b0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7184daf4b61d6cbaec4e6c05044bdd79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="moblinSpear_8c.html#a7184daf4b61d6cbaec4e6c05044bdd79">MoblinSpear_OnTick</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
@@ -147,24 +147,6 @@ Variables</h2></td></tr>
 <tr class="separator:a8d1f1a49495c3be59ea83271c95b16c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a588ddca738c9c814c4af9866f92b920b" name="a588ddca738c9c814c4af9866f92b920b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a588ddca738c9c814c4af9866f92b920b">&#9670;&nbsp;</a></span>AllocMutableHitbox()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#aa638bcc74cb6bf3765b8cbd0167fceae">bool32</a> AllocMutableHitbox </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"><em>ent</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a85f615158cf8a517ad7a9d2c7c699b0d" name="a85f615158cf8a517ad7a9d2c7c699b0d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a85f615158cf8a517ad7a9d2c7c699b0d">&#9670;&nbsp;</a></span>MoblinSpear()</h2>
 
@@ -320,7 +302,7 @@ Variables</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
 <div class="line">    <a class="code hl_function" href="moblinSpear_8c.html#a7184daf4b61d6cbaec4e6c05044bdd79">MoblinSpear_OnTick</a>, <a class="code hl_function" href="moblinSpear_8c.html#a06451c93d4330a7a215500e3ebfbcee9">sub_080A832C</a>, <a class="code hl_function" href="entity_8c.html#a6c36abfca4590f417be8e49ebb2d48ca">DeleteEntity</a>, <a class="code hl_function" href="entity_8c.html#a6c36abfca4590f417be8e49ebb2d48ca">DeleteEntity</a>, <a class="code hl_function" href="entity_8c.html#a6c36abfca4590f417be8e49ebb2d48ca">DeleteEntity</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="aentity_8c_html_a6c36abfca4590f417be8e49ebb2d48ca"><div class="ttname"><a href="entity_8c.html#a6c36abfca4590f417be8e49ebb2d48ca">DeleteEntity</a></div><div class="ttdeci">void DeleteEntity(Entity *ent)</div><div class="ttdoc">Delete an Entity.</div><div class="ttdef"><b>Definition:</b> entity.c:342</div></div>
+<div class="ttc" id="aentity_8c_html_a6c36abfca4590f417be8e49ebb2d48ca"><div class="ttname"><a href="entity_8c.html#a6c36abfca4590f417be8e49ebb2d48ca">DeleteEntity</a></div><div class="ttdeci">void DeleteEntity(Entity *ent)</div><div class="ttdoc">Delete an Entity.</div><div class="ttdef"><b>Definition:</b> entity.c:341</div></div>
 <div class="ttc" id="amoblinSpear_8c_html_a06451c93d4330a7a215500e3ebfbcee9"><div class="ttname"><a href="moblinSpear_8c.html#a06451c93d4330a7a215500e3ebfbcee9">sub_080A832C</a></div><div class="ttdeci">void sub_080A832C(Entity *this)</div><div class="ttdef"><b>Definition:</b> moblinSpear.c:25</div></div>
 <div class="ttc" id="amoblinSpear_8c_html_a7184daf4b61d6cbaec4e6c05044bdd79"><div class="ttname"><a href="moblinSpear_8c.html#a7184daf4b61d6cbaec4e6c05044bdd79">MoblinSpear_OnTick</a></div><div class="ttdeci">void MoblinSpear_OnTick(Entity *this)</div><div class="ttdef"><b>Definition:</b> moblinSpear.c:21</div></div>
 </div><!-- fragment -->
