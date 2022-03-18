@@ -69,9 +69,10 @@ var searchData=
   ['cucco_5faggr_66',['CUCCO_AGGR',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba00cc2e1127a3dc36552f056f3b345cef',1,'enemy.h']]],
   ['cucco_5fchick_67',['CUCCO_CHICK',['../npc_8h.html#ab86484a9fbeb0e4494cb75cadb5f4cf3a170b69679cb161ba033f6edddc9a90df',1,'npc.h']]],
   ['cucco_5fchick_5faggr_68',['CUCCO_CHICK_AGGR',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba9e60885e8c9c402424a4fe44934e16e2',1,'enemy.h']]],
-  ['curtain_69',['CURTAIN',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba4b4dae06f17a41b079dfaa55d5e23164',1,'enemy.h']]],
-  ['cut_5fbush_70',['CUT_BUSH',['../tiles_8h.html#acd2017d946fd818c3b8ca377bc4006c7ab9fa1d243d885ec12149d1a49957b783',1,'tiles.h']]],
-  ['cut_5fgrass_71',['CUT_GRASS',['../tiles_8h.html#acd2017d946fd818c3b8ca377bc4006c7a100cef4adf6b8344f46330d41151d74c',1,'tiles.h']]],
-  ['cut_5fsignpost_72',['CUT_SIGNPOST',['../tiles_8h.html#acd2017d946fd818c3b8ca377bc4006c7a7bbb727963b12e3bb2d73e1c9e7c3156',1,'tiles.h']]],
-  ['cut_5ftree_73',['CUT_TREE',['../tiles_8h.html#acd2017d946fd818c3b8ca377bc4006c7adad02538f2f6f4c1f13b891835d456d5',1,'tiles.h']]]
+  ['cucco_5fminigame_69',['CUCCO_MINIGAME',['../object_8h.html#a0b29a1e1c76a85a0dbaa7c34a9d2874aa52c3b15e802b5625643d2b9d946f397b',1,'object.h']]],
+  ['curtain_70',['CURTAIN',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba4b4dae06f17a41b079dfaa55d5e23164',1,'enemy.h']]],
+  ['cut_5fbush_71',['CUT_BUSH',['../tiles_8h.html#acd2017d946fd818c3b8ca377bc4006c7ab9fa1d243d885ec12149d1a49957b783',1,'tiles.h']]],
+  ['cut_5fgrass_72',['CUT_GRASS',['../tiles_8h.html#acd2017d946fd818c3b8ca377bc4006c7a100cef4adf6b8344f46330d41151d74c',1,'tiles.h']]],
+  ['cut_5fsignpost_73',['CUT_SIGNPOST',['../tiles_8h.html#acd2017d946fd818c3b8ca377bc4006c7a7bbb727963b12e3bb2d73e1c9e7c3156',1,'tiles.h']]],
+  ['cut_5ftree_74',['CUT_TREE',['../tiles_8h.html#acd2017d946fd818c3b8ca377bc4006c7adad02538f2f6f4c1f13b891835d456d5',1,'tiles.h']]]
 ];

@@ -14,5 +14,5 @@ var searchData=
   ['zmallocinit_11',['zMallocInit',['../common_8c.html#a60486f58072b2bdf3385d46c7345fead',1,'zMallocInit(void):&#160;common.c'],['../common_8h.html#a60486f58072b2bdf3385d46c7345fead',1,'zMallocInit(void):&#160;common.c']]],
   ['zs_12',['ZS',['../manager1_8c.html#adf68597e6f43e7e0ca321d3706703b25',1,'manager1.c']]],
   ['zv_13',['ZV',['../manager1_8c.html#a50be9bb720cdd79f04c44e845f950037',1,'manager1.c']]],
-  ['zvelocity_14',['zVelocity',['../structEntity.html#a6fa015b48c70b419ba44a278a07d0bf7',1,'Entity']]]
+  ['zvelocity_14',['zVelocity',['../structEntity.html#a6fa015b48c70b419ba44a278a07d0bf7',1,'Entity::zVelocity()'],['../structstruct__gUnk__08123FB0.html#a4372c11bfc8013e3a04427104bb92612',1,'struct_gUnk_08123FB0::zVelocity()']]]
 ];

@@ -31,5 +31,6 @@ var searchData=
   ['cuccoaggr_2ec_28',['cuccoAggr.c',['../cuccoAggr_8c.html',1,'']]],
   ['cuccochick_2ec_29',['cuccoChick.c',['../cuccoChick_8c.html',1,'']]],
   ['cuccochickaggr_2ec_30',['cuccoChickAggr.c',['../cuccoChickAggr_8c.html',1,'']]],
-  ['curtain_2ec_31',['curtain.c',['../curtain_8c.html',1,'']]]
+  ['cuccominigame_2ec_31',['cuccoMinigame.c',['../cuccoMinigame_8c.html',1,'']]],
+  ['curtain_2ec_32',['curtain.c',['../curtain_8c.html',1,'']]]
 ];
