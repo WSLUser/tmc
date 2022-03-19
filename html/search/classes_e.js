@@ -36,11 +36,12 @@ var searchData=
   ['objecta8entity_33',['ObjectA8Entity',['../structObjectA8Entity.html',1,'']]],
   ['objectb9entity_34',['ObjectB9Entity',['../structObjectB9Entity.html',1,'']]],
   ['objectbentity_35',['ObjectBEntity',['../structObjectBEntity.html',1,'']]],
-  ['objectc1entity_36',['ObjectC1Entity',['../structObjectC1Entity.html',1,'']]],
-  ['objectdefinition_37',['ObjectDefinition',['../structObjectDefinition.html',1,'']]],
-  ['objectdentity_38',['ObjectDEntity',['../structObjectDEntity.html',1,'']]],
-  ['objectonpillarentity_39',['ObjectOnPillarEntity',['../structObjectOnPillarEntity.html',1,'']]],
-  ['objectonspinybeetleentity_40',['ObjectOnSpinyBeetleEntity',['../structObjectOnSpinyBeetleEntity.html',1,'']]],
-  ['octorokbossentity_41',['OctorokBossEntity',['../structOctorokBossEntity.html',1,'']]],
-  ['octorokbossheap_42',['OctorokBossHeap',['../structOctorokBossHeap.html',1,'']]]
+  ['objectblockingstairsentity_36',['ObjectBlockingStairsEntity',['../structObjectBlockingStairsEntity.html',1,'']]],
+  ['objectc1entity_37',['ObjectC1Entity',['../structObjectC1Entity.html',1,'']]],
+  ['objectdefinition_38',['ObjectDefinition',['../structObjectDefinition.html',1,'']]],
+  ['objectdentity_39',['ObjectDEntity',['../structObjectDEntity.html',1,'']]],
+  ['objectonpillarentity_40',['ObjectOnPillarEntity',['../structObjectOnPillarEntity.html',1,'']]],
+  ['objectonspinybeetleentity_41',['ObjectOnSpinyBeetleEntity',['../structObjectOnSpinyBeetleEntity.html',1,'']]],
+  ['octorokbossentity_42',['OctorokBossEntity',['../structOctorokBossEntity.html',1,'']]],
+  ['octorokbossheap_43',['OctorokBossHeap',['../structOctorokBossHeap.html',1,'']]]
 ];

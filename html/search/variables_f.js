@@ -8,7 +8,7 @@ var searchData=
   ['objectonspinybeetle_5faction2subactions_5',['ObjectOnSpinyBeetle_Action2Subactions',['../objectOnSpinyBeetle_8c.html#a95ec50a99f4aa714ea069bb6a21906ed',1,'objectOnSpinyBeetle.c']]],
   ['objectonspinybeetle_5faction3subactions_6',['ObjectOnSpinyBeetle_Action3Subactions',['../objectOnSpinyBeetle_8c.html#a98950231259cefe864472025b9c8bd06',1,'objectOnSpinyBeetle.c']]],
   ['objectonspinybeetle_5factions_7',['ObjectOnSpinyBeetle_Actions',['../objectOnSpinyBeetle_8c.html#a6aa64eaac3d3d1b5630a48970b84d44d',1,'objectOnSpinyBeetle.c']]],
-  ['objflags_8',['objFlags',['../structObjectA6Entity.html#acd2144fa5b7c6e0a2510b7e75955abfa',1,'ObjectA6Entity']]],
+  ['objflags_8',['objFlags',['../structObjectA6Entity.html#acd2144fa5b7c6e0a2510b7e75955abfa',1,'ObjectA6Entity::objFlags()'],['../structObjectBlockingStairsEntity.html#a6bc68247cdc105c9baf17256e8c4aa69',1,'ObjectBlockingStairsEntity::objFlags()']]],
   ['objmode_9',['objMode',['../structOamData.html#ae0d8d8ccd7507ed2d14a43c9002d54ec',1,'OamData']]],
   ['octorok_5ffunctions_10',['Octorok_Functions',['../octorok_8c.html#a15ae9c8868f995d87d7e475173dff1ac',1,'octorok.c']]],
   ['octorokbossobject_5factions_11',['OctorokBossObject_Actions',['../octorokBossObject_8c.html#aebaf16484abc276d45a09f24fca6dd7f',1,'octorokBossObject.c']]],
