@@ -1,5 +1,5 @@
 <map id="include/game.h" name="include/game.h">
-<area shape="rect" id="node1" title=" " alt="" coords="3745,5,3855,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="3827,5,3936,32"/>
 <area shape="rect" id="node2" href="$collision_8c.html" title=" " alt="" coords="5,87,107,114"/>
 <area shape="rect" id="node3" href="$common_8c.html" title=" " alt="" coords="131,87,235,114"/>
 <area shape="rect" id="node4" href="$debug_8c.html" title="Debug task." alt="" coords="259,87,349,114"/>
@@ -43,7 +43,8 @@
 <area shape="rect" id="node42" href="$save_8c.html" title=" " alt="" coords="6725,87,6808,114"/>
 <area shape="rect" id="node43" href="$script_8c.html" title=" " alt="" coords="6833,87,6919,114"/>
 <area shape="rect" id="node44" href="$scroll_8c.html" title=" " alt="" coords="6944,87,7029,114"/>
-<area shape="rect" id="node45" href="$subtask2_8c.html" title=" " alt="" coords="7053,87,7160,114"/>
-<area shape="rect" id="node46" href="$title_8c.html" title="Title task." alt="" coords="7184,87,7259,114"/>
-<area shape="rect" id="node47" href="$ui_8c.html" title=" " alt="" coords="7283,87,7347,114"/>
+<area shape="rect" id="node45" href="$staffroll_8c.html" title=" " alt="" coords="7053,87,7149,114"/>
+<area shape="rect" id="node46" href="$subtask2_8c.html" title=" " alt="" coords="7173,87,7280,114"/>
+<area shape="rect" id="node47" href="$title_8c.html" title="Title task." alt="" coords="7304,87,7379,114"/>
+<area shape="rect" id="node48" href="$ui_8c.html" title=" " alt="" coords="7403,87,7467,114"/>
 </map>

@@ -10,5 +10,6 @@ var searchData=
   ['gpausemenu_7',['gPauseMenu',['../menu_8h.html#aa6de86fef3411dfe784f24e0acabc607',1,'menu.h']]],
   ['gravity_5frate_8',['GRAVITY_RATE',['../player_8c.html#a0d4a9594ce13ddae08db5d4fc65f2615',1,'player.c']]],
   ['gsaveheader_9',['gSaveHeader',['../structures_8h.html#aed177d6ab8c419e7a33600d19d92bd12',1,'structures.h']]],
-  ['gust_5fjar_5fspeed_10',['GUST_JAR_SPEED',['../player_8c.html#af002e068a900a8d84232bf99f1dc4fbc',1,'player.c']]]
+  ['gstaffrollmenu_10',['gStaffrollMenu',['../staffroll_8c.html#a8c848f8edb0f316236bb841b0eace069',1,'staffroll.c']]],
+  ['gust_5fjar_5fspeed_11',['GUST_JAR_SPEED',['../player_8c.html#af002e068a900a8d84232bf99f1dc4fbc',1,'player.c']]]
 ];

@@ -31,7 +31,7 @@ var searchData=
   ['reverb_28',['reverb',['../structSoundInfo.html#ab31059a5ec96d7deb7fd7be1db6c7820',1,'SoundInfo::reverb()'],['../structSongHeader.html#af28959b7904eb4511b3a2065f2eb5dad',1,'SongHeader::reverb()']]],
   ['rhythmpan_29',['rhythmPan',['../structCgbChannel.html#a10cec42c6b33fad1130a54017ab064a6',1,'CgbChannel::rhythmPan()'],['../structSoundChannel.html#af0e5446840967adc6b5fca34166e2271',1,'SoundChannel::rhythmPan()']]],
   ['right_30',['right',['../structItemMenuTableEntry.html#a5da6047e5cf0e822bc7b58d9b6140101',1,'ItemMenuTableEntry']]],
-  ['right_5falign_31',['right_align',['../structPopupOption.html#a6c9ba5a1406fc8b4bf6bbff7074a10b7',1,'PopupOption::right_align()'],['../structFont.html#a2fc651260a0615bd63ea369bbc7955d0',1,'Font::right_align()']]],
+  ['right_5falign_31',['right_align',['../structFont.html#a2fc651260a0615bd63ea369bbc7955d0',1,'Font::right_align()'],['../structPopupOption.html#a6c9ba5a1406fc8b4bf6bbff7074a10b7',1,'PopupOption::right_align()']]],
   ['rightvolume_32',['rightVolume',['../structCgbChannel.html#a16253bfddcfb84d4f3cbc16decad3783',1,'CgbChannel::rightVolume()'],['../structSoundChannel.html#a8916f0d577eadd58dacbdf321b6bc15e',1,'SoundChannel::rightVolume()']]],
   ['rockchuchu_5ffunctions_33',['RockChuchu_Functions',['../rockChuchu_8c.html#a57b183f2875ec24ab46ce1d5bc1a4fd0',1,'rockChuchu.c']]],
   ['rockprojectile_5factions_34',['RockProjectile_Actions',['../rockProjectile_8c.html#a9605bd9b1dde237f8eed17bedc7b4c10',1,'rockProjectile.c']]],
