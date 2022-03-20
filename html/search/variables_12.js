@@ -38,7 +38,7 @@ var searchData=
   ['rockprojectile_5ffunctions_35',['RockProjectile_Functions',['../rockProjectile_8c.html#ae5c0c2e3edcae9a99c40164dd3c9b0b0',1,'rockProjectile.c']]],
   ['rollobite_5ffunctions_36',['Rollobite_Functions',['../rollobite_8c.html#a113b4b48fba70da8237bc6aa2251bc05',1,'rollobite.c']]],
   ['romsize_37',['romSize',['../structFlashType.html#ae0b9b8d533fa6072c3b3e107ee16a5a4',1,'FlashType']]],
-  ['room_38',['room',['../structScreenTransitionData.html#aea32f31957dcc779f941a6c931b10187',1,'ScreenTransitionData::room()'],['../structCutsceneData.html#a4b3f1cedd9b8330c9677791f53e024b7',1,'CutsceneData::room()'],['../structRoomControls.html#a1e76a0f503fda37f1e1711407ab6745d',1,'RoomControls::room()']]],
+  ['room_38',['room',['../structRoomControls.html#a1e76a0f503fda37f1e1711407ab6745d',1,'RoomControls::room()'],['../structCutsceneData.html#a4b3f1cedd9b8330c9677791f53e024b7',1,'CutsceneData::room()'],['../structScreenTransitionData.html#aea32f31957dcc779f941a6c931b10187',1,'ScreenTransitionData::room()'],['../structstruct__030010EC.html#aed9af8b8b5934f0f89fbc00199c9ce23',1,'struct_030010EC::room()']]],
   ['room_5fnext_39',['room_next',['../structPlayerRoomStatus.html#a46be6fce2dceb5dc91dd3183cf184f29',1,'PlayerRoomStatus']]],
   ['roomresinfos_40',['roomResInfos',['../structArea.html#a6a851616776ba1c1ba28a550d2de8192',1,'Area']]],
   ['rope_5ffunctions_41',['Rope_Functions',['../rope_8c.html#aafcba88e56caf9f2d3b29410e725eb8b',1,'rope.c']]],
