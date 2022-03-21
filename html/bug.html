@@ -76,25 +76,27 @@ $(function() {
 <div class="contents">
 <div class="textblock"><dl class="reflist">
 <dt>Global <a class="el" href="entity_8c.html#a9d66f8f33815b60c77480af2602aaf8e">ClearAllDeletedEntities</a>  (void)</dt>
-<dd><a class="anchor" id="_bug000003"></a>if prev pointed to a VALID location higher than a signed int, would still be deleted  </dd>
+<dd><a class="anchor" id="_bug000004"></a>if prev pointed to a VALID location higher than a signed int, would still be deleted  </dd>
 <dt>Global <a class="el" href="message_8c.html#a0e379a3e4636777011c23df1799f792c">DispString</a>  (void)</dt>
-<dd><a class="anchor" id="_bug000005"></a>abnormally big width causes tile idx to overwrite other tile attributes  </dd>
+<dd><a class="anchor" id="_bug000006"></a>abnormally big width causes tile idx to overwrite other tile attributes  </dd>
 <dt>Global <a class="el" href="octorokGolden_8c.html#adc34ab9df1e11e80d0035c676154a5e6">OctorokGolden</a>  (<a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> *this)</dt>
-<dd><a class="anchor" id="_bug000002"></a>index (r4) is uninitialized  </dd>
+<dd><a class="anchor" id="_bug000003"></a>index (r4) is uninitialized  </dd>
 <dt>Global <a class="el" href="cuccoAggr_8c.html#a270ced65ed960b89f41cfdb1107a6a90">sub_0803901C</a>  (<a class="el" href="structCuccoAggrEntity.html">CuccoAggrEntity</a> *this)</dt>
-<dd><a class="anchor" id="_bug000001"></a>This if was meant to check r5 instead of r3.  </dd>
+<dd><a class="anchor" id="_bug000002"></a>This if was meant to check r5 instead of r3.  </dd>
+<dt>Global <a class="el" href="code__08049DF4_8c.html#a7e175cfaff35084b790821c287e90d8c">sub_0804A044</a>  (<a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> *entA, <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> *entB, u32 arg2)</dt>
+<dd><a class="anchor" id="_bug000001"></a>flags &amp; 5 can never equal 0xA  </dd>
 <dt>Global <a class="el" href="manager32_8c.html#ace1c17a2feaca0ee7c715a1b3f41ea1f">sub_0805DA90</a>  (<a class="el" href="structManager32.html">Manager32</a> *this, u32 param_2)</dt>
-<dd><a class="anchor" id="_bug000004"></a>: this always variable points to ROM, not a Manager*  </dd>
+<dd><a class="anchor" id="_bug000005"></a>: this always variable points to ROM, not a Manager*  </dd>
 <dt>Global <a class="el" href="npc5_8c.html#ac5562ad692a336f1e8bf1e9ac717a3cf">sub_08060BA0</a>  (<a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> *)</dt>
-<dd><a class="anchor" id="_bug000006"></a>: r5 is uninitialized  </dd>
+<dd><a class="anchor" id="_bug000007"></a>: r5 is uninitialized  </dd>
 <dt>Global <a class="el" href="npc5_8c.html#aa0b7f2ab44815097b529e8378fad9a8a">sub_08061358</a>  (<a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> *)</dt>
-<dd><a class="anchor" id="_bug000007"></a>bVar4 (r6) is uninitialized.  </dd>
+<dd><a class="anchor" id="_bug000008"></a>bVar4 (r6) is uninitialized.  </dd>
 <dt>Global <a class="el" href="pita_8c.html#aef62407de5722a4630c1443ea6b4bb5d">sub_08062EDC</a>  (<a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> *this, <a class="el" href="structScriptExecutionContext.html">ScriptExecutionContext</a> *context)</dt>
-<dd><a class="anchor" id="_bug000008"></a>: tmp is uninitialized, in practice player must have an item here  </dd>
+<dd><a class="anchor" id="_bug000009"></a>: tmp is uninitialized, in practice player must have an item here  </dd>
 <dt>Global <a class="el" href="stockwell_8c.html#a8f7f97066f387604a083b254384b4821">sub_080650CC</a>  (<a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> *this)</dt>
-<dd><a class="anchor" id="_bug000009"></a>itemPrice (r8) is not initialized if gRoomVars.shopItemType == 0  </dd>
+<dd><a class="anchor" id="_bug000010"></a>itemPrice (r8) is not initialized if gRoomVars.shopItemType == 0  </dd>
 <dt>Global <a class="el" href="player_8c.html#a2891ffa861a709944ea6c573324a026a">SurfaceAction_CloneTile</a>  (<a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> *this)</dt>
-<dd><a class="anchor" id="_bug000010"></a>: n is not initialized </dd>
+<dd><a class="anchor" id="_bug000011"></a>: n is not initialized </dd>
 </dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
