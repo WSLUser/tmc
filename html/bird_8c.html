@@ -85,6 +85,8 @@ $(function() {
 <code>#include &quot;<a class="el" href="object_8h_source.html">object.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="item_8h_source.html">item.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="message_8h_source.html">message.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="game_8h_source.html">game.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for bird.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -92,83 +94,88 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="bird_8c__incl.png" border="0" usemap="#asrc_2object_2bird_8c" alt=""/></div>
 <map name="asrc_2object_2bird_8c" id="asrc_2object_2bird_8c">
-<area shape="rect" title=" " alt="" coords="307,5,421,32"/>
-<area shape="rect" href="save_8h.html" title=" " alt="" coords="242,80,302,107"/>
-<area shape="rect" href="object_8h.html" title=" " alt="" coords="927,155,993,181"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="439,80,524,107"/>
-<area shape="rect" href="item_8h.html" title=" " alt="" coords="94,155,151,181"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="681,453,748,480"/>
-<area shape="rect" href="player_8h.html" title=" " alt="" coords="277,229,344,256"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="227,155,317,181"/>
-<area shape="rect" href="room_8h.html" title=" " alt="" coords="469,229,531,256"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="817,528,895,555"/>
-<area shape="rect" title=" " alt="" coords="541,603,605,629"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1099,603,1173,629"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1197,603,1264,629"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="751,677,814,704"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="630,603,722,629"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="747,603,819,629"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="894,603,962,629"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="987,603,1075,629"/>
-<area shape="rect" title=" " alt="" coords="1102,677,1170,704"/>
-<area shape="rect" title=" " alt="" coords="751,752,815,779"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="598,304,661,331"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="598,379,658,405"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="683,379,747,405"/>
-<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="430,304,522,331"/>
-<area shape="rect" href="asm_8h.html" title=" " alt="" coords="1095,304,1153,331"/>
-<area shape="rect" href="common_8h.html" title=" " alt="" coords="1145,379,1228,405"/>
-<area shape="rect" href="sound_8h.html" title=" " alt="" coords="1229,304,1296,331"/>
-<area shape="rect" href="flags_8h.html" title=" " alt="" coords="947,379,1005,405"/>
-<area shape="rect" href="effects_8h.html" title=" " alt="" coords="657,229,727,256"/>
-<area shape="rect" href="coord_8h.html" title=" " alt="" coords="859,229,923,256"/>
-<area shape="rect" href="manager_8h.html" title=" " alt="" coords="752,229,835,256"/>
-<area shape="rect" href="script_8h.html" title=" " alt="" coords="544,155,608,181"/>
-<area shape="rect" href="map_8h.html" title=" " alt="" coords="349,304,406,331"/>
+<area shape="rect" title=" " alt="" coords="803,5,918,32"/>
+<area shape="rect" href="save_8h.html" title=" " alt="" coords="599,80,659,107"/>
+<area shape="rect" href="object_8h.html" title=" " alt="" coords="245,155,311,181"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="843,80,929,107"/>
+<area shape="rect" href="item_8h.html" title=" " alt="" coords="717,155,775,181"/>
+<area shape="rect" href="message_8h.html" title=" " alt="" coords="1131,80,1217,107"/>
+<area shape="rect" href="game_8h.html" title=" " alt="" coords="1391,304,1455,331"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="746,453,813,480"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="687,229,754,256"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="799,155,890,181"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="317,229,378,256"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="891,528,969,555"/>
+<area shape="rect" title=" " alt="" coords="595,603,659,629"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1243,603,1316,629"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1151,603,1218,629"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="795,677,857,704"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="780,603,872,629"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="683,603,755,629"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="896,603,964,629"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="989,603,1077,629"/>
+<area shape="rect" title=" " alt="" coords="1245,677,1313,704"/>
+<area shape="rect" title=" " alt="" coords="794,752,858,779"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="776,304,839,331"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="707,379,767,405"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="791,379,855,405"/>
+<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="317,304,409,331"/>
+<area shape="rect" href="asm_8h.html" title=" " alt="" coords="27,304,84,331"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="109,304,191,331"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="218,379,285,405"/>
+<area shape="rect" href="flags_8h.html" title=" " alt="" coords="341,379,399,405"/>
+<area shape="rect" href="effects_8h.html" title=" " alt="" coords="504,229,575,256"/>
+<area shape="rect" href="coord_8h.html" title=" " alt="" coords="599,229,663,256"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="1031,229,1114,256"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="965,155,1029,181"/>
+<area shape="rect" href="map_8h.html" title=" " alt="" coords="1189,304,1247,331"/>
+<area shape="rect" href="area_8h.html" title=" " alt="" coords="1443,379,1500,405"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a9a575f726605f6c779f4ca694486afcc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#a9a575f726605f6c779f4ca694486afcc">Bird_Type0</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
+<tr class="separator:a9a575f726605f6c779f4ca694486afcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fa13333936cd58cf859dd78c5163505"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#a3fa13333936cd58cf859dd78c5163505">Bird_Type1</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
+<tr class="separator:a3fa13333936cd58cf859dd78c5163505"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95527062b4fc15bf19467394c2a27e76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#a95527062b4fc15bf19467394c2a27e76">Bird_Type2</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
+<tr class="separator:a95527062b4fc15bf19467394c2a27e76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a896ad11af2cd83b2bc69a14ee8aaa433"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#a896ad11af2cd83b2bc69a14ee8aaa433">Bird_Type3</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
+<tr class="separator:a896ad11af2cd83b2bc69a14ee8aaa433"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab58d88e3ccc8acfc2587507ab56ef58c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#ab58d88e3ccc8acfc2587507ab56ef58c">Bird_Type8</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
+<tr class="separator:ab58d88e3ccc8acfc2587507ab56ef58c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e91684a03d8adda042a2cb24800dd36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#a5e91684a03d8adda042a2cb24800dd36">Bird_Type9</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
+<tr class="separator:a5e91684a03d8adda042a2cb24800dd36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a405c62bb46290cb046862dd40421b46c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#a405c62bb46290cb046862dd40421b46c">Bird_Type10</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
+<tr class="separator:a405c62bb46290cb046862dd40421b46c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6dab09c7ab67979fed53f858c867f97"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#af6dab09c7ab67979fed53f858c867f97">Bird_Type0_Init</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
+<tr class="separator:af6dab09c7ab67979fed53f858c867f97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6eefe833438d97832d75d32f7082894"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#ad6eefe833438d97832d75d32f7082894">Bird_Type0_Action1</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
+<tr class="separator:ad6eefe833438d97832d75d32f7082894"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd2b7fe92c1d6bdb18e75c64429f9097"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#acd2b7fe92c1d6bdb18e75c64429f9097">Bird_Type1_Init</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
+<tr class="separator:acd2b7fe92c1d6bdb18e75c64429f9097"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9de3c15b91842bab7769d28fbcf436c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#ad9de3c15b91842bab7769d28fbcf436c">Bird_Type1_Action1</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
+<tr class="separator:ad9de3c15b91842bab7769d28fbcf436c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4faf4781863e39f54f5ced2795cc3c91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#a4faf4781863e39f54f5ced2795cc3c91">Bird_Type1_Action1_Subaction0</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
+<tr class="separator:a4faf4781863e39f54f5ced2795cc3c91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8eb1d7b68b18b6e576358a534265a16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#ae8eb1d7b68b18b6e576358a534265a16">Bird_Type1_Action1_Subaction1</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
+<tr class="separator:ae8eb1d7b68b18b6e576358a534265a16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12d172c277d5a6755ea19e6de55dd51e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#a12d172c277d5a6755ea19e6de55dd51e">Bird_Type2_Init</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
+<tr class="separator:a12d172c277d5a6755ea19e6de55dd51e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85cb4a1870754ab71bf14ce3244403c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#a85cb4a1870754ab71bf14ce3244403c4">Bird_Type2_Action1</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
+<tr class="separator:a85cb4a1870754ab71bf14ce3244403c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1bca41d4228b81413b3ea4e64990cec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#ae1bca41d4228b81413b3ea4e64990cec">Bird</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
 <tr class="separator:ae1bca41d4228b81413b3ea4e64990cec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85330cf8e30bd706fdcab6c283dcb4c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#a85330cf8e30bd706fdcab6c283dcb4c5">sub_0809CF3C</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a85330cf8e30bd706fdcab6c283dcb4c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6213738384e880ad93796e697b64945"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#aa6213738384e880ad93796e697b64945">sub_0809CF54</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:aa6213738384e880ad93796e697b64945"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4700ea5b3a349bcb9dec05dcfdbb556e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#a4700ea5b3a349bcb9dec05dcfdbb556e">sub_0809CFEC</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a4700ea5b3a349bcb9dec05dcfdbb556e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0f3d4ccfa6857482ebd955ae9c8627e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#ad0f3d4ccfa6857482ebd955ae9c8627e">sub_0809D030</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:ad0f3d4ccfa6857482ebd955ae9c8627e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adcfcbf74d31ba2920898854d69213496"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#adcfcbf74d31ba2920898854d69213496">sub_0809D048</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:adcfcbf74d31ba2920898854d69213496"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8efb0f6c658b07040851b8093ee914b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#a8efb0f6c658b07040851b8093ee914b1">sub_0809D06C</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a8efb0f6c658b07040851b8093ee914b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e28fdb99d6c648353f767caf46cdb48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#a0e28fdb99d6c648353f767caf46cdb48">sub_0809D084</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a0e28fdb99d6c648353f767caf46cdb48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad03ee547cbd5d378a85584c72cb3429b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#ad03ee547cbd5d378a85584c72cb3429b">sub_0809D0AC</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:ad03ee547cbd5d378a85584c72cb3429b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af195154e0cda6404e9a14cd29573dd24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#af195154e0cda6404e9a14cd29573dd24">sub_0809D0F4</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:af195154e0cda6404e9a14cd29573dd24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a867e25429d0c51a91dab2d787eb40397"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#a867e25429d0c51a91dab2d787eb40397">sub_0809D10C</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a867e25429d0c51a91dab2d787eb40397"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a09c63a673397cca53f9df347de546a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#a8a09c63a673397cca53f9df347de546a">sub_0809D130</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a8a09c63a673397cca53f9df347de546a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19c4ca074fe060e37bcacae6a488262e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#a19c4ca074fe060e37bcacae6a488262e">sub_0809D178</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a19c4ca074fe060e37bcacae6a488262e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc45312de3c6b78233e9152b08c4b71a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#adc45312de3c6b78233e9152b08c4b71a">CreateBird</a> (void)</td></tr>
+<tr class="separator:adc45312de3c6b78233e9152b08c4b71a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0509ccf54fe27b710356a2a10e23487"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#aa0509ccf54fe27b710356a2a10e23487">sub_0809D738</a> (void)</td></tr>
+<tr class="separator:aa0509ccf54fe27b710356a2a10e23487"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:aee9385efe85ebe63d3873d3472e293ac"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#aee9385efe85ebe63d3873d3472e293ac">gUnk_08123EC0</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:aee9385efe85ebe63d3873d3472e293ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7dee9628368bf17db6a277b1ccf560c0"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#a7dee9628368bf17db6a277b1ccf560c0">gUnk_08123EEC</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a7dee9628368bf17db6a277b1ccf560c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81400c9a22a7a9178340e0d8a042b7ed"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#a81400c9a22a7a9178340e0d8a042b7ed">gUnk_08123EF4</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a81400c9a22a7a9178340e0d8a042b7ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b31c66e167fefae24d81954d7b11a0a"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#a6b31c66e167fefae24d81954d7b11a0a">gUnk_08123EFC</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a6b31c66e167fefae24d81954d7b11a0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1a30bcc3152a45688965eaf4bb46243"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#aa1a30bcc3152a45688965eaf4bb46243">gUnk_08123F04</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:aa1a30bcc3152a45688965eaf4bb46243"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83ca01d94f9d0b0432f4c54f5524804c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bird_8c.html#a83ca01d94f9d0b0432f4c54f5524804c">script_EzloTalkOcarina</a> []</td></tr>
+<tr class="separator:a83ca01d94f9d0b0432f4c54f5524804c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ae1bca41d4228b81413b3ea4e64990cec" name="ae1bca41d4228b81413b3ea4e64990cec"></a>
@@ -189,14 +196,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a85330cf8e30bd706fdcab6c283dcb4c5" name="a85330cf8e30bd706fdcab6c283dcb4c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85330cf8e30bd706fdcab6c283dcb4c5">&#9670;&nbsp;</a></span>sub_0809CF3C()</h2>
+<a id="a9a575f726605f6c779f4ca694486afcc" name="a9a575f726605f6c779f4ca694486afcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a575f726605f6c779f4ca694486afcc">&#9670;&nbsp;</a></span>Bird_Type0()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sub_0809CF3C </td>
+          <td class="memname">void Bird_Type0 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
@@ -207,14 +214,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aa6213738384e880ad93796e697b64945" name="aa6213738384e880ad93796e697b64945"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6213738384e880ad93796e697b64945">&#9670;&nbsp;</a></span>sub_0809CF54()</h2>
+<a id="ad6eefe833438d97832d75d32f7082894" name="ad6eefe833438d97832d75d32f7082894"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6eefe833438d97832d75d32f7082894">&#9670;&nbsp;</a></span>Bird_Type0_Action1()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sub_0809CF54 </td>
+          <td class="memname">void Bird_Type0_Action1 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
@@ -225,14 +232,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a4700ea5b3a349bcb9dec05dcfdbb556e" name="a4700ea5b3a349bcb9dec05dcfdbb556e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4700ea5b3a349bcb9dec05dcfdbb556e">&#9670;&nbsp;</a></span>sub_0809CFEC()</h2>
+<a id="af6dab09c7ab67979fed53f858c867f97" name="af6dab09c7ab67979fed53f858c867f97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6dab09c7ab67979fed53f858c867f97">&#9670;&nbsp;</a></span>Bird_Type0_Init()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sub_0809CFEC </td>
+          <td class="memname">void Bird_Type0_Init </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
@@ -243,14 +250,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ad0f3d4ccfa6857482ebd955ae9c8627e" name="ad0f3d4ccfa6857482ebd955ae9c8627e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0f3d4ccfa6857482ebd955ae9c8627e">&#9670;&nbsp;</a></span>sub_0809D030()</h2>
+<a id="a3fa13333936cd58cf859dd78c5163505" name="a3fa13333936cd58cf859dd78c5163505"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fa13333936cd58cf859dd78c5163505">&#9670;&nbsp;</a></span>Bird_Type1()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sub_0809D030 </td>
+          <td class="memname">void Bird_Type1 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
@@ -261,14 +268,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="adcfcbf74d31ba2920898854d69213496" name="adcfcbf74d31ba2920898854d69213496"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adcfcbf74d31ba2920898854d69213496">&#9670;&nbsp;</a></span>sub_0809D048()</h2>
+<a id="a405c62bb46290cb046862dd40421b46c" name="a405c62bb46290cb046862dd40421b46c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a405c62bb46290cb046862dd40421b46c">&#9670;&nbsp;</a></span>Bird_Type10()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sub_0809D048 </td>
+          <td class="memname">void Bird_Type10 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
@@ -279,14 +286,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a8efb0f6c658b07040851b8093ee914b1" name="a8efb0f6c658b07040851b8093ee914b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8efb0f6c658b07040851b8093ee914b1">&#9670;&nbsp;</a></span>sub_0809D06C()</h2>
+<a id="ad9de3c15b91842bab7769d28fbcf436c" name="ad9de3c15b91842bab7769d28fbcf436c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9de3c15b91842bab7769d28fbcf436c">&#9670;&nbsp;</a></span>Bird_Type1_Action1()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sub_0809D06C </td>
+          <td class="memname">void Bird_Type1_Action1 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
@@ -297,14 +304,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a0e28fdb99d6c648353f767caf46cdb48" name="a0e28fdb99d6c648353f767caf46cdb48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e28fdb99d6c648353f767caf46cdb48">&#9670;&nbsp;</a></span>sub_0809D084()</h2>
+<a id="a4faf4781863e39f54f5ced2795cc3c91" name="a4faf4781863e39f54f5ced2795cc3c91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4faf4781863e39f54f5ced2795cc3c91">&#9670;&nbsp;</a></span>Bird_Type1_Action1_Subaction0()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sub_0809D084 </td>
+          <td class="memname">void Bird_Type1_Action1_Subaction0 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
@@ -315,14 +322,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ad03ee547cbd5d378a85584c72cb3429b" name="ad03ee547cbd5d378a85584c72cb3429b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad03ee547cbd5d378a85584c72cb3429b">&#9670;&nbsp;</a></span>sub_0809D0AC()</h2>
+<a id="ae8eb1d7b68b18b6e576358a534265a16" name="ae8eb1d7b68b18b6e576358a534265a16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8eb1d7b68b18b6e576358a534265a16">&#9670;&nbsp;</a></span>Bird_Type1_Action1_Subaction1()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sub_0809D0AC </td>
+          <td class="memname">void Bird_Type1_Action1_Subaction1 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
@@ -333,14 +340,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="af195154e0cda6404e9a14cd29573dd24" name="af195154e0cda6404e9a14cd29573dd24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af195154e0cda6404e9a14cd29573dd24">&#9670;&nbsp;</a></span>sub_0809D0F4()</h2>
+<a id="acd2b7fe92c1d6bdb18e75c64429f9097" name="acd2b7fe92c1d6bdb18e75c64429f9097"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd2b7fe92c1d6bdb18e75c64429f9097">&#9670;&nbsp;</a></span>Bird_Type1_Init()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sub_0809D0F4 </td>
+          <td class="memname">void Bird_Type1_Init </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
@@ -351,14 +358,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a867e25429d0c51a91dab2d787eb40397" name="a867e25429d0c51a91dab2d787eb40397"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a867e25429d0c51a91dab2d787eb40397">&#9670;&nbsp;</a></span>sub_0809D10C()</h2>
+<a id="a95527062b4fc15bf19467394c2a27e76" name="a95527062b4fc15bf19467394c2a27e76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95527062b4fc15bf19467394c2a27e76">&#9670;&nbsp;</a></span>Bird_Type2()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sub_0809D10C </td>
+          <td class="memname">void Bird_Type2 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
@@ -369,14 +376,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a8a09c63a673397cca53f9df347de546a" name="a8a09c63a673397cca53f9df347de546a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a09c63a673397cca53f9df347de546a">&#9670;&nbsp;</a></span>sub_0809D130()</h2>
+<a id="a85cb4a1870754ab71bf14ce3244403c4" name="a85cb4a1870754ab71bf14ce3244403c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85cb4a1870754ab71bf14ce3244403c4">&#9670;&nbsp;</a></span>Bird_Type2_Action1()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sub_0809D130 </td>
+          <td class="memname">void Bird_Type2_Action1 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
@@ -387,17 +394,107 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a19c4ca074fe060e37bcacae6a488262e" name="a19c4ca074fe060e37bcacae6a488262e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19c4ca074fe060e37bcacae6a488262e">&#9670;&nbsp;</a></span>sub_0809D178()</h2>
+<a id="a12d172c277d5a6755ea19e6de55dd51e" name="a12d172c277d5a6755ea19e6de55dd51e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12d172c277d5a6755ea19e6de55dd51e">&#9670;&nbsp;</a></span>Bird_Type2_Init()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sub_0809D178 </td>
+          <td class="memname">void Bird_Type2_Init </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a896ad11af2cd83b2bc69a14ee8aaa433" name="a896ad11af2cd83b2bc69a14ee8aaa433"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a896ad11af2cd83b2bc69a14ee8aaa433">&#9670;&nbsp;</a></span>Bird_Type3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Bird_Type3 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab58d88e3ccc8acfc2587507ab56ef58c" name="ab58d88e3ccc8acfc2587507ab56ef58c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab58d88e3ccc8acfc2587507ab56ef58c">&#9670;&nbsp;</a></span>Bird_Type8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Bird_Type8 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5e91684a03d8adda042a2cb24800dd36" name="a5e91684a03d8adda042a2cb24800dd36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e91684a03d8adda042a2cb24800dd36">&#9670;&nbsp;</a></span>Bird_Type9()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Bird_Type9 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adc45312de3c6b78233e9152b08c4b71a" name="adc45312de3c6b78233e9152b08c4b71a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc45312de3c6b78233e9152b08c4b71a">&#9670;&nbsp;</a></span>CreateBird()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CreateBird </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa0509ccf54fe27b710356a2a10e23487" name="aa0509ccf54fe27b710356a2a10e23487"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0509ccf54fe27b710356a2a10e23487">&#9670;&nbsp;</a></span>sub_0809D738()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_0809D738 </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -406,8 +503,8 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="aee9385efe85ebe63d3873d3472e293ac" name="aee9385efe85ebe63d3873d3472e293ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee9385efe85ebe63d3873d3472e293ac">&#9670;&nbsp;</a></span>gUnk_08123EC0</h2>
+<a id="a83ca01d94f9d0b0432f4c54f5524804c" name="a83ca01d94f9d0b0432f4c54f5524804c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83ca01d94f9d0b0432f4c54f5524804c">&#9670;&nbsp;</a></span>script_EzloTalkOcarina</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -416,115 +513,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void(*const gUnk_08123EC0[])(<a class="el" href="structEntity.html">Entity</a> *) </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7dee9628368bf17db6a277b1ccf560c0" name="a7dee9628368bf17db6a277b1ccf560c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7dee9628368bf17db6a277b1ccf560c0">&#9670;&nbsp;</a></span>gUnk_08123EEC</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(*const gUnk_08123EEC[])(<a class="el" href="structEntity.html">Entity</a> *) </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a81400c9a22a7a9178340e0d8a042b7ed" name="a81400c9a22a7a9178340e0d8a042b7ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81400c9a22a7a9178340e0d8a042b7ed">&#9670;&nbsp;</a></span>gUnk_08123EF4</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(*const gUnk_08123EF4[])(<a class="el" href="structEntity.html">Entity</a> *) </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6b31c66e167fefae24d81954d7b11a0a" name="a6b31c66e167fefae24d81954d7b11a0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b31c66e167fefae24d81954d7b11a0a">&#9670;&nbsp;</a></span>gUnk_08123EFC</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(*const gUnk_08123EFC[])(<a class="el" href="structEntity.html">Entity</a> *) </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa1a30bcc3152a45688965eaf4bb46243" name="aa1a30bcc3152a45688965eaf4bb46243"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1a30bcc3152a45688965eaf4bb46243">&#9670;&nbsp;</a></span>gUnk_08123F04</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(*const gUnk_08123F04[])(<a class="el" href="structEntity.html">Entity</a> *) </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname"><a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a> script_EzloTalkOcarina[]</td>
         </tr>
       </table>
   </td>
