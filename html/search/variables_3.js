@@ -46,7 +46,7 @@ var searchData=
   ['control_43',['control',['../structBgAffSettings.html#a2016a48e0512b4a021667e219ca027f2',1,'BgAffSettings::control()'],['../structBgSettings.html#a1a841a4964122ea50479f18dd28d4197',1,'BgSettings::control()'],['../structDMARegisters.html#a0d87430c396aa228e7b911767d7a1445',1,'DMARegisters::control()']]],
   ['controlmode_44',['controlMode',['../structPlayerState.html#a7b66a5d0f7bf7832d57c858bf19378b9',1,'PlayerState']]],
   ['controls_45',['controls',['../structScreen.html#a3fc717d71bd00cd680fba7525597d5e1',1,'Screen']]],
-  ['count_46',['count',['../structFlashSector.html#a7b29e153db250bbf60db9f0fbd2fb83b',1,'FlashSector::count()'],['../structSoundChannel.html#a3562ee7420e44a6261b7e40559c4b346',1,'SoundChannel::count()'],['../vram_8c.html#a2420db3642b59da2c5994511b8ac6398',1,'count():&#160;vram.c']]],
+  ['count_46',['count',['../structSoundChannel.html#a3562ee7420e44a6261b7e40559c4b346',1,'SoundChannel::count()'],['../structFlashSector.html#a7b29e153db250bbf60db9f0fbd2fb83b',1,'FlashSector::count()'],['../vram_8c.html#a2420db3642b59da2c5994511b8ac6398',1,'count():&#160;vram.c']]],
   ['counter_47',['counter',['../structIntroState.html#a8f554638703cadccc2c3451cfd8850af',1,'IntroState']]],
   ['crow_5ffunctions_48',['Crow_Functions',['../crow_8c.html#a30215eccb5cc080af5db9c922a2e0586',1,'crow.c']]],
   ['ctsenable_49',['ctsEnable',['../structSioUartCnt.html#a335a8e49a4c749baca2e4eb4fb046fa3',1,'SioUartCnt']]],
@@ -72,7 +72,7 @@ var searchData=
   ['currentwave_69',['currentWave',['../structCgbChannel.html#a63bf0f1e3aaa35c9cecebc6f7861b856',1,'CgbChannel']]],
   ['curtain_5ffunctions_70',['Curtain_Functions',['../curtain_8c.html#af19f94f618821de97d273fe98d1ef31c',1,'curtain.c']]],
   ['curtoken_71',['curToken',['../structTextRender.html#a22f8ad51a9912479fef4e97f42d8c721',1,'TextRender']]],
-  ['cutscenebeh_72',['cutsceneBeh',['../structGenericEntity.html#aed40a4c37a04355b2a76cce7462c4a5c',1,'GenericEntity::cutsceneBeh()'],['../structEntity.html#ab05021eba9c159cf20290bc635fc555b',1,'Entity::cutsceneBeh()']]],
+  ['cutscenebeh_72',['cutsceneBeh',['../structGenericEntity.html#aed40a4c37a04355b2a76cce7462c4a5c',1,'GenericEntity::cutsceneBeh()'],['../structEntity.html#ab05021eba9c159cf20290bc635fc555b',1,'Entity::cutsceneBeh()'],['../structMazaalBossObjectEntity.html#acebfd1316646cc029ca75e79dc4c4a54',1,'MazaalBossObjectEntity::cutsceneBeh()']]],
   ['cutscenemain_5fexit_73',['CutsceneMain_Exit',['../game_8c.html#a9c9aa4bb34e252691cd277236e095e64',1,'game.c']]],
   ['cutscenemain_5finit_74',['CutsceneMain_Init',['../game_8c.html#af749b77cdb2cbc07214a3d9e951f2319',1,'game.c']]],
   ['cutscenemain_5fupdate_75',['CutsceneMain_Update',['../game_8c.html#a2e449c5b87ca27cb2f549a023c86e533',1,'game.c']]]
