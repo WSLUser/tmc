@@ -11,7 +11,7 @@ var searchData=
   ['chan_8',['chan',['../structMusicPlayerTrack.html#a07b7ef862be7ab798cac56a5e89cd39d',1,'MusicPlayerTrack']]],
   ['chans_9',['chans',['../structSoundInfo.html#a30bec4e8fb95488e76ee29e67503a992',1,'SoundInfo']]],
   ['charbaseblock_10',['charBaseBlock',['../structBgCnt.html#a02d76197cfd97ea05362853a4281c174',1,'BgCnt']]],
-  ['charcolor_11',['charColor',['../structstruct__02036540.html#a067e1dd09f78125be05ccfe73f7cf1bd',1,'struct_02036540']]],
+  ['charcolor_11',['charColor',['../structWStruct.html#abb3a1d1c9054caca9c5a8f2d5f7ca82e',1,'WStruct']]],
   ['chargestate_12',['chargeState',['../structPlayerState.html#adccdcb728ff313b2f4ace4ef569a3b32',1,'PlayerState']]],
   ['chargetimer_13',['chargeTimer',['../structChargeState.html#ad46b267e548d77fff687cff7124db6ef',1,'ChargeState']]],
   ['charm_14',['charm',['../structStats.html#a217b9cd47d2e77c2444d12e34b035a78',1,'Stats']]],

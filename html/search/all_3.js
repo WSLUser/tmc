@@ -69,7 +69,7 @@ var searchData=
   ['changewindowsize_66',['ChangeWindowSize',['../message_8c.html#ac606a6bd40bef79e4abe7ed44eb87d04',1,'message.c']]],
   ['chans_67',['chans',['../structSoundInfo.html#a30bec4e8fb95488e76ee29e67503a992',1,'SoundInfo']]],
   ['charbaseblock_68',['charBaseBlock',['../structBgCnt.html#a02d76197cfd97ea05362853a4281c174',1,'BgCnt']]],
-  ['charcolor_69',['charColor',['../structstruct__02036540.html#a067e1dd09f78125be05ccfe73f7cf1bd',1,'struct_02036540']]],
+  ['charcolor_69',['charColor',['../structWStruct.html#abb3a1d1c9054caca9c5a8f2d5f7ca82e',1,'WStruct']]],
   ['chargestate_70',['chargeState',['../structPlayerState.html#adccdcb728ff313b2f4ace4ef569a3b32',1,'PlayerState']]],
   ['chargestate_71',['ChargeState',['../structChargeState.html',1,'']]],
   ['chargetimer_72',['chargeTimer',['../structChargeState.html#ad46b267e548d77fff687cff7124db6ef',1,'ChargeState']]],
