@@ -114,7 +114,7 @@ var searchData=
   ['kid_111',['KID',['../npc_8h.html#ab86484a9fbeb0e4494cb75cadb5f4cf3ab7cc6e13af9bf743c2414154a8676249',1,'npc.h']]],
   ['kid_2ec_112',['kid.c',['../kid_8c.html',1,'']]],
   ['kid_5ffusion_113',['Kid_Fusion',['../kid_8c.html#a2bf5f59c67b28939ba8b1badb31bab74',1,'Kid_Fusion(Entity *this):&#160;kid.c'],['../npc_8h.html#a18473a34f87c53c1059e3d1ae236ea0d',1,'Kid_Fusion(Entity *):&#160;kid.c']]],
-  ['kid_5fhead_114',['Kid_Head',['../npc_8h.html#aa0e217ffc74967f924f92619f5e6c4d0',1,'Kid_Head(Entity *):&#160;kid.c'],['../kid_8c.html#a2ed11a32c4ddc294155a8f0881f8e18f',1,'Kid_Head(Entity *this)):&#160;kid.c']]],
+  ['kid_5fhead_114',['Kid_Head',['../npc_8h.html#aa0e217ffc74967f924f92619f5e6c4d0',1,'Kid_Head(Entity *):&#160;kid.c'],['../kid_8c.html#a34df658f4e87f222d15ddd3253ba0fa7',1,'Kid_Head(Entity *this):&#160;kid.c']]],
   ['kidheap_115',['KidHeap',['../structKidHeap.html',1,'']]],
   ['kind_116',['kind',['../structEntityData.html#a7c4d74dd8c153637a61649630a371997',1,'EntityData::kind()'],['../structEntity.html#a38690d6874070b16c7741a7626e2fdfb',1,'Entity::kind()']]],
   ['king_5fdaltus_117',['KING_DALTUS',['../npc_8h.html#ab86484a9fbeb0e4494cb75cadb5f4cf3a14bf1b40430a3c36cfdc9df49ad10d22',1,'npc.h']]],
