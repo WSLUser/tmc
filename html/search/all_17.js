@@ -220,14 +220,13 @@ var searchData=
   ['wizzrobewind_5fontick_217',['WizzrobeWind_OnTick',['../wizzrobeWind_8c.html#ad0090836ea9d45111a34217d2f3bfdad',1,'wizzrobeWind.c']]],
   ['wobbletime_218',['wobbleTime',['../structLavaPlatformEntity.html#ab0322417c20a3c04bd49633acfa578cf',1,'LavaPlatformEntity::wobbleTime()'],['../structLavaPlatformEntry.html#aea2ba398f7176578eda78fef140ea99e',1,'LavaPlatformEntry::wobbleTime()']]],
   ['wooden_5ftable_219',['WOODEN_TABLE',['../furniture_8c.html#aa06e085575735587cc1ab6389b3f2662ac247cddbed09fd4e1bd63ecaf189483b',1,'furniture.c']]],
-  ['word_220',['WORD',['../movement_8c.html#af3a4ba07cb523c09770bb3fcb8be936d',1,'movement.c']]],
-  ['word_221',['word',['../structTextRender.html#ac0d20bebbf5b8d6a2b205de97aab47fa',1,'TextRender']]],
-  ['word_222',['WORD',['../unionCoords.html#a291a984e9f275254919e531fc237c783',1,'Coords::WORD()'],['../unionSplitWord.html#a9b89e74710e84c3633254f30091604bc',1,'SplitWord::WORD()']]],
-  ['word_223',['word',['../structDMARegisters.html#aec3dd153ca8d23751974433840251468',1,'DMARegisters']]],
-  ['word_5fu_224',['WORD_U',['../unionSplitWord.html#a3210cb304594b037217d7909457f9846',1,'SplitWord']]],
-  ['write_5f02000000_225',['Write_02000000',['../save_8c.html#a575f88fc190a584f9b38c2bb265c9dfc',1,'Write_02000000(SaveHeader *arg0):&#160;save.c'],['../save_8h.html#aa9d5d1f81b74dcf5e98ca8408b29078c',1,'Write_02000000(SaveHeader *):&#160;save.c']]],
-  ['writebit_226',['WriteBit',['../common_8c.html#a38b711fcd550eb9f82fb3e5218643d74',1,'WriteBit(void *src, u32 bit)):&#160;common.c'],['../message_8c.html#a83e61b46a2d8b2184541c0ed05a57e5b',1,'WriteBit(u32 *, u32):&#160;message.c'],['../flags_8h.html#ae5a06e386d7406d77453a80f844b4067',1,'WriteBit(void *, u32):&#160;common.c']]],
-  ['writesavefile_227',['WriteSaveFile',['../save_8c.html#ae58c39da5ce874b9b69354c6f0e7d8bf',1,'save.c']]],
-  ['writesavefilestatus_228',['WriteSaveFileStatus',['../save_8c.html#a944a4bec0ea4c49af63e93ecb3e84ad5',1,'WriteSaveFileStatus(u32 address, const SaveFileStatus *fileStatus):&#160;save.c'],['../save_8c.html#afaeb53f9bfd842d399204d6d795cc0a5',1,'WriteSaveFileStatus(u32 address, const struct SaveFileStatus *fileStatus):&#160;save.c']]],
-  ['wstruct_229',['WStruct',['../structWStruct.html',1,'']]]
+  ['word_220',['WORD',['../movement_8c.html#af3a4ba07cb523c09770bb3fcb8be936d',1,'WORD():&#160;movement.c'],['../unionSplitWord.html#a9b89e74710e84c3633254f30091604bc',1,'SplitWord::WORD()']]],
+  ['word_221',['word',['../structDMARegisters.html#aec3dd153ca8d23751974433840251468',1,'DMARegisters::word()'],['../structTextRender.html#ac0d20bebbf5b8d6a2b205de97aab47fa',1,'TextRender::word()']]],
+  ['word_222',['WORD',['../unionCoords.html#a291a984e9f275254919e531fc237c783',1,'Coords']]],
+  ['word_5fu_223',['WORD_U',['../unionSplitWord.html#a3210cb304594b037217d7909457f9846',1,'SplitWord']]],
+  ['write_5f02000000_224',['Write_02000000',['../save_8c.html#a575f88fc190a584f9b38c2bb265c9dfc',1,'Write_02000000(SaveHeader *arg0):&#160;save.c'],['../save_8h.html#aa9d5d1f81b74dcf5e98ca8408b29078c',1,'Write_02000000(SaveHeader *):&#160;save.c']]],
+  ['writebit_225',['WriteBit',['../common_8c.html#a38b711fcd550eb9f82fb3e5218643d74',1,'WriteBit(void *src, u32 bit)):&#160;common.c'],['../message_8c.html#a83e61b46a2d8b2184541c0ed05a57e5b',1,'WriteBit(u32 *, u32):&#160;message.c'],['../flags_8h.html#ae5a06e386d7406d77453a80f844b4067',1,'WriteBit(void *, u32):&#160;common.c']]],
+  ['writesavefile_226',['WriteSaveFile',['../save_8c.html#ae58c39da5ce874b9b69354c6f0e7d8bf',1,'save.c']]],
+  ['writesavefilestatus_227',['WriteSaveFileStatus',['../save_8c.html#a944a4bec0ea4c49af63e93ecb3e84ad5',1,'WriteSaveFileStatus(u32 address, const SaveFileStatus *fileStatus):&#160;save.c'],['../save_8c.html#afaeb53f9bfd842d399204d6d795cc0a5',1,'WriteSaveFileStatus(u32 address, const struct SaveFileStatus *fileStatus):&#160;save.c']]],
+  ['wstruct_228',['WStruct',['../structWStruct.html',1,'']]]
 ];
