@@ -22,5 +22,6 @@ var searchData=
   ['tonedata_5ftype_5frhy_19',['TONEDATA_TYPE_RHY',['../m4a_8h.html#a0fdb708218f2f0e3e9b4d8d9417cb057',1,'m4a.h']]],
   ['tonedata_5ftype_5fspl_20',['TONEDATA_TYPE_SPL',['../m4a_8h.html#a22b3aa640521d5f5f2fcaa9df134a50f',1,'m4a.h']]],
   ['total_5fobj_5ftile_5fcount_21',['TOTAL_OBJ_TILE_COUNT',['../defines_8h.html#a04436b6e9f961955a7725d10cd4a976d',1,'defines.h']]],
-  ['true_22',['TRUE',['../defines_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d',1,'defines.h']]]
+  ['transitionlistend_22',['TransitionListEnd',['../transitions_8c.html#a9ef3b7df5c0e6da92dfb1d55989ce747',1,'transitions.c']]],
+  ['true_23',['TRUE',['../defines_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d',1,'defines.h']]]
 ];

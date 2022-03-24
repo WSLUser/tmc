@@ -14,8 +14,10 @@ var searchData=
   ['torchtrapprojectile_2ec_11',['torchTrapProjectile.c',['../torchTrapProjectile_8c.html',1,'']]],
   ['townminish_2ec_12',['townMinish.c',['../townMinish_8c.html',1,'']]],
   ['townsperson_2ec_13',['townsperson.c',['../townsperson_8c.html',1,'']]],
-  ['treehidingportal_2ec_14',['treeHidingPortal.c',['../treeHidingPortal_8c.html',1,'']]],
-  ['treeitem_2ec_15',['treeItem.c',['../treeItem_8c.html',1,'']]],
-  ['treethorns_2ec_16',['treeThorns.c',['../treeThorns_8c.html',1,'']]],
-  ['types_2eh_17',['types.h',['../types_8h.html',1,'']]]
+  ['transitions_2ec_14',['transitions.c',['../transitions_8c.html',1,'']]],
+  ['transitions_2eh_15',['transitions.h',['../transitions_8h.html',1,'']]],
+  ['treehidingportal_2ec_16',['treeHidingPortal.c',['../treeHidingPortal_8c.html',1,'']]],
+  ['treeitem_2ec_17',['treeItem.c',['../treeItem_8c.html',1,'']]],
+  ['treethorns_2ec_18',['treeThorns.c',['../treeThorns_8c.html',1,'']]],
+  ['types_2eh_19',['types.h',['../types_8h.html',1,'']]]
 ];

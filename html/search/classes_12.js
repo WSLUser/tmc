@@ -8,6 +8,7 @@ var searchData=
   ['token_5',['Token',['../structToken.html',1,'']]],
   ['tonedata_6',['ToneData',['../structToneData.html',1,'']]],
   ['torchtrapentity_7',['TorchTrapEntity',['../structTorchTrapEntity.html',1,'']]],
-  ['type15vars_8',['Type15Vars',['../structType15Vars.html',1,'']]],
-  ['type1f_9',['Type1F',['../structType1F.html',1,'']]]
+  ['transition_8',['Transition',['../structTransition.html',1,'']]],
+  ['type15vars_9',['Type15Vars',['../structType15Vars.html',1,'']]],
+  ['type1f_10',['Type1F',['../structType1F.html',1,'']]]
 ];

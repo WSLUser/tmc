@@ -9,9 +9,10 @@ var searchData=
   ['rollobite_2ec_6',['rollobite.c',['../rollobite_8c.html',1,'']]],
   ['room_2ec_7',['room.c',['../room_8c.html',1,'']]],
   ['room_2eh_8',['room.h',['../room_8h.html',1,'']]],
-  ['roominit_2ec_9',['roomInit.c',['../roomInit_8c.html',1,'']]],
-  ['rope_2ec_10',['rope.c',['../rope_8c.html',1,'']]],
-  ['ropegolden_2ec_11',['ropeGolden.c',['../ropeGolden_8c.html',1,'']]],
-  ['rupee_2ec_12',['rupee.c',['../rupee_8c.html',1,'']]],
-  ['rupeelike_2ec_13',['rupeeLike.c',['../rupeeLike_8c.html',1,'']]]
+  ['roomid_2eh_9',['roomid.h',['../roomid_8h.html',1,'']]],
+  ['roominit_2ec_10',['roomInit.c',['../roomInit_8c.html',1,'']]],
+  ['rope_2ec_11',['rope.c',['../rope_8c.html',1,'']]],
+  ['ropegolden_2ec_12',['ropeGolden.c',['../ropeGolden_8c.html',1,'']]],
+  ['rupee_2ec_13',['rupee.c',['../rupee_8c.html',1,'']]],
+  ['rupeelike_2ec_14',['rupeeLike.c',['../rupeeLike_8c.html',1,'']]]
 ];

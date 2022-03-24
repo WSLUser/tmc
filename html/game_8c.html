@@ -109,6 +109,8 @@ $(function() {
 <code>#include &quot;<a class="el" href="screen_8h_source.html">screen.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sound_8h_source.html">sound.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="subtask_8h_source.html">subtask.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="transitions_8h_source.html">transitions.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="roomid_8h_source.html">roomid.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for game.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -116,51 +118,53 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="game_8c__incl.png" border="0" usemap="#asrc_2game_8c" alt=""/></div>
 <map name="asrc_2game_8c" id="asrc_2game_8c">
-<area shape="rect" title="Game task." alt="" coords="1001,5,1087,32"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="1257,528,1324,555"/>
-<area shape="rect" href="area_8h.html" title=" " alt="" coords="43,155,101,181"/>
-<area shape="rect" href="asm_8h.html" title=" " alt="" coords="269,304,326,331"/>
-<area shape="rect" href="common_8h.html" title=" " alt="" coords="401,304,484,331"/>
-<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="1674,379,1766,405"/>
-<area shape="rect" href="enemy_8h.html" title=" " alt="" coords="486,229,557,256"/>
-<area shape="rect" href="sound_8h.html" title=" " alt="" coords="641,304,708,331"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="1250,379,1313,405"/>
-<area shape="rect" href="flags_8h.html" title=" " alt="" coords="559,304,617,331"/>
-<area shape="rect" href="fileselect_8h.html" title=" " alt="" coords="823,80,905,107"/>
-<area shape="rect" href="save_8h.html" title=" " alt="" coords="1014,155,1074,181"/>
-<area shape="rect" href="player_8h.html" title=" " alt="" coords="1119,304,1185,331"/>
-<area shape="rect" href="room_8h.html" title=" " alt="" coords="1721,304,1783,331"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="1281,155,1367,181"/>
-<area shape="rect" href="game_8h.html" title=" " alt="" coords="109,80,173,107"/>
-<area shape="rect" href="item_8h.html" title=" " alt="" coords="1538,229,1595,256"/>
-<area shape="rect" href="itemMetaData_8h.html" title=" " alt="" coords="2026,453,2139,480"/>
-<area shape="rect" href="main_8h.html" title=" " alt="" coords="1975,229,2035,256"/>
-<area shape="rect" href="menu_8h.html" title=" " alt="" coords="2155,379,2219,405"/>
-<area shape="rect" href="message_8h.html" title=" " alt="" coords="1421,155,1507,181"/>
-<area shape="rect" href="object_8h.html" title=" " alt="" coords="788,229,855,256"/>
-<area shape="rect" href="screen_8h.html" title=" " alt="" coords="2243,379,2314,405"/>
-<area shape="rect" href="subtask_8h.html" title=" " alt="" coords="2315,80,2394,107"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="1379,603,1458,629"/>
-<area shape="rect" title=" " alt="" coords="1131,677,1195,704"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1778,677,1851,704"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1219,677,1285,704"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="1387,752,1450,779"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="1457,677,1549,704"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="1309,677,1381,704"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="1573,677,1641,704"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="1665,677,1753,704"/>
-<area shape="rect" title=" " alt="" coords="1781,752,1849,779"/>
-<area shape="rect" title=" " alt="" coords="1387,827,1451,853"/>
-<area shape="rect" href="effects_8h.html" title=" " alt="" coords="733,304,803,331"/>
-<area shape="rect" href="projectile_8h.html" title=" " alt="" coords="161,304,245,331"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="1329,453,1389,480"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="1189,453,1253,480"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="1372,229,1463,256"/>
-<area shape="rect" href="manager_8h.html" title=" " alt="" coords="1564,304,1647,331"/>
-<area shape="rect" href="coord_8h.html" title=" " alt="" coords="980,304,1044,331"/>
-<area shape="rect" href="script_8h.html" title=" " alt="" coords="1284,229,1348,256"/>
-<area shape="rect" href="map_8h.html" title=" " alt="" coords="1842,379,1899,405"/>
-<area shape="rect" href="fade_8h.html" title=" " alt="" coords="2215,453,2273,480"/>
+<area shape="rect" title="Game task." alt="" coords="1082,5,1169,32"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="1347,528,1413,555"/>
+<area shape="rect" href="area_8h.html" title=" " alt="" coords="689,155,746,181"/>
+<area shape="rect" href="transitions_8h.html" title=" " alt="" coords="894,229,986,256"/>
+<area shape="rect" href="roomid_8h.html" title=" " alt="" coords="1017,304,1087,331"/>
+<area shape="rect" href="asm_8h.html" title=" " alt="" coords="94,304,151,331"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="469,304,552,331"/>
+<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="2033,379,2125,405"/>
+<area shape="rect" href="enemy_8h.html" title=" " alt="" coords="343,229,414,256"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="576,304,643,331"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="1433,379,1495,405"/>
+<area shape="rect" href="flags_8h.html" title=" " alt="" coords="227,304,285,331"/>
+<area shape="rect" href="fileselect_8h.html" title=" " alt="" coords="848,80,931,107"/>
+<area shape="rect" href="save_8h.html" title=" " alt="" coords="1095,155,1155,181"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="1251,304,1317,331"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="2005,304,2067,331"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="1636,155,1721,181"/>
+<area shape="rect" href="game_8h.html" title=" " alt="" coords="653,80,717,107"/>
+<area shape="rect" href="item_8h.html" title=" " alt="" coords="1481,229,1538,256"/>
+<area shape="rect" href="itemMetaData_8h.html" title=" " alt="" coords="2137,453,2250,480"/>
+<area shape="rect" href="main_8h.html" title=" " alt="" coords="2107,229,2167,256"/>
+<area shape="rect" href="menu_8h.html" title=" " alt="" coords="2275,379,2339,405"/>
+<area shape="rect" href="message_8h.html" title=" " alt="" coords="1321,155,1407,181"/>
+<area shape="rect" href="object_8h.html" title=" " alt="" coords="752,229,819,256"/>
+<area shape="rect" href="screen_8h.html" title=" " alt="" coords="2363,379,2434,405"/>
+<area shape="rect" href="subtask_8h.html" title=" " alt="" coords="2423,80,2502,107"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="1469,603,1547,629"/>
+<area shape="rect" title=" " alt="" coords="1220,677,1284,704"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1867,677,1941,704"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1308,677,1375,704"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="1477,752,1539,779"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="1546,677,1638,704"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="1399,677,1471,704"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="1662,677,1730,704"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="1755,677,1843,704"/>
+<area shape="rect" title=" " alt="" coords="1870,752,1938,779"/>
+<area shape="rect" title=" " alt="" coords="1476,827,1540,853"/>
+<area shape="rect" href="effects_8h.html" title=" " alt="" coords="718,304,789,331"/>
+<area shape="rect" href="projectile_8h.html" title=" " alt="" coords="310,304,394,331"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="1443,453,1503,480"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="1528,453,1592,480"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="1264,229,1355,256"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="1797,304,1880,331"/>
+<area shape="rect" href="coord_8h.html" title=" " alt="" coords="1163,304,1227,331"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="1664,229,1728,256"/>
+<area shape="rect" href="map_8h.html" title=" " alt="" coords="1899,379,1957,405"/>
+<area shape="rect" href="fade_8h.html" title=" " alt="" coords="2377,453,2434,480"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -685,8 +689,6 @@ Variables</h2></td></tr>
 <tr class="separator:a1e1897444c61070a19572b761f306aa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd74f5e00120abbbb9c379a777edef93"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#acd74f5e00120abbbb9c379a777edef93">gUnk_080B755C</a> []</td></tr>
 <tr class="separator:acd74f5e00120abbbb9c379a777edef93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1be67464e5554b95b293a3fc5d706c1d"><td class="memItemLeft" align="right" valign="top">void **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#a1be67464e5554b95b293a3fc5d706c1d">gExitLists</a> []</td></tr>
-<tr class="separator:a1be67464e5554b95b293a3fc5d706c1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5dbf384e0aa834b3cf1817e76581644e"><td class="memItemLeft" align="right" valign="top">void **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#a5dbf384e0aa834b3cf1817e76581644e">gAreaTable</a> []</td></tr>
 <tr class="separator:a5dbf384e0aa834b3cf1817e76581644e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4750c6a2db72931c2ba4084c1df7a8ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structstruct__08127F94.html">struct_08127F94</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="game_8c.html#a4750c6a2db72931c2ba4084c1df7a8ae">gUnk_08127F94</a> []</td></tr>
@@ -5734,28 +5736,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a1be67464e5554b95b293a3fc5d706c1d" name="a1be67464e5554b95b293a3fc5d706c1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1be67464e5554b95b293a3fc5d706c1d">&#9670;&nbsp;</a></span>gExitLists</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void** gExitLists[]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a1232bec16b3ae5f7923378ed2c4734e9" name="a1232bec16b3ae5f7923378ed2c4734e9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1232bec16b3ae5f7923378ed2c4734e9">&#9670;&nbsp;</a></span>gUnk_0200AF13</h2>
 
@@ -6535,15 +6515,15 @@ Variables</h2></td></tr>
 <div class="line">    { <a class="code hl_enumvalue" href="area_8h.html#af4c28b21e4d386e79ba0a57f28d59064a4593e3539462c97abfa0fc2e33ca7b37">AREA_FORTRESS_OF_WINDS</a>, 29, 2, 1, 0, 0 },</div>
 <div class="line">    { <a class="code hl_enumvalue" href="area_8h.html#af4c28b21e4d386e79ba0a57f28d59064a28d45c78ce9425d07fd7b78c0b514d18">AREA_DARK_HYRULE_CASTLE</a>, 14, 2, 2, 16, 16 },</div>
 <div class="line">}</div>
-<div class="ttc" id="aarea_8h_html_af4c28b21e4d386e79ba0a57f28d59064a00301e75759af284eaed8df32291adb0"><div class="ttname"><a href="area_8h.html#af4c28b21e4d386e79ba0a57f28d59064a00301e75759af284eaed8df32291adb0">AREA_MINISH_WOODS</a></div><div class="ttdeci">@ AREA_MINISH_WOODS</div><div class="ttdef"><b>Definition:</b> area.h:79</div></div>
-<div class="ttc" id="aarea_8h_html_af4c28b21e4d386e79ba0a57f28d59064a1718fea1dd27b5f56e213e0f21ea110e"><div class="ttname"><a href="area_8h.html#af4c28b21e4d386e79ba0a57f28d59064a1718fea1dd27b5f56e213e0f21ea110e">AREA_HOUSE_INTERIORS_2</a></div><div class="ttdeci">@ AREA_HOUSE_INTERIORS_2</div><div class="ttdef"><b>Definition:</b> area.h:113</div></div>
-<div class="ttc" id="aarea_8h_html_af4c28b21e4d386e79ba0a57f28d59064a17644eef0794ae97fb5419b5703a51ee"><div class="ttname"><a href="area_8h.html#af4c28b21e4d386e79ba0a57f28d59064a17644eef0794ae97fb5419b5703a51ee">AREA_SANCTUARY</a></div><div class="ttdeci">@ AREA_SANCTUARY</div><div class="ttdef"><b>Definition:</b> area.h:199</div></div>
-<div class="ttc" id="aarea_8h_html_af4c28b21e4d386e79ba0a57f28d59064a28d45c78ce9425d07fd7b78c0b514d18"><div class="ttname"><a href="area_8h.html#af4c28b21e4d386e79ba0a57f28d59064a28d45c78ce9425d07fd7b78c0b514d18">AREA_DARK_HYRULE_CASTLE</a></div><div class="ttdeci">@ AREA_DARK_HYRULE_CASTLE</div><div class="ttdef"><b>Definition:</b> area.h:215</div></div>
-<div class="ttc" id="aarea_8h_html_af4c28b21e4d386e79ba0a57f28d59064a4593e3539462c97abfa0fc2e33ca7b37"><div class="ttname"><a href="area_8h.html#af4c28b21e4d386e79ba0a57f28d59064a4593e3539462c97abfa0fc2e33ca7b37">AREA_FORTRESS_OF_WINDS</a></div><div class="ttdeci">@ AREA_FORTRESS_OF_WINDS</div><div class="ttdef"><b>Definition:</b> area.h:167</div></div>
-<div class="ttc" id="aarea_8h_html_af4c28b21e4d386e79ba0a57f28d59064a7c7d4646c75bfdc7252f980fe0b95f2c"><div class="ttname"><a href="area_8h.html#af4c28b21e4d386e79ba0a57f28d59064a7c7d4646c75bfdc7252f980fe0b95f2c">AREA_HYRULE_CASTLE</a></div><div class="ttdeci">@ AREA_HYRULE_CASTLE</div><div class="ttdef"><b>Definition:</b> area.h:207</div></div>
-<div class="ttc" id="aarea_8h_html_af4c28b21e4d386e79ba0a57f28d59064a7f94ae0316ebfe2c55d684acdfca4c30"><div class="ttname"><a href="area_8h.html#af4c28b21e4d386e79ba0a57f28d59064a7f94ae0316ebfe2c55d684acdfca4c30">AREA_EZLO_CUTSCENE</a></div><div class="ttdeci">@ AREA_EZLO_CUTSCENE</div><div class="ttdef"><b>Definition:</b> area.h:135</div></div>
-<div class="ttc" id="aarea_8h_html_af4c28b21e4d386e79ba0a57f28d59064a80216e0eeda1aed2900c9918c3b99877"><div class="ttname"><a href="area_8h.html#af4c28b21e4d386e79ba0a57f28d59064a80216e0eeda1aed2900c9918c3b99877">AREA_DARK_HYRULE_CASTLE_OUTSIDE</a></div><div class="ttdeci">@ AREA_DARK_HYRULE_CASTLE_OUTSIDE</div><div class="ttdef"><b>Definition:</b> area.h:216</div></div>
-<div class="ttc" id="aarea_8h_html_af4c28b21e4d386e79ba0a57f28d59064a88c687d5d051ef0fcbb3458c7a5a59a0"><div class="ttname"><a href="area_8h.html#af4c28b21e4d386e79ba0a57f28d59064a88c687d5d051ef0fcbb3458c7a5a59a0">AREA_HYRULE_FIELD</a></div><div class="ttdeci">@ AREA_HYRULE_FIELD</div><div class="ttdef"><b>Definition:</b> area.h:82</div></div>
+<div class="ttc" id="aarea_8h_html_af4c28b21e4d386e79ba0a57f28d59064a00301e75759af284eaed8df32291adb0"><div class="ttname"><a href="area_8h.html#af4c28b21e4d386e79ba0a57f28d59064a00301e75759af284eaed8df32291adb0">AREA_MINISH_WOODS</a></div><div class="ttdeci">@ AREA_MINISH_WOODS</div><div class="ttdef"><b>Definition:</b> area.h:80</div></div>
+<div class="ttc" id="aarea_8h_html_af4c28b21e4d386e79ba0a57f28d59064a1718fea1dd27b5f56e213e0f21ea110e"><div class="ttname"><a href="area_8h.html#af4c28b21e4d386e79ba0a57f28d59064a1718fea1dd27b5f56e213e0f21ea110e">AREA_HOUSE_INTERIORS_2</a></div><div class="ttdeci">@ AREA_HOUSE_INTERIORS_2</div><div class="ttdef"><b>Definition:</b> area.h:114</div></div>
+<div class="ttc" id="aarea_8h_html_af4c28b21e4d386e79ba0a57f28d59064a17644eef0794ae97fb5419b5703a51ee"><div class="ttname"><a href="area_8h.html#af4c28b21e4d386e79ba0a57f28d59064a17644eef0794ae97fb5419b5703a51ee">AREA_SANCTUARY</a></div><div class="ttdeci">@ AREA_SANCTUARY</div><div class="ttdef"><b>Definition:</b> area.h:200</div></div>
+<div class="ttc" id="aarea_8h_html_af4c28b21e4d386e79ba0a57f28d59064a28d45c78ce9425d07fd7b78c0b514d18"><div class="ttname"><a href="area_8h.html#af4c28b21e4d386e79ba0a57f28d59064a28d45c78ce9425d07fd7b78c0b514d18">AREA_DARK_HYRULE_CASTLE</a></div><div class="ttdeci">@ AREA_DARK_HYRULE_CASTLE</div><div class="ttdef"><b>Definition:</b> area.h:216</div></div>
+<div class="ttc" id="aarea_8h_html_af4c28b21e4d386e79ba0a57f28d59064a4593e3539462c97abfa0fc2e33ca7b37"><div class="ttname"><a href="area_8h.html#af4c28b21e4d386e79ba0a57f28d59064a4593e3539462c97abfa0fc2e33ca7b37">AREA_FORTRESS_OF_WINDS</a></div><div class="ttdeci">@ AREA_FORTRESS_OF_WINDS</div><div class="ttdef"><b>Definition:</b> area.h:168</div></div>
+<div class="ttc" id="aarea_8h_html_af4c28b21e4d386e79ba0a57f28d59064a7c7d4646c75bfdc7252f980fe0b95f2c"><div class="ttname"><a href="area_8h.html#af4c28b21e4d386e79ba0a57f28d59064a7c7d4646c75bfdc7252f980fe0b95f2c">AREA_HYRULE_CASTLE</a></div><div class="ttdeci">@ AREA_HYRULE_CASTLE</div><div class="ttdef"><b>Definition:</b> area.h:208</div></div>
+<div class="ttc" id="aarea_8h_html_af4c28b21e4d386e79ba0a57f28d59064a7f94ae0316ebfe2c55d684acdfca4c30"><div class="ttname"><a href="area_8h.html#af4c28b21e4d386e79ba0a57f28d59064a7f94ae0316ebfe2c55d684acdfca4c30">AREA_EZLO_CUTSCENE</a></div><div class="ttdeci">@ AREA_EZLO_CUTSCENE</div><div class="ttdef"><b>Definition:</b> area.h:136</div></div>
+<div class="ttc" id="aarea_8h_html_af4c28b21e4d386e79ba0a57f28d59064a80216e0eeda1aed2900c9918c3b99877"><div class="ttname"><a href="area_8h.html#af4c28b21e4d386e79ba0a57f28d59064a80216e0eeda1aed2900c9918c3b99877">AREA_DARK_HYRULE_CASTLE_OUTSIDE</a></div><div class="ttdeci">@ AREA_DARK_HYRULE_CASTLE_OUTSIDE</div><div class="ttdef"><b>Definition:</b> area.h:217</div></div>
+<div class="ttc" id="aarea_8h_html_af4c28b21e4d386e79ba0a57f28d59064a88c687d5d051ef0fcbb3458c7a5a59a0"><div class="ttname"><a href="area_8h.html#af4c28b21e4d386e79ba0a57f28d59064a88c687d5d051ef0fcbb3458c7a5a59a0">AREA_HYRULE_FIELD</a></div><div class="ttdeci">@ AREA_HYRULE_FIELD</div><div class="ttdef"><b>Definition:</b> area.h:83</div></div>
 </div><!-- fragment -->
 </div>
 </div>
