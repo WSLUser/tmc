@@ -474,7 +474,7 @@ var searchData=
   ['sub_5f0801b938_471',['sub_0801B938',['../playerItemC_8c.html#a9311fbf24faeaba763cc5579754e0d33',1,'playerItemC.c']]],
   ['sub_5f0801b9f0_472',['sub_0801B9F0',['../playerItemBottle_8c.html#a26bcd2bcbc5953d9d3c5b1f947d87116',1,'sub_0801B9F0(Entity *this):&#160;playerItemC.c'],['../playerItemC_8c.html#a26bcd2bcbc5953d9d3c5b1f947d87116',1,'sub_0801B9F0(Entity *this):&#160;playerItemC.c']]],
   ['sub_5f0801bde8_473',['sub_0801BDE8',['../playerItemBottle_8c.html#ac5b38114647877407e1c69af80f3f9cd',1,'playerItemBottle.c']]],
-  ['sub_5f0801c25c_474',['sub_0801C25C',['../ui_8c.html#a1a47b96e9f6242395e2f010298006385',1,'sub_0801C25C(void)):&#160;ui.c'],['../functions_8h.html#a1f8895b8d02388bb12126ebe7ffc8fa6',1,'sub_0801C25C(void):&#160;ui.c']]],
+  ['sub_5f0801c25c_474',['sub_0801C25C',['../ui_8c.html#a1f8895b8d02388bb12126ebe7ffc8fa6',1,'sub_0801C25C(void):&#160;ui.c'],['../functions_8h.html#a1f8895b8d02388bb12126ebe7ffc8fa6',1,'sub_0801C25C(void):&#160;ui.c']]],
   ['sub_5f0801c2f0_475',['sub_0801C2F0',['../ui_8c.html#abcf6a600191c194d2d0261d03dc15b96',1,'sub_0801C2F0(u32, u32):&#160;ui.c'],['../kinstone__menu_8c.html#a443611fc1b7e90d2285087688a8ff9be',1,'sub_0801C2F0(u32, u32):&#160;ui.c']]],
   ['sub_5f0801c5e0_476',['sub_0801C5E0',['../ui_8c.html#a8eac394c73e41d6a914610b95099d63c',1,'ui.c']]],
   ['sub_5f0801cab8_477',['sub_0801CAB8',['../ui_8c.html#ae5f619d90a61cd8ec3ebd2b69e9e2558',1,'ui.c']]],

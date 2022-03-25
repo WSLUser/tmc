@@ -283,7 +283,7 @@ var searchData=
   ['itemsword_2ec_280',['itemSword.c',['../itemSword_8c.html',1,'']]],
   ['itemtrypickupobject_281',['ItemTryPickupObject',['../itemTryPickupObject_8c.html#a7e10d83319d2a33a1a11d1600d461b95',1,'ItemTryPickupObject(ItemBehavior *this, u32 arg1):&#160;itemTryPickupObject.c'],['../item_8h.html#a74cc52807addc6bd61802e00289e199d',1,'ItemTryPickupObject(ItemBehavior *, u32):&#160;itemTryPickupObject.c']]],
   ['itemtrypickupobject_2ec_282',['itemTryPickupObject.c',['../itemTryPickupObject_8c.html',1,'']]],
-  ['itemuielement_283',['ItemUIElement',['../ui_8c.html#abb0120925e59ddf3ea851d9dc28d485e',1,'ui.c']]],
+  ['itemuielement_283',['ItemUIElement',['../ui_8c.html#a7943e16ca636f70af70f7e26eccb6b8c',1,'ui.c']]],
   ['itemupdate_284',['ItemUpdate',['../playerItem_8c.html#a697346a714cc66601bdbf82193591404',1,'playerItem.c']]],
   ['ivar2_285',['iVar2',['../itemTryPickupObject_8c.html#a982aacd2eaad3653b75f87a8028b9e88',1,'itemTryPickupObject.c']]],
   ['iwram_5fdata_286',['IWRAM_DATA',['../defines_8h.html#a1ccb2d4775bba0f3e7fe6f53a7c74e23',1,'defines.h']]],
