@@ -85,6 +85,7 @@ $(function() {
 <p>Bobomb enemy.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="asm_8h_source.html">asm.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="collision_8h_source.html">collision.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sound_8h_source.html">sound.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="enemy_8h_source.html">enemy.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="object_8h_source.html">object.h</a>&quot;</code><br />
@@ -96,39 +97,40 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="bobomb_8c__incl.png" border="0" usemap="#asrc_2enemy_2bobomb_8c" alt=""/></div>
 <map name="asrc_2enemy_2bobomb_8c" id="asrc_2enemy_2bobomb_8c">
-<area shape="rect" title="Bobomb enemy." alt="" coords="283,5,425,32"/>
-<area shape="rect" href="asm_8h.html" title=" " alt="" coords="113,229,171,256"/>
-<area shape="rect" href="sound_8h.html" title=" " alt="" coords="195,229,262,256"/>
-<area shape="rect" href="enemy_8h.html" title=" " alt="" coords="319,155,389,181"/>
-<area shape="rect" href="object_8h.html" title=" " alt="" coords="579,155,646,181"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="1001,80,1086,107"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="837,453,903,480"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="979,528,1057,555"/>
-<area shape="rect" title=" " alt="" coords="689,603,753,629"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1337,603,1411,629"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1078,603,1145,629"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="1184,677,1247,704"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="1169,603,1261,629"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="982,603,1054,629"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="777,603,845,629"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="870,603,958,629"/>
-<area shape="rect" title=" " alt="" coords="1340,677,1408,704"/>
-<area shape="rect" title=" " alt="" coords="1183,752,1247,779"/>
-<area shape="rect" href="effects_8h.html" title=" " alt="" coords="577,229,648,256"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="943,304,1005,331"/>
-<area shape="rect" href="flags_8h.html" title=" " alt="" coords="337,229,395,256"/>
-<area shape="rect" href="common_8h.html" title=" " alt="" coords="419,229,502,256"/>
-<area shape="rect" href="projectile_8h.html" title=" " alt="" coords="5,229,89,256"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="1012,379,1072,405"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="873,379,937,405"/>
-<area shape="rect" href="room_8h.html" title=" " alt="" coords="811,229,873,256"/>
-<area shape="rect" href="coord_8h.html" title=" " alt="" coords="723,229,787,256"/>
-<area shape="rect" href="player_8h.html" title=" " alt="" coords="1155,229,1222,256"/>
-<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="775,304,867,331"/>
-<area shape="rect" href="manager_8h.html" title=" " alt="" coords="1049,229,1131,256"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="1190,155,1281,181"/>
-<area shape="rect" href="script_8h.html" title=" " alt="" coords="910,155,974,181"/>
-<area shape="rect" href="map_8h.html" title=" " alt="" coords="1332,304,1389,331"/>
+<area shape="rect" title="Bobomb enemy." alt="" coords="370,5,513,32"/>
+<area shape="rect" href="asm_8h.html" title=" " alt="" coords="255,229,313,256"/>
+<area shape="rect" href="collision_8h.html" title=" " alt="" coords="725,229,803,256"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="5,229,72,256"/>
+<area shape="rect" href="enemy_8h.html" title=" " alt="" coords="331,155,402,181"/>
+<area shape="rect" href="object_8h.html" title=" " alt="" coords="580,155,647,181"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="1111,80,1196,107"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="927,453,993,480"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="1046,528,1125,555"/>
+<area shape="rect" title=" " alt="" coords="801,603,865,629"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1355,603,1429,629"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1052,603,1119,629"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="1147,677,1210,704"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="1239,603,1331,629"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="1143,603,1215,629"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="1453,603,1521,629"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="889,603,977,629"/>
+<area shape="rect" title=" " alt="" coords="1358,677,1426,704"/>
+<area shape="rect" title=" " alt="" coords="1147,752,1211,779"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="1019,304,1082,331"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="998,379,1058,405"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="1083,379,1147,405"/>
+<area shape="rect" href="effects_8h.html" title=" " alt="" coords="578,229,649,256"/>
+<area shape="rect" href="flags_8h.html" title=" " alt="" coords="337,229,396,256"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="420,229,503,256"/>
+<area shape="rect" href="projectile_8h.html" title=" " alt="" coords="147,229,231,256"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="828,229,889,256"/>
+<area shape="rect" href="coord_8h.html" title=" " alt="" coords="1207,229,1271,256"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="964,229,1031,256"/>
+<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="779,304,871,331"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="1345,229,1428,256"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="972,155,1063,181"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="1087,155,1151,181"/>
+<area shape="rect" href="map_8h.html" title=" " alt="" coords="1503,304,1561,331"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -635,10 +637,10 @@ Variables</h2></td></tr>
 <div class="line">}</div>
 <div class="ttc" id="aacroBandits_8c_html_a011d86188747c52072f9c8e09d1f1d18"><div class="ttname"><a href="acroBandits_8c.html#a011d86188747c52072f9c8e09d1f1d18">GenericConfused</a></div><div class="ttdeci">void GenericConfused(Entity *this)</div></div>
 <div class="ttc" id="aasm_8h_html_ae7f4b31c5b7b590b6da3fccb26e10806"><div class="ttname"><a href="asm_8h.html#ae7f4b31c5b7b590b6da3fccb26e10806">GenericKnockback</a></div><div class="ttdeci">void GenericKnockback(struct Entity_ *)</div></div>
-<div class="ttc" id="abobomb_8c_html_a0ae4feca7bb18904ce47aeefe8c58d81"><div class="ttname"><a href="bobomb_8c.html#a0ae4feca7bb18904ce47aeefe8c58d81">Bobomb_OnDeath</a></div><div class="ttdeci">void Bobomb_OnDeath(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:140</div></div>
-<div class="ttc" id="abobomb_8c_html_a442eaa7637741b6c8233dcd2bd20fedc"><div class="ttname"><a href="bobomb_8c.html#a442eaa7637741b6c8233dcd2bd20fedc">Bobomb_OnCollision</a></div><div class="ttdeci">void Bobomb_OnCollision(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:31</div></div>
-<div class="ttc" id="abobomb_8c_html_a5e9c0f83e0513c01610b8aebbb70b8bc"><div class="ttname"><a href="bobomb_8c.html#a5e9c0f83e0513c01610b8aebbb70b8bc">Bobomb_OnGrabbed</a></div><div class="ttdeci">void Bobomb_OnGrabbed(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:71</div></div>
-<div class="ttc" id="abobomb_8c_html_a8e55f5ce61592e2368395990ccdfb2e0"><div class="ttname"><a href="bobomb_8c.html#a8e55f5ce61592e2368395990ccdfb2e0">Bobomb_OnTick</a></div><div class="ttdeci">void Bobomb_OnTick(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:27</div></div>
+<div class="ttc" id="abobomb_8c_html_a0ae4feca7bb18904ce47aeefe8c58d81"><div class="ttname"><a href="bobomb_8c.html#a0ae4feca7bb18904ce47aeefe8c58d81">Bobomb_OnDeath</a></div><div class="ttdeci">void Bobomb_OnDeath(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:141</div></div>
+<div class="ttc" id="abobomb_8c_html_a442eaa7637741b6c8233dcd2bd20fedc"><div class="ttname"><a href="bobomb_8c.html#a442eaa7637741b6c8233dcd2bd20fedc">Bobomb_OnCollision</a></div><div class="ttdeci">void Bobomb_OnCollision(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:32</div></div>
+<div class="ttc" id="abobomb_8c_html_a5e9c0f83e0513c01610b8aebbb70b8bc"><div class="ttname"><a href="bobomb_8c.html#a5e9c0f83e0513c01610b8aebbb70b8bc">Bobomb_OnGrabbed</a></div><div class="ttdeci">void Bobomb_OnGrabbed(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:72</div></div>
+<div class="ttc" id="abobomb_8c_html_a8e55f5ce61592e2368395990ccdfb2e0"><div class="ttname"><a href="bobomb_8c.html#a8e55f5ce61592e2368395990ccdfb2e0">Bobomb_OnTick</a></div><div class="ttdeci">void Bobomb_OnTick(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:28</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -664,11 +666,11 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="bobomb_8c.html#af1d3e22a0b3de65279722938b3baffce">sub_0802CAF8</a>,</div>
 <div class="line">    <a class="code hl_function" href="bobomb_8c.html#ad6cb352381276cc9cf017c3bf438e2f6">nullsub_150</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="abobomb_8c_html_a79e1b566d8d240925d75e8ee33552956"><div class="ttname"><a href="bobomb_8c.html#a79e1b566d8d240925d75e8ee33552956">sub_0802C9B8</a></div><div class="ttdeci">void sub_0802C9B8(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:188</div></div>
-<div class="ttc" id="abobomb_8c_html_abaa57b3c92227c2d2dbd93744a44fcfc"><div class="ttname"><a href="bobomb_8c.html#abaa57b3c92227c2d2dbd93744a44fcfc">sub_0802C91C</a></div><div class="ttdeci">void sub_0802C91C(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:159</div></div>
-<div class="ttc" id="abobomb_8c_html_ad6cb352381276cc9cf017c3bf438e2f6"><div class="ttname"><a href="bobomb_8c.html#ad6cb352381276cc9cf017c3bf438e2f6">nullsub_150</a></div><div class="ttdeci">void nullsub_150(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:258</div></div>
-<div class="ttc" id="abobomb_8c_html_af1d3e22a0b3de65279722938b3baffce"><div class="ttname"><a href="bobomb_8c.html#af1d3e22a0b3de65279722938b3baffce">sub_0802CAF8</a></div><div class="ttdeci">void sub_0802CAF8(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:240</div></div>
-<div class="ttc" id="abobomb_8c_html_aff8ac651523ccf5319e647034960b287"><div class="ttname"><a href="bobomb_8c.html#aff8ac651523ccf5319e647034960b287">sub_0802C8D8</a></div><div class="ttdeci">void sub_0802C8D8(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:145</div></div>
+<div class="ttc" id="abobomb_8c_html_a79e1b566d8d240925d75e8ee33552956"><div class="ttname"><a href="bobomb_8c.html#a79e1b566d8d240925d75e8ee33552956">sub_0802C9B8</a></div><div class="ttdeci">void sub_0802C9B8(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:189</div></div>
+<div class="ttc" id="abobomb_8c_html_abaa57b3c92227c2d2dbd93744a44fcfc"><div class="ttname"><a href="bobomb_8c.html#abaa57b3c92227c2d2dbd93744a44fcfc">sub_0802C91C</a></div><div class="ttdeci">void sub_0802C91C(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:160</div></div>
+<div class="ttc" id="abobomb_8c_html_ad6cb352381276cc9cf017c3bf438e2f6"><div class="ttname"><a href="bobomb_8c.html#ad6cb352381276cc9cf017c3bf438e2f6">nullsub_150</a></div><div class="ttdeci">void nullsub_150(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:259</div></div>
+<div class="ttc" id="abobomb_8c_html_af1d3e22a0b3de65279722938b3baffce"><div class="ttname"><a href="bobomb_8c.html#af1d3e22a0b3de65279722938b3baffce">sub_0802CAF8</a></div><div class="ttdeci">void sub_0802CAF8(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:241</div></div>
+<div class="ttc" id="abobomb_8c_html_aff8ac651523ccf5319e647034960b287"><div class="ttname"><a href="bobomb_8c.html#aff8ac651523ccf5319e647034960b287">sub_0802C8D8</a></div><div class="ttdeci">void sub_0802C8D8(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:146</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -695,12 +697,12 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="bobomb_8c.html#a1fbaaec1ec6a277a1273e1344e2e1a6e">nullsub_149</a>,</div>
 <div class="line">    <a class="code hl_function" href="bobomb_8c.html#a206d28a058a3b1f2e465030523a00e23">sub_0802C8B8</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="abobomb_8c_html_a1fbaaec1ec6a277a1273e1344e2e1a6e"><div class="ttname"><a href="bobomb_8c.html#a1fbaaec1ec6a277a1273e1344e2e1a6e">nullsub_149</a></div><div class="ttdeci">void nullsub_149(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:131</div></div>
-<div class="ttc" id="abobomb_8c_html_a206d28a058a3b1f2e465030523a00e23"><div class="ttname"><a href="bobomb_8c.html#a206d28a058a3b1f2e465030523a00e23">sub_0802C8B8</a></div><div class="ttdeci">void sub_0802C8B8(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:135</div></div>
-<div class="ttc" id="abobomb_8c_html_a59f1710a4358a7033fe5432975f83515"><div class="ttname"><a href="bobomb_8c.html#a59f1710a4358a7033fe5432975f83515">sub_0802C83C</a></div><div class="ttdeci">void sub_0802C83C(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:104</div></div>
-<div class="ttc" id="abobomb_8c_html_a97cb18ccb01b3d95a994415634460a5c"><div class="ttname"><a href="bobomb_8c.html#a97cb18ccb01b3d95a994415634460a5c">sub_0802C834</a></div><div class="ttdeci">void sub_0802C834(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:100</div></div>
-<div class="ttc" id="abobomb_8c_html_aaddb4e6240b03b94c0e32815b6ccf2fd"><div class="ttname"><a href="bobomb_8c.html#aaddb4e6240b03b94c0e32815b6ccf2fd">sub_0802C820</a></div><div class="ttdeci">void sub_0802C820(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:91</div></div>
-<div class="ttc" id="abobomb_8c_html_ac1169d8bc1b05f837ab13b5e669328ea"><div class="ttname"><a href="bobomb_8c.html#ac1169d8bc1b05f837ab13b5e669328ea">sub_0802C82C</a></div><div class="ttdeci">void sub_0802C82C(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:96</div></div>
+<div class="ttc" id="abobomb_8c_html_a1fbaaec1ec6a277a1273e1344e2e1a6e"><div class="ttname"><a href="bobomb_8c.html#a1fbaaec1ec6a277a1273e1344e2e1a6e">nullsub_149</a></div><div class="ttdeci">void nullsub_149(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:132</div></div>
+<div class="ttc" id="abobomb_8c_html_a206d28a058a3b1f2e465030523a00e23"><div class="ttname"><a href="bobomb_8c.html#a206d28a058a3b1f2e465030523a00e23">sub_0802C8B8</a></div><div class="ttdeci">void sub_0802C8B8(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:136</div></div>
+<div class="ttc" id="abobomb_8c_html_a59f1710a4358a7033fe5432975f83515"><div class="ttname"><a href="bobomb_8c.html#a59f1710a4358a7033fe5432975f83515">sub_0802C83C</a></div><div class="ttdeci">void sub_0802C83C(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:105</div></div>
+<div class="ttc" id="abobomb_8c_html_a97cb18ccb01b3d95a994415634460a5c"><div class="ttname"><a href="bobomb_8c.html#a97cb18ccb01b3d95a994415634460a5c">sub_0802C834</a></div><div class="ttdeci">void sub_0802C834(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:101</div></div>
+<div class="ttc" id="abobomb_8c_html_aaddb4e6240b03b94c0e32815b6ccf2fd"><div class="ttname"><a href="bobomb_8c.html#aaddb4e6240b03b94c0e32815b6ccf2fd">sub_0802C820</a></div><div class="ttdeci">void sub_0802C820(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:92</div></div>
+<div class="ttc" id="abobomb_8c_html_ac1169d8bc1b05f837ab13b5e669328ea"><div class="ttname"><a href="bobomb_8c.html#ac1169d8bc1b05f837ab13b5e669328ea">sub_0802C82C</a></div><div class="ttdeci">void sub_0802C82C(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:97</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -725,10 +727,10 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="bobomb_8c.html#abeadd8c6522c370b42d2c3496cacf479">sub_0802CA6C</a>,</div>
 <div class="line">    <a class="code hl_function" href="bobomb_8c.html#ac3612a4140dc621f06c6875870ff04e3">sub_0802CA94</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="abobomb_8c_html_abeadd8c6522c370b42d2c3496cacf479"><div class="ttname"><a href="bobomb_8c.html#abeadd8c6522c370b42d2c3496cacf479">sub_0802CA6C</a></div><div class="ttdeci">void sub_0802CA6C(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:218</div></div>
-<div class="ttc" id="abobomb_8c_html_ac3612a4140dc621f06c6875870ff04e3"><div class="ttname"><a href="bobomb_8c.html#ac3612a4140dc621f06c6875870ff04e3">sub_0802CA94</a></div><div class="ttdeci">void sub_0802CA94(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:227</div></div>
-<div class="ttc" id="abobomb_8c_html_aca424db7b38bc8e293e5525a73beae58"><div class="ttname"><a href="bobomb_8c.html#aca424db7b38bc8e293e5525a73beae58">sub_0802CA10</a></div><div class="ttdeci">void sub_0802CA10(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:202</div></div>
-<div class="ttc" id="abobomb_8c_html_ad3635b86f5705d443262cb2cbd711758"><div class="ttname"><a href="bobomb_8c.html#ad3635b86f5705d443262cb2cbd711758">sub_0802C9D0</a></div><div class="ttdeci">void sub_0802C9D0(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:192</div></div>
+<div class="ttc" id="abobomb_8c_html_abeadd8c6522c370b42d2c3496cacf479"><div class="ttname"><a href="bobomb_8c.html#abeadd8c6522c370b42d2c3496cacf479">sub_0802CA6C</a></div><div class="ttdeci">void sub_0802CA6C(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:219</div></div>
+<div class="ttc" id="abobomb_8c_html_ac3612a4140dc621f06c6875870ff04e3"><div class="ttname"><a href="bobomb_8c.html#ac3612a4140dc621f06c6875870ff04e3">sub_0802CA94</a></div><div class="ttdeci">void sub_0802CA94(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:228</div></div>
+<div class="ttc" id="abobomb_8c_html_aca424db7b38bc8e293e5525a73beae58"><div class="ttname"><a href="bobomb_8c.html#aca424db7b38bc8e293e5525a73beae58">sub_0802CA10</a></div><div class="ttdeci">void sub_0802CA10(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:203</div></div>
+<div class="ttc" id="abobomb_8c_html_ad3635b86f5705d443262cb2cbd711758"><div class="ttname"><a href="bobomb_8c.html#ad3635b86f5705d443262cb2cbd711758">sub_0802C9D0</a></div><div class="ttdeci">void sub_0802C9D0(Entity *this)</div><div class="ttdef"><b>Definition:</b> bobomb.c:193</div></div>
 </div><!-- fragment -->
 </div>
 </div>

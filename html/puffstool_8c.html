@@ -85,6 +85,7 @@ $(function() {
 <p>Puffstool enemy.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="enemy_8h_source.html">enemy.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="collision_8h_source.html">collision.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="object_8h_source.html">object.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -94,39 +95,40 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="puffstool_8c__incl.png" border="0" usemap="#asrc_2enemy_2puffstool_8c" alt=""/></div>
 <map name="asrc_2enemy_2puffstool_8c" id="asrc_2enemy_2puffstool_8c">
-<area shape="rect" title="Puffstool enemy." alt="" coords="559,5,705,32"/>
-<area shape="rect" href="enemy_8h.html" title=" " alt="" coords="311,155,382,181"/>
+<area shape="rect" title="Puffstool enemy." alt="" coords="597,5,742,32"/>
+<area shape="rect" href="enemy_8h.html" title=" " alt="" coords="307,155,378,181"/>
+<area shape="rect" href="collision_8h.html" title=" " alt="" coords="691,229,770,256"/>
 <area shape="rect" href="object_8h.html" title=" " alt="" coords="599,155,665,181"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="989,80,1075,107"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="783,453,849,480"/>
-<area shape="rect" href="asm_8h.html" title=" " alt="" coords="413,229,470,256"/>
-<area shape="rect" href="sound_8h.html" title=" " alt="" coords="132,229,199,256"/>
-<area shape="rect" href="effects_8h.html" title=" " alt="" coords="546,229,617,256"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="859,304,922,331"/>
-<area shape="rect" href="flags_8h.html" title=" " alt="" coords="223,229,281,256"/>
-<area shape="rect" href="common_8h.html" title=" " alt="" coords="305,229,388,256"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="1071,80,1156,107"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="784,453,851,480"/>
+<area shape="rect" href="asm_8h.html" title=" " alt="" coords="381,229,438,256"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="239,229,305,256"/>
+<area shape="rect" href="effects_8h.html" title=" " alt="" coords="597,229,667,256"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="921,304,983,331"/>
+<area shape="rect" href="flags_8h.html" title=" " alt="" coords="463,229,521,256"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="132,229,215,256"/>
 <area shape="rect" href="projectile_8h.html" title=" " alt="" coords="23,229,107,256"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="902,528,981,555"/>
-<area shape="rect" title=" " alt="" coords="657,603,721,629"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1211,603,1285,629"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="908,603,975,629"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="1003,677,1066,704"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="1095,603,1187,629"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="999,603,1071,629"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="1309,603,1377,629"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="745,603,833,629"/>
-<area shape="rect" title=" " alt="" coords="1214,677,1282,704"/>
-<area shape="rect" title=" " alt="" coords="1003,752,1067,779"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="743,379,803,405"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="828,379,892,405"/>
-<area shape="rect" href="room_8h.html" title=" " alt="" coords="692,229,753,256"/>
-<area shape="rect" href="coord_8h.html" title=" " alt="" coords="929,229,993,256"/>
-<area shape="rect" href="player_8h.html" title=" " alt="" coords="1124,229,1191,256"/>
-<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="743,304,835,331"/>
-<area shape="rect" href="manager_8h.html" title=" " alt="" coords="1017,229,1100,256"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="1165,155,1256,181"/>
-<area shape="rect" href="script_8h.html" title=" " alt="" coords="791,155,855,181"/>
-<area shape="rect" href="map_8h.html" title=" " alt="" coords="1367,304,1425,331"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="926,528,1005,555"/>
+<area shape="rect" title=" " alt="" coords="636,603,700,629"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1285,603,1358,629"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1025,603,1092,629"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="1131,677,1194,704"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="1117,603,1209,629"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="929,603,1001,629"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="725,603,793,629"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="817,603,905,629"/>
+<area shape="rect" title=" " alt="" coords="1287,677,1355,704"/>
+<area shape="rect" title=" " alt="" coords="1131,752,1195,779"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="855,379,915,405"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="940,379,1004,405"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="795,229,856,256"/>
+<area shape="rect" href="coord_8h.html" title=" " alt="" coords="1032,229,1096,256"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="1120,229,1187,256"/>
+<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="805,304,897,331"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="1312,229,1395,256"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="1177,155,1268,181"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="985,155,1049,181"/>
+<area shape="rect" href="map_8h.html" title=" " alt="" coords="1470,304,1527,331"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -948,19 +950,19 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="puffstool_8c.html#aa4db36eb28ace14f5edff056d21831d0">sub_080255AC</a>,</div>
 <div class="line">    <a class="code hl_function" href="puffstool_8c.html#a434998dbfe6ed17d05389ddf730b0630">sub_0802563C</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="apuffstool_8c_html_a1a188d509f78177477c77d3fec63b7c2"><div class="ttname"><a href="puffstool_8c.html#a1a188d509f78177477c77d3fec63b7c2">sub_08025230</a></div><div class="ttdeci">void sub_08025230(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:148</div></div>
-<div class="ttc" id="apuffstool_8c_html_a3ed20593a953418f4378322d0db3abe9"><div class="ttname"><a href="puffstool_8c.html#a3ed20593a953418f4378322d0db3abe9">sub_0802538C</a></div><div class="ttdeci">void sub_0802538C(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:206</div></div>
-<div class="ttc" id="apuffstool_8c_html_a434998dbfe6ed17d05389ddf730b0630"><div class="ttname"><a href="puffstool_8c.html#a434998dbfe6ed17d05389ddf730b0630">sub_0802563C</a></div><div class="ttdeci">void sub_0802563C(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:357</div></div>
-<div class="ttc" id="apuffstool_8c_html_a558c769aa0b98bdc57b9cfacf68e180c"><div class="ttname"><a href="puffstool_8c.html#a558c769aa0b98bdc57b9cfacf68e180c">sub_08025554</a></div><div class="ttdeci">void sub_08025554(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:302</div></div>
-<div class="ttc" id="apuffstool_8c_html_a7057e470bab65beade2d6cd6a0356e99"><div class="ttname"><a href="puffstool_8c.html#a7057e470bab65beade2d6cd6a0356e99">sub_0802541C</a></div><div class="ttdeci">void sub_0802541C(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:238</div></div>
-<div class="ttc" id="apuffstool_8c_html_a75200840d695d3c6444008c390cf7ac9"><div class="ttname"><a href="puffstool_8c.html#a75200840d695d3c6444008c390cf7ac9">sub_0802544C</a></div><div class="ttdeci">void sub_0802544C(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:248</div></div>
-<div class="ttc" id="apuffstool_8c_html_a7f650edb88e47169387ab709efff4366"><div class="ttname"><a href="puffstool_8c.html#a7f650edb88e47169387ab709efff4366">sub_080253D4</a></div><div class="ttdeci">void sub_080253D4(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:222</div></div>
-<div class="ttc" id="apuffstool_8c_html_a8e23e9c1887cca6629d278754457cd84"><div class="ttname"><a href="puffstool_8c.html#a8e23e9c1887cca6629d278754457cd84">sub_080251FC</a></div><div class="ttdeci">void sub_080251FC(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:139</div></div>
-<div class="ttc" id="apuffstool_8c_html_aa4db36eb28ace14f5edff056d21831d0"><div class="ttname"><a href="puffstool_8c.html#aa4db36eb28ace14f5edff056d21831d0">sub_080255AC</a></div><div class="ttdeci">void sub_080255AC(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:322</div></div>
-<div class="ttc" id="apuffstool_8c_html_aa815de70eb112068b6e62c94fde92c9d"><div class="ttname"><a href="puffstool_8c.html#aa815de70eb112068b6e62c94fde92c9d">sub_08025514</a></div><div class="ttdeci">void sub_08025514(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:290</div></div>
-<div class="ttc" id="apuffstool_8c_html_ade0a2338c3afb0486e1a906b35e4bdca"><div class="ttname"><a href="puffstool_8c.html#ade0a2338c3afb0486e1a906b35e4bdca">sub_080254B4</a></div><div class="ttdeci">void sub_080254B4(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:271</div></div>
-<div class="ttc" id="apuffstool_8c_html_adf84a676f26c83b7c6cd6f2b4f6219f6"><div class="ttname"><a href="puffstool_8c.html#adf84a676f26c83b7c6cd6f2b4f6219f6">sub_0802547C</a></div><div class="ttdeci">void sub_0802547C(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:259</div></div>
-<div class="ttc" id="apuffstool_8c_html_afc94c2053fba7ff56b4e7725670b3014"><div class="ttname"><a href="puffstool_8c.html#afc94c2053fba7ff56b4e7725670b3014">sub_080252E0</a></div><div class="ttdeci">void sub_080252E0(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:178</div></div>
+<div class="ttc" id="apuffstool_8c_html_a1a188d509f78177477c77d3fec63b7c2"><div class="ttname"><a href="puffstool_8c.html#a1a188d509f78177477c77d3fec63b7c2">sub_08025230</a></div><div class="ttdeci">void sub_08025230(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:149</div></div>
+<div class="ttc" id="apuffstool_8c_html_a3ed20593a953418f4378322d0db3abe9"><div class="ttname"><a href="puffstool_8c.html#a3ed20593a953418f4378322d0db3abe9">sub_0802538C</a></div><div class="ttdeci">void sub_0802538C(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:207</div></div>
+<div class="ttc" id="apuffstool_8c_html_a434998dbfe6ed17d05389ddf730b0630"><div class="ttname"><a href="puffstool_8c.html#a434998dbfe6ed17d05389ddf730b0630">sub_0802563C</a></div><div class="ttdeci">void sub_0802563C(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:358</div></div>
+<div class="ttc" id="apuffstool_8c_html_a558c769aa0b98bdc57b9cfacf68e180c"><div class="ttname"><a href="puffstool_8c.html#a558c769aa0b98bdc57b9cfacf68e180c">sub_08025554</a></div><div class="ttdeci">void sub_08025554(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:303</div></div>
+<div class="ttc" id="apuffstool_8c_html_a7057e470bab65beade2d6cd6a0356e99"><div class="ttname"><a href="puffstool_8c.html#a7057e470bab65beade2d6cd6a0356e99">sub_0802541C</a></div><div class="ttdeci">void sub_0802541C(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:239</div></div>
+<div class="ttc" id="apuffstool_8c_html_a75200840d695d3c6444008c390cf7ac9"><div class="ttname"><a href="puffstool_8c.html#a75200840d695d3c6444008c390cf7ac9">sub_0802544C</a></div><div class="ttdeci">void sub_0802544C(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:249</div></div>
+<div class="ttc" id="apuffstool_8c_html_a7f650edb88e47169387ab709efff4366"><div class="ttname"><a href="puffstool_8c.html#a7f650edb88e47169387ab709efff4366">sub_080253D4</a></div><div class="ttdeci">void sub_080253D4(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:223</div></div>
+<div class="ttc" id="apuffstool_8c_html_a8e23e9c1887cca6629d278754457cd84"><div class="ttname"><a href="puffstool_8c.html#a8e23e9c1887cca6629d278754457cd84">sub_080251FC</a></div><div class="ttdeci">void sub_080251FC(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:140</div></div>
+<div class="ttc" id="apuffstool_8c_html_aa4db36eb28ace14f5edff056d21831d0"><div class="ttname"><a href="puffstool_8c.html#aa4db36eb28ace14f5edff056d21831d0">sub_080255AC</a></div><div class="ttdeci">void sub_080255AC(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:323</div></div>
+<div class="ttc" id="apuffstool_8c_html_aa815de70eb112068b6e62c94fde92c9d"><div class="ttname"><a href="puffstool_8c.html#aa815de70eb112068b6e62c94fde92c9d">sub_08025514</a></div><div class="ttdeci">void sub_08025514(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:291</div></div>
+<div class="ttc" id="apuffstool_8c_html_ade0a2338c3afb0486e1a906b35e4bdca"><div class="ttname"><a href="puffstool_8c.html#ade0a2338c3afb0486e1a906b35e4bdca">sub_080254B4</a></div><div class="ttdeci">void sub_080254B4(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:272</div></div>
+<div class="ttc" id="apuffstool_8c_html_adf84a676f26c83b7c6cd6f2b4f6219f6"><div class="ttname"><a href="puffstool_8c.html#adf84a676f26c83b7c6cd6f2b4f6219f6">sub_0802547C</a></div><div class="ttdeci">void sub_0802547C(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:260</div></div>
+<div class="ttc" id="apuffstool_8c_html_afc94c2053fba7ff56b4e7725670b3014"><div class="ttname"><a href="puffstool_8c.html#afc94c2053fba7ff56b4e7725670b3014">sub_080252E0</a></div><div class="ttdeci">void sub_080252E0(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:179</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1001,8 +1003,8 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="puffstool_8c.html#ad6c9b3a4928dd41cd0bd2fed20f9b6f0">sub_080251AC</a>,</div>
 <div class="line">    <a class="code hl_function" href="puffstool_8c.html#ad6c9b3a4928dd41cd0bd2fed20f9b6f0">sub_080251AC</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="apuffstool_8c_html_a1cec1608587cc27a4e36136712a935ee"><div class="ttname"><a href="puffstool_8c.html#a1cec1608587cc27a4e36136712a935ee">sub_08025180</a></div><div class="ttdeci">void sub_08025180(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:116</div></div>
-<div class="ttc" id="apuffstool_8c_html_ad6c9b3a4928dd41cd0bd2fed20f9b6f0"><div class="ttname"><a href="puffstool_8c.html#ad6c9b3a4928dd41cd0bd2fed20f9b6f0">sub_080251AC</a></div><div class="ttdeci">void sub_080251AC(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:124</div></div>
+<div class="ttc" id="apuffstool_8c_html_a1cec1608587cc27a4e36136712a935ee"><div class="ttname"><a href="puffstool_8c.html#a1cec1608587cc27a4e36136712a935ee">sub_08025180</a></div><div class="ttdeci">void sub_08025180(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:117</div></div>
+<div class="ttc" id="apuffstool_8c_html_ad6c9b3a4928dd41cd0bd2fed20f9b6f0"><div class="ttname"><a href="puffstool_8c.html#ad6c9b3a4928dd41cd0bd2fed20f9b6f0">sub_080251AC</a></div><div class="ttdeci">void sub_080251AC(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:125</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1186,10 +1188,10 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_variable" href="puffstool_8c.html#a780c90b535e129f995164acdd19f05d6">gUnk_080CC074</a>,</div>
 <div class="line">    <a class="code hl_variable" href="puffstool_8c.html#a16bf519e55c479054155b2d006f18ca5">gUnk_080CC085</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="apuffstool_8c_html_a16bf519e55c479054155b2d006f18ca5"><div class="ttname"><a href="puffstool_8c.html#a16bf519e55c479054155b2d006f18ca5">gUnk_080CC085</a></div><div class="ttdeci">const s8 gUnk_080CC085[]</div><div class="ttdef"><b>Definition:</b> puffstool.c:688</div></div>
-<div class="ttc" id="apuffstool_8c_html_a1a9ec0ccb3a07aaf9ea9eb85e00f9458"><div class="ttname"><a href="puffstool_8c.html#a1a9ec0ccb3a07aaf9ea9eb85e00f9458">gUnk_080CC063</a></div><div class="ttdeci">const s8 gUnk_080CC063[]</div><div class="ttdef"><b>Definition:</b> puffstool.c:672</div></div>
-<div class="ttc" id="apuffstool_8c_html_a3995880e2c53b4856897ee72dc70eb4a"><div class="ttname"><a href="puffstool_8c.html#a3995880e2c53b4856897ee72dc70eb4a">gUnk_080CC058</a></div><div class="ttdeci">const s8 gUnk_080CC058[]</div><div class="ttdef"><b>Definition:</b> puffstool.c:666</div></div>
-<div class="ttc" id="apuffstool_8c_html_a780c90b535e129f995164acdd19f05d6"><div class="ttname"><a href="puffstool_8c.html#a780c90b535e129f995164acdd19f05d6">gUnk_080CC074</a></div><div class="ttdeci">const s8 gUnk_080CC074[]</div><div class="ttdef"><b>Definition:</b> puffstool.c:680</div></div>
+<div class="ttc" id="apuffstool_8c_html_a16bf519e55c479054155b2d006f18ca5"><div class="ttname"><a href="puffstool_8c.html#a16bf519e55c479054155b2d006f18ca5">gUnk_080CC085</a></div><div class="ttdeci">const s8 gUnk_080CC085[]</div><div class="ttdef"><b>Definition:</b> puffstool.c:689</div></div>
+<div class="ttc" id="apuffstool_8c_html_a1a9ec0ccb3a07aaf9ea9eb85e00f9458"><div class="ttname"><a href="puffstool_8c.html#a1a9ec0ccb3a07aaf9ea9eb85e00f9458">gUnk_080CC063</a></div><div class="ttdeci">const s8 gUnk_080CC063[]</div><div class="ttdef"><b>Definition:</b> puffstool.c:673</div></div>
+<div class="ttc" id="apuffstool_8c_html_a3995880e2c53b4856897ee72dc70eb4a"><div class="ttname"><a href="puffstool_8c.html#a3995880e2c53b4856897ee72dc70eb4a">gUnk_080CC058</a></div><div class="ttdeci">const s8 gUnk_080CC058[]</div><div class="ttdef"><b>Definition:</b> puffstool.c:667</div></div>
+<div class="ttc" id="apuffstool_8c_html_a780c90b535e129f995164acdd19f05d6"><div class="ttname"><a href="puffstool_8c.html#a780c90b535e129f995164acdd19f05d6">gUnk_080CC074</a></div><div class="ttdeci">const s8 gUnk_080CC074[]</div><div class="ttdef"><b>Definition:</b> puffstool.c:681</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1303,10 +1305,10 @@ Variables</h2></td></tr>
 <div class="line">}</div>
 <div class="ttc" id="aacroBandits_8c_html_a011d86188747c52072f9c8e09d1f1d18"><div class="ttname"><a href="acroBandits_8c.html#a011d86188747c52072f9c8e09d1f1d18">GenericConfused</a></div><div class="ttdeci">void GenericConfused(Entity *this)</div></div>
 <div class="ttc" id="aasm_8h_html_ae7f4b31c5b7b590b6da3fccb26e10806"><div class="ttname"><a href="asm_8h.html#ae7f4b31c5b7b590b6da3fccb26e10806">GenericKnockback</a></div><div class="ttdeci">void GenericKnockback(struct Entity_ *)</div></div>
-<div class="ttc" id="apuffstool_8c_html_a0320bf5ca5c1db3f6df557b4f767c290"><div class="ttname"><a href="puffstool_8c.html#a0320bf5ca5c1db3f6df557b4f767c290">Puffstool_OnTick</a></div><div class="ttdeci">void Puffstool_OnTick(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:48</div></div>
-<div class="ttc" id="apuffstool_8c_html_a4bff6d5276862f5da2b462a98cb9e210"><div class="ttname"><a href="puffstool_8c.html#a4bff6d5276862f5da2b462a98cb9e210">Puffstool_OnCollide</a></div><div class="ttdeci">void Puffstool_OnCollide(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:52</div></div>
-<div class="ttc" id="apuffstool_8c_html_a5e510a31617bf73ef0f7e74b69fae7c8"><div class="ttname"><a href="puffstool_8c.html#a5e510a31617bf73ef0f7e74b69fae7c8">Puffstool_OnGrabbed</a></div><div class="ttdeci">void Puffstool_OnGrabbed(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:107</div></div>
-<div class="ttc" id="apuffstool_8c_html_ada2cf87ffcfd98a5269b3fa09490cde9"><div class="ttname"><a href="puffstool_8c.html#ada2cf87ffcfd98a5269b3fa09490cde9">Puffstool_OnDeath</a></div><div class="ttdeci">void Puffstool_OnDeath(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:100</div></div>
+<div class="ttc" id="apuffstool_8c_html_a0320bf5ca5c1db3f6df557b4f767c290"><div class="ttname"><a href="puffstool_8c.html#a0320bf5ca5c1db3f6df557b4f767c290">Puffstool_OnTick</a></div><div class="ttdeci">void Puffstool_OnTick(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:49</div></div>
+<div class="ttc" id="apuffstool_8c_html_a4bff6d5276862f5da2b462a98cb9e210"><div class="ttname"><a href="puffstool_8c.html#a4bff6d5276862f5da2b462a98cb9e210">Puffstool_OnCollide</a></div><div class="ttdeci">void Puffstool_OnCollide(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:53</div></div>
+<div class="ttc" id="apuffstool_8c_html_a5e510a31617bf73ef0f7e74b69fae7c8"><div class="ttname"><a href="puffstool_8c.html#a5e510a31617bf73ef0f7e74b69fae7c8">Puffstool_OnGrabbed</a></div><div class="ttdeci">void Puffstool_OnGrabbed(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:108</div></div>
+<div class="ttc" id="apuffstool_8c_html_ada2cf87ffcfd98a5269b3fa09490cde9"><div class="ttname"><a href="puffstool_8c.html#ada2cf87ffcfd98a5269b3fa09490cde9">Puffstool_OnDeath</a></div><div class="ttdeci">void Puffstool_OnDeath(Entity *this)</div><div class="ttdef"><b>Definition:</b> puffstool.c:101</div></div>
 </div><!-- fragment -->
 </div>
 </div>

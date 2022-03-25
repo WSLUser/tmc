@@ -29,10 +29,12 @@ var searchData=
   ['wind_5ftribespeople_26',['WIND_TRIBESPEOPLE',['../npc_8h.html#ab86484a9fbeb0e4494cb75cadb5f4cf3ad7afc15c608bcc0cf277e77d72214314',1,'npc.h']]],
   ['windcrest_27',['WINDCREST',['../object_8h.html#a0b29a1e1c76a85a0dbaa7c34a9d2874aa0d36984b8a29d94e587e12a302602182',1,'object.h']]],
   ['winder_28',['WINDER',['../projectile_8h.html#ade7b79b8b6788010eb8b6a9fd994ada4a7ecd8a8fea68b684de9f2fb87099cdfc',1,'projectile.h']]],
-  ['wings_29',['WINGS',['../greatFairy_8c.html#adb49720dc49f7d4e4cf9adbf2948e409ac5f9b2039b05f5eaaf2b4fa96d5bcb4c',1,'greatFairy.c']]],
-  ['wisp_30',['WISP',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba0bc9e3f29939dbed0d1399b18b88b67d',1,'enemy.h']]],
-  ['wizzrobe_5ffire_31',['WIZZROBE_FIRE',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08abac234b750fed4dc626e8132b5514f9700',1,'enemy.h']]],
-  ['wizzrobe_5fice_32',['WIZZROBE_ICE',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba1438753a9600a0255cd4ed4b65426e4f',1,'enemy.h']]],
-  ['wizzrobe_5fwind_33',['WIZZROBE_WIND',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba208beb9ca732785b4e56932bfaa5d795',1,'enemy.h']]],
-  ['wooden_5ftable_34',['WOODEN_TABLE',['../furniture_8c.html#aa06e085575735587cc1ab6389b3f2662ac247cddbed09fd4e1bd63ecaf189483b',1,'furniture.c']]]
+  ['winder_5ftype_5fhead_29',['WINDER_TYPE_HEAD',['../winder_8c.html#ad84e7e7f1f194f020693dad726618486aa370fb5235f454c383964dc33ec83b43',1,'winder.c']]],
+  ['winder_5ftype_5ftail_30',['WINDER_TYPE_TAIL',['../winder_8c.html#ad84e7e7f1f194f020693dad726618486a86bdb3936aed059159635456ef234121',1,'winder.c']]],
+  ['wings_31',['WINGS',['../greatFairy_8c.html#adb49720dc49f7d4e4cf9adbf2948e409ac5f9b2039b05f5eaaf2b4fa96d5bcb4c',1,'greatFairy.c']]],
+  ['wisp_32',['WISP',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba0bc9e3f29939dbed0d1399b18b88b67d',1,'enemy.h']]],
+  ['wizzrobe_5ffire_33',['WIZZROBE_FIRE',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08abac234b750fed4dc626e8132b5514f9700',1,'enemy.h']]],
+  ['wizzrobe_5fice_34',['WIZZROBE_ICE',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba1438753a9600a0255cd4ed4b65426e4f',1,'enemy.h']]],
+  ['wizzrobe_5fwind_35',['WIZZROBE_WIND',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba208beb9ca732785b4e56932bfaa5d795',1,'enemy.h']]],
+  ['wooden_5ftable_36',['WOODEN_TABLE',['../furniture_8c.html#aa06e085575735587cc1ab6389b3f2662ac247cddbed09fd4e1bd63ecaf189483b',1,'furniture.c']]]
 ];

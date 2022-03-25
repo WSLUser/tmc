@@ -82,6 +82,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="entity_8h_source.html">entity.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="collision_8h_source.html">collision.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="enemy_8h_source.html">enemy.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -91,38 +92,39 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="boneProjectile_8c__incl.png" border="0" usemap="#asrc_2projectile_2boneProjectile_8c" alt=""/></div>
 <map name="asrc_2projectile_2boneProjectile_8c" id="asrc_2projectile_2boneProjectile_8c">
-<area shape="rect" title=" " alt="" coords="532,5,724,32"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="751,304,814,331"/>
-<area shape="rect" href="enemy_8h.html" title=" " alt="" coords="247,155,318,181"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="905,80,991,107"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="663,453,729,480"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="666,379,726,405"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="751,379,815,405"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="807,528,886,555"/>
-<area shape="rect" title=" " alt="" coords="512,603,576,629"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1159,603,1233,629"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1068,603,1135,629"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="711,677,774,704"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="697,603,789,629"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="600,603,672,629"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="813,603,881,629"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="905,603,993,629"/>
-<area shape="rect" title=" " alt="" coords="1162,677,1230,704"/>
-<area shape="rect" title=" " alt="" coords="711,752,775,779"/>
-<area shape="rect" href="asm_8h.html" title=" " alt="" coords="251,379,309,405"/>
-<area shape="rect" href="sound_8h.html" title=" " alt="" coords="329,304,396,331"/>
-<area shape="rect" href="effects_8h.html" title=" " alt="" coords="531,229,602,256"/>
-<area shape="rect" href="flags_8h.html" title=" " alt="" coords="5,379,64,405"/>
-<area shape="rect" href="common_8h.html" title=" " alt="" coords="61,304,144,331"/>
-<area shape="rect" href="projectile_8h.html" title=" " alt="" coords="321,229,405,256"/>
-<area shape="rect" href="manager_8h.html" title=" " alt="" coords="920,229,1003,256"/>
-<area shape="rect" href="coord_8h.html" title=" " alt="" coords="1027,229,1091,256"/>
-<area shape="rect" href="player_8h.html" title=" " alt="" coords="677,229,744,256"/>
-<area shape="rect" href="room_8h.html" title=" " alt="" coords="1115,229,1176,256"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="665,155,756,181"/>
-<area shape="rect" href="script_8h.html" title=" " alt="" coords="881,155,945,181"/>
-<area shape="rect" href="map_8h.html" title=" " alt="" coords="1169,304,1226,331"/>
-<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="1001,304,1093,331"/>
+<area shape="rect" title=" " alt="" coords="520,5,712,32"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="818,304,881,331"/>
+<area shape="rect" href="collision_8h.html" title=" " alt="" coords="425,229,503,256"/>
+<area shape="rect" href="enemy_8h.html" title=" " alt="" coords="301,155,371,181"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="987,80,1072,107"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="721,453,788,480"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="818,379,878,405"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="903,379,967,405"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="866,528,945,555"/>
+<area shape="rect" title=" " alt="" coords="571,603,635,629"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1218,603,1291,629"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1127,603,1193,629"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="770,677,833,704"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="755,603,847,629"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="659,603,731,629"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="871,603,939,629"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="964,603,1052,629"/>
+<area shape="rect" title=" " alt="" coords="1221,677,1289,704"/>
+<area shape="rect" title=" " alt="" coords="769,752,833,779"/>
+<area shape="rect" href="asm_8h.html" title=" " alt="" coords="241,304,298,331"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="309,379,376,405"/>
+<area shape="rect" href="effects_8h.html" title=" " alt="" coords="614,229,685,256"/>
+<area shape="rect" href="flags_8h.html" title=" " alt="" coords="404,379,463,405"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="5,304,88,331"/>
+<area shape="rect" href="projectile_8h.html" title=" " alt="" coords="163,229,247,256"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="811,229,893,256"/>
+<area shape="rect" href="coord_8h.html" title=" " alt="" coords="1211,229,1275,256"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="1120,229,1187,256"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="528,229,589,256"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="1025,155,1116,181"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="887,155,951,181"/>
+<area shape="rect" href="map_8h.html" title=" " alt="" coords="1259,304,1317,331"/>
+<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="597,304,689,331"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -336,11 +338,11 @@ Variables</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
 <div class="line">    <a class="code hl_function" href="boneProjectile_8c.html#a043bba338e5528de36b2a2269b3c4136">BoneProjectile_Init</a>, <a class="code hl_function" href="boneProjectile_8c.html#a788a5434e1f291f746962d8db3f47351">BoneProjectile_Action1</a>, <a class="code hl_function" href="boneProjectile_8c.html#a9e0c0c2bacaaf497489c40cb986812c4">BoneProjectile_Action2</a>, <a class="code hl_function" href="boneProjectile_8c.html#a06d1af494ff9b7a88a75ff57f5527b78">BoneProjectile_Action3</a>, <a class="code hl_function" href="boneProjectile_8c.html#a22e176c1b51d99b9983e06a8f78feff5">BoneProjectile_Action4</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="aboneProjectile_8c_html_a043bba338e5528de36b2a2269b3c4136"><div class="ttname"><a href="boneProjectile_8c.html#a043bba338e5528de36b2a2269b3c4136">BoneProjectile_Init</a></div><div class="ttdeci">void BoneProjectile_Init(Entity *this)</div><div class="ttdef"><b>Definition:</b> boneProjectile.c:26</div></div>
-<div class="ttc" id="aboneProjectile_8c_html_a06d1af494ff9b7a88a75ff57f5527b78"><div class="ttname"><a href="boneProjectile_8c.html#a06d1af494ff9b7a88a75ff57f5527b78">BoneProjectile_Action3</a></div><div class="ttdeci">void BoneProjectile_Action3(Entity *this)</div><div class="ttdef"><b>Definition:</b> boneProjectile.c:62</div></div>
-<div class="ttc" id="aboneProjectile_8c_html_a22e176c1b51d99b9983e06a8f78feff5"><div class="ttname"><a href="boneProjectile_8c.html#a22e176c1b51d99b9983e06a8f78feff5">BoneProjectile_Action4</a></div><div class="ttdeci">void BoneProjectile_Action4(Entity *this)</div><div class="ttdef"><b>Definition:</b> boneProjectile.c:71</div></div>
-<div class="ttc" id="aboneProjectile_8c_html_a788a5434e1f291f746962d8db3f47351"><div class="ttname"><a href="boneProjectile_8c.html#a788a5434e1f291f746962d8db3f47351">BoneProjectile_Action1</a></div><div class="ttdeci">void BoneProjectile_Action1(Entity *this)</div><div class="ttdef"><b>Definition:</b> boneProjectile.c:33</div></div>
-<div class="ttc" id="aboneProjectile_8c_html_a9e0c0c2bacaaf497489c40cb986812c4"><div class="ttname"><a href="boneProjectile_8c.html#a9e0c0c2bacaaf497489c40cb986812c4">BoneProjectile_Action2</a></div><div class="ttdeci">void BoneProjectile_Action2(Entity *this)</div><div class="ttdef"><b>Definition:</b> boneProjectile.c:51</div></div>
+<div class="ttc" id="aboneProjectile_8c_html_a043bba338e5528de36b2a2269b3c4136"><div class="ttname"><a href="boneProjectile_8c.html#a043bba338e5528de36b2a2269b3c4136">BoneProjectile_Init</a></div><div class="ttdeci">void BoneProjectile_Init(Entity *this)</div><div class="ttdef"><b>Definition:</b> boneProjectile.c:27</div></div>
+<div class="ttc" id="aboneProjectile_8c_html_a06d1af494ff9b7a88a75ff57f5527b78"><div class="ttname"><a href="boneProjectile_8c.html#a06d1af494ff9b7a88a75ff57f5527b78">BoneProjectile_Action3</a></div><div class="ttdeci">void BoneProjectile_Action3(Entity *this)</div><div class="ttdef"><b>Definition:</b> boneProjectile.c:63</div></div>
+<div class="ttc" id="aboneProjectile_8c_html_a22e176c1b51d99b9983e06a8f78feff5"><div class="ttname"><a href="boneProjectile_8c.html#a22e176c1b51d99b9983e06a8f78feff5">BoneProjectile_Action4</a></div><div class="ttdeci">void BoneProjectile_Action4(Entity *this)</div><div class="ttdef"><b>Definition:</b> boneProjectile.c:72</div></div>
+<div class="ttc" id="aboneProjectile_8c_html_a788a5434e1f291f746962d8db3f47351"><div class="ttname"><a href="boneProjectile_8c.html#a788a5434e1f291f746962d8db3f47351">BoneProjectile_Action1</a></div><div class="ttdeci">void BoneProjectile_Action1(Entity *this)</div><div class="ttdef"><b>Definition:</b> boneProjectile.c:34</div></div>
+<div class="ttc" id="aboneProjectile_8c_html_a9e0c0c2bacaaf497489c40cb986812c4"><div class="ttname"><a href="boneProjectile_8c.html#a9e0c0c2bacaaf497489c40cb986812c4">BoneProjectile_Action2</a></div><div class="ttdeci">void BoneProjectile_Action2(Entity *this)</div><div class="ttdef"><b>Definition:</b> boneProjectile.c:52</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -362,8 +364,8 @@ Variables</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
 <div class="line">    <a class="code hl_function" href="boneProjectile_8c.html#a936c36fcce0a74f0fb01fbf36d4238ef">BoneProjectile_OnTick</a>, <a class="code hl_function" href="boneProjectile_8c.html#ad5de0e6825dca698788d56a4c8750064">sub_080A81C4</a>, <a class="code hl_function" href="entity_8c.html#a6c36abfca4590f417be8e49ebb2d48ca">DeleteEntity</a>, <a class="code hl_function" href="entity_8c.html#a6c36abfca4590f417be8e49ebb2d48ca">DeleteEntity</a>, <a class="code hl_function" href="entity_8c.html#a6c36abfca4590f417be8e49ebb2d48ca">DeleteEntity</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="aboneProjectile_8c_html_a936c36fcce0a74f0fb01fbf36d4238ef"><div class="ttname"><a href="boneProjectile_8c.html#a936c36fcce0a74f0fb01fbf36d4238ef">BoneProjectile_OnTick</a></div><div class="ttdeci">void BoneProjectile_OnTick(Entity *this)</div><div class="ttdef"><b>Definition:</b> boneProjectile.c:14</div></div>
-<div class="ttc" id="aboneProjectile_8c_html_ad5de0e6825dca698788d56a4c8750064"><div class="ttname"><a href="boneProjectile_8c.html#ad5de0e6825dca698788d56a4c8750064">sub_080A81C4</a></div><div class="ttdeci">void sub_080A81C4(Entity *this)</div><div class="ttdef"><b>Definition:</b> boneProjectile.c:18</div></div>
+<div class="ttc" id="aboneProjectile_8c_html_a936c36fcce0a74f0fb01fbf36d4238ef"><div class="ttname"><a href="boneProjectile_8c.html#a936c36fcce0a74f0fb01fbf36d4238ef">BoneProjectile_OnTick</a></div><div class="ttdeci">void BoneProjectile_OnTick(Entity *this)</div><div class="ttdef"><b>Definition:</b> boneProjectile.c:15</div></div>
+<div class="ttc" id="aboneProjectile_8c_html_ad5de0e6825dca698788d56a4c8750064"><div class="ttname"><a href="boneProjectile_8c.html#ad5de0e6825dca698788d56a4c8750064">sub_080A81C4</a></div><div class="ttdeci">void sub_080A81C4(Entity *this)</div><div class="ttdef"><b>Definition:</b> boneProjectile.c:19</div></div>
 <div class="ttc" id="aentity_8c_html_a6c36abfca4590f417be8e49ebb2d48ca"><div class="ttname"><a href="entity_8c.html#a6c36abfca4590f417be8e49ebb2d48ca">DeleteEntity</a></div><div class="ttdeci">void DeleteEntity(Entity *ent)</div><div class="ttdoc">Delete an Entity.</div><div class="ttdef"><b>Definition:</b> entity.c:341</div></div>
 </div><!-- fragment -->
 </div>

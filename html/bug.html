@@ -96,7 +96,9 @@ $(function() {
 <dt>Global <a class="el" href="stockwell_8c.html#a8f7f97066f387604a083b254384b4821">sub_080650CC</a>  (<a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> *this)</dt>
 <dd><a class="anchor" id="_bug000010"></a>itemPrice (r8) is not initialized if gRoomVars.shopItemType == 0  </dd>
 <dt>Global <a class="el" href="player_8c.html#a2891ffa861a709944ea6c573324a026a">SurfaceAction_CloneTile</a>  (<a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> *this)</dt>
-<dd><a class="anchor" id="_bug000011"></a>: n is not initialized </dd>
+<dd><a class="anchor" id="_bug000011"></a>: n is not initialized  </dd>
+<dt>Global <a class="el" href="winder_8c.html#a73020062a9dfb2f65fce3375b00e55af">Winder_SetPositions</a>  (<a class="el" href="structWinderEntity.html">WinderEntity</a> *)</dt>
+<dd><a class="anchor" id="_bug000012"></a>Undefined behaviour for source and destination to overlap in a memcpy. In this case it is okay because the copy will always be sequential, incremental and in chunks of &lt;= 4 bytes, so it will copy the contents of positions[0] and positions[1] to positions[2] and positions[3], then that of positions[2] and positions[3] to positions[4] and positions[5], and so on. A safer way to do this would be a manual loop as in Winder_Move. </dd>
 </dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

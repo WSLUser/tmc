@@ -87,6 +87,7 @@ $(function() {
 <p>Stalfos enemy.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="global_8h_source.html">global.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="collision_8h_source.html">collision.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="enemy_8h_source.html">enemy.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -96,38 +97,39 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="stalfos_8c__incl.png" border="0" usemap="#asrc_2enemy_2stalfos_8c" alt=""/></div>
 <map name="asrc_2enemy_2stalfos_8c" id="asrc_2enemy_2stalfos_8c">
-<area shape="rect" title="Stalfos enemy." alt="" coords="198,5,333,32"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="621,453,688,480"/>
-<area shape="rect" href="enemy_8h.html" title=" " alt="" coords="230,155,301,181"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="851,80,936,107"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="766,528,845,555"/>
-<area shape="rect" title=" " alt="" coords="471,603,535,629"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1118,603,1191,629"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1027,603,1093,629"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="670,677,733,704"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="655,603,747,629"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="559,603,631,629"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="771,603,839,629"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="864,603,952,629"/>
-<area shape="rect" title=" " alt="" coords="1121,677,1189,704"/>
-<area shape="rect" title=" " alt="" coords="669,752,733,779"/>
-<area shape="rect" href="asm_8h.html" title=" " alt="" coords="297,379,354,405"/>
-<area shape="rect" href="sound_8h.html" title=" " alt="" coords="304,304,371,331"/>
-<area shape="rect" href="effects_8h.html" title=" " alt="" coords="523,229,594,256"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="734,304,797,331"/>
-<area shape="rect" href="flags_8h.html" title=" " alt="" coords="43,304,101,331"/>
-<area shape="rect" href="common_8h.html" title=" " alt="" coords="97,379,180,405"/>
-<area shape="rect" href="projectile_8h.html" title=" " alt="" coords="329,229,413,256"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="797,379,857,405"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="657,379,721,405"/>
-<area shape="rect" href="manager_8h.html" title=" " alt="" coords="619,229,701,256"/>
-<area shape="rect" href="coord_8h.html" title=" " alt="" coords="1069,229,1133,256"/>
-<area shape="rect" href="player_8h.html" title=" " alt="" coords="877,229,944,256"/>
-<area shape="rect" href="room_8h.html" title=" " alt="" coords="437,229,499,256"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="965,155,1056,181"/>
-<area shape="rect" href="script_8h.html" title=" " alt="" coords="827,155,891,181"/>
-<area shape="rect" href="map_8h.html" title=" " alt="" coords="1125,304,1182,331"/>
-<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="422,304,514,331"/>
+<area shape="rect" title="Stalfos enemy." alt="" coords="310,5,445,32"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="568,453,635,480"/>
+<area shape="rect" href="collision_8h.html" title=" " alt="" coords="406,229,485,256"/>
+<area shape="rect" href="enemy_8h.html" title=" " alt="" coords="282,155,353,181"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="931,80,1016,107"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="713,528,791,555"/>
+<area shape="rect" title=" " alt="" coords="417,603,481,629"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1065,603,1138,629"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="973,603,1040,629"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="617,677,679,704"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="602,603,694,629"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="505,603,577,629"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="718,603,786,629"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="811,603,899,629"/>
+<area shape="rect" title=" " alt="" coords="1067,677,1135,704"/>
+<area shape="rect" title=" " alt="" coords="616,752,680,779"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="763,304,826,331"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="690,379,750,405"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="775,379,839,405"/>
+<area shape="rect" href="asm_8h.html" title=" " alt="" coords="50,379,107,405"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="128,304,195,331"/>
+<area shape="rect" href="effects_8h.html" title=" " alt="" coords="617,229,687,256"/>
+<area shape="rect" href="flags_8h.html" title=" " alt="" coords="259,379,317,405"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="304,304,387,331"/>
+<area shape="rect" href="projectile_8h.html" title=" " alt="" coords="145,229,229,256"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="509,229,592,256"/>
+<area shape="rect" href="coord_8h.html" title=" " alt="" coords="763,229,827,256"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="1003,229,1069,256"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="1253,229,1315,256"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="979,155,1069,181"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="891,155,955,181"/>
+<area shape="rect" href="map_8h.html" title=" " alt="" coords="1113,304,1170,331"/>
+<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="1246,304,1338,331"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -868,11 +870,11 @@ Variables</h2></td></tr>
 <div class="line">}</div>
 <div class="ttc" id="aacroBandits_8c_html_a011d86188747c52072f9c8e09d1f1d18"><div class="ttname"><a href="acroBandits_8c.html#a011d86188747c52072f9c8e09d1f1d18">GenericConfused</a></div><div class="ttdeci">void GenericConfused(Entity *this)</div></div>
 <div class="ttc" id="aasm_8h_html_ae7f4b31c5b7b590b6da3fccb26e10806"><div class="ttname"><a href="asm_8h.html#ae7f4b31c5b7b590b6da3fccb26e10806">GenericKnockback</a></div><div class="ttdeci">void GenericKnockback(struct Entity_ *)</div></div>
-<div class="ttc" id="astalfos_8c_html_a19864ea6d940802c49aea15872caad25"><div class="ttname"><a href="stalfos_8c.html#a19864ea6d940802c49aea15872caad25">sub_0803933C</a></div><div class="ttdeci">asm non_matching stalfos sub_0803933C void sub_0803933C(StalfosEntity *this))</div><div class="ttdef"><b>Definition:</b> stalfos.c:75</div></div>
-<div class="ttc" id="astalfos_8c_html_a1e7df0485e268728896880b52f056934"><div class="ttname"><a href="stalfos_8c.html#a1e7df0485e268728896880b52f056934">Stalfos_OnTick</a></div><div class="ttdeci">void Stalfos_OnTick(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:56</div></div>
-<div class="ttc" id="astalfos_8c_html_a228c2b76c53979003839abe1a87dc8a6"><div class="ttname"><a href="stalfos_8c.html#a228c2b76c53979003839abe1a87dc8a6">sub_08039418</a></div><div class="ttdeci">void sub_08039418(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:117</div></div>
-<div class="ttc" id="astalfos_8c_html_aeab393022a1dac7a1e4e358dd398700b"><div class="ttname"><a href="stalfos_8c.html#aeab393022a1dac7a1e4e358dd398700b">sub_08039438</a></div><div class="ttdeci">void sub_08039438(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:125</div></div>
-<div class="ttc" id="astructStalfosEntity_html"><div class="ttname"><a href="structStalfosEntity.html">StalfosEntity</a></div><div class="ttdef"><b>Definition:</b> stalfos.c:13</div></div>
+<div class="ttc" id="astalfos_8c_html_a19864ea6d940802c49aea15872caad25"><div class="ttname"><a href="stalfos_8c.html#a19864ea6d940802c49aea15872caad25">sub_0803933C</a></div><div class="ttdeci">asm non_matching stalfos sub_0803933C void sub_0803933C(StalfosEntity *this))</div><div class="ttdef"><b>Definition:</b> stalfos.c:76</div></div>
+<div class="ttc" id="astalfos_8c_html_a1e7df0485e268728896880b52f056934"><div class="ttname"><a href="stalfos_8c.html#a1e7df0485e268728896880b52f056934">Stalfos_OnTick</a></div><div class="ttdeci">void Stalfos_OnTick(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:57</div></div>
+<div class="ttc" id="astalfos_8c_html_a228c2b76c53979003839abe1a87dc8a6"><div class="ttname"><a href="stalfos_8c.html#a228c2b76c53979003839abe1a87dc8a6">sub_08039418</a></div><div class="ttdeci">void sub_08039418(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:118</div></div>
+<div class="ttc" id="astalfos_8c_html_aeab393022a1dac7a1e4e358dd398700b"><div class="ttname"><a href="stalfos_8c.html#aeab393022a1dac7a1e4e358dd398700b">sub_08039438</a></div><div class="ttdeci">void sub_08039438(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:126</div></div>
+<div class="ttc" id="astructStalfosEntity_html"><div class="ttname"><a href="structStalfosEntity.html">StalfosEntity</a></div><div class="ttdef"><b>Definition:</b> stalfos.c:14</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1077,18 +1079,18 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="stalfos_8c.html#ad689319e1b4723a206272b74aa42d45f">Stalfos_Init</a>,    <a class="code hl_function" href="stalfos_8c.html#ac99b0a12db7fe89537335f388205b7e6">Stalfos_Action1</a>, <a class="code hl_function" href="stalfos_8c.html#a6c753c3d3fa65e9e4bcc3cae9c2b091b">Stalfos_Action2</a>, <a class="code hl_function" href="stalfos_8c.html#ab01fc19c89f1b9f9f14b795532cbd457">Stalfos_Action3</a>, <a class="code hl_function" href="stalfos_8c.html#a9bc0a81d2848cd5fefcb28718243ab4d">Stalfos_Action4</a>,  <a class="code hl_function" href="stalfos_8c.html#a82f4a66fadc86869c8dc8b7ac864d1c1">Stalfos_Action5</a>,</div>
 <div class="line">    <a class="code hl_function" href="stalfos_8c.html#aa74f5c80c54fcd2dd19854012a7a74d2">Stalfos_Action6</a>, <a class="code hl_function" href="stalfos_8c.html#a1dfc184faadcc4948f8dd6aee3e37682">Stalfos_Action7</a>, <a class="code hl_function" href="stalfos_8c.html#a2797dc20f1bde862909f4a5a3f2fbc51">Stalfos_Action8</a>, <a class="code hl_function" href="stalfos_8c.html#a235efad1a0fccd1b50077e8d51ca9f84">Stalfos_Action9</a>, <a class="code hl_function" href="stalfos_8c.html#a55789441642e36fac63872548cacc735">Stalfos_Action11</a>, <a class="code hl_function" href="stalfos_8c.html#a22234769b88c19db88c8bf2aa55969e7">Stalfos_Action12</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="astalfos_8c_html_a1dfc184faadcc4948f8dd6aee3e37682"><div class="ttname"><a href="stalfos_8c.html#a1dfc184faadcc4948f8dd6aee3e37682">Stalfos_Action7</a></div><div class="ttdeci">void Stalfos_Action7(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:240</div></div>
-<div class="ttc" id="astalfos_8c_html_a22234769b88c19db88c8bf2aa55969e7"><div class="ttname"><a href="stalfos_8c.html#a22234769b88c19db88c8bf2aa55969e7">Stalfos_Action12</a></div><div class="ttdeci">void Stalfos_Action12(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:270</div></div>
-<div class="ttc" id="astalfos_8c_html_a235efad1a0fccd1b50077e8d51ca9f84"><div class="ttname"><a href="stalfos_8c.html#a235efad1a0fccd1b50077e8d51ca9f84">Stalfos_Action9</a></div><div class="ttdeci">void Stalfos_Action9(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:256</div></div>
-<div class="ttc" id="astalfos_8c_html_a2797dc20f1bde862909f4a5a3f2fbc51"><div class="ttname"><a href="stalfos_8c.html#a2797dc20f1bde862909f4a5a3f2fbc51">Stalfos_Action8</a></div><div class="ttdeci">void Stalfos_Action8(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:246</div></div>
-<div class="ttc" id="astalfos_8c_html_a55789441642e36fac63872548cacc735"><div class="ttname"><a href="stalfos_8c.html#a55789441642e36fac63872548cacc735">Stalfos_Action11</a></div><div class="ttdeci">void Stalfos_Action11(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:262</div></div>
-<div class="ttc" id="astalfos_8c_html_a6c753c3d3fa65e9e4bcc3cae9c2b091b"><div class="ttname"><a href="stalfos_8c.html#a6c753c3d3fa65e9e4bcc3cae9c2b091b">Stalfos_Action2</a></div><div class="ttdeci">void Stalfos_Action2(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:183</div></div>
-<div class="ttc" id="astalfos_8c_html_a82f4a66fadc86869c8dc8b7ac864d1c1"><div class="ttname"><a href="stalfos_8c.html#a82f4a66fadc86869c8dc8b7ac864d1c1">Stalfos_Action5</a></div><div class="ttdeci">void Stalfos_Action5(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:212</div></div>
-<div class="ttc" id="astalfos_8c_html_a9bc0a81d2848cd5fefcb28718243ab4d"><div class="ttname"><a href="stalfos_8c.html#a9bc0a81d2848cd5fefcb28718243ab4d">Stalfos_Action4</a></div><div class="ttdeci">void Stalfos_Action4(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:203</div></div>
-<div class="ttc" id="astalfos_8c_html_aa74f5c80c54fcd2dd19854012a7a74d2"><div class="ttname"><a href="stalfos_8c.html#aa74f5c80c54fcd2dd19854012a7a74d2">Stalfos_Action6</a></div><div class="ttdeci">void Stalfos_Action6(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:221</div></div>
-<div class="ttc" id="astalfos_8c_html_ab01fc19c89f1b9f9f14b795532cbd457"><div class="ttname"><a href="stalfos_8c.html#ab01fc19c89f1b9f9f14b795532cbd457">Stalfos_Action3</a></div><div class="ttdeci">void Stalfos_Action3(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:189</div></div>
-<div class="ttc" id="astalfos_8c_html_ac99b0a12db7fe89537335f388205b7e6"><div class="ttname"><a href="stalfos_8c.html#ac99b0a12db7fe89537335f388205b7e6">Stalfos_Action1</a></div><div class="ttdeci">void Stalfos_Action1(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:175</div></div>
-<div class="ttc" id="astalfos_8c_html_ad689319e1b4723a206272b74aa42d45f"><div class="ttname"><a href="stalfos_8c.html#ad689319e1b4723a206272b74aa42d45f">Stalfos_Init</a></div><div class="ttdeci">void Stalfos_Init(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:158</div></div>
+<div class="ttc" id="astalfos_8c_html_a1dfc184faadcc4948f8dd6aee3e37682"><div class="ttname"><a href="stalfos_8c.html#a1dfc184faadcc4948f8dd6aee3e37682">Stalfos_Action7</a></div><div class="ttdeci">void Stalfos_Action7(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:241</div></div>
+<div class="ttc" id="astalfos_8c_html_a22234769b88c19db88c8bf2aa55969e7"><div class="ttname"><a href="stalfos_8c.html#a22234769b88c19db88c8bf2aa55969e7">Stalfos_Action12</a></div><div class="ttdeci">void Stalfos_Action12(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:271</div></div>
+<div class="ttc" id="astalfos_8c_html_a235efad1a0fccd1b50077e8d51ca9f84"><div class="ttname"><a href="stalfos_8c.html#a235efad1a0fccd1b50077e8d51ca9f84">Stalfos_Action9</a></div><div class="ttdeci">void Stalfos_Action9(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:257</div></div>
+<div class="ttc" id="astalfos_8c_html_a2797dc20f1bde862909f4a5a3f2fbc51"><div class="ttname"><a href="stalfos_8c.html#a2797dc20f1bde862909f4a5a3f2fbc51">Stalfos_Action8</a></div><div class="ttdeci">void Stalfos_Action8(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:247</div></div>
+<div class="ttc" id="astalfos_8c_html_a55789441642e36fac63872548cacc735"><div class="ttname"><a href="stalfos_8c.html#a55789441642e36fac63872548cacc735">Stalfos_Action11</a></div><div class="ttdeci">void Stalfos_Action11(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:263</div></div>
+<div class="ttc" id="astalfos_8c_html_a6c753c3d3fa65e9e4bcc3cae9c2b091b"><div class="ttname"><a href="stalfos_8c.html#a6c753c3d3fa65e9e4bcc3cae9c2b091b">Stalfos_Action2</a></div><div class="ttdeci">void Stalfos_Action2(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:184</div></div>
+<div class="ttc" id="astalfos_8c_html_a82f4a66fadc86869c8dc8b7ac864d1c1"><div class="ttname"><a href="stalfos_8c.html#a82f4a66fadc86869c8dc8b7ac864d1c1">Stalfos_Action5</a></div><div class="ttdeci">void Stalfos_Action5(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:213</div></div>
+<div class="ttc" id="astalfos_8c_html_a9bc0a81d2848cd5fefcb28718243ab4d"><div class="ttname"><a href="stalfos_8c.html#a9bc0a81d2848cd5fefcb28718243ab4d">Stalfos_Action4</a></div><div class="ttdeci">void Stalfos_Action4(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:204</div></div>
+<div class="ttc" id="astalfos_8c_html_aa74f5c80c54fcd2dd19854012a7a74d2"><div class="ttname"><a href="stalfos_8c.html#aa74f5c80c54fcd2dd19854012a7a74d2">Stalfos_Action6</a></div><div class="ttdeci">void Stalfos_Action6(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:222</div></div>
+<div class="ttc" id="astalfos_8c_html_ab01fc19c89f1b9f9f14b795532cbd457"><div class="ttname"><a href="stalfos_8c.html#ab01fc19c89f1b9f9f14b795532cbd457">Stalfos_Action3</a></div><div class="ttdeci">void Stalfos_Action3(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:190</div></div>
+<div class="ttc" id="astalfos_8c_html_ac99b0a12db7fe89537335f388205b7e6"><div class="ttname"><a href="stalfos_8c.html#ac99b0a12db7fe89537335f388205b7e6">Stalfos_Action1</a></div><div class="ttdeci">void Stalfos_Action1(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:176</div></div>
+<div class="ttc" id="astalfos_8c_html_ad689319e1b4723a206272b74aa42d45f"><div class="ttname"><a href="stalfos_8c.html#ad689319e1b4723a206272b74aa42d45f">Stalfos_Init</a></div><div class="ttdeci">void Stalfos_Init(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:159</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1138,9 +1140,9 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="stalfos_8c.html#aee254ebca1c9318dec56f13ae8a71578">Stalfos_SubAction1</a>,</div>
 <div class="line">    <a class="code hl_function" href="stalfos_8c.html#a30b89e689b32246ce89db384937c1714">Stalfos_SubAction2</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="astalfos_8c_html_a30b89e689b32246ce89db384937c1714"><div class="ttname"><a href="stalfos_8c.html#a30b89e689b32246ce89db384937c1714">Stalfos_SubAction2</a></div><div class="ttdeci">void Stalfos_SubAction2(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:140</div></div>
-<div class="ttc" id="astalfos_8c_html_aa47e316f8faedd90d635d0d9d7b4d2a7"><div class="ttname"><a href="stalfos_8c.html#aa47e316f8faedd90d635d0d9d7b4d2a7">Stalfos_SubAction0</a></div><div class="ttdeci">void Stalfos_SubAction0(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:131</div></div>
-<div class="ttc" id="astalfos_8c_html_aee254ebca1c9318dec56f13ae8a71578"><div class="ttname"><a href="stalfos_8c.html#aee254ebca1c9318dec56f13ae8a71578">Stalfos_SubAction1</a></div><div class="ttdeci">void Stalfos_SubAction1(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:136</div></div>
+<div class="ttc" id="astalfos_8c_html_a30b89e689b32246ce89db384937c1714"><div class="ttname"><a href="stalfos_8c.html#a30b89e689b32246ce89db384937c1714">Stalfos_SubAction2</a></div><div class="ttdeci">void Stalfos_SubAction2(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:141</div></div>
+<div class="ttc" id="astalfos_8c_html_aa47e316f8faedd90d635d0d9d7b4d2a7"><div class="ttname"><a href="stalfos_8c.html#aa47e316f8faedd90d635d0d9d7b4d2a7">Stalfos_SubAction0</a></div><div class="ttdeci">void Stalfos_SubAction0(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:132</div></div>
+<div class="ttc" id="astalfos_8c_html_aee254ebca1c9318dec56f13ae8a71578"><div class="ttname"><a href="stalfos_8c.html#aee254ebca1c9318dec56f13ae8a71578">Stalfos_SubAction1</a></div><div class="ttdeci">void Stalfos_SubAction1(StalfosEntity *this)</div><div class="ttdef"><b>Definition:</b> stalfos.c:137</div></div>
 </div><!-- fragment -->
 </div>
 </div>
