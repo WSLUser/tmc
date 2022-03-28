@@ -23,13 +23,14 @@ var searchData=
   ['gunk_5f081227cc_5fstruct_20',['gUnk_081227CC_struct',['../structgUnk__081227CC__struct.html',1,'']]],
   ['gunk_5f081229d0_5fstruct_21',['gUnk_081229D0_struct',['../structgUnk__081229D0__struct.html',1,'']]],
   ['gunk_5f081229f0_5fstruct_22',['gUnk_081229F0_struct',['../structgUnk__081229F0__struct.html',1,'']]],
-  ['gyorgbossobjectentity_23',['GyorgBossObjectEntity',['../structGyorgBossObjectEntity.html',1,'']]],
-  ['gyorgchildentity_24',['GyorgChildEntity',['../structGyorgChildEntity.html',1,'']]],
-  ['gyorgchildspawns_25',['GyorgChildSpawns',['../structGyorgChildSpawns.html',1,'']]],
-  ['gyorgfemaleentity_26',['GyorgFemaleEntity',['../structGyorgFemaleEntity.html',1,'']]],
-  ['gyorgfemaleeyeentity_27',['GyorgFemaleEyeEntity',['../structGyorgFemaleEyeEntity.html',1,'']]],
-  ['gyorgfemalemouthentity_28',['GyorgFemaleMouthEntity',['../structGyorgFemaleMouthEntity.html',1,'']]],
-  ['gyorgheap_29',['GyorgHeap',['../structGyorgHeap.html',1,'']]],
-  ['gyorgmaleentity_30',['GyorgMaleEntity',['../structGyorgMaleEntity.html',1,'']]],
-  ['gyorgmaleeyeentity_31',['GyorgMaleEyeEntity',['../structGyorgMaleEyeEntity.html',1,'']]]
+  ['gustentity_23',['GustEntity',['../structGustEntity.html',1,'']]],
+  ['gyorgbossobjectentity_24',['GyorgBossObjectEntity',['../structGyorgBossObjectEntity.html',1,'']]],
+  ['gyorgchildentity_25',['GyorgChildEntity',['../structGyorgChildEntity.html',1,'']]],
+  ['gyorgchildspawns_26',['GyorgChildSpawns',['../structGyorgChildSpawns.html',1,'']]],
+  ['gyorgfemaleentity_27',['GyorgFemaleEntity',['../structGyorgFemaleEntity.html',1,'']]],
+  ['gyorgfemaleeyeentity_28',['GyorgFemaleEyeEntity',['../structGyorgFemaleEyeEntity.html',1,'']]],
+  ['gyorgfemalemouthentity_29',['GyorgFemaleMouthEntity',['../structGyorgFemaleMouthEntity.html',1,'']]],
+  ['gyorgheap_30',['GyorgHeap',['../structGyorgHeap.html',1,'']]],
+  ['gyorgmaleentity_31',['GyorgMaleEntity',['../structGyorgMaleEntity.html',1,'']]],
+  ['gyorgmaleeyeentity_32',['GyorgMaleEyeEntity',['../structGyorgMaleEyeEntity.html',1,'']]]
 ];

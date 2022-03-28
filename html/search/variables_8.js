@@ -1,9 +1,9 @@
 var searchData=
 [
   ['h_0',['h',['../structGenericMenu.html#a82dc49d1acdaaf439d113dad2bbdf5a7',1,'GenericMenu::h()'],['../structFigurineMenu.html#a72b11a24cecff16e02dd84d3343b3eb4',1,'FigurineMenu::h()'],['../structPACKED.html#a4b943e27687db792c10ad1181c8f9905',1,'PACKED::h()']]],
-  ['half_1',['half',['../structDMARegisters.html#aac06143552a6ca38dbf8c6f2ef9ae4d6',1,'DMARegisters']]],
-  ['half_2',['HALF',['../unionCoords.html#abc226cfe144b8e1301cd644ebbcca400',1,'Coords::HALF()'],['../unionSplitWord.html#afd3326ebf56c71a8fadc048f733c9cf2',1,'SplitWord::HALF()'],['../unionSplitHWord.html#a0c3a61ff4e9545a46857a7335c5622f5',1,'SplitHWord::HALF()'],['../unionSplitSHWord.html#ad85eca3d052d4f07357e5968a0874969',1,'SplitSHWord::HALF()']]],
-  ['half_5fu_3',['HALF_U',['../unionSplitWord.html#a1c8e22e04a38ea89e19e40040c96c26a',1,'SplitWord']]],
+  ['half_1',['HALF',['../unionCoords.html#aed9b849461f660355f681efee9182691',1,'Coords::HALF()'],['../unionSplitWord.html#afdb5702da54a82fa0b6a0d10c9de6f90',1,'SplitWord::HALF()'],['../unionSplitHWord.html#af013e3b039afb314bb772e87d7e4410f',1,'SplitHWord::HALF()'],['../unionSplitSHWord.html#a9521c752cbe20d64a7a0d37058038166',1,'SplitSHWord::HALF()']]],
+  ['half_2',['half',['../structDMARegisters.html#aac06143552a6ca38dbf8c6f2ef9ae4d6',1,'DMARegisters']]],
+  ['half_5fu_3',['HALF_U',['../unionSplitWord.html#a66047d0d16d0aae83fd5d883a7926fc4',1,'SplitWord']]],
   ['handshake_5fdata_4',['handshake_data',['../structMultiBootParam.html#a16f25d7693ed8dc3d58de7089c68cd8e',1,'MultiBootParam']]],
   ['handshake_5ftimeout_5',['handshake_timeout',['../structMultiBootParam.html#af8155ab1a3c27e9a67e6ba6ab39c9d21',1,'MultiBootParam']]],
   ['hangingseed_5ffunctions_6',['HangingSeed_Functions',['../hangingSeed_8c.html#ac11649c479eb4aa4914b8f19c2a27e18',1,'hangingSeed.c']]],
