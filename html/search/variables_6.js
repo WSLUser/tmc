@@ -25,7 +25,7 @@ var searchData=
   ['field_5f0x15_22',['field_0x15',['../structPlayerState.html#aa4c93997b12b60b8990ed7a5e01c57ff',1,'PlayerState::field_0x15()'],['../structPlayerRoomStatus.html#ac242b0a1e35398d8abd647e997a87e30',1,'PlayerRoomStatus::field_0x15()']]],
   ['field_5f0x16_23',['field_0x16',['../structEntity.html#ad337ccd906f5d4657bf4390be76b95a0',1,'Entity']]],
   ['field_5f0x17_24',['field_0x17',['../structEntity.html#a489f768c20dd0934dde2c63db67559fa',1,'Entity']]],
-  ['field_5f0x18_25',['field_0x18',['../structItemBehavior.html#a38a6822c47bb95184234d36a6386d9fb',1,'ItemBehavior::field_0x18()'],['../structMessage.html#a355bf7144a386ca939d6999b7446faa2',1,'Message::field_0x18()'],['../structArea.html#a5ce75047e92d3d44563cf7b646ed5926',1,'Area::field_0x18()']]],
+  ['field_5f0x18_25',['field_0x18',['../structItemBehavior.html#a3efe4df625b65de729fe9c9944b554ca',1,'ItemBehavior::field_0x18()'],['../structMessage.html#a355bf7144a386ca939d6999b7446faa2',1,'Message::field_0x18()'],['../structArea.html#a5ce75047e92d3d44563cf7b646ed5926',1,'Area::field_0x18()']]],
   ['field_5f0x1c_26',['field_0x1c',['../structEntity.html#a7c9b714196be96e24bb1bf0a80f613e5',1,'Entity::field_0x1c()'],['../structMessage.html#ac917c4f66437fd4a4288d1d1e63ecd3a',1,'Message::field_0x1c()'],['../structPlayerState.html#afbf775c217fc5f5e70018161123fff09',1,'PlayerState::field_0x1c()']]],
   ['field_5f0x1d_27',['field_0x1d',['../structEntity.html#a7a8f8303f7bc9c88a74ef60767cfce92',1,'Entity']]],
   ['field_5f0x1f_28',['field_0x1f',['../structPlayerState.html#adc887f67f9ed39d4752e7a46031b2715',1,'PlayerState']]],

@@ -60,7 +60,7 @@ var searchData=
   ['leever_5fplayerinrange_57',['Leever_PlayerInRange',['../leever_8c.html#a9ae47eaec43438b5ae1c257bcfaa65bf',1,'leever.c']]],
   ['librari_58',['Librari',['../librari_8c.html#a0d8955ec993c69e8b8919b4cd3b7a80d',1,'Librari(Entity *this):&#160;librari.c'],['../npc_8h.html#ae68368e6e7c9fed18f3a8e7b1c808185',1,'Librari(Entity *):&#160;librari.c']]],
   ['librari_5ffusion_59',['Librari_Fusion',['../librari_8c.html#a3f411e165d74f1a4c0ab6f442a247df9',1,'Librari_Fusion(Entity *this):&#160;librari.c'],['../npc_8h.html#ab278bf6468a557c42b5e8b3f69f0a293',1,'Librari_Fusion(Entity *):&#160;librari.c']]],
-  ['librarians_60',['Librarians',['../librarians_8c.html#a16c1be02aa4456ef8d42861f3874f982',1,'Librarians(Entity *this)) 1(&quot;asm/non_matching/librarians/sub_0806BA34.inc&quot;:&#160;librarians.c'],['../npc_8h.html#aeb2af96cc2fa769acf25a09b3a2ac0f6',1,'Librarians(Entity *):&#160;npc.h']]],
+  ['librarians_60',['Librarians',['../librarians_8c.html#a23db317a06d20a0da486b87b5afe6e3a',1,'Librarians(Entity *this):&#160;librarians.c'],['../npc_8h.html#aeb2af96cc2fa769acf25a09b3a2ac0f6',1,'Librarians(Entity *):&#160;librarians.c']]],
   ['lightableswitch_61',['LightableSwitch',['../object_8h.html#ab4d62d9a894ac489682f810db7959bf1',1,'LightableSwitch():&#160;object.h'],['../lightableSwitch_8c.html#a4294a65cb6f2fd2508933bdcecf51dac',1,'LightableSwitch(Entity *this):&#160;lightableSwitch.c']]],
   ['likelike_62',['LikeLike',['../likeLike_8c.html#a1d96b94ce8357531b5aa6f6912087d42',1,'LikeLike(Entity *this):&#160;likeLike.c'],['../enemy_8h.html#a8bef281916a047d298ccc5edc2465c93',1,'LikeLike(Entity *):&#160;likeLike.c']]],
   ['likelike_5foncollision_63',['LikeLike_OnCollision',['../likeLike_8c.html#ae1bef4ae3b15b01dbb155fd140c67e9a',1,'likeLike.c']]],

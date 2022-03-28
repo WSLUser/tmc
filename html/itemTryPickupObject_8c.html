@@ -83,6 +83,7 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="item_8h_source.html">item.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="sound_8h_source.html">sound.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for itemTryPickupObject.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -90,32 +91,33 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="itemTryPickupObject_8c__incl.png" border="0" usemap="#asrc_2item_2itemTryPickupObject_8c" alt=""/></div>
 <map name="asrc_2item_2itemTryPickupObject_8c" id="asrc_2item_2itemTryPickupObject_8c">
-<area shape="rect" title=" " alt="" coords="287,5,491,32"/>
-<area shape="rect" href="item_8h.html" title=" " alt="" coords="514,155,571,181"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="307,80,392,107"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="327,453,393,480"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="270,304,333,331"/>
-<area shape="rect" href="player_8h.html" title=" " alt="" coords="440,229,507,256"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="449,528,527,555"/>
-<area shape="rect" title=" " alt="" coords="200,603,264,629"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="847,603,921,629"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="288,603,355,629"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="457,677,519,704"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="526,603,618,629"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="379,603,451,629"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="642,603,710,629"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="735,603,823,629"/>
-<area shape="rect" title=" " alt="" coords="850,677,918,704"/>
-<area shape="rect" title=" " alt="" coords="456,752,520,779"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="174,379,234,405"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="259,379,323,405"/>
-<area shape="rect" href="manager_8h.html" title=" " alt="" coords="43,229,125,256"/>
-<area shape="rect" href="coord_8h.html" title=" " alt="" coords="149,229,213,256"/>
-<area shape="rect" href="room_8h.html" title=" " alt="" coords="581,229,643,256"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="345,155,436,181"/>
-<area shape="rect" href="script_8h.html" title=" " alt="" coords="207,155,271,181"/>
-<area shape="rect" href="map_8h.html" title=" " alt="" coords="718,304,775,331"/>
-<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="550,304,642,331"/>
+<area shape="rect" title=" " alt="" coords="304,5,508,32"/>
+<area shape="rect" href="item_8h.html" title=" " alt="" coords="5,155,63,181"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="363,80,449,107"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="609,80,675,107"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="318,453,385,480"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="193,304,256,331"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="70,229,137,256"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="463,528,541,555"/>
+<area shape="rect" title=" " alt="" coords="167,603,231,629"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="815,603,888,629"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="723,603,790,629"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="367,677,429,704"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="352,603,444,629"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="255,603,327,629"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="468,603,536,629"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="561,603,649,629"/>
+<area shape="rect" title=" " alt="" coords="817,677,885,704"/>
+<area shape="rect" title=" " alt="" coords="366,752,430,779"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="140,379,200,405"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="225,379,289,405"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="363,229,446,256"/>
+<area shape="rect" href="coord_8h.html" title=" " alt="" coords="555,229,619,256"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="470,229,531,256"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="278,155,369,181"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="139,155,203,181"/>
+<area shape="rect" href="map_8h.html" title=" " alt="" coords="684,304,741,331"/>
+<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="465,304,557,331"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -123,12 +125,16 @@ $(function() {
 Functions</h2></td></tr>
 <tr class="memitem:a4542445add00d09dd8c31dc7f43b0aa9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itemTryPickupObject_8c.html#a4542445add00d09dd8c31dc7f43b0aa9">sub_08077F64</a> (<a class="el" href="structItemBehavior.html">ItemBehavior</a> *arg0, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> unk)</td></tr>
 <tr class="separator:a4542445add00d09dd8c31dc7f43b0aa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9e34f352d70ab12e67f156b29af92ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itemTryPickupObject_8c.html#ac9e34f352d70ab12e67f156b29af92ff">sub_080789A8</a> (void)</td></tr>
+<tr class="separator:ac9e34f352d70ab12e67f156b29af92ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72c6a2efa319fb2b1c8fab0657a5e01c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itemTryPickupObject_8c.html#a72c6a2efa319fb2b1c8fab0657a5e01c">sub_080762C4</a> (<a class="el" href="structItemBehavior.html">ItemBehavior</a> *, void *, <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)</td></tr>
+<tr class="separator:a72c6a2efa319fb2b1c8fab0657a5e01c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3e49257fbb4faab15e5550ab8238dd4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itemTryPickupObject_8c.html#ae3e49257fbb4faab15e5550ab8238dd4">sub_08076088</a> (<a class="el" href="structItemBehavior.html">ItemBehavior</a> *, void *, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)</td></tr>
+<tr class="separator:ae3e49257fbb4faab15e5550ab8238dd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e10d83319d2a33a1a11d1600d461b95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itemTryPickupObject_8c.html#a7e10d83319d2a33a1a11d1600d461b95">ItemTryPickupObject</a> (<a class="el" href="structItemBehavior.html">ItemBehavior</a> *this, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="el" href="itemTryPickupObject_8c.html#aac7ccfbc9d00eefeab0c54096d454869">arg1</a>)</td></tr>
 <tr class="separator:a7e10d83319d2a33a1a11d1600d461b95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d55835474fac02ed9ac10929af25112"><td class="memItemLeft" align="right" valign="top">asm non_matching itemTryPickupObject ItemPickupCheck void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itemTryPickupObject_8c.html#a8d55835474fac02ed9ac10929af25112">ItemPickupCheck</a> (<a class="el" href="structItemBehavior.html">ItemBehavior</a> *this, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="el" href="itemTryPickupObject_8c.html#aac7ccfbc9d00eefeab0c54096d454869">arg1</a>)) void sub_080762C4(<a class="el" href="structItemBehavior.html">ItemBehavior</a> *this</td></tr>
-<tr class="separator:a8d55835474fac02ed9ac10929af25112"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b2694564de27c59ea9489f4671492ab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itemTryPickupObject_8c.html#a0b2694564de27c59ea9489f4671492ab">sub_08077D38</a> (this, <a class="el" href="itemTryPickupObject_8c.html#ad48e3e4e13919fdcb14d4dfa83aa11dc">arg3</a>)</td></tr>
-<tr class="separator:a0b2694564de27c59ea9489f4671492ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7316e3dc6ee5f0b6e4b2757eb7b48de7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itemTryPickupObject_8c.html#a7316e3dc6ee5f0b6e4b2757eb7b48de7">ItemPickupCheck</a> (<a class="el" href="structItemBehavior.html">ItemBehavior</a> *this, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="el" href="subtask2_8c.html#a016929c9398b0110595887ef9ca0483c">param_2</a>)</td></tr>
+<tr class="separator:a7316e3dc6ee5f0b6e4b2757eb7b48de7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a270279331de52d0587ed374ead424a5b"><td class="memItemLeft" align="right" valign="top">asm non_matching itemTryPickupObject sub_080762D8 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itemTryPickupObject_8c.html#a270279331de52d0587ed374ead424a5b">sub_080762D8</a> (<a class="el" href="structItemBehavior.html">ItemBehavior</a> *this, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="el" href="itemTryPickupObject_8c.html#aac7ccfbc9d00eefeab0c54096d454869">arg1</a>)) void sub_08076488(<a class="el" href="structItemBehavior.html">ItemBehavior</a> *this</td></tr>
 <tr class="separator:a270279331de52d0587ed374ead424a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a345e331ab96a1f34b0a04bff0ba2dbf1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itemTryPickupObject_8c.html#a345e331ab96a1f34b0a04bff0ba2dbf1">if</a> (this-&gt;field_0x5[2]==0)</td></tr>
@@ -140,16 +146,10 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:a7bbc98f386521b0e2b5f9ba4fa2203df"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itemTryPickupObject_8c.html#a7bbc98f386521b0e2b5f9ba4fa2203df">gUnk_0811BDB4</a> [])(<a class="el" href="structItemBehavior.html">ItemBehavior</a> *, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)</td></tr>
 <tr class="separator:a7bbc98f386521b0e2b5f9ba4fa2203df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa56c50e644662613aee746d0a33b6a30"><td class="memItemLeft" align="right" valign="top">asm non_matching itemTryPickupObject <a class="el" href="itemTryPickupObject_8c.html#a8d55835474fac02ed9ac10929af25112">ItemPickupCheck</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itemTryPickupObject_8c.html#aa56c50e644662613aee746d0a33b6a30">inc</a></td></tr>
+<tr class="memitem:aa56c50e644662613aee746d0a33b6a30"><td class="memItemLeft" align="right" valign="top">asm non_matching itemTryPickupObject <a class="el" href="itemTryPickupObject_8c.html#a270279331de52d0587ed374ead424a5b">sub_080762D8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itemTryPickupObject_8c.html#aa56c50e644662613aee746d0a33b6a30">inc</a></td></tr>
 <tr class="separator:aa56c50e644662613aee746d0a33b6a30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac7ccfbc9d00eefeab0c54096d454869"><td class="memItemLeft" align="right" valign="top">asm non_matching itemTryPickupObject <a class="el" href="itemTryPickupObject_8c.html#a8d55835474fac02ed9ac10929af25112">ItemPickupCheck</a> void <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itemTryPickupObject_8c.html#aac7ccfbc9d00eefeab0c54096d454869">arg1</a></td></tr>
+<tr class="memitem:aac7ccfbc9d00eefeab0c54096d454869"><td class="memItemLeft" align="right" valign="top">asm non_matching itemTryPickupObject <a class="el" href="itemTryPickupObject_8c.html#a270279331de52d0587ed374ead424a5b">sub_080762D8</a> void <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itemTryPickupObject_8c.html#aac7ccfbc9d00eefeab0c54096d454869">arg1</a></td></tr>
 <tr class="separator:aac7ccfbc9d00eefeab0c54096d454869"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adaeb09689c0e72842353b1ac19c5fef3"><td class="memItemLeft" align="right" valign="top">asm non_matching itemTryPickupObject <a class="el" href="itemTryPickupObject_8c.html#a8d55835474fac02ed9ac10929af25112">ItemPickupCheck</a> void <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itemTryPickupObject_8c.html#adaeb09689c0e72842353b1ac19c5fef3">arg2</a></td></tr>
-<tr class="separator:adaeb09689c0e72842353b1ac19c5fef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad48e3e4e13919fdcb14d4dfa83aa11dc"><td class="memItemLeft" align="right" valign="top">asm non_matching itemTryPickupObject <a class="el" href="itemTryPickupObject_8c.html#a8d55835474fac02ed9ac10929af25112">ItemPickupCheck</a> void <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itemTryPickupObject_8c.html#ad48e3e4e13919fdcb14d4dfa83aa11dc">arg3</a></td></tr>
-<tr class="separator:ad48e3e4e13919fdcb14d4dfa83aa11dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d0837428a7f5d0accf5b66a8d3fbf4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="player_8h.html#aa5bbc5bfadf4430b21587ec59b996cd8">gPlayerState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itemTryPickupObject_8c.html#a7d0837428a7f5d0accf5b66a8d3fbf4d">heldObject</a> = <a class="el" href="itemTryPickupObject_8c.html#adaeb09689c0e72842353b1ac19c5fef3">arg2</a></td></tr>
-<tr class="separator:a7d0837428a7f5d0accf5b66a8d3fbf4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a982aacd2eaad3653b75f87a8028b9e88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itemTryPickupObject_8c.html#a982aacd2eaad3653b75f87a8028b9e88">iVar2</a></td></tr>
 <tr class="separator:a982aacd2eaad3653b75f87a8028b9e88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0544c3fe466e421738dae463968b70ba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="itemTryPickupObject_8c.html#a0544c3fe466e421738dae463968b70ba">else</a></td></tr>
@@ -176,14 +176,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a8d55835474fac02ed9ac10929af25112" name="a8d55835474fac02ed9ac10929af25112"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d55835474fac02ed9ac10929af25112">&#9670;&nbsp;</a></span>ItemPickupCheck()</h2>
+<a id="a7316e3dc6ee5f0b6e4b2757eb7b48de7" name="a7316e3dc6ee5f0b6e4b2757eb7b48de7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7316e3dc6ee5f0b6e4b2757eb7b48de7">&#9670;&nbsp;</a></span>ItemPickupCheck()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm non_matching itemTryPickupObject ItemPickupCheck void ItemPickupCheck </td>
+          <td class="memname">void ItemPickupCheck </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structItemBehavior.html">ItemBehavior</a> *&#160;</td>
           <td class="paramname"><em>this</em>, </td>
@@ -192,7 +192,7 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
-          <td class="paramname"><em>arg1</em>&#160;</td>
+          <td class="paramname"><em>param_2</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -221,6 +221,80 @@ Variables</h2></td></tr>
           <td></td>
           <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
           <td class="paramname"><em>arg1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae3e49257fbb4faab15e5550ab8238dd4" name="ae3e49257fbb4faab15e5550ab8238dd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3e49257fbb4faab15e5550ab8238dd4">&#9670;&nbsp;</a></span>sub_08076088()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_08076088 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structItemBehavior.html">ItemBehavior</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a72c6a2efa319fb2b1c8fab0657a5e01c" name="a72c6a2efa319fb2b1c8fab0657a5e01c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72c6a2efa319fb2b1c8fab0657a5e01c">&#9670;&nbsp;</a></span>sub_080762C4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_080762C4 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structItemBehavior.html">ItemBehavior</a> *&#160;</td>
+          <td class="paramname"><em>this</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>arg1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td>
+          <td class="paramname"><em>arg2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname"><em>arg3</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -288,34 +362,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a0b2694564de27c59ea9489f4671492ab" name="a0b2694564de27c59ea9489f4671492ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b2694564de27c59ea9489f4671492ab">&#9670;&nbsp;</a></span>sub_08077D38()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">sub_08077D38 </td>
-          <td>(</td>
-          <td class="paramtype">this&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="itemTryPickupObject_8c.html#ad48e3e4e13919fdcb14d4dfa83aa11dc">arg3</a>&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a4542445add00d09dd8c31dc7f43b0aa9" name="a4542445add00d09dd8c31dc7f43b0aa9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4542445add00d09dd8c31dc7f43b0aa9">&#9670;&nbsp;</a></span>sub_08077F64()</h2>
 
@@ -344,6 +390,24 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="ac9e34f352d70ab12e67f156b29af92ff" name="ac9e34f352d70ab12e67f156b29af92ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9e34f352d70ab12e67f156b29af92ff">&#9670;&nbsp;</a></span>sub_080789A8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm non_matching playerUtils sub_080789A8 <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> sub_080789A8 </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="aac7ccfbc9d00eefeab0c54096d454869" name="aac7ccfbc9d00eefeab0c54096d454869"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aac7ccfbc9d00eefeab0c54096d454869">&#9670;&nbsp;</a></span>arg1</h2>
@@ -359,37 +423,6 @@ Variables</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line">{</div>
 <div class="line">    <a class="code hl_typedef" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> bVar1</div>
 <div class="ttc" id="atypes_8h_html_afaa62991928fb9fb18ff0db62a040aba"><div class="ttname"><a href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a></div><div class="ttdeci">uint32_t u32</div><div class="ttdef"><b>Definition:</b> types.h:8</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="adaeb09689c0e72842353b1ac19c5fef3" name="adaeb09689c0e72842353b1ac19c5fef3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adaeb09689c0e72842353b1ac19c5fef3">&#9670;&nbsp;</a></span>arg2</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">asm non_matching itemTryPickupObject <a class="el" href="itemTryPickupObject_8c.html#a8d55835474fac02ed9ac10929af25112">ItemPickupCheck</a> void <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> arg2</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad48e3e4e13919fdcb14d4dfa83aa11dc" name="ad48e3e4e13919fdcb14d4dfa83aa11dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad48e3e4e13919fdcb14d4dfa83aa11dc">&#9670;&nbsp;</a></span>arg3</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">asm non_matching itemTryPickupObject <a class="el" href="itemTryPickupObject_8c.html#a8d55835474fac02ed9ac10929af25112">ItemPickupCheck</a> void <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> arg3</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">{</div>
-<div class="line">    this-&gt;field_0x18 = <a class="code hl_variable" href="itemTryPickupObject_8c.html#aac7ccfbc9d00eefeab0c54096d454869">arg1</a></div>
-<div class="ttc" id="aitemTryPickupObject_8c_html_aac7ccfbc9d00eefeab0c54096d454869"><div class="ttname"><a href="itemTryPickupObject_8c.html#aac7ccfbc9d00eefeab0c54096d454869">arg1</a></div><div class="ttdeci">asm non_matching itemTryPickupObject ItemPickupCheck void u32 arg1</div><div class="ttdef"><b>Definition:</b> itemTryPickupObject.c:14</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -455,20 +488,6 @@ Variables</h2></td></tr>
 <span class="mlabels"><span class="mlabel">extern</span></span>  </td>
   </tr>
 </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7d0837428a7f5d0accf5b66a8d3fbf4d" name="a7d0837428a7f5d0accf5b66a8d3fbf4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d0837428a7f5d0accf5b66a8d3fbf4d">&#9670;&nbsp;</a></span>heldObject</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="player_8h.html#aa5bbc5bfadf4430b21587ec59b996cd8">gPlayerState</a> heldObject = <a class="el" href="itemTryPickupObject_8c.html#adaeb09689c0e72842353b1ac19c5fef3">arg2</a></td>
-        </tr>
-      </table>
 </div><div class="memdoc">
 
 </div>

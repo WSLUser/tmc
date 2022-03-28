@@ -1,8 +1,9 @@
 <map id="include/new_player.h" name="include/new_player.h">
-<area shape="rect" id="node1" title=" " alt="" coords="333,5,476,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="432,5,575,32"/>
 <area shape="rect" id="node2" href="$coord_8c.html" title=" " alt="" coords="5,80,92,107"/>
 <area shape="rect" id="node3" href="$itemForSale_8c.html" title="Item for Sale object." alt="" coords="117,80,279,107"/>
 <area shape="rect" id="node4" href="$mazaalBossObject_8c.html" title=" " alt="" coords="303,80,506,107"/>
 <area shape="rect" id="node5" href="$object61_8c.html" title="Object61 object." alt="" coords="531,80,673,107"/>
-<area shape="rect" id="node6" href="$playerUtils_8c.html" title=" " alt="" coords="698,80,813,107"/>
+<area shape="rect" id="node6" href="$playerItem13_8c.html" title=" " alt="" coords="698,80,890,107"/>
+<area shape="rect" id="node7" href="$playerUtils_8c.html" title=" " alt="" coords="914,80,1029,107"/>
 </map>
