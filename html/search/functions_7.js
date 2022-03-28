@@ -50,7 +50,7 @@ var searchData=
   ['getsaleitemconfirmmessageid_47',['GetSaleItemConfirmMessageID',['../game_8c.html#a52db272d29d56ef4f9418b3cc1935714',1,'GetSaleItemConfirmMessageID(u32 item):&#160;game.c'],['../game_8h.html#a52db272d29d56ef4f9418b3cc1935714',1,'GetSaleItemConfirmMessageID(u32 item):&#160;game.c']]],
   ['getsavefileeepromaddresses_48',['GetSaveFileEEPROMAddresses',['../save_8c.html#a2f9ddeeef0854cb546e72d4aa0859f26',1,'save.c']]],
   ['getspritesubentryoffsetdatapointer_49',['GetSpriteSubEntryOffsetDataPointer',['../coord_8c.html#a1c4c241d41a51740a4e069aae420d119',1,'GetSpriteSubEntryOffsetDataPointer(u32 param_1, u32 param_2)):&#160;coord.c'],['../entity_8h.html#a562ca2d144ff6268bb86968d1fb27d04',1,'GetSpriteSubEntryOffsetDataPointer(u32, u32):&#160;coord.c']]],
-  ['getsurfacecalctype_50',['GetSurfaceCalcType',['../player_8c.html#a99566c956ab5248ebf1eabb0059212c5',1,'GetSurfaceCalcType(Entity *, u32, u32):&#160;playerUtils.c'],['../playerUtils_8c.html#a51284c0b0dda6525ddceacba1827b295',1,'GetSurfaceCalcType(Entity *, u32, u32):&#160;playerUtils.c']]],
+  ['getsurfacecalctype_50',['GetSurfaceCalcType',['../playerUtils_8c.html#a99566c956ab5248ebf1eabb0059212c5',1,'GetSurfaceCalcType(Entity *, u32, u32):&#160;playerUtils.c'],['../player_8h.html#a51284c0b0dda6525ddceacba1827b295',1,'GetSurfaceCalcType(Entity *, u32, u32):&#160;playerUtils.c']]],
   ['gettileindex_51',['GetTileIndex',['../functions_8h.html#accddc2b262e430bb9d96823f93c64f5d',1,'functions.h']]],
   ['gettiletype_52',['GetTileType',['../asm_8h.html#a43b137ca56517b52db6e28198f788149',1,'asm.h']]],
   ['gettiletypebyentity_53',['GetTileTypeByEntity',['../asm_8h.html#a29006dc9520bb392aa588e8408d7977c',1,'asm.h']]],

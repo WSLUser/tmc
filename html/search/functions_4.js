@@ -76,7 +76,7 @@ var searchData=
   ['dog_5ffusion_73',['Dog_Fusion',['../dog_8c.html#aca79d799077c1e38cf90d4bb3d240e24',1,'Dog_Fusion(Entity *this):&#160;dog.c'],['../npc_8h.html#a7ba1279350b0207944d16c41215b6288',1,'Dog_Fusion(Entity *):&#160;dog.c']]],
   ['dog_5fhead_74',['Dog_Head',['../dog_8c.html#a09b7480811b3a814cf2cd80004217c86',1,'Dog_Head(Entity *this):&#160;dog.c'],['../npc_8h.html#ab630bd491cf9a8924227093fedf6d3a9',1,'Dog_Head(Entity *):&#160;dog.c']]],
   ['dogravity_75',['DoGravity',['../script_8c.html#a51f46276f4c85c88c9d0765080d88b34',1,'script.c']]],
-  ['dojump_76',['DoJump',['../player_8c.html#a41af1b1fb887b5c6f9c58826524a98cb',1,'player.c']]],
+  ['dojump_76',['DoJump',['../player_8c.html#a9b1b412c1c5bf985019e40349eefbbd0',1,'player.c']]],
   ['doormimic_77',['DoorMimic',['../doorMimic_8c.html#a4d0c06096983a30afad97e3442cc418b',1,'DoorMimic(Entity *this):&#160;doorMimic.c'],['../enemy_8h.html#a359996202f1b19d74e32cd41d70f6e77',1,'DoorMimic(Entity *):&#160;doorMimic.c']]],
   ['doormimic_5foncollision_78',['DoorMimic_OnCollision',['../doorMimic_8c.html#ab3c2b0e0dfa0b8c1e07dde5c9ea2c528',1,'doorMimic.c']]],
   ['doormimic_5fondeath_79',['DoorMimic_OnDeath',['../doorMimic_8c.html#af2db25d766f1ac424bacad86ae7502cf',1,'doorMimic.c']]],

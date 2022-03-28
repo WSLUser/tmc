@@ -9,7 +9,7 @@ var searchData=
   ['eepromwrite1_6',['EEPROMWrite1',['../eeprom_8c.html#a89d8168734941d3faa387efeae37ca1d',1,'eeprom.c']]],
   ['eepromwrite1_5fcheck_7',['EEPROMWrite1_check',['../eeprom_8c.html#af24cebee65ee4c457657985f2927db41',1,'eeprom.c']]],
   ['emma_8',['Emma',['../emma_8c.html#af6351fa629123d94a6a93c74ef75f5e4',1,'Emma(Entity *this):&#160;emma.c'],['../npc_8h.html#ad4d6183743573cf75083837b3eed931e',1,'Emma(Entity *):&#160;emma.c']]],
-  ['enableplayerdraw_9',['EnablePlayerDraw',['../player_8c.html#ad86e3c3bf0c6bf3f767b85106d00ae4e',1,'player.c']]],
+  ['enableplayerdraw_9',['EnablePlayerDraw',['../player_8h.html#ad86e3c3bf0c6bf3f767b85106d00ae4e',1,'player.h']]],
   ['enablevblankintr_10',['EnableVBlankIntr',['../interrupts_8c.html#a2965d6dc9affeaa6befa617bd343ebc2',1,'EnableVBlankIntr(void):&#160;interrupts.c'],['../main_8h.html#a2965d6dc9affeaa6befa617bd343ebc2',1,'EnableVBlankIntr(void):&#160;interrupts.c']]],
   ['enemy4d_11',['Enemy4D',['../enemy4D_8c.html#a9168497ecd630b584868546a7c32149a',1,'Enemy4D(Enemy4DEntity *this):&#160;enemy4D.c'],['../enemy_8h.html#a51f904f9fbe1019cb66ec687ffe6e01a',1,'Enemy4D():&#160;enemy.h']]],
   ['enemy4d_5faction1_12',['Enemy4D_Action1',['../enemy4D_8c.html#ae922eb5d9fe381707fe993a62e461392',1,'enemy4D.c']]],

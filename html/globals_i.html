@@ -105,8 +105,9 @@ $(function() {
 <li>InitNPC()&#160;:&#160;<a class="el" href="npc_8c.html#af29476dc12211a4edfa2de053de06a20">npc.c</a></li>
 <li>InitOverlays()&#160;:&#160;<a class="el" href="main_8c.html#a4c2efd8b702ac37876589a922a899ffd">main.c</a></li>
 <li>InitParachuteRoom()&#160;:&#160;<a class="el" href="game_8c.html#a3cc4bb67947a2979eb1358b1008e142f">game.c</a>, <a class="el" href="game_8h.html#a3cc4bb67947a2979eb1358b1008e142f">game.h</a></li>
-<li>InitPlayerMacro()&#160;:&#160;<a class="el" href="code__0805EC04_8c.html#a981a57dd914a7e7c202e3bbb21f3f21a">code_0805EC04.c</a>, <a class="el" href="functions_8h.html#a1011ba375f42812d56013661759a1906">functions.h</a></li>
-<li>InitRoom()&#160;:&#160;<a class="el" href="game_8h.html#a84fae4df9f0ef6ff7252465793e26b72">game.h</a>, <a class="el" href="game_8c.html#a84fae4df9f0ef6ff7252465793e26b72">game.c</a></li>
+<li>InitPauseMenu()&#160;:&#160;<a class="el" href="figurine__menu_8c.html#a3aafe28fd2696dd160fd2c13e7f8a797">figurine_menu.c</a>, <a class="el" href="player_8c.html#a3aafe28fd2696dd160fd2c13e7f8a797">player.c</a></li>
+<li>InitPlayerMacro()&#160;:&#160;<a class="el" href="functions_8h.html#a1011ba375f42812d56013661759a1906">functions.h</a>, <a class="el" href="code__0805EC04_8c.html#a981a57dd914a7e7c202e3bbb21f3f21a">code_0805EC04.c</a></li>
+<li>InitRoom()&#160;:&#160;<a class="el" href="game_8c.html#a84fae4df9f0ef6ff7252465793e26b72">game.c</a>, <a class="el" href="game_8h.html#a84fae4df9f0ef6ff7252465793e26b72">game.h</a></li>
 <li>InitRoomResInfo()&#160;:&#160;<a class="el" href="game_8c.html#acffeaf3373ea879e503afaa785a3d232">game.c</a></li>
 <li>InitRoomTransition()&#160;:&#160;<a class="el" href="game_8c.html#a6de9f56d41f5f51e1c24889af6ef2ade">game.c</a></li>
 <li>InitSaveData()&#160;:&#160;<a class="el" href="save_8c.html#ac9863e749b0268c6dddb6345e7a7efdc">save.c</a>, <a class="el" href="save_8h.html#ac9863e749b0268c6dddb6345e7a7efdc">save.h</a></li>
@@ -142,7 +143,6 @@ $(function() {
 <li>IS_SFX&#160;:&#160;<a class="el" href="sound_8c.html#ae473b155c296002d8553709a3db11b28">sound.c</a></li>
 <li>IsColliding()&#160;:&#160;<a class="el" href="collision_8c.html#ae149386c7546742991438f590788455e">collision.c</a>, <a class="el" href="functions_8h.html#a27859cfd58471a5f692506cdf0574d72">functions.h</a></li>
 <li>IsCollidingPlayer()&#160;:&#160;<a class="el" href="collision_8c.html#a05a9b3a0640d1a02877e6ac5e22a0672">collision.c</a>, <a class="el" href="functions_8h.html#abcf8ad6a33af7eac61edde4dbdb926b2">functions.h</a></li>
-<li>IsEnterPortal()&#160;:&#160;<a class="el" href="enterPortalSubtask_8c.html#a5d769734470ae5b032251a4f83ef40fb">enterPortalSubtask.c</a>, <a class="el" href="game_8c.html#a5d769734470ae5b032251a4f83ef40fb">game.c</a></li>
 <li>IsItemEquipped()&#160;:&#160;<a class="el" href="game_8c.html#a955642b5ad1330a4e67761f8161b4fc7">game.c</a>, <a class="el" href="player_8h.html#adab92630f555afec83a8c04f86a7d5b9">player.h</a></li>
 <li>IsProjectileOffScreen()&#160;:&#160;<a class="el" href="projectileUtils_8c.html#a7c861ea11d0da0ff9b0bbb657317ef02">projectileUtils.c</a>, <a class="el" href="functions_8h.html#a75ba7b8d58b9d6b6879bfdb6470d3b67">functions.h</a></li>
 <li>IsTileCollision()&#160;:&#160;<a class="el" href="movement_8c.html#a94b7552d956abfd60f549ed92053f6cd">movement.c</a>, <a class="el" href="collision_8h.html#aa92e322f8b3a0c269dff44c593beb610">collision.h</a>, <a class="el" href="functions_8h.html#aa92e322f8b3a0c269dff44c593beb610">functions.h</a></li>
@@ -280,14 +280,14 @@ $(function() {
 <li>ItemInit()&#160;:&#160;<a class="el" href="playerItem_8c.html#aabdfa559defc935245429e84127b7bea">playerItem.c</a></li>
 <li>ItemIsBottle()&#160;:&#160;<a class="el" href="game_8c.html#a5279334199fce0ffa9c2df4ddcea73fc">game.c</a>, <a class="el" href="ui_8c.html#ac7d3c8a956c68bfe712cbb2b71b387cb">ui.c</a></li>
 <li>ItemIsShield()&#160;:&#160;<a class="el" href="likeLike_8c.html#a73c4217cd9d4a5d16fa7bd09de4b8853">likeLike.c</a>, <a class="el" href="game_8c.html#a885970d8012cde3027ca64fe3f9e1fcd">game.c</a>, <a class="el" href="game_8h.html#a722643f7edd47949ad0f8b8f4620d2a2">game.h</a></li>
-<li>ItemIsSword()&#160;:&#160;<a class="el" href="game_8c.html#a9bf43b44db39d21ecfe31789e450d984">game.c</a>, <a class="el" href="player_8c.html#a1325eaaa1385e9399c30325cab4d3e29">player.c</a>, <a class="el" href="game_8h.html#a9bf43b44db39d21ecfe31789e450d984">game.h</a></li>
+<li>ItemIsSword()&#160;:&#160;<a class="el" href="game_8c.html#a9bf43b44db39d21ecfe31789e450d984">game.c</a>, <a class="el" href="game_8h.html#a9bf43b44db39d21ecfe31789e450d984">game.h</a></li>
 <li>ItemJarEmpty()&#160;:&#160;<a class="el" href="item_8h.html#aafabf75a150fd0d3add22de41ceb9a52">item.h</a>, <a class="el" href="itemJarEmpty_8c.html#ae8b72a6aeefe1f01f98cdec1d57d1540">itemJarEmpty.c</a></li>
 <li>ItemLantern()&#160;:&#160;<a class="el" href="itemLantern_8c.html#a9a72ed52c1596ee248fe2b7cf1035710">itemLantern.c</a>, <a class="el" href="item_8h.html#a80f4ea457c658f9442f73227eddcaf20">item.h</a></li>
 <li>ItemMenuTableSlot&#160;:&#160;<a class="el" href="itemMetaData_8h.html#a43a3ccb0bc0528805372429e2a869a99">itemMetaData.h</a></li>
 <li>ItemMoleMitts()&#160;:&#160;<a class="el" href="itemMoleMitts_8c.html#a2861f629e278ab7ae265f37d9901908a">itemMoleMitts.c</a>, <a class="el" href="item_8h.html#ad9cbc22cfc980cf7d673877b90a17f2e">item.h</a></li>
 <li>ItemOcarina()&#160;:&#160;<a class="el" href="itemOcarina_8c.html#a18667a18d148053557ae3c84e12ba359">itemOcarina.c</a>, <a class="el" href="item_8h.html#ad5531f30a3c8ea1bd261098f9a015399">item.h</a></li>
 <li>ItemOnGround()&#160;:&#160;<a class="el" href="itemOnGround_8c.html#ace5bbd722d7d46c758cd7ca355c3f0e2">itemOnGround.c</a>, <a class="el" href="object_8h.html#a71fd50cbe9c626b5fcf2a0a032bd9ac1">object.h</a></li>
-<li>ItemPacciCane()&#160;:&#160;<a class="el" href="itemPacciCane_8c.html#a0f7c0389b5e7a46d9d7b59613351f322">itemPacciCane.c</a>, <a class="el" href="item_8h.html#ae31157d632c63de198d0a6139000969f">item.h</a></li>
+<li>ItemPacciCane()&#160;:&#160;<a class="el" href="item_8h.html#ae31157d632c63de198d0a6139000969f">item.h</a>, <a class="el" href="itemPacciCane_8c.html#a0f7c0389b5e7a46d9d7b59613351f322">itemPacciCane.c</a></li>
 <li>ItemPegasusBoots()&#160;:&#160;<a class="el" href="itemPegasusBoots_8c.html#a8fb2cb83b2caf1b97dd5261a527c2f02">itemPegasusBoots.c</a>, <a class="el" href="item_8h.html#ac5cbd1c5e71b27a5f0c32c19cc8cf739">item.h</a></li>
 <li>ItemPickupCheck()&#160;:&#160;<a class="el" href="itemTryPickupObject_8c.html#a8d55835474fac02ed9ac10929af25112">itemTryPickupObject.c</a></li>
 <li>ItemRocsCape()&#160;:&#160;<a class="el" href="itemRocsCape_8c.html#a339bea35b1c72993a3e582d38137e2d4">itemRocsCape.c</a>, <a class="el" href="item_8h.html#a1ff6c176f3beafe4f4e27cb9ddd66d4c">item.h</a></li>
