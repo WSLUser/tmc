@@ -81,7 +81,7 @@ var searchData=
   ['doormimic_5foncollision_78',['DoorMimic_OnCollision',['../doorMimic_8c.html#ab3c2b0e0dfa0b8c1e07dde5c9ea2c528',1,'doorMimic.c']]],
   ['doormimic_5fondeath_79',['DoorMimic_OnDeath',['../doorMimic_8c.html#af2db25d766f1ac424bacad86ae7502cf',1,'doorMimic.c']]],
   ['doormimic_5fontick_80',['DoorMimic_OnTick',['../doorMimic_8c.html#a33e71485611c3fb6221a4208e4b91ed3',1,'doorMimic.c']]],
-  ['doplayeraction_81',['DoPlayerAction',['../functions_8h.html#a280e63732a45689662e5555109309524',1,'DoPlayerAction(Entity *):&#160;player.c'],['../playerUtils_8c.html#a280e63732a45689662e5555109309524',1,'DoPlayerAction(Entity *):&#160;player.c'],['../player_8c.html#af456eb2153d5dd420ee7d1fd44ccfbff',1,'DoPlayerAction(Entity *this):&#160;player.c']]],
+  ['doplayeraction_81',['DoPlayerAction',['../player_8h.html#a280e63732a45689662e5555109309524',1,'DoPlayerAction(Entity *):&#160;player.c'],['../functions_8h.html#a280e63732a45689662e5555109309524',1,'DoPlayerAction(Entity *):&#160;player.c'],['../player_8c.html#af456eb2153d5dd420ee7d1fd44ccfbff',1,'DoPlayerAction(Entity *this):&#160;player.c']]],
   ['doplaysound_82',['doPlaySound',['../sound_8c.html#ae6e5df15a70093e4a5fc30f40de29a73',1,'sound.c']]],
   ['dosoftreset_83',['DoSoftReset',['../main_8h.html#a6fb906bdecad7b7112e07a76cfdd17ac',1,'DoSoftReset(void):&#160;main.c'],['../main_8c.html#a6fb906bdecad7b7112e07a76cfdd17ac',1,'DoSoftReset(void):&#160;main.c']]],
   ['doublebookshelf_84',['DoubleBookshelf',['../doubleBookshelf_8c.html#a3694f7cb0f62f5dae1112be59edc1ad9',1,'DoubleBookshelf(DoubleBookshelfEntity *this):&#160;doubleBookshelf.c'],['../object_8h.html#a51ae33515d92ce476b7889030924513e',1,'DoubleBookshelf():&#160;object.h']]],

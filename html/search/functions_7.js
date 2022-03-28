@@ -101,7 +101,7 @@ var searchData=
   ['gina_98',['Gina',['../npc_8h.html#a6a64f350a98ed587e4e5daebd9ec80d4',1,'Gina(Entity *):&#160;gina.c'],['../gina_8c.html#a2f55baf2757b00204d5737ddef406138',1,'Gina(Entity *this):&#160;gina.c']]],
   ['gina_5ffusion_99',['Gina_Fusion',['../gina_8c.html#ada9c5f45ec56c9177e400495472794e9',1,'Gina_Fusion(Entity *this):&#160;gina.c'],['../npc_8h.html#ae3ed34f843453b6fb054cd1692c2906f',1,'Gina_Fusion(Entity *):&#160;gina.c']]],
   ['giveitem_100',['GiveItem',['../game_8c.html#a0ddb8fc51c79c23131bed5f4f72b1d2a',1,'GiveItem(u32 a, u32 b)) void sub_08054288(s32 param_1):&#160;game.c'],['../functions_8h.html#af302c52f38ff15de963d0dac01c83eac',1,'GiveItem(u32, u32):&#160;game.c']]],
-  ['giveitemwithcutscene_101',['GiveItemWithCutscene',['../playerItemUtils_8c.html#aadb1b43260528e55387e27e4d147cb2f',1,'playerItemUtils.c']]],
+  ['giveitemwithcutscene_101',['GiveItemWithCutscene',['../playerItemUtils_8c.html#a534a2d6be0e93d0649e99e6fbf82e168',1,'playerItemUtils.c']]],
   ['gleerok_102',['Gleerok',['../gleerok_8c.html#aa5daa6c4e9ffa2f180f8c8b767c1741a',1,'Gleerok(Entity *this):&#160;gleerok.c'],['../enemy_8h.html#a092601faaf3f80881781dfbff1543383',1,'Gleerok(Entity *):&#160;gleerok.c']]],
   ['gleerok_5fondeath_103',['Gleerok_OnDeath',['../gleerok_8c.html#adb278603e008a9551b6c69a0c5c57106',1,'gleerok.c']]],
   ['gleerok_5fontick_104',['Gleerok_OnTick',['../gleerok_8c.html#a82c56dda687328004284681ed87e9d07',1,'gleerok.c']]],
