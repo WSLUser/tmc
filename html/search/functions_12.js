@@ -863,7 +863,7 @@ var searchData=
   ['sub_5f0802915c_860',['sub_0802915C',['../businessScrub_8c.html#a6589679e4194495f957e6a719b9414a8',1,'businessScrub.c']]],
   ['sub_5f08029198_861',['sub_08029198',['../businessScrub_8c.html#a1ed6efc4c60e470638cb7ced6f395e49',1,'businessScrub.c']]],
   ['sub_5f080291dc_862',['sub_080291DC',['../businessScrub_8c.html#aacb722ed69a3224c26c3110d3c6bf5f2',1,'businessScrub.c']]],
-  ['sub_5f0802922c_863',['sub_0802922C',['../businessScrub_8c.html#aee9b5884edf56ee25ff9662d762ab101',1,'businessScrub.c']]],
+  ['sub_5f0802922c_863',['sub_0802922C',['../businessScrub_8c.html#a71ddd839549450adcc11b0bfbc0a352c',1,'businessScrub.c']]],
   ['sub_5f0802925c_864',['sub_0802925C',['../businessScrub_8c.html#a6915e7fd814605912632e763f9f5b43d',1,'businessScrub.c']]],
   ['sub_5f08029270_865',['sub_08029270',['../enemy66_8c.html#add45660b0ef822dac2f021b7024c6f53',1,'sub_08029270(Entity *this):&#160;businessScrub.c'],['../businessScrub_8c.html#add45660b0ef822dac2f021b7024c6f53',1,'sub_08029270(Entity *this):&#160;businessScrub.c']]],
   ['sub_5f080293dc_866',['sub_080293DC',['../rupeeLike_8c.html#ad925089375810347b419a6c0d3f18439',1,'rupeeLike.c']]],
