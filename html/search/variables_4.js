@@ -48,7 +48,8 @@ var searchData=
   ['dungeon_5froom_45',['dungeon_room',['../structPlayerRoomStatus.html#a713f74d6aa9bd2e0aeed00cde80f088e',1,'PlayerRoomStatus']]],
   ['dungeon_5fx_46',['dungeon_x',['../structPlayerRoomStatus.html#ac59718a02700e02b2872766a7ae5dbcc',1,'PlayerRoomStatus']]],
   ['dungeon_5fy_47',['dungeon_y',['../structPlayerRoomStatus.html#aac5acaace9515e8b25a10ff4bb1420fb',1,'PlayerRoomStatus']]],
-  ['duration_48',['duration',['../structUIElement.html#a0a8982fdbbe3e02c04c1e59fbee05667',1,'UIElement::duration()'],['../structPACKED.html#a546c33fea20deb541e3546c0dbb63513',1,'PACKED::duration()'],['../ui_8c.html#a88f98167f55e7fb55b3adc3db056980d',1,'duration():&#160;ui.c']]],
-  ['dx_49',['dx',['../structBgTransformationSettings.html#a78ac2dc26bc5ff72e7f4e0c8540231cb',1,'BgTransformationSettings::dx()'],['../structBgAffineDstData.html#a9854bc6c056eaf7997fe502e63d11649',1,'BgAffineDstData::dx()']]],
-  ['dy_50',['dy',['../structBgTransformationSettings.html#a9348b4995d2a99e5e071c57a3e8d7916',1,'BgTransformationSettings::dy()'],['../structBgAffineDstData.html#a04ad69f043c09619f055f79668b65579',1,'BgAffineDstData::dy()']]]
+  ['duplicate_48',['duplicate',['../structFigurineMenu.html#a1b4c398e59d0407b264cebfee074cd8b',1,'FigurineMenu']]],
+  ['duration_49',['duration',['../structUIElement.html#a0a8982fdbbe3e02c04c1e59fbee05667',1,'UIElement::duration()'],['../structPACKED.html#a546c33fea20deb541e3546c0dbb63513',1,'PACKED::duration()'],['../ui_8c.html#a88f98167f55e7fb55b3adc3db056980d',1,'duration():&#160;ui.c']]],
+  ['dx_50',['dx',['../structBgTransformationSettings.html#a78ac2dc26bc5ff72e7f4e0c8540231cb',1,'BgTransformationSettings::dx()'],['../structBgAffineDstData.html#a9854bc6c056eaf7997fe502e63d11649',1,'BgAffineDstData::dx()']]],
+  ['dy_51',['dy',['../structBgTransformationSettings.html#a9348b4995d2a99e5e071c57a3e8d7916',1,'BgTransformationSettings::dy()'],['../structBgAffineDstData.html#a04ad69f043c09619f055f79668b65579',1,'BgAffineDstData::dy()']]]
 ];

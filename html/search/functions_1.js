@@ -35,7 +35,7 @@ var searchData=
   ['agbprintflush1block_32',['AGBPrintFlush1Block',['../isagbprint_8h.html#a20a99481a6eef2106f9f1c9fd9628b93',1,'isagbprint.h']]],
   ['agbprintinit_33',['AGBPrintInit',['../isagbprint_8h.html#ada89727243ff334d7245478540dade5d',1,'isagbprint.h']]],
   ['agbputc_34',['AGBPutc',['../isagbprint_8h.html#a1c6906924fcea2df337af4431013e2c9',1,'isagbprint.h']]],
-  ['allocmutablehitbox_35',['AllocMutableHitbox',['../coord_8c.html#a8f4e4e5e3686625a6210b6d309247913',1,'AllocMutableHitbox(Entity *ent):&#160;coord.c'],['../coord_8h.html#a19c15263fa9732eb617f9ca4a5e86aba',1,'AllocMutableHitbox(Entity *):&#160;coord.c']]],
+  ['allocmutablehitbox_35',['AllocMutableHitbox',['../physics_8c.html#a8f4e4e5e3686625a6210b6d309247913',1,'AllocMutableHitbox(Entity *ent):&#160;physics.c'],['../physics_8h.html#a19c15263fa9732eb617f9ca4a5e86aba',1,'AllocMutableHitbox(Entity *):&#160;physics.c']]],
   ['ambientclouds_36',['AmbientClouds',['../ambientClouds_8c.html#ad8c1035d2381e6e659e7347ad0342b8e',1,'AmbientClouds(Entity *this):&#160;ambientClouds.c'],['../object_8h.html#acb9328973860baf9a9ccd93c90d7c36c',1,'AmbientClouds():&#160;object.h']]],
   ['angrystatue_37',['AngryStatue',['../object_8h.html#afd314fe02efc027e1cb57fac98e86acc',1,'AngryStatue():&#160;object.h'],['../angryStatue_8c.html#a9b10cdd861ebd09f8a3b2957da220208',1,'AngryStatue(Entity *this):&#160;angryStatue.c']]],
   ['angrystatue_5faction1_38',['AngryStatue_Action1',['../angryStatue_8c.html#aab5682a85cf6f4311f4240b301533ee7',1,'angryStatue.c']]],

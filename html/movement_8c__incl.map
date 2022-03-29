@@ -9,7 +9,7 @@
 <area shape="rect" id="node23" href="$game_8h.html" title=" " alt="" coords="215,80,279,107"/>
 <area shape="rect" id="node24" href="$asm_8h.html" title=" " alt="" coords="310,304,367,331"/>
 <area shape="rect" id="node25" href="$item_8h.html" title=" " alt="" coords="699,155,757,181"/>
-<area shape="rect" id="node27" href="$coord_8h.html" title=" " alt="" coords="1267,229,1331,256"/>
+<area shape="rect" id="node27" href="$physics_8h.html" title=" " alt="" coords="1267,229,1343,256"/>
 <area shape="rect" id="node28" href="$functions_8h.html" title=" " alt="" coords="956,80,1041,107"/>
 <area shape="rect" id="node3" href="$gba_8h.html" title=" " alt="" coords="881,528,959,555"/>
 <area shape="rect" id="node4" title=" " alt="" coords="605,603,669,629"/>
@@ -30,5 +30,5 @@
 <area shape="rect" id="node29" href="$manager_8h.html" title=" " alt="" coords="917,229,1000,256"/>
 <area shape="rect" id="node30" href="$structures_8h.html" title=" " alt="" coords="1079,155,1169,181"/>
 <area shape="rect" id="node31" href="$script_8h.html" title=" " alt="" coords="781,155,845,181"/>
-<area shape="rect" id="node32" href="$map_8h.html" title=" " alt="" coords="1203,379,1261,405"/>
+<area shape="rect" id="node32" href="$map_8h.html" title=" " alt="" coords="1210,379,1267,405"/>
 </map>

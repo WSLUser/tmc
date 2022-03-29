@@ -1,9 +1,9 @@
 <map id="include/new_player.h" name="include/new_player.h">
-<area shape="rect" id="node1" title=" " alt="" coords="432,5,575,32"/>
-<area shape="rect" id="node2" href="$coord_8c.html" title=" " alt="" coords="5,87,92,114"/>
-<area shape="rect" id="node3" href="$itemForSale_8c.html" title="Item for Sale object." alt="" coords="117,87,279,114"/>
-<area shape="rect" id="node4" href="$mazaalBossObject_8c.html" title=" " alt="" coords="303,87,506,114"/>
-<area shape="rect" id="node5" href="$object61_8c.html" title="Object61 object." alt="" coords="531,87,673,114"/>
-<area shape="rect" id="node6" href="$playerItemHeldObject_8c.html" title=" " alt="" coords="698,80,866,121"/>
-<area shape="rect" id="node7" href="$playerUtils_8c.html" title=" " alt="" coords="890,87,1005,114"/>
+<area shape="rect" id="node1" title=" " alt="" coords="491,5,634,32"/>
+<area shape="rect" id="node2" href="$itemForSale_8c.html" title="Item for Sale object." alt="" coords="5,87,168,114"/>
+<area shape="rect" id="node3" href="$mazaalBossObject_8c.html" title=" " alt="" coords="192,87,395,114"/>
+<area shape="rect" id="node4" href="$object61_8c.html" title="Object61 object." alt="" coords="419,87,562,114"/>
+<area shape="rect" id="node5" href="$physics_8c.html" title=" " alt="" coords="587,87,685,114"/>
+<area shape="rect" id="node6" href="$playerItemHeldObject_8c.html" title=" " alt="" coords="709,80,877,121"/>
+<area shape="rect" id="node7" href="$playerUtils_8c.html" title=" " alt="" coords="901,87,1016,114"/>
 </map>

@@ -1,7 +1,7 @@
 <map id="src/object/object86.c" name="src/object/object86.c">
-<area shape="rect" id="node1" title=" " alt="" coords="538,5,681,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="545,5,687,32"/>
 <area shape="rect" id="node2" href="$object_8h.html" title=" " alt="" coords="424,80,491,107"/>
-<area shape="rect" id="node27" href="$item_8h.html" title=" " alt="" coords="769,80,826,107"/>
+<area shape="rect" id="node27" href="$item_8h.html" title=" " alt="" coords="782,80,839,107"/>
 <area shape="rect" id="node3" href="$global_8h.html" title=" " alt="" coords="483,379,549,405"/>
 <area shape="rect" id="node15" href="$asm_8h.html" title=" " alt="" coords="313,304,370,331"/>
 <area shape="rect" id="node16" href="$common_8h.html" title=" " alt="" coords="365,229,448,256"/>
@@ -10,8 +10,8 @@
 <area shape="rect" id="node19" href="$effects_8h.html" title=" " alt="" coords="495,155,566,181"/>
 <area shape="rect" id="node20" href="$entity_8h.html" title=" " alt="" coords="614,229,677,256"/>
 <area shape="rect" id="node23" href="$room_8h.html" title=" " alt="" coords="171,155,232,181"/>
-<area shape="rect" id="node25" href="$coord_8h.html" title=" " alt="" coords="641,155,705,181"/>
-<area shape="rect" id="node26" href="$player_8h.html" title=" " alt="" coords="729,155,796,181"/>
+<area shape="rect" id="node25" href="$physics_8h.html" title=" " alt="" coords="642,155,718,181"/>
+<area shape="rect" id="node26" href="$player_8h.html" title=" " alt="" coords="743,155,809,181"/>
 <area shape="rect" id="node4" href="$gba_8h.html" title=" " alt="" coords="618,453,697,480"/>
 <area shape="rect" id="node5" title=" " alt="" coords="343,528,407,555"/>
 <area shape="rect" id="node6" href="$defines_8h.html" title=" " alt="" coords="901,528,974,555"/>

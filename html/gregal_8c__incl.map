@@ -1,8 +1,8 @@
 <map id="src/npc/gregal.c" name="src/npc/gregal.c">
-<area shape="rect" id="node1" title=" " alt="" coords="371,5,485,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="363,5,477,32"/>
 <area shape="rect" id="node2" href="$entity_8h.html" title=" " alt="" coords="518,379,581,405"/>
 <area shape="rect" id="node17" href="$script_8h.html" title=" " alt="" coords="5,229,69,256"/>
-<area shape="rect" id="node18" href="$functions_8h.html" title=" " alt="" coords="281,155,367,181"/>
+<area shape="rect" id="node18" href="$functions_8h.html" title=" " alt="" coords="272,155,357,181"/>
 <area shape="rect" id="node26" href="$npc_8h.html" title=" " alt="" coords="853,80,907,107"/>
 <area shape="rect" id="node3" href="$global_8h.html" title=" " alt="" coords="803,528,869,555"/>
 <area shape="rect" id="node15" href="$color_8h.html" title=" " alt="" coords="529,453,589,480"/>
@@ -19,7 +19,7 @@
 <area shape="rect" id="node7" title=" " alt="" coords="1223,752,1291,779"/>
 <area shape="rect" id="node10" title=" " alt="" coords="872,827,936,853"/>
 <area shape="rect" id="node19" href="$manager_8h.html" title=" " alt="" coords="195,304,277,331"/>
-<area shape="rect" id="node20" href="$coord_8h.html" title=" " alt="" coords="360,229,424,256"/>
+<area shape="rect" id="node20" href="$physics_8h.html" title=" " alt="" coords="347,229,423,256"/>
 <area shape="rect" id="node21" href="$player_8h.html" title=" " alt="" coords="803,304,869,331"/>
 <area shape="rect" id="node22" href="$room_8h.html" title=" " alt="" coords="981,229,1043,256"/>
 <area shape="rect" id="node24" href="$structures_8h.html" title=" " alt="" coords="752,229,843,256"/>
@@ -27,7 +27,7 @@
 <area shape="rect" id="node23" href="$droptables_8h.html" title=" " alt="" coords="995,304,1087,331"/>
 <area shape="rect" id="node27" href="$asm_8h.html" title=" " alt="" coords="1139,379,1197,405"/>
 <area shape="rect" id="node28" href="$common_8h.html" title=" " alt="" coords="1221,379,1304,405"/>
-<area shape="rect" id="node29" href="$sound_8h.html" title=" " alt="" coords="1280,453,1347,480"/>
+<area shape="rect" id="node29" href="$sound_8h.html" title=" " alt="" coords="1289,453,1356,480"/>
 <area shape="rect" id="node30" href="$effects_8h.html" title=" " alt="" coords="505,304,575,331"/>
 <area shape="rect" id="node31" href="$flags_8h.html" title=" " alt="" coords="1379,379,1437,405"/>
 <area shape="rect" id="node32" href="$message_8h.html" title=" " alt="" coords="681,155,767,181"/>

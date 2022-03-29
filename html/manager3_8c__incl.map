@@ -1,15 +1,15 @@
 <map id="src/manager/manager3.c" name="src/manager/manager3.c">
-<area shape="rect" id="node1" title=" " alt="" coords="409,5,574,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="406,5,571,32"/>
 <area shape="rect" id="node2" href="$global_8h.html" title=" " alt="" coords="681,453,747,480"/>
 <area shape="rect" id="node14" href="$asm_8h.html" title=" " alt="" coords="69,229,127,256"/>
-<area shape="rect" id="node15" href="$manager_8h.html" title=" " alt="" coords="711,155,794,181"/>
+<area shape="rect" id="node15" href="$manager_8h.html" title=" " alt="" coords="721,155,803,181"/>
 <area shape="rect" id="node19" href="$flags_8h.html" title=" " alt="" coords="151,229,210,256"/>
 <area shape="rect" id="node20" href="$area_8h.html" title=" " alt="" coords="23,304,80,331"/>
 <area shape="rect" id="node23" href="$room_8h.html" title=" " alt="" coords="573,229,634,256"/>
 <area shape="rect" id="node25" href="$player_8h.html" title=" " alt="" coords="658,229,725,256"/>
 <area shape="rect" id="node26" href="$sound_8h.html" title=" " alt="" coords="234,229,301,256"/>
 <area shape="rect" id="node27" href="$object_8h.html" title=" " alt="" coords="406,155,473,181"/>
-<area shape="rect" id="node31" href="$functions_8h.html" title=" " alt="" coords="842,80,927,107"/>
+<area shape="rect" id="node31" href="$functions_8h.html" title=" " alt="" coords="851,80,937,107"/>
 <area shape="rect" id="node3" href="$gba_8h.html" title=" " alt="" coords="756,528,835,555"/>
 <area shape="rect" id="node4" title=" " alt="" coords="514,603,578,629"/>
 <area shape="rect" id="node5" href="$defines_8h.html" title=" " alt="" coords="1071,603,1144,629"/>
@@ -29,8 +29,8 @@
 <area shape="rect" id="node24" href="$droptables_8h.html" title=" " alt="" coords="559,304,651,331"/>
 <area shape="rect" id="node28" href="$common_8h.html" title=" " alt="" coords="389,379,471,405"/>
 <area shape="rect" id="node29" href="$effects_8h.html" title=" " alt="" coords="477,229,548,256"/>
-<area shape="rect" id="node30" href="$coord_8h.html" title=" " alt="" coords="951,229,1015,256"/>
-<area shape="rect" id="node32" href="$structures_8h.html" title=" " alt="" coords="1007,155,1098,181"/>
-<area shape="rect" id="node33" href="$script_8h.html" title=" " alt="" coords="818,155,882,181"/>
-<area shape="rect" id="node34" href="$map_8h.html" title=" " alt="" coords="1192,304,1249,331"/>
+<area shape="rect" id="node30" href="$physics_8h.html" title=" " alt="" coords="952,229,1028,256"/>
+<area shape="rect" id="node32" href="$structures_8h.html" title=" " alt="" coords="1019,155,1110,181"/>
+<area shape="rect" id="node33" href="$script_8h.html" title=" " alt="" coords="827,155,891,181"/>
+<area shape="rect" id="node34" href="$map_8h.html" title=" " alt="" coords="1205,304,1263,331"/>
 </map>

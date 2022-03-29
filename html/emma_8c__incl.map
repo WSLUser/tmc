@@ -1,8 +1,8 @@
 <map id="src/npc/emma.c" name="src/npc/emma.c">
-<area shape="rect" id="node1" title=" " alt="" coords="187,5,301,32"/>
-<area shape="rect" id="node2" href="$entity_8h.html" title=" " alt="" coords="291,304,354,331"/>
-<area shape="rect" id="node17" href="$script_8h.html" title=" " alt="" coords="212,155,276,181"/>
-<area shape="rect" id="node18" href="$functions_8h.html" title=" " alt="" coords="347,80,432,107"/>
+<area shape="rect" id="node1" title=" " alt="" coords="181,5,296,32"/>
+<area shape="rect" id="node2" href="$entity_8h.html" title=" " alt="" coords="281,304,343,331"/>
+<area shape="rect" id="node17" href="$script_8h.html" title=" " alt="" coords="207,155,271,181"/>
+<area shape="rect" id="node18" href="$functions_8h.html" title=" " alt="" coords="341,80,427,107"/>
 <area shape="rect" id="node3" href="$global_8h.html" title=" " alt="" coords="429,453,496,480"/>
 <area shape="rect" id="node15" href="$color_8h.html" title=" " alt="" coords="251,379,311,405"/>
 <area shape="rect" id="node16" href="$sprite_8h.html" title=" " alt="" coords="336,379,400,405"/>
@@ -18,10 +18,10 @@
 <area shape="rect" id="node7" title=" " alt="" coords="929,677,997,704"/>
 <area shape="rect" id="node10" title=" " alt="" coords="477,752,541,779"/>
 <area shape="rect" id="node19" href="$manager_8h.html" title=" " alt="" coords="5,229,88,256"/>
-<area shape="rect" id="node20" href="$coord_8h.html" title=" " alt="" coords="360,229,424,256"/>
-<area shape="rect" id="node21" href="$player_8h.html" title=" " alt="" coords="499,229,565,256"/>
+<area shape="rect" id="node20" href="$physics_8h.html" title=" " alt="" coords="350,229,426,256"/>
+<area shape="rect" id="node21" href="$player_8h.html" title=" " alt="" coords="501,229,568,256"/>
 <area shape="rect" id="node22" href="$room_8h.html" title=" " alt="" coords="112,229,173,256"/>
-<area shape="rect" id="node24" href="$structures_8h.html" title=" " alt="" coords="452,155,543,181"/>
+<area shape="rect" id="node24" href="$structures_8h.html" title=" " alt="" coords="447,155,537,181"/>
 <area shape="rect" id="node25" href="$map_8h.html" title=" " alt="" coords="627,304,685,331"/>
 <area shape="rect" id="node23" href="$droptables_8h.html" title=" " alt="" coords="83,304,175,331"/>
 </map>

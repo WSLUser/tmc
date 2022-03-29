@@ -1,12 +1,12 @@
 <map id="src/manager/manager14.c" name="src/manager/manager14.c">
-<area shape="rect" id="node1" title=" " alt="" coords="186,5,358,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="191,5,363,32"/>
 <area shape="rect" id="node2" href="$global_8h.html" title=" " alt="" coords="297,379,364,405"/>
-<area shape="rect" id="node14" href="$manager_8h.html" title=" " alt="" coords="56,155,139,181"/>
+<area shape="rect" id="node14" href="$manager_8h.html" title=" " alt="" coords="49,155,132,181"/>
 <area shape="rect" id="node18" href="$screen_8h.html" title=" " alt="" coords="470,229,541,256"/>
-<area shape="rect" id="node20" href="$room_8h.html" title=" " alt="" coords="251,155,312,181"/>
+<area shape="rect" id="node20" href="$room_8h.html" title=" " alt="" coords="257,155,319,181"/>
 <area shape="rect" id="node22" href="$flags_8h.html" title=" " alt="" coords="564,80,623,107"/>
-<area shape="rect" id="node23" href="$coord_8h.html" title=" " alt="" coords="163,155,227,181"/>
-<area shape="rect" id="node24" href="$main_8h.html" title=" " alt="" coords="310,80,370,107"/>
+<area shape="rect" id="node23" href="$physics_8h.html" title=" " alt="" coords="157,155,233,181"/>
+<area shape="rect" id="node24" href="$main_8h.html" title=" " alt="" coords="315,80,375,107"/>
 <area shape="rect" id="node3" href="$gba_8h.html" title=" " alt="" coords="446,453,525,480"/>
 <area shape="rect" id="node4" title=" " alt="" coords="144,528,208,555"/>
 <area shape="rect" id="node5" href="$defines_8h.html" title=" " alt="" coords="791,528,865,555"/>
