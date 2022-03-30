@@ -226,7 +226,7 @@ var searchData=
   ['moblinspear_5fontick_223',['MoblinSpear_OnTick',['../moblinSpear_8c.html#a7184daf4b61d6cbaec4e6c05044bdd79',1,'moblinSpear.c']]],
   ['mod_224',['Mod',['../playerUtils_8c.html#ab22bbd9838a57d9bc1154ad042de6a7a',1,'playerUtils.c']]],
   ['modarrows_225',['ModArrows',['../game_8c.html#a37dd2e4f8cd77ed4530275d0d2aef47f',1,'ModArrows(s32 arrows):&#160;game.c'],['../playerItemBow_8c.html#a4d6ca4bf7cd3dc0616b51f3deab7fada',1,'ModArrows(s32):&#160;game.c']]],
-  ['modbombs_226',['ModBombs',['../game_8c.html#ab7ecac966571c7b32258f90e84dfaac5',1,'ModBombs(s32 bombs):&#160;game.c'],['../functions_8h.html#a9c9fd7194fcf9c5c3f9d6ca7318e0aa0',1,'ModBombs(s32):&#160;game.c']]],
+  ['modbombs_226',['ModBombs',['../game_8c.html#ab7ecac966571c7b32258f90e84dfaac5',1,'ModBombs(s32 bombs):&#160;game.c'],['../player_8h.html#ad40b09fc7f73df1fe135850a8875eaf4',1,'ModBombs(s32 delta):&#160;game.c']]],
   ['modhealth_227',['ModHealth',['../game_8c.html#a5ede4c080d48992c358992bd67a26386',1,'ModHealth(s32 delta):&#160;game.c'],['../player_8h.html#a5ede4c080d48992c358992bd67a26386',1,'ModHealth(s32 delta):&#160;game.c']]],
   ['modrupees_228',['ModRupees',['../game_8c.html#aff2c96ac17ee7fb7465dda41ee9b76d1',1,'ModRupees(s32 delta):&#160;game.c'],['../player_8h.html#aff2c96ac17ee7fb7465dda41ee9b76d1',1,'ModRupees(s32 delta):&#160;game.c']]],
   ['modshells_229',['ModShells',['../game_8c.html#a4fc837be0e80e1ab3925c6274fbbdd41',1,'ModShells(s32 shells):&#160;game.c'],['../figurineDevice_8c.html#a13e68b82d3e1f2ad0409b5a9b104ac54',1,'ModShells(s32):&#160;game.c']]],

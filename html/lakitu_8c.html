@@ -88,7 +88,8 @@ $(function() {
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="global_8h_source.html">global.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="enemy_8h_source.html">enemy.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="physics_8h_source.html">physics.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="player_8h_source.html">player.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for lakitu.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -96,38 +97,31 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="lakitu_8c__incl.png" border="0" usemap="#asrc_2enemy_2lakitu_8c" alt=""/></div>
 <map name="asrc_2enemy_2lakitu_8c" id="asrc_2enemy_2lakitu_8c">
-<area shape="rect" title="Lakitu enemy." alt="" coords="202,5,329,32"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="621,453,688,480"/>
-<area shape="rect" href="enemy_8h.html" title=" " alt="" coords="230,155,301,181"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="851,80,936,107"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="766,528,845,555"/>
-<area shape="rect" title=" " alt="" coords="471,603,535,629"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1118,603,1191,629"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1027,603,1093,629"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="670,677,733,704"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="655,603,747,629"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="559,603,631,629"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="771,603,839,629"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="864,603,952,629"/>
-<area shape="rect" title=" " alt="" coords="1121,677,1189,704"/>
-<area shape="rect" title=" " alt="" coords="669,752,733,779"/>
-<area shape="rect" href="asm_8h.html" title=" " alt="" coords="297,379,354,405"/>
-<area shape="rect" href="sound_8h.html" title=" " alt="" coords="304,304,371,331"/>
-<area shape="rect" href="effects_8h.html" title=" " alt="" coords="523,229,594,256"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="734,304,797,331"/>
-<area shape="rect" href="flags_8h.html" title=" " alt="" coords="43,304,101,331"/>
-<area shape="rect" href="common_8h.html" title=" " alt="" coords="97,379,180,405"/>
-<area shape="rect" href="projectile_8h.html" title=" " alt="" coords="329,229,413,256"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="797,379,857,405"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="657,379,721,405"/>
-<area shape="rect" href="manager_8h.html" title=" " alt="" coords="619,229,701,256"/>
-<area shape="rect" href="physics_8h.html" title=" " alt="" coords="1070,229,1146,256"/>
-<area shape="rect" href="player_8h.html" title=" " alt="" coords="877,229,944,256"/>
-<area shape="rect" href="room_8h.html" title=" " alt="" coords="437,229,499,256"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="965,155,1056,181"/>
-<area shape="rect" href="script_8h.html" title=" " alt="" coords="827,155,891,181"/>
-<area shape="rect" href="map_8h.html" title=" " alt="" coords="1135,304,1193,331"/>
-<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="422,304,514,331"/>
+<area shape="rect" title="Lakitu enemy." alt="" coords="282,5,409,32"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="300,379,367,405"/>
+<area shape="rect" href="enemy_8h.html" title=" " alt="" coords="274,80,345,107"/>
+<area shape="rect" href="physics_8h.html" title=" " alt="" coords="581,155,657,181"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="681,155,748,181"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="445,453,523,480"/>
+<area shape="rect" title=" " alt="" coords="149,528,213,555"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="797,528,870,555"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="705,528,772,555"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="349,603,411,629"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="334,528,426,555"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="237,528,309,555"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="450,528,518,555"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="543,528,631,555"/>
+<area shape="rect" title=" " alt="" coords="799,603,867,629"/>
+<area shape="rect" title=" " alt="" coords="348,677,412,704"/>
+<area shape="rect" href="asm_8h.html" title=" " alt="" coords="251,229,309,256"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="508,229,575,256"/>
+<area shape="rect" href="effects_8h.html" title=" " alt="" coords="274,155,345,181"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="389,229,451,256"/>
+<area shape="rect" href="flags_8h.html" title=" " alt="" coords="49,304,108,331"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="93,229,176,256"/>
+<area shape="rect" href="projectile_8h.html" title=" " alt="" coords="421,155,505,181"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="303,304,363,331"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="388,304,452,331"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -713,9 +707,9 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="lakitu_8c.html#a7aa9cbdc6198389d060eab6fe5a89507">sub_0803C850</a>,</div>
 <div class="line">    <a class="code hl_function" href="lakitu_8c.html#affe8328d7ad8139dfb81f32384b40f87">sub_0803C86C</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="alakitu_8c_html_a7766b2407bac72edbdce9c3779050768"><div class="ttname"><a href="lakitu_8c.html#a7766b2407bac72edbdce9c3779050768">sub_0803C844</a></div><div class="ttdeci">void sub_0803C844(Entity *this)</div><div class="ttdef"><b>Definition:</b> lakitu.c:103</div></div>
-<div class="ttc" id="alakitu_8c_html_a7aa9cbdc6198389d060eab6fe5a89507"><div class="ttname"><a href="lakitu_8c.html#a7aa9cbdc6198389d060eab6fe5a89507">sub_0803C850</a></div><div class="ttdeci">void sub_0803C850(Entity *this)</div><div class="ttdef"><b>Definition:</b> lakitu.c:108</div></div>
-<div class="ttc" id="alakitu_8c_html_affe8328d7ad8139dfb81f32384b40f87"><div class="ttname"><a href="lakitu_8c.html#affe8328d7ad8139dfb81f32384b40f87">sub_0803C86C</a></div><div class="ttdeci">void sub_0803C86C(Entity *this)</div><div class="ttdef"><b>Definition:</b> lakitu.c:117</div></div>
+<div class="ttc" id="alakitu_8c_html_a7766b2407bac72edbdce9c3779050768"><div class="ttname"><a href="lakitu_8c.html#a7766b2407bac72edbdce9c3779050768">sub_0803C844</a></div><div class="ttdeci">void sub_0803C844(Entity *this)</div><div class="ttdef"><b>Definition:</b> lakitu.c:104</div></div>
+<div class="ttc" id="alakitu_8c_html_a7aa9cbdc6198389d060eab6fe5a89507"><div class="ttname"><a href="lakitu_8c.html#a7aa9cbdc6198389d060eab6fe5a89507">sub_0803C850</a></div><div class="ttdeci">void sub_0803C850(Entity *this)</div><div class="ttdef"><b>Definition:</b> lakitu.c:109</div></div>
+<div class="ttc" id="alakitu_8c_html_affe8328d7ad8139dfb81f32384b40f87"><div class="ttname"><a href="lakitu_8c.html#affe8328d7ad8139dfb81f32384b40f87">sub_0803C86C</a></div><div class="ttdeci">void sub_0803C86C(Entity *this)</div><div class="ttdef"><b>Definition:</b> lakitu.c:118</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -760,9 +754,9 @@ Variables</h2></td></tr>
 <div class="ttc" id="aacroBandits_8c_html_a011d86188747c52072f9c8e09d1f1d18"><div class="ttname"><a href="acroBandits_8c.html#a011d86188747c52072f9c8e09d1f1d18">GenericConfused</a></div><div class="ttdeci">void GenericConfused(Entity *this)</div></div>
 <div class="ttc" id="aacroBandits_8c_html_a94401d9b7ce755d41ac7de8153fab145"><div class="ttname"><a href="acroBandits_8c.html#a94401d9b7ce755d41ac7de8153fab145">GenericDeath</a></div><div class="ttdeci">void GenericDeath(Entity *this)</div><div class="ttdef"><b>Definition:</b> enemyUtils.c:99</div></div>
 <div class="ttc" id="aasm_8h_html_ae7f4b31c5b7b590b6da3fccb26e10806"><div class="ttname"><a href="asm_8h.html#ae7f4b31c5b7b590b6da3fccb26e10806">GenericKnockback</a></div><div class="ttdeci">void GenericKnockback(struct Entity_ *)</div></div>
-<div class="ttc" id="alakitu_8c_html_a068003d7dd1166ed5529be0707c67ef1"><div class="ttname"><a href="lakitu_8c.html#a068003d7dd1166ed5529be0707c67ef1">Lakitu_OnGrabbed</a></div><div class="ttdeci">void Lakitu_OnGrabbed(Entity *this)</div><div class="ttdef"><b>Definition:</b> lakitu.c:97</div></div>
-<div class="ttc" id="alakitu_8c_html_a62d06af3ca33cc93f30e79b95e873c88"><div class="ttname"><a href="lakitu_8c.html#a62d06af3ca33cc93f30e79b95e873c88">Lakitu_OnCollision</a></div><div class="ttdeci">void Lakitu_OnCollision(Entity *this)</div><div class="ttdef"><b>Definition:</b> lakitu.c:60</div></div>
-<div class="ttc" id="alakitu_8c_html_ab35d15f03ec46d1664111c3eb6447091"><div class="ttname"><a href="lakitu_8c.html#ab35d15f03ec46d1664111c3eb6447091">Lakitu_OnTick</a></div><div class="ttdeci">void Lakitu_OnTick(Entity *this)</div><div class="ttdef"><b>Definition:</b> lakitu.c:52</div></div>
+<div class="ttc" id="alakitu_8c_html_a068003d7dd1166ed5529be0707c67ef1"><div class="ttname"><a href="lakitu_8c.html#a068003d7dd1166ed5529be0707c67ef1">Lakitu_OnGrabbed</a></div><div class="ttdeci">void Lakitu_OnGrabbed(Entity *this)</div><div class="ttdef"><b>Definition:</b> lakitu.c:98</div></div>
+<div class="ttc" id="alakitu_8c_html_a62d06af3ca33cc93f30e79b95e873c88"><div class="ttname"><a href="lakitu_8c.html#a62d06af3ca33cc93f30e79b95e873c88">Lakitu_OnCollision</a></div><div class="ttdeci">void Lakitu_OnCollision(Entity *this)</div><div class="ttdef"><b>Definition:</b> lakitu.c:61</div></div>
+<div class="ttc" id="alakitu_8c_html_ab35d15f03ec46d1664111c3eb6447091"><div class="ttname"><a href="lakitu_8c.html#ab35d15f03ec46d1664111c3eb6447091">Lakitu_OnTick</a></div><div class="ttdeci">void Lakitu_OnTick(Entity *this)</div><div class="ttdef"><b>Definition:</b> lakitu.c:53</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -785,14 +779,14 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="lakitu_8c.html#ac0570e671ad6c9b8f2187d47e96a9dde">Lakitu_Initialize</a>, <a class="code hl_function" href="lakitu_8c.html#a57d27967df90ad0303fa7c89bd442689">Lakitu_Hide</a>,      <a class="code hl_function" href="lakitu_8c.html#a2bcbb034ba345b8bcb19ae7fc96f4723">Lakitu_EndHide</a>,        <a class="code hl_function" href="lakitu_8c.html#aac1aab83ac803ec077a44eeb352dce54">Lakitu_Idle</a>,</div>
 <div class="line">    <a class="code hl_function" href="lakitu_8c.html#a7886ec514982da6a8a04cdc1d3cb8afa">Lakitu_BeginHide</a>,  <a class="code hl_function" href="lakitu_8c.html#af85ac377dc15547c2bbe5f2a0b20069c">Lakitu_Lightning</a>, <a class="code hl_function" href="lakitu_8c.html#a3de154f207f3bedbe1e904169f587831">Lakitu_LightningDelay</a>, <a class="code hl_function" href="lakitu_8c.html#ae9f41fb12a5613e216133f2fdd7dc32c">Lakitu_Cloudless</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="alakitu_8c_html_a2bcbb034ba345b8bcb19ae7fc96f4723"><div class="ttname"><a href="lakitu_8c.html#a2bcbb034ba345b8bcb19ae7fc96f4723">Lakitu_EndHide</a></div><div class="ttdeci">void Lakitu_EndHide(Entity *this)</div><div class="ttdef"><b>Definition:</b> lakitu.c:152</div></div>
-<div class="ttc" id="alakitu_8c_html_a3de154f207f3bedbe1e904169f587831"><div class="ttname"><a href="lakitu_8c.html#a3de154f207f3bedbe1e904169f587831">Lakitu_LightningDelay</a></div><div class="ttdeci">void Lakitu_LightningDelay(Entity *this)</div><div class="ttdef"><b>Definition:</b> lakitu.c:216</div></div>
-<div class="ttc" id="alakitu_8c_html_a57d27967df90ad0303fa7c89bd442689"><div class="ttname"><a href="lakitu_8c.html#a57d27967df90ad0303fa7c89bd442689">Lakitu_Hide</a></div><div class="ttdeci">void Lakitu_Hide(Entity *this)</div><div class="ttdef"><b>Definition:</b> lakitu.c:143</div></div>
-<div class="ttc" id="alakitu_8c_html_a7886ec514982da6a8a04cdc1d3cb8afa"><div class="ttname"><a href="lakitu_8c.html#a7886ec514982da6a8a04cdc1d3cb8afa">Lakitu_BeginHide</a></div><div class="ttdeci">void Lakitu_BeginHide(Entity *this)</div><div class="ttdef"><b>Definition:</b> lakitu.c:180</div></div>
-<div class="ttc" id="alakitu_8c_html_aac1aab83ac803ec077a44eeb352dce54"><div class="ttname"><a href="lakitu_8c.html#aac1aab83ac803ec077a44eeb352dce54">Lakitu_Idle</a></div><div class="ttdeci">void Lakitu_Idle(Entity *this)</div><div class="ttdef"><b>Definition:</b> lakitu.c:165</div></div>
-<div class="ttc" id="alakitu_8c_html_ac0570e671ad6c9b8f2187d47e96a9dde"><div class="ttname"><a href="lakitu_8c.html#ac0570e671ad6c9b8f2187d47e96a9dde">Lakitu_Initialize</a></div><div class="ttdeci">void Lakitu_Initialize(Entity *this)</div><div class="ttdef"><b>Definition:</b> lakitu.c:122</div></div>
-<div class="ttc" id="alakitu_8c_html_ae9f41fb12a5613e216133f2fdd7dc32c"><div class="ttname"><a href="lakitu_8c.html#ae9f41fb12a5613e216133f2fdd7dc32c">Lakitu_Cloudless</a></div><div class="ttdeci">void Lakitu_Cloudless(Entity *this)</div><div class="ttdef"><b>Definition:</b> lakitu.c:233</div></div>
-<div class="ttc" id="alakitu_8c_html_af85ac377dc15547c2bbe5f2a0b20069c"><div class="ttname"><a href="lakitu_8c.html#af85ac377dc15547c2bbe5f2a0b20069c">Lakitu_Lightning</a></div><div class="ttdeci">void Lakitu_Lightning(Entity *this)</div><div class="ttdef"><b>Definition:</b> lakitu.c:191</div></div>
+<div class="ttc" id="alakitu_8c_html_a2bcbb034ba345b8bcb19ae7fc96f4723"><div class="ttname"><a href="lakitu_8c.html#a2bcbb034ba345b8bcb19ae7fc96f4723">Lakitu_EndHide</a></div><div class="ttdeci">void Lakitu_EndHide(Entity *this)</div><div class="ttdef"><b>Definition:</b> lakitu.c:153</div></div>
+<div class="ttc" id="alakitu_8c_html_a3de154f207f3bedbe1e904169f587831"><div class="ttname"><a href="lakitu_8c.html#a3de154f207f3bedbe1e904169f587831">Lakitu_LightningDelay</a></div><div class="ttdeci">void Lakitu_LightningDelay(Entity *this)</div><div class="ttdef"><b>Definition:</b> lakitu.c:217</div></div>
+<div class="ttc" id="alakitu_8c_html_a57d27967df90ad0303fa7c89bd442689"><div class="ttname"><a href="lakitu_8c.html#a57d27967df90ad0303fa7c89bd442689">Lakitu_Hide</a></div><div class="ttdeci">void Lakitu_Hide(Entity *this)</div><div class="ttdef"><b>Definition:</b> lakitu.c:144</div></div>
+<div class="ttc" id="alakitu_8c_html_a7886ec514982da6a8a04cdc1d3cb8afa"><div class="ttname"><a href="lakitu_8c.html#a7886ec514982da6a8a04cdc1d3cb8afa">Lakitu_BeginHide</a></div><div class="ttdeci">void Lakitu_BeginHide(Entity *this)</div><div class="ttdef"><b>Definition:</b> lakitu.c:181</div></div>
+<div class="ttc" id="alakitu_8c_html_aac1aab83ac803ec077a44eeb352dce54"><div class="ttname"><a href="lakitu_8c.html#aac1aab83ac803ec077a44eeb352dce54">Lakitu_Idle</a></div><div class="ttdeci">void Lakitu_Idle(Entity *this)</div><div class="ttdef"><b>Definition:</b> lakitu.c:166</div></div>
+<div class="ttc" id="alakitu_8c_html_ac0570e671ad6c9b8f2187d47e96a9dde"><div class="ttname"><a href="lakitu_8c.html#ac0570e671ad6c9b8f2187d47e96a9dde">Lakitu_Initialize</a></div><div class="ttdeci">void Lakitu_Initialize(Entity *this)</div><div class="ttdef"><b>Definition:</b> lakitu.c:123</div></div>
+<div class="ttc" id="alakitu_8c_html_ae9f41fb12a5613e216133f2fdd7dc32c"><div class="ttname"><a href="lakitu_8c.html#ae9f41fb12a5613e216133f2fdd7dc32c">Lakitu_Cloudless</a></div><div class="ttdeci">void Lakitu_Cloudless(Entity *this)</div><div class="ttdef"><b>Definition:</b> lakitu.c:234</div></div>
+<div class="ttc" id="alakitu_8c_html_af85ac377dc15547c2bbe5f2a0b20069c"><div class="ttname"><a href="lakitu_8c.html#af85ac377dc15547c2bbe5f2a0b20069c">Lakitu_Lightning</a></div><div class="ttdeci">void Lakitu_Lightning(Entity *this)</div><div class="ttdef"><b>Definition:</b> lakitu.c:192</div></div>
 </div><!-- fragment -->
 </div>
 </div>

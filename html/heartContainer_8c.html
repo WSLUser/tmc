@@ -86,6 +86,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="flags_8h_source.html">flags.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="item_8h_source.html">item.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="collision_8h_source.html">collision.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for heartContainer.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -93,34 +94,35 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="heartContainer_8c__incl.png" border="0" usemap="#asrc_2object_2heartContainer_8c" alt=""/></div>
 <map name="asrc_2object_2heartContainer_8c" id="asrc_2object_2heartContainer_8c">
-<area shape="rect" title=" " alt="" coords="223,5,401,32"/>
+<area shape="rect" title=" " alt="" coords="549,5,726,32"/>
 <area shape="rect" href="sound_8h.html" title=" " alt="" coords="5,304,72,331"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="526,304,589,331"/>
-<area shape="rect" href="flags_8h.html" title=" " alt="" coords="775,80,833,107"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="464,80,549,107"/>
-<area shape="rect" href="item_8h.html" title=" " alt="" coords="283,155,341,181"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="457,453,524,480"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="602,528,681,555"/>
-<area shape="rect" title=" " alt="" coords="307,603,371,629"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="954,603,1027,629"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="863,603,929,629"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="506,677,569,704"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="491,603,583,629"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="395,603,467,629"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="607,603,675,629"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="700,603,788,629"/>
-<area shape="rect" title=" " alt="" coords="957,677,1025,704"/>
-<area shape="rect" title=" " alt="" coords="505,752,569,779"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="598,379,658,405"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="459,379,523,405"/>
-<area shape="rect" href="manager_8h.html" title=" " alt="" coords="643,229,725,256"/>
-<area shape="rect" href="physics_8h.html" title=" " alt="" coords="750,229,826,256"/>
-<area shape="rect" href="player_8h.html" title=" " alt="" coords="349,229,416,256"/>
-<area shape="rect" href="room_8h.html" title=" " alt="" coords="851,229,912,256"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="420,155,511,181"/>
-<area shape="rect" href="script_8h.html" title=" " alt="" coords="585,155,649,181"/>
-<area shape="rect" href="map_8h.html" title=" " alt="" coords="77,379,134,405"/>
-<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="835,304,927,331"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="523,304,586,331"/>
+<area shape="rect" href="flags_8h.html" title=" " alt="" coords="212,80,271,107"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="468,80,553,107"/>
+<area shape="rect" href="item_8h.html" title=" " alt="" coords="886,155,943,181"/>
+<area shape="rect" href="collision_8h.html" title=" " alt="" coords="987,229,1066,256"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="459,453,525,480"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="603,528,682,555"/>
+<area shape="rect" title=" " alt="" coords="308,603,372,629"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="955,603,1029,629"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="864,603,931,629"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="507,677,570,704"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="493,603,585,629"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="396,603,468,629"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="609,603,677,629"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="701,603,789,629"/>
+<area shape="rect" title=" " alt="" coords="958,677,1026,704"/>
+<area shape="rect" title=" " alt="" coords="507,752,571,779"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="497,379,557,405"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="581,379,645,405"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="197,229,280,256"/>
+<area shape="rect" href="physics_8h.html" title=" " alt="" coords="390,229,466,256"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="744,229,811,256"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="304,229,365,256"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="601,155,692,181"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="513,155,577,181"/>
+<area shape="rect" href="map_8h.html" title=" " alt="" coords="801,379,858,405"/>
+<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="299,304,391,331"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -297,10 +299,10 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="heartContainer_8c.html#a5f931658eac3e0b9f4e10093abe8e2f7">sub_0808E714</a>,</div>
 <div class="line">    <a class="code hl_function" href="heartContainer_8c.html#afce7f0acc4f831ded2aff1468c4e4112">sub_0808E764</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="aheartContainer_8c_html_a0ce40d36a66b2d5a88cc4517c8aaaf67"><div class="ttname"><a href="heartContainer_8c.html#a0ce40d36a66b2d5a88cc4517c8aaaf67">sub_0808E6A0</a></div><div class="ttdeci">static void sub_0808E6A0(Entity *)</div><div class="ttdef"><b>Definition:</b> heartContainer.c:25</div></div>
-<div class="ttc" id="aheartContainer_8c_html_a5f931658eac3e0b9f4e10093abe8e2f7"><div class="ttname"><a href="heartContainer_8c.html#a5f931658eac3e0b9f4e10093abe8e2f7">sub_0808E714</a></div><div class="ttdeci">static void sub_0808E714(Entity *)</div><div class="ttdef"><b>Definition:</b> heartContainer.c:46</div></div>
-<div class="ttc" id="aheartContainer_8c_html_a692fb2fe19dd1fb47c4483a0145c9afc"><div class="ttname"><a href="heartContainer_8c.html#a692fb2fe19dd1fb47c4483a0145c9afc">sub_0808E6E4</a></div><div class="ttdeci">static void sub_0808E6E4(Entity *)</div><div class="ttdef"><b>Definition:</b> heartContainer.c:37</div></div>
-<div class="ttc" id="aheartContainer_8c_html_afce7f0acc4f831ded2aff1468c4e4112"><div class="ttname"><a href="heartContainer_8c.html#afce7f0acc4f831ded2aff1468c4e4112">sub_0808E764</a></div><div class="ttdeci">static void sub_0808E764(Entity *)</div><div class="ttdef"><b>Definition:</b> heartContainer.c:60</div></div>
+<div class="ttc" id="aheartContainer_8c_html_a0ce40d36a66b2d5a88cc4517c8aaaf67"><div class="ttname"><a href="heartContainer_8c.html#a0ce40d36a66b2d5a88cc4517c8aaaf67">sub_0808E6A0</a></div><div class="ttdeci">static void sub_0808E6A0(Entity *)</div><div class="ttdef"><b>Definition:</b> heartContainer.c:26</div></div>
+<div class="ttc" id="aheartContainer_8c_html_a5f931658eac3e0b9f4e10093abe8e2f7"><div class="ttname"><a href="heartContainer_8c.html#a5f931658eac3e0b9f4e10093abe8e2f7">sub_0808E714</a></div><div class="ttdeci">static void sub_0808E714(Entity *)</div><div class="ttdef"><b>Definition:</b> heartContainer.c:47</div></div>
+<div class="ttc" id="aheartContainer_8c_html_a692fb2fe19dd1fb47c4483a0145c9afc"><div class="ttname"><a href="heartContainer_8c.html#a692fb2fe19dd1fb47c4483a0145c9afc">sub_0808E6E4</a></div><div class="ttdeci">static void sub_0808E6E4(Entity *)</div><div class="ttdef"><b>Definition:</b> heartContainer.c:38</div></div>
+<div class="ttc" id="aheartContainer_8c_html_afce7f0acc4f831ded2aff1468c4e4112"><div class="ttname"><a href="heartContainer_8c.html#afce7f0acc4f831ded2aff1468c4e4112">sub_0808E764</a></div><div class="ttdeci">static void sub_0808E764(Entity *)</div><div class="ttdef"><b>Definition:</b> heartContainer.c:61</div></div>
 </div><!-- fragment -->
 </div>
 </div>

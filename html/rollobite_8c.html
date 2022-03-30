@@ -85,7 +85,10 @@ $(function() {
 <p>Rollobite enemy.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="enemy_8h_source.html">enemy.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="physics_8h_source.html">physics.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="player_8h_source.html">player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="room_8h_source.html">room.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="collision_8h_source.html">collision.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for rollobite.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -93,38 +96,34 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="rollobite_8c__incl.png" border="0" usemap="#asrc_2enemy_2rollobite_8c" alt=""/></div>
 <map name="asrc_2enemy_2rollobite_8c" id="asrc_2enemy_2rollobite_8c">
-<area shape="rect" title="Rollobite enemy." alt="" coords="508,5,649,32"/>
-<area shape="rect" href="enemy_8h.html" title=" " alt="" coords="230,155,301,181"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="799,80,884,107"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="573,453,640,480"/>
-<area shape="rect" href="asm_8h.html" title=" " alt="" coords="325,379,382,405"/>
-<area shape="rect" href="sound_8h.html" title=" " alt="" coords="347,304,413,331"/>
-<area shape="rect" href="effects_8h.html" title=" " alt="" coords="461,229,531,256"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="666,304,729,331"/>
-<area shape="rect" href="flags_8h.html" title=" " alt="" coords="25,304,84,331"/>
-<area shape="rect" href="common_8h.html" title=" " alt="" coords="177,379,260,405"/>
-<area shape="rect" href="projectile_8h.html" title=" " alt="" coords="143,229,227,256"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="695,528,774,555"/>
-<area shape="rect" title=" " alt="" coords="447,603,511,629"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1094,603,1167,629"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="535,603,601,629"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="703,677,766,704"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="773,603,865,629"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="625,603,697,629"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="889,603,957,629"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="981,603,1069,629"/>
-<area shape="rect" title=" " alt="" coords="1097,677,1165,704"/>
-<area shape="rect" title=" " alt="" coords="703,752,767,779"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="645,379,705,405"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="729,379,793,405"/>
-<area shape="rect" href="manager_8h.html" title=" " alt="" coords="353,229,436,256"/>
-<area shape="rect" href="physics_8h.html" title=" " alt="" coords="607,229,683,256"/>
-<area shape="rect" href="player_8h.html" title=" " alt="" coords="860,229,927,256"/>
-<area shape="rect" href="room_8h.html" title=" " alt="" coords="1001,229,1063,256"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="847,155,937,181"/>
-<area shape="rect" href="script_8h.html" title=" " alt="" coords="759,155,823,181"/>
-<area shape="rect" href="map_8h.html" title=" " alt="" coords="1138,304,1195,331"/>
-<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="919,304,1011,331"/>
+<area shape="rect" title="Rollobite enemy." alt="" coords="574,5,715,32"/>
+<area shape="rect" href="enemy_8h.html" title=" " alt="" coords="240,80,310,107"/>
+<area shape="rect" href="physics_8h.html" title=" " alt="" coords="510,155,586,181"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="611,155,678,181"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="702,155,763,181"/>
+<area shape="rect" href="collision_8h.html" title=" " alt="" coords="788,155,866,181"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="391,379,458,405"/>
+<area shape="rect" href="asm_8h.html" title=" " alt="" coords="108,304,165,331"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="171,229,238,256"/>
+<area shape="rect" href="effects_8h.html" title=" " alt="" coords="364,155,434,181"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="517,229,580,256"/>
+<area shape="rect" href="flags_8h.html" title=" " alt="" coords="251,304,310,331"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="312,229,395,256"/>
+<area shape="rect" href="projectile_8h.html" title=" " alt="" coords="22,155,106,181"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="536,453,614,480"/>
+<area shape="rect" title=" " alt="" coords="240,528,304,555"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="888,528,961,555"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="796,528,863,555"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="440,603,502,629"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="425,528,517,555"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="328,528,400,555"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="541,528,609,555"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="634,528,722,555"/>
+<area shape="rect" title=" " alt="" coords="890,603,958,629"/>
+<area shape="rect" title=" " alt="" coords="439,677,503,704"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="488,304,548,331"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="572,304,636,331"/>
+<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="684,229,776,256"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -735,14 +734,14 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="rollobite_8c.html#aec70e1b5a6d1226cca97a9fad4a5f70d">Rollobite_LinedUp</a>,</div>
 <div class="line">    <a class="code hl_function" href="rollobite_8c.html#aaf140503200bb3acac903c7003d4f44b">Rollobite_Holed</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="arollobite_8c_html_a2512b47da9f4dd0ef4211603739721aa"><div class="ttname"><a href="rollobite_8c.html#a2512b47da9f4dd0ef4211603739721aa">sub_08020874</a></div><div class="ttdeci">void sub_08020874(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:139</div></div>
-<div class="ttc" id="arollobite_8c_html_a2c36a08960a94448ce42d62a68925634"><div class="ttname"><a href="rollobite_8c.html#a2c36a08960a94448ce42d62a68925634">Rollobite_Initialize</a></div><div class="ttdeci">void Rollobite_Initialize(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:113</div></div>
-<div class="ttc" id="arollobite_8c_html_a2e589d5cc6ad0e4252faccae0811627c"><div class="ttname"><a href="rollobite_8c.html#a2e589d5cc6ad0e4252faccae0811627c">Rollobite_Walk</a></div><div class="ttdeci">void Rollobite_Walk(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:122</div></div>
-<div class="ttc" id="arollobite_8c_html_a2f56ece2c8d3aa588479e2d7e9e04372"><div class="ttname"><a href="rollobite_8c.html#a2f56ece2c8d3aa588479e2d7e9e04372">Rollobite_Unroll</a></div><div class="ttdeci">void Rollobite_Unroll(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:198</div></div>
-<div class="ttc" id="arollobite_8c_html_a5f9e043847f7c414946462965136f513"><div class="ttname"><a href="rollobite_8c.html#a5f9e043847f7c414946462965136f513">Rollobite_RolledUp</a></div><div class="ttdeci">void Rollobite_RolledUp(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:175</div></div>
-<div class="ttc" id="arollobite_8c_html_aaf140503200bb3acac903c7003d4f44b"><div class="ttname"><a href="rollobite_8c.html#aaf140503200bb3acac903c7003d4f44b">Rollobite_Holed</a></div><div class="ttdeci">void Rollobite_Holed(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:223</div></div>
-<div class="ttc" id="arollobite_8c_html_add4d69362bf5503f3cc7fc3c71d7b5a0"><div class="ttname"><a href="rollobite_8c.html#add4d69362bf5503f3cc7fc3c71d7b5a0">Rollobite_Turn</a></div><div class="ttdeci">void Rollobite_Turn(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:170</div></div>
-<div class="ttc" id="arollobite_8c_html_aec70e1b5a6d1226cca97a9fad4a5f70d"><div class="ttname"><a href="rollobite_8c.html#aec70e1b5a6d1226cca97a9fad4a5f70d">Rollobite_LinedUp</a></div><div class="ttdeci">void Rollobite_LinedUp(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:213</div></div>
+<div class="ttc" id="arollobite_8c_html_a2512b47da9f4dd0ef4211603739721aa"><div class="ttname"><a href="rollobite_8c.html#a2512b47da9f4dd0ef4211603739721aa">sub_08020874</a></div><div class="ttdeci">void sub_08020874(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:142</div></div>
+<div class="ttc" id="arollobite_8c_html_a2c36a08960a94448ce42d62a68925634"><div class="ttname"><a href="rollobite_8c.html#a2c36a08960a94448ce42d62a68925634">Rollobite_Initialize</a></div><div class="ttdeci">void Rollobite_Initialize(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:116</div></div>
+<div class="ttc" id="arollobite_8c_html_a2e589d5cc6ad0e4252faccae0811627c"><div class="ttname"><a href="rollobite_8c.html#a2e589d5cc6ad0e4252faccae0811627c">Rollobite_Walk</a></div><div class="ttdeci">void Rollobite_Walk(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:125</div></div>
+<div class="ttc" id="arollobite_8c_html_a2f56ece2c8d3aa588479e2d7e9e04372"><div class="ttname"><a href="rollobite_8c.html#a2f56ece2c8d3aa588479e2d7e9e04372">Rollobite_Unroll</a></div><div class="ttdeci">void Rollobite_Unroll(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:201</div></div>
+<div class="ttc" id="arollobite_8c_html_a5f9e043847f7c414946462965136f513"><div class="ttname"><a href="rollobite_8c.html#a5f9e043847f7c414946462965136f513">Rollobite_RolledUp</a></div><div class="ttdeci">void Rollobite_RolledUp(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:178</div></div>
+<div class="ttc" id="arollobite_8c_html_aaf140503200bb3acac903c7003d4f44b"><div class="ttname"><a href="rollobite_8c.html#aaf140503200bb3acac903c7003d4f44b">Rollobite_Holed</a></div><div class="ttdeci">void Rollobite_Holed(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:226</div></div>
+<div class="ttc" id="arollobite_8c_html_add4d69362bf5503f3cc7fc3c71d7b5a0"><div class="ttname"><a href="rollobite_8c.html#add4d69362bf5503f3cc7fc3c71d7b5a0">Rollobite_Turn</a></div><div class="ttdeci">void Rollobite_Turn(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:173</div></div>
+<div class="ttc" id="arollobite_8c_html_aec70e1b5a6d1226cca97a9fad4a5f70d"><div class="ttname"><a href="rollobite_8c.html#aec70e1b5a6d1226cca97a9fad4a5f70d">Rollobite_LinedUp</a></div><div class="ttdeci">void Rollobite_LinedUp(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:216</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -769,12 +768,12 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="rollobite_8c.html#a5920abe304d41f2675084589a836ccb1">nullsub_6</a>,</div>
 <div class="line">    <a class="code hl_function" href="rollobite_8c.html#a51340d4d4a908d3425a7408cc41b2892">sub_080207A8</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="arollobite_8c_html_a068166c842872bdc6b559b874b9ee8ba"><div class="ttname"><a href="rollobite_8c.html#a068166c842872bdc6b559b874b9ee8ba">sub_08020798</a></div><div class="ttdeci">void sub_08020798(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:94</div></div>
-<div class="ttc" id="arollobite_8c_html_a51340d4d4a908d3425a7408cc41b2892"><div class="ttname"><a href="rollobite_8c.html#a51340d4d4a908d3425a7408cc41b2892">sub_080207A8</a></div><div class="ttdeci">void sub_080207A8(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:102</div></div>
-<div class="ttc" id="arollobite_8c_html_a51838f939d44eabce87679abde0959c2"><div class="ttname"><a href="rollobite_8c.html#a51838f939d44eabce87679abde0959c2">sub_08020788</a></div><div class="ttdeci">void sub_08020788(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:86</div></div>
-<div class="ttc" id="arollobite_8c_html_a5920abe304d41f2675084589a836ccb1"><div class="ttname"><a href="rollobite_8c.html#a5920abe304d41f2675084589a836ccb1">nullsub_6</a></div><div class="ttdeci">void nullsub_6(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:98</div></div>
-<div class="ttc" id="arollobite_8c_html_a96ca7ec41183c8d0a3a8eb9db6ab21ed"><div class="ttname"><a href="rollobite_8c.html#a96ca7ec41183c8d0a3a8eb9db6ab21ed">sub_08020790</a></div><div class="ttdeci">void sub_08020790(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:90</div></div>
-<div class="ttc" id="arollobite_8c_html_ab246d80638d0c7dd623fd1dc1b0a8f77"><div class="ttname"><a href="rollobite_8c.html#ab246d80638d0c7dd623fd1dc1b0a8f77">sub_0802077C</a></div><div class="ttdeci">void sub_0802077C(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:81</div></div>
+<div class="ttc" id="arollobite_8c_html_a068166c842872bdc6b559b874b9ee8ba"><div class="ttname"><a href="rollobite_8c.html#a068166c842872bdc6b559b874b9ee8ba">sub_08020798</a></div><div class="ttdeci">void sub_08020798(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:97</div></div>
+<div class="ttc" id="arollobite_8c_html_a51340d4d4a908d3425a7408cc41b2892"><div class="ttname"><a href="rollobite_8c.html#a51340d4d4a908d3425a7408cc41b2892">sub_080207A8</a></div><div class="ttdeci">void sub_080207A8(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:105</div></div>
+<div class="ttc" id="arollobite_8c_html_a51838f939d44eabce87679abde0959c2"><div class="ttname"><a href="rollobite_8c.html#a51838f939d44eabce87679abde0959c2">sub_08020788</a></div><div class="ttdeci">void sub_08020788(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:89</div></div>
+<div class="ttc" id="arollobite_8c_html_a5920abe304d41f2675084589a836ccb1"><div class="ttname"><a href="rollobite_8c.html#a5920abe304d41f2675084589a836ccb1">nullsub_6</a></div><div class="ttdeci">void nullsub_6(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:101</div></div>
+<div class="ttc" id="arollobite_8c_html_a96ca7ec41183c8d0a3a8eb9db6ab21ed"><div class="ttname"><a href="rollobite_8c.html#a96ca7ec41183c8d0a3a8eb9db6ab21ed">sub_08020790</a></div><div class="ttdeci">void sub_08020790(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:93</div></div>
+<div class="ttc" id="arollobite_8c_html_ab246d80638d0c7dd623fd1dc1b0a8f77"><div class="ttname"><a href="rollobite_8c.html#ab246d80638d0c7dd623fd1dc1b0a8f77">sub_0802077C</a></div><div class="ttdeci">void sub_0802077C(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:84</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -799,10 +798,10 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="rollobite_8c.html#a6020a67da00ab4b551c6944484ec4268">sub_080208F0</a>,</div>
 <div class="line">    <a class="code hl_function" href="rollobite_8c.html#ac8aa72671ccbafd9774b800bb1183777">sub_08020904</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="arollobite_8c_html_a6020a67da00ab4b551c6944484ec4268"><div class="ttname"><a href="rollobite_8c.html#a6020a67da00ab4b551c6944484ec4268">sub_080208F0</a></div><div class="ttdeci">void sub_080208F0(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:159</div></div>
-<div class="ttc" id="arollobite_8c_html_a8cebc6a78d602b5ef0b50504b33e8304"><div class="ttname"><a href="rollobite_8c.html#a8cebc6a78d602b5ef0b50504b33e8304">sub_080208B4</a></div><div class="ttdeci">void sub_080208B4(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:150</div></div>
-<div class="ttc" id="arollobite_8c_html_a9a34d23fac18277dbf0331495822fd0c"><div class="ttname"><a href="rollobite_8c.html#a9a34d23fac18277dbf0331495822fd0c">sub_0802088C</a></div><div class="ttdeci">void sub_0802088C(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:143</div></div>
-<div class="ttc" id="arollobite_8c_html_ac8aa72671ccbafd9774b800bb1183777"><div class="ttname"><a href="rollobite_8c.html#ac8aa72671ccbafd9774b800bb1183777">sub_08020904</a></div><div class="ttdeci">void sub_08020904(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:163</div></div>
+<div class="ttc" id="arollobite_8c_html_a6020a67da00ab4b551c6944484ec4268"><div class="ttname"><a href="rollobite_8c.html#a6020a67da00ab4b551c6944484ec4268">sub_080208F0</a></div><div class="ttdeci">void sub_080208F0(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:162</div></div>
+<div class="ttc" id="arollobite_8c_html_a8cebc6a78d602b5ef0b50504b33e8304"><div class="ttname"><a href="rollobite_8c.html#a8cebc6a78d602b5ef0b50504b33e8304">sub_080208B4</a></div><div class="ttdeci">void sub_080208B4(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:153</div></div>
+<div class="ttc" id="arollobite_8c_html_a9a34d23fac18277dbf0331495822fd0c"><div class="ttname"><a href="rollobite_8c.html#a9a34d23fac18277dbf0331495822fd0c">sub_0802088C</a></div><div class="ttdeci">void sub_0802088C(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:146</div></div>
+<div class="ttc" id="arollobite_8c_html_ac8aa72671ccbafd9774b800bb1183777"><div class="ttname"><a href="rollobite_8c.html#ac8aa72671ccbafd9774b800bb1183777">sub_08020904</a></div><div class="ttdeci">void sub_08020904(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:166</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -870,10 +869,10 @@ Variables</h2></td></tr>
 <div class="line">}</div>
 <div class="ttc" id="aacroBandits_8c_html_a011d86188747c52072f9c8e09d1f1d18"><div class="ttname"><a href="acroBandits_8c.html#a011d86188747c52072f9c8e09d1f1d18">GenericConfused</a></div><div class="ttdeci">void GenericConfused(Entity *this)</div></div>
 <div class="ttc" id="aacroBandits_8c_html_a94401d9b7ce755d41ac7de8153fab145"><div class="ttname"><a href="acroBandits_8c.html#a94401d9b7ce755d41ac7de8153fab145">GenericDeath</a></div><div class="ttdeci">void GenericDeath(Entity *this)</div><div class="ttdef"><b>Definition:</b> enemyUtils.c:99</div></div>
-<div class="ttc" id="arollobite_8c_html_a0d5378ed5c0c133927860c7470e4ee2a"><div class="ttname"><a href="rollobite_8c.html#a0d5378ed5c0c133927860c7470e4ee2a">Rollobite_OnGrabbed</a></div><div class="ttdeci">void Rollobite_OnGrabbed(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:70</div></div>
-<div class="ttc" id="arollobite_8c_html_a449b3e68f85ae0808b713921bbd6db67"><div class="ttname"><a href="rollobite_8c.html#a449b3e68f85ae0808b713921bbd6db67">Rollobite_OnKnockback</a></div><div class="ttdeci">void Rollobite_OnKnockback(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:58</div></div>
-<div class="ttc" id="arollobite_8c_html_a5955ad466edd5ec08380365e3d20c205"><div class="ttname"><a href="rollobite_8c.html#a5955ad466edd5ec08380365e3d20c205">Rollobite_OnCollision</a></div><div class="ttdeci">void Rollobite_OnCollision(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:35</div></div>
-<div class="ttc" id="arollobite_8c_html_ae2b048dedcef11fe1aa9fcc2dcbdaedc"><div class="ttname"><a href="rollobite_8c.html#ae2b048dedcef11fe1aa9fcc2dcbdaedc">Rollobite_OnTick</a></div><div class="ttdeci">void Rollobite_OnTick(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:30</div></div>
+<div class="ttc" id="arollobite_8c_html_a0d5378ed5c0c133927860c7470e4ee2a"><div class="ttname"><a href="rollobite_8c.html#a0d5378ed5c0c133927860c7470e4ee2a">Rollobite_OnGrabbed</a></div><div class="ttdeci">void Rollobite_OnGrabbed(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:73</div></div>
+<div class="ttc" id="arollobite_8c_html_a449b3e68f85ae0808b713921bbd6db67"><div class="ttname"><a href="rollobite_8c.html#a449b3e68f85ae0808b713921bbd6db67">Rollobite_OnKnockback</a></div><div class="ttdeci">void Rollobite_OnKnockback(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:61</div></div>
+<div class="ttc" id="arollobite_8c_html_a5955ad466edd5ec08380365e3d20c205"><div class="ttname"><a href="rollobite_8c.html#a5955ad466edd5ec08380365e3d20c205">Rollobite_OnCollision</a></div><div class="ttdeci">void Rollobite_OnCollision(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:38</div></div>
+<div class="ttc" id="arollobite_8c_html_ae2b048dedcef11fe1aa9fcc2dcbdaedc"><div class="ttname"><a href="rollobite_8c.html#ae2b048dedcef11fe1aa9fcc2dcbdaedc">Rollobite_OnTick</a></div><div class="ttdeci">void Rollobite_OnTick(Entity *this)</div><div class="ttdef"><b>Definition:</b> rollobite.c:33</div></div>
 </div><!-- fragment -->
 </div>
 </div>

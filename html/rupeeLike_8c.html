@@ -85,14 +85,12 @@ $(function() {
 <p>Rupee Like enemy.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="global_8h_source.html">global.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="asm_8h_source.html">asm.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="sound_8h_source.html">sound.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="entity_8h_source.html">entity.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="enemy_8h_source.html">enemy.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="object_8h_source.html">object.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="save_8h_source.html">save.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="hitbox_8h_source.html">hitbox.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="room_8h_source.html">room.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for rupeeLike.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -100,41 +98,37 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="rupeeLike_8c__incl.png" border="0" usemap="#asrc_2enemy_2rupeeLike_8c" alt=""/></div>
 <map name="asrc_2enemy_2rupeeLike_8c" id="asrc_2enemy_2rupeeLike_8c">
-<area shape="rect" title="Rupee Like enemy." alt="" coords="611,5,765,32"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="897,453,964,480"/>
-<area shape="rect" href="asm_8h.html" title=" " alt="" coords="294,229,351,256"/>
-<area shape="rect" href="sound_8h.html" title=" " alt="" coords="152,229,219,256"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="1035,304,1098,331"/>
-<area shape="rect" href="enemy_8h.html" title=" " alt="" coords="361,155,431,181"/>
-<area shape="rect" href="object_8h.html" title=" " alt="" coords="655,155,721,181"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="1197,80,1283,107"/>
-<area shape="rect" href="save_8h.html" title=" " alt="" coords="842,80,902,107"/>
-<area shape="rect" href="hitbox_8h.html" title=" " alt="" coords="1307,80,1373,107"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="1046,528,1125,555"/>
-<area shape="rect" title=" " alt="" coords="744,603,808,629"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1391,603,1465,629"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1204,603,1271,629"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="1135,677,1198,704"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="833,603,925,629"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="1295,603,1367,629"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="949,603,1017,629"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="1041,603,1129,629"/>
-<area shape="rect" title=" " alt="" coords="1394,677,1462,704"/>
-<area shape="rect" title=" " alt="" coords="1135,752,1199,779"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="1045,379,1105,405"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="1129,379,1193,405"/>
-<area shape="rect" href="effects_8h.html" title=" " alt="" coords="617,229,687,256"/>
-<area shape="rect" href="flags_8h.html" title=" " alt="" coords="427,229,485,256"/>
-<area shape="rect" href="common_8h.html" title=" " alt="" coords="509,229,592,256"/>
+<area shape="rect" title="Rupee Like enemy." alt="" coords="850,5,1003,32"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="647,453,713,480"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="845,304,907,331"/>
+<area shape="rect" href="enemy_8h.html" title=" " alt="" coords="390,155,461,181"/>
+<area shape="rect" href="object_8h.html" title=" " alt="" coords="669,155,736,181"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="964,229,1025,256"/>
+<area shape="rect" href="save_8h.html" title=" " alt="" coords="1031,80,1091,107"/>
+<area shape="rect" href="hitbox_8h.html" title=" " alt="" coords="1116,80,1183,107"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="785,528,863,555"/>
+<area shape="rect" title=" " alt="" coords="503,603,567,629"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1151,603,1225,629"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1009,603,1076,629"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="907,677,970,704"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="893,603,985,629"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="591,603,663,629"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="687,603,755,629"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="780,603,868,629"/>
+<area shape="rect" title=" " alt="" coords="1154,677,1222,704"/>
+<area shape="rect" title=" " alt="" coords="907,752,971,779"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="769,379,829,405"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="853,379,917,405"/>
+<area shape="rect" href="asm_8h.html" title=" " alt="" coords="310,229,367,256"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="392,229,459,256"/>
+<area shape="rect" href="effects_8h.html" title=" " alt="" coords="667,229,738,256"/>
+<area shape="rect" href="flags_8h.html" title=" " alt="" coords="533,229,592,256"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="203,229,285,256"/>
 <area shape="rect" href="projectile_8h.html" title=" " alt="" coords="43,229,127,256"/>
-<area shape="rect" href="room_8h.html" title=" " alt="" coords="813,229,875,256"/>
-<area shape="rect" href="physics_8h.html" title=" " alt="" coords="1142,229,1218,256"/>
-<area shape="rect" href="player_8h.html" title=" " alt="" coords="949,229,1016,256"/>
-<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="725,304,817,331"/>
-<area shape="rect" href="manager_8h.html" title=" " alt="" coords="1395,229,1477,256"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="1112,155,1203,181"/>
-<area shape="rect" href="script_8h.html" title=" " alt="" coords="1277,155,1341,181"/>
-<area shape="rect" href="map_8h.html" title=" " alt="" coords="1553,304,1610,331"/>
+<area shape="rect" href="physics_8h.html" title=" " alt="" coords="762,229,838,256"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="1049,229,1116,256"/>
+<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="993,304,1085,331"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="1116,155,1207,181"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -584,13 +578,13 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="rupeeLike_8c.html#acf640ea69c480db9689e2a7f71bd2479">sub_08029610</a>,</div>
 <div class="line">    <a class="code hl_function" href="rupeeLike_8c.html#aed584a730f7d6a6a64a5b7977cb4e837">sub_08029630</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="arupeeLike_8c_html_a0aac7dc04722af3ab6ce458326186b7b"><div class="ttname"><a href="rupeeLike_8c.html#a0aac7dc04722af3ab6ce458326186b7b">sub_08029474</a></div><div class="ttdeci">void sub_08029474(Entity *this)</div><div class="ttdef"><b>Definition:</b> rupeeLike.c:121</div></div>
-<div class="ttc" id="arupeeLike_8c_html_a5eaeab1545d609f759b09236b14400b3"><div class="ttname"><a href="rupeeLike_8c.html#a5eaeab1545d609f759b09236b14400b3">sub_080294D4</a></div><div class="ttdeci">void sub_080294D4(Entity *this)</div><div class="ttdef"><b>Definition:</b> rupeeLike.c:141</div></div>
-<div class="ttc" id="arupeeLike_8c_html_a6e09117399746ea02c32ed1e643b0437"><div class="ttname"><a href="rupeeLike_8c.html#a6e09117399746ea02c32ed1e643b0437">sub_0802944C</a></div><div class="ttdeci">void sub_0802944C(Entity *this)</div><div class="ttdef"><b>Definition:</b> rupeeLike.c:114</div></div>
-<div class="ttc" id="arupeeLike_8c_html_acf640ea69c480db9689e2a7f71bd2479"><div class="ttname"><a href="rupeeLike_8c.html#acf640ea69c480db9689e2a7f71bd2479">sub_08029610</a></div><div class="ttdeci">void sub_08029610(Entity *this)</div><div class="ttdef"><b>Definition:</b> rupeeLike.c:189</div></div>
-<div class="ttc" id="arupeeLike_8c_html_ae74149cf9fc23b9f138e807a0ab46e73"><div class="ttname"><a href="rupeeLike_8c.html#ae74149cf9fc23b9f138e807a0ab46e73">sub_0802953C</a></div><div class="ttdeci">void sub_0802953C(Entity *this)</div><div class="ttdef"><b>Definition:</b> rupeeLike.c:158</div></div>
-<div class="ttc" id="arupeeLike_8c_html_aed584a730f7d6a6a64a5b7977cb4e837"><div class="ttname"><a href="rupeeLike_8c.html#aed584a730f7d6a6a64a5b7977cb4e837">sub_08029630</a></div><div class="ttdeci">void sub_08029630(Entity *this)</div><div class="ttdef"><b>Definition:</b> rupeeLike.c:197</div></div>
-<div class="ttc" id="arupeeLike_8c_html_af34c0c29572561e8fac32db0949bad8f"><div class="ttname"><a href="rupeeLike_8c.html#af34c0c29572561e8fac32db0949bad8f">sub_0802940C</a></div><div class="ttdeci">void sub_0802940C(Entity *this)</div><div class="ttdef"><b>Definition:</b> rupeeLike.c:98</div></div>
+<div class="ttc" id="arupeeLike_8c_html_a0aac7dc04722af3ab6ce458326186b7b"><div class="ttname"><a href="rupeeLike_8c.html#a0aac7dc04722af3ab6ce458326186b7b">sub_08029474</a></div><div class="ttdeci">void sub_08029474(Entity *this)</div><div class="ttdef"><b>Definition:</b> rupeeLike.c:119</div></div>
+<div class="ttc" id="arupeeLike_8c_html_a5eaeab1545d609f759b09236b14400b3"><div class="ttname"><a href="rupeeLike_8c.html#a5eaeab1545d609f759b09236b14400b3">sub_080294D4</a></div><div class="ttdeci">void sub_080294D4(Entity *this)</div><div class="ttdef"><b>Definition:</b> rupeeLike.c:139</div></div>
+<div class="ttc" id="arupeeLike_8c_html_a6e09117399746ea02c32ed1e643b0437"><div class="ttname"><a href="rupeeLike_8c.html#a6e09117399746ea02c32ed1e643b0437">sub_0802944C</a></div><div class="ttdeci">void sub_0802944C(Entity *this)</div><div class="ttdef"><b>Definition:</b> rupeeLike.c:112</div></div>
+<div class="ttc" id="arupeeLike_8c_html_acf640ea69c480db9689e2a7f71bd2479"><div class="ttname"><a href="rupeeLike_8c.html#acf640ea69c480db9689e2a7f71bd2479">sub_08029610</a></div><div class="ttdeci">void sub_08029610(Entity *this)</div><div class="ttdef"><b>Definition:</b> rupeeLike.c:187</div></div>
+<div class="ttc" id="arupeeLike_8c_html_ae74149cf9fc23b9f138e807a0ab46e73"><div class="ttname"><a href="rupeeLike_8c.html#ae74149cf9fc23b9f138e807a0ab46e73">sub_0802953C</a></div><div class="ttdeci">void sub_0802953C(Entity *this)</div><div class="ttdef"><b>Definition:</b> rupeeLike.c:156</div></div>
+<div class="ttc" id="arupeeLike_8c_html_aed584a730f7d6a6a64a5b7977cb4e837"><div class="ttname"><a href="rupeeLike_8c.html#aed584a730f7d6a6a64a5b7977cb4e837">sub_08029630</a></div><div class="ttdeci">void sub_08029630(Entity *this)</div><div class="ttdef"><b>Definition:</b> rupeeLike.c:195</div></div>
+<div class="ttc" id="arupeeLike_8c_html_af34c0c29572561e8fac32db0949bad8f"><div class="ttname"><a href="rupeeLike_8c.html#af34c0c29572561e8fac32db0949bad8f">sub_0802940C</a></div><div class="ttdeci">void sub_0802940C(Entity *this)</div><div class="ttdef"><b>Definition:</b> rupeeLike.c:96</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -632,8 +626,8 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="rupeeLike_8c.html#aa10f14e1329a28399c68de7d6b88a051">sub_08029660</a>,</div>
 <div class="line">    <a class="code hl_function" href="rupeeLike_8c.html#a3341be9547862f59cf001a060bc01afe">sub_08029688</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="arupeeLike_8c_html_a3341be9547862f59cf001a060bc01afe"><div class="ttname"><a href="rupeeLike_8c.html#a3341be9547862f59cf001a060bc01afe">sub_08029688</a></div><div class="ttdeci">void sub_08029688(Entity *this)</div><div class="ttdef"><b>Definition:</b> rupeeLike.c:214</div></div>
-<div class="ttc" id="arupeeLike_8c_html_aa10f14e1329a28399c68de7d6b88a051"><div class="ttname"><a href="rupeeLike_8c.html#aa10f14e1329a28399c68de7d6b88a051">sub_08029660</a></div><div class="ttdeci">void sub_08029660(Entity *this)</div><div class="ttdef"><b>Definition:</b> rupeeLike.c:206</div></div>
+<div class="ttc" id="arupeeLike_8c_html_a3341be9547862f59cf001a060bc01afe"><div class="ttname"><a href="rupeeLike_8c.html#a3341be9547862f59cf001a060bc01afe">sub_08029688</a></div><div class="ttdeci">void sub_08029688(Entity *this)</div><div class="ttdef"><b>Definition:</b> rupeeLike.c:212</div></div>
+<div class="ttc" id="arupeeLike_8c_html_aa10f14e1329a28399c68de7d6b88a051"><div class="ttname"><a href="rupeeLike_8c.html#aa10f14e1329a28399c68de7d6b88a051">sub_08029660</a></div><div class="ttdeci">void sub_08029660(Entity *this)</div><div class="ttdef"><b>Definition:</b> rupeeLike.c:204</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -696,10 +690,10 @@ Variables</h2></td></tr>
 <div class="line">}</div>
 <div class="ttc" id="aacroBandits_8c_html_a011d86188747c52072f9c8e09d1f1d18"><div class="ttname"><a href="acroBandits_8c.html#a011d86188747c52072f9c8e09d1f1d18">GenericConfused</a></div><div class="ttdeci">void GenericConfused(Entity *this)</div></div>
 <div class="ttc" id="aasm_8h_html_ae7f4b31c5b7b590b6da3fccb26e10806"><div class="ttname"><a href="asm_8h.html#ae7f4b31c5b7b590b6da3fccb26e10806">GenericKnockback</a></div><div class="ttdeci">void GenericKnockback(struct Entity_ *)</div></div>
-<div class="ttc" id="arupeeLike_8c_html_a00c1b7f1bc558017f1633aebff8e767c"><div class="ttname"><a href="rupeeLike_8c.html#a00c1b7f1bc558017f1633aebff8e767c">RupeeLike_OnDeath</a></div><div class="ttdeci">void RupeeLike_OnDeath(Entity *this)</div><div class="ttdef"><b>Definition:</b> rupeeLike.c:84</div></div>
-<div class="ttc" id="arupeeLike_8c_html_a1a7ff4c0f3be5751a0eaeb438effe042"><div class="ttname"><a href="rupeeLike_8c.html#a1a7ff4c0f3be5751a0eaeb438effe042">RupeeLike_OnGrabbed</a></div><div class="ttdeci">void RupeeLike_OnGrabbed(Entity *this)</div><div class="ttdef"><b>Definition:</b> rupeeLike.c:88</div></div>
-<div class="ttc" id="arupeeLike_8c_html_a2aa6b3d546d40222913949f3ac26b9d0"><div class="ttname"><a href="rupeeLike_8c.html#a2aa6b3d546d40222913949f3ac26b9d0">RupeeLike_OnCollision</a></div><div class="ttdeci">void RupeeLike_OnCollision(Entity *this)</div><div class="ttdef"><b>Definition:</b> rupeeLike.c:56</div></div>
-<div class="ttc" id="arupeeLike_8c_html_ad2e91f28468d582c555dcc9d80799ad5"><div class="ttname"><a href="rupeeLike_8c.html#ad2e91f28468d582c555dcc9d80799ad5">RupeeLike_OnTick</a></div><div class="ttdeci">void RupeeLike_OnTick(Entity *this)</div><div class="ttdef"><b>Definition:</b> rupeeLike.c:52</div></div>
+<div class="ttc" id="arupeeLike_8c_html_a00c1b7f1bc558017f1633aebff8e767c"><div class="ttname"><a href="rupeeLike_8c.html#a00c1b7f1bc558017f1633aebff8e767c">RupeeLike_OnDeath</a></div><div class="ttdeci">void RupeeLike_OnDeath(Entity *this)</div><div class="ttdef"><b>Definition:</b> rupeeLike.c:82</div></div>
+<div class="ttc" id="arupeeLike_8c_html_a1a7ff4c0f3be5751a0eaeb438effe042"><div class="ttname"><a href="rupeeLike_8c.html#a1a7ff4c0f3be5751a0eaeb438effe042">RupeeLike_OnGrabbed</a></div><div class="ttdeci">void RupeeLike_OnGrabbed(Entity *this)</div><div class="ttdef"><b>Definition:</b> rupeeLike.c:86</div></div>
+<div class="ttc" id="arupeeLike_8c_html_a2aa6b3d546d40222913949f3ac26b9d0"><div class="ttname"><a href="rupeeLike_8c.html#a2aa6b3d546d40222913949f3ac26b9d0">RupeeLike_OnCollision</a></div><div class="ttdeci">void RupeeLike_OnCollision(Entity *this)</div><div class="ttdef"><b>Definition:</b> rupeeLike.c:54</div></div>
+<div class="ttc" id="arupeeLike_8c_html_ad2e91f28468d582c555dcc9d80799ad5"><div class="ttname"><a href="rupeeLike_8c.html#ad2e91f28468d582c555dcc9d80799ad5">RupeeLike_OnTick</a></div><div class="ttdeci">void RupeeLike_OnTick(Entity *this)</div><div class="ttdef"><b>Definition:</b> rupeeLike.c:50</div></div>
 </div><!-- fragment -->
 </div>
 </div>

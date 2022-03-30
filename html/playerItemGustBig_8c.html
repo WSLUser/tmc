@@ -86,6 +86,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="player_8h_source.html">player.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sound_8h_source.html">sound.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="asm_8h_source.html">asm.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for playerItemGustBig.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -93,32 +94,33 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="playerItemGustBig_8c__incl.png" border="0" usemap="#asrc_2playerItem_2playerItemGustBig_8c" alt=""/></div>
 <map name="asrc_2playerItem_2playerItemGustBig_8c" id="asrc_2playerItem_2playerItemGustBig_8c">
-<area shape="rect" title=" " alt="" coords="188,5,356,47"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="443,468,509,495"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="294,319,357,345"/>
-<area shape="rect" href="player_8h.html" title=" " alt="" coords="117,244,184,271"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="393,95,479,121"/>
-<area shape="rect" href="sound_8h.html" title=" " alt="" coords="656,95,723,121"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="587,543,666,569"/>
-<area shape="rect" title=" " alt="" coords="292,617,356,644"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="939,617,1013,644"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="848,617,915,644"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="491,692,554,719"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="477,617,569,644"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="380,617,452,644"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="593,617,661,644"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="685,617,773,644"/>
-<area shape="rect" title=" " alt="" coords="942,692,1010,719"/>
-<area shape="rect" title=" " alt="" coords="491,767,555,793"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="325,393,385,420"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="409,393,473,420"/>
-<area shape="rect" href="manager_8h.html" title=" " alt="" coords="496,244,579,271"/>
-<area shape="rect" href="physics_8h.html" title=" " alt="" coords="603,244,679,271"/>
-<area shape="rect" href="room_8h.html" title=" " alt="" coords="411,244,472,271"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="93,169,184,196"/>
-<area shape="rect" href="script_8h.html" title=" " alt="" coords="309,169,373,196"/>
-<area shape="rect" href="map_8h.html" title=" " alt="" coords="666,319,723,345"/>
-<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="381,319,473,345"/>
+<area shape="rect" title=" " alt="" coords="631,5,799,47"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="365,468,432,495"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="402,319,465,345"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="572,244,639,271"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="345,95,431,121"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="777,95,844,121"/>
+<area shape="rect" href="asm_8h.html" title=" " alt="" coords="851,319,909,345"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="501,543,579,569"/>
+<area shape="rect" title=" " alt="" coords="225,617,289,644"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="783,617,857,644"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="881,617,948,644"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="435,692,498,719"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="314,617,406,644"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="431,617,503,644"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="578,617,646,644"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="671,617,759,644"/>
+<area shape="rect" title=" " alt="" coords="786,692,854,719"/>
+<area shape="rect" title=" " alt="" coords="435,767,499,793"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="437,393,497,420"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="297,393,361,420"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="161,244,244,271"/>
+<area shape="rect" href="physics_8h.html" title=" " alt="" coords="269,244,345,271"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="713,244,775,271"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="460,169,551,196"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="321,169,385,196"/>
+<area shape="rect" href="map_8h.html" title=" " alt="" coords="45,393,102,420"/>
+<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="682,319,774,345"/>
 </map>
 </div>
 </div><table class="memberdecls">

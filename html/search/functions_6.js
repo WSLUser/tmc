@@ -100,7 +100,7 @@ var searchData=
   ['fourelements_5faction5_97',['FourElements_Action5',['../fourElements_8c.html#a745de06a4aea1db67f9334bd4d336702',1,'fourElements.c']]],
   ['fourelements_5faction6_98',['FourElements_Action6',['../fourElements_8c.html#a8248e9bcb1802cd1f4319fcdc5f5179e',1,'fourElements.c']]],
   ['fourelements_5finit_99',['FourElements_Init',['../fourElements_8c.html#a4dce0c8cc2546cf906b7b202452b06ab',1,'fourElements.c']]],
-  ['freecarryentity_100',['FreeCarryEntity',['../playerUtils_8c.html#a92ecf925a2a976143fa168694ec53c7c',1,'FreeCarryEntity(Entity *this):&#160;playerUtils.c'],['../functions_8h.html#acaf38aed01e4f3b219ab8846bc24db46',1,'FreeCarryEntity(Entity *):&#160;playerUtils.c']]],
+  ['freecarryentity_100',['FreeCarryEntity',['../playerUtils_8c.html#a92ecf925a2a976143fa168694ec53c7c',1,'FreeCarryEntity(Entity *this):&#160;playerUtils.c'],['../player_8h.html#acaf38aed01e4f3b219ab8846bc24db46',1,'FreeCarryEntity(Entity *):&#160;playerUtils.c']]],
   ['frozenflower_101',['FrozenFlower',['../frozenFlower_8c.html#a36fdb76758ca930e73c553abe1e65bae',1,'FrozenFlower(Entity *this):&#160;frozenFlower.c'],['../object_8h.html#a9b97717774e1d5ecc3c7cdfab48531d1',1,'FrozenFlower():&#160;object.h']]],
   ['frozenoctorok_102',['FrozenOctorok',['../frozenOctorok_8c.html#ad59d1466e1742df020f9c213cdcdcf96',1,'FrozenOctorok(FrozenOctorokEntity *this):&#160;frozenOctorok.c'],['../object_8h.html#ad2a67eea5101dd9db9fd64ff275e179a',1,'FrozenOctorok():&#160;object.h']]],
   ['frozenoctorok_5faction1_103',['FrozenOctorok_Action1',['../frozenOctorok_8c.html#a8c976b7c87d4066423069ecae2d6d042',1,'frozenOctorok.c']]],
