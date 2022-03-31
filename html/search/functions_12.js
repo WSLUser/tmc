@@ -1296,7 +1296,7 @@ var searchData=
   ['sub_5f08035194_1293',['sub_08035194',['../mazaalHand_8c.html#a4d4e5c5d6a22af33f4b4416d8446a0be',1,'mazaalHand.c']]],
   ['sub_5f080368d8_1294',['sub_080368D8',['../octorokBoss_8c.html#a3ceefcba5ac73970f930388f01307672',1,'octorokBoss.c']]],
   ['sub_5f08036914_1295',['sub_08036914',['../octorokBoss_8c.html#a37d85dc5e8996ceb5eb3eb60633d3142',1,'octorokBoss.c']]],
-  ['sub_5f08036998_1296',['sub_08036998',['../octorokBoss_8c.html#a808ecdb787243a253ed8fa0a5b0f552d',1,'octorokBoss.c']]],
+  ['sub_5f08036998_1296',['sub_08036998',['../octorokBoss_8c.html#a81a8b31b4e41cbc82f46ca67552d9c5f',1,'octorokBoss.c']]],
   ['sub_5f080369d0_1297',['sub_080369D0',['../octorokBoss_8c.html#a808d8f1880d5b5854e77eb650221234e',1,'octorokBoss.c']]],
   ['sub_5f08036af0_1298',['sub_08036AF0',['../octorokBoss_8c.html#a2e0b3025093ebe5a7296ebec22c5dd66',1,'octorokBoss.c']]],
   ['sub_5f08036f60_1299',['sub_08036F60',['../octorokBoss_8c.html#a701e3e1d6d3e980870f337f6abf54747',1,'octorokBoss.c']]],
