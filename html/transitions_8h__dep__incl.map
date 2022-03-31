@@ -5,17 +5,17 @@
 <area shape="rect" id="node14" href="$movement_8c.html" title=" " alt="" coords="6215,229,6330,256"/>
 <area shape="rect" id="node22" href="$transitions_8c.html" title=" " alt="" coords="5899,155,6041,181"/>
 <area shape="rect" id="node3" href="$game_8h.html" title=" " alt="" coords="5309,155,5418,181"/>
-<area shape="rect" id="node5" href="$common_8c.html" title=" " alt="" coords="5058,229,5162,256"/>
+<area shape="rect" id="node6" href="$common_8c.html" title=" " alt="" coords="5058,229,5162,256"/>
 <area shape="rect" id="node9" href="$enterPortalSubtask_8c.html" title=" " alt="" coords="5186,229,5351,256"/>
 <area shape="rect" id="node11" href="$manager22_8c.html" title=" " alt="" coords="5376,229,5548,256"/>
 <area shape="rect" id="node12" href="$manager32_8c.html" title=" " alt="" coords="5572,229,5744,256"/>
 <area shape="rect" id="node13" href="$manager39_8c.html" title=" " alt="" coords="5768,229,5940,256"/>
 <area shape="rect" id="node15" href="$player_8c.html" title="Player entity." alt="" coords="5965,229,6053,256"/>
 <area shape="rect" id="node16" href="$playerUtils_8c.html" title=" " alt="" coords="6077,229,6191,256"/>
-<area shape="rect" id="node17" href="$room_8c.html" title=" " alt="" coords="358,229,441,256"/>
-<area shape="rect" id="node18" href="$roomInit_8c.html" title=" " alt="" coords="2391,229,2493,256"/>
-<area shape="rect" id="node19" href="$script_8c.html" title=" " alt="" coords="3480,229,3567,256"/>
-<area shape="rect" id="node20" href="$title_8c.html" title="Title task." alt="" coords="4073,229,4147,256"/>
+<area shape="rect" id="node17" href="$room_8c.html" title=" " alt="" coords="359,229,442,256"/>
+<area shape="rect" id="node18" href="$roomInit_8c.html" title=" " alt="" coords="2403,229,2505,256"/>
+<area shape="rect" id="node19" href="$script_8c.html" title=" " alt="" coords="3499,229,3585,256"/>
+<area shape="rect" id="node20" href="$title_8c.html" title="Title task." alt="" coords="4094,229,4169,256"/>
 <area shape="rect" id="node21" href="$ui_8c.html" title=" " alt="" coords="4970,229,5034,256"/>
 <area shape="rect" id="node23" href="$enemy50_8c.html" title="Enemy50 enemy." alt="" coords="289,155,437,181"/>
 <area shape="rect" id="node24" href="$ghini_8c.html" title="Ghini enemy." alt="" coords="462,155,585,181"/>
@@ -45,8 +45,8 @@
 <area shape="rect" id="node48" href="$object6A_8c.html" title=" " alt="" coords="4847,155,4991,181"/>
 <area shape="rect" id="node49" href="$whirlwind_8c.html" title="Whirlwind object." alt="" coords="5015,155,5162,181"/>
 <area shape="rect" id="node50" href="$physics_8c.html" title=" " alt="" coords="5186,155,5285,181"/>
-<area shape="rect" id="node4" href="$collision_8c.html" title=" " alt="" coords="4413,229,4514,256"/>
-<area shape="rect" id="node6" href="$debug_8c.html" title="Debug task." alt="" coords="4539,229,4628,256"/>
-<area shape="rect" id="node7" href="$demo_8c.html" title="Demo task." alt="" coords="4652,229,4739,256"/>
-<area shape="rect" id="node8" href="$businessScrub_8c.html" title="Business Scrub enemy." alt="" coords="4763,229,4945,256"/>
+<area shape="rect" id="node4" href="$beanstalkSubtask_8c.html" title=" " alt="" coords="4436,229,4595,256"/>
+<area shape="rect" id="node5" href="$collision_8c.html" title=" " alt="" coords="4619,229,4721,256"/>
+<area shape="rect" id="node7" href="$debug_8c.html" title="Debug task." alt="" coords="4745,229,4835,256"/>
+<area shape="rect" id="node8" href="$demo_8c.html" title="Demo task." alt="" coords="4859,229,4945,256"/>
 </map>
