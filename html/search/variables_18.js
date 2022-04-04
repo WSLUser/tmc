@@ -4,7 +4,7 @@ var searchData=
   ['x2_1',['x2',['../structSpikedRollersEntity.html#ac60690aa706fa575ec0f4fd47a6dc79e',1,'SpikedRollersEntity']]],
   ['x_5f0x78_2',['x_0x78',['../structTakkuriEntity.html#a880c72d8457d6df2bff03087f1706666',1,'TakkuriEntity']]],
   ['x_5fraw_3',['x_raw',['../structManagerA.html#a2eee0f1a3afcad08f5ecce1ca184dee6',1,'ManagerA']]],
-  ['xoffset_4',['xOffset',['../structBgSettings.html#ab150dea40d3b03413c46358d69b891b2',1,'BgSettings::xOffset()'],['../structBgAffSettings.html#ad4af06dcc9a6e1f20267da18b6d27fe6',1,'BgAffSettings::xOffset()'],['../subtask2_8c.html#a4751b85f406be50785946c744228cac4',1,'xOffset():&#160;subtask2.c']]],
+  ['xoffset_4',['xOffset',['../structBgSettings.html#ab150dea40d3b03413c46358d69b891b2',1,'BgSettings::xOffset()'],['../structBgAffSettings.html#ad4af06dcc9a6e1f20267da18b6d27fe6',1,'BgAffSettings::xOffset()']]],
   ['xpc_5',['xpc',['../structSoundChannel.html#adf81526a0324c71cc1379fc1b0e1bce8',1,'SoundChannel']]],
   ['xpi_6',['xpi',['../structSoundChannel.html#adecead018f39867088a4d0c57861725d',1,'SoundChannel']]],
   ['xpointleastsig_7',['xPointLeastSig',['../structBgTransformationSettings.html#a9fab06afeaef1e035bf57e21045bb606',1,'BgTransformationSettings']]],

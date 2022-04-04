@@ -17,7 +17,8 @@ var searchData=
   ['none5_14',['none5',['../unionDroptable.html#af35d5fa0e071796844e23f75ace17582',1,'Droptable']]],
   ['npc_5funk_15',['npc_unk',['../npc_8c.html#a3b786d327271b2a42530fb7b1187d613',1,'npc.c']]],
   ['ntracks_16',['nTracks',['../structMusicPlayer.html#a31c08f05e31b68de67ead515252a5919',1,'MusicPlayer']]],
-  ['numgfxtiles_17',['numGfxTiles',['../structFrameGfxData.html#a042876ea11bc77f09629dabce2bb31c1',1,'FrameGfxData']]],
-  ['numpalettes_18',['numPalettes',['../structPaletteGroup.html#a68d0c0050d4447cdf5a9c7de1ff582f2',1,'PaletteGroup']]],
-  ['numtiles_19',['numTiles',['../structUIElement.html#ad0633b52f49fa1fd2d7215a0aad04ade',1,'UIElement::numTiles()'],['../structSpriteFrame.html#a54de6e562d8ed3e603a03020d232e43e',1,'SpriteFrame::numTiles()']]]
+  ['null_17',['NULL',['../subtask2_8c.html#a1a05ede2ad100bf5de5dfa7ccdfa4397',1,'subtask2.c']]],
+  ['numgfxtiles_18',['numGfxTiles',['../structFrameGfxData.html#a042876ea11bc77f09629dabce2bb31c1',1,'FrameGfxData']]],
+  ['numpalettes_19',['numPalettes',['../structPaletteGroup.html#a68d0c0050d4447cdf5a9c7de1ff582f2',1,'PaletteGroup']]],
+  ['numtiles_20',['numTiles',['../structUIElement.html#ad0633b52f49fa1fd2d7215a0aad04ade',1,'UIElement::numTiles()'],['../structSpriteFrame.html#a54de6e562d8ed3e603a03020d232e43e',1,'SpriteFrame::numTiles()']]]
 ];

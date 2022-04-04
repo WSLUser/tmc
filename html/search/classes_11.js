@@ -88,6 +88,7 @@ var searchData=
   ['struct_5fgunk_5f02034330_85',['struct_gUnk_02034330',['../structstruct__gUnk__02034330.html',1,'']]],
   ['struct_5fgunk_5f08122898_86',['struct_gUnk_08122898',['../structstruct__gUnk__08122898.html',1,'']]],
   ['struct_5fgunk_5f08123fb0_87',['struct_gUnk_08123FB0',['../structstruct__gUnk__08123FB0.html',1,'']]],
-  ['substruct_5f0e2_88',['substruct_0E2',['../structsubstruct__0E2.html',1,'']]],
-  ['substruct_5f160_89',['substruct_160',['../structsubstruct__160.html',1,'']]]
+  ['struct_5fgunk_5f08128e94_88',['struct_gUnk_08128E94',['../structstruct__gUnk__08128E94.html',1,'']]],
+  ['substruct_5f0e2_89',['substruct_0E2',['../structsubstruct__0E2.html',1,'']]],
+  ['substruct_5f160_90',['substruct_160',['../structsubstruct__160.html',1,'']]]
 ];
