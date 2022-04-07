@@ -32,7 +32,7 @@ var searchData=
   ['initsound_29',['InitSound',['../sound_8c.html#a7653c9d91bc20ef678286370a50c0114',1,'InitSound(void):&#160;sound.c'],['../sound_8h.html#a7653c9d91bc20ef678286370a50c0114',1,'InitSound(void):&#160;sound.c']]],
   ['initsoundplayinginfo_30',['InitSoundPlayingInfo',['../sound_8c.html#aabe24d2d946ff8e5ef30f6fd84a69626',1,'InitSoundPlayingInfo(void):&#160;sound.c'],['../sound_8h.html#aabe24d2d946ff8e5ef30f6fd84a69626',1,'InitSoundPlayingInfo(void):&#160;sound.c']]],
   ['inittilemessage_31',['InitTileMessage',['../playerItemUtils_8c.html#ae444511a6fcd0485882bf6804cea3003',1,'playerItemUtils.c']]],
-  ['initui_32',['InitUI',['../game_8c.html#a6265ab153a9fb6d343a8ba0ae524a9a5',1,'InitUI(bool32):&#160;ui.c'],['../ui_8c.html#aeb16833191eb3a0301e33aef3f372b39',1,'InitUI(bool32 keepHealthAndRupees):&#160;ui.c']]],
+  ['initui_32',['InitUI',['../ui_8c.html#aeb16833191eb3a0301e33aef3f372b39',1,'InitUI(bool32 keepHealthAndRupees):&#160;ui.c'],['../ui_8h.html#a6265ab153a9fb6d343a8ba0ae524a9a5',1,'InitUI(bool32):&#160;ui.c']]],
   ['initvolume_33',['InitVolume',['../sound_8c.html#afc96eb740d705c582e614a64c88aacf8',1,'sound.c']]],
   ['iscolliding_34',['IsColliding',['../collision_8h.html#a27859cfd58471a5f692506cdf0574d72',1,'IsColliding(Entity *, Entity *):&#160;collision.c'],['../collision_8c.html#ae149386c7546742991438f590788455e',1,'IsColliding(Entity *this, Entity *that):&#160;collision.c']]],
   ['iscollidingplayer_35',['IsCollidingPlayer',['../collision_8c.html#a05a9b3a0640d1a02877e6ac5e22a0672',1,'IsCollidingPlayer(Entity *this):&#160;collision.c'],['../collision_8h.html#abcf8ad6a33af7eac61edde4dbdb926b2',1,'IsCollidingPlayer(Entity *):&#160;collision.c']]],

@@ -62,7 +62,7 @@ var searchData=
   ['initsound_59',['InitSound',['../sound_8c.html#a7653c9d91bc20ef678286370a50c0114',1,'InitSound(void):&#160;sound.c'],['../sound_8h.html#a7653c9d91bc20ef678286370a50c0114',1,'InitSound(void):&#160;sound.c']]],
   ['initsoundplayinginfo_60',['InitSoundPlayingInfo',['../sound_8h.html#aabe24d2d946ff8e5ef30f6fd84a69626',1,'InitSoundPlayingInfo(void):&#160;sound.c'],['../sound_8c.html#aabe24d2d946ff8e5ef30f6fd84a69626',1,'InitSoundPlayingInfo(void):&#160;sound.c']]],
   ['inittilemessage_61',['InitTileMessage',['../playerItemUtils_8c.html#ae444511a6fcd0485882bf6804cea3003',1,'playerItemUtils.c']]],
-  ['initui_62',['InitUI',['../ui_8c.html#aeb16833191eb3a0301e33aef3f372b39',1,'InitUI(bool32 keepHealthAndRupees):&#160;ui.c'],['../game_8c.html#a6265ab153a9fb6d343a8ba0ae524a9a5',1,'InitUI(bool32):&#160;ui.c']]],
+  ['initui_62',['InitUI',['../ui_8h.html#a6265ab153a9fb6d343a8ba0ae524a9a5',1,'InitUI(bool32):&#160;ui.c'],['../ui_8c.html#aeb16833191eb3a0301e33aef3f372b39',1,'InitUI(bool32 keepHealthAndRupees):&#160;ui.c']]],
   ['initvolume_63',['InitVolume',['../sound_8c.html#afc96eb740d705c582e614a64c88aacf8',1,'sound.c']]],
   ['inlock_64',['INLOCK',['../flags_8h.html#a3f3de3e0d751949b8d0b60ffb302944aae69b8385a100df574a55723e25eaf32b',1,'flags.h']]],
   ['input_65',['Input',['../structInput.html',1,'']]],

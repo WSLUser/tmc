@@ -96,6 +96,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="game_8h_source.html">game.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="message_8h_source.html">message.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="ui_8h_source.html">ui.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for figurine_menu.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -103,48 +104,49 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="figurine__menu_8c__incl.png" border="0" usemap="#asrc_2menu_2figurine__menu_8c" alt=""/></div>
 <map name="asrc_2menu_2figurine__menu_8c" id="asrc_2menu_2figurine__menu_8c">
-<area shape="rect" title=" " alt="" coords="1177,5,1348,32"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="945,453,1012,480"/>
-<area shape="rect" href="main_8h.html" title=" " alt="" coords="815,155,875,181"/>
-<area shape="rect" href="menu_8h.html" title=" " alt="" coords="1363,80,1427,107"/>
-<area shape="rect" href="sound_8h.html" title=" " alt="" coords="1131,229,1197,256"/>
-<area shape="rect" href="common_8h.html" title=" " alt="" coords="1221,229,1304,256"/>
-<area shape="rect" href="screen_8h.html" title=" " alt="" coords="1365,304,1435,331"/>
-<area shape="rect" href="save_8h.html" title=" " alt="" coords="685,80,745,107"/>
-<area shape="rect" href="flags_8h.html" title=" " alt="" coords="1328,229,1387,256"/>
-<area shape="rect" href="subtask_8h.html" title=" " alt="" coords="1459,304,1538,331"/>
-<area shape="rect" href="object_8h.html" title=" " alt="" coords="1009,155,1076,181"/>
-<area shape="rect" href="game_8h.html" title=" " alt="" coords="1613,229,1677,256"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="435,80,520,107"/>
-<area shape="rect" href="message_8h.html" title=" " alt="" coords="105,80,191,107"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="1083,528,1162,555"/>
-<area shape="rect" title=" " alt="" coords="801,603,865,629"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1450,603,1523,629"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1308,603,1375,629"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="1206,677,1269,704"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="1191,603,1283,629"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="889,603,961,629"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="986,603,1054,629"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="1079,603,1167,629"/>
-<area shape="rect" title=" " alt="" coords="1453,677,1521,704"/>
-<area shape="rect" title=" " alt="" coords="1205,752,1269,779"/>
-<area shape="rect" href="room_8h.html" title=" " alt="" coords="747,229,808,256"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="421,304,483,331"/>
-<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="798,304,890,331"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="422,379,482,405"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="507,379,571,405"/>
-<area shape="rect" href="fade_8h.html" title=" " alt="" coords="1403,379,1461,405"/>
-<area shape="rect" href="player_8h.html" title=" " alt="" coords="296,229,363,256"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="195,155,285,181"/>
-<area shape="rect" href="asm_8h.html" title=" " alt="" coords="1067,304,1125,331"/>
-<area shape="rect" href="effects_8h.html" title=" " alt="" coords="934,229,1005,256"/>
-<area shape="rect" href="physics_8h.html" title=" " alt="" coords="595,229,671,256"/>
-<area shape="rect" href="area_8h.html" title=" " alt="" coords="1665,304,1722,331"/>
-<area shape="rect" href="transitions_8h.html" title=" " alt="" coords="1715,379,1807,405"/>
-<area shape="rect" href="roomid_8h.html" title=" " alt="" coords="1726,453,1797,480"/>
-<area shape="rect" href="manager_8h.html" title=" " alt="" coords="488,229,571,256"/>
-<area shape="rect" href="script_8h.html" title=" " alt="" coords="411,155,475,181"/>
-<area shape="rect" href="map_8h.html" title=" " alt="" coords="62,379,119,405"/>
+<area shape="rect" title=" " alt="" coords="1258,5,1429,32"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="1038,453,1105,480"/>
+<area shape="rect" href="main_8h.html" title=" " alt="" coords="988,155,1048,181"/>
+<area shape="rect" href="menu_8h.html" title=" " alt="" coords="1339,304,1403,331"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="1175,229,1242,256"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="1266,229,1349,256"/>
+<area shape="rect" href="screen_8h.html" title=" " alt="" coords="1439,304,1509,331"/>
+<area shape="rect" href="save_8h.html" title=" " alt="" coords="735,80,795,107"/>
+<area shape="rect" href="flags_8h.html" title=" " alt="" coords="1373,229,1431,256"/>
+<area shape="rect" href="subtask_8h.html" title=" " alt="" coords="1512,379,1591,405"/>
+<area shape="rect" href="object_8h.html" title=" " alt="" coords="1073,155,1139,181"/>
+<area shape="rect" href="game_8h.html" title=" " alt="" coords="1607,229,1671,256"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="363,80,449,107"/>
+<area shape="rect" href="message_8h.html" title=" " alt="" coords="510,80,595,107"/>
+<area shape="rect" href="ui_8h.html" title=" " alt="" coords="1791,80,1834,107"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="1180,528,1259,555"/>
+<area shape="rect" title=" " alt="" coords="890,603,954,629"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1539,603,1612,629"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1279,603,1346,629"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="1385,677,1448,704"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="1371,603,1463,629"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="1183,603,1255,629"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="979,603,1047,629"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="1071,603,1159,629"/>
+<area shape="rect" title=" " alt="" coords="1541,677,1609,704"/>
+<area shape="rect" title=" " alt="" coords="1385,752,1449,779"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="791,229,853,256"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="544,304,607,331"/>
+<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="860,304,952,331"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="613,379,673,405"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="474,379,538,405"/>
+<area shape="rect" href="fade_8h.html" title=" " alt="" coords="1379,379,1436,405"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="650,229,717,256"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="485,155,575,181"/>
+<area shape="rect" href="asm_8h.html" title=" " alt="" coords="1043,304,1100,331"/>
+<area shape="rect" href="effects_8h.html" title=" " alt="" coords="877,229,948,256"/>
+<area shape="rect" href="physics_8h.html" title=" " alt="" coords="347,229,423,256"/>
+<area shape="rect" href="area_8h.html" title=" " alt="" coords="1659,304,1716,331"/>
+<area shape="rect" href="transitions_8h.html" title=" " alt="" coords="1843,379,1935,405"/>
+<area shape="rect" href="roomid_8h.html" title=" " alt="" coords="1853,453,1924,480"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="138,229,221,256"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="397,155,461,181"/>
+<area shape="rect" href="map_8h.html" title=" " alt="" coords="5,155,63,181"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -184,7 +186,7 @@ Functions</h2></td></tr>
 <tr class="separator:afb4079f7fef5c9a806a9c05c207df1d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac39ce596aeb4da1904b97fec83c112a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="figurine__menu_8c.html#ac39ce596aeb4da1904b97fec83c112a8">FigurineMenu_080A46C0</a> (void)</td></tr>
 <tr class="separator:ac39ce596aeb4da1904b97fec83c112a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0605007764b133bd3c0281ebfe356762"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="figurine__menu_8c.html#a0605007764b133bd3c0281ebfe356762">sub_080A4948</a> (<a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a> <a class="el" href="subtask2_8c.html#a7899b02a20c708f2be5af9d0c78f8aaf">param_1</a>)</td></tr>
+<tr class="memitem:a0605007764b133bd3c0281ebfe356762"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="figurine__menu_8c.html#a0605007764b133bd3c0281ebfe356762">sub_080A4948</a> (<a class="el" href="types_8h.html#ae9b1af5c037e57a98884758875d3a7c4">s32</a> param_1)</td></tr>
 <tr class="separator:a0605007764b133bd3c0281ebfe356762"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3cdc45332b1ea386c99a329cd6a70a64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="figurine__menu_8c.html#a3cdc45332b1ea386c99a329cd6a70a64">sub_0805F46C</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>, const <a class="el" href="structstruct__0812816C.html">struct_0812816C</a> *)</td></tr>
 <tr class="separator:a3cdc45332b1ea386c99a329cd6a70a64"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -192,9 +194,9 @@ Functions</h2></td></tr>
 <tr class="separator:ae0133c683f77f5983d9ed3e0810d168a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3aafe28fd2696dd160fd2c13e7f8a797"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="figurine__menu_8c.html#a3aafe28fd2696dd160fd2c13e7f8a797">InitPauseMenu</a> (void)</td></tr>
 <tr class="separator:a3aafe28fd2696dd160fd2c13e7f8a797"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a130550d005700da87d81829afdc6dd62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="figurine__menu_8c.html#a130550d005700da87d81829afdc6dd62">sub_080A4E84</a> (<a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> <a class="el" href="subtask2_8c.html#a7899b02a20c708f2be5af9d0c78f8aaf">param_1</a>)</td></tr>
+<tr class="memitem:a130550d005700da87d81829afdc6dd62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="figurine__menu_8c.html#a130550d005700da87d81829afdc6dd62">sub_080A4E84</a> (<a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> param_1)</td></tr>
 <tr class="separator:a130550d005700da87d81829afdc6dd62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67cc188ef57cb0956b7eb6072e891f88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="figurine__menu_8c.html#a67cc188ef57cb0956b7eb6072e891f88">sub_080A4E90</a> (<a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> <a class="el" href="subtask2_8c.html#a7899b02a20c708f2be5af9d0c78f8aaf">param_1</a>)</td></tr>
+<tr class="memitem:a67cc188ef57cb0956b7eb6072e891f88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="figurine__menu_8c.html#a67cc188ef57cb0956b7eb6072e891f88">sub_080A4E90</a> (<a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> param_1)</td></tr>
 <tr class="separator:a67cc188ef57cb0956b7eb6072e891f88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
