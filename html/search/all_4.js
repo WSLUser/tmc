@@ -289,7 +289,7 @@ var searchData=
   ['draw_5fdirect_5fsprite_5findex_286',['DRAW_DIRECT_SPRITE_INDEX',['../subtask2_8c.html#afac063c7f5693e5ef188be401459db38',1,'subtask2.c']]],
   ['drawcanvasline_287',['DrawCanvasLine',['../message_8c.html#a7d3e65c9fb78bc2afcde5c05106cdea1',1,'message.c']]],
   ['drawchargebar_288',['DrawChargeBar',['../ui_8c.html#a5819c2967d6f4b085df8433627ce06ef',1,'ui.c']]],
-  ['drawdigits_289',['DrawDigits',['../ui_8c.html#abdb233229aee8a13136c2480a90843a8',1,'ui.c']]],
+  ['drawdigits_289',['DrawDigits',['../ui_8c.html#a3bca959e5b60c8ae7762ac216ae44d84',1,'ui.c']]],
   ['drawdirect_290',['DrawDirect',['../functions_8h.html#a24f4ed838f2bd1ab0764247ed87cec6e',1,'DrawDirect(u32, u32):&#160;affine.c'],['../affine_8c.html#a18ad6e215477465bacdc9ab9e7453b9f',1,'DrawDirect(u32 spriteIndex, u32 frameIndex):&#160;affine.c']]],
   ['drawdungeonfeatures_291',['DrawDungeonFeatures',['../common_8c.html#ae63a2e8f8a57ab3114b3e6f8066fd73d',1,'DrawDungeonFeatures(u32 room, void *data, u32 size)):&#160;common.c'],['../subtask2_8c.html#a45d02901b8642ae1dade2365f174841d',1,'DrawDungeonFeatures(u32, void *, u32):&#160;subtask2.c']]],
   ['drawdungeonmap_292',['DrawDungeonMap',['../common_8c.html#aab0bee70ab9776bce5453e8dba556373',1,'DrawDungeonMap(u32 floor, struct_02019EE0 *data, u32 size)):&#160;common.c'],['../subtask2_8c.html#a077039c51e72dd595487cb8f4b2f8c3c',1,'DrawDungeonMap(u32 floor, struct_02019EE0 *data, u32 size):&#160;subtask2.c']]],
