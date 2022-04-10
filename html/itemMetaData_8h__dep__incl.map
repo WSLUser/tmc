@@ -1,8 +1,9 @@
 <map id="include/itemMetaData.h" name="include/itemMetaData.h">
-<area shape="rect" id="node1" title=" " alt="" coords="277,5,436,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="375,5,533,32"/>
 <area shape="rect" id="node2" href="$game_8c.html" title="Game task." alt="" coords="5,80,92,107"/>
 <area shape="rect" id="node3" href="$itemMetaData_8c.html" title=" " alt="" coords="116,80,251,107"/>
 <area shape="rect" id="node4" href="$pause__menu_8c.html" title=" " alt="" coords="275,80,439,107"/>
 <area shape="rect" id="node5" href="$itemOnGround_8c.html" title=" " alt="" coords="463,80,640,107"/>
 <area shape="rect" id="node6" href="$objectB_8c.html" title="ObjectB object." alt="" coords="664,80,801,107"/>
+<area shape="rect" id="node7" href="$subtask2_8c.html" title=" " alt="" coords="826,80,933,107"/>
 </map>

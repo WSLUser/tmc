@@ -92,5 +92,6 @@ var searchData=
   ['dpad_5fdown_89',['DPAD_DOWN',['../io__reg_8h.html#aa227bbb719bc75bd5e7cda3536a7da5c',1,'io_reg.h']]],
   ['dpad_5fleft_90',['DPAD_LEFT',['../io__reg_8h.html#a4109c674950f167a866759eaf39dc4c4',1,'io_reg.h']]],
   ['dpad_5fright_91',['DPAD_RIGHT',['../io__reg_8h.html#a1142011f319ee33d8b04f20d7c04cd6b',1,'io_reg.h']]],
-  ['dpad_5fup_92',['DPAD_UP',['../io__reg_8h.html#a58dae06ac7f1bd7d308cef31d0d444df',1,'io_reg.h']]]
+  ['dpad_5fup_92',['DPAD_UP',['../io__reg_8h.html#a58dae06ac7f1bd7d308cef31d0d444df',1,'io_reg.h']]],
+  ['draw_5fdirect_5fsprite_5findex_93',['DRAW_DIRECT_SPRITE_INDEX',['../subtask2_8c.html#afac063c7f5693e5ef188be401459db38',1,'subtask2.c']]]
 ];
