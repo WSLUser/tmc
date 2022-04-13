@@ -13,7 +13,7 @@ var searchData=
   ['targety_10',['targetY',['../structWizzrobeEntity.html#afcdee3639afbf888dbb0951d4c83fdf9',1,'WizzrobeEntity']]],
   ['task_11',['task',['../structMain.html#a7f3cb95ac366c24f21a84e04fa01b7a4',1,'Main']]],
   ['tektite_5ffunctions_12',['Tektite_Functions',['../tektite_8c.html#ad3d94adc72af5685db140d939f45af8d',1,'tektite.c']]],
-  ['tektitegolden_5ffunctions_13',['TektiteGolden_Functions',['../tektiteGolden_8c.html#a5120d15c6fba940302213eb2af0be817',1,'tektiteGolden.c']]],
+  ['tektitegolden_5ffunctions_13',['TektiteGolden_Functions',['../tektiteGolden_8c.html#adfa8fc21884ddcda4356098c5b46ea6f',1,'tektiteGolden.c']]],
   ['tempoc_14',['tempoC',['../structMusicPlayerInfo.html#ab274a2bf7b849beadeacc7fb0367af42',1,'MusicPlayerInfo']]],
   ['tempod_15',['tempoD',['../structMusicPlayerInfo.html#a56a66dcbd22da3410626ff292f66cc6d',1,'MusicPlayerInfo']]],
   ['tempoi_16',['tempoI',['../structMusicPlayerInfo.html#a867fa3d1425cebd45d80ba553874239e',1,'MusicPlayerInfo']]],

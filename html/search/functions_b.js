@@ -1,9 +1,9 @@
 var searchData=
 [
   ['keaton_0',['Keaton',['../enemy_8h.html#a41f2953aa94e99e97c58a92fcd17d295',1,'Keaton(Entity *):&#160;keaton.c'],['../keaton_8c.html#a16b2918a6009c1715318dbbc798e15d7',1,'Keaton(Entity *this):&#160;keaton.c']]],
-  ['keaton_5foncollision_1',['Keaton_OnCollision',['../keaton_8c.html#a5d49d5c82e5948bf97810b9f863e2e81',1,'keaton.c']]],
-  ['keaton_5fongrabbed_2',['Keaton_OnGrabbed',['../keaton_8c.html#a0699881a8eac8dab53ab5817a7b16d6d',1,'keaton.c']]],
-  ['keaton_5fontick_3',['Keaton_OnTick',['../keaton_8c.html#a504661f09e2bcade7317c84cdcfea090',1,'keaton.c']]],
+  ['keaton_5foncollision_1',['Keaton_OnCollision',['../keaton_8c.html#a631110d930f250cb81c1a127108dfff2',1,'keaton.c']]],
+  ['keaton_5fongrabbed_2',['Keaton_OnGrabbed',['../keaton_8c.html#a2358656bfdb4031179f9c77c6153746e',1,'keaton.c']]],
+  ['keaton_5fontick_3',['Keaton_OnTick',['../keaton_8c.html#a2b543ce1fa62a01f5e7ba46c5b4bb642',1,'keaton.c']]],
   ['keatondagger_4',['KeatonDagger',['../keatonDagger_8c.html#a021238e95e5c304cda4e0cd23a0a44c8',1,'KeatonDagger(Entity *this):&#160;keatonDagger.c'],['../projectile_8h.html#a9f66ba5fa09b5f857e6fc94669f801eb',1,'KeatonDagger(Entity *):&#160;keatonDagger.c']]],
   ['keese_5',['Keese',['../keese_8c.html#aba7a488d2a9d66513ec73c8298f95f1d',1,'Keese(Entity *this):&#160;keese.c'],['../enemy_8h.html#a609d06ef6ca6dd8d367a91b9ba8d5827',1,'Keese(Entity *):&#160;keese.c']]],
   ['keese_5ffly_6',['Keese_Fly',['../keese_8c.html#a50a263e84122bf01d7fefb94cf111cc0',1,'keese.c']]],
