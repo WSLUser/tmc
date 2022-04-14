@@ -328,8 +328,8 @@ var searchData=
   ['dungeonlayout_325',['DungeonLayout',['../structDungeonLayout.html',1,'']]],
   ['duplicate_326',['duplicate',['../structFigurineMenu.html#a1b4c398e59d0407b264cebfee074cd8b',1,'FigurineMenu']]],
   ['duration_327',['duration',['../structPACKED.html#a546c33fea20deb541e3546c0dbb63513',1,'PACKED::duration()'],['../structUIElement.html#a0a8982fdbbe3e02c04c1e59fbee05667',1,'UIElement::duration()'],['../ui_8c.html#a88f98167f55e7fb55b3adc3db056980d',1,'duration():&#160;ui.c']]],
-  ['dust_328',['DUST',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba5456265ad77aaf26fac342cd8128290f',1,'enemy.h']]],
-  ['dust_329',['Dust',['../enemy_8h.html#a54614f927628dd04eede7a682b228509',1,'enemy.h']]],
+  ['dust_328',['Dust',['../enemy_8h.html#a54614f927628dd04eede7a682b228509',1,'enemy.h']]],
+  ['dust_329',['DUST',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba5456265ad77aaf26fac342cd8128290f',1,'enemy.h']]],
   ['dx_330',['dx',['../structBgAffineDstData.html#a9854bc6c056eaf7997fe502e63d11649',1,'BgAffineDstData::dx()'],['../structBgTransformationSettings.html#a78ac2dc26bc5ff72e7f4e0c8540231cb',1,'BgTransformationSettings::dx()']]],
   ['dy_331',['dy',['../structBgAffineDstData.html#a04ad69f043c09619f055f79668b65579',1,'BgAffineDstData::dy()'],['../structBgTransformationSettings.html#a9348b4995d2a99e5e071c57a3e8d7916',1,'BgTransformationSettings::dy()']]]
 ];

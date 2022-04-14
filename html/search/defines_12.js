@@ -175,9 +175,10 @@ var searchData=
   ['sub_5f080a4978_5fdraw_5fconstant_172',['sub_080A4978_draw_constant',['../figurine__menu_8c.html#a429794cbb26ee0f61cf7aa45873c029c',1,'figurine_menu.c']]],
   ['sub_5f080a5384_5fdraw_5fconstant0_173',['sub_080A5384_draw_constant0',['../pause__menu_8c.html#a305072bcd3fac0b2a57c0c54620fcdf5',1,'pause_menu.c']]],
   ['sub_5f080a5384_5fdraw_5fconstant1_174',['sub_080A5384_draw_constant1',['../pause__menu_8c.html#a63cc0f3f77dfe19ee4a9d3b63fc1191d',1,'pause_menu.c']]],
-  ['super_175',['super',['../global_8h.html#ac69e0ceecb8b8ea0e694f79e5406bb24',1,'global.h']]],
-  ['swap_176',['SWAP',['../global_8h.html#a417c170109e7863ebe298b6d3a88e355',1,'global.h']]],
-  ['sword_5fcharge_5fspeed_177',['SWORD_CHARGE_SPEED',['../player_8c.html#ab0148ed09c4cb032e613e9ec754404d7',1,'player.c']]],
-  ['system_5fclock_178',['SYSTEM_CLOCK',['../defines_8h.html#a95982eccb57c2ae35f8ba3d8f0b05653',1,'defines.h']]],
-  ['systemcall_179',['SystemCall',['../syscall_8h.html#ac9bfe543c13061e45469ad6a449b9026',1,'syscall.h']]]
+  ['sub_5f080a5d1c_5fsprite_5findex_175',['SUB_080A5D1C_SPRITE_INDEX',['../subtask2_8c.html#a87eb08f8087f24e043f702b87035350e',1,'subtask2.c']]],
+  ['super_176',['super',['../global_8h.html#ac69e0ceecb8b8ea0e694f79e5406bb24',1,'global.h']]],
+  ['swap_177',['SWAP',['../global_8h.html#a417c170109e7863ebe298b6d3a88e355',1,'global.h']]],
+  ['sword_5fcharge_5fspeed_178',['SWORD_CHARGE_SPEED',['../player_8c.html#ab0148ed09c4cb032e613e9ec754404d7',1,'player.c']]],
+  ['system_5fclock_179',['SYSTEM_CLOCK',['../defines_8h.html#a95982eccb57c2ae35f8ba3d8f0b05653',1,'defines.h']]],
+  ['systemcall_180',['SystemCall',['../syscall_8h.html#ac9bfe543c13061e45469ad6a449b9026',1,'syscall.h']]]
 ];
