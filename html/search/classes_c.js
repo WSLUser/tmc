@@ -59,10 +59,11 @@ var searchData=
   ['minecartdoorentity_56',['MinecartDoorEntity',['../structMinecartDoorEntity.html',1,'']]],
   ['minecartentity_57',['MinecartEntity',['../structMinecartEntity.html',1,'']]],
   ['minishentrancespawndata_58',['MinishEntranceSpawnData',['../structMinishEntranceSpawnData.html',1,'']]],
-  ['modifiedparententity_59',['ModifiedParentEntity',['../structModifiedParentEntity.html',1,'']]],
-  ['mulldozerentity_60',['MulldozerEntity',['../structMulldozerEntity.html',1,'']]],
-  ['multibootparam_61',['MultiBootParam',['../structMultiBootParam.html',1,'']]],
-  ['musicplayer_62',['MusicPlayer',['../structMusicPlayer.html',1,'']]],
-  ['musicplayerinfo_63',['MusicPlayerInfo',['../structMusicPlayerInfo.html',1,'']]],
-  ['musicplayertrack_64',['MusicPlayerTrack',['../structMusicPlayerTrack.html',1,'']]]
+  ['minishezloentity_59',['MinishEzloEntity',['../structMinishEzloEntity.html',1,'']]],
+  ['modifiedparententity_60',['ModifiedParentEntity',['../structModifiedParentEntity.html',1,'']]],
+  ['mulldozerentity_61',['MulldozerEntity',['../structMulldozerEntity.html',1,'']]],
+  ['multibootparam_62',['MultiBootParam',['../structMultiBootParam.html',1,'']]],
+  ['musicplayer_63',['MusicPlayer',['../structMusicPlayer.html',1,'']]],
+  ['musicplayerinfo_64',['MusicPlayerInfo',['../structMusicPlayerInfo.html',1,'']]],
+  ['musicplayertrack_65',['MusicPlayerTrack',['../structMusicPlayerTrack.html',1,'']]]
 ];
