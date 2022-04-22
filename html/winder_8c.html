@@ -296,7 +296,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="bug"><dt><b><a class="el" href="bug.html#_bug000012">Bug:</a></b></dt><dd>Undefined behaviour for source and destination to overlap in a memcpy. In this case it is okay because the copy will always be sequential, incremental and in chunks of &lt;= 4 bytes, so it will copy the contents of positions[0] and positions[1] to positions[2] and positions[3], then that of positions[2] and positions[3] to positions[4] and positions[5], and so on. A safer way to do this would be a manual loop as in Winder_Move. </dd></dl>
+<dl class="bug"><dt><b><a class="el" href="bug.html#_bug000014">Bug:</a></b></dt><dd>Undefined behaviour for source and destination to overlap in a memcpy. In this case it is okay because the copy will always be sequential, incremental and in chunks of &lt;= 4 bytes, so it will copy the contents of positions[0] and positions[1] to positions[2] and positions[3], then that of positions[2] and positions[3] to positions[4] and positions[5], and so on. A safer way to do this would be a manual loop as in Winder_Move. </dd></dl>
 
 </div>
 </div>

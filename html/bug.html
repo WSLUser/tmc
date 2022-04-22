@@ -95,10 +95,14 @@ $(function() {
 <dd><a class="anchor" id="_bug000009"></a>: tmp is uninitialized, in practice player must have an item here  </dd>
 <dt>Global <a class="el" href="stockwell_8c.html#a39a9f6620cdeb13c5b17fff4783cff11">sub_080650CC</a>  (<a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> *)</dt>
 <dd><a class="anchor" id="_bug000010"></a>itemPrice (r8) is not initialized if gRoomVars.shopItemType == 0  </dd>
+<dt>Global <a class="el" href="townMinish_8c.html#a346b356585fd2a182c318dd802fd2e08">sub_0806AFBC</a>  (<a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> *this, <a class="el" href="structScriptExecutionContext.html">ScriptExecutionContext</a> *context)</dt>
+<dd><a class="anchor" id="_bug000011"></a>sub_0806B004 uses context but ShowNPCDialogue doesn't pass it.  </dd>
+<dt>Global <a class="el" href="lilypadLarge_8c.html#a73b209af5f30a9f41739e8e3c05432bd">sub_080855E8</a>  (<a class="el" href="structLilypadLargeEntity.html">LilypadLargeEntity</a> *)</dt>
+<dd><a class="anchor" id="_bug000012"></a>: tmp could be uninitialized here  </dd>
 <dt>Global <a class="el" href="player_8c.html#a2891ffa861a709944ea6c573324a026a">SurfaceAction_CloneTile</a>  (<a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> *this)</dt>
-<dd><a class="anchor" id="_bug000011"></a>: n is not initialized  </dd>
+<dd><a class="anchor" id="_bug000013"></a>: n is not initialized  </dd>
 <dt>Global <a class="el" href="winder_8c.html#a73020062a9dfb2f65fce3375b00e55af">Winder_SetPositions</a>  (<a class="el" href="structWinderEntity.html">WinderEntity</a> *)</dt>
-<dd><a class="anchor" id="_bug000012"></a>Undefined behaviour for source and destination to overlap in a memcpy. In this case it is okay because the copy will always be sequential, incremental and in chunks of &lt;= 4 bytes, so it will copy the contents of positions[0] and positions[1] to positions[2] and positions[3], then that of positions[2] and positions[3] to positions[4] and positions[5], and so on. A safer way to do this would be a manual loop as in Winder_Move. </dd>
+<dd><a class="anchor" id="_bug000014"></a>Undefined behaviour for source and destination to overlap in a memcpy. In this case it is okay because the copy will always be sequential, incremental and in chunks of &lt;= 4 bytes, so it will copy the contents of positions[0] and positions[1] to positions[2] and positions[3], then that of positions[2] and positions[3] to positions[4] and positions[5], and so on. A safer way to do this would be a manual loop as in Winder_Move. </dd>
 </dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
