@@ -799,7 +799,7 @@ var searchData=
   ['gpalettebuffer_796',['gPaletteBuffer',['../common_8c.html#a99b1b5fee4e89ac74aa78d9313b56cb5',1,'gPaletteBuffer():&#160;common.c'],['../fade_8c.html#a99b1b5fee4e89ac74aa78d9313b56cb5',1,'gPaletteBuffer():&#160;fade.c'],['../main_8h.html#a99b1b5fee4e89ac74aa78d9313b56cb5',1,'gPaletteBuffer():&#160;main.h']]],
   ['gpalettegroups_797',['gPaletteGroups',['../common_8c.html#ad8e1e82b8e10915c4857e436ccd18c85',1,'common.c']]],
   ['gpalettelist_798',['gPaletteList',['../color_8h.html#aede7e9248b4c30360cd14de7f74f863c',1,'color.h']]],
-  ['gpausemenuoptions_799',['gPauseMenuOptions',['../structures_8h.html#adf01e04d06473a6a962c019d94d3f8fa',1,'structures.h']]],
+  ['gpausemenuoptions_799',['gPauseMenuOptions',['../structures_8h.html#acf6459d6799d815fe7d33789b7dfc337',1,'structures.h']]],
   ['gpcmsamplespervblanktable_800',['gPcmSamplesPerVBlankTable',['../m4a_8c.html#a545bfeb49f0ed28b0f6ba04b8dfc23e1',1,'m4a.c']]],
   ['gpeahatactions_801',['gPeahatActions',['../peahat_8c.html#adfc2b34bd1fd3c196c271e29a33e84d4',1,'peahat.c']]],
   ['gpeahatflightheights_802',['gPeahatFlightHeights',['../peahat_8c.html#af6498a11cd54b7327f38c46f3d6b9411',1,'peahat.c']]],
