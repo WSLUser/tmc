@@ -777,7 +777,7 @@ var searchData=
   ['moldorm_5ffunctions_774',['Moldorm_Functions',['../moldorm_8c.html#ace0711b2de0e89d03ea83cf1201fa4d5',1,'moldorm.c']]],
   ['moldorm_5foncollision_775',['Moldorm_OnCollision',['../moldorm_8c.html#a697c4a6fa2073ba27d81c3bda52682eb',1,'moldorm.c']]],
   ['moldorm_5fontick_776',['Moldorm_OnTick',['../moldorm_8c.html#ae31a60f648fc31a9ad7109738a442891',1,'moldorm.c']]],
-  ['moldworm_777',['Moldworm',['../moldworm_8c.html#a81701663066c1d80858eafab4b40c521',1,'Moldworm(Entity *this)):&#160;moldworm.c'],['../enemy_8h.html#adf8482a70bb5697131743612dba76b20',1,'Moldworm(Entity *):&#160;moldworm.c']]],
+  ['moldworm_777',['Moldworm',['../moldworm_8c.html#a87b080d44f876fc72054f284acb5f726',1,'Moldworm(Entity *this):&#160;moldworm.c'],['../enemy_8h.html#adf8482a70bb5697131743612dba76b20',1,'Moldworm(Entity *):&#160;moldworm.c']]],
   ['moldworm_778',['MOLDWORM',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08abac0e18528e823e953f680ceed235f777c',1,'enemy.h']]],
   ['moldworm_2ec_779',['moldworm.c',['../moldworm_8c.html',1,'']]],
   ['moldworm_5ffunctions_780',['Moldworm_Functions',['../moldworm_8c.html#a17ed2d04fc07c3fa650cdc1c9c40c52c',1,'moldworm.c']]],

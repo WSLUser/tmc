@@ -233,7 +233,7 @@ var searchData=
   ['moldorm_230',['Moldorm',['../moldorm_8c.html#a9a552bad41bb808f37c853b9b04541e7',1,'Moldorm(Entity *this):&#160;moldorm.c'],['../enemy_8h.html#a6976a29e899af62f249d261cfab97ced',1,'Moldorm(Entity *):&#160;moldorm.c']]],
   ['moldorm_5foncollision_231',['Moldorm_OnCollision',['../moldorm_8c.html#a697c4a6fa2073ba27d81c3bda52682eb',1,'moldorm.c']]],
   ['moldorm_5fontick_232',['Moldorm_OnTick',['../moldorm_8c.html#ae31a60f648fc31a9ad7109738a442891',1,'moldorm.c']]],
-  ['moldworm_233',['Moldworm',['../moldworm_8c.html#a81701663066c1d80858eafab4b40c521',1,'Moldworm(Entity *this)):&#160;moldworm.c'],['../enemy_8h.html#adf8482a70bb5697131743612dba76b20',1,'Moldworm(Entity *):&#160;moldworm.c']]],
+  ['moldworm_233',['Moldworm',['../moldworm_8c.html#a87b080d44f876fc72054f284acb5f726',1,'Moldworm(Entity *this):&#160;moldworm.c'],['../enemy_8h.html#adf8482a70bb5697131743612dba76b20',1,'Moldworm(Entity *):&#160;moldworm.c']]],
   ['moldworm_5foncollision_234',['Moldworm_OnCollision',['../moldworm_8c.html#a350de90478f39b19c9cb7a5205a0fe47',1,'moldworm.c']]],
   ['moldworm_5fongrabbed_235',['Moldworm_OnGrabbed',['../moldworm_8c.html#ab1e3017c4495252c67a37e4f0c0e619c',1,'moldworm.c']]],
   ['moldworm_5fonknockback_236',['Moldworm_OnKnockback',['../moldworm_8c.html#aac58426fc7a8176041194957aa4c3f86',1,'moldworm.c']]],
