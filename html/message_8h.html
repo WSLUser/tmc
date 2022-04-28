@@ -77,6 +77,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">message.h File Reference</div></div>
@@ -124,6 +126,117 @@ Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTextRender.html">TextRender</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a629e36f41e24f12cafe9d8a3ea274de6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="message_8h.html#a629e36f41e24f12cafe9d8a3ea274de6">TEXT_INDEX</a>(category,  <a class="el" href="vram_8c.html#afd715dc311d1a73bd24f87a7624e1bac">index</a>)&#160;&#160;&#160;((category &lt;&lt; 8) | <a class="el" href="vram_8c.html#afd715dc311d1a73bd24f87a7624e1bac">index</a>)</td></tr>
+<tr class="separator:a629e36f41e24f12cafe9d8a3ea274de6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a0669b10683a84cd84578ae44317466fe"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fe">TextCategory</a> { <br />
+&#160;&#160;<a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466feaf722b10606528e2c87adcbebb2011b47">TEXT_SAVE</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea2309d33eec871dd9e34af94ddd9eb2ea">TEXT_CREDITS</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466feaa65e313c615ee5698da8c516dd79f7c7">TEXT_NAMES</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea23c34d2052ec7c6682992c74e6c20b0d">TEXT_NEWSLETTER</a>
+, <br />
+&#160;&#160;<a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466feab0f199cd3b8558912a61b01cfe5cd959">TEXT_ITEMS</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea5e6596637a73ca6b7d415a7eb08597b6">TEXT_ITEM_GET</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466feac88cfc6a6a6d98962d9506046da1bc26">TEXT_LOCATIONS</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea78965c03b6d370ee3e28cbcc2262988f">TEXT_WINDCRESTS</a>
+, <br />
+&#160;&#160;<a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466feaa93b7bd2e6198e9de516fa16429953c4">TEXT_FIGURINE_NAMES</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466feaab14248a0214ce21ca2606f1ef661964">TEXT_FIGURINE_DESCRIPTIONS</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea59117148675f91e18e24d796068c9b36">TEXT_EMPTY</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea21f3cdbd6a6a71cf53f192a5a39014ac">TEXT_EZLO</a>
+, <br />
+&#160;&#160;<a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466feade0fac6c9c2ddbda72441fc65c0f61a8">TEXT_EZLO2</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea8bf814cb5b22ff612bab1055030e375b">TEXT_MINISH</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea91eb4c9086b4a281b5afc2902f490078">TEXT_KINSTONE</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466feabee60e788c56ca0a56b9e2ebed56c889">TEXT_PICORI</a>
+, <br />
+&#160;&#160;<a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea618be10cf970c582cddaa1baefd40cae">TEXT_PROLOGUE</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea829ba01fd2bf2b1d852b727ea4de79ab">TEXT_FINDING_EZLO</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466feab45f70a4b7ba687a1984699fd9ac2dba">TEXT_MINISH2</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea2fb4dace17ac8f6de3dd3a8d29711ada">TEXT_VAATI</a>
+, <br />
+&#160;&#160;<a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466feade03f62b74a31bd0e36c2916428151e3">TEXT_GUSTAF</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466feae6839379356038b187d3a16c2d1e104b">TEXT_PANEL_TUTORIAL</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea5045c3e45f7923b8638829d29ea5fd38">TEXT_VAATI2</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466feaaa0184b4e27a13750dbf0c72f381a1aa">TEXT_GUSTAF2</a>
+, <br />
+&#160;&#160;<a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466feab3bae5cd35530c153f4eeae3aafac1f7">TEXT_EMPTY2</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea113d7b2128bce5e69d14aaf7116f21c7">TEXT_EMPTY3</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466feaf7498475d9d585aba7881641773a6c51">TEXT_FARMERS</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466feaa66c25d032976bfada533f1ca90d1bd0">TEXT_CARPENTERS</a>
+, <br />
+&#160;&#160;<a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466feaf6b2c1dc0cbd3c65d31f31c87c89e90f">TEXT_EZLO_ELEMENTS_DONE</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466feadb6d3d41061578ff58281cee0ca5bdf3">TEXT_GORONS</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea53454d70403eb2ad4880accdf2367f46">TEXT_EMPTY4</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea9beb03bef944459f7ae2ff725b4e5bff">TEXT_BELARI</a>
+, <br />
+&#160;&#160;<a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466feae325dcfe6d39f819ec128b2d5e825ade">TEXT_LON_LON</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466feaf97622884f90dc2b006cca64437b0737">TEXT_FOREST_MINISH</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea8e0d25d1ce1c88afa23ea4c2944443ff">TEXT_EZLO_PORTAL</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea2ae6628e14d8a4e82f1b98482de27f4d">TEXT_PERCY</a>
+, <br />
+&#160;&#160;<a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea5c3d6a5e4685c2bc8a476b70362b2a8d">TEXT_BREAK_VAATI_CURSE</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea1f242ef74d37a8700f2f67addedf31b3">TEXT_FESTIVAL</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea2c107081e4607780944fbdb44c499ddf">TEXT_EMPTY5</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466feae82602034adebf1ff7ee2d6dfa26f57d">TEXT_TREASURE_GUARDIAN</a>
+, <br />
+&#160;&#160;<a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea6c29d8bd3bdf53870dcb90c34c5b269d">TEXT_DAMPE</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466feaf331a78cb44a3bf38c1ce03458fde17b">TEXT_BUSINESS_SCRUB</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea8044755a56606f85d96ca251aac20fe1">TEXT_EMPTY6</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea31392fac06b2d8b0aefab335946259c6">TEXT_PICOLYTE</a>
+, <br />
+&#160;&#160;<a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea5793a442e39cb9fd2dd889171e113192">TEXT_STOCKWELL</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea7992a37bfb232314b89b2c94633033c9">TEXT_SYRUP</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea1499974a37266132bf31f2a45e196e1d">TEXT_ITEM_PRICES</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea2d5db60f9b4ca60a8084cf4e79bdaf01">TEXT_WIND_TRIBE</a>
+, <br />
+&#160;&#160;<a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea42195e11fd3acc8a47ac7e073030ea6c">TEXT_ANJU</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea8c47f8186ddb312d468888ed0f11c3ce">TEXT_GORMAN_ORACLES</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466feaf847627dee44d304074b84bd399bd756">TEXT_SMITH</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea4da5d1fff21a9a239d3e2e02757abf60">TEXT_PHONOGRAPH</a>
+, <br />
+&#160;&#160;<a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea0c6e14e666d5287d56c54d26dccda925">TEXT_TOWN</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea666a4f647495aaaa1ff5b5ac75a6e291">TEXT_TOWN2</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea1fe5d77d4ccb79bc64cd0c85b52e5972">TEXT_TOWN3</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea8b1ad9eef8ff8fba1054c0624a845093">TEXT_TOWN4</a>
+, <br />
+&#160;&#160;<a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea368017a514fdaa58e7447356f8ac8947">TEXT_TOWN5</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea6f6eb56caf798889be28354952d8d852">TEXT_TOWN6</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea93174b5a84e137bd392eb0c9c9a87d23">TEXT_TOWN7</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea6bba3eab3515c28d1717e2d7e499fc54">TEXT_MILK</a>
+, <br />
+&#160;&#160;<a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466feaf6aa122054dae7cb5470c70b5bd99ea7">TEXT_BAKERY</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea171c50aff8644469ceef0a8b49ed4de9">TEXT_SIMON</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea9cfa0fa0e33ab10d9fe6692a7a225d95">TEXT_SCHOOL</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea3cc0143770cd5c7813e4cc3212eea2be">TEXT_TINGLE</a>
+, <br />
+&#160;&#160;<a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fead439bddba8dd139700136172e9413c10">TEXT_POST</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466feaba8e123047bf906849f1cc342e74a5ec">TEXT_MUTOH</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466feae8b691ba01e60959fe5995b4f5e9c689">TEXT_BURLOV</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466feae0bc731ef0094b68fd10f5706c0c8b9d">TEXT_CARLOV</a>
+, <br />
+&#160;&#160;<a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea70370ad7a72470d87963e7286bf6d965">TEXT_REM</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea699d94d74f1cf6e0a16b2f8b2d7cd116">TEXT_HAPPY_HEARTH</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466feae8f58917a99459c083c9829b39bc731f">TEXT_BLADE_MASTERS</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea4612726b3241a9138604bee5aec64028">TEXT_ANSWER_HOUSE</a>
+, <br />
+&#160;&#160;<a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea93d89d40065f5fcceb9eec3aced24368">TEXT_UNK_WISE</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea6d1a75217b849eee420c3dd1f7078cb5">TEXT_LIBRARY</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466feafec5b33e932f1263a59e61d684d02001">TEXT_TOWN_MINISH1</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea59651ea64aa7a1acdd15f3d881bce628">TEXT_TOWN_MINISH2</a>
+, <br />
+&#160;&#160;<a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fead3b848f6843c106a4f6b47fba96fa94b">TEXT_HAGEN</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466feade8e7be4aa6fd39650f5584bcbfea9d6">TEXT_DR_LEFT</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466feaf1fa3dc57d65e800565fc1b9fdc0e82f">TEXT_TOWN8</a>
+, <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fea69d0e3dd5adac1c3409e3334a1a05998">TEXT_CAFE</a>
+<br />
+ }</td></tr>
+<tr class="separator:a0669b10683a84cd84578ae44317466fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a8cc7110cb833c09c267d2063cdf63d8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="message_8h.html#a8cc7110cb833c09c267d2063cdf63d8c">MessageInitialize</a> (void)</td></tr>
@@ -162,6 +275,132 @@ Variables</h2></td></tr>
 <tr class="memitem:acade5b53673e3b11ce3e9bc0893cf176"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structTextRender.html">TextRender</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="message_8h.html#acade5b53673e3b11ce3e9bc0893cf176">gTextRender</a></td></tr>
 <tr class="separator:acade5b53673e3b11ce3e9bc0893cf176"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a629e36f41e24f12cafe9d8a3ea274de6" name="a629e36f41e24f12cafe9d8a3ea274de6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a629e36f41e24f12cafe9d8a3ea274de6">&#9670;&nbsp;</a></span>TEXT_INDEX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TEXT_INDEX</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">category, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><a class="el" href="vram_8c.html#afd715dc311d1a73bd24f87a7624e1bac">index</a>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;((category &lt;&lt; 8) | <a class="el" href="vram_8c.html#afd715dc311d1a73bd24f87a7624e1bac">index</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a0669b10683a84cd84578ae44317466fe" name="a0669b10683a84cd84578ae44317466fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0669b10683a84cd84578ae44317466fe">&#9670;&nbsp;</a></span>TextCategory</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="message_8h.html#a0669b10683a84cd84578ae44317466fe">TextCategory</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466feaf722b10606528e2c87adcbebb2011b47" name="a0669b10683a84cd84578ae44317466feaf722b10606528e2c87adcbebb2011b47"></a>TEXT_SAVE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea2309d33eec871dd9e34af94ddd9eb2ea" name="a0669b10683a84cd84578ae44317466fea2309d33eec871dd9e34af94ddd9eb2ea"></a>TEXT_CREDITS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466feaa65e313c615ee5698da8c516dd79f7c7" name="a0669b10683a84cd84578ae44317466feaa65e313c615ee5698da8c516dd79f7c7"></a>TEXT_NAMES&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea23c34d2052ec7c6682992c74e6c20b0d" name="a0669b10683a84cd84578ae44317466fea23c34d2052ec7c6682992c74e6c20b0d"></a>TEXT_NEWSLETTER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466feab0f199cd3b8558912a61b01cfe5cd959" name="a0669b10683a84cd84578ae44317466feab0f199cd3b8558912a61b01cfe5cd959"></a>TEXT_ITEMS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea5e6596637a73ca6b7d415a7eb08597b6" name="a0669b10683a84cd84578ae44317466fea5e6596637a73ca6b7d415a7eb08597b6"></a>TEXT_ITEM_GET&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466feac88cfc6a6a6d98962d9506046da1bc26" name="a0669b10683a84cd84578ae44317466feac88cfc6a6a6d98962d9506046da1bc26"></a>TEXT_LOCATIONS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea78965c03b6d370ee3e28cbcc2262988f" name="a0669b10683a84cd84578ae44317466fea78965c03b6d370ee3e28cbcc2262988f"></a>TEXT_WINDCRESTS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466feaa93b7bd2e6198e9de516fa16429953c4" name="a0669b10683a84cd84578ae44317466feaa93b7bd2e6198e9de516fa16429953c4"></a>TEXT_FIGURINE_NAMES&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466feaab14248a0214ce21ca2606f1ef661964" name="a0669b10683a84cd84578ae44317466feaab14248a0214ce21ca2606f1ef661964"></a>TEXT_FIGURINE_DESCRIPTIONS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea59117148675f91e18e24d796068c9b36" name="a0669b10683a84cd84578ae44317466fea59117148675f91e18e24d796068c9b36"></a>TEXT_EMPTY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea21f3cdbd6a6a71cf53f192a5a39014ac" name="a0669b10683a84cd84578ae44317466fea21f3cdbd6a6a71cf53f192a5a39014ac"></a>TEXT_EZLO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466feade0fac6c9c2ddbda72441fc65c0f61a8" name="a0669b10683a84cd84578ae44317466feade0fac6c9c2ddbda72441fc65c0f61a8"></a>TEXT_EZLO2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea8bf814cb5b22ff612bab1055030e375b" name="a0669b10683a84cd84578ae44317466fea8bf814cb5b22ff612bab1055030e375b"></a>TEXT_MINISH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea91eb4c9086b4a281b5afc2902f490078" name="a0669b10683a84cd84578ae44317466fea91eb4c9086b4a281b5afc2902f490078"></a>TEXT_KINSTONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466feabee60e788c56ca0a56b9e2ebed56c889" name="a0669b10683a84cd84578ae44317466feabee60e788c56ca0a56b9e2ebed56c889"></a>TEXT_PICORI&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea618be10cf970c582cddaa1baefd40cae" name="a0669b10683a84cd84578ae44317466fea618be10cf970c582cddaa1baefd40cae"></a>TEXT_PROLOGUE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea829ba01fd2bf2b1d852b727ea4de79ab" name="a0669b10683a84cd84578ae44317466fea829ba01fd2bf2b1d852b727ea4de79ab"></a>TEXT_FINDING_EZLO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466feab45f70a4b7ba687a1984699fd9ac2dba" name="a0669b10683a84cd84578ae44317466feab45f70a4b7ba687a1984699fd9ac2dba"></a>TEXT_MINISH2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea2fb4dace17ac8f6de3dd3a8d29711ada" name="a0669b10683a84cd84578ae44317466fea2fb4dace17ac8f6de3dd3a8d29711ada"></a>TEXT_VAATI&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466feade03f62b74a31bd0e36c2916428151e3" name="a0669b10683a84cd84578ae44317466feade03f62b74a31bd0e36c2916428151e3"></a>TEXT_GUSTAF&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466feae6839379356038b187d3a16c2d1e104b" name="a0669b10683a84cd84578ae44317466feae6839379356038b187d3a16c2d1e104b"></a>TEXT_PANEL_TUTORIAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea5045c3e45f7923b8638829d29ea5fd38" name="a0669b10683a84cd84578ae44317466fea5045c3e45f7923b8638829d29ea5fd38"></a>TEXT_VAATI2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466feaaa0184b4e27a13750dbf0c72f381a1aa" name="a0669b10683a84cd84578ae44317466feaaa0184b4e27a13750dbf0c72f381a1aa"></a>TEXT_GUSTAF2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466feab3bae5cd35530c153f4eeae3aafac1f7" name="a0669b10683a84cd84578ae44317466feab3bae5cd35530c153f4eeae3aafac1f7"></a>TEXT_EMPTY2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea113d7b2128bce5e69d14aaf7116f21c7" name="a0669b10683a84cd84578ae44317466fea113d7b2128bce5e69d14aaf7116f21c7"></a>TEXT_EMPTY3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466feaf7498475d9d585aba7881641773a6c51" name="a0669b10683a84cd84578ae44317466feaf7498475d9d585aba7881641773a6c51"></a>TEXT_FARMERS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466feaa66c25d032976bfada533f1ca90d1bd0" name="a0669b10683a84cd84578ae44317466feaa66c25d032976bfada533f1ca90d1bd0"></a>TEXT_CARPENTERS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466feaf6b2c1dc0cbd3c65d31f31c87c89e90f" name="a0669b10683a84cd84578ae44317466feaf6b2c1dc0cbd3c65d31f31c87c89e90f"></a>TEXT_EZLO_ELEMENTS_DONE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466feadb6d3d41061578ff58281cee0ca5bdf3" name="a0669b10683a84cd84578ae44317466feadb6d3d41061578ff58281cee0ca5bdf3"></a>TEXT_GORONS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea53454d70403eb2ad4880accdf2367f46" name="a0669b10683a84cd84578ae44317466fea53454d70403eb2ad4880accdf2367f46"></a>TEXT_EMPTY4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea9beb03bef944459f7ae2ff725b4e5bff" name="a0669b10683a84cd84578ae44317466fea9beb03bef944459f7ae2ff725b4e5bff"></a>TEXT_BELARI&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466feae325dcfe6d39f819ec128b2d5e825ade" name="a0669b10683a84cd84578ae44317466feae325dcfe6d39f819ec128b2d5e825ade"></a>TEXT_LON_LON&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466feaf97622884f90dc2b006cca64437b0737" name="a0669b10683a84cd84578ae44317466feaf97622884f90dc2b006cca64437b0737"></a>TEXT_FOREST_MINISH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea8e0d25d1ce1c88afa23ea4c2944443ff" name="a0669b10683a84cd84578ae44317466fea8e0d25d1ce1c88afa23ea4c2944443ff"></a>TEXT_EZLO_PORTAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea2ae6628e14d8a4e82f1b98482de27f4d" name="a0669b10683a84cd84578ae44317466fea2ae6628e14d8a4e82f1b98482de27f4d"></a>TEXT_PERCY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea5c3d6a5e4685c2bc8a476b70362b2a8d" name="a0669b10683a84cd84578ae44317466fea5c3d6a5e4685c2bc8a476b70362b2a8d"></a>TEXT_BREAK_VAATI_CURSE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea1f242ef74d37a8700f2f67addedf31b3" name="a0669b10683a84cd84578ae44317466fea1f242ef74d37a8700f2f67addedf31b3"></a>TEXT_FESTIVAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea2c107081e4607780944fbdb44c499ddf" name="a0669b10683a84cd84578ae44317466fea2c107081e4607780944fbdb44c499ddf"></a>TEXT_EMPTY5&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466feae82602034adebf1ff7ee2d6dfa26f57d" name="a0669b10683a84cd84578ae44317466feae82602034adebf1ff7ee2d6dfa26f57d"></a>TEXT_TREASURE_GUARDIAN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea6c29d8bd3bdf53870dcb90c34c5b269d" name="a0669b10683a84cd84578ae44317466fea6c29d8bd3bdf53870dcb90c34c5b269d"></a>TEXT_DAMPE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466feaf331a78cb44a3bf38c1ce03458fde17b" name="a0669b10683a84cd84578ae44317466feaf331a78cb44a3bf38c1ce03458fde17b"></a>TEXT_BUSINESS_SCRUB&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea8044755a56606f85d96ca251aac20fe1" name="a0669b10683a84cd84578ae44317466fea8044755a56606f85d96ca251aac20fe1"></a>TEXT_EMPTY6&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea31392fac06b2d8b0aefab335946259c6" name="a0669b10683a84cd84578ae44317466fea31392fac06b2d8b0aefab335946259c6"></a>TEXT_PICOLYTE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea5793a442e39cb9fd2dd889171e113192" name="a0669b10683a84cd84578ae44317466fea5793a442e39cb9fd2dd889171e113192"></a>TEXT_STOCKWELL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea7992a37bfb232314b89b2c94633033c9" name="a0669b10683a84cd84578ae44317466fea7992a37bfb232314b89b2c94633033c9"></a>TEXT_SYRUP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea1499974a37266132bf31f2a45e196e1d" name="a0669b10683a84cd84578ae44317466fea1499974a37266132bf31f2a45e196e1d"></a>TEXT_ITEM_PRICES&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea2d5db60f9b4ca60a8084cf4e79bdaf01" name="a0669b10683a84cd84578ae44317466fea2d5db60f9b4ca60a8084cf4e79bdaf01"></a>TEXT_WIND_TRIBE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea42195e11fd3acc8a47ac7e073030ea6c" name="a0669b10683a84cd84578ae44317466fea42195e11fd3acc8a47ac7e073030ea6c"></a>TEXT_ANJU&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea8c47f8186ddb312d468888ed0f11c3ce" name="a0669b10683a84cd84578ae44317466fea8c47f8186ddb312d468888ed0f11c3ce"></a>TEXT_GORMAN_ORACLES&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466feaf847627dee44d304074b84bd399bd756" name="a0669b10683a84cd84578ae44317466feaf847627dee44d304074b84bd399bd756"></a>TEXT_SMITH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea4da5d1fff21a9a239d3e2e02757abf60" name="a0669b10683a84cd84578ae44317466fea4da5d1fff21a9a239d3e2e02757abf60"></a>TEXT_PHONOGRAPH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea0c6e14e666d5287d56c54d26dccda925" name="a0669b10683a84cd84578ae44317466fea0c6e14e666d5287d56c54d26dccda925"></a>TEXT_TOWN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea666a4f647495aaaa1ff5b5ac75a6e291" name="a0669b10683a84cd84578ae44317466fea666a4f647495aaaa1ff5b5ac75a6e291"></a>TEXT_TOWN2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea1fe5d77d4ccb79bc64cd0c85b52e5972" name="a0669b10683a84cd84578ae44317466fea1fe5d77d4ccb79bc64cd0c85b52e5972"></a>TEXT_TOWN3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea8b1ad9eef8ff8fba1054c0624a845093" name="a0669b10683a84cd84578ae44317466fea8b1ad9eef8ff8fba1054c0624a845093"></a>TEXT_TOWN4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea368017a514fdaa58e7447356f8ac8947" name="a0669b10683a84cd84578ae44317466fea368017a514fdaa58e7447356f8ac8947"></a>TEXT_TOWN5&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea6f6eb56caf798889be28354952d8d852" name="a0669b10683a84cd84578ae44317466fea6f6eb56caf798889be28354952d8d852"></a>TEXT_TOWN6&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea93174b5a84e137bd392eb0c9c9a87d23" name="a0669b10683a84cd84578ae44317466fea93174b5a84e137bd392eb0c9c9a87d23"></a>TEXT_TOWN7&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea6bba3eab3515c28d1717e2d7e499fc54" name="a0669b10683a84cd84578ae44317466fea6bba3eab3515c28d1717e2d7e499fc54"></a>TEXT_MILK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466feaf6aa122054dae7cb5470c70b5bd99ea7" name="a0669b10683a84cd84578ae44317466feaf6aa122054dae7cb5470c70b5bd99ea7"></a>TEXT_BAKERY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea171c50aff8644469ceef0a8b49ed4de9" name="a0669b10683a84cd84578ae44317466fea171c50aff8644469ceef0a8b49ed4de9"></a>TEXT_SIMON&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea9cfa0fa0e33ab10d9fe6692a7a225d95" name="a0669b10683a84cd84578ae44317466fea9cfa0fa0e33ab10d9fe6692a7a225d95"></a>TEXT_SCHOOL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea3cc0143770cd5c7813e4cc3212eea2be" name="a0669b10683a84cd84578ae44317466fea3cc0143770cd5c7813e4cc3212eea2be"></a>TEXT_TINGLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fead439bddba8dd139700136172e9413c10" name="a0669b10683a84cd84578ae44317466fead439bddba8dd139700136172e9413c10"></a>TEXT_POST&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466feaba8e123047bf906849f1cc342e74a5ec" name="a0669b10683a84cd84578ae44317466feaba8e123047bf906849f1cc342e74a5ec"></a>TEXT_MUTOH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466feae8b691ba01e60959fe5995b4f5e9c689" name="a0669b10683a84cd84578ae44317466feae8b691ba01e60959fe5995b4f5e9c689"></a>TEXT_BURLOV&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466feae0bc731ef0094b68fd10f5706c0c8b9d" name="a0669b10683a84cd84578ae44317466feae0bc731ef0094b68fd10f5706c0c8b9d"></a>TEXT_CARLOV&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea70370ad7a72470d87963e7286bf6d965" name="a0669b10683a84cd84578ae44317466fea70370ad7a72470d87963e7286bf6d965"></a>TEXT_REM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea699d94d74f1cf6e0a16b2f8b2d7cd116" name="a0669b10683a84cd84578ae44317466fea699d94d74f1cf6e0a16b2f8b2d7cd116"></a>TEXT_HAPPY_HEARTH&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466feae8f58917a99459c083c9829b39bc731f" name="a0669b10683a84cd84578ae44317466feae8f58917a99459c083c9829b39bc731f"></a>TEXT_BLADE_MASTERS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea4612726b3241a9138604bee5aec64028" name="a0669b10683a84cd84578ae44317466fea4612726b3241a9138604bee5aec64028"></a>TEXT_ANSWER_HOUSE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea93d89d40065f5fcceb9eec3aced24368" name="a0669b10683a84cd84578ae44317466fea93d89d40065f5fcceb9eec3aced24368"></a>TEXT_UNK_WISE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea6d1a75217b849eee420c3dd1f7078cb5" name="a0669b10683a84cd84578ae44317466fea6d1a75217b849eee420c3dd1f7078cb5"></a>TEXT_LIBRARY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466feafec5b33e932f1263a59e61d684d02001" name="a0669b10683a84cd84578ae44317466feafec5b33e932f1263a59e61d684d02001"></a>TEXT_TOWN_MINISH1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea59651ea64aa7a1acdd15f3d881bce628" name="a0669b10683a84cd84578ae44317466fea59651ea64aa7a1acdd15f3d881bce628"></a>TEXT_TOWN_MINISH2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fead3b848f6843c106a4f6b47fba96fa94b" name="a0669b10683a84cd84578ae44317466fead3b848f6843c106a4f6b47fba96fa94b"></a>TEXT_HAGEN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466feade8e7be4aa6fd39650f5584bcbfea9d6" name="a0669b10683a84cd84578ae44317466feade8e7be4aa6fd39650f5584bcbfea9d6"></a>TEXT_DR_LEFT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466feaf1fa3dc57d65e800565fc1b9fdc0e82f" name="a0669b10683a84cd84578ae44317466feaf1fa3dc57d65e800565fc1b9fdc0e82f"></a>TEXT_TOWN8&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0669b10683a84cd84578ae44317466fea69d0e3dd5adac1c3409e3334a1a05998" name="a0669b10683a84cd84578ae44317466fea69d0e3dd5adac1c3409e3334a1a05998"></a>TEXT_CAFE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ac5c362422e9c75fd940796225aff4410" name="ac5c362422e9c75fd940796225aff4410"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac5c362422e9c75fd940796225aff4410">&#9670;&nbsp;</a></span>DispMessageFrame()</h2>
