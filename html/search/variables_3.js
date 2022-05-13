@@ -37,7 +37,7 @@ var searchData=
   ['collisionflags_34',['collisionFlags',['../structEntity.html#ae6ce8379a3e20615dbd5267d288bb8e8',1,'Entity']]],
   ['collisionlayer_35',['collisionLayer',['../structSpawnData.html#a8fa00d2a529b5a6cf324525d0fd21b5a',1,'SpawnData::collisionLayer()'],['../structLavaPlatformEntry.html#a954eb781b675cea8e470dbe67a0095e1',1,'LavaPlatformEntry::collisionLayer()'],['../beanstalkSubtask_8c.html#ae172afd2c6d6fae92df1db80056f8c56',1,'collisionLayer():&#160;beanstalkSubtask.c'],['../structEntity.html#a4c0007e59ce35c8ba0ae9d12326bc2ea',1,'Entity::collisionLayer()']]],
   ['collisions_36',['collisions',['../structEntity.html#a09217c06e669a56e4df092efd6076522',1,'Entity']]],
-  ['collisiontype_37',['collisionType',['../movement_8c.html#a3e43cc08c338ced17c3c5e2977e99e45',1,'movement.c']]],
+  ['collisiontype_37',['collisionType',['../movement_8c.html#af4ba42dd6678bd5f70ee21e80d3ca723',1,'movement.c']]],
   ['color_38',['color',['../structFadeControl.html#aa098950699a9e1c3960c7e1d4263571f',1,'FadeControl']]],
   ['column_5fidx_39',['column_idx',['../structMenu.html#ae31097650843f8656bb39c574331f371',1,'Menu']]],
   ['commandindex_40',['commandIndex',['../structActiveScriptInfo.html#ad0599332293a4a57ea515a5963611c05',1,'ActiveScriptInfo']]],

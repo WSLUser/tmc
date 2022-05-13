@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['b_0',['b',['../structPlttData.html#a1434dbe5bea19d13a406011d57a1ee80',1,'PlttData::b()'],['../structEntity.html#aa7c875c8fa6883ccadf350e390b2d12e',1,'Entity::b()'],['../structPACKED.html#ae224deb3446dd600e5fc503529845038',1,'PACKED::b()'],['../structPACKED.html#ae10ac5c2f7d31acdaaefdfdecb3f7ea8',1,'PACKED::b()'],['../structDialog.html#a7651772989ef2bbf5d791d250cc63567',1,'Dialog::b()'],['../structManager6WarpData.html#a017b640c6297f89aafb7b5d71860904c',1,'Manager6WarpData::b()']]],
+  ['b_0',['b',['../structPlttData.html#a1434dbe5bea19d13a406011d57a1ee80',1,'PlttData::b()'],['../structEntity.html#a79f46291d19ac5e9070e21a555500e8b',1,'Entity::b()'],['../structPACKED.html#ae10ac5c2f7d31acdaaefdfdecb3f7ea8',1,'PACKED::b()'],['../structPACKED.html#aeef15d6868568187a41a535d6176f642',1,'PACKED::b()'],['../structDialog.html#a7651772989ef2bbf5d791d250cc63567',1,'Dialog::b()'],['../structManager6WarpData.html#a3db60dc7044a39d7d39475e1ad7c7d16',1,'Manager6WarpData::b()']]],
   ['b0_1',['b0',['../structPACKED.html#ad8221ade6b384641f6039c5c3131beed',1,'PACKED::b0()'],['../structEntity.html#ac4770aed12cfaaeefe03a97a798318a2',1,'Entity::b0()'],['../structEntity.html#ae8d3933ecef142206c40639a5ba289f2',1,'Entity::b0()']]],
   ['b1_2',['b1',['../structPACKED.html#a8c7df12d743c0f3d55674002b950b858',1,'PACKED::b1()'],['../structEntity.html#a7443a2926fc189ed0f7111f6a4006b78',1,'Entity::b1()'],['../structTextRender.html#a853ae62437da9e86349900fbc17440db',1,'TextRender::b1()']]],
   ['b2_3',['b2',['../structPACKED.html#a0eedd0346e2528a8d5cf6c63ca6dcfa4',1,'PACKED::b2()'],['../structEntity.html#a369872e1b182bcc26ac46e6e1b35ccd9',1,'Entity::b2()'],['../structTextRender.html#a362bf32643971ffd454781c5cbfb36f3',1,'TextRender::b2()']]],
@@ -94,7 +94,7 @@ var searchData=
   ['bigpushablelever_5factions_91',['BigPushableLever_Actions',['../bigPushableLever_8c.html#a43f11578660fd30252de0b60a76621b4',1,'bigPushableLever.c']]],
   ['bigpushablelever_5finitialoffsets_92',['BigPushableLever_InitialOffsets',['../bigPushableLever_8c.html#ab461742f74f96a6c9bdd2127edf70c54',1,'bigPushableLever.c']]],
   ['bigpushablelever_5fpushedoffsets_93',['BigPushableLever_PushedOffsets',['../bigPushableLever_8c.html#a3ceb05790e9370bb7d7fb1145b00a885',1,'bigPushableLever.c']]],
-  ['bitfield_94',['bitfield',['../structObjectDefinition.html#a3793dd176de2cffdc7177d41368bc55b',1,'ObjectDefinition::bitfield()'],['../structSpriteDataC.html#a3a47300d8a549047738e084e12eb71b8',1,'SpriteDataC::bitfield()'],['../structNPCDefinition.html#a7e5a38ef239e3dd57fac95681adc205f',1,'NPCDefinition::bitfield()'],['../structPlayerItemDefinition.html#a41a09cb0f7cd6e5531f3e436775e182a',1,'PlayerItemDefinition::bitfield()'],['../structManager13.html#a04a82da763892ae673cb7a507ab95898',1,'Manager13::bitfield()']]],
+  ['bitfield_94',['bitfield',['../structObjectDefinition.html#a8c5094caa92d31cc3ba1ca20c0a5c3a8',1,'ObjectDefinition::bitfield()'],['../structSpriteDataC.html#a3a47300d8a549047738e084e12eb71b8',1,'SpriteDataC::bitfield()'],['../structNPCDefinition.html#a9c20752a420c0d19a6ce2ffb27dafd58',1,'NPCDefinition::bitfield()'],['../structPlayerItemDefinition.html#a41a09cb0f7cd6e5531f3e436775e182a',1,'PlayerItemDefinition::bitfield()'],['../structManager13.html#a04a82da763892ae673cb7a507ab95898',1,'Manager13::bitfield()']]],
   ['bits_95',['bits',['../structObj11.html#a733922a361623eb29d690a3381555953',1,'Obj11']]],
   ['blockcount_96',['blockCount',['../structSongHeader.html#a63a6f5daeabdd0b7daddd9708dfa05d1',1,'SongHeader']]],
   ['bobomb_5ffunctions_97',['Bobomb_Functions',['../bobomb_8c.html#a3084c089e02599f573369af9247b1fc5',1,'bobomb.c']]],
@@ -127,6 +127,6 @@ var searchData=
   ['byte1_124',['byte1',['../unionSplitWord.html#af11d0b1c275fbfe088fe00092ce0f5b9',1,'SplitWord']]],
   ['byte2_125',['byte2',['../unionSplitWord.html#a0e3a4d08fd7efb183686017700e291f0',1,'SplitWord']]],
   ['byte3_126',['byte3',['../unionSplitWord.html#ac6f8877b963f4ed29d53e0e8822a9d27',1,'SplitWord']]],
-  ['bytes_127',['bytes',['../structGfxItem.html#aafdfb418d33590bf37e1d9831ed74a78',1,'GfxItem::bytes()'],['../structTextRender.html#a36be4e3403bda83985320f32b2dc3d5b',1,'TextRender::bytes()']]],
-  ['bytes_128',['BYTES',['../unionSplitWord.html#a074cc699c6f6ced987ed63eed8b2b893',1,'SplitWord']]]
+  ['bytes_127',['bytes',['../structGfxItem.html#aafdfb418d33590bf37e1d9831ed74a78',1,'GfxItem::bytes()'],['../structTextRender.html#a72c229158f14f283a365ed655d28d3bf',1,'TextRender::bytes()']]],
+  ['bytes_128',['BYTES',['../unionSplitWord.html#ae0513e47271fe56b6c18e2cec539926e',1,'SplitWord']]]
 ];

@@ -1,5 +1,6 @@
 <map id="Area" name="Area">
-<area shape="rect" id="node1" title=" " alt="" coords="31,213,81,240"/>
-<area shape="rect" id="node2" href="$structRoomResInfo.html" title=" " alt="" coords="5,95,107,121"/>
-<area shape="rect" id="node3" href="$structTransition.html" title=" " alt="" coords="17,5,95,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="69,213,119,240"/>
+<area shape="rect" id="node2" href="$structstruct__area__28.html" title=" " alt="" coords="5,95,113,121"/>
+<area shape="rect" id="node3" href="$structRoomResInfo.html" title=" " alt="" coords="138,95,239,121"/>
+<area shape="rect" id="node4" href="$structTransition.html" title=" " alt="" coords="149,5,228,32"/>
 </map>
