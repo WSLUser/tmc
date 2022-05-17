@@ -1,0 +1,15 @@
+<map id="include/droptables.h" name="include/droptables.h">
+<area shape="rect" id="node1" title=" " alt="" coords="98,5,235,32"/>
+<area shape="rect" id="node2" href="$global_8h.html" title=" " alt="" coords="133,80,200,107"/>
+<area shape="rect" id="node3" href="$gba_8h.html" title=" " alt="" coords="257,155,335,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,229,69,256"/>
+<area shape="rect" id="node5" href="$defines_8h.html" title=" " alt="" coords="94,229,167,256"/>
+<area shape="rect" id="node7" href="$io__reg_8h.html" title=" " alt="" coords="192,229,259,256"/>
+<area shape="rect" id="node8" href="$types_8h.html" title=" " alt="" coords="349,304,411,331"/>
+<area shape="rect" id="node10" href="$multi__boot_8h.html" title=" " alt="" coords="334,229,426,256"/>
+<area shape="rect" id="node11" href="$syscall_8h.html" title=" " alt="" coords="451,229,523,256"/>
+<area shape="rect" id="node12" href="$macro_8h.html" title=" " alt="" coords="547,229,615,256"/>
+<area shape="rect" id="node13" href="$isagbprint_8h.html" title=" " alt="" coords="640,229,728,256"/>
+<area shape="rect" id="node6" title=" " alt="" coords="97,304,165,331"/>
+<area shape="rect" id="node9" title=" " alt="" coords="348,379,412,405"/>
+</map>

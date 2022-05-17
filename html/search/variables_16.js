@@ -41,7 +41,7 @@ var searchData=
   ['vars_38',['vars',['../structObject6AEntityType15.html#a53133804641ac96c1e2c03b09c123b07',1,'Object6AEntityType15']]],
   ['vel_5fx_39',['vel_x',['../structPlayerState.html#a088d5e9036a1a3cd1d8da910cab97435',1,'PlayerState']]],
   ['vel_5fy_40',['vel_y',['../structPlayerState.html#a3d9d7c58b6a453a3dc4a3473308152f4',1,'PlayerState']]],
-  ['velocity_41',['velocity',['../structCgbChannel.html#ab5088ea20155363302466d249bcddd79',1,'CgbChannel::velocity()'],['../structSoundChannel.html#afc336704ef710c650ccfb53015616d27',1,'SoundChannel::velocity()'],['../structMusicPlayerTrack.html#a7565f1349956bc8aff0a8f99d6f3ecd4',1,'MusicPlayerTrack::velocity()']]],
+  ['velocity_41',['velocity',['../structSoundChannel.html#afc336704ef710c650ccfb53015616d27',1,'SoundChannel::velocity()'],['../structMusicPlayerTrack.html#a7565f1349956bc8aff0a8f99d6f3ecd4',1,'MusicPlayerTrack::velocity()'],['../structCgbChannel.html#ab5088ea20155363302466d249bcddd79',1,'CgbChannel::velocity()']]],
   ['vflip_42',['vFlip',['../structPACKED.html#a5f9537e0b10cf5e227be306cb973c67d',1,'PACKED']]],
   ['vol_43',['vol',['../structMusicPlayerTrack.html#a26486978372bff054f2ecdaacc7b4f46',1,'MusicPlayerTrack']]],
   ['volml_44',['volML',['../structMusicPlayerTrack.html#ae5c7e0dd7e67dd7572cecf8c5324c948',1,'MusicPlayerTrack']]],

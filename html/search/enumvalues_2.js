@@ -26,7 +26,7 @@ var searchData=
   ['clothes_5frack_23',['CLOTHES_RACK',['../npc_8h.html#ab86484a9fbeb0e4494cb75cadb5f4cf3af5f9c046164392406fbf5a8dfac8d55f',1,'npc.h']]],
   ['cloud_24',['CLOUD',['../object_8h.html#a0b29a1e1c76a85a0dbaa7c34a9d2874aa8557c95af3cc59c931d6d130dd2f42a4',1,'object.h']]],
   ['cloud_5fpiranha_25',['CLOUD_PIRANHA',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba13a627f6153e4469de4f03106ef7c6cd',1,'enemy.h']]],
-  ['cloudless_26',['CLOUDLESS',['../lakitu_8c.html#abc6126af1d45847bc59afa0aa3216b04a41ea8cd31160852486263ab0603917c5',1,'lakitu.c']]],
+  ['cloudless_26',['CLOUDLESS',['../lakitu_8c.html#ac205be2172292384dd687b5471a87edda41ea8cd31160852486263ab0603917c5',1,'lakitu.c']]],
   ['col_5feast_5fany_27',['COL_EAST_ANY',['../collision_8h.html#ac229809d578f8efa7f10bcceb8ed23b8a211f7841ba0aa470141c153d807f56d1',1,'collision.h']]],
   ['col_5feast_5ffull_28',['COL_EAST_FULL',['../collision_8h.html#ac229809d578f8efa7f10bcceb8ed23b8a698be568fc9f9ec433639004397fada8',1,'collision.h']]],
   ['col_5feast_5fnorth_29',['COL_EAST_NORTH',['../collision_8h.html#ac229809d578f8efa7f10bcceb8ed23b8a8eb1694be13c62e8f13d01ff0a11ccda',1,'collision.h']]],

@@ -1,6 +1,6 @@
 <map id="src/projectile/moblinSpear.c" name="src/projectile/moblinSpear.c">
 <area shape="rect" id="node1" title=" " alt="" coords="409,5,592,32"/>
-<area shape="rect" id="node2" href="$entity_8h.html" title=" " alt="" coords="396,229,458,256"/>
+<area shape="rect" id="node2" href="$entity_8h.html" title=" " alt="" coords="376,229,438,256"/>
 <area shape="rect" id="node17" href="$enemy_8h.html" title=" " alt="" coords="160,80,230,107"/>
 <area shape="rect" id="node24" href="$physics_8h.html" title=" " alt="" coords="538,155,614,181"/>
 <area shape="rect" id="node3" href="$global_8h.html" title=" " alt="" coords="218,379,284,405"/>
@@ -19,8 +19,8 @@
 <area shape="rect" id="node10" title=" " alt="" coords="347,677,411,704"/>
 <area shape="rect" id="node18" href="$asm_8h.html" title=" " alt="" coords="37,304,94,331"/>
 <area shape="rect" id="node19" href="$sound_8h.html" title=" " alt="" coords="80,229,147,256"/>
-<area shape="rect" id="node20" href="$effects_8h.html" title=" " alt="" coords="392,155,462,181"/>
+<area shape="rect" id="node20" href="$effects_8h.html" title=" " alt="" coords="284,155,354,181"/>
 <area shape="rect" id="node21" href="$flags_8h.html" title=" " alt="" coords="171,229,230,256"/>
 <area shape="rect" id="node22" href="$common_8h.html" title=" " alt="" coords="254,229,336,256"/>
-<area shape="rect" id="node23" href="$projectile_8h.html" title=" " alt="" coords="284,155,368,181"/>
+<area shape="rect" id="node23" href="$projectile_8h.html" title=" " alt="" coords="378,155,462,181"/>
 </map>
