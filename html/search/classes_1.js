@@ -18,8 +18,10 @@ var searchData=
   ['blockpushedentity_15',['BlockPushedEntity',['../structBlockPushedEntity.html',1,'']]],
   ['boardentity_16',['BoardEntity',['../structBoardEntity.html',1,'']]],
   ['bollardentity_17',['BollardEntity',['../structBollardEntity.html',1,'']]],
-  ['bombarossaentity_18',['BombarossaEntity',['../structBombarossaEntity.html',1,'']]],
-  ['bossdoorentity_19',['BossDoorEntity',['../structBossDoorEntity.html',1,'']]],
-  ['bowmoblinentity_20',['BowMoblinEntity',['../structBowMoblinEntity.html',1,'']]],
-  ['businessscrubprologueentity_21',['BusinessScrubPrologueEntity',['../structBusinessScrubPrologueEntity.html',1,'']]]
+  ['bombablewallmanager_18',['BombableWallManager',['../structBombableWallManager.html',1,'']]],
+  ['bombarossaentity_19',['BombarossaEntity',['../structBombarossaEntity.html',1,'']]],
+  ['bossdoorentity_20',['BossDoorEntity',['../structBossDoorEntity.html',1,'']]],
+  ['bowmoblinentity_21',['BowMoblinEntity',['../structBowMoblinEntity.html',1,'']]],
+  ['bridgemanager_22',['BridgeManager',['../structBridgeManager.html',1,'']]],
+  ['businessscrubprologueentity_23',['BusinessScrubPrologueEntity',['../structBusinessScrubPrologueEntity.html',1,'']]]
 ];

@@ -1,8 +1,0 @@
-<map id="Manager28" name="Manager28">
-<area shape="rect" id="node1" title=" " alt="" coords="71,348,158,375"/>
-<area shape="rect" id="node2" href="$structManager.html" title=" " alt="" coords="5,250,77,277"/>
-<area shape="rect" id="node3" href="$structEntity.html" title="Container for instantiable behavior." alt="" coords="163,250,218,277"/>
-<area shape="rect" id="node4" href="$unionSplitWord.html" title=" " alt="" coords="58,5,137,32"/>
-<area shape="rect" id="node5" href="$structHitbox.html" title="Hitbox structure." alt="" coords="161,5,220,32"/>
-<area shape="rect" id="node6" href="$unionSplitHWord.html" title=" " alt="" coords="244,5,332,32"/>
-</map>

@@ -1,0 +1,22 @@
+<map id="src/manager/floatingPlatformManager.c" name="src/manager/floatingPlatformManager.c">
+<area shape="rect" id="node1" title="Spawns lists of floating platforms together." alt="" coords="116,5,304,47"/>
+<area shape="rect" id="node2" href="$floatingPlatformManager_8h.html" title=" " alt="" coords="5,95,172,136"/>
+<area shape="rect" id="node16" href="$entity_8h.html" title=" " alt="" coords="167,259,229,285"/>
+<area shape="rect" id="node19" href="$room_8h.html" title=" " alt="" coords="290,184,351,211"/>
+<area shape="rect" id="node3" href="$manager_8h.html" title=" " alt="" coords="47,184,130,211"/>
+<area shape="rect" id="node4" href="$global_8h.html" title=" " alt="" coords="185,408,251,435"/>
+<area shape="rect" id="node5" href="$gba_8h.html" title=" " alt="" coords="308,483,387,509"/>
+<area shape="rect" id="node6" title=" " alt="" coords="57,557,121,584"/>
+<area shape="rect" id="node7" href="$defines_8h.html" title=" " alt="" coords="145,557,219,584"/>
+<area shape="rect" id="node9" href="$io__reg_8h.html" title=" " alt="" coords="243,557,310,584"/>
+<area shape="rect" id="node10" href="$types_8h.html" title=" " alt="" coords="400,632,463,659"/>
+<area shape="rect" id="node12" href="$multi__boot_8h.html" title=" " alt="" coords="385,557,477,584"/>
+<area shape="rect" id="node13" href="$syscall_8h.html" title=" " alt="" coords="502,557,574,584"/>
+<area shape="rect" id="node14" href="$macro_8h.html" title=" " alt="" coords="599,557,667,584"/>
+<area shape="rect" id="node15" href="$isagbprint_8h.html" title=" " alt="" coords="691,557,779,584"/>
+<area shape="rect" id="node8" title=" " alt="" coords="148,632,216,659"/>
+<area shape="rect" id="node11" title=" " alt="" coords="399,707,463,733"/>
+<area shape="rect" id="node17" href="$color_8h.html" title=" " alt="" coords="145,333,205,360"/>
+<area shape="rect" id="node18" href="$sprite_8h.html" title=" " alt="" coords="230,333,294,360"/>
+<area shape="rect" id="node20" href="$droptables_8h.html" title=" " alt="" coords="369,259,461,285"/>
+</map>

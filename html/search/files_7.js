@@ -6,7 +6,17 @@ var searchData=
   ['hiddenladderdown_2ec_3',['hiddenLadderDown.c',['../hiddenLadderDown_8c.html',1,'']]],
   ['hitbox_2eh_4',['hitbox.h',['../hitbox_8h.html',1,'']]],
   ['hittablelever_2ec_5',['hittableLever.c',['../hittableLever_8c.html',1,'']]],
-  ['housedoorexterior_2ec_6',['houseDoorExterior.c',['../houseDoorExterior_8c.html',1,'']]],
-  ['housedoorinterior_2ec_7',['houseDoorInterior.c',['../houseDoorInterior_8c.html',1,'']]],
-  ['hurdygurdyman_2ec_8',['hurdyGurdyMan.c',['../hurdyGurdyMan_8c.html',1,'']]]
+  ['holemanager_2ec_6',['holeManager.c',['../holeManager_8c.html',1,'']]],
+  ['holemanager_2eh_7',['holeManager.h',['../holeManager_8h.html',1,'']]],
+  ['horizontalminishpathbackgroundmanager_2ec_8',['horizontalMinishPathBackgroundManager.c',['../horizontalMinishPathBackgroundManager_8c.html',1,'']]],
+  ['horizontalminishpathbackgroundmanager_2eh_9',['horizontalMinishPathBackgroundManager.h',['../horizontalMinishPathBackgroundManager_8h.html',1,'']]],
+  ['housedoorexterior_2ec_10',['houseDoorExterior.c',['../houseDoorExterior_8c.html',1,'']]],
+  ['housedoorinterior_2ec_11',['houseDoorInterior.c',['../houseDoorInterior_8c.html',1,'']]],
+  ['housesignmanager_2ec_12',['houseSignManager.c',['../houseSignManager_8c.html',1,'']]],
+  ['housesignmanager_2eh_13',['houseSignManager.h',['../houseSignManager_8h.html',1,'']]],
+  ['hurdygurdyman_2ec_14',['hurdyGurdyMan.c',['../hurdyGurdyMan_8c.html',1,'']]],
+  ['hyruletownbellmanager_2ec_15',['hyruleTownBellManager.c',['../hyruleTownBellManager_8c.html',1,'']]],
+  ['hyruletownbellmanager_2eh_16',['hyruleTownBellManager.h',['../hyruleTownBellManager_8h.html',1,'']]],
+  ['hyruletowntilesetmanager_2ec_17',['hyruleTownTilesetManager.c',['../hyruleTownTilesetManager_8c.html',1,'']]],
+  ['hyruletowntilesetmanager_2eh_18',['hyruleTownTilesetManager.h',['../hyruleTownTilesetManager_8h.html',1,'']]]
 ];

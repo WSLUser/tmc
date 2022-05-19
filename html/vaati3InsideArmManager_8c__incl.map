@@ -1,0 +1,31 @@
+<map id="src/manager/vaati3InsideArmManager.c" name="src/manager/vaati3InsideArmManager.c">
+<area shape="rect" id="node1" title="Manages the inside of the arms of Vaati3." alt="" coords="339,5,507,47"/>
+<area shape="rect" id="node2" href="$vaati3InsideArmManager_8h.html" title=" " alt="" coords="36,95,266,121"/>
+<area shape="rect" id="node19" href="$functions_8h.html" title=" " alt="" coords="340,95,426,121"/>
+<area shape="rect" id="node24" href="$structures_8h.html" title=" " alt="" coords="496,169,587,196"/>
+<area shape="rect" id="node29" href="$sound_8h.html" title=" " alt="" coords="680,95,747,121"/>
+<area shape="rect" id="node3" href="$manager_8h.html" title=" " alt="" coords="35,169,118,196"/>
+<area shape="rect" id="node4" href="$global_8h.html" title=" " alt="" coords="412,468,479,495"/>
+<area shape="rect" id="node16" href="$entity_8h.html" title=" " alt="" coords="320,319,382,345"/>
+<area shape="rect" id="node5" href="$gba_8h.html" title=" " alt="" coords="534,543,613,569"/>
+<area shape="rect" id="node6" title=" " alt="" coords="286,617,350,644"/>
+<area shape="rect" id="node7" href="$defines_8h.html" title=" " alt="" coords="933,617,1006,644"/>
+<area shape="rect" id="node9" href="$io__reg_8h.html" title=" " alt="" coords="374,617,440,644"/>
+<area shape="rect" id="node10" href="$types_8h.html" title=" " alt="" coords="542,692,605,719"/>
+<area shape="rect" id="node12" href="$multi__boot_8h.html" title=" " alt="" coords="612,617,704,644"/>
+<area shape="rect" id="node13" href="$syscall_8h.html" title=" " alt="" coords="464,617,536,644"/>
+<area shape="rect" id="node14" href="$macro_8h.html" title=" " alt="" coords="728,617,796,644"/>
+<area shape="rect" id="node15" href="$isagbprint_8h.html" title=" " alt="" coords="820,617,908,644"/>
+<area shape="rect" id="node8" title=" " alt="" coords="936,692,1004,719"/>
+<area shape="rect" id="node11" title=" " alt="" coords="542,767,606,793"/>
+<area shape="rect" id="node17" href="$color_8h.html" title=" " alt="" coords="382,393,442,420"/>
+<area shape="rect" id="node18" href="$sprite_8h.html" title=" " alt="" coords="243,393,307,420"/>
+<area shape="rect" id="node20" href="$physics_8h.html" title=" " alt="" coords="396,244,472,271"/>
+<area shape="rect" id="node21" href="$player_8h.html" title=" " alt="" coords="547,244,614,271"/>
+<area shape="rect" id="node22" href="$room_8h.html" title=" " alt="" coords="107,244,168,271"/>
+<area shape="rect" id="node25" href="$script_8h.html" title=" " alt="" coords="256,169,320,196"/>
+<area shape="rect" id="node26" href="$map_8h.html" title=" " alt="" coords="638,244,696,271"/>
+<area shape="rect" id="node23" href="$droptables_8h.html" title=" " alt="" coords="25,319,117,345"/>
+<area shape="rect" id="node27" href="$screen_8h.html" title=" " alt="" coords="606,319,677,345"/>
+<area shape="rect" id="node28" href="$fade_8h.html" title=" " alt="" coords="569,393,626,420"/>
+</map>

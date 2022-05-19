@@ -4,10 +4,16 @@ var searchData=
   ['affine_2ec_1',['affine.c',['../affine_8c.html',1,'']]],
   ['ambientclouds_2ec_2',['ambientClouds.c',['../ambientClouds_8c.html',1,'']]],
   ['angrystatue_2ec_3',['angryStatue.c',['../angryStatue_8c.html',1,'']]],
-  ['anju_2ec_4',['anju.c',['../anju_8c.html',1,'']]],
-  ['archway_2ec_5',['archway.c',['../archway_8c.html',1,'']]],
-  ['area_2eh_6',['area.h',['../area_8h.html',1,'']]],
-  ['armos_2ec_7',['armos.c',['../armos_8c.html',1,'']]],
-  ['arrowprojectile_2ec_8',['arrowProjectile.c',['../arrowProjectile_8c.html',1,'']]],
-  ['asm_2eh_9',['asm.h',['../asm_8h.html',1,'']]]
+  ['angrystatuemanager_2ec_4',['angryStatueManager.c',['../angryStatueManager_8c.html',1,'']]],
+  ['angrystatuemanager_2eh_5',['angryStatueManager.h',['../angryStatueManager_8h.html',1,'']]],
+  ['animatedbackgroundmanager_2ec_6',['animatedBackgroundManager.c',['../animatedBackgroundManager_8c.html',1,'']]],
+  ['animatedbackgroundmanager_2eh_7',['animatedBackgroundManager.h',['../animatedBackgroundManager_8h.html',1,'']]],
+  ['anju_2ec_8',['anju.c',['../anju_8c.html',1,'']]],
+  ['archway_2ec_9',['archway.c',['../archway_8c.html',1,'']]],
+  ['area_2eh_10',['area.h',['../area_8h.html',1,'']]],
+  ['armos_2ec_11',['armos.c',['../armos_8c.html',1,'']]],
+  ['armosinteriormanager_2ec_12',['armosInteriorManager.c',['../armosInteriorManager_8c.html',1,'']]],
+  ['armosinteriormanager_2eh_13',['armosInteriorManager.h',['../armosInteriorManager_8h.html',1,'']]],
+  ['arrowprojectile_2ec_14',['arrowProjectile.c',['../arrowProjectile_8c.html',1,'']]],
+  ['asm_2eh_15',['asm.h',['../asm_8h.html',1,'']]]
 ];

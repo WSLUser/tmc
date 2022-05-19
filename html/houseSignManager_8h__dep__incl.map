@@ -1,0 +1,4 @@
+<map id="include/manager/houseSignManager.h" name="include/manager/houseSignManager.h">
+<area shape="rect" id="node1" title=" " alt="" coords="23,5,206,47"/>
+<area shape="rect" id="node2" href="$houseSignManager_8c.html" title="Keeps track in its bitfield of whether 0x10 x 0x10 rects at certain positions are on the screen." alt="" coords="5,95,224,121"/>
+</map>

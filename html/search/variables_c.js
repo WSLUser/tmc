@@ -12,7 +12,7 @@ var searchData=
   ['last_9',['last',['../structLinkedList2.html#a5e26d5367b437da72baaac1f8375f61b',1,'LinkedList2::last()'],['../structLinkedList.html#a50f30d2a0b6a1cb87ebb113a565bc1bc',1,'LinkedList::last()']]],
   ['lastframeindex_10',['lastFrameIndex',['../structEntity.html#a41f66fe75de8b4a5efe6c5edef89f18f',1,'Entity']]],
   ['laststate_11',['lastState',['../structUI.html#a72e81ede1c57444d7730633edca96c4d',1,'UI']]],
-  ['layer_12',['layer',['../structPlayerRoomStatus.html#a0cea4e2faff5a24f707b3976675b9cfc',1,'PlayerRoomStatus::layer()'],['../structManager6WarpData.html#a8b473ae8dee075da5744b4aafd436111',1,'Manager6WarpData::layer()']]],
+  ['layer_12',['layer',['../structPlayerRoomStatus.html#a0cea4e2faff5a24f707b3976675b9cfc',1,'PlayerRoomStatus::layer()'],['../structSpecialWarpManagerWarpData.html#af8fd7d69734d9863850ac606d180a51c',1,'SpecialWarpManagerWarpData::layer()']]],
   ['layerbrightness_13',['layerBrightness',['../structBgControls.html#a05638cc6079cf1562e01ae0cd03628d3',1,'BgControls']]],
   ['layerfxcontrol_14',['layerFXControl',['../structBgControls.html#a9f8508a4ffc23e3d40670c5d3e8db059',1,'BgControls']]],
   ['lcd_15',['lcd',['../structScreen.html#a9c11782d82bdda45516a4f14d8438519',1,'Screen']]],

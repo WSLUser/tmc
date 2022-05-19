@@ -1,12 +1,13 @@
 <map id="UI" name="UI">
-<area shape="rect" id="node1" title="HUD structure." alt="" coords="283,423,321,449"/>
-<area shape="rect" id="node2" href="$structRoomControls.html" title=" " alt="" coords="79,333,183,360"/>
-<area shape="rect" id="node3" href="$unionSplitWord.html" title=" " alt="" coords="5,5,84,32"/>
-<area shape="rect" id="node4" href="$structEntity.html" title="Container for instantiable behavior." alt="" coords="124,243,179,269"/>
-<area shape="rect" id="node5" href="$structHitbox.html" title="Hitbox structure." alt="" coords="130,5,189,32"/>
-<area shape="rect" id="node6" href="$unionSplitHWord.html" title=" " alt="" coords="213,5,301,32"/>
-<area shape="rect" id="node7" href="$structGfxSlotList.html" title=" " alt="" coords="208,333,295,360"/>
-<area shape="rect" id="node8" href="$structGfxSlot.html" title=" " alt="" coords="219,243,284,269"/>
-<area shape="rect" id="node9" href="$structPalette.html" title=" " alt="" coords="319,333,381,360"/>
-<area shape="rect" id="node10" href="$structActiveScriptInfo.html" title=" " alt="" coords="406,333,521,360"/>
+<area shape="rect" id="node1" title="HUD structure." alt="" coords="307,437,345,464"/>
+<area shape="rect" id="node2" href="$structBgSettings.html" title=" " alt="" coords="5,333,92,360"/>
+<area shape="rect" id="node3" href="$structRoomControls.html" title=" " alt="" coords="153,333,257,360"/>
+<area shape="rect" id="node4" href="$unionSplitWord.html" title=" " alt="" coords="77,5,156,32"/>
+<area shape="rect" id="node5" href="$structEntity.html" title="Container for instantiable behavior." alt="" coords="196,243,251,269"/>
+<area shape="rect" id="node6" href="$structHitbox.html" title="Hitbox structure." alt="" coords="202,5,261,32"/>
+<area shape="rect" id="node7" href="$unionSplitHWord.html" title=" " alt="" coords="285,5,373,32"/>
+<area shape="rect" id="node8" href="$structGfxSlotList.html" title=" " alt="" coords="281,333,368,360"/>
+<area shape="rect" id="node9" href="$structGfxSlot.html" title=" " alt="" coords="292,243,357,269"/>
+<area shape="rect" id="node10" href="$structPalette.html" title=" " alt="" coords="392,333,455,360"/>
+<area shape="rect" id="node11" href="$structActiveScriptInfo.html" title=" " alt="" coords="479,333,594,360"/>
 </map>

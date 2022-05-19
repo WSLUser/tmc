@@ -1,0 +1,4 @@
+<map id="include/manager/hyruleTownBellManager.h" name="include/manager/hyruleTownBellManager.h">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,192,47"/>
+<area shape="rect" id="node2" href="$hyruleTownBellManager_8c.html" title="Spawns the heart piece if the player jumps against the bell in Hyrule Town." alt="" coords="5,95,192,136"/>
+</map>

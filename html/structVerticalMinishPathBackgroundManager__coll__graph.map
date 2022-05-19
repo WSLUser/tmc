@@ -1,0 +1,8 @@
+<map id="VerticalMinishPathBackgroundManager" name="VerticalMinishPathBackgroundManager">
+<area shape="rect" id="node1" title=" " alt="" coords="38,437,238,479"/>
+<area shape="rect" id="node2" href="$structManager.html" title=" " alt="" coords="102,347,174,373"/>
+<area shape="rect" id="node3" href="$structEntity.html" title="Container for instantiable behavior." alt="" coords="111,241,165,268"/>
+<area shape="rect" id="node4" href="$unionSplitWord.html" title=" " alt="" coords="5,5,84,32"/>
+<area shape="rect" id="node5" href="$structHitbox.html" title="Hitbox structure." alt="" coords="109,5,167,32"/>
+<area shape="rect" id="node6" href="$unionSplitHWord.html" title=" " alt="" coords="191,5,279,32"/>
+</map>

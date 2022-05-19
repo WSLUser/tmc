@@ -18,7 +18,7 @@ var searchData=
   ['aff_5fy_15',['aff_y',['../structRoomControls.html#a3aa4b022fc0c825b16eb64830c94c5d2',1,'RoomControls']]],
   ['affinemode_16',['affineMode',['../structOamData.html#a5ba2da13fb0e0be6ab768fc6ec1884d5',1,'OamData']]],
   ['affineparam_17',['affineParam',['../structOamData.html#a8dd169d2efbd7fcac9690fa2fc0e9ace',1,'OamData']]],
-  ['all_18',['all',['../structManager6WarpData.html#acea9af038c61fc13fd6de5a270d2f504',1,'Manager6WarpData']]],
+  ['all_18',['all',['../structSpecialWarpManagerWarpData.html#a4698addb04c4d3f962b2c2fa2ea13cf0',1,'SpecialWarpManagerWarpData']]],
   ['alpha_19',['alpha',['../structBgAffineSrcData.html#aa5d4cf31371c9e0c44bdc2b230e795db',1,'BgAffineSrcData']]],
   ['alphablend_20',['alphaBlend',['../structEntity.html#a71a61006fdd6941de4a54e37a7266730',1,'Entity::alphaBlend()'],['../structBgControls.html#a8c4031552930556628e469acb5b0d577',1,'BgControls::alphaBlend()']]],
   ['angle_21',['angle',['../structOctorokBossEntity.html#a7f1204bb0a77e62a2b14a8139130772b',1,'OctorokBossEntity']]],

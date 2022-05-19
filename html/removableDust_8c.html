@@ -86,6 +86,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="physics_8h_source.html">physics.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="object_8h_source.html">object.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="room_8h_source.html">room.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for removableDust.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -93,39 +94,41 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="removableDust_8c__incl.png" border="0" usemap="#asrc_2projectile_2removableDust_8c" alt=""/></div>
 <map name="asrc_2projectile_2removableDust_8c" id="asrc_2projectile_2removableDust_8c">
-<area shape="rect" title=" " alt="" coords="676,5,836,47"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="857,319,919,345"/>
-<area shape="rect" href="enemy_8h.html" title=" " alt="" coords="273,169,343,196"/>
-<area shape="rect" href="physics_8h.html" title=" " alt="" coords="743,244,819,271"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="1045,95,1131,121"/>
-<area shape="rect" href="object_8h.html" title=" " alt="" coords="599,169,665,196"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="855,468,921,495"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="771,393,831,420"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="856,393,920,420"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="990,543,1069,569"/>
-<area shape="rect" title=" " alt="" coords="715,617,779,644"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1273,617,1346,644"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1371,617,1437,644"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="925,692,987,719"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="803,617,895,644"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="920,617,992,644"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="1067,617,1135,644"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="1160,617,1248,644"/>
-<area shape="rect" title=" " alt="" coords="1275,692,1343,719"/>
-<area shape="rect" title=" " alt="" coords="924,767,988,793"/>
-<area shape="rect" href="asm_8h.html" title=" " alt="" coords="213,244,270,271"/>
-<area shape="rect" href="sound_8h.html" title=" " alt="" coords="455,244,521,271"/>
-<area shape="rect" href="effects_8h.html" title=" " alt="" coords="597,244,667,271"/>
-<area shape="rect" href="flags_8h.html" title=" " alt="" coords="23,244,81,271"/>
-<area shape="rect" href="common_8h.html" title=" " alt="" coords="105,244,188,271"/>
-<area shape="rect" href="projectile_8h.html" title=" " alt="" coords="346,244,430,271"/>
-<area shape="rect" href="manager_8h.html" title=" " alt="" coords="1273,244,1356,271"/>
-<area shape="rect" href="player_8h.html" title=" " alt="" coords="996,244,1063,271"/>
-<area shape="rect" href="room_8h.html" title=" " alt="" coords="1137,244,1199,271"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="1084,169,1175,196"/>
-<area shape="rect" href="script_8h.html" title=" " alt="" coords="945,169,1009,196"/>
-<area shape="rect" href="map_8h.html" title=" " alt="" coords="1343,319,1401,345"/>
-<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="1046,393,1138,420"/>
+<area shape="rect" title=" " alt="" coords="703,5,863,47"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="843,319,906,345"/>
+<area shape="rect" href="enemy_8h.html" title=" " alt="" coords="297,169,367,196"/>
+<area shape="rect" href="physics_8h.html" title=" " alt="" coords="742,244,818,271"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="1056,95,1141,121"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="944,244,1005,271"/>
+<area shape="rect" href="object_8h.html" title=" " alt="" coords="597,169,664,196"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="925,468,992,495"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="773,393,833,420"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="857,393,921,420"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="1063,543,1142,569"/>
+<area shape="rect" title=" " alt="" coords="781,617,845,644"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1430,617,1503,644"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1288,617,1355,644"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="1186,692,1249,719"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="1171,617,1263,644"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="869,617,941,644"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="966,617,1034,644"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="1059,617,1147,644"/>
+<area shape="rect" title=" " alt="" coords="1433,692,1501,719"/>
+<area shape="rect" title=" " alt="" coords="1185,767,1249,793"/>
+<area shape="rect" href="asm_8h.html" title=" " alt="" coords="303,244,361,271"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="23,244,89,271"/>
+<area shape="rect" href="effects_8h.html" title=" " alt="" coords="595,244,666,271"/>
+<area shape="rect" href="flags_8h.html" title=" " alt="" coords="113,244,172,271"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="196,244,279,271"/>
+<area shape="rect" href="projectile_8h.html" title=" " alt="" coords="487,244,571,271"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="1272,244,1355,271"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="1080,244,1147,271"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="1161,169,1252,196"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="871,169,935,196"/>
+<area shape="rect" href="map_8h.html" title=" " alt="" coords="1430,244,1487,271"/>
+<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="930,319,1022,345"/>
+<area shape="rect" href="screen_8h.html" title=" " alt="" coords="1459,319,1530,345"/>
+<area shape="rect" href="fade_8h.html" title=" " alt="" coords="1459,393,1517,420"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -424,10 +427,10 @@ Variables</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
 <div class="line">    <a class="code hl_function" href="removableDust_8c.html#acde3f919ce464cee58da71f65f2fbf6f">RemovableDust_OnTick</a>, <a class="code hl_function" href="removableDust_8c.html#a8beff1722117c2cadcd1a072e00513a1">sub_080AA450</a>, <a class="code hl_function" href="entity_8h.html#a92d8a08c09ea7ea494cebed249b6e3b2">DeleteEntity</a>, <a class="code hl_function" href="entity_8h.html#a92d8a08c09ea7ea494cebed249b6e3b2">DeleteEntity</a>, <a class="code hl_function" href="entity_8h.html#a92d8a08c09ea7ea494cebed249b6e3b2">DeleteEntity</a>, <a class="code hl_function" href="removableDust_8c.html#a0dd1c3b2c46990c81cfffdfcee614d8a">sub_080AA464</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="aentity_8h_html_a92d8a08c09ea7ea494cebed249b6e3b2"><div class="ttname"><a href="entity_8h.html#a92d8a08c09ea7ea494cebed249b6e3b2">DeleteEntity</a></div><div class="ttdeci">void DeleteEntity(Entity *entity)</div><div class="ttdoc">Delete an Entity.</div><div class="ttdef"><b>Definition:</b> entity.c:338</div></div>
-<div class="ttc" id="aremovableDust_8c_html_a0dd1c3b2c46990c81cfffdfcee614d8a"><div class="ttname"><a href="removableDust_8c.html#a0dd1c3b2c46990c81cfffdfcee614d8a">sub_080AA464</a></div><div class="ttdeci">void sub_080AA464(Entity *)</div><div class="ttdef"><b>Definition:</b> removableDust.c:45</div></div>
-<div class="ttc" id="aremovableDust_8c_html_a8beff1722117c2cadcd1a072e00513a1"><div class="ttname"><a href="removableDust_8c.html#a8beff1722117c2cadcd1a072e00513a1">sub_080AA450</a></div><div class="ttdeci">void sub_080AA450(Entity *this)</div><div class="ttdef"><b>Definition:</b> removableDust.c:39</div></div>
-<div class="ttc" id="aremovableDust_8c_html_acde3f919ce464cee58da71f65f2fbf6f"><div class="ttname"><a href="removableDust_8c.html#acde3f919ce464cee58da71f65f2fbf6f">RemovableDust_OnTick</a></div><div class="ttdeci">void RemovableDust_OnTick(Entity *this)</div><div class="ttdef"><b>Definition:</b> removableDust.c:25</div></div>
+<div class="ttc" id="aentity_8h_html_a92d8a08c09ea7ea494cebed249b6e3b2"><div class="ttname"><a href="entity_8h.html#a92d8a08c09ea7ea494cebed249b6e3b2">DeleteEntity</a></div><div class="ttdeci">void DeleteEntity(Entity *entity)</div><div class="ttdoc">Delete an Entity.</div><div class="ttdef"><b>Definition:</b> entity.c:339</div></div>
+<div class="ttc" id="aremovableDust_8c_html_a0dd1c3b2c46990c81cfffdfcee614d8a"><div class="ttname"><a href="removableDust_8c.html#a0dd1c3b2c46990c81cfffdfcee614d8a">sub_080AA464</a></div><div class="ttdeci">void sub_080AA464(Entity *)</div><div class="ttdef"><b>Definition:</b> removableDust.c:46</div></div>
+<div class="ttc" id="aremovableDust_8c_html_a8beff1722117c2cadcd1a072e00513a1"><div class="ttname"><a href="removableDust_8c.html#a8beff1722117c2cadcd1a072e00513a1">sub_080AA450</a></div><div class="ttdeci">void sub_080AA450(Entity *this)</div><div class="ttdef"><b>Definition:</b> removableDust.c:40</div></div>
+<div class="ttc" id="aremovableDust_8c_html_acde3f919ce464cee58da71f65f2fbf6f"><div class="ttname"><a href="removableDust_8c.html#acde3f919ce464cee58da71f65f2fbf6f">RemovableDust_OnTick</a></div><div class="ttdeci">void RemovableDust_OnTick(Entity *this)</div><div class="ttdef"><b>Definition:</b> removableDust.c:26</div></div>
 </div><!-- fragment -->
 </div>
 </div>

@@ -1,0 +1,9 @@
+<map id="include/manager/diggingCaveEntranceManager.h" name="include/manager/diggingCaveEntranceManager.h">
+<area shape="rect" id="node1" title=" " alt="" coords="334,5,526,47"/>
+<area shape="rect" id="node2" href="$beanstalkSubtask_8c.html" title=" " alt="" coords="5,102,164,129"/>
+<area shape="rect" id="node3" href="$entity_8c.html" title=" " alt="" coords="189,102,274,129"/>
+<area shape="rect" id="node4" href="$game_8c.html" title="Game task." alt="" coords="299,102,385,129"/>
+<area shape="rect" id="node5" href="$diggingCaveEntranceManager_8c.html" title="Manages digging cave entrances." alt="" coords="409,95,629,136"/>
+<area shape="rect" id="node6" href="$playerUtils_8c.html" title=" " alt="" coords="654,102,769,129"/>
+<area shape="rect" id="node7" href="$scroll_8c.html" title=" " alt="" coords="793,102,878,129"/>
+</map>

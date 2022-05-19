@@ -77,6 +77,8 @@ $(function() {
 <div class="textblock"><dl class="reflist">
 <dt>Global <a class="el" href="entity_8c.html#a9d66f8f33815b60c77480af2602aaf8e">ClearAllDeletedEntities</a>  (void)</dt>
 <dd><a class="anchor" id="_bug000004"></a>if prev pointed to a VALID location higher than a signed int, would still be deleted  </dd>
+<dt>Global <a class="el" href="vaatiAppearingManager_8c.html#a5a7adf301694c228ef8df53f4f5ac840">CreateVaatiApparateManager</a>  (<a class="el" href="structVaatiAppearingManager.html">VaatiAppearingManager</a> *this, u32 type)</dt>
+<dd><a class="anchor" id="_bug000005"></a>: this always variable points to ROM, not a Manager*  </dd>
 <dt>Global <a class="el" href="message_8c.html#a0e379a3e4636777011c23df1799f792c">DispString</a>  (void)</dt>
 <dd><a class="anchor" id="_bug000006"></a>abnormally big width causes tile idx to overwrite other tile attributes  </dd>
 <dt>Global <a class="el" href="octorokGolden_8c.html#adc34ab9df1e11e80d0035c676154a5e6">OctorokGolden</a>  (<a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> *this)</dt>
@@ -85,8 +87,6 @@ $(function() {
 <dd><a class="anchor" id="_bug000002"></a>This if was meant to check r5 instead of r3.  </dd>
 <dt>Global <a class="el" href="code__08049DF4_8c.html#a7e175cfaff35084b790821c287e90d8c">sub_0804A044</a>  (<a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> *entA, <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> *entB, u32 arg2)</dt>
 <dd><a class="anchor" id="_bug000001"></a>flags &amp; 5 can never equal 0xA  </dd>
-<dt>Global <a class="el" href="manager32_8c.html#ace1c17a2feaca0ee7c715a1b3f41ea1f">sub_0805DA90</a>  (<a class="el" href="structManager32.html">Manager32</a> *this, u32 param_2)</dt>
-<dd><a class="anchor" id="_bug000005"></a>: this always variable points to ROM, not a Manager*  </dd>
 <dt>Global <a class="el" href="npc5_8c.html#ac5562ad692a336f1e8bf1e9ac717a3cf">sub_08060BA0</a>  (<a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> *)</dt>
 <dd><a class="anchor" id="_bug000007"></a>: r5 is uninitialized  </dd>
 <dt>Global <a class="el" href="npc5_8c.html#aa0b7f2ab44815097b529e8378fad9a8a">sub_08061358</a>  (<a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> *)</dt>

@@ -1,9 +1,9 @@
 <map id="src/npc/kingGustaf.c" name="src/npc/kingGustaf.c">
-<area shape="rect" id="node1" title=" " alt="" coords="258,5,401,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="251,5,394,32"/>
 <area shape="rect" id="node2" href="$global_8h.html" title=" " alt="" coords="431,453,497,480"/>
 <area shape="rect" id="node14" href="$entity_8h.html" title=" " alt="" coords="331,304,394,331"/>
-<area shape="rect" id="node17" href="$functions_8h.html" title=" " alt="" coords="397,80,483,107"/>
-<area shape="rect" id="node26" href="$screen_8h.html" title=" " alt="" coords="813,304,883,331"/>
+<area shape="rect" id="node17" href="$functions_8h.html" title=" " alt="" coords="400,80,485,107"/>
+<area shape="rect" id="node26" href="$screen_8h.html" title=" " alt="" coords="817,304,887,331"/>
 <area shape="rect" id="node3" href="$gba_8h.html" title=" " alt="" coords="566,528,645,555"/>
 <area shape="rect" id="node4" title=" " alt="" coords="291,603,355,629"/>
 <area shape="rect" id="node5" href="$defines_8h.html" title=" " alt="" coords="849,603,922,629"/>
@@ -22,8 +22,8 @@
 <area shape="rect" id="node20" href="$player_8h.html" title=" " alt="" coords="620,229,687,256"/>
 <area shape="rect" id="node21" href="$room_8h.html" title=" " alt="" coords="73,229,135,256"/>
 <area shape="rect" id="node23" href="$structures_8h.html" title=" " alt="" coords="620,155,711,181"/>
-<area shape="rect" id="node24" href="$script_8h.html" title=" " alt="" coords="373,155,437,181"/>
-<area shape="rect" id="node25" href="$map_8h.html" title=" " alt="" coords="739,155,797,181"/>
+<area shape="rect" id="node24" href="$script_8h.html" title=" " alt="" coords="316,155,380,181"/>
+<area shape="rect" id="node25" href="$map_8h.html" title=" " alt="" coords="762,229,819,256"/>
 <area shape="rect" id="node22" href="$droptables_8h.html" title=" " alt="" coords="94,304,186,331"/>
 <area shape="rect" id="node27" href="$fade_8h.html" title=" " alt="" coords="863,379,921,405"/>
 </map>

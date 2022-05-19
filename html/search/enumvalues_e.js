@@ -76,7 +76,7 @@ var searchData=
   ['object_5fe_73',['OBJECT_E',['../object_8h.html#a0b29a1e1c76a85a0dbaa7c34a9d2874aae3fc5d1e83ef7ba99c115ae0bdb63b7a',1,'object.h']]],
   ['object_5fon_5fbeetle_74',['OBJECT_ON_BEETLE',['../object_8h.html#a0b29a1e1c76a85a0dbaa7c34a9d2874aa523805afa5213c7ffa8a5de5b99ceac0',1,'object.h']]],
   ['object_5fon_5fpillar_75',['OBJECT_ON_PILLAR',['../object_8h.html#a0b29a1e1c76a85a0dbaa7c34a9d2874aa92140ada0837d985d0f69f343958ccc2',1,'object.h']]],
-  ['observeregion_76',['ObserveRegion',['../manager1E_8c.html#a19dafccf07418ae9d0f1f928e1da5b32a3522219bb80d31c312621d6a6790899f',1,'manager1E.c']]],
+  ['observeregion_76',['ObserveRegion',['../regionTriggerManager_8c.html#a42f252abcd7082d1008f7d13018dbd9ea3522219bb80d31c312621d6a6790899f',1,'regionTriggerManager.c']]],
   ['octorok_77',['OCTOROK',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba2ea51251120b4fbab3d3765d1567bcfe',1,'enemy.h']]],
   ['octorok2_78',['OCTOROK2',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08abab8191bd709f2a7822f1ff536d78f4623',1,'enemy.h']]],
   ['octorok_5fboss_79',['OCTOROK_BOSS',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba4ef4b40a113e656ea97c70df48568e76',1,'enemy.h']]],

@@ -2,7 +2,7 @@
 <area shape="rect" id="node1" href="$group__Enemies.html" title=" " alt="" coords="124,5,196,31"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,153,71,179"/>
 <area shape="rect" id="node3" href="$group__Items.html" title=" " alt="" coords="133,55,187,80"/>
-<area shape="rect" id="node4" href="$group__Managers.html" title=" " alt="" coords="121,104,199,129"/>
+<area shape="rect" id="node4" href="$group__Managers.html" title="Entities with a smaller footprint of 0x40 bytes." alt="" coords="121,104,199,129"/>
 <area shape="rect" id="node5" href="$group__NPCs.html" title=" " alt="" coords="131,153,189,179"/>
 <area shape="rect" id="node6" href="$group__Objects.html" title=" " alt="" coords="127,203,193,228"/>
 <area shape="rect" id="node7" href="$group__Player.html" title=" " alt="" coords="131,252,189,277"/>
