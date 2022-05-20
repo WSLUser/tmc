@@ -105,7 +105,7 @@ var searchData=
   ['flyingskull_5fongrabbed_102',['FlyingSkull_OnGrabbed',['../flyingSkull_8c.html#a7e323391f156fe8bc664fcaa0de0b446',1,'flyingSkull.c']]],
   ['flyingskull_5fontick_103',['FlyingSkull_OnTick',['../flyingSkull_8c.html#a76c7529cb23334c3a8ee658efbadd4bf',1,'flyingSkull.c']]],
   ['for_104',['for',['../beanstalkSubtask_8c.html#a8923da99e1057ef770be3afed8ef41c1',1,'beanstalkSubtask.c']]],
-  ['forceequipitem_105',['ForceEquipItem',['../game_8c.html#ad57e5d69b512fca1115f084f83af5b21',1,'ForceEquipItem(u32, u32):&#160;game.c'],['../game_8h.html#ad0420f5e42adb409e590ee99f639ee95',1,'ForceEquipItem(u32 item, u32 slot):&#160;game.c']]],
+  ['forceequipitem_105',['ForceEquipItem',['../game_8c.html#ac5d5a1534c46e3cb37230fb113aa61b8',1,'ForceEquipItem(u32 itemID, u32 itemSlot):&#160;game.c'],['../game_8h.html#ad0420f5e42adb409e590ee99f639ee95',1,'ForceEquipItem(u32 item, u32 slot):&#160;game.c']]],
   ['forcesetplayerstate_106',['ForceSetPlayerState',['../playerUtils_8c.html#a9a9e2c670e420c499f446ca006ad7daa',1,'ForceSetPlayerState(u32 framestate):&#160;playerUtils.c'],['../game_8c.html#a90154598c4aa5255e3c93560e74fd870',1,'ForceSetPlayerState(u32):&#160;playerUtils.c']]],
   ['forestminish_107',['ForestMinish',['../npc_8h.html#a8caf63a9b02b9c0d963ef97ef745673f',1,'ForestMinish(Entity *):&#160;forestMinish.c'],['../forestMinish_8c.html#a5e5520150a2cc838edd0f83ec6317da1',1,'ForestMinish(Entity *this):&#160;forestMinish.c']]],
   ['forestminish_5ffusion_108',['ForestMinish_Fusion',['../npc_8h.html#aa6298f2a26558b8023139eb0cc7704d5',1,'ForestMinish_Fusion(Entity *):&#160;forestMinish.c'],['../forestMinish_8c.html#a082373c8868c500dd57f75d88edddf78',1,'ForestMinish_Fusion(Entity *this):&#160;forestMinish.c']]],
