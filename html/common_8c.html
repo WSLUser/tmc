@@ -217,8 +217,9 @@ Functions</h2></td></tr>
 <tr class="separator:a519de2ea508699897b91fad623839bcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4881f2b1e86a4bfdd60949d7f2d5f50a"><td class="memItemLeft" align="right" valign="top">asm non_matching common zMalloc void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8c.html#a4881f2b1e86a4bfdd60949d7f2d5f50a">zMalloc</a> (<a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a> <a class="el" href="interrupts_8c.html#acfd6273064c5acdcfc39a23a69dd4343">size</a>))</td></tr>
 <tr class="separator:a4881f2b1e86a4bfdd60949d7f2d5f50a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4f23e406ca9758acc6348b92cf6c925"><td class="memItemLeft" align="right" valign="top">asm non_matching common zFree void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8c.html#ab4f23e406ca9758acc6348b92cf6c925">zFree</a> (void *<a class="el" href="beanstalkSubtask_8c.html#a37c32eedc4fbd64837b631c06863691e">ptr</a>))</td></tr>
-<tr class="separator:ab4f23e406ca9758acc6348b92cf6c925"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21fa4d340e1d8f8ba732e8dcc1f45300"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8c.html#a21fa4d340e1d8f8ba732e8dcc1f45300">zFree</a> (void *<a class="el" href="beanstalkSubtask_8c.html#a37c32eedc4fbd64837b631c06863691e">ptr</a>)</td></tr>
+<tr class="memdesc:a21fa4d340e1d8f8ba732e8dcc1f45300"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free memory from heap.  <a href="common_8c.html#a21fa4d340e1d8f8ba732e8dcc1f45300">More...</a><br /></td></tr>
+<tr class="separator:a21fa4d340e1d8f8ba732e8dcc1f45300"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60486f58072b2bdf3385d46c7345fead"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="common_8c.html#a60486f58072b2bdf3385d46c7345fead">zMallocInit</a> (void)</td></tr>
 <tr class="memdesc:a60486f58072b2bdf3385d46c7345fead"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the heap.  <a href="common_8c.html#a60486f58072b2bdf3385d46c7345fead">More...</a><br /></td></tr>
 <tr class="separator:a60486f58072b2bdf3385d46c7345fead"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1884,14 +1885,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ab4f23e406ca9758acc6348b92cf6c925" name="ab4f23e406ca9758acc6348b92cf6c925"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4f23e406ca9758acc6348b92cf6c925">&#9670;&nbsp;</a></span>zFree()</h2>
+<a id="a21fa4d340e1d8f8ba732e8dcc1f45300" name="a21fa4d340e1d8f8ba732e8dcc1f45300"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21fa4d340e1d8f8ba732e8dcc1f45300">&#9670;&nbsp;</a></span>zFree()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm non_matching common zFree void zFree </td>
+          <td class="memname">void zFree </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>ptr</em></td><td>)</td>
@@ -1899,6 +1900,15 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Free memory from heap. </p>
+<p >The <a class="el" href="structEntity.html" title="Container for instantiable behavior.">Entity</a> system will automatically free the pointer stored in the <a class="el" href="structEntity.html#a71ffee91d8f915ce94499a2b4ae3e2e5" title="Heap data allocated with zMalloc.">Entity.myHeap</a> field.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ptr</td><td>Pointer to be freed. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

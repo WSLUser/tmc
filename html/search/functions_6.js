@@ -217,5 +217,5 @@ var searchData=
   ['gyorgmaleeye_5foncollision_214',['GyorgMaleEye_OnCollision',['../gyorgMaleEye_8c.html#a072405a73916d32c1e5bda13a13354cf',1,'gyorgMaleEye.c']]],
   ['gyorgmaleeye_5fontick_215',['GyorgMaleEye_OnTick',['../gyorgMaleEye_8c.html#abb0714546072b8f4818e4d7d47a998e2',1,'gyorgMaleEye.c']]],
   ['gyorgtail_216',['GyorgTail',['../projectile_8h.html#aad218111ba6e3d1109983b6d0efc7239',1,'GyorgTail(Entity *):&#160;gyorgTail.c'],['../gyorgTail_8c.html#ad95d990419cb40b6e9025c56db584e19',1,'GyorgTail(Entity *this):&#160;gyorgTail.c']]],
-  ['gyorgtail_5finit_217',['GyorgTail_Init',['../gyorgTail_8c.html#ab8bf5ac6f50a3da58070c20169888518',1,'gyorgTail.c']]]
+  ['gyorgtail_5finit_217',['GyorgTail_Init',['../gyorgTail_8c.html#a1be147392061f801095dcff9a898f642',1,'gyorgTail.c']]]
 ];

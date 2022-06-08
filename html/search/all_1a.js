@@ -9,7 +9,7 @@ var searchData=
   ['zeldafollower_6',['ZeldaFollower',['../zeldaFollower_8c.html#a5bd8f5930e683a73f0345f96a808d936',1,'ZeldaFollower(Entity *this):&#160;zeldaFollower.c'],['../npc_8h.html#ad13e8798e218debba45287a60dcff057',1,'ZeldaFollower(Entity *):&#160;zeldaFollower.c']]],
   ['zeldafollower_2ec_7',['zeldaFollower.c',['../zeldaFollower_8c.html',1,'']]],
   ['zero_8',['zero',['../structFigurine.html#ac18e0239eb0df45db724c3cfd25f7625',1,'Figurine']]],
-  ['zfree_9',['zFree',['../common_8h.html#a21fa4d340e1d8f8ba732e8dcc1f45300',1,'zFree(void *ptr):&#160;common.h'],['../common_8c.html#ab4f23e406ca9758acc6348b92cf6c925',1,'zFree(void *ptr)):&#160;common.c']]],
+  ['zfree_9',['zFree',['../common_8h.html#a21fa4d340e1d8f8ba732e8dcc1f45300',1,'zFree(void *ptr):&#160;common.c'],['../common_8c.html#a21fa4d340e1d8f8ba732e8dcc1f45300',1,'zFree(void *ptr):&#160;common.c']]],
   ['zmalloc_10',['zMalloc',['../common_8h.html#a9033e3782b78d8911dae7653a3eadf21',1,'zMalloc(u32 size):&#160;common.h'],['../common_8c.html#a4881f2b1e86a4bfdd60949d7f2d5f50a',1,'zMalloc(u32 size)):&#160;common.c']]],
   ['zmallocinit_11',['zMallocInit',['../common_8h.html#a60486f58072b2bdf3385d46c7345fead',1,'zMallocInit(void):&#160;common.c'],['../common_8c.html#a60486f58072b2bdf3385d46c7345fead',1,'zMallocInit(void):&#160;common.c']]],
   ['zs_12',['ZS',['../lightRayManager_8c.html#adf68597e6f43e7e0ca321d3706703b25',1,'lightRayManager.c']]],

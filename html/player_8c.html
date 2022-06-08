@@ -102,6 +102,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="game_8h_source.html">game.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="screen_8h_source.html">screen.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="main_8h_source.html">main.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="playeritem_8h_source.html">playeritem.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for player.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -109,49 +110,50 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="player_8c__incl.png" border="0" usemap="#asrc_2player_8c" alt=""/></div>
 <map name="asrc_2player_8c" id="asrc_2player_8c">
-<area shape="rect" title="Player entity." alt="" coords="1089,5,1177,32"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="1035,453,1101,480"/>
-<area shape="rect" href="collision_8h.html" title=" " alt="" coords="45,229,123,256"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="626,304,689,331"/>
-<area shape="rect" href="asm_8h.html" title=" " alt="" coords="1535,229,1593,256"/>
-<area shape="rect" href="sound_8h.html" title=" " alt="" coords="1617,229,1684,256"/>
-<area shape="rect" href="player_8h.html" title=" " alt="" coords="300,229,367,256"/>
+<area shape="rect" title="Player entity." alt="" coords="1231,5,1319,32"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="1048,453,1115,480"/>
+<area shape="rect" href="collision_8h.html" title=" " alt="" coords="58,229,137,256"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="639,304,702,331"/>
+<area shape="rect" href="asm_8h.html" title=" " alt="" coords="1549,229,1606,256"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="1631,229,1697,256"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="313,229,380,256"/>
 <area shape="rect" href="message_8h.html" title=" " alt="" coords="349,80,435,107"/>
-<area shape="rect" href="common_8h.html" title=" " alt="" coords="1708,229,1791,256"/>
-<area shape="rect" href="area_8h.html" title=" " alt="" coords="1853,304,1910,331"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="1721,229,1804,256"/>
+<area shape="rect" href="area_8h.html" title=" " alt="" coords="1866,304,1923,331"/>
 <area shape="rect" href="item_8h.html" title=" " alt="" coords="94,155,151,181"/>
 <area shape="rect" href="save_8h.html" title=" " alt="" coords="459,80,519,107"/>
-<area shape="rect" href="object_8h.html" title=" " alt="" coords="1340,155,1407,181"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="821,80,907,107"/>
-<area shape="rect" href="screen_8h.html" title=" " alt="" coords="1191,229,1262,256"/>
-<area shape="rect" href="hitbox_8h.html" title=" " alt="" coords="680,80,747,107"/>
-<area shape="rect" href="game_8h.html" title=" " alt="" coords="1916,229,1980,256"/>
-<area shape="rect" href="main_8h.html" title=" " alt="" coords="1103,80,1163,107"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="1157,528,1235,555"/>
-<area shape="rect" title=" " alt="" coords="908,603,972,629"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1555,603,1629,629"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="996,603,1063,629"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="1165,677,1227,704"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="1234,603,1326,629"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="1087,603,1159,629"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="1350,603,1418,629"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="1443,603,1531,629"/>
-<area shape="rect" title=" " alt="" coords="1558,677,1626,704"/>
-<area shape="rect" title=" " alt="" coords="1164,752,1228,779"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="679,379,739,405"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="764,379,828,405"/>
+<area shape="rect" href="object_8h.html" title=" " alt="" coords="1363,155,1429,181"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="861,80,947,107"/>
+<area shape="rect" href="screen_8h.html" title=" " alt="" coords="1205,229,1275,256"/>
+<area shape="rect" href="hitbox_8h.html" title=" " alt="" coords="595,155,661,181"/>
+<area shape="rect" href="game_8h.html" title=" " alt="" coords="1929,229,1993,256"/>
+<area shape="rect" href="main_8h.html" title=" " alt="" coords="1169,80,1229,107"/>
+<area shape="rect" href="playeritem_8h.html" title=" " alt="" coords="1980,80,2071,107"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="1170,528,1249,555"/>
+<area shape="rect" title=" " alt="" coords="921,603,985,629"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1569,603,1642,629"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1009,603,1076,629"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="1178,677,1241,704"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="1247,603,1339,629"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="1100,603,1172,629"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="1363,603,1431,629"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="1456,603,1544,629"/>
+<area shape="rect" title=" " alt="" coords="1571,677,1639,704"/>
+<area shape="rect" title=" " alt="" coords="1177,752,1241,779"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="693,379,753,405"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="777,379,841,405"/>
 <area shape="rect" href="structures_8h.html" title=" " alt="" coords="429,155,520,181"/>
-<area shape="rect" href="transitions_8h.html" title=" " alt="" coords="1986,379,2078,405"/>
-<area shape="rect" href="roomid_8h.html" title=" " alt="" coords="1997,453,2067,480"/>
-<area shape="rect" href="room_8h.html" title=" " alt="" coords="1055,229,1116,256"/>
-<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="1106,304,1198,331"/>
-<area shape="rect" href="flags_8h.html" title=" " alt="" coords="1468,379,1527,405"/>
-<area shape="rect" href="effects_8h.html" title=" " alt="" coords="1338,229,1409,256"/>
-<area shape="rect" href="physics_8h.html" title=" " alt="" coords="853,229,929,256"/>
-<area shape="rect" href="manager_8h.html" title=" " alt="" coords="745,229,828,256"/>
-<area shape="rect" href="script_8h.html" title=" " alt="" coords="797,155,861,181"/>
-<area shape="rect" href="map_8h.html" title=" " alt="" coords="987,155,1045,181"/>
-<area shape="rect" href="fade_8h.html" title=" " alt="" coords="1325,304,1382,331"/>
+<area shape="rect" href="transitions_8h.html" title=" " alt="" coords="1999,379,2091,405"/>
+<area shape="rect" href="roomid_8h.html" title=" " alt="" coords="2010,453,2081,480"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="1068,229,1129,256"/>
+<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="1119,304,1211,331"/>
+<area shape="rect" href="flags_8h.html" title=" " alt="" coords="1481,379,1540,405"/>
+<area shape="rect" href="effects_8h.html" title=" " alt="" coords="1351,229,1422,256"/>
+<area shape="rect" href="physics_8h.html" title=" " alt="" coords="866,229,942,256"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="759,229,841,256"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="837,155,901,181"/>
+<area shape="rect" href="map_8h.html" title=" " alt="" coords="1027,155,1085,181"/>
+<area shape="rect" href="fade_8h.html" title=" " alt="" coords="1338,304,1395,331"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -7202,7 +7204,7 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_variable" href="player_8c.html#ad0ebd6e5dfd4a6e9a69cecf2dd88c3cc">sTiles</a> + 6,</div>
 <div class="line">    <a class="code hl_variable" href="player_8c.html#ad0ebd6e5dfd4a6e9a69cecf2dd88c3cc">sTiles</a> + 9,</div>
 <div class="line">}</div>
-<div class="ttc" id="aplayer_8c_html_ad0ebd6e5dfd4a6e9a69cecf2dd88c3cc"><div class="ttname"><a href="player_8c.html#ad0ebd6e5dfd4a6e9a69cecf2dd88c3cc">sTiles</a></div><div class="ttdeci">static const u16 sTiles[]</div><div class="ttdef"><b>Definition:</b> player.c:2340</div></div>
+<div class="ttc" id="aplayer_8c_html_ad0ebd6e5dfd4a6e9a69cecf2dd88c3cc"><div class="ttname"><a href="player_8c.html#ad0ebd6e5dfd4a6e9a69cecf2dd88c3cc">sTiles</a></div><div class="ttdeci">static const u16 sTiles[]</div><div class="ttdef"><b>Definition:</b> player.c:2341</div></div>
 </div><!-- fragment -->
 </div>
 </div>
