@@ -84,9 +84,10 @@ $(function() {
 
 <p>Sensor Blade Trap enemy.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;<a class="el" href="enemy_8h_source.html">enemy.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="collision_8h_source.html">collision.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="enemy_8h_source.html">enemy.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="map_8h_source.html">map.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="physics_8h_source.html">physics.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="collision_8h_source.html">collision.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for sensorBladeTrap.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -94,31 +95,34 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="sensorBladeTrap_8c__incl.png" border="0" usemap="#asrc_2enemy_2sensorBladeTrap_8c" alt=""/></div>
 <map name="asrc_2enemy_2sensorBladeTrap_8c" id="asrc_2enemy_2sensorBladeTrap_8c">
-<area shape="rect" title="Sensor Blade Trap enemy." alt="" coords="541,5,736,32"/>
-<area shape="rect" href="enemy_8h.html" title=" " alt="" coords="274,80,345,107"/>
-<area shape="rect" href="physics_8h.html" title=" " alt="" coords="601,155,677,181"/>
-<area shape="rect" href="collision_8h.html" title=" " alt="" coords="701,155,779,181"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="341,379,408,405"/>
-<area shape="rect" href="asm_8h.html" title=" " alt="" coords="309,229,366,256"/>
-<area shape="rect" href="sound_8h.html" title=" " alt="" coords="245,304,312,331"/>
-<area shape="rect" href="effects_8h.html" title=" " alt="" coords="398,155,469,181"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="470,229,533,256"/>
-<area shape="rect" href="flags_8h.html" title=" " alt="" coords="5,229,64,256"/>
-<area shape="rect" href="common_8h.html" title=" " alt="" coords="88,229,171,256"/>
-<area shape="rect" href="projectile_8h.html" title=" " alt="" coords="493,155,577,181"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="477,453,555,480"/>
-<area shape="rect" title=" " alt="" coords="201,528,265,555"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="759,528,833,555"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="857,528,924,555"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="411,603,474,629"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="290,528,382,555"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="407,528,479,555"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="554,528,622,555"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="647,528,735,555"/>
-<area shape="rect" title=" " alt="" coords="762,603,830,629"/>
-<area shape="rect" title=" " alt="" coords="411,677,475,704"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="438,304,498,331"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="523,304,587,331"/>
+<area shape="rect" title="Sensor Blade Trap enemy." alt="" coords="365,5,559,32"/>
+<area shape="rect" href="collision_8h.html" title=" " alt="" coords="5,155,84,181"/>
+<area shape="rect" href="enemy_8h.html" title=" " alt="" coords="391,80,461,107"/>
+<area shape="rect" href="map_8h.html" title=" " alt="" coords="731,155,788,181"/>
+<area shape="rect" href="physics_8h.html" title=" " alt="" coords="631,155,707,181"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="438,379,505,405"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="213,229,276,256"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="583,453,661,480"/>
+<area shape="rect" title=" " alt="" coords="287,528,351,555"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="935,528,1008,555"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="843,528,910,555"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="487,603,549,629"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="472,528,564,555"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="375,528,447,555"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="588,528,656,555"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="681,528,769,555"/>
+<area shape="rect" title=" " alt="" coords="937,603,1005,629"/>
+<area shape="rect" title=" " alt="" coords="486,677,550,704"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="128,304,188,331"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="213,304,277,331"/>
+<area shape="rect" href="asm_8h.html" title=" " alt="" coords="356,229,413,256"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="438,229,505,256"/>
+<area shape="rect" href="effects_8h.html" title=" " alt="" coords="108,155,179,181"/>
+<area shape="rect" href="flags_8h.html" title=" " alt="" coords="511,304,570,331"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="579,229,662,256"/>
+<area shape="rect" href="projectile_8h.html" title=" " alt="" coords="203,155,287,181"/>
+<area shape="rect" href="screen_8h.html" title=" " alt="" coords="788,229,859,256"/>
+<area shape="rect" href="fade_8h.html" title=" " alt="" coords="788,304,845,331"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -143,10 +147,6 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a1da842e7ac38a096c6134f9d9d58fa42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensorBladeTrap_8c.html#a1da842e7ac38a096c6134f9d9d58fa42">gUnk_02027EB4</a> []</td></tr>
-<tr class="separator:a1da842e7ac38a096c6134f9d9d58fa42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38c48fb75e6647eec33936b7df28d424"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensorBladeTrap_8c.html#a38c48fb75e6647eec33936b7df28d424">gUnk_0200D654</a> []</td></tr>
-<tr class="separator:a38c48fb75e6647eec33936b7df28d424"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace8fed7cd5d34836ac1aca4e54f2d04d"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensorBladeTrap_8c.html#ace8fed7cd5d34836ac1aca4e54f2d04d">gUnk_080CD3C4</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
 <tr class="separator:ace8fed7cd5d34836ac1aca4e54f2d04d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac066cdfb21f57fb1fe095c1dc14c11bc"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensorBladeTrap_8c.html#ac066cdfb21f57fb1fe095c1dc14c11bc">gUnk_080CD3D4</a> []</td></tr>
@@ -328,50 +328,6 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a38c48fb75e6647eec33936b7df28d424" name="a38c48fb75e6647eec33936b7df28d424"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38c48fb75e6647eec33936b7df28d424">&#9670;&nbsp;</a></span>gUnk_0200D654</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gUnk_0200D654[]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1da842e7ac38a096c6134f9d9d58fa42" name="a1da842e7ac38a096c6134f9d9d58fa42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1da842e7ac38a096c6134f9d9d58fa42">&#9670;&nbsp;</a></span>gUnk_02027EB4</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gUnk_02027EB4[]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ace8fed7cd5d34836ac1aca4e54f2d04d" name="ace8fed7cd5d34836ac1aca4e54f2d04d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ace8fed7cd5d34836ac1aca4e54f2d04d">&#9670;&nbsp;</a></span>gUnk_080CD3C4</h2>
 
@@ -393,10 +349,10 @@ Variables</h2></td></tr>
 <div class="line">    <a class="code hl_function" href="sensorBladeTrap_8c.html#a5bd100b1225d34c87e1ac2be6b883166">sub_0802BA8C</a>,</div>
 <div class="line">    <a class="code hl_function" href="sensorBladeTrap_8c.html#afaf2dfcea2b16370b3bfc8e6d54a15e4">sub_0802BAFC</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="asensorBladeTrap_8c_html_a27d0dad6ea5f2d42b7894f1cb846c0b8"><div class="ttname"><a href="sensorBladeTrap_8c.html#a27d0dad6ea5f2d42b7894f1cb846c0b8">sub_0802BA18</a></div><div class="ttdeci">void sub_0802BA18(Entity *this)</div><div class="ttdef"><b>Definition:</b> sensorBladeTrap.c:35</div></div>
-<div class="ttc" id="asensorBladeTrap_8c_html_a3d549295d9d86a2a4904b82a5f3e40eb"><div class="ttname"><a href="sensorBladeTrap_8c.html#a3d549295d9d86a2a4904b82a5f3e40eb">sub_0802B9EC</a></div><div class="ttdeci">void sub_0802B9EC(Entity *this)</div><div class="ttdef"><b>Definition:</b> sensorBladeTrap.c:28</div></div>
-<div class="ttc" id="asensorBladeTrap_8c_html_a5bd100b1225d34c87e1ac2be6b883166"><div class="ttname"><a href="sensorBladeTrap_8c.html#a5bd100b1225d34c87e1ac2be6b883166">sub_0802BA8C</a></div><div class="ttdeci">void sub_0802BA8C(Entity *this)</div><div class="ttdef"><b>Definition:</b> sensorBladeTrap.c:63</div></div>
-<div class="ttc" id="asensorBladeTrap_8c_html_afaf2dfcea2b16370b3bfc8e6d54a15e4"><div class="ttname"><a href="sensorBladeTrap_8c.html#afaf2dfcea2b16370b3bfc8e6d54a15e4">sub_0802BAFC</a></div><div class="ttdeci">void sub_0802BAFC(Entity *this)</div><div class="ttdef"><b>Definition:</b> sensorBladeTrap.c:88</div></div>
+<div class="ttc" id="asensorBladeTrap_8c_html_a27d0dad6ea5f2d42b7894f1cb846c0b8"><div class="ttname"><a href="sensorBladeTrap_8c.html#a27d0dad6ea5f2d42b7894f1cb846c0b8">sub_0802BA18</a></div><div class="ttdeci">void sub_0802BA18(Entity *this)</div><div class="ttdef"><b>Definition:</b> sensorBladeTrap.c:32</div></div>
+<div class="ttc" id="asensorBladeTrap_8c_html_a3d549295d9d86a2a4904b82a5f3e40eb"><div class="ttname"><a href="sensorBladeTrap_8c.html#a3d549295d9d86a2a4904b82a5f3e40eb">sub_0802B9EC</a></div><div class="ttdeci">void sub_0802B9EC(Entity *this)</div><div class="ttdef"><b>Definition:</b> sensorBladeTrap.c:25</div></div>
+<div class="ttc" id="asensorBladeTrap_8c_html_a5bd100b1225d34c87e1ac2be6b883166"><div class="ttname"><a href="sensorBladeTrap_8c.html#a5bd100b1225d34c87e1ac2be6b883166">sub_0802BA8C</a></div><div class="ttdeci">void sub_0802BA8C(Entity *this)</div><div class="ttdef"><b>Definition:</b> sensorBladeTrap.c:60</div></div>
+<div class="ttc" id="asensorBladeTrap_8c_html_afaf2dfcea2b16370b3bfc8e6d54a15e4"><div class="ttname"><a href="sensorBladeTrap_8c.html#afaf2dfcea2b16370b3bfc8e6d54a15e4">sub_0802BAFC</a></div><div class="ttdeci">void sub_0802BAFC(Entity *this)</div><div class="ttdef"><b>Definition:</b> sensorBladeTrap.c:85</div></div>
 </div><!-- fragment -->
 </div>
 </div>
