@@ -6480,7 +6480,7 @@ var searchData=
   ['sub_5f080adca0_6477',['sub_080ADCA0',['../playerItemGustJar_8c.html#af292597cb8675da351e271f17eafb03f',1,'playerItemGustJar.c']]],
   ['sub_5f080adcdc_6478',['sub_080ADCDC',['../playerItemGustJar_8c.html#aec92978279eab096432047f084fe11ca',1,'playerItemGustJar.c']]],
   ['sub_5f080add70_6479',['sub_080ADD70',['../vram_8c.html#ab38f1c1b93f317c655f209202cb66292',1,'sub_080ADD70(void):&#160;vram.c'],['../functions_8h.html#ab38f1c1b93f317c655f209202cb66292',1,'sub_080ADD70(void):&#160;vram.c']]],
-  ['sub_5f080addd8_6480',['sub_080ADDD8',['../object9_8c.html#a67f018e20c7185674406bad3847ef21d',1,'sub_080ADDD8(u32, u32):&#160;vram.c'],['../vram_8c.html#a50ee8ffa25b78642f72d8405a561a198',1,'sub_080ADDD8(u32, u32):&#160;vram.c']]],
+  ['sub_5f080addd8_6480',['sub_080ADDD8',['../object9_8c.html#a50ee8ffa25b78642f72d8405a561a198',1,'sub_080ADDD8(u32, u32):&#160;vram.c'],['../vram_8c.html#a50ee8ffa25b78642f72d8405a561a198',1,'sub_080ADDD8(u32, u32):&#160;vram.c']]],
   ['sub_5f080ade24_6481',['sub_080ADE24',['../game_8c.html#ab34325f4ba4432d464a8163e3de90d2c',1,'sub_080ADE24(void):&#160;vram.c'],['../vram_8c.html#ab34325f4ba4432d464a8163e3de90d2c',1,'sub_080ADE24(void):&#160;vram.c']]],
   ['sub_5f080ade74_6482',['sub_080ADE74',['../vram_8c.html#a984243c00350a992eed4ca2796561a16',1,'vram.c']]],
   ['sub_5f080ae0c8_6483',['sub_080AE0C8',['../vram_8c.html#a24c89c9f14724620a95f9a03da0a6b06',1,'vram.c']]],

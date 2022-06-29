@@ -224,7 +224,7 @@ var searchData=
   ['loadroomtileentities_221',['LoadRoomTileEntities',['../room_8c.html#a25c8877bb1e111f00176f171a7631a36',1,'LoadRoomTileEntities(TileEntity *list):&#160;room.c'],['../room_8h.html#a2e40177640dd38cec546da5529c74541',1,'LoadRoomTileEntities():&#160;room.h']]],
   ['loadroomvisittile_222',['LoadRoomVisitTile',['../room_8c.html#ada4a5c6c5c4415b8540f2eda22c8dcfc',1,'room.c']]],
   ['loadsmallchesttile_223',['LoadSmallChestTile',['../room_8c.html#aa3920f06029f4c972a5b8581505f5cad',1,'room.c']]],
-  ['loadswapgfx_224',['LoadSwapGFX',['../vram_8c.html#aa39c73623975ce283c089f726d67ec84',1,'LoadSwapGFX(Entity *entity, u32 count, u32 slotIndex)):&#160;vram.c'],['../functions_8h.html#aa47d25e7a50c1c92665fa6510f6ba2dc',1,'LoadSwapGFX(Entity *, u16, u32):&#160;functions.h']]],
+  ['loadswapgfx_224',['LoadSwapGFX',['../vram_8c.html#a888da3c8bd607a60c64774d928a682d9',1,'LoadSwapGFX(Entity *entity, u32 count, u32 slotIndex):&#160;vram.c'],['../functions_8h.html#aa47d25e7a50c1c92665fa6510f6ba2dc',1,'LoadSwapGFX(Entity *, u16, u32):&#160;functions.h']]],
   ['local_225',['local',['../object6A_8c.html#a08023ea6765c99d60a6a3840cd07156e',1,'object6A.c']]],
   ['localflag_226',['localFlag',['../structTileEntity.html#a88c6911fdb09f124abbddecf9cc81e7c',1,'TileEntity']]],
   ['localflagoffset_227',['localFlagOffset',['../structArea.html#ae415ece2bcb3edb7933d68762dc4a53a',1,'Area']]],
