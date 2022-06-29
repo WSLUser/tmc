@@ -1,0 +1,8 @@
+<map id="ChuchuBossEntity" name="ChuchuBossEntity">
+<area shape="rect" id="node1" title=" " alt="" coords="75,333,203,360"/>
+<area shape="rect" id="node2" href="$structEntity.html" title="Container for instantiable behavior." alt="" coords="112,243,167,269"/>
+<area shape="rect" id="node3" href="$unionSplitWord.html" title=" " alt="" coords="5,5,84,32"/>
+<area shape="rect" id="node4" href="$structHitbox.html" title="Hitbox structure." alt="" coords="130,5,189,32"/>
+<area shape="rect" id="node5" href="$unionSplitHWord.html" title=" " alt="" coords="213,5,301,32"/>
+<area shape="rect" id="node6" href="$structHelper.html" title=" " alt="" coords="191,243,251,269"/>
+</map>

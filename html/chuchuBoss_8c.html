@@ -76,6 +76,8 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">chuchuBoss.c File Reference<div class="ingroups"><a class="el" href="group__Entities.html">Entities</a> &raquo; <a class="el" href="group__Enemies.html">Enemies</a></div></div></div>
@@ -84,7 +86,9 @@ $(function() {
 
 <p>Chuchu Boss enemy.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;<a class="el" href="enemy_8h_source.html">enemy.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="global_8h_source.html">global.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="enemy_8h_source.html">enemy.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="object_8h_source.html">object.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="functions_8h_source.html">functions.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for chuchuBoss.c:</div>
@@ -93,150 +97,199 @@ $(function() {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="chuchuBoss_8c__incl.png" border="0" usemap="#asrc_2enemy_2chuchuBoss_8c" alt=""/></div>
 <map name="asrc_2enemy_2chuchuBoss_8c" id="asrc_2enemy_2chuchuBoss_8c">
-<area shape="rect" title="Chuchu Boss enemy." alt="" coords="498,5,666,32"/>
-<area shape="rect" href="enemy_8h.html" title=" " alt="" coords="217,155,288,181"/>
-<area shape="rect" href="functions_8h.html" title=" " alt="" coords="827,80,913,107"/>
-<area shape="rect" href="global_8h.html" title=" " alt="" coords="751,453,818,480"/>
-<area shape="rect" href="asm_8h.html" title=" " alt="" coords="5,304,63,331"/>
-<area shape="rect" href="sound_8h.html" title=" " alt="" coords="71,379,138,405"/>
-<area shape="rect" href="effects_8h.html" title=" " alt="" coords="449,229,520,256"/>
-<area shape="rect" href="entity_8h.html" title=" " alt="" coords="659,304,721,331"/>
-<area shape="rect" href="flags_8h.html" title=" " alt="" coords="162,379,221,405"/>
-<area shape="rect" href="common_8h.html" title=" " alt="" coords="189,304,271,331"/>
-<area shape="rect" href="projectile_8h.html" title=" " alt="" coords="341,229,425,256"/>
-<area shape="rect" href="gba_8h.html" title=" " alt="" coords="896,528,975,555"/>
-<area shape="rect" title=" " alt="" coords="601,603,665,629"/>
-<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1248,603,1321,629"/>
-<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1157,603,1223,629"/>
-<area shape="rect" href="types_8h.html" title=" " alt="" coords="800,677,863,704"/>
-<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="785,603,877,629"/>
-<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="689,603,761,629"/>
-<area shape="rect" href="macro_8h.html" title=" " alt="" coords="901,603,969,629"/>
-<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="994,603,1082,629"/>
-<area shape="rect" title=" " alt="" coords="1251,677,1319,704"/>
-<area shape="rect" title=" " alt="" coords="799,752,863,779"/>
-<area shape="rect" href="color_8h.html" title=" " alt="" coords="573,379,633,405"/>
-<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="658,379,722,405"/>
-<area shape="rect" href="manager_8h.html" title=" " alt="" coords="938,229,1021,256"/>
-<area shape="rect" href="physics_8h.html" title=" " alt="" coords="544,229,620,256"/>
-<area shape="rect" href="player_8h.html" title=" " alt="" coords="847,229,914,256"/>
-<area shape="rect" href="room_8h.html" title=" " alt="" coords="1045,229,1106,256"/>
-<area shape="rect" href="structures_8h.html" title=" " alt="" coords="783,155,874,181"/>
-<area shape="rect" href="script_8h.html" title=" " alt="" coords="695,155,759,181"/>
-<area shape="rect" href="map_8h.html" title=" " alt="" coords="1131,229,1188,256"/>
-<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="949,304,1041,331"/>
-<area shape="rect" href="screen_8h.html" title=" " alt="" coords="1117,304,1188,331"/>
-<area shape="rect" href="fade_8h.html" title=" " alt="" coords="1080,379,1137,405"/>
+<area shape="rect" title="Chuchu Boss enemy." alt="" coords="472,5,640,32"/>
+<area shape="rect" href="global_8h.html" title=" " alt="" coords="909,453,976,480"/>
+<area shape="rect" href="enemy_8h.html" title=" " alt="" coords="363,155,434,181"/>
+<area shape="rect" href="object_8h.html" title=" " alt="" coords="617,155,684,181"/>
+<area shape="rect" href="functions_8h.html" title=" " alt="" coords="1047,80,1132,107"/>
+<area shape="rect" href="gba_8h.html" title=" " alt="" coords="1045,528,1123,555"/>
+<area shape="rect" title=" " alt="" coords="769,603,833,629"/>
+<area shape="rect" href="defines_8h.html" title=" " alt="" coords="1327,603,1401,629"/>
+<area shape="rect" href="io__reg_8h.html" title=" " alt="" coords="1425,603,1492,629"/>
+<area shape="rect" href="types_8h.html" title=" " alt="" coords="979,677,1042,704"/>
+<area shape="rect" href="multi__boot_8h.html" title=" " alt="" coords="858,603,950,629"/>
+<area shape="rect" href="syscall_8h.html" title=" " alt="" coords="975,603,1047,629"/>
+<area shape="rect" href="macro_8h.html" title=" " alt="" coords="1122,603,1190,629"/>
+<area shape="rect" href="isagbprint_8h.html" title=" " alt="" coords="1215,603,1303,629"/>
+<area shape="rect" title=" " alt="" coords="1330,677,1398,704"/>
+<area shape="rect" title=" " alt="" coords="979,752,1043,779"/>
+<area shape="rect" href="asm_8h.html" title=" " alt="" coords="94,229,151,256"/>
+<area shape="rect" href="sound_8h.html" title=" " alt="" coords="365,229,432,256"/>
+<area shape="rect" href="effects_8h.html" title=" " alt="" coords="615,229,686,256"/>
+<area shape="rect" href="entity_8h.html" title=" " alt="" coords="981,304,1043,331"/>
+<area shape="rect" href="flags_8h.html" title=" " alt="" coords="176,229,235,256"/>
+<area shape="rect" href="common_8h.html" title=" " alt="" coords="259,229,341,256"/>
+<area shape="rect" href="projectile_8h.html" title=" " alt="" coords="507,229,591,256"/>
+<area shape="rect" href="color_8h.html" title=" " alt="" coords="947,379,1007,405"/>
+<area shape="rect" href="sprite_8h.html" title=" " alt="" coords="1032,379,1096,405"/>
+<area shape="rect" href="room_8h.html" title=" " alt="" coords="863,229,924,256"/>
+<area shape="rect" href="physics_8h.html" title=" " alt="" coords="762,229,838,256"/>
+<area shape="rect" href="player_8h.html" title=" " alt="" coords="1100,229,1167,256"/>
+<area shape="rect" href="droptables_8h.html" title=" " alt="" coords="813,304,905,331"/>
+<area shape="rect" href="manager_8h.html" title=" " alt="" coords="1292,229,1375,256"/>
+<area shape="rect" href="structures_8h.html" title=" " alt="" coords="1155,155,1245,181"/>
+<area shape="rect" href="script_8h.html" title=" " alt="" coords="961,155,1025,181"/>
+<area shape="rect" href="map_8h.html" title=" " alt="" coords="1450,229,1507,256"/>
+<area shape="rect" href="screen_8h.html" title=" " alt="" coords="1439,304,1510,331"/>
+<area shape="rect" href="fade_8h.html" title=" " alt="" coords="1453,379,1510,405"/>
 </map>
 </div>
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structHelper.html">Helper</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstruct__080CC1B8.html">struct_080CC1B8</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ad9d9839ea73fbe32257e340298da916d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#ad9d9839ea73fbe32257e340298da916d">NENT_DEPRECATED</a></td></tr>
+<tr class="separator:ad9d9839ea73fbe32257e340298da916d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a3f392be2e17a6745c1d18ca550e346d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a3f392be2e17a6745c1d18ca550e346d4">ChuchuBoss</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
 <tr class="separator:a3f392be2e17a6745c1d18ca550e346d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66864dad0d6db8cdaa7179e11ca86f22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a66864dad0d6db8cdaa7179e11ca86f22">ChuchuBoss_OnKnockback</a> (<a class="el" href="structEntity.html">Entity</a> *this)</td></tr>
-<tr class="separator:a66864dad0d6db8cdaa7179e11ca86f22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f2a91f59ee6522d2481660e987c8d3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a7f2a91f59ee6522d2481660e987c8d3b">ChuchuBoss_OnTick</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a7f2a91f59ee6522d2481660e987c8d3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa8385d7879b225349b2275c7b4cddf7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#aaa8385d7879b225349b2275c7b4cddf7">ChuchuBoss_OnDeath</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:aaa8385d7879b225349b2275c7b4cddf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a347e8ad49c7167e6d1878fa95ce76cc7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a347e8ad49c7167e6d1878fa95ce76cc7">sub_08025DD8</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a347e8ad49c7167e6d1878fa95ce76cc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c413909584486d51a0ba079f78d8d91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a9c413909584486d51a0ba079f78d8d91">sub_08026060</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a9c413909584486d51a0ba079f78d8d91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39b094f6165408913bbd5f25854a104b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a39b094f6165408913bbd5f25854a104b">sub_08026110</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a39b094f6165408913bbd5f25854a104b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9971b5ee82a3fb7337748da8b9af36d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#ab9971b5ee82a3fb7337748da8b9af36d">sub_080272D4</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:ab9971b5ee82a3fb7337748da8b9af36d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81244fa60f4a87923b56fd0ec6ae1435"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a81244fa60f4a87923b56fd0ec6ae1435">sub_0802720C</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a81244fa60f4a87923b56fd0ec6ae1435"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad72f3de89e6df2e309d2487ffe7c159c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#ad72f3de89e6df2e309d2487ffe7c159c">sub_08026090</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:ad72f3de89e6df2e309d2487ffe7c159c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0058462bddff00ba95756514af3bb10a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a0058462bddff00ba95756514af3bb10a">sub_0802626C</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a0058462bddff00ba95756514af3bb10a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add75ba3998085bde6d5370b361a9405a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#add75ba3998085bde6d5370b361a9405a">sub_08026580</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:add75ba3998085bde6d5370b361a9405a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a8332a00b6b9e151170200566d810d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a3a8332a00b6b9e151170200566d810d9">sub_08026634</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a3a8332a00b6b9e151170200566d810d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84d6c73fe8c1740d4d985c256c04c99c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a84d6c73fe8c1740d4d985c256c04c99c">sub_08026750</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a84d6c73fe8c1740d4d985c256c04c99c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32fe681aff4a98775c671e8a3dba678f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a32fe681aff4a98775c671e8a3dba678f">sub_0802686C</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a32fe681aff4a98775c671e8a3dba678f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ad4b103f82443d5edbb9427c7d4884c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a6ad4b103f82443d5edbb9427c7d4884c">sub_080268C8</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a6ad4b103f82443d5edbb9427c7d4884c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae886e7cf97a317e612d324b032b327fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#ae886e7cf97a317e612d324b032b327fe">sub_0802694C</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:ae886e7cf97a317e612d324b032b327fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d358eae83f13b911dbc7031c8bbe13c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a6d358eae83f13b911dbc7031c8bbe13c">sub_08026C40</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a6d358eae83f13b911dbc7031c8bbe13c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae47e508262e181f8660ed326f4a7a54"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#aae47e508262e181f8660ed326f4a7a54">sub_08026E1C</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:aae47e508262e181f8660ed326f4a7a54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a0a1fe15d49939cbdc91f3634951d8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a5a0a1fe15d49939cbdc91f3634951d8f">sub_08026FA4</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a5a0a1fe15d49939cbdc91f3634951d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a270c6cf208f2985c4752c990cc512d9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a270c6cf208f2985c4752c990cc512d9d">sub_08027064</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a270c6cf208f2985c4752c990cc512d9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af47a135ad6c4238adcac97d28f8f606a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#af47a135ad6c4238adcac97d28f8f606a">sub_08026F1C</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:af47a135ad6c4238adcac97d28f8f606a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4665a494e22842f6c32614824a3afbb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#ae4665a494e22842f6c32614824a3afbb">sub_080262A8</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:ae4665a494e22842f6c32614824a3afbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a3ce0d051a3af2c0cb1ee4052d45bac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a9a3ce0d051a3af2c0cb1ee4052d45bac">sub_08026328</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a9a3ce0d051a3af2c0cb1ee4052d45bac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba69be8588af9dc23be8adad4ebce6e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#aba69be8588af9dc23be8adad4ebce6e8">sub_08026358</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:aba69be8588af9dc23be8adad4ebce6e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae58cd284a607546d40eeff7392ce889f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#ae58cd284a607546d40eeff7392ce889f">sub_080263B4</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:ae58cd284a607546d40eeff7392ce889f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a225e0857fcfd34bf3e70b8d8a38e69f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a225e0857fcfd34bf3e70b8d8a38e69f5">sub_08026414</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a225e0857fcfd34bf3e70b8d8a38e69f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f5f31b74ed1843c559c96148a18580e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a0f5f31b74ed1843c559c96148a18580e">sub_0802647C</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a0f5f31b74ed1843c559c96148a18580e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1d7e17f00e0070f6ee7b3342f231430"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#ad1d7e17f00e0070f6ee7b3342f231430">sub_080264AC</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:ad1d7e17f00e0070f6ee7b3342f231430"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafc1786b9683cfa675aca7b987302a5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#aafc1786b9683cfa675aca7b987302a5d">sub_080264D4</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:aafc1786b9683cfa675aca7b987302a5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5315aa001e0962fc7e4caf8ed60c40b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a5315aa001e0962fc7e4caf8ed60c40b3">sub_0802650C</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a5315aa001e0962fc7e4caf8ed60c40b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93f34209deea93819a54813d17d430b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a93f34209deea93819a54813d17d430b8">sub_0802653C</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a93f34209deea93819a54813d17d430b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19b80ffef535398468b1211eeb4985a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a19b80ffef535398468b1211eeb4985a4">sub_08026774</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a19b80ffef535398468b1211eeb4985a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f1e2d2eee3e93de2e31f38976854f15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a1f1e2d2eee3e93de2e31f38976854f15">sub_080267D0</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a1f1e2d2eee3e93de2e31f38976854f15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ecdd0ddbaac7c268b329e0770d4f94f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a1ecdd0ddbaac7c268b329e0770d4f94f">sub_08026808</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a1ecdd0ddbaac7c268b329e0770d4f94f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e90c6b4bd662e0512f21448809765a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a4e90c6b4bd662e0512f21448809765a6">sub_080268EC</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a4e90c6b4bd662e0512f21448809765a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e332fd1a56010c5147a552915f7b3e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a1e332fd1a56010c5147a552915f7b3e3">sub_08026914</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a1e332fd1a56010c5147a552915f7b3e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3eb148062dd82b45ebae660b84a2961"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#af3eb148062dd82b45ebae660b84a2961">sub_08026968</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:af3eb148062dd82b45ebae660b84a2961"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbb95805336203b7bd31d66a08b6eb2d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#adbb95805336203b7bd31d66a08b6eb2d">sub_080269CC</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:adbb95805336203b7bd31d66a08b6eb2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c755d8292a8a896f40645d93ecc0495"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a6c755d8292a8a896f40645d93ecc0495">sub_08026BE8</a> (<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a6c755d8292a8a896f40645d93ecc0495"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a853764027825d8417ae38eac36d0ecb5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a853764027825d8417ae38eac36d0ecb5">ChuchuBoss_OnKnockback</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *this)</td></tr>
+<tr class="separator:a853764027825d8417ae38eac36d0ecb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87aee27f7f8003cabfd845a149317bb1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a87aee27f7f8003cabfd845a149317bb1">ChuchuBoss_OnTick</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:a87aee27f7f8003cabfd845a149317bb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7b406838c6624483c08c0665cd9c3ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#ad7b406838c6624483c08c0665cd9c3ac">ChuchuBoss_OnDeath</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:ad7b406838c6624483c08c0665cd9c3ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a360a42161c494a502aec062d6258f9ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a360a42161c494a502aec062d6258f9ff">sub_08025DD8</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:a360a42161c494a502aec062d6258f9ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecda7238f5313594c2f25cc46a8458cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#aecda7238f5313594c2f25cc46a8458cb">sub_08026060</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:aecda7238f5313594c2f25cc46a8458cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7338719f0fec1d26a393aec9e22ea49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#ae7338719f0fec1d26a393aec9e22ea49">sub_08026090</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:ae7338719f0fec1d26a393aec9e22ea49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab344882bfb6fe48feb86520f75d0a31d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#ab344882bfb6fe48feb86520f75d0a31d">sub_08026110</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:ab344882bfb6fe48feb86520f75d0a31d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f3c0acec2687a32b4a713eaaa774ece"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a6f3c0acec2687a32b4a713eaaa774ece">sub_0802626C</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:a6f3c0acec2687a32b4a713eaaa774ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a381bfac07408d3520f7d94cf9608f47d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a381bfac07408d3520f7d94cf9608f47d">sub_080262A8</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:a381bfac07408d3520f7d94cf9608f47d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2d79ae35d400032ca15d3f29de21e14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#aa2d79ae35d400032ca15d3f29de21e14">sub_08026328</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:aa2d79ae35d400032ca15d3f29de21e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad930c9b85187ec54a2336701d538e159"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#ad930c9b85187ec54a2336701d538e159">sub_08026358</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:ad930c9b85187ec54a2336701d538e159"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7389f1fbd8af752c58241a27da4730e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a7389f1fbd8af752c58241a27da4730e1">sub_080263B4</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:a7389f1fbd8af752c58241a27da4730e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac78196b84bdc83699511b96a417df326"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#ac78196b84bdc83699511b96a417df326">sub_08026414</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:ac78196b84bdc83699511b96a417df326"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dc008cbcf52c102be01b41d61be5ce3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a5dc008cbcf52c102be01b41d61be5ce3">sub_0802647C</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:a5dc008cbcf52c102be01b41d61be5ce3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20e09c89a9d56a5dfa5259fefc68892b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a20e09c89a9d56a5dfa5259fefc68892b">sub_080264AC</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:a20e09c89a9d56a5dfa5259fefc68892b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bc8341008e3b1c05534929ffb2f0b31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a6bc8341008e3b1c05534929ffb2f0b31">sub_080264D4</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:a6bc8341008e3b1c05534929ffb2f0b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c2a7690b13af473ba9b2f9da361b904"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a4c2a7690b13af473ba9b2f9da361b904">sub_0802650C</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:a4c2a7690b13af473ba9b2f9da361b904"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae74944b1387c5434d6f485d931870494"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#ae74944b1387c5434d6f485d931870494">sub_0802653C</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:ae74944b1387c5434d6f485d931870494"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a858d17134cdd295122c930755cfb87b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a858d17134cdd295122c930755cfb87b2">sub_08026580</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:a858d17134cdd295122c930755cfb87b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46447df3c615920ea6431d6dbe3f5681"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a46447df3c615920ea6431d6dbe3f5681">sub_08026634</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:a46447df3c615920ea6431d6dbe3f5681"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e79cad00eaceb0aa2c5f76ff0f11052"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a1e79cad00eaceb0aa2c5f76ff0f11052">sub_08026750</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:a1e79cad00eaceb0aa2c5f76ff0f11052"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4347d3f6e4f2ca777ff359673585133"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#ad4347d3f6e4f2ca777ff359673585133">sub_08026774</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:ad4347d3f6e4f2ca777ff359673585133"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc45f0adc4694c94e5b8ee72dd1be459"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#acc45f0adc4694c94e5b8ee72dd1be459">sub_080267D0</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:acc45f0adc4694c94e5b8ee72dd1be459"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbbdb394e8bc0bb018e90dac264a5db1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#afbbdb394e8bc0bb018e90dac264a5db1">sub_08026808</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:afbbdb394e8bc0bb018e90dac264a5db1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a785b470cd6234eafa59cdae96ab7634d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a785b470cd6234eafa59cdae96ab7634d">sub_0802686C</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:a785b470cd6234eafa59cdae96ab7634d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad50e6cf940e6c2049ad027813eb49af9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#ad50e6cf940e6c2049ad027813eb49af9">sub_080268C8</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:ad50e6cf940e6c2049ad027813eb49af9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13b99f357c4de2fe393451cc1f274075"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a13b99f357c4de2fe393451cc1f274075">sub_080268EC</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:a13b99f357c4de2fe393451cc1f274075"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87b0b0519d2c4c2dece9735d7979cb3d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a87b0b0519d2c4c2dece9735d7979cb3d">sub_08026914</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:a87b0b0519d2c4c2dece9735d7979cb3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae51838433bacc3d0a475d869c5f6e11f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#ae51838433bacc3d0a475d869c5f6e11f">sub_0802694C</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:ae51838433bacc3d0a475d869c5f6e11f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a698110fe3158c07da38df5ae304edaf9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a698110fe3158c07da38df5ae304edaf9">sub_08026968</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:a698110fe3158c07da38df5ae304edaf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab90cdff21b8e88dea0b0b74e1f13d32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#aab90cdff21b8e88dea0b0b74e1f13d32">sub_080269CC</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:aab90cdff21b8e88dea0b0b74e1f13d32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4457e86cb16f1b3995bd29ea09d7a433"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a4457e86cb16f1b3995bd29ea09d7a433">sub_08026BE8</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:a4457e86cb16f1b3995bd29ea09d7a433"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a373d9df569ff81f5ed3c51c1a4de4935"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a373d9df569ff81f5ed3c51c1a4de4935">sub_08026C40</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:a373d9df569ff81f5ed3c51c1a4de4935"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a66e3dc0c1822ea98464c6e46dbbbd1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a7a66e3dc0c1822ea98464c6e46dbbbd1">sub_08026E1C</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:a7a66e3dc0c1822ea98464c6e46dbbbd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17cc8b79de43dcec52d7d133be2495f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a17cc8b79de43dcec52d7d133be2495f6">sub_08026F1C</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:a17cc8b79de43dcec52d7d133be2495f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd3c3ade7b433439b03c93c2b2b3b49a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#abd3c3ade7b433439b03c93c2b2b3b49a">sub_08026FA4</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:abd3c3ade7b433439b03c93c2b2b3b49a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1fa2413feb67719103b3a17604a5d9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#ae1fa2413feb67719103b3a17604a5d9f">sub_08027064</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:ae1fa2413feb67719103b3a17604a5d9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbfd1f6d23e70cb83ca6f02989975c3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#acbfd1f6d23e70cb83ca6f02989975c3e">sub_0802720C</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:acbfd1f6d23e70cb83ca6f02989975c3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35885bc05268d61e20f30932bdd91460"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a35885bc05268d61e20f30932bdd91460">sub_080272D4</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:a35885bc05268d61e20f30932bdd91460"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9953453128b5c9d1fcc66715cbc3e469"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a9953453128b5c9d1fcc66715cbc3e469">sub_08027548</a> ()</td></tr>
+<tr class="separator:a9953453128b5c9d1fcc66715cbc3e469"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25880e814c57cfc0fcbe6bba1a2d6ace"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a25880e814c57cfc0fcbe6bba1a2d6ace">sub_0802757C</a> ()</td></tr>
+<tr class="separator:a25880e814c57cfc0fcbe6bba1a2d6ace"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f6ea6b8e8ec575f214c336d05d56163"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a5f6ea6b8e8ec575f214c336d05d56163">sub_080276F4</a> ()</td></tr>
+<tr class="separator:a5f6ea6b8e8ec575f214c336d05d56163"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad69b51e07e9991cbb72dd72b9a99a575"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#ad69b51e07e9991cbb72dd72b9a99a575">sub_080277B8</a> ()</td></tr>
+<tr class="separator:ad69b51e07e9991cbb72dd72b9a99a575"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae075e5e505f680f538f03d9ed5d813e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#ae075e5e505f680f538f03d9ed5d813e7">sub_080277F8</a> ()</td></tr>
+<tr class="separator:ae075e5e505f680f538f03d9ed5d813e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a736d109d40dd3143516981889bcfe966"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a736d109d40dd3143516981889bcfe966">sub_08027870</a> ()</td></tr>
+<tr class="separator:a736d109d40dd3143516981889bcfe966"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c49d08b95f833bd335a45e0016f0d78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a7c49d08b95f833bd335a45e0016f0d78">sub_08027984</a> ()</td></tr>
+<tr class="separator:a7c49d08b95f833bd335a45e0016f0d78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac06ea422b57b8482c983ae5246c79e33"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#ac06ea422b57b8482c983ae5246c79e33">sub_080279AC</a> ()</td></tr>
+<tr class="separator:ac06ea422b57b8482c983ae5246c79e33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0cb16f3d112494091052e299bde10fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#ac0cb16f3d112494091052e299bde10fc">sub_080279E8</a> ()</td></tr>
+<tr class="separator:ac0cb16f3d112494091052e299bde10fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b5e773c9ee2a98d1d651cc963b1913a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a0b5e773c9ee2a98d1d651cc963b1913a">sub_08027A60</a> ()</td></tr>
+<tr class="separator:a0b5e773c9ee2a98d1d651cc963b1913a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cb7cc089467bd0030126a926e32b265"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a6cb7cc089467bd0030126a926e32b265">sub_08027AA4</a> ()</td></tr>
+<tr class="separator:a6cb7cc089467bd0030126a926e32b265"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fa41c749d8ec8f6b197ed0e64f4a7e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a5fa41c749d8ec8f6b197ed0e64f4a7e2">sub_08027B98</a> ()</td></tr>
+<tr class="separator:a5fa41c749d8ec8f6b197ed0e64f4a7e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a458bad3b98862ecbe7eb1740a8b64ccd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a458bad3b98862ecbe7eb1740a8b64ccd">sub_08027BBC</a> ()</td></tr>
+<tr class="separator:a458bad3b98862ecbe7eb1740a8b64ccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac555f5e9dd027523f1a5d2ed39274430"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#ac555f5e9dd027523f1a5d2ed39274430">sub_08027C54</a> ()</td></tr>
+<tr class="separator:ac555f5e9dd027523f1a5d2ed39274430"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aade671107803a0c41c0d4b72ced12caf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#aade671107803a0c41c0d4b72ced12caf">sub_08027C7C</a> (<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *, <a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>)</td></tr>
+<tr class="separator:aade671107803a0c41c0d4b72ced12caf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7051803def5b671d198e1811737018b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#ad7051803def5b671d198e1811737018b">sub_08027C9C</a> ()</td></tr>
+<tr class="separator:ad7051803def5b671d198e1811737018b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a866471d003555f60f4a7a1c20d2328e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a866471d003555f60f4a7a1c20d2328e8">sub_08027D20</a> ()</td></tr>
+<tr class="separator:a866471d003555f60f4a7a1c20d2328e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a4e6d7392c0a27aa8e56fda5a198aa20b"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a4e6d7392c0a27aa8e56fda5a198aa20b">ChuchuBoss_Functions</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a4e6d7392c0a27aa8e56fda5a198aa20b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a738497c098661e734354fecba13088a7"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a738497c098661e734354fecba13088a7">gUnk_080CC1B0</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a738497c098661e734354fecba13088a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6563224221be48eb4c7cf172e072432"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#ab6563224221be48eb4c7cf172e072432">gUnk_080CC1B8</a> []</td></tr>
-<tr class="separator:ab6563224221be48eb4c7cf172e072432"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad01c1842198d61757a141737f12b8ad6"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#ad01c1842198d61757a141737f12b8ad6">gUnk_080CC1C8</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:ad01c1842198d61757a141737f12b8ad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a565f18d01a1fde7e8339747d1ff4cb2a"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a565f18d01a1fde7e8339747d1ff4cb2a">gUnk_080CC1DC</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a565f18d01a1fde7e8339747d1ff4cb2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf50c0a46b2628f7e4221114a9516c3b"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#acf50c0a46b2628f7e4221114a9516c3b">gUnk_080CC20C</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:acf50c0a46b2628f7e4221114a9516c3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a8b532382973acd939be36eb7522812"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a9a8b532382973acd939be36eb7522812">ChuchuBoss_Functions</a> [])(<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:a9a8b532382973acd939be36eb7522812"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a090ad43c813d7293a6f04cd522172d"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a5a090ad43c813d7293a6f04cd522172d">gUnk_080CC1B0</a> [])(<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:a5a090ad43c813d7293a6f04cd522172d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c98e151ff4b37de567088bad004a311"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structstruct__080CC1B8.html">struct_080CC1B8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a5c98e151ff4b37de567088bad004a311">gUnk_080CC1B8</a> []</td></tr>
+<tr class="separator:a5c98e151ff4b37de567088bad004a311"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c0f8902f436362e872f8f4aab4b399f"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a7c0f8902f436362e872f8f4aab4b399f">gUnk_080CC1C8</a> [])(<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:a7c0f8902f436362e872f8f4aab4b399f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03855d829e03498a2f7ee83ef1e0dcd5"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a03855d829e03498a2f7ee83ef1e0dcd5">gUnk_080CC1DC</a> [])(<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:a03855d829e03498a2f7ee83ef1e0dcd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d42cd33661da961a21fdc70de79da14"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a7d42cd33661da961a21fdc70de79da14">gUnk_080CC20C</a> [])(<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:a7d42cd33661da961a21fdc70de79da14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a395221bec61062c33f5962dfa65c5396"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a395221bec61062c33f5962dfa65c5396">gUnk_080CC234</a> []</td></tr>
 <tr class="separator:a395221bec61062c33f5962dfa65c5396"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf7cc411e441a903f6895bb6ea727043"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#aaf7cc411e441a903f6895bb6ea727043">gUnk_080CC24F</a> []</td></tr>
 <tr class="separator:aaf7cc411e441a903f6895bb6ea727043"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a101203ee025d44965c36f1b2fa7a6d8e"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a101203ee025d44965c36f1b2fa7a6d8e">gUnk_080CC258</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a101203ee025d44965c36f1b2fa7a6d8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e77bf3024864afa6f90b14f54f77f35"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a9e77bf3024864afa6f90b14f54f77f35">gUnk_080CC264</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:a9e77bf3024864afa6f90b14f54f77f35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aced0af6d76b6b82fe5ccada6230b632c"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#aced0af6d76b6b82fe5ccada6230b632c">gUnk_080CC26C</a> [])(<a class="el" href="structEntity.html">Entity</a> *)</td></tr>
-<tr class="separator:aced0af6d76b6b82fe5ccada6230b632c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8449116acdd289e9ff57e59212aab11"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#af8449116acdd289e9ff57e59212aab11">gUnk_080CC258</a> [])(<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:af8449116acdd289e9ff57e59212aab11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab65ea78dda0a8ec8628441553a94173f"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#ab65ea78dda0a8ec8628441553a94173f">gUnk_080CC264</a> [])(<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:ab65ea78dda0a8ec8628441553a94173f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a939feb6e59f6fbd5880d611f0e29312f"><td class="memItemLeft" align="right" valign="top">void(*const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a939feb6e59f6fbd5880d611f0e29312f">gUnk_080CC26C</a> [])(<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *)</td></tr>
+<tr class="separator:a939feb6e59f6fbd5880d611f0e29312f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02251880980fd47b92cd9b01d1a6e2a0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a02251880980fd47b92cd9b01d1a6e2a0">gUnk_080CC278</a> []</td></tr>
 <tr class="separator:a02251880980fd47b92cd9b01d1a6e2a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb4efb192ce5a6af093863c8556252b2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#ace9d960e74685e2cd84b36132dbbf8aa">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#abb4efb192ce5a6af093863c8556252b2">gUnk_080CC27C</a> []</td></tr>
@@ -247,10 +300,29 @@ Variables</h2></td></tr>
 <tr class="separator:a1df51f1478119b80532d8dc7dfd1fede"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af20bb532d5a73a4c745140c894d3af3c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="types_8h.html#a9e382f207c65ca13ab4ae98363aeda80">s8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#af20bb532d5a73a4c745140c894d3af3c">gUnk_080CC2DC</a> []</td></tr>
 <tr class="separator:af20bb532d5a73a4c745140c894d3af3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13b52b52ebb019b460995d460146944f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structHitbox.html">Hitbox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a13b52b52ebb019b460995d460146944f">gUnk_080FD238</a></td></tr>
+<tr class="separator:a13b52b52ebb019b460995d460146944f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b6c33aa1187567ca55e58949502dcf1"><td class="memItemLeft" align="right" valign="top">asm non_matching chuchuBoss <a class="el" href="chuchuBoss_8c.html#ad7b406838c6624483c08c0665cd9c3ac">ChuchuBoss_OnDeath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="chuchuBoss_8c.html#a2b6c33aa1187567ca55e58949502dcf1">inc</a></td></tr>
+<tr class="separator:a2b6c33aa1187567ca55e58949502dcf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Chuchu Boss enemy. </p>
-</div><h2 class="groupheader">Function Documentation</h2>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ad9d9839ea73fbe32257e340298da916d" name="ad9d9839ea73fbe32257e340298da916d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9d9839ea73fbe32257e340298da916d">&#9670;&nbsp;</a></span>NENT_DEPRECATED</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define NENT_DEPRECATED</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
 <a id="a3f392be2e17a6745c1d18ca550e346d4" name="a3f392be2e17a6745c1d18ca550e346d4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3f392be2e17a6745c1d18ca550e346d4">&#9670;&nbsp;</a></span>ChuchuBoss()</h2>
 
@@ -269,34 +341,16 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aaa8385d7879b225349b2275c7b4cddf7" name="aaa8385d7879b225349b2275c7b4cddf7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa8385d7879b225349b2275c7b4cddf7">&#9670;&nbsp;</a></span>ChuchuBoss_OnDeath()</h2>
+<a id="ad7b406838c6624483c08c0665cd9c3ac" name="ad7b406838c6624483c08c0665cd9c3ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7b406838c6624483c08c0665cd9c3ac">&#9670;&nbsp;</a></span>ChuchuBoss_OnDeath()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void ChuchuBoss_OnDeath </td>
+          <td class="memname">asm non_matching chuchuBoss ChuchuBoss_OnDeath void ChuchuBoss_OnDeath </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a66864dad0d6db8cdaa7179e11ca86f22" name="a66864dad0d6db8cdaa7179e11ca86f22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66864dad0d6db8cdaa7179e11ca86f22">&#9670;&nbsp;</a></span>ChuchuBoss_OnKnockback()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ChuchuBoss_OnKnockback </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -305,8 +359,26 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a7f2a91f59ee6522d2481660e987c8d3b" name="a7f2a91f59ee6522d2481660e987c8d3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f2a91f59ee6522d2481660e987c8d3b">&#9670;&nbsp;</a></span>ChuchuBoss_OnTick()</h2>
+<a id="a853764027825d8417ae38eac36d0ecb5" name="a853764027825d8417ae38eac36d0ecb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a853764027825d8417ae38eac36d0ecb5">&#9670;&nbsp;</a></span>ChuchuBoss_OnKnockback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ChuchuBoss_OnKnockback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a87aee27f7f8003cabfd845a149317bb1" name="a87aee27f7f8003cabfd845a149317bb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87aee27f7f8003cabfd845a149317bb1">&#9670;&nbsp;</a></span>ChuchuBoss_OnTick()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -314,8 +386,8 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void ChuchuBoss_OnTick </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -323,17 +395,17 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a347e8ad49c7167e6d1878fa95ce76cc7" name="a347e8ad49c7167e6d1878fa95ce76cc7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a347e8ad49c7167e6d1878fa95ce76cc7">&#9670;&nbsp;</a></span>sub_08025DD8()</h2>
+<a id="a360a42161c494a502aec062d6258f9ff" name="a360a42161c494a502aec062d6258f9ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a360a42161c494a502aec062d6258f9ff">&#9670;&nbsp;</a></span>sub_08025DD8()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sub_08025DD8 </td>
+          <td class="memname">asm non_matching chuchuBoss sub_08025DD8 void sub_08025DD8 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -341,8 +413,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a9c413909584486d51a0ba079f78d8d91" name="a9c413909584486d51a0ba079f78d8d91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c413909584486d51a0ba079f78d8d91">&#9670;&nbsp;</a></span>sub_08026060()</h2>
+<a id="aecda7238f5313594c2f25cc46a8458cb" name="aecda7238f5313594c2f25cc46a8458cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecda7238f5313594c2f25cc46a8458cb">&#9670;&nbsp;</a></span>sub_08026060()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -350,8 +422,8 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08026060 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -359,8 +431,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ad72f3de89e6df2e309d2487ffe7c159c" name="ad72f3de89e6df2e309d2487ffe7c159c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad72f3de89e6df2e309d2487ffe7c159c">&#9670;&nbsp;</a></span>sub_08026090()</h2>
+<a id="ae7338719f0fec1d26a393aec9e22ea49" name="ae7338719f0fec1d26a393aec9e22ea49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7338719f0fec1d26a393aec9e22ea49">&#9670;&nbsp;</a></span>sub_08026090()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -368,8 +440,8 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08026090 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -377,8 +449,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a39b094f6165408913bbd5f25854a104b" name="a39b094f6165408913bbd5f25854a104b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39b094f6165408913bbd5f25854a104b">&#9670;&nbsp;</a></span>sub_08026110()</h2>
+<a id="ab344882bfb6fe48feb86520f75d0a31d" name="ab344882bfb6fe48feb86520f75d0a31d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab344882bfb6fe48feb86520f75d0a31d">&#9670;&nbsp;</a></span>sub_08026110()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -386,7 +458,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08026110 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -395,8 +467,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a0058462bddff00ba95756514af3bb10a" name="a0058462bddff00ba95756514af3bb10a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0058462bddff00ba95756514af3bb10a">&#9670;&nbsp;</a></span>sub_0802626C()</h2>
+<a id="a6f3c0acec2687a32b4a713eaaa774ece" name="a6f3c0acec2687a32b4a713eaaa774ece"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f3c0acec2687a32b4a713eaaa774ece">&#9670;&nbsp;</a></span>sub_0802626C()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -404,7 +476,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_0802626C </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -413,8 +485,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ae4665a494e22842f6c32614824a3afbb" name="ae4665a494e22842f6c32614824a3afbb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4665a494e22842f6c32614824a3afbb">&#9670;&nbsp;</a></span>sub_080262A8()</h2>
+<a id="a381bfac07408d3520f7d94cf9608f47d" name="a381bfac07408d3520f7d94cf9608f47d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a381bfac07408d3520f7d94cf9608f47d">&#9670;&nbsp;</a></span>sub_080262A8()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -422,7 +494,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_080262A8 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -431,8 +503,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a9a3ce0d051a3af2c0cb1ee4052d45bac" name="a9a3ce0d051a3af2c0cb1ee4052d45bac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a3ce0d051a3af2c0cb1ee4052d45bac">&#9670;&nbsp;</a></span>sub_08026328()</h2>
+<a id="aa2d79ae35d400032ca15d3f29de21e14" name="aa2d79ae35d400032ca15d3f29de21e14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2d79ae35d400032ca15d3f29de21e14">&#9670;&nbsp;</a></span>sub_08026328()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -440,7 +512,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08026328 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -449,8 +521,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aba69be8588af9dc23be8adad4ebce6e8" name="aba69be8588af9dc23be8adad4ebce6e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba69be8588af9dc23be8adad4ebce6e8">&#9670;&nbsp;</a></span>sub_08026358()</h2>
+<a id="ad930c9b85187ec54a2336701d538e159" name="ad930c9b85187ec54a2336701d538e159"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad930c9b85187ec54a2336701d538e159">&#9670;&nbsp;</a></span>sub_08026358()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -458,7 +530,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08026358 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -467,8 +539,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ae58cd284a607546d40eeff7392ce889f" name="ae58cd284a607546d40eeff7392ce889f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae58cd284a607546d40eeff7392ce889f">&#9670;&nbsp;</a></span>sub_080263B4()</h2>
+<a id="a7389f1fbd8af752c58241a27da4730e1" name="a7389f1fbd8af752c58241a27da4730e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7389f1fbd8af752c58241a27da4730e1">&#9670;&nbsp;</a></span>sub_080263B4()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -476,7 +548,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_080263B4 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -485,8 +557,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a225e0857fcfd34bf3e70b8d8a38e69f5" name="a225e0857fcfd34bf3e70b8d8a38e69f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a225e0857fcfd34bf3e70b8d8a38e69f5">&#9670;&nbsp;</a></span>sub_08026414()</h2>
+<a id="ac78196b84bdc83699511b96a417df326" name="ac78196b84bdc83699511b96a417df326"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac78196b84bdc83699511b96a417df326">&#9670;&nbsp;</a></span>sub_08026414()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -494,7 +566,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08026414 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -503,8 +575,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a0f5f31b74ed1843c559c96148a18580e" name="a0f5f31b74ed1843c559c96148a18580e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f5f31b74ed1843c559c96148a18580e">&#9670;&nbsp;</a></span>sub_0802647C()</h2>
+<a id="a5dc008cbcf52c102be01b41d61be5ce3" name="a5dc008cbcf52c102be01b41d61be5ce3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dc008cbcf52c102be01b41d61be5ce3">&#9670;&nbsp;</a></span>sub_0802647C()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -512,7 +584,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_0802647C </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -521,8 +593,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ad1d7e17f00e0070f6ee7b3342f231430" name="ad1d7e17f00e0070f6ee7b3342f231430"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1d7e17f00e0070f6ee7b3342f231430">&#9670;&nbsp;</a></span>sub_080264AC()</h2>
+<a id="a20e09c89a9d56a5dfa5259fefc68892b" name="a20e09c89a9d56a5dfa5259fefc68892b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20e09c89a9d56a5dfa5259fefc68892b">&#9670;&nbsp;</a></span>sub_080264AC()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -530,7 +602,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_080264AC </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -539,8 +611,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aafc1786b9683cfa675aca7b987302a5d" name="aafc1786b9683cfa675aca7b987302a5d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aafc1786b9683cfa675aca7b987302a5d">&#9670;&nbsp;</a></span>sub_080264D4()</h2>
+<a id="a6bc8341008e3b1c05534929ffb2f0b31" name="a6bc8341008e3b1c05534929ffb2f0b31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bc8341008e3b1c05534929ffb2f0b31">&#9670;&nbsp;</a></span>sub_080264D4()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -548,7 +620,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_080264D4 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -557,8 +629,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a5315aa001e0962fc7e4caf8ed60c40b3" name="a5315aa001e0962fc7e4caf8ed60c40b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5315aa001e0962fc7e4caf8ed60c40b3">&#9670;&nbsp;</a></span>sub_0802650C()</h2>
+<a id="a4c2a7690b13af473ba9b2f9da361b904" name="a4c2a7690b13af473ba9b2f9da361b904"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c2a7690b13af473ba9b2f9da361b904">&#9670;&nbsp;</a></span>sub_0802650C()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -566,7 +638,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_0802650C </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -575,8 +647,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a93f34209deea93819a54813d17d430b8" name="a93f34209deea93819a54813d17d430b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93f34209deea93819a54813d17d430b8">&#9670;&nbsp;</a></span>sub_0802653C()</h2>
+<a id="ae74944b1387c5434d6f485d931870494" name="ae74944b1387c5434d6f485d931870494"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae74944b1387c5434d6f485d931870494">&#9670;&nbsp;</a></span>sub_0802653C()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -584,7 +656,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_0802653C </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -593,8 +665,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="add75ba3998085bde6d5370b361a9405a" name="add75ba3998085bde6d5370b361a9405a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add75ba3998085bde6d5370b361a9405a">&#9670;&nbsp;</a></span>sub_08026580()</h2>
+<a id="a858d17134cdd295122c930755cfb87b2" name="a858d17134cdd295122c930755cfb87b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a858d17134cdd295122c930755cfb87b2">&#9670;&nbsp;</a></span>sub_08026580()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -602,7 +674,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08026580 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -611,8 +683,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a3a8332a00b6b9e151170200566d810d9" name="a3a8332a00b6b9e151170200566d810d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a8332a00b6b9e151170200566d810d9">&#9670;&nbsp;</a></span>sub_08026634()</h2>
+<a id="a46447df3c615920ea6431d6dbe3f5681" name="a46447df3c615920ea6431d6dbe3f5681"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46447df3c615920ea6431d6dbe3f5681">&#9670;&nbsp;</a></span>sub_08026634()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -620,7 +692,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08026634 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -629,8 +701,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a84d6c73fe8c1740d4d985c256c04c99c" name="a84d6c73fe8c1740d4d985c256c04c99c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84d6c73fe8c1740d4d985c256c04c99c">&#9670;&nbsp;</a></span>sub_08026750()</h2>
+<a id="a1e79cad00eaceb0aa2c5f76ff0f11052" name="a1e79cad00eaceb0aa2c5f76ff0f11052"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e79cad00eaceb0aa2c5f76ff0f11052">&#9670;&nbsp;</a></span>sub_08026750()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -638,7 +710,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08026750 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -647,8 +719,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a19b80ffef535398468b1211eeb4985a4" name="a19b80ffef535398468b1211eeb4985a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19b80ffef535398468b1211eeb4985a4">&#9670;&nbsp;</a></span>sub_08026774()</h2>
+<a id="ad4347d3f6e4f2ca777ff359673585133" name="ad4347d3f6e4f2ca777ff359673585133"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4347d3f6e4f2ca777ff359673585133">&#9670;&nbsp;</a></span>sub_08026774()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -656,7 +728,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08026774 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -665,8 +737,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a1f1e2d2eee3e93de2e31f38976854f15" name="a1f1e2d2eee3e93de2e31f38976854f15"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f1e2d2eee3e93de2e31f38976854f15">&#9670;&nbsp;</a></span>sub_080267D0()</h2>
+<a id="acc45f0adc4694c94e5b8ee72dd1be459" name="acc45f0adc4694c94e5b8ee72dd1be459"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc45f0adc4694c94e5b8ee72dd1be459">&#9670;&nbsp;</a></span>sub_080267D0()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -674,7 +746,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_080267D0 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -683,8 +755,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a1ecdd0ddbaac7c268b329e0770d4f94f" name="a1ecdd0ddbaac7c268b329e0770d4f94f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ecdd0ddbaac7c268b329e0770d4f94f">&#9670;&nbsp;</a></span>sub_08026808()</h2>
+<a id="afbbdb394e8bc0bb018e90dac264a5db1" name="afbbdb394e8bc0bb018e90dac264a5db1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbbdb394e8bc0bb018e90dac264a5db1">&#9670;&nbsp;</a></span>sub_08026808()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -692,7 +764,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08026808 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -701,8 +773,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a32fe681aff4a98775c671e8a3dba678f" name="a32fe681aff4a98775c671e8a3dba678f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32fe681aff4a98775c671e8a3dba678f">&#9670;&nbsp;</a></span>sub_0802686C()</h2>
+<a id="a785b470cd6234eafa59cdae96ab7634d" name="a785b470cd6234eafa59cdae96ab7634d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a785b470cd6234eafa59cdae96ab7634d">&#9670;&nbsp;</a></span>sub_0802686C()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -710,7 +782,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_0802686C </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -719,8 +791,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a6ad4b103f82443d5edbb9427c7d4884c" name="a6ad4b103f82443d5edbb9427c7d4884c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ad4b103f82443d5edbb9427c7d4884c">&#9670;&nbsp;</a></span>sub_080268C8()</h2>
+<a id="ad50e6cf940e6c2049ad027813eb49af9" name="ad50e6cf940e6c2049ad027813eb49af9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad50e6cf940e6c2049ad027813eb49af9">&#9670;&nbsp;</a></span>sub_080268C8()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -728,7 +800,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_080268C8 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -737,8 +809,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a4e90c6b4bd662e0512f21448809765a6" name="a4e90c6b4bd662e0512f21448809765a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e90c6b4bd662e0512f21448809765a6">&#9670;&nbsp;</a></span>sub_080268EC()</h2>
+<a id="a13b99f357c4de2fe393451cc1f274075" name="a13b99f357c4de2fe393451cc1f274075"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13b99f357c4de2fe393451cc1f274075">&#9670;&nbsp;</a></span>sub_080268EC()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -746,7 +818,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_080268EC </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -755,8 +827,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a1e332fd1a56010c5147a552915f7b3e3" name="a1e332fd1a56010c5147a552915f7b3e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e332fd1a56010c5147a552915f7b3e3">&#9670;&nbsp;</a></span>sub_08026914()</h2>
+<a id="a87b0b0519d2c4c2dece9735d7979cb3d" name="a87b0b0519d2c4c2dece9735d7979cb3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87b0b0519d2c4c2dece9735d7979cb3d">&#9670;&nbsp;</a></span>sub_08026914()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -764,7 +836,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08026914 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -773,8 +845,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ae886e7cf97a317e612d324b032b327fe" name="ae886e7cf97a317e612d324b032b327fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae886e7cf97a317e612d324b032b327fe">&#9670;&nbsp;</a></span>sub_0802694C()</h2>
+<a id="ae51838433bacc3d0a475d869c5f6e11f" name="ae51838433bacc3d0a475d869c5f6e11f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae51838433bacc3d0a475d869c5f6e11f">&#9670;&nbsp;</a></span>sub_0802694C()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -782,7 +854,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_0802694C </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -791,8 +863,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="af3eb148062dd82b45ebae660b84a2961" name="af3eb148062dd82b45ebae660b84a2961"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3eb148062dd82b45ebae660b84a2961">&#9670;&nbsp;</a></span>sub_08026968()</h2>
+<a id="a698110fe3158c07da38df5ae304edaf9" name="a698110fe3158c07da38df5ae304edaf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a698110fe3158c07da38df5ae304edaf9">&#9670;&nbsp;</a></span>sub_08026968()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -800,7 +872,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08026968 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -809,8 +881,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="adbb95805336203b7bd31d66a08b6eb2d" name="adbb95805336203b7bd31d66a08b6eb2d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adbb95805336203b7bd31d66a08b6eb2d">&#9670;&nbsp;</a></span>sub_080269CC()</h2>
+<a id="aab90cdff21b8e88dea0b0b74e1f13d32" name="aab90cdff21b8e88dea0b0b74e1f13d32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab90cdff21b8e88dea0b0b74e1f13d32">&#9670;&nbsp;</a></span>sub_080269CC()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -818,7 +890,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_080269CC </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -827,8 +899,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a6c755d8292a8a896f40645d93ecc0495" name="a6c755d8292a8a896f40645d93ecc0495"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c755d8292a8a896f40645d93ecc0495">&#9670;&nbsp;</a></span>sub_08026BE8()</h2>
+<a id="a4457e86cb16f1b3995bd29ea09d7a433" name="a4457e86cb16f1b3995bd29ea09d7a433"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4457e86cb16f1b3995bd29ea09d7a433">&#9670;&nbsp;</a></span>sub_08026BE8()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -836,7 +908,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08026BE8 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -845,8 +917,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a6d358eae83f13b911dbc7031c8bbe13c" name="a6d358eae83f13b911dbc7031c8bbe13c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d358eae83f13b911dbc7031c8bbe13c">&#9670;&nbsp;</a></span>sub_08026C40()</h2>
+<a id="a373d9df569ff81f5ed3c51c1a4de4935" name="a373d9df569ff81f5ed3c51c1a4de4935"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a373d9df569ff81f5ed3c51c1a4de4935">&#9670;&nbsp;</a></span>sub_08026C40()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -854,7 +926,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08026C40 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -863,8 +935,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aae47e508262e181f8660ed326f4a7a54" name="aae47e508262e181f8660ed326f4a7a54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae47e508262e181f8660ed326f4a7a54">&#9670;&nbsp;</a></span>sub_08026E1C()</h2>
+<a id="a7a66e3dc0c1822ea98464c6e46dbbbd1" name="a7a66e3dc0c1822ea98464c6e46dbbbd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a66e3dc0c1822ea98464c6e46dbbbd1">&#9670;&nbsp;</a></span>sub_08026E1C()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -872,7 +944,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08026E1C </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -881,8 +953,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="af47a135ad6c4238adcac97d28f8f606a" name="af47a135ad6c4238adcac97d28f8f606a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af47a135ad6c4238adcac97d28f8f606a">&#9670;&nbsp;</a></span>sub_08026F1C()</h2>
+<a id="a17cc8b79de43dcec52d7d133be2495f6" name="a17cc8b79de43dcec52d7d133be2495f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17cc8b79de43dcec52d7d133be2495f6">&#9670;&nbsp;</a></span>sub_08026F1C()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -890,7 +962,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08026F1C </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -899,8 +971,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a5a0a1fe15d49939cbdc91f3634951d8f" name="a5a0a1fe15d49939cbdc91f3634951d8f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a0a1fe15d49939cbdc91f3634951d8f">&#9670;&nbsp;</a></span>sub_08026FA4()</h2>
+<a id="abd3c3ade7b433439b03c93c2b2b3b49a" name="abd3c3ade7b433439b03c93c2b2b3b49a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd3c3ade7b433439b03c93c2b2b3b49a">&#9670;&nbsp;</a></span>sub_08026FA4()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -908,7 +980,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08026FA4 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -917,8 +989,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a270c6cf208f2985c4752c990cc512d9d" name="a270c6cf208f2985c4752c990cc512d9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a270c6cf208f2985c4752c990cc512d9d">&#9670;&nbsp;</a></span>sub_08027064()</h2>
+<a id="ae1fa2413feb67719103b3a17604a5d9f" name="ae1fa2413feb67719103b3a17604a5d9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1fa2413feb67719103b3a17604a5d9f">&#9670;&nbsp;</a></span>sub_08027064()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -926,7 +998,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_08027064 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -935,8 +1007,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a81244fa60f4a87923b56fd0ec6ae1435" name="a81244fa60f4a87923b56fd0ec6ae1435"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81244fa60f4a87923b56fd0ec6ae1435">&#9670;&nbsp;</a></span>sub_0802720C()</h2>
+<a id="acbfd1f6d23e70cb83ca6f02989975c3e" name="acbfd1f6d23e70cb83ca6f02989975c3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbfd1f6d23e70cb83ca6f02989975c3e">&#9670;&nbsp;</a></span>sub_0802720C()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -944,7 +1016,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_0802720C </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -953,8 +1025,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ab9971b5ee82a3fb7337748da8b9af36d" name="ab9971b5ee82a3fb7337748da8b9af36d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9971b5ee82a3fb7337748da8b9af36d">&#9670;&nbsp;</a></span>sub_080272D4()</h2>
+<a id="a35885bc05268d61e20f30932bdd91460" name="a35885bc05268d61e20f30932bdd91460"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35885bc05268d61e20f30932bdd91460">&#9670;&nbsp;</a></span>sub_080272D4()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -962,7 +1034,307 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void sub_080272D4 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9953453128b5c9d1fcc66715cbc3e469" name="a9953453128b5c9d1fcc66715cbc3e469"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9953453128b5c9d1fcc66715cbc3e469">&#9670;&nbsp;</a></span>sub_08027548()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_08027548 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a25880e814c57cfc0fcbe6bba1a2d6ace" name="a25880e814c57cfc0fcbe6bba1a2d6ace"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25880e814c57cfc0fcbe6bba1a2d6ace">&#9670;&nbsp;</a></span>sub_0802757C()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_0802757C </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5f6ea6b8e8ec575f214c336d05d56163" name="a5f6ea6b8e8ec575f214c336d05d56163"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f6ea6b8e8ec575f214c336d05d56163">&#9670;&nbsp;</a></span>sub_080276F4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_080276F4 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad69b51e07e9991cbb72dd72b9a99a575" name="ad69b51e07e9991cbb72dd72b9a99a575"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad69b51e07e9991cbb72dd72b9a99a575">&#9670;&nbsp;</a></span>sub_080277B8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_080277B8 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae075e5e505f680f538f03d9ed5d813e7" name="ae075e5e505f680f538f03d9ed5d813e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae075e5e505f680f538f03d9ed5d813e7">&#9670;&nbsp;</a></span>sub_080277F8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_080277F8 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a736d109d40dd3143516981889bcfe966" name="a736d109d40dd3143516981889bcfe966"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a736d109d40dd3143516981889bcfe966">&#9670;&nbsp;</a></span>sub_08027870()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_08027870 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7c49d08b95f833bd335a45e0016f0d78" name="a7c49d08b95f833bd335a45e0016f0d78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c49d08b95f833bd335a45e0016f0d78">&#9670;&nbsp;</a></span>sub_08027984()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_08027984 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac06ea422b57b8482c983ae5246c79e33" name="ac06ea422b57b8482c983ae5246c79e33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac06ea422b57b8482c983ae5246c79e33">&#9670;&nbsp;</a></span>sub_080279AC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_080279AC </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac0cb16f3d112494091052e299bde10fc" name="ac0cb16f3d112494091052e299bde10fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0cb16f3d112494091052e299bde10fc">&#9670;&nbsp;</a></span>sub_080279E8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_080279E8 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0b5e773c9ee2a98d1d651cc963b1913a" name="a0b5e773c9ee2a98d1d651cc963b1913a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b5e773c9ee2a98d1d651cc963b1913a">&#9670;&nbsp;</a></span>sub_08027A60()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_08027A60 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6cb7cc089467bd0030126a926e32b265" name="a6cb7cc089467bd0030126a926e32b265"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cb7cc089467bd0030126a926e32b265">&#9670;&nbsp;</a></span>sub_08027AA4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_08027AA4 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5fa41c749d8ec8f6b197ed0e64f4a7e2" name="a5fa41c749d8ec8f6b197ed0e64f4a7e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fa41c749d8ec8f6b197ed0e64f4a7e2">&#9670;&nbsp;</a></span>sub_08027B98()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_08027B98 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a458bad3b98862ecbe7eb1740a8b64ccd" name="a458bad3b98862ecbe7eb1740a8b64ccd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a458bad3b98862ecbe7eb1740a8b64ccd">&#9670;&nbsp;</a></span>sub_08027BBC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_08027BBC </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac555f5e9dd027523f1a5d2ed39274430" name="ac555f5e9dd027523f1a5d2ed39274430"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac555f5e9dd027523f1a5d2ed39274430">&#9670;&nbsp;</a></span>sub_08027C54()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_08027C54 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aade671107803a0c41c0d4b72ced12caf" name="aade671107803a0c41c0d4b72ced12caf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aade671107803a0c41c0d4b72ced12caf">&#9670;&nbsp;</a></span>sub_08027C7C()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_08027C7C </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#afaa62991928fb9fb18ff0db62a040aba">u32</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad7051803def5b671d198e1811737018b" name="ad7051803def5b671d198e1811737018b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7051803def5b671d198e1811737018b">&#9670;&nbsp;</a></span>sub_08027C9C()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_08027C9C </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a866471d003555f60f4a7a1c20d2328e8" name="a866471d003555f60f4a7a1c20d2328e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a866471d003555f60f4a7a1c20d2328e8">&#9670;&nbsp;</a></span>sub_08027D20()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sub_08027D20 </td>
+          <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -972,193 +1344,190 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a4e6d7392c0a27aa8e56fda5a198aa20b" name="a4e6d7392c0a27aa8e56fda5a198aa20b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e6d7392c0a27aa8e56fda5a198aa20b">&#9670;&nbsp;</a></span>ChuchuBoss_Functions</h2>
+<a id="a9a8b532382973acd939be36eb7522812" name="a9a8b532382973acd939be36eb7522812"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a8b532382973acd939be36eb7522812">&#9670;&nbsp;</a></span>ChuchuBoss_Functions</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(*const ChuchuBoss_Functions[])(<a class="el" href="structEntity.html">Entity</a> *) </td>
+          <td class="memname">void(*const ChuchuBoss_Functions[])(<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *) </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a7f2a91f59ee6522d2481660e987c8d3b">ChuchuBoss_OnTick</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a7f2a91f59ee6522d2481660e987c8d3b">ChuchuBoss_OnTick</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a66864dad0d6db8cdaa7179e11ca86f22">ChuchuBoss_OnKnockback</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#aaa8385d7879b225349b2275c7b4cddf7">ChuchuBoss_OnDeath</a>,</div>
-<div class="line">    <a class="code hl_function" href="acroBandits_8c.html#a011d86188747c52072f9c8e09d1f1d18">GenericConfused</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a87aee27f7f8003cabfd845a149317bb1">ChuchuBoss_OnTick</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a87aee27f7f8003cabfd845a149317bb1">ChuchuBoss_OnTick</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a853764027825d8417ae38eac36d0ecb5">ChuchuBoss_OnKnockback</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#ad7b406838c6624483c08c0665cd9c3ac">ChuchuBoss_OnDeath</a>,</div>
+<div class="line">    (void (*)(<a class="code hl_struct" href="structChuchuBossEntity.html">ChuchuBossEntity</a>*)) <a class="code hl_function" href="acroBandits_8c.html#a011d86188747c52072f9c8e09d1f1d18">GenericConfused</a>,</div>
 <div class="line">}</div>
 <div class="ttc" id="aacroBandits_8c_html_a011d86188747c52072f9c8e09d1f1d18"><div class="ttname"><a href="acroBandits_8c.html#a011d86188747c52072f9c8e09d1f1d18">GenericConfused</a></div><div class="ttdeci">void GenericConfused(Entity *this)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_a66864dad0d6db8cdaa7179e11ca86f22"><div class="ttname"><a href="chuchuBoss_8c.html#a66864dad0d6db8cdaa7179e11ca86f22">ChuchuBoss_OnKnockback</a></div><div class="ttdeci">void ChuchuBoss_OnKnockback(Entity *this)</div><div class="ttdef"><b>Definition:</b> chuchuBoss.c:32</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_a7f2a91f59ee6522d2481660e987c8d3b"><div class="ttname"><a href="chuchuBoss_8c.html#a7f2a91f59ee6522d2481660e987c8d3b">ChuchuBoss_OnTick</a></div><div class="ttdeci">void ChuchuBoss_OnTick(Entity *)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_aaa8385d7879b225349b2275c7b4cddf7"><div class="ttname"><a href="chuchuBoss_8c.html#aaa8385d7879b225349b2275c7b4cddf7">ChuchuBoss_OnDeath</a></div><div class="ttdeci">void ChuchuBoss_OnDeath(Entity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_a853764027825d8417ae38eac36d0ecb5"><div class="ttname"><a href="chuchuBoss_8c.html#a853764027825d8417ae38eac36d0ecb5">ChuchuBoss_OnKnockback</a></div><div class="ttdeci">void ChuchuBoss_OnKnockback(ChuchuBossEntity *this)</div><div class="ttdef"><b>Definition:</b> chuchuBoss.c:251</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_a87aee27f7f8003cabfd845a149317bb1"><div class="ttname"><a href="chuchuBoss_8c.html#a87aee27f7f8003cabfd845a149317bb1">ChuchuBoss_OnTick</a></div><div class="ttdeci">void ChuchuBoss_OnTick(ChuchuBossEntity *)</div><div class="ttdef"><b>Definition:</b> chuchuBoss.c:308</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_ad7b406838c6624483c08c0665cd9c3ac"><div class="ttname"><a href="chuchuBoss_8c.html#ad7b406838c6624483c08c0665cd9c3ac">ChuchuBoss_OnDeath</a></div><div class="ttdeci">void ChuchuBoss_OnDeath(ChuchuBossEntity *)</div><div class="ttdef"><b>Definition:</b> chuchuBoss.c:258</div></div>
+<div class="ttc" id="astructChuchuBossEntity_html"><div class="ttname"><a href="structChuchuBossEntity.html">ChuchuBossEntity</a></div><div class="ttdef"><b>Definition:</b> chuchuBoss.c:27</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a738497c098661e734354fecba13088a7" name="a738497c098661e734354fecba13088a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a738497c098661e734354fecba13088a7">&#9670;&nbsp;</a></span>gUnk_080CC1B0</h2>
+<a id="a5a090ad43c813d7293a6f04cd522172d" name="a5a090ad43c813d7293a6f04cd522172d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a090ad43c813d7293a6f04cd522172d">&#9670;&nbsp;</a></span>gUnk_080CC1B0</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(*const gUnk_080CC1B0[])(<a class="el" href="structEntity.html">Entity</a> *) </td>
+          <td class="memname">void(*const gUnk_080CC1B0[])(<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *) </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a347e8ad49c7167e6d1878fa95ce76cc7">sub_08025DD8</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a9c413909584486d51a0ba079f78d8d91">sub_08026060</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a360a42161c494a502aec062d6258f9ff">sub_08025DD8</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#aecda7238f5313594c2f25cc46a8458cb">sub_08026060</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="achuchuBoss_8c_html_a347e8ad49c7167e6d1878fa95ce76cc7"><div class="ttname"><a href="chuchuBoss_8c.html#a347e8ad49c7167e6d1878fa95ce76cc7">sub_08025DD8</a></div><div class="ttdeci">void sub_08025DD8(Entity *)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_a9c413909584486d51a0ba079f78d8d91"><div class="ttname"><a href="chuchuBoss_8c.html#a9c413909584486d51a0ba079f78d8d91">sub_08026060</a></div><div class="ttdeci">void sub_08026060(Entity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_a360a42161c494a502aec062d6258f9ff"><div class="ttname"><a href="chuchuBoss_8c.html#a360a42161c494a502aec062d6258f9ff">sub_08025DD8</a></div><div class="ttdeci">void sub_08025DD8(ChuchuBossEntity *)</div><div class="ttdef"><b>Definition:</b> chuchuBoss.c:312</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_aecda7238f5313594c2f25cc46a8458cb"><div class="ttname"><a href="chuchuBoss_8c.html#aecda7238f5313594c2f25cc46a8458cb">sub_08026060</a></div><div class="ttdeci">void sub_08026060(ChuchuBossEntity *)</div><div class="ttdef"><b>Definition:</b> chuchuBoss.c:424</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="ab6563224221be48eb4c7cf172e072432" name="ab6563224221be48eb4c7cf172e072432"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6563224221be48eb4c7cf172e072432">&#9670;&nbsp;</a></span>gUnk_080CC1B8</h2>
+<a id="a5c98e151ff4b37de567088bad004a311" name="a5c98e151ff4b37de567088bad004a311"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c98e151ff4b37de567088bad004a311">&#9670;&nbsp;</a></span>gUnk_080CC1B8</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="types_8h.html#a92c50087ca0e64fa93fc59402c55f8ca">u8</a> gUnk_080CC1B8</td>
+          <td class="memname">const <a class="el" href="structstruct__080CC1B8.html">struct_080CC1B8</a> gUnk_080CC1B8</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    0, 4,</div>
-<div class="line">    0, 0,</div>
-<div class="line">    0, 4,</div>
-<div class="line">    0, 0,</div>
-<div class="line">    1, 4,</div>
-<div class="line">    0, 0,</div>
-<div class="line">    2, 4,</div>
-<div class="line">    0, 0,</div>
+<div class="line">    {0, 4, 0, 0},</div>
+<div class="line">    {0, 4, 0, 0},</div>
+<div class="line">    {1, 4, 0, 0},</div>
+<div class="line">    {2, 4, 0, 0},</div>
 <div class="line">}</div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="ad01c1842198d61757a141737f12b8ad6" name="ad01c1842198d61757a141737f12b8ad6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad01c1842198d61757a141737f12b8ad6">&#9670;&nbsp;</a></span>gUnk_080CC1C8</h2>
+<a id="a7c0f8902f436362e872f8f4aab4b399f" name="a7c0f8902f436362e872f8f4aab4b399f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c0f8902f436362e872f8f4aab4b399f">&#9670;&nbsp;</a></span>gUnk_080CC1C8</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(*const gUnk_080CC1C8[])(<a class="el" href="structEntity.html">Entity</a> *) </td>
+          <td class="memname">void(*const gUnk_080CC1C8[])(<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *) </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a39b094f6165408913bbd5f25854a104b">sub_08026110</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#ab9971b5ee82a3fb7337748da8b9af36d">sub_080272D4</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a81244fa60f4a87923b56fd0ec6ae1435">sub_0802720C</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a81244fa60f4a87923b56fd0ec6ae1435">sub_0802720C</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#ad72f3de89e6df2e309d2487ffe7c159c">sub_08026090</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#ab344882bfb6fe48feb86520f75d0a31d">sub_08026110</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a35885bc05268d61e20f30932bdd91460">sub_080272D4</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#acbfd1f6d23e70cb83ca6f02989975c3e">sub_0802720C</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#acbfd1f6d23e70cb83ca6f02989975c3e">sub_0802720C</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#ae7338719f0fec1d26a393aec9e22ea49">sub_08026090</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="achuchuBoss_8c_html_a39b094f6165408913bbd5f25854a104b"><div class="ttname"><a href="chuchuBoss_8c.html#a39b094f6165408913bbd5f25854a104b">sub_08026110</a></div><div class="ttdeci">void sub_08026110(Entity *)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_a81244fa60f4a87923b56fd0ec6ae1435"><div class="ttname"><a href="chuchuBoss_8c.html#a81244fa60f4a87923b56fd0ec6ae1435">sub_0802720C</a></div><div class="ttdeci">void sub_0802720C(Entity *)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_ab9971b5ee82a3fb7337748da8b9af36d"><div class="ttname"><a href="chuchuBoss_8c.html#ab9971b5ee82a3fb7337748da8b9af36d">sub_080272D4</a></div><div class="ttdeci">void sub_080272D4(Entity *)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_ad72f3de89e6df2e309d2487ffe7c159c"><div class="ttname"><a href="chuchuBoss_8c.html#ad72f3de89e6df2e309d2487ffe7c159c">sub_08026090</a></div><div class="ttdeci">void sub_08026090(Entity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_a35885bc05268d61e20f30932bdd91460"><div class="ttname"><a href="chuchuBoss_8c.html#a35885bc05268d61e20f30932bdd91460">sub_080272D4</a></div><div class="ttdeci">void sub_080272D4(ChuchuBossEntity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_ab344882bfb6fe48feb86520f75d0a31d"><div class="ttname"><a href="chuchuBoss_8c.html#ab344882bfb6fe48feb86520f75d0a31d">sub_08026110</a></div><div class="ttdeci">void sub_08026110(ChuchuBossEntity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_acbfd1f6d23e70cb83ca6f02989975c3e"><div class="ttname"><a href="chuchuBoss_8c.html#acbfd1f6d23e70cb83ca6f02989975c3e">sub_0802720C</a></div><div class="ttdeci">void sub_0802720C(ChuchuBossEntity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_ae7338719f0fec1d26a393aec9e22ea49"><div class="ttname"><a href="chuchuBoss_8c.html#ae7338719f0fec1d26a393aec9e22ea49">sub_08026090</a></div><div class="ttdeci">void sub_08026090(ChuchuBossEntity *)</div><div class="ttdef"><b>Definition:</b> chuchuBoss.c:429</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a565f18d01a1fde7e8339747d1ff4cb2a" name="a565f18d01a1fde7e8339747d1ff4cb2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a565f18d01a1fde7e8339747d1ff4cb2a">&#9670;&nbsp;</a></span>gUnk_080CC1DC</h2>
+<a id="a03855d829e03498a2f7ee83ef1e0dcd5" name="a03855d829e03498a2f7ee83ef1e0dcd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03855d829e03498a2f7ee83ef1e0dcd5">&#9670;&nbsp;</a></span>gUnk_080CC1DC</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(*const gUnk_080CC1DC[])(<a class="el" href="structEntity.html">Entity</a> *) </td>
+          <td class="memname">void(*const gUnk_080CC1DC[])(<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *) </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a0058462bddff00ba95756514af3bb10a">sub_0802626C</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#add75ba3998085bde6d5370b361a9405a">sub_08026580</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a3a8332a00b6b9e151170200566d810d9">sub_08026634</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a84d6c73fe8c1740d4d985c256c04c99c">sub_08026750</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a32fe681aff4a98775c671e8a3dba678f">sub_0802686C</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a6ad4b103f82443d5edbb9427c7d4884c">sub_080268C8</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#ae886e7cf97a317e612d324b032b327fe">sub_0802694C</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a6d358eae83f13b911dbc7031c8bbe13c">sub_08026C40</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#aae47e508262e181f8660ed326f4a7a54">sub_08026E1C</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a5a0a1fe15d49939cbdc91f3634951d8f">sub_08026FA4</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a270c6cf208f2985c4752c990cc512d9d">sub_08027064</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#af47a135ad6c4238adcac97d28f8f606a">sub_08026F1C</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a6f3c0acec2687a32b4a713eaaa774ece">sub_0802626C</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a858d17134cdd295122c930755cfb87b2">sub_08026580</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a46447df3c615920ea6431d6dbe3f5681">sub_08026634</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a1e79cad00eaceb0aa2c5f76ff0f11052">sub_08026750</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a785b470cd6234eafa59cdae96ab7634d">sub_0802686C</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#ad50e6cf940e6c2049ad027813eb49af9">sub_080268C8</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#ae51838433bacc3d0a475d869c5f6e11f">sub_0802694C</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a373d9df569ff81f5ed3c51c1a4de4935">sub_08026C40</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a7a66e3dc0c1822ea98464c6e46dbbbd1">sub_08026E1C</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#abd3c3ade7b433439b03c93c2b2b3b49a">sub_08026FA4</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#ae1fa2413feb67719103b3a17604a5d9f">sub_08027064</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a17cc8b79de43dcec52d7d133be2495f6">sub_08026F1C</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="achuchuBoss_8c_html_a0058462bddff00ba95756514af3bb10a"><div class="ttname"><a href="chuchuBoss_8c.html#a0058462bddff00ba95756514af3bb10a">sub_0802626C</a></div><div class="ttdeci">void sub_0802626C(Entity *)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_a270c6cf208f2985c4752c990cc512d9d"><div class="ttname"><a href="chuchuBoss_8c.html#a270c6cf208f2985c4752c990cc512d9d">sub_08027064</a></div><div class="ttdeci">void sub_08027064(Entity *)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_a32fe681aff4a98775c671e8a3dba678f"><div class="ttname"><a href="chuchuBoss_8c.html#a32fe681aff4a98775c671e8a3dba678f">sub_0802686C</a></div><div class="ttdeci">void sub_0802686C(Entity *)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_a3a8332a00b6b9e151170200566d810d9"><div class="ttname"><a href="chuchuBoss_8c.html#a3a8332a00b6b9e151170200566d810d9">sub_08026634</a></div><div class="ttdeci">void sub_08026634(Entity *)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_a5a0a1fe15d49939cbdc91f3634951d8f"><div class="ttname"><a href="chuchuBoss_8c.html#a5a0a1fe15d49939cbdc91f3634951d8f">sub_08026FA4</a></div><div class="ttdeci">void sub_08026FA4(Entity *)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_a6ad4b103f82443d5edbb9427c7d4884c"><div class="ttname"><a href="chuchuBoss_8c.html#a6ad4b103f82443d5edbb9427c7d4884c">sub_080268C8</a></div><div class="ttdeci">void sub_080268C8(Entity *)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_a6d358eae83f13b911dbc7031c8bbe13c"><div class="ttname"><a href="chuchuBoss_8c.html#a6d358eae83f13b911dbc7031c8bbe13c">sub_08026C40</a></div><div class="ttdeci">void sub_08026C40(Entity *)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_a84d6c73fe8c1740d4d985c256c04c99c"><div class="ttname"><a href="chuchuBoss_8c.html#a84d6c73fe8c1740d4d985c256c04c99c">sub_08026750</a></div><div class="ttdeci">void sub_08026750(Entity *)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_aae47e508262e181f8660ed326f4a7a54"><div class="ttname"><a href="chuchuBoss_8c.html#aae47e508262e181f8660ed326f4a7a54">sub_08026E1C</a></div><div class="ttdeci">void sub_08026E1C(Entity *)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_add75ba3998085bde6d5370b361a9405a"><div class="ttname"><a href="chuchuBoss_8c.html#add75ba3998085bde6d5370b361a9405a">sub_08026580</a></div><div class="ttdeci">void sub_08026580(Entity *)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_ae886e7cf97a317e612d324b032b327fe"><div class="ttname"><a href="chuchuBoss_8c.html#ae886e7cf97a317e612d324b032b327fe">sub_0802694C</a></div><div class="ttdeci">void sub_0802694C(Entity *)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_af47a135ad6c4238adcac97d28f8f606a"><div class="ttname"><a href="chuchuBoss_8c.html#af47a135ad6c4238adcac97d28f8f606a">sub_08026F1C</a></div><div class="ttdeci">void sub_08026F1C(Entity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_a17cc8b79de43dcec52d7d133be2495f6"><div class="ttname"><a href="chuchuBoss_8c.html#a17cc8b79de43dcec52d7d133be2495f6">sub_08026F1C</a></div><div class="ttdeci">void sub_08026F1C(ChuchuBossEntity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_a1e79cad00eaceb0aa2c5f76ff0f11052"><div class="ttname"><a href="chuchuBoss_8c.html#a1e79cad00eaceb0aa2c5f76ff0f11052">sub_08026750</a></div><div class="ttdeci">void sub_08026750(ChuchuBossEntity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_a373d9df569ff81f5ed3c51c1a4de4935"><div class="ttname"><a href="chuchuBoss_8c.html#a373d9df569ff81f5ed3c51c1a4de4935">sub_08026C40</a></div><div class="ttdeci">void sub_08026C40(ChuchuBossEntity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_a46447df3c615920ea6431d6dbe3f5681"><div class="ttname"><a href="chuchuBoss_8c.html#a46447df3c615920ea6431d6dbe3f5681">sub_08026634</a></div><div class="ttdeci">void sub_08026634(ChuchuBossEntity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_a6f3c0acec2687a32b4a713eaaa774ece"><div class="ttname"><a href="chuchuBoss_8c.html#a6f3c0acec2687a32b4a713eaaa774ece">sub_0802626C</a></div><div class="ttdeci">void sub_0802626C(ChuchuBossEntity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_a785b470cd6234eafa59cdae96ab7634d"><div class="ttname"><a href="chuchuBoss_8c.html#a785b470cd6234eafa59cdae96ab7634d">sub_0802686C</a></div><div class="ttdeci">void sub_0802686C(ChuchuBossEntity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_a7a66e3dc0c1822ea98464c6e46dbbbd1"><div class="ttname"><a href="chuchuBoss_8c.html#a7a66e3dc0c1822ea98464c6e46dbbbd1">sub_08026E1C</a></div><div class="ttdeci">void sub_08026E1C(ChuchuBossEntity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_a858d17134cdd295122c930755cfb87b2"><div class="ttname"><a href="chuchuBoss_8c.html#a858d17134cdd295122c930755cfb87b2">sub_08026580</a></div><div class="ttdeci">void sub_08026580(ChuchuBossEntity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_abd3c3ade7b433439b03c93c2b2b3b49a"><div class="ttname"><a href="chuchuBoss_8c.html#abd3c3ade7b433439b03c93c2b2b3b49a">sub_08026FA4</a></div><div class="ttdeci">void sub_08026FA4(ChuchuBossEntity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_ad50e6cf940e6c2049ad027813eb49af9"><div class="ttname"><a href="chuchuBoss_8c.html#ad50e6cf940e6c2049ad027813eb49af9">sub_080268C8</a></div><div class="ttdeci">void sub_080268C8(ChuchuBossEntity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_ae1fa2413feb67719103b3a17604a5d9f"><div class="ttname"><a href="chuchuBoss_8c.html#ae1fa2413feb67719103b3a17604a5d9f">sub_08027064</a></div><div class="ttdeci">void sub_08027064(ChuchuBossEntity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_ae51838433bacc3d0a475d869c5f6e11f"><div class="ttname"><a href="chuchuBoss_8c.html#ae51838433bacc3d0a475d869c5f6e11f">sub_0802694C</a></div><div class="ttdeci">void sub_0802694C(ChuchuBossEntity *)</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="acf50c0a46b2628f7e4221114a9516c3b" name="acf50c0a46b2628f7e4221114a9516c3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf50c0a46b2628f7e4221114a9516c3b">&#9670;&nbsp;</a></span>gUnk_080CC20C</h2>
+<a id="a7d42cd33661da961a21fdc70de79da14" name="a7d42cd33661da961a21fdc70de79da14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d42cd33661da961a21fdc70de79da14">&#9670;&nbsp;</a></span>gUnk_080CC20C</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(*const gUnk_080CC20C[])(<a class="el" href="structEntity.html">Entity</a> *) </td>
+          <td class="memname">void(*const gUnk_080CC20C[])(<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *) </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#ae4665a494e22842f6c32614824a3afbb">sub_080262A8</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a9a3ce0d051a3af2c0cb1ee4052d45bac">sub_08026328</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#aba69be8588af9dc23be8adad4ebce6e8">sub_08026358</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#ae58cd284a607546d40eeff7392ce889f">sub_080263B4</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a225e0857fcfd34bf3e70b8d8a38e69f5">sub_08026414</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a0f5f31b74ed1843c559c96148a18580e">sub_0802647C</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#ad1d7e17f00e0070f6ee7b3342f231430">sub_080264AC</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#aafc1786b9683cfa675aca7b987302a5d">sub_080264D4</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a5315aa001e0962fc7e4caf8ed60c40b3">sub_0802650C</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a93f34209deea93819a54813d17d430b8">sub_0802653C</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a381bfac07408d3520f7d94cf9608f47d">sub_080262A8</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#aa2d79ae35d400032ca15d3f29de21e14">sub_08026328</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#ad930c9b85187ec54a2336701d538e159">sub_08026358</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a7389f1fbd8af752c58241a27da4730e1">sub_080263B4</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#ac78196b84bdc83699511b96a417df326">sub_08026414</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a5dc008cbcf52c102be01b41d61be5ce3">sub_0802647C</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a20e09c89a9d56a5dfa5259fefc68892b">sub_080264AC</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a6bc8341008e3b1c05534929ffb2f0b31">sub_080264D4</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a4c2a7690b13af473ba9b2f9da361b904">sub_0802650C</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#ae74944b1387c5434d6f485d931870494">sub_0802653C</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="achuchuBoss_8c_html_a0f5f31b74ed1843c559c96148a18580e"><div class="ttname"><a href="chuchuBoss_8c.html#a0f5f31b74ed1843c559c96148a18580e">sub_0802647C</a></div><div class="ttdeci">void sub_0802647C(Entity *)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_a225e0857fcfd34bf3e70b8d8a38e69f5"><div class="ttname"><a href="chuchuBoss_8c.html#a225e0857fcfd34bf3e70b8d8a38e69f5">sub_08026414</a></div><div class="ttdeci">void sub_08026414(Entity *)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_a5315aa001e0962fc7e4caf8ed60c40b3"><div class="ttname"><a href="chuchuBoss_8c.html#a5315aa001e0962fc7e4caf8ed60c40b3">sub_0802650C</a></div><div class="ttdeci">void sub_0802650C(Entity *)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_a93f34209deea93819a54813d17d430b8"><div class="ttname"><a href="chuchuBoss_8c.html#a93f34209deea93819a54813d17d430b8">sub_0802653C</a></div><div class="ttdeci">void sub_0802653C(Entity *)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_a9a3ce0d051a3af2c0cb1ee4052d45bac"><div class="ttname"><a href="chuchuBoss_8c.html#a9a3ce0d051a3af2c0cb1ee4052d45bac">sub_08026328</a></div><div class="ttdeci">void sub_08026328(Entity *)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_aafc1786b9683cfa675aca7b987302a5d"><div class="ttname"><a href="chuchuBoss_8c.html#aafc1786b9683cfa675aca7b987302a5d">sub_080264D4</a></div><div class="ttdeci">void sub_080264D4(Entity *)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_aba69be8588af9dc23be8adad4ebce6e8"><div class="ttname"><a href="chuchuBoss_8c.html#aba69be8588af9dc23be8adad4ebce6e8">sub_08026358</a></div><div class="ttdeci">void sub_08026358(Entity *)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_ad1d7e17f00e0070f6ee7b3342f231430"><div class="ttname"><a href="chuchuBoss_8c.html#ad1d7e17f00e0070f6ee7b3342f231430">sub_080264AC</a></div><div class="ttdeci">void sub_080264AC(Entity *)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_ae4665a494e22842f6c32614824a3afbb"><div class="ttname"><a href="chuchuBoss_8c.html#ae4665a494e22842f6c32614824a3afbb">sub_080262A8</a></div><div class="ttdeci">void sub_080262A8(Entity *)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_ae58cd284a607546d40eeff7392ce889f"><div class="ttname"><a href="chuchuBoss_8c.html#ae58cd284a607546d40eeff7392ce889f">sub_080263B4</a></div><div class="ttdeci">void sub_080263B4(Entity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_a20e09c89a9d56a5dfa5259fefc68892b"><div class="ttname"><a href="chuchuBoss_8c.html#a20e09c89a9d56a5dfa5259fefc68892b">sub_080264AC</a></div><div class="ttdeci">void sub_080264AC(ChuchuBossEntity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_a381bfac07408d3520f7d94cf9608f47d"><div class="ttname"><a href="chuchuBoss_8c.html#a381bfac07408d3520f7d94cf9608f47d">sub_080262A8</a></div><div class="ttdeci">void sub_080262A8(ChuchuBossEntity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_a4c2a7690b13af473ba9b2f9da361b904"><div class="ttname"><a href="chuchuBoss_8c.html#a4c2a7690b13af473ba9b2f9da361b904">sub_0802650C</a></div><div class="ttdeci">void sub_0802650C(ChuchuBossEntity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_a5dc008cbcf52c102be01b41d61be5ce3"><div class="ttname"><a href="chuchuBoss_8c.html#a5dc008cbcf52c102be01b41d61be5ce3">sub_0802647C</a></div><div class="ttdeci">void sub_0802647C(ChuchuBossEntity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_a6bc8341008e3b1c05534929ffb2f0b31"><div class="ttname"><a href="chuchuBoss_8c.html#a6bc8341008e3b1c05534929ffb2f0b31">sub_080264D4</a></div><div class="ttdeci">void sub_080264D4(ChuchuBossEntity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_a7389f1fbd8af752c58241a27da4730e1"><div class="ttname"><a href="chuchuBoss_8c.html#a7389f1fbd8af752c58241a27da4730e1">sub_080263B4</a></div><div class="ttdeci">void sub_080263B4(ChuchuBossEntity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_aa2d79ae35d400032ca15d3f29de21e14"><div class="ttname"><a href="chuchuBoss_8c.html#aa2d79ae35d400032ca15d3f29de21e14">sub_08026328</a></div><div class="ttdeci">void sub_08026328(ChuchuBossEntity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_ac78196b84bdc83699511b96a417df326"><div class="ttname"><a href="chuchuBoss_8c.html#ac78196b84bdc83699511b96a417df326">sub_08026414</a></div><div class="ttdeci">void sub_08026414(ChuchuBossEntity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_ad930c9b85187ec54a2336701d538e159"><div class="ttname"><a href="chuchuBoss_8c.html#ad930c9b85187ec54a2336701d538e159">sub_08026358</a></div><div class="ttdeci">void sub_08026358(ChuchuBossEntity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_ae74944b1387c5434d6f485d931870494"><div class="ttname"><a href="chuchuBoss_8c.html#ae74944b1387c5434d6f485d931870494">sub_0802653C</a></div><div class="ttdeci">void sub_0802653C(ChuchuBossEntity *)</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1203,79 +1572,79 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a101203ee025d44965c36f1b2fa7a6d8e" name="a101203ee025d44965c36f1b2fa7a6d8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a101203ee025d44965c36f1b2fa7a6d8e">&#9670;&nbsp;</a></span>gUnk_080CC258</h2>
+<a id="af8449116acdd289e9ff57e59212aab11" name="af8449116acdd289e9ff57e59212aab11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8449116acdd289e9ff57e59212aab11">&#9670;&nbsp;</a></span>gUnk_080CC258</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(*const gUnk_080CC258[])(<a class="el" href="structEntity.html">Entity</a> *) </td>
+          <td class="memname">void(*const gUnk_080CC258[])(<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *) </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a19b80ffef535398468b1211eeb4985a4">sub_08026774</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a1f1e2d2eee3e93de2e31f38976854f15">sub_080267D0</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a1ecdd0ddbaac7c268b329e0770d4f94f">sub_08026808</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#ad4347d3f6e4f2ca777ff359673585133">sub_08026774</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#acc45f0adc4694c94e5b8ee72dd1be459">sub_080267D0</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#afbbdb394e8bc0bb018e90dac264a5db1">sub_08026808</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="achuchuBoss_8c_html_a19b80ffef535398468b1211eeb4985a4"><div class="ttname"><a href="chuchuBoss_8c.html#a19b80ffef535398468b1211eeb4985a4">sub_08026774</a></div><div class="ttdeci">void sub_08026774(Entity *)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_a1ecdd0ddbaac7c268b329e0770d4f94f"><div class="ttname"><a href="chuchuBoss_8c.html#a1ecdd0ddbaac7c268b329e0770d4f94f">sub_08026808</a></div><div class="ttdeci">void sub_08026808(Entity *)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_a1f1e2d2eee3e93de2e31f38976854f15"><div class="ttname"><a href="chuchuBoss_8c.html#a1f1e2d2eee3e93de2e31f38976854f15">sub_080267D0</a></div><div class="ttdeci">void sub_080267D0(Entity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_acc45f0adc4694c94e5b8ee72dd1be459"><div class="ttname"><a href="chuchuBoss_8c.html#acc45f0adc4694c94e5b8ee72dd1be459">sub_080267D0</a></div><div class="ttdeci">void sub_080267D0(ChuchuBossEntity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_ad4347d3f6e4f2ca777ff359673585133"><div class="ttname"><a href="chuchuBoss_8c.html#ad4347d3f6e4f2ca777ff359673585133">sub_08026774</a></div><div class="ttdeci">void sub_08026774(ChuchuBossEntity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_afbbdb394e8bc0bb018e90dac264a5db1"><div class="ttname"><a href="chuchuBoss_8c.html#afbbdb394e8bc0bb018e90dac264a5db1">sub_08026808</a></div><div class="ttdeci">void sub_08026808(ChuchuBossEntity *)</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a9e77bf3024864afa6f90b14f54f77f35" name="a9e77bf3024864afa6f90b14f54f77f35"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e77bf3024864afa6f90b14f54f77f35">&#9670;&nbsp;</a></span>gUnk_080CC264</h2>
+<a id="ab65ea78dda0a8ec8628441553a94173f" name="ab65ea78dda0a8ec8628441553a94173f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab65ea78dda0a8ec8628441553a94173f">&#9670;&nbsp;</a></span>gUnk_080CC264</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(*const gUnk_080CC264[])(<a class="el" href="structEntity.html">Entity</a> *) </td>
+          <td class="memname">void(*const gUnk_080CC264[])(<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *) </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a4e90c6b4bd662e0512f21448809765a6">sub_080268EC</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a1e332fd1a56010c5147a552915f7b3e3">sub_08026914</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a13b99f357c4de2fe393451cc1f274075">sub_080268EC</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a87b0b0519d2c4c2dece9735d7979cb3d">sub_08026914</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="achuchuBoss_8c_html_a1e332fd1a56010c5147a552915f7b3e3"><div class="ttname"><a href="chuchuBoss_8c.html#a1e332fd1a56010c5147a552915f7b3e3">sub_08026914</a></div><div class="ttdeci">void sub_08026914(Entity *)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_a4e90c6b4bd662e0512f21448809765a6"><div class="ttname"><a href="chuchuBoss_8c.html#a4e90c6b4bd662e0512f21448809765a6">sub_080268EC</a></div><div class="ttdeci">void sub_080268EC(Entity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_a13b99f357c4de2fe393451cc1f274075"><div class="ttname"><a href="chuchuBoss_8c.html#a13b99f357c4de2fe393451cc1f274075">sub_080268EC</a></div><div class="ttdeci">void sub_080268EC(ChuchuBossEntity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_a87b0b0519d2c4c2dece9735d7979cb3d"><div class="ttname"><a href="chuchuBoss_8c.html#a87b0b0519d2c4c2dece9735d7979cb3d">sub_08026914</a></div><div class="ttdeci">void sub_08026914(ChuchuBossEntity *)</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="aced0af6d76b6b82fe5ccada6230b632c" name="aced0af6d76b6b82fe5ccada6230b632c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aced0af6d76b6b82fe5ccada6230b632c">&#9670;&nbsp;</a></span>gUnk_080CC26C</h2>
+<a id="a939feb6e59f6fbd5880d611f0e29312f" name="a939feb6e59f6fbd5880d611f0e29312f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a939feb6e59f6fbd5880d611f0e29312f">&#9670;&nbsp;</a></span>gUnk_080CC26C</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(*const gUnk_080CC26C[])(<a class="el" href="structEntity.html">Entity</a> *) </td>
+          <td class="memname">void(*const gUnk_080CC26C[])(<a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *) </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structEntity.html">Entity</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structChuchuBossEntity.html">ChuchuBossEntity</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#af3eb148062dd82b45ebae660b84a2961">sub_08026968</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#adbb95805336203b7bd31d66a08b6eb2d">sub_080269CC</a>,</div>
-<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a6c755d8292a8a896f40645d93ecc0495">sub_08026BE8</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a698110fe3158c07da38df5ae304edaf9">sub_08026968</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#aab90cdff21b8e88dea0b0b74e1f13d32">sub_080269CC</a>,</div>
+<div class="line">    <a class="code hl_function" href="chuchuBoss_8c.html#a4457e86cb16f1b3995bd29ea09d7a433">sub_08026BE8</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="achuchuBoss_8c_html_a6c755d8292a8a896f40645d93ecc0495"><div class="ttname"><a href="chuchuBoss_8c.html#a6c755d8292a8a896f40645d93ecc0495">sub_08026BE8</a></div><div class="ttdeci">void sub_08026BE8(Entity *)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_adbb95805336203b7bd31d66a08b6eb2d"><div class="ttname"><a href="chuchuBoss_8c.html#adbb95805336203b7bd31d66a08b6eb2d">sub_080269CC</a></div><div class="ttdeci">void sub_080269CC(Entity *)</div></div>
-<div class="ttc" id="achuchuBoss_8c_html_af3eb148062dd82b45ebae660b84a2961"><div class="ttname"><a href="chuchuBoss_8c.html#af3eb148062dd82b45ebae660b84a2961">sub_08026968</a></div><div class="ttdeci">void sub_08026968(Entity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_a4457e86cb16f1b3995bd29ea09d7a433"><div class="ttname"><a href="chuchuBoss_8c.html#a4457e86cb16f1b3995bd29ea09d7a433">sub_08026BE8</a></div><div class="ttdeci">void sub_08026BE8(ChuchuBossEntity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_a698110fe3158c07da38df5ae304edaf9"><div class="ttname"><a href="chuchuBoss_8c.html#a698110fe3158c07da38df5ae304edaf9">sub_08026968</a></div><div class="ttdeci">void sub_08026968(ChuchuBossEntity *)</div></div>
+<div class="ttc" id="achuchuBoss_8c_html_aab90cdff21b8e88dea0b0b74e1f13d32"><div class="ttname"><a href="chuchuBoss_8c.html#aab90cdff21b8e88dea0b0b74e1f13d32">sub_080269CC</a></div><div class="ttdeci">void sub_080269CC(ChuchuBossEntity *)</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1371,6 +1740,42 @@ Variables</h2></td></tr>
 <div class="line">    -7, -9, -7,</div>
 <div class="line">}</div>
 </div><!-- fragment -->
+</div>
+</div>
+<a id="a13b52b52ebb019b460995d460146944f" name="a13b52b52ebb019b460995d460146944f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13b52b52ebb019b460995d460146944f">&#9670;&nbsp;</a></span>gUnk_080FD238</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structHitbox.html">Hitbox</a> gUnk_080FD238</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2b6c33aa1187567ca55e58949502dcf1" name="a2b6c33aa1187567ca55e58949502dcf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b6c33aa1187567ca55e58949502dcf1">&#9670;&nbsp;</a></span>inc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">asm non_matching chuchuBoss <a class="el" href="chuchuBoss_8c.html#a360a42161c494a502aec062d6258f9ff">sub_08025DD8</a> inc</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 </div>
 </div>
 </div><!-- contents -->

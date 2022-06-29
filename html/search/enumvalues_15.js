@@ -2,7 +2,7 @@ var searchData=
 [
   ['waitfordone_0',['WaitForDone',['../fightManager_8c.html#a2a4b0b9b2832050902242f92a3fb6d41ab1eda855c0cd571c3a2b8080abdfa54c',1,'fightManager.c']]],
   ['waitforflag_1',['WaitForFlag',['../fightManager_8c.html#a2a4b0b9b2832050902242f92a3fb6d41abbfe9f0d4543ea2a64bb5eae8ae85e07',1,'fightManager.c']]],
-  ['wake_2',['WAKE',['../greatFairy_8c.html#a6b7b47dd702d9e331586d485013fd1eaa669539d1110f789cf3e282be447c3e77',1,'greatFairy.c']]],
+  ['wake_2',['WAKE',['../greatFairy_8c.html#af9bdc3014f3d54c426b6d2df10de4960a669539d1110f789cf3e282be447c3e77',1,'greatFairy.c']]],
   ['wall_5fmaster_3',['WALL_MASTER',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba06b419b8c7cdf0eb4980209fc511eaab',1,'enemy.h']]],
   ['wall_5fmaster_5f2_4',['WALL_MASTER_2',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba5745194a8e75774ef5ccca1b373f9ec0',1,'enemy.h']]],
   ['warp_5f1st_5',['WARP_1ST',['../flags_8h.html#a3f3de3e0d751949b8d0b60ffb302944aa41ff69a9338279bb1d04c92d859a17fd',1,'flags.h']]],
@@ -33,7 +33,7 @@ var searchData=
   ['winder_30',['WINDER',['../projectile_8h.html#ade7b79b8b6788010eb8b6a9fd994ada4a7ecd8a8fea68b684de9f2fb87099cdfc',1,'projectile.h']]],
   ['winder_5ftype_5fhead_31',['WINDER_TYPE_HEAD',['../winder_8c.html#ad84e7e7f1f194f020693dad726618486aa370fb5235f454c383964dc33ec83b43',1,'winder.c']]],
   ['winder_5ftype_5ftail_32',['WINDER_TYPE_TAIL',['../winder_8c.html#ad84e7e7f1f194f020693dad726618486a86bdb3936aed059159635456ef234121',1,'winder.c']]],
-  ['wings_33',['WINGS',['../greatFairy_8c.html#a6b7b47dd702d9e331586d485013fd1eaac5f9b2039b05f5eaaf2b4fa96d5bcb4c',1,'greatFairy.c']]],
+  ['wings_33',['WINGS',['../greatFairy_8c.html#af9bdc3014f3d54c426b6d2df10de4960ac5f9b2039b05f5eaaf2b4fa96d5bcb4c',1,'greatFairy.c']]],
   ['wisp_34',['WISP',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba0bc9e3f29939dbed0d1399b18b88b67d',1,'enemy.h']]],
   ['wizzrobe_5ffire_35',['WIZZROBE_FIRE',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08abac234b750fed4dc626e8132b5514f9700',1,'enemy.h']]],
   ['wizzrobe_5fice_36',['WIZZROBE_ICE',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba1438753a9600a0255cd4ed4b65426e4f',1,'enemy.h']]],

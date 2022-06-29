@@ -22,7 +22,7 @@ var searchData=
   ['repeated_5fsound_5fmanager_19',['REPEATED_SOUND_MANAGER',['../manager_8h.html#aba358ebafc57f67fb3857896d466026ea8a2245a416a3651ea50d0038c37ae079',1,'manager.h']]],
   ['result_5fascii_20',['RESULT_ASCII',['../fileselect_8c.html#ad58a3b30f4fd343b9a93c56f90b6641ba35ff12980f75a6756b30268725cd52c8',1,'fileselect.c']]],
   ['result_5finvalid_21',['RESULT_INVALID',['../fileselect_8c.html#ad58a3b30f4fd343b9a93c56f90b6641ba49aeca3518ed393158da84e3feb8eca7',1,'fileselect.c']]],
-  ['ripple_22',['RIPPLE',['../greatFairy_8c.html#a6b7b47dd702d9e331586d485013fd1eaa800be18020c992e464c36d795ddcec6b',1,'greatFairy.c']]],
+  ['ripple_22',['RIPPLE',['../greatFairy_8c.html#af9bdc3014f3d54c426b6d2df10de4960a800be18020c992e464c36d795ddcec6b',1,'greatFairy.c']]],
   ['rock_23',['ROCK',['../tiles_8h.html#acd2017d946fd818c3b8ca377bc4006c7ab39e373af8c527684a4f0ded36bd961c',1,'tiles.h']]],
   ['rock_5fchuchu_24',['ROCK_CHUCHU',['../enemy_8h.html#aea93ec65ac90bcf874dde349967f08aba539be1a9526acddc1abe93b21dbe4f2c',1,'enemy.h']]],
   ['rock_5fprojectile_25',['ROCK_PROJECTILE',['../projectile_8h.html#ade7b79b8b6788010eb8b6a9fd994ada4a57ea2d57e815400751854d3c273c63f3',1,'projectile.h']]],
