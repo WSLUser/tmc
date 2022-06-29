@@ -1,11 +1,11 @@
 var searchData=
 [
   ['n4_0',['n4',['../structCgbChannel.html#afc5fa59e21ab62ed9f91ee5d04603171',1,'CgbChannel']]],
-  ['name_1',['name',['../structSaveFile.html#a264b7606e2d208680583f3cf13bf574b',1,'SaveFile::name()'],['../structSaveHeader.html#a5b7d0e95c39f63877e4967da6f07b28f',1,'SaveHeader::name()'],['../structDefaults.html#a160d9692adf82ea7245de9d8cc591db8',1,'Defaults::name()']]],
+  ['name_1',['name',['../structDefaults.html#a160d9692adf82ea7245de9d8cc591db8',1,'Defaults::name()'],['../structSaveFile.html#a264b7606e2d208680583f3cf13bf574b',1,'SaveFile::name()'],['../structSaveHeader.html#a5b7d0e95c39f63877e4967da6f07b28f',1,'SaveHeader::name()']]],
   ['necessarypulllength_2',['necessaryPullLength',['../structPullableLeverEntity.html#a67932c3da29ab23e2248bbfab686400e',1,'PullableLeverEntity']]],
   ['newkeys_3',['newKeys',['../structInput.html#a476aff184fa5d3d267b5a25d3b78d168',1,'Input']]],
   ['newlinedelay_4',['newlineDelay',['../structTextRender.html#a71a6bdfa115ef69fe9c80c2ab4737149',1,'TextRender']]],
-  ['next_5',['next',['../structEntity.html#ae3973df57ebb529c4675b6965fbefa65',1,'Entity::next()'],['../structSoundChannel.html#ae2cf5106e09c460895ef90be45774c25',1,'SoundChannel::next()'],['../structManager.html#a1a40b37eb485e140307fcfcca68306a0',1,'Manager::next()'],['../structTemp.html#a9b05165b0589754f53355bcd488cf0d2',1,'Temp::next()'],['../structCgbChannel.html#ac3392982409371a6d69e89c007fe6049',1,'CgbChannel::next()']]],
+  ['next_5',['next',['../structTemp.html#a9b05165b0589754f53355bcd488cf0d2',1,'Temp::next()'],['../structCgbChannel.html#ac3392982409371a6d69e89c007fe6049',1,'CgbChannel::next()'],['../structEntity.html#ae3973df57ebb529c4675b6965fbefa65',1,'Entity::next()'],['../structSoundChannel.html#ae2cf5106e09c460895ef90be45774c25',1,'SoundChannel::next()'],['../structManager.html#a1a40b37eb485e140307fcfcca68306a0',1,'Manager::next()']]],
   ['nextattackindex_6',['nextAttackIndex',['../structOctorokBossEntity.html#a50a4fea7cd52d01d70a4885dbacd207a',1,'OctorokBossEntity']]],
   ['nexttoload_7',['nextToLoad',['../structUI.html#abf26873affc8533a292e9371629d2a96',1,'UI']]],
   ['nextwave_8',['nextWave',['../structCgbChannel.html#ac246fe9a3c2274929e8301dc55d9f989',1,'CgbChannel']]],
